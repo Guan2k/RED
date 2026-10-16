@@ -1,0 +1,20 @@
+{
+  "htmlSha256": "8a811c0ceb02094073f2a2ee4227983cfdb2169fc8d1693fa601fc61912fb069",
+  "changes": [
+    {
+      "before": "v0.262",
+      "after": "v0.263",
+      "count": 1
+    },
+    {
+      "before": "let queue=attack?e.attackQueue:e.moveQueue;if(queue.length>1)orders.push({unit:e,queue,kind:attack?'attack':'move'})",
+      "after": "let queue=attack?attackQueueTargets(e).map(target=>target.id):e.moveQueue,tail=queue.length-1;if(attack)while(tail>=0&&queue[tail]===e.target)tail--;if(queue.length>1&&tail>=0)orders.push({unit:e,queue,tail,kind:attack?'attack':'move'})",
+      "count": 1
+    },
+    {
+      "before": "for(let o of orders)o.queue.pop();let attack=orders.filter",
+      "after": "for(let o of orders){if(o.kind==='attack')o.unit.attackQueue=o.queue.filter((id,index)=>index!==o.tail);else o.queue.pop()}let attack=orders.filter",
+      "count": 1
+    }
+  ]
+}
