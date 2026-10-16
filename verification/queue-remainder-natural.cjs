@@ -66,7 +66,7 @@ function controls(g) {
 }
 try {
   const html = fs.readFileSync(source, 'utf8');
-  assert.ok([SOURCE_HASH, '73c86d0eb92947d85c70fd47470f1c7c120d36c6f1f120ad84a3bf789546c3fe', '503e3f342952646f1b81f0b17bcc4d8b54a2ca4b97ed68bfc2644a991ec8bda9', 'f66ba2568cabc8c5a8645558bb15e8b337ebaf23e3641af18f54464cf53f205a', 'b2cdc69c32887afd4887e0eb642af694b317de378f8dab6ce509b1b882167c12'].includes(hash(html)), 'candidate frozen source');
+  assert.ok([SOURCE_HASH, '73c86d0eb92947d85c70fd47470f1c7c120d36c6f1f120ad84a3bf789546c3fe', '503e3f342952646f1b81f0b17bcc4d8b54a2ca4b97ed68bfc2644a991ec8bda9', 'f66ba2568cabc8c5a8645558bb15e8b337ebaf23e3641af18f54464cf53f205a', 'b2cdc69c32887afd4887e0eb642af694b317de378f8dab6ce509b1b882167c12', '5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d'].includes(hash(html)), 'candidate frozen source');
   const oldHtml = require('./restore-v264.cjs')(html);
   assert.equal(hash(oldHtml), BASE_HASH, 'exact v264 reference');
   fs.writeFileSync(baseline, oldHtml);

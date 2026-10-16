@@ -4,7 +4,7 @@
 const assert=require('node:assert/strict'),crypto=require('node:crypto'),fs=require('node:fs'),path=require('node:path');
 const {loadGame}=require('./vm-environment.cjs');
 const source=path.resolve(process.argv[2]||path.join(__dirname,'../index.html'));
-const frozenHash='b2cdc69c32887afd4887e0eb642af694b317de378f8dab6ce509b1b882167c12';
+const frozenHash='5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d';
 const expectedHash=process.argv[3]||frozenHash;
 const hash=x=>crypto.createHash('sha256').update(x).digest('hex');
 const html=fs.readFileSync(source,'utf8'),results=[];
@@ -33,9 +33,9 @@ test('both obsolete invalid-tail claims are absent',()=>{
 test('exact current script and historical v268/v267 executable identity',()=>{
  const current=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
  eq('setup','frozen_reference_source',hash(current),frozenHash);
- const historicalCurrent=require('./restore-v268.cjs')(current),baseline=require('./restore-v267.cjs')(historicalCurrent),script=x=>x.match(/<script>([\s\S]*?)<\/script>/)[1];
+ const historicalCurrent=require('./restore-v268.cjs')(require('./restore-v269.cjs')(current)),baseline=require('./restore-v267.cjs')(historicalCurrent),script=x=>x.match(/<script>([\s\S]*?)<\/script>/)[1];
  // Text controls may vary only prose. The candidate script must remain exact;
- // only the pinned v269 reversal supplies the historical v268 script.
+ // only the pinned v270 and v269 reversals supply the historical v268 script.
  eq('source','current_executable_script_exact',script(html),script(current));
  eq('source','executable_script_unchanged',script(historicalCurrent),script(baseline));
 });
