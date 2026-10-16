@@ -1,0 +1,25 @@
+{
+  "htmlSha256": "eb6b462a6605f7305156e41df8922b39b375ffae85110a0687b95b6f92f66f41",
+  "changes": [
+    {
+      "before": "ORIGINAL RTS / v0.253",
+      "after": "ORIGINAL RTS / v0.254",
+      "count": 1
+    },
+    {
+      "before": "id=\"filterSelectionCritical\" disabled>选区重伤一辆",
+      "after": "id=\"filterSelectionCritical\" disabled>选区最弱受损一辆",
+      "count": 1
+    },
+    {
+      "before": "if(canSetFirePriority(e)&&e.hp/e.max<=.5&&(!critical",
+      "after": "if(canSetFirePriority(e)&&e.hp<e.max&&(!critical",
+      "count": 1
+    },
+    {
+      "before": "只在当前选区选一辆生命不超过50%的战斗车：最低生命比例优先，同率按编号；非战略优先推荐。不撤退、不修理，原命令与编队成员保留。",
+      "after": "只在当前选区选一辆受损战斗车（含轻伤）：最低生命比例优先，同率按编号；不选满血车辆，不是战略优先推荐。不撤退、不修理，原命令与编队成员保留。",
+      "count": 1
+    }
+  ]
+}

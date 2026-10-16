@@ -1,0 +1,2 @@
+'use strict';
+const assert=require('node:assert/strict'),crypto=require('node:crypto'),b=require('./weakest-selection-baseline-v253.json');module.exports=function(html){for(const {before,after,count} of [...b.changes].reverse()){assert.equal(html.split(after).length-1,count,'exact v254 weakest-selection boundary');html=html.split(after).join(before)}assert.equal(crypto.createHash('sha256').update(html).digest('hex'),b.htmlSha256,'exact restored v253 hash');return html};
