@@ -134,7 +134,7 @@ try {
   // observed retention in all three slots. New-helper-only cases may be absent
   // there, but only these three existing, post-start reference assertions count.
   try {
-    const baseline = require('./restore-v265.cjs')(html.includes('ORIGINAL RTS / v0.267') ? require('./restore-v266.cjs')(html) : html);
+    const baseline = require('./restore-v265.cjs')((html.includes('ORIGINAL RTS / v0.267') || html.includes('ORIGINAL RTS / v0.268')) ? require('./restore-v266.cjs')(html.includes('ORIGINAL RTS / v0.268') ? require('./restore-v267.cjs')(html) : html) : html);
     const baselineHash = hash(baseline);
     assert.equal(baselineHash, '4681522a07855adca4e7baf9964175ebe1610461c9d10504d045d3c154745dd4');
     fs.writeFileSync(mutantSource, baseline);

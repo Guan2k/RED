@@ -46,8 +46,8 @@ let comparisons = 0, exactReferenceChecks = 0, inertEventChecks = 0;
 let simulationSteps = 0, paidOrders = 0, restartCycles = 0;
 try {
   const html = fs.readFileSync(source, 'utf8');
-  assert.ok([SOURCE_HASH, '503e3f342952646f1b81f0b17bcc4d8b54a2ca4b97ed68bfc2644a991ec8bda9'].includes(hash(html)), 'frozen v266/v267 source');
-  const oldHtml = require('./restore-v265.cjs')(hash(html) === SOURCE_HASH ? html : require('./restore-v266.cjs')(html));
+  assert.ok([SOURCE_HASH, '503e3f342952646f1b81f0b17bcc4d8b54a2ca4b97ed68bfc2644a991ec8bda9', 'f66ba2568cabc8c5a8645558bb15e8b337ebaf23e3641af18f54464cf53f205a'].includes(hash(html)), 'frozen v266/v267/v268 source');
+  const oldHtml = require('./restore-v265.cjs')(hash(html) === SOURCE_HASH ? html : require('./restore-v266.cjs')(html.includes('ORIGINAL RTS / v0.268') ? require('./restore-v267.cjs')(html) : html));
   assert.equal(hash(oldHtml), BASE_HASH, 'byte-exact published v265 reference');
   fs.writeFileSync(baseline, oldHtml);
   for (const gesture of gestures) for (const phase of ['pending','consumed']) {

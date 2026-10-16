@@ -8,7 +8,7 @@ const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
 const {spawnSync} = require('node:child_process');
-const FROZEN_SOURCE_HASH = '503e3f342952646f1b81f0b17bcc4d8b54a2ca4b97ed68bfc2644a991ec8bda9';
+const FROZEN_SOURCE_HASH = 'f66ba2568cabc8c5a8645558bb15e8b337ebaf23e3641af18f54464cf53f205a';
 const HISTORICAL_SOURCE_HASH = '73c86d0eb92947d85c70fd47470f1c7c120d36c6f1f120ad84a3bf789546c3fe';
 const TOTAL = 72;
 const source = path.resolve(process.argv[2] || path.join(__dirname,'../index.html'));
@@ -144,7 +144,7 @@ try {
   // Exact historical product source demonstrates feature absence, not a claim
   // that v266 is defective. No omitted-function setup crash counts as detection.
   try {
-    const baseline=process.argv[3]?fs.readFileSync(path.resolve(process.argv[3]),'utf8'):require('./restore-v266.cjs')(html);
+    const baseline=process.argv[3]?fs.readFileSync(path.resolve(process.argv[3]),'utf8'):require('./restore-v266.cjs')(require('./restore-v267.cjs')(html));
     assert.equal(hash(baseline),HISTORICAL_SOURCE_HASH);
     const result=rejected(baseline,healthy);
     const failure=failureAt(result,healthy,'full_load_returning_exposes_current_identity','after_render','row_visible');
@@ -169,6 +169,6 @@ const sourceHashAfter=hash(fs.readFileSync(source));
 if(sourceHashBefore!==sourceHashAfter)results.push({name:'source_unchanged',passed:false,error:'Healthy source changed'});
 const report={suite:'delivery-refinery-selection-negative-control',total:results.length,passed:results.filter(t=>t.passed).length,failed:results.filter(t=>!t.passed).length,
   healthyTotal:healthy?.report.total||0,healthyPassed:healthy?.report.passed||0,healthyAssertions:healthy?.report.assertions||0,sourceHashBefore,sourceHashAfter,
-  historicalBaseline:process.argv[3]?'explicit exact v266 source':'portable exact restore-v266 source',
+  historicalBaseline:process.argv[3]?'explicit exact v266 source':'portable exact restore-v267 then restore-v266 source',
   results,scope:'Full-source temporary product mutants; healthy complete baseline first; exact named stage/invariant ERR_ASSERTION only. Historical v266 is feature absence, not a gameplay regression claim. No native browser or save/load/import/export.'};
 console.log(JSON.stringify(report,null,2));if(report.failed)process.exitCode=1;

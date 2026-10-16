@@ -1,0 +1,5 @@
+'use strict';
+// Exact source-only v0.268 reversal. Never loads a game or touches stored data.
+const assert=require('node:assert/strict'),crypto=require('node:crypto');
+const changes=[{"before":"v0.267","after":"v0.268","count":1},{"before":"攻击失效尾项仍算一项。","after":"攻击只撤最后一个有效待攻击目标，成功撤销时清理失效编号。","count":1},{"before":"“撤销队尾”对所选车辆各撤销最后一个后续攻击目标或地面路点，攻击失效项也计入；保留当前任务，仅剩一项不可撤。","after":"“撤销队尾”对所选车辆各撤销最后一个有效待攻击目标或后续地面路点，成功撤销攻击项时清理失效编号；保留当前任务，仅剩一项不可撤。","count":1}];
+module.exports=function(html){assert.equal(crypto.createHash('sha256').update(html).digest('hex'),'f66ba2568cabc8c5a8645558bb15e8b337ebaf23e3641af18f54464cf53f205a','exact v268 source hash');for(const {before,after,count}of [...changes].reverse()){assert.equal(html.split(after).length-1,count,'exact v268 attack-tail-help boundary');html=html.split(after).join(before)}assert.equal(crypto.createHash('sha256').update(html).digest('hex'),'503e3f342952646f1b81f0b17bcc4d8b54a2ca4b97ed68bfc2644a991ec8bda9','exact restored v267 hash');return html};
