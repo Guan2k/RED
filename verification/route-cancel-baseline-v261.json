@@ -1,0 +1,20 @@
+{
+  "htmlSha256": "474521db71936a574978de33ba53e60dfb547c49a7c4881e9e0cf9df006f32a0",
+  "changes": [
+    {
+      "before": "v0.261",
+      "after": "v0.262",
+      "count": 1
+    },
+    {
+      "before": "tell('分段路线下一路点被建筑或岩石占用，已停止整条路线')",
+      "after": "tell('分段路线下一路点被建筑或岩石占用，已停止整条路线'+(arrivalHold?'；抵达后坚守预约已取消':''))",
+      "count": 1
+    },
+    {
+      "before": "let walls=movementObstacles(),cancelled=0;for(let e of troops)if(!patrolPointSafe(e,e.goal,walls)){clearMoveQueue(e,true);cancelled++}if(cancelled)tell(cancelled+' 辆部队的分段路线当前路点被阻挡，已停止整条路线')",
+      "after": "let walls=movementObstacles(),cancelled=0,cancelledArrivalHolds=0;for(let e of troops)if(!patrolPointSafe(e,e.goal,walls)){if(e.holdOnArrival===true)cancelledArrivalHolds++;clearMoveQueue(e,true);cancelled++}if(cancelled)tell(cancelled+' 辆部队的分段路线当前路点被阻挡，已停止整条路线'+(cancelledArrivalHolds?'；其中 '+cancelledArrivalHolds+' 辆的抵达后坚守预约已取消':''))",
+      "count": 1
+    }
+  ]
+}
