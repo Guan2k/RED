@@ -1,0 +1,15 @@
+{
+  "htmlSha256": "20f9e01aea06164fc51bfb5143de3a9f0a2133639feaf3fe3ed35f16264c100f",
+  "changes": [
+    {
+      "before": "ORIGINAL RTS / v0.250",
+      "after": "ORIGINAL RTS / v0.251",
+      "count": 1
+    },
+    {
+      "before": "$('pause').textContent=state.paused?'继续 [空格]':'暂停 [空格]'};function cancelRestart()",
+      "after": "$('pause').textContent=state.paused?'继续 [空格]':'暂停 [空格]';updateUI()};function cancelRestart()",
+      "count": 1
+    }
+  ]
+}

@@ -14,8 +14,10 @@ function run(script, args, label) {
 }
 let temporary;
 try {
-  run('repair-paused.cjs', [source], 'Current v0.250 paused-repair regression');
-  const baseline = require('./restore-v249.cjs')(fs.readFileSync(source, 'utf8'));
+  run('pause-negative-control.cjs', [], 'Exact v0.250 pause regression negative control');
+  run('pause-ui.cjs', [source], 'Current v0.251 immediate pause UI regression');
+  run('repair-paused.cjs', [source], 'Current v0.251 inherited paused-repair regression');
+  const baseline = require('./restore-v249.cjs')(require('./restore-v250.cjs')(fs.readFileSync(source, 'utf8')));
   temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'red-v249-baseline-'));
   const file = path.join(temporary, 'index.html');
   fs.writeFileSync(file, baseline);
