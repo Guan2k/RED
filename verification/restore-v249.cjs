@@ -1,0 +1,2 @@
+'use strict';
+const assert=require('node:assert/strict'),crypto=require('node:crypto'),b=require('./repair-paused-baseline-v249.json');module.exports=function(html){for(const {before,after,count} of [...b.changes].reverse()){assert.equal(html.split(after).length-1,count,'exact v250 paused-repair boundary');html=html.split(after).join(before)}assert.equal(crypto.createHash('sha256').update(html).digest('hex'),b.htmlSha256,'exact restored v249 hash');return html};

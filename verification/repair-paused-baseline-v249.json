@@ -1,0 +1,15 @@
+{
+  "htmlSha256": "76c3e3be5d3089c0c79980f53d6ea350eff4fb6a21a93cfcc61c0b100194aacc",
+  "changes": [
+    {
+      "before": "ORIGINAL RTS / v0.249",
+      "after": "ORIGINAL RTS / v0.250",
+      "count": 1
+    },
+    {
+      "before": "if(state.paused)return label+'游戏暂停';if(e.repairEnabled===false)",
+      "after": "if(state.paused)label+='游戏暂停（不会执行维修） · ';if(e.repairEnabled===false)",
+      "count": 1
+    }
+  ]
+}
