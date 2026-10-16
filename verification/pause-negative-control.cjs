@@ -2,7 +2,7 @@
 const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),assert=require('node:assert/strict'),{spawnSync}=require('node:child_process');
 const dir=fs.mkdtempSync(path.join(os.tmpdir(),'red-pause-negative-'));
 try{
- const file=path.join(dir,'index.html');fs.writeFileSync(file,require('./restore-v250.cjs')(require('./restore-v251.cjs')(require('./restore-v252.cjs')((sourceText=>require('./restore-v253.cjs')(sourceText.includes('ORIGINAL RTS / v0.271')?require('./restore-v270.cjs')(sourceText):sourceText))(fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'))))));
+ const file=path.join(dir,'index.html');fs.writeFileSync(file,require('./restore-v250.cjs')(require('./restore-v251.cjs')(require('./restore-v252.cjs')((sourceText=>require('./restore-v253.cjs')((sourceText.includes('ORIGINAL RTS / v0.271')||sourceText.includes('ORIGINAL RTS / v0.272'))?(sourceText=>require('./restore-v270.cjs')(sourceText.includes('ORIGINAL RTS / v0.272')?require('./restore-v271.cjs')(sourceText):sourceText))(sourceText):sourceText))(fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'))))));
  const run=spawnSync(process.execPath,[path.join(__dirname,'pause-ui.cjs'),file],{encoding:'utf8'});if(run.error)throw run.error;assert.equal(run.status,1);
  const report=JSON.parse(run.stdout);assert.equal(report.failed,21);assert.equal(report.passed,7);
  const failed=new Set(report.results.filter(x=>x.status==='fail').map(x=>x.name));

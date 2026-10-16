@@ -2,8 +2,8 @@
 // Full healthy focused suite first, then exact old-source and single-boundary mutants.
 // A control counts only the named test/stage/invariant ERR_ASSERTION, never setup failure.
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),os=require('node:os'),crypto=require('node:crypto'),{spawnSync}=require('node:child_process');
-const source=path.join(__dirname,'../index.html'),focused=path.join(__dirname,'attack-pressed.cjs'),restore=require('./restore-v270.cjs');
-const SOURCE_HASH='7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b',BASELINE_HASH='5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d';
+const source=path.join(__dirname,'../index.html'),focused=path.join(__dirname,'attack-pressed.cjs'),restore=(sourceText=>require('./restore-v270.cjs')(sourceText.includes('ORIGINAL RTS / v0.272')?require('./restore-v271.cjs')(sourceText):sourceText));
+const SOURCE_HASH='4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f',BASELINE_HASH='5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d';
 const html=fs.readFileSync(source,'utf8'),hash=x=>crypto.createHash('sha256').update(x).digest('hex'),COUNT=42;
 const dir=fs.mkdtempSync(path.join(os.tmpdir(),'red-attack-pressed-negative-')),file=path.join(dir,'index.html');
 function run(text){fs.writeFileSync(file,text);const p=spawnSync(process.execPath,[focused,file,hash(text)],{encoding:'utf8',maxBuffer:16*1024*1024,timeout:120000});if(p.error)throw p.error;assert.equal(p.signal,null,'focused runner must exit normally');let report;try{report=JSON.parse(p.stdout)}catch(error){throw new Error('Focused runner did not emit JSON: '+p.stderr+'\n'+p.stdout,{cause:error})}assert.equal(report.results.length,COUNT,'every named fixture must execute');assert.equal(report.results.filter(r=>r.passed).length,report.passed);assert.equal(report.results.filter(r=>!r.passed).length,report.failed);assert.equal(report.passed+report.failed,COUNT);assert.equal(report.testedSourceSha256,hash(text));assert.equal(report.referenceSourceSha256,BASELINE_HASH);return{status:p.status,report}}

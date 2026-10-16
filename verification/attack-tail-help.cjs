@@ -4,7 +4,7 @@
 const assert=require('node:assert/strict'),crypto=require('node:crypto'),fs=require('node:fs'),path=require('node:path');
 const {loadGame}=require('./vm-environment.cjs');
 const source=path.resolve(process.argv[2]||path.join(__dirname,'../index.html'));
-const frozenHash='7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b';
+const frozenHash='4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f';
 const expectedHash=process.argv[3]||frozenHash;
 const hash=x=>crypto.createHash('sha256').update(x).digest('hex');
 const html=fs.readFileSync(source,'utf8'),results=[];
@@ -33,9 +33,9 @@ test('both obsolete invalid-tail claims are absent',()=>{
 test('exact current script and historical v268/v267 executable identity',()=>{
  const current=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
  eq('setup','frozen_reference_source',hash(current),frozenHash);
- const historicalCurrent=require('./restore-v268.cjs')((sourceText=>require('./restore-v269.cjs')(sourceText.includes('ORIGINAL RTS / v0.271')?require('./restore-v270.cjs')(sourceText):sourceText))(current)),baseline=require('./restore-v267.cjs')(historicalCurrent),script=x=>x.match(/<script>([\s\S]*?)<\/script>/)[1];
+ const historicalCurrent=require('./restore-v268.cjs')((sourceText=>require('./restore-v269.cjs')((sourceText.includes('ORIGINAL RTS / v0.271')||sourceText.includes('ORIGINAL RTS / v0.272'))?(sourceText=>require('./restore-v270.cjs')(sourceText.includes('ORIGINAL RTS / v0.272')?require('./restore-v271.cjs')(sourceText):sourceText))(sourceText):sourceText))(current)),baseline=require('./restore-v267.cjs')(historicalCurrent),script=x=>x.match(/<script>([\s\S]*?)<\/script>/)[1];
  // Text controls may vary only prose. The candidate script must remain exact;
- // only the pinned v271, v270 and v269 reversals supply the historical v268 script.
+ // only the pinned v272, v271, v270 and v269 reversals supply the historical v268 script.
  eq('source','current_executable_script_exact',script(html),script(current));
  eq('source','executable_script_unchanged',script(historicalCurrent),script(baseline));
 });

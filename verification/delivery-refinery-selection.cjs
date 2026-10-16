@@ -8,7 +8,7 @@ const crypto = require('node:crypto');
 const fs = require('node:fs');
 const path = require('node:path');
 const {loadGame} = require('./vm-environment.cjs');
-const FROZEN_SOURCE_HASH = '7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b';
+const FROZEN_SOURCE_HASH = '4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f';
 const source = path.resolve(process.argv[2] || path.join(__dirname, '../index.html'));
 // Only the negative-control driver supplies this explicit exact mutant digest.
 // There is no unrestricted bypass: every run verifies its actual source bytes.

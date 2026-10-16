@@ -1,7 +1,7 @@
 'use strict';
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),os=require('node:os'),{loadGame}=require('./vm-environment.cjs');
 const source=path.join(__dirname,'../index.html'),dir=fs.mkdtempSync(path.join(os.tmpdir(),'red-destination-natural-')),baseline=path.join(dir,'index.html');let comparisons=0;const results=[];
-try{fs.writeFileSync(baseline,(sourceText=>require('./restore-v258.cjs')(sourceText.includes('ORIGINAL RTS / v0.271')?require('./restore-v270.cjs')(sourceText):sourceText))(fs.readFileSync(source,'utf8')));
+try{fs.writeFileSync(baseline,(sourceText=>require('./restore-v258.cjs')((sourceText.includes('ORIGINAL RTS / v0.271')||sourceText.includes('ORIGINAL RTS / v0.272'))?(sourceText=>require('./restore-v270.cjs')(sourceText.includes('ORIGINAL RTS / v0.272')?require('./restore-v271.cjs')(sourceText):sourceText))(sourceText):sourceText))(fs.readFileSync(source,'utf8')));
 for(const mode of ['ordinary','attack','route']){const games=[baseline,source].map(s=>loadGame(s,{seed:259}).start());const snapshot=g=>g.run('JSON.stringify({state,uid,selection:[...selection],groups,placement,attackMode,ordinaryCommandMode,simulationRemainder})');const compare=()=>{assert.equal(snapshot(games[0]),snapshot(games[1]));comparisons++};
 for(const g of games){g.run(`globalThis.u=state.entities.find(canSetFirePriority);selection=new Set([u.id]);issue({x:350,y:600},${mode==='attack'});updateUI()`)}compare();assert.match(games[1].element('selection').textContent,/当前目的地/);assert.doesNotMatch(games[0].element('selection').textContent,/当前目的地/);
 // Pause/resume through real controls, without changing the underlying order.

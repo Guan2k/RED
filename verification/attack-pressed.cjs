@@ -3,10 +3,11 @@
 // The terminal/not-started injections and direct reset are explicitly synthetic.
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),os=require('node:os'),crypto=require('node:crypto');
 const {loadGame}=require('./vm-environment.cjs'),restore=require('./restore-v270.cjs');
+const CURRENT_SOURCE_HASH='4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f';
 const SOURCE_HASH='7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b';
 const BASELINE_HASH='5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d';
 const packaged=path.join(__dirname,'../index.html'),source=path.resolve(process.argv[2]||packaged),hash=x=>crypto.createHash('sha256').update(x).digest('hex');
-const html=fs.readFileSync(source,'utf8'),canonical=fs.readFileSync(packaged,'utf8'),baseline=restore(canonical);
+const html=fs.readFileSync(source,'utf8'),packagedHtml=fs.readFileSync(packaged,'utf8'),canonical=require('./restore-v271.cjs')(packagedHtml),baseline=restore(canonical);
 const temporary=fs.mkdtempSync(path.join(os.tmpdir(),'red-attack-pressed-')),reference=path.join(temporary,'v270.html');fs.writeFileSync(reference,baseline);
 const SETTER="$('attack').setAttribute('aria-pressed',String(attackMode));";
 const BORDER="$('attack').style.borderColor=attackMode?'#f4cf81':'';";
@@ -33,8 +34,9 @@ function armed(p){both(p,g=>g.click('attack'))}
 function checkpoint(p,expected,stage){pressed(p.now,expected,stage);match(p,stage)}
 function build(g){g.document.querySelectorAll('[data-build]').find(b=>b.dataset.build==='power').click()}
 try{
-test('source identity',()=>eq('setup','exact_tested_source_digest',hash(html),process.argv[3]||SOURCE_HASH));
+test('source identity',()=>eq('setup','exact_tested_source_digest',hash(html),process.argv[3]||CURRENT_SOURCE_HASH));
 test('packaged exact three-boundary delta and restoration guards',()=>{
+ eq('source','current_packaged_source_digest',hash(packagedHtml),CURRENT_SOURCE_HASH);
  eq('source','packaged_source_digest',hash(canonical),SOURCE_HASH);eq('source','exact_restored_reference_digest',hash(baseline),BASELINE_HASH);
  let forward=baseline;for(const [before,after]of changes){eq('source','unique_before_boundary_'+before,forward.split(before).length-1,1);forward=forward.replace(before,after);eq('source','unique_after_boundary_'+before,forward.split(after).length-1,1)}
  eq('source','three_replacements_reconstruct_entire_source',forward,canonical);
@@ -71,5 +73,5 @@ for(const keyName of ['Enter',' '])test('focused button '+JSON.stringify(keyName
 test('Escape cancels held Space activation model',()=>{const p=pair();armed(p);const canceled=[];both(p,g=>{const b=g.element('attack');b.focus();const down={type:'keydown',key:' ',code:'Space',target:b,repeat:false};b.dispatchEvent(down);g.dispatch('keydown',down);key(g,'Escape');let prevented=false;b.dispatchEvent({type:'keyup',key:' ',code:'Space',target:b,preventDefault(){prevented=true}});canceled.push(prevented);if(!prevented)b.click({detail:0})});eq('keyboard','held_space_default_prevented',canceled,[true,true]);checkpoint(p,false,'canceled_space')});
 for(const mode of [false,true])test('extra updateUI and canvas render preserve world orders economy and input '+mode,()=>{const p=pair();both(p,g=>g.document.querySelectorAll('[data-unit]').find(b=>b.dataset.unit==='tank').click());if(mode)armed(p);const before={world:world(p.now),input:input(p.now)};both(p,g=>g.run('globalThis.attackPressedRefs={state,entities:state.entities,queue:state.queue,order:state.queue[0],groups,selection};updateUI();updateUI();render();updateUI()'));eq('render','world_orders_economy_unchanged',world(p.now),before.world);eq('render','input_unchanged',input(p.now),before.input);eq('render','world_references_preserved',p.now.run('state===attackPressedRefs.state&&state.entities===attackPressedRefs.entities&&state.queue===attackPressedRefs.queue&&state.queue[0]===attackPressedRefs.order&&groups===attackPressedRefs.groups&&selection===attackPressedRefs.selection'),true);checkpoint(p,mode,'render');eq('render','paid_order_fixture_present',p.now.state.queue.length,1);both(p,g=>g.step(.25));match(p,'same_next_simulation')});
 }finally{fs.rmSync(temporary,{recursive:true,force:true})}
-console.log(JSON.stringify({passed:results.filter(r=>r.passed).length,failed:results.filter(r=>!r.passed).length,assertions,pairedCheckpoints,testedSourceSha256:hash(html),packagedSourceSha256:hash(canonical),referenceSourceSha256:hash(baseline),results,scope:'Whole-source Node VM / modeled DOM only. Exact restored v270 paired whole state/input/DOM checkpoints normalize only attack aria-pressed; source proof permits only that attribute, its updateUI setter and version. Pointer dispatch uses the actual registered handler. Existing pointer-to-UI-refresh delay is retained. Keyboard native activation is explicitly modeled, not browser or screen-reader fidelity. Terminal/not-started injections and direct reset are synthetic. No save/load/import/export actions, browser, network or Codex CLI.'},null,2));
+console.log(JSON.stringify({passed:results.filter(r=>r.passed).length,failed:results.filter(r=>!r.passed).length,assertions,pairedCheckpoints,testedSourceSha256:hash(html),packagedSourceSha256:hash(packagedHtml),historicalProofSourceSha256:hash(canonical),referenceSourceSha256:hash(baseline),results,scope:'Whole-source Node VM / modeled DOM only. Exact restored v270 paired whole state/input/DOM checkpoints normalize only attack aria-pressed; historical v271 source proof permits only that attribute, its updateUI setter and version; current package is independently hash-pinned and strictly restored to v271. Pointer dispatch uses the actual registered handler. Existing pointer-to-UI-refresh delay is retained. Keyboard native activation is explicitly modeled, not browser or screen-reader fidelity. Terminal/not-started injections and direct reset are synthetic. No save/load/import/export actions, browser, network or Codex CLI.'},null,2));
 if(results.some(r=>!r.passed))process.exitCode=1;

@@ -66,8 +66,8 @@ function controls(g) {
 }
 try {
   const html = fs.readFileSync(source, 'utf8');
-  assert.ok([SOURCE_HASH, '73c86d0eb92947d85c70fd47470f1c7c120d36c6f1f120ad84a3bf789546c3fe', '503e3f342952646f1b81f0b17bcc4d8b54a2ca4b97ed68bfc2644a991ec8bda9', 'f66ba2568cabc8c5a8645558bb15e8b337ebaf23e3641af18f54464cf53f205a', 'b2cdc69c32887afd4887e0eb642af694b317de378f8dab6ce509b1b882167c12', '5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d', '7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b'].includes(hash(html)), 'candidate frozen source');
-  const oldHtml = (sourceText=>require('./restore-v264.cjs')(sourceText.includes('ORIGINAL RTS / v0.271')?require('./restore-v270.cjs')(sourceText):sourceText))(html);
+  assert.ok([SOURCE_HASH, '73c86d0eb92947d85c70fd47470f1c7c120d36c6f1f120ad84a3bf789546c3fe', '503e3f342952646f1b81f0b17bcc4d8b54a2ca4b97ed68bfc2644a991ec8bda9', 'f66ba2568cabc8c5a8645558bb15e8b337ebaf23e3641af18f54464cf53f205a', 'b2cdc69c32887afd4887e0eb642af694b317de378f8dab6ce509b1b882167c12', '5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d', '7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b', '4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f'].includes(hash(html)), 'candidate frozen source');
+  const oldHtml = (sourceText=>require('./restore-v264.cjs')((sourceText.includes('ORIGINAL RTS / v0.271')||sourceText.includes('ORIGINAL RTS / v0.272'))?(sourceText=>require('./restore-v270.cjs')(sourceText.includes('ORIGINAL RTS / v0.272')?require('./restore-v271.cjs')(sourceText):sourceText))(sourceText):sourceText))(html);
   assert.equal(hash(oldHtml), BASE_HASH, 'exact v264 reference');
   fs.writeFileSync(baseline, oldHtml);
   for (const pending of ['none', 'ordinary', 'append']) {

@@ -1,5 +1,5 @@
 'use strict';
-// v271 legal paired gameplay witness. The entire unmodified inline game runs in
+// v272 legal paired gameplay witness. The entire unmodified inline game runs in
 // the shared Node VM/DOM harness. Only UI handlers and normal 1/60-second engine
 // steps change gameplay. No entity, economy, health, order, or speed injection.
 const nodeAssert = require('node:assert/strict');
@@ -11,7 +11,7 @@ const {loadGame} = require('./vm-environment.cjs');
 let assertions = 0;
 const assert = Object.fromEntries(['ok', 'equal', 'deepEqual'].map(name =>
   [name, (...args) => { assertions++; return nodeAssert[name](...args); }]));
-const SOURCE_HASH = '7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b';
+const SOURCE_HASH = '4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f';
 const BASELINE_HASH = 'f66ba2568cabc8c5a8645558bb15e8b337ebaf23e3641af18f54464cf53f205a';
 const source = path.resolve(process.argv[2] || path.join(__dirname, '../index.html'));
 const evidenceDirectory = process.argv[3] ? path.resolve(process.argv[3]) : null;
@@ -53,7 +53,7 @@ const tests = [];
 let pointerId = 10000;
 let sourceHashBefore = null;
 let sourceHashAfter = null;
-const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'red-v271-group-add-natural-'));
+const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'red-v272-group-add-natural-'));
 const baseline = path.join(temporary, 'index.html');
 
 function activate(game, id) {
@@ -321,8 +321,8 @@ function runCase(spec) {
 try {
   const html=fs.readFileSync(source,'utf8');
   sourceHashBefore=digest(html);
-  assert.equal(sourceHashBefore,SOURCE_HASH,'exact frozen v271 source');
-  const restored=require('./restore-v268.cjs')((sourceText=>require('./restore-v269.cjs')(sourceText.includes('ORIGINAL RTS / v0.271')?require('./restore-v270.cjs')(sourceText):sourceText))(html));
+  assert.equal(sourceHashBefore,SOURCE_HASH,'exact frozen v272 source');
+  const restored=require('./restore-v268.cjs')((sourceText=>require('./restore-v269.cjs')((sourceText.includes('ORIGINAL RTS / v0.271')||sourceText.includes('ORIGINAL RTS / v0.272'))?(sourceText=>require('./restore-v270.cjs')(sourceText.includes('ORIGINAL RTS / v0.272')?require('./restore-v271.cjs')(sourceText):sourceText))(sourceText):sourceText))(html));
   assert.equal(digest(restored),BASELINE_HASH,'exact published v268 baseline');
   fs.writeFileSync(baseline,restored);
   for(const spec of [

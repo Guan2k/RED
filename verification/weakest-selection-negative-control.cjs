@@ -3,7 +3,7 @@ const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),asse
 try{
  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'),file=path.join(dir,'index.html');
  function run(text){fs.writeFileSync(file,text);const p=spawnSync(process.execPath,[path.join(__dirname,'weakest-selection.cjs'),file],{encoding:'utf8',maxBuffer:16*1024*1024});if(p.error)throw p.error;assert.equal(p.status,1);return JSON.parse(p.stdout)}
- const baseline=run((sourceText=>require('./restore-v253.cjs')(sourceText.includes('ORIGINAL RTS / v0.271')?require('./restore-v270.cjs')(sourceText):sourceText))(html));assert.equal(baseline.failed,27);assert.equal(baseline.passed,11);assert.equal(baseline.sourceSha256,'eb6b462a6605f7305156e41df8922b39b375ffae85110a0687b95b6f92f66f41');
+ const baseline=run((sourceText=>require('./restore-v253.cjs')((sourceText.includes('ORIGINAL RTS / v0.271')||sourceText.includes('ORIGINAL RTS / v0.272'))?(sourceText=>require('./restore-v270.cjs')(sourceText.includes('ORIGINAL RTS / v0.272')?require('./restore-v271.cjs')(sourceText):sourceText))(sourceText):sourceText))(html));assert.equal(baseline.failed,27);assert.equal(baseline.passed,11);assert.equal(baseline.sourceSha256,'eb6b462a6605f7305156e41df8922b39b375ffae85110a0687b95b6f92f66f41');
  const cases=[
  ['healthy candidates included','if(canSetFirePriority(e)&&e.hp<e.max&&(!critical','if(canSetFirePriority(e)&&e.hp<=e.max&&(!critical','full-health-only selection disables and direct invocation preserves modes'],
  ['tie direction reversed','e.id<critical.id','e.id>critical.id','equal ratios choose lowest stable ID even when entity and selection order reversed'],

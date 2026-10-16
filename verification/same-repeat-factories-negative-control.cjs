@@ -4,7 +4,7 @@
 const assert=require('node:assert/strict'),crypto=require('node:crypto'),fs=require('node:fs'),path=require('node:path'),os=require('node:os'),{spawnSync}=require('node:child_process');
 const source=path.join(__dirname,'../index.html'),focused=path.join(__dirname,'same-repeat-factories.cjs');
 const html=fs.readFileSync(source,'utf8'),hash=x=>crypto.createHash('sha256').update(x).digest('hex');
-const SOURCE_HASH='7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b';
+const SOURCE_HASH='4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f';
 const dir=fs.mkdtempSync(path.join(os.tmpdir(),'red-same-repeat-negative-')),file=path.join(dir,'index.html');
 function run(text){fs.writeFileSync(file,text);const p=spawnSync(process.execPath,[focused,file,hash(text)],{encoding:'utf8',maxBuffer:8*1024*1024,timeout:120000});if(p.error)throw p.error;assert.equal(p.signal,null,'focused runner must exit normally');let report;try{report=JSON.parse(p.stdout)}catch(e){throw new Error('Focused runner did not emit a JSON report: '+p.stderr+'\n'+p.stdout,{cause:e})}assert.equal(report.results.length,57,'all named fixtures must execute');assert.equal(report.results.filter(x=>x.passed).length,report.passed);assert.equal(report.results.filter(x=>!x.passed).length,report.failed);assert.equal(report.passed+report.failed,57);return{status:p.status,report}}
 const target=(test,stage,invariant)=>({test,stage,invariant});

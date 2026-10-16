@@ -3,7 +3,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const {loadGame}=require('./vm-environment.cjs');
 const source=path.resolve(process.argv[2]||path.join(__dirname,'../index.html'));
-const SOURCE_HASH='7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b';
+const SOURCE_HASH='4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f';
 const hash=x=>crypto.createHash('sha256').update(x).digest('hex');let assertions=0;const results=[];
 function check(stage,invariant,fn){try{fn();assertions++}catch(e){e.stage=stage;e.invariant=invariant;throw e}}
 function eq(stage,invariant,a,b){check(stage,invariant,()=>assert.deepEqual(a,b))}
