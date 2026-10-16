@@ -1,0 +1,20 @@
+{
+  "htmlSha256": "20a0108a9f0d496da8e02520481a8f9d8f53da197ba33c5c5cd665f9bbd0ac2a",
+  "changes": [
+    {
+      "before": "ORIGINAL RTS / v0.252",
+      "after": "ORIGINAL RTS / v0.253",
+      "count": 1
+    },
+    {
+      "before": "function selectedCombatSummary(selected){",
+      "after": "function selectedCombatHealthSummary(selected){let units=selected.filter(canSetFirePriority);if(!units.length)return '';let damaged=0,critical=0,lowest=1;for(let e of units){if(e.hp<e.max)damaged++;if(e.hp<=e.max*.5)critical++;lowest=Math.min(lowest,e.hp/e.max)}let percent=lowest<.001?'<0.1':String(Math.floor(lowest*1000)/10);return '\\n所选战斗车伤情：受损 '+damaged+'/'+units.length+' 辆 · 重伤（≤50%） '+critical+' 辆（计入受损）\\n最低剩余生命：'+percent+'%（向下保留1位）；仅统计所选存活、已完工己方战斗车'}\nfunction selectedCombatSummary(selected){",
+      "count": 1
+    },
+    {
+      "before": "selectionDescription(selected)+selectedCombatSummary(selected)",
+      "after": "selectionDescription(selected)+selectedCombatSummary(selected)+selectedCombatHealthSummary(selected)",
+      "count": 1
+    }
+  ]
+}

@@ -14,12 +14,14 @@ function run(script, args, label) {
 }
 let temporary;
 try {
-  run('all-damaged.cjs', [source], 'Current v0.252 all-damaged selection');
+  run('selection-health.cjs', [source], 'Current v0.253 selection health');
+  run('selection-health-negative-control.cjs', [], 'Exact v0.252 health negative controls');
+  run('all-damaged.cjs', [source], 'Current v0.253 all-damaged selection');
   run('all-damaged-negative-control.cjs', [], 'Exact v0.251 missing-feature negative control');
   run('pause-negative-control.cjs', [], 'Exact v0.250 pause regression negative control');
-  run('pause-ui.cjs', [source], 'Current v0.252 immediate pause UI regression');
-  run('repair-paused.cjs', [source], 'Current v0.252 inherited paused-repair regression');
-  const baseline = require('./restore-v249.cjs')(require('./restore-v250.cjs')(require('./restore-v251.cjs')(fs.readFileSync(source, 'utf8'))));
+  run('pause-ui.cjs', [source], 'Current v0.253 immediate pause UI regression');
+  run('repair-paused.cjs', [source], 'Current v0.253 inherited paused-repair regression');
+  const baseline = require('./restore-v249.cjs')(require('./restore-v250.cjs')(require('./restore-v251.cjs')(require('./restore-v252.cjs')(fs.readFileSync(source, 'utf8')))));
   temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'red-v249-baseline-'));
   const file = path.join(temporary, 'index.html');
   fs.writeFileSync(file, baseline);
