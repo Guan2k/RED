@@ -8,7 +8,7 @@ const assert = Object.fromEntries(['equal','notEqual','deepEqual','ok'].map(k =>
 const fs = require('node:fs'), path = require('node:path'), os = require('node:os');
 const crypto = require('node:crypto');
 const {loadGame} = require('./vm-environment.cjs');
-const SOURCE_HASH = 'f66ba2568cabc8c5a8645558bb15e8b337ebaf23e3641af18f54464cf53f205a';
+const SOURCE_HASH = 'b2cdc69c32887afd4887e0eb642af694b317de378f8dab6ce509b1b882167c12';
 const BASE_HASH = '73c86d0eb92947d85c70fd47470f1c7c120d36c6f1f120ad84a3bf789546c3fe';
 const source = path.resolve(process.argv[2] || path.join(__dirname,'../index.html'));
 const evidence = process.argv[3] ? path.resolve(process.argv[3]) : null;
@@ -32,18 +32,18 @@ const input = g => read(g,`({selection:[...selection],placement,attackMode,drag,
   mouse,hoverActive,selectionClickCandidate,lastSelectionClick,doubleClickSelection,
   last,uiClock,restartPrompt,resumeAfterCancel,coordinateAidEnabled,coordinateMouseBaseline,
   activeMapCommandReceipt,commandSpaceActivations:[...commandSpaceActivations].map(([node,value])=>[node.id||node.dataset.build,value])})`);
-const temp = fs.mkdtempSync(path.join(os.tmpdir(),'red-v268-refinery-natural-'));
+const temp = fs.mkdtempSync(path.join(os.tmpdir(),'red-v269-refinery-natural-'));
 const baseline = path.join(temp,'index.html');
 let comparisons=0,simulationSteps=0,selectionChecks=0,fullNoOps=0,legalBuilds=0,legalSalvages=0;
 const results=[];
 try {
   const html=fs.readFileSync(source,'utf8');
-  assert.equal(digest(html),SOURCE_HASH,'frozen v268 source');
+  assert.equal(digest(html),SOURCE_HASH,'frozen v269 source');
   const reversePath=path.join(__dirname,'restore-v266.cjs');
   // Exact in-package reversal makes this witness portable and verifies the
   // whole baseline without downloading or silently accepting another release.
   assert.ok(fs.existsSync(reversePath),'portable byte-exact v266 reversal is present');
-  const restored=require(reversePath)(require('./restore-v267.cjs')(html));
+  const restored=require(reversePath)(require('./restore-v267.cjs')(require('./restore-v268.cjs')(html)));
   assert.equal(digest(restored),BASE_HASH,'byte-exact published v266 reference');
   fs.writeFileSync(baseline,restored);
   for(const scenario of ['salvage-rebuild-fresh-id','completion-changes-rendered-destination']) {
@@ -66,7 +66,7 @@ try {
       }
       return target?.id??null;
     };
-    games.forEach((x,index)=>{x.context.confirm=text=>{confirmations.push({game:index===0?'v266':'v268',t:x.state.t,text,accepted:true});return true;};});
+    games.forEach((x,index)=>{x.context.confirm=text=>{confirmations.push({game:index===0?'v266':'v269',t:x.state.t,text,accepted:true});return true;};});
     function check(label) {
       assert.deepEqual(world(old),world(g),`${scenario}/${label}: exact entire paired world`);
       assert.equal(old.storage.size,0);assert.equal(g.storage.size,0);
@@ -169,7 +169,7 @@ try {
         `选择当前交矿精炼厂 · #${targetId}（${Math.round(target.x)},${Math.round(target.y)}）`);
       if(pending) {
         // Both versions arm a genuine, not-yet-released point command. The
-        // baseline needs Escape before manual canvas selection; v268 selects
+        // baseline needs Escape before manual canvas selection; v269 selects
         // and cancels the held command in the single new button action.
         const pointer=++pointerId,p={x:460,y:520};
         both('arm-real-pending-map-command',x=>{
@@ -294,7 +294,7 @@ try {
     portableReversal:fs.existsSync(path.join(__dirname,'restore-v266.cjs')),cases:results.length,assertions,
     checks:{worldComparisons:comparisons,simulationSteps,selectionChecks,fullNoOps,legalBuilds,legalSalvages},results,
     scope:'Two fresh classic/normal/standard seeded paired battles. Real canvas, keyboard, purchase, salvage confirmation and button handlers; fixed 1/60-second simulation. Full state/uid/groups/remainder plus live per-entity navigation and delivery records compared without normalization. Candidate selection/input changes asserted against explicit exact snapshots. No artificial money, ore, load, damage, entities, timers, commands, or state injection; no save/load/import/export, browser, network, user computer, or publication. Simulated DOM is not browser evidence.',
-    conclusion:'Manual v266 canvas selection and v268 current-delivery-refinery selection preserve identical complete worlds, first delivery and assigned-ore resumption. Legal refinery loss/rebuild selects a fresh live id. Paid nearer-refinery completion changes the live target between render and click, and the new button selects the current target. Pending point input is canceled without issuing an order.'};
+    conclusion:'Manual v266 canvas selection and v269 current-delivery-refinery selection preserve identical complete worlds, first delivery and assigned-ore resumption. Legal refinery loss/rebuild selects a fresh live id. Paid nearer-refinery completion changes the live target between render and click, and the new button selects the current target. Pending point input is canceled without issuing an order.'};
   if(evidence){fs.mkdirSync(evidence,{recursive:true});fs.writeFileSync(path.join(evidence,'result.json'),JSON.stringify(result,null,2)+'\n');}
   console.log(JSON.stringify({...result,results:results.map(r=>({scenario:r.scenario,status:r.status,assertions:r.assertions,
     worldComparisons:r.worldComparisons,simulationSteps:r.simulationSteps,oldRefineryId:r.oldRefineryId,
