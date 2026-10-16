@@ -1,0 +1,20 @@
+{
+  "htmlSha256": "b5c164138d25f775c8b448984e24bf96f3be5ca8f59adfe257de5b5983d7abf6",
+  "changes": [
+    {
+      "before": "v0.254",
+      "after": "v0.255",
+      "count": 1
+    },
+    {
+      "before": "function productionStateLabel(q,readPower=powered)",
+      "after": "function productionWaitingExplanation(q){if(!state.started||state.result||!state.queue.includes(q)||activeProductionFactory(q))return'';let factories=structures(0,'factory'),complete=factories.filter(e=>!e.build),busy=new Set(state.queue.filter(order=>activeProductionFactory(order)).map(order=>order.factoryId)),reason=!factories.length?'没有存活工厂，请建造工厂':!complete.length?'工厂建设中，等待完工':complete.every(e=>busy.has(e.id))?'已完工工厂均占用，等待空闲':'等待分配可用工厂';return' · '+reason+'；已付费用及已有进度保留'}\nfunction productionStateLabel(q,readPower=powered)",
+      "count": 1
+    },
+    {
+      "before": "prefix+' · '+productionStateLabel(q,readOrderPower)+(q.left>0?",
+      "after": "prefix+' · '+productionStateLabel(q,readOrderPower)+productionWaitingExplanation(q)+(q.left>0?",
+      "count": 1
+    }
+  ]
+}
