@@ -159,7 +159,7 @@ function pair(seed) {
 }
 
 try {
-  const restored = require('./restore-v263.cjs')(sourceBefore.toString('utf8'));
+  const restored = (sourceText=>require('./restore-v263.cjs')(sourceText.includes('ORIGINAL RTS / v0.271')?require('./restore-v270.cjs')(sourceText):sourceText))(sourceBefore.toString('utf8'));
   assert.equal(digest(restored), baselineHash, 'restored baseline is exact shipped v263');
   fs.writeFileSync(baseline, restored);
 

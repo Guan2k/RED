@@ -1,0 +1,71 @@
+'use strict';
+// Full healthy focused suite first, then exact old-source and single-boundary mutants.
+// A control counts only the named test/stage/invariant ERR_ASSERTION, never setup failure.
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),os=require('node:os'),crypto=require('node:crypto'),{spawnSync}=require('node:child_process');
+const source=path.join(__dirname,'../index.html'),focused=path.join(__dirname,'attack-pressed.cjs'),restore=require('./restore-v270.cjs');
+const SOURCE_HASH='7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b',BASELINE_HASH='5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d';
+const html=fs.readFileSync(source,'utf8'),hash=x=>crypto.createHash('sha256').update(x).digest('hex'),COUNT=42;
+const dir=fs.mkdtempSync(path.join(os.tmpdir(),'red-attack-pressed-negative-')),file=path.join(dir,'index.html');
+function run(text){fs.writeFileSync(file,text);const p=spawnSync(process.execPath,[focused,file,hash(text)],{encoding:'utf8',maxBuffer:16*1024*1024,timeout:120000});if(p.error)throw p.error;assert.equal(p.signal,null,'focused runner must exit normally');let report;try{report=JSON.parse(p.stdout)}catch(error){throw new Error('Focused runner did not emit JSON: '+p.stderr+'\n'+p.stdout,{cause:error})}assert.equal(report.results.length,COUNT,'every named fixture must execute');assert.equal(report.results.filter(r=>r.passed).length,report.passed);assert.equal(report.results.filter(r=>!r.passed).length,report.failed);assert.equal(report.passed+report.failed,COUNT);assert.equal(report.testedSourceSha256,hash(text));assert.equal(report.referenceSourceSha256,BASELINE_HASH);return{status:p.status,report}}
+const target=(test,stage,invariant)=>({test,stage,invariant}),aria=(test,stage)=>target(test,stage,'aria_pressed_matches_actual_mode');
+const click='click toggles true then false without changing world',initial='initial menu false and disabled with stale handler no-op',dialog='restart dialog and cancel button retain true while disabled only in dialog',pause='pause and resume preserve actual armed mode';
+const extra=mode=>'extra updateUI and canvas render preserve world orders economy and input '+mode;
+const SETTER="$('attack').setAttribute('aria-pressed',String(attackMode));";
+const mutation=(name,before,after,...targets)=>({name,before,after,targets});
+const replaceSetter=(name,after,...targets)=>mutation(name,SETTER,after,...targets);
+const controls=[
+ {name:'exact restored v270 lacks pressed semantics',old:true,targets:[target('static attack button declares false before script execution','markup','static_button_pressed_false'),aria(initial,'initial'),aria(click,'first_click'),aria('A shortcut toggles true then false','first_key')]},
+ mutation('omit static initial aria-pressed','<button id="attack" aria-pressed="false">','<button id="attack">',target('static attack button declares false before script execution','markup','static_button_pressed_false')),
+ mutation('incorrect static initial true','<button id="attack" aria-pressed="false">','<button id="attack" aria-pressed="true">',target('static attack button declares false before script execution','markup','static_button_pressed_false')),
+ replaceSetter('omit runtime pressed synchronization','',aria(click,'first_click')),
+ replaceSetter('hardcode runtime false',"$('attack').setAttribute('aria-pressed','false');",aria(click,'first_click')),
+ replaceSetter('hardcode runtime true',"$('attack').setAttribute('aria-pressed','true');",aria(initial,'initial')),
+ replaceSetter('invert actual mode',"$('attack').setAttribute('aria-pressed',String(!attackMode));",aria(initial,'initial')),
+ replaceSetter('write aria-selected instead of aria-pressed',"$('attack').setAttribute('aria-selected',String(attackMode));",aria(click,'first_click')),
+ replaceSetter('report false when commandBlocked despite retained true',"$('attack').setAttribute('aria-pressed',String(attackMode&&!commandBlocked()));",aria(dialog,'dialog'),aria('synthetic terminal keeps actual true while disabled','blocked_render'),aria('synthetic not started keeps actual true while disabled','blocked_render')),
+ replaceSetter('report false while paused despite retained true',"$('attack').setAttribute('aria-pressed',String(attackMode&&!state.paused));",aria(pause,'paused')),
+ replaceSetter('incorrectly require selection to report true',"$('attack').setAttribute('aria-pressed',String(attackMode&&selection.size>0));",aria('attack can remain armed without a selection','no_selection')),
+ replaceSetter('clear actual mode during blocked rendering','if(commandBlocked())attackMode=false;'+SETTER,target(dialog,'dialog','attack_mode'),target('synthetic terminal keeps actual true while disabled','blocked_render','attack_mode')),
+ replaceSetter('clear actual mode during paused rendering','if(state.paused)attackMode=false;'+SETTER,target(pause,'paused','attack_mode')),
+ replaceSetter('debit economy while synchronizing pressed state',SETTER+'state.cash--;',target(click,'first_click','world_unchanged'),target(extra(true),'render','world_orders_economy_unchanged')),
+ replaceSetter('change paid order while synchronizing pressed state',SETTER+'if(state.queue.length)state.queue[0].left++;',target(extra(true),'render','world_orders_economy_unchanged')),
+ replaceSetter('replace queue identity despite identical serialized orders',SETTER+'state.queue=state.queue.slice();',target(extra(true),'render','world_references_preserved')),
+ replaceSetter('change pointer input while synchronizing pressed state',SETTER+'mouse={x:mouse.x+1,y:mouse.y};',target(extra(true),'render','input_unchanged')),
+ replaceSetter('change unrelated attack DOM attribute',SETTER+"$('attack').setAttribute('aria-label','unexpected label');",target(initial,'initial','whole_modeled_dom_matches_v270_except_attack_pressed')),
+ replaceSetter('change fixed label during pressed synchronization',SETTER+"$('attack').textContent='unexpected label';",target(initial,'initial','whole_modeled_dom_matches_v270_except_attack_pressed')),
+ mutation('omit click render synchronization',"$('attack').onclick=()=>{if(commandBlocked())return;clearOrdinaryCommand();attackMode=!attackMode;placement=null;drag=null;updateUI()}","$('attack').onclick=()=>{if(commandBlocked())return;clearOrdinaryCommand();attackMode=!attackMode;placement=null;drag=null}",aria(click,'first_click')),
+ mutation('drop A shortcut activation',"if(e.key.toLowerCase()==='a')$('attack').click();","if(e.key.toLowerCase()==='a'){};",target('A shortcut toggles true then false','first_key','attack_mode')),
+ mutation('Escape leaves actual attack armed','cancelRestart();placement=null;attackMode=false;drag=null;clearOrdinaryCommand()','cancelRestart();placement=null;drag=null;clearOrdinaryCommand()',target('exit attack through Escape','exit','attack_mode')),
+ mutation('cancelPending omits render synchronization','function cancelPendingSelection(){if(commandBlocked()||!(placement||attackMode||ordinaryCommandMode||appendCommandMode||drag))return;resetSelectionClicks();placement=null;attackMode=false;drag=null;clearOrdinaryCommand();updateUI()}','function cancelPendingSelection(){if(commandBlocked()||!(placement||attackMode||ordinaryCommandMode||appendCommandMode||drag))return;resetSelectionClicks();placement=null;attackMode=false;drag=null;clearOrdinaryCommand()}',aria('exit attack through cancelPending','exit')),
+ mutation('build activation omits render synchronization',"tell('选择基地附近空地放置'+defs[placement].name);updateUI()","tell('选择基地附近空地放置'+defs[placement].name)",aria('exit attack through build','exit')),
+ mutation('ordinary activation omits render synchronization','function armOrdinaryCommand(){if(ordinaryCommandReason())return;resetSelectionClicks();placement=null;attackMode=false;drag=null;ordinaryCommandMode=true;updateUI()}','function armOrdinaryCommand(){if(ordinaryCommandReason())return;resetSelectionClicks();placement=null;attackMode=false;drag=null;ordinaryCommandMode=true}',aria('exit attack through ordinary','exit')),
+ mutation('append activation omits render synchronization','function armAppendCommand(){if(appendCommandReason())return;resetSelectionClicks();placement=null;attackMode=false;drag=null;appendCommandMode=true;updateUI()}','function armAppendCommand(){if(appendCommandReason())return;resetSelectionClicks();placement=null;attackMode=false;drag=null;appendCommandMode=true}',aria('exit attack through append','exit')),
+ mutation('selection leaves actual attack armed',"$('selectArmy').onclick=()=>{if(commandBlocked())return;resetSelectionClicks();selection=new Set(state.entities.filter(e=>e.team===0&&defs[e.type].speed&&e.type!=='harvester').map(e=>e.id));placement=null;attackMode=false;drag=null;clearOrdinaryCommand();updateUI()}","$('selectArmy').onclick=()=>{if(commandBlocked())return;resetSelectionClicks();selection=new Set(state.entities.filter(e=>e.team===0&&defs[e.type].speed&&e.type!=='harvester').map(e=>e.id));placement=null;drag=null;clearOrdinaryCommand();updateUI()}",target('exit attack through selection','exit','attack_mode')),
+ mutation('stop leaves actual attack armed','attackMode=false;updateUI();showStopCommandReceipt(receipt)','updateUI();showStopCommandReceipt(receipt)',target('exit attack through stop','exit','attack_mode')),
+ mutation('restart incorrectly clears retained attack mode','resumeAfterCancel=state.paused;restartPrompt=true;','resumeAfterCancel=state.paused;attackMode=false;restartPrompt=true;',target(dialog,'dialog','attack_mode')),
+ mutation('window blur incorrectly clears retained attack mode',"window.addEventListener('blur',()=>{let ordinaryPending","window.addEventListener('blur',()=>{attackMode=false;let ordinaryPending",target('window blur preserves actual mode true','blur','attack_mode')),
+ mutation('reset fails to clear armed attack mode','selection.clear();placement=null;attackMode=false;state=','selection.clear();placement=null;state=',target('synthetic direct reset clears armed mode false','reset','attack_mode'),target('new start after restart resets armed mode false','new_start','attack_mode')),
+ mutation('primary pointer silently issues ordinary move','if(attackMode){issue(mouse,true);return}','if(attackMode){issue(mouse,false);return}',target('primary map handler issues ground attack then existing refresh reflects false','pointer','attack_order_issued')),
+ mutation('primary pointer introduces an unrelated immediate refresh','if(attackMode){issue(mouse,true);return}','if(attackMode){issue(mouse,true);updateUI();return}',target('primary map handler issues ground attack then existing refresh reflects false','pointer','attribute_waits_for_existing_refresh'))
+];
+try{
+ assert.equal(hash(html),SOURCE_HASH,'frozen packaged source');
+ const healthy=run(html);assert.equal(healthy.status,0,'healthy runner exit');assert.equal(healthy.report.failed,0,'healthy runner failures');assert.equal(healthy.report.passed,COUNT,'healthy full focused prerequisite');
+ const names=healthy.report.results.map(r=>r.name);assert.equal(new Set(names).size,COUNT,'unique healthy names');
+ const results=[];
+ for(const control of controls){const record={name:control.name,expectedTargets:control.targets,detected:false};try{
+  for(const t of control.targets)assert.equal(healthy.report.results.find(r=>r.name===t.test)?.passed,true,'healthy named target: '+t.test);
+  let changed;
+  if(control.old){changed=restore(html);assert.equal(hash(changed),BASELINE_HASH);record.boundary={kind:'exact restored v270',sourceSha256:BASELINE_HASH}}
+  else{assert.equal(html.split(control.before).length-1,1,control.name+' unique source boundary');assert.notEqual(control.before,control.after,control.name+' changes source');changed=html.replace(control.before,control.after);record.boundary={before:control.before,after:control.after,count:1}}
+  assert.notEqual(hash(changed),SOURCE_HASH);const tested=run(changed);assert.equal(tested.status,1,control.name+' must fail focused suite');assert.deepEqual(tested.report.results.map(r=>r.name),names,'full same ordered fixture list');
+  assert.equal(tested.report.results.find(r=>r.name==='source identity')?.passed,true,'mutant source identity accepted explicitly');
+  assert.equal(tested.report.results.find(r=>r.name==='packaged exact three-boundary delta and restoration guards')?.passed,true,'frozen package and reference proof remains healthy');
+  for(const r of tested.report.results.filter(r=>!r.passed)){assert.equal(r.failure?.code,'ERR_ASSERTION',control.name+' reject runtime/setup exception: '+r.name);assert.notEqual(r.failure.stage,'setup',control.name+' reject setup assertion: '+r.name);assert.ok(r.failure.stage&&r.failure.invariant,'every failure must name its stage and invariant')}
+  for(const t of control.targets){const r=tested.report.results.find(r=>r.name===t.test);assert.equal(r?.passed,false,control.name+' exact named fixture '+t.test);assert.deepEqual(r.failure,{stage:t.stage,invariant:t.invariant,code:'ERR_ASSERTION'},control.name+' exact named assertion '+t.test)}
+  record.detected=true;record.mutatedSourceSha256=hash(changed);record.focusedFailures=tested.report.failed;record.failures=tested.report.results.filter(r=>!r.passed).map(r=>({test:r.name,...r.failure}));
+ }catch(error){record.error=error.stack}results.push(record)}
+ assert.equal(hash(fs.readFileSync(source)),SOURCE_HASH,'packaged product source unchanged');
+ const failed=results.filter(r=>!r.detected).length;
+ console.log(JSON.stringify({passed:results.length-failed,failed,healthyPassed:healthy.report.passed,healthyAssertions:healthy.report.assertions,healthyPairedCheckpoints:healthy.report.pairedCheckpoints,sourceSha256:SOURCE_HASH,referenceSourceSha256:BASELINE_HASH,targetAssertions:results.filter(r=>r.detected).reduce((n,r)=>n+r.expectedTargets.length,0),results,scope:'Full healthy 42-case focused prerequisite, exact restored v270 old-fails control, and single-unique-boundary temporary mutants. Every fixture executes for every control. Exact named stage/invariant ERR_ASSERTION required; setup/runtime failures rejected. Synthetic Node VM / modeled DOM, no browser/screen-reader/native-event fidelity, no save/load/import/export actions, network or Codex CLI.'},null,2));if(failed)process.exitCode=1;
+}finally{fs.rmSync(dir,{recursive:true,force:true})}

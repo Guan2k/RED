@@ -6,7 +6,7 @@ const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),cryp
 const {loadGame}=require('./vm-environment.cjs');
 let assertions=0;
 const assert=Object.fromEntries(['ok','equal','deepEqual'].map(name=>[name,(...args)=>{assertions++;return nodeAssert[name](...args);} ]));
-const SOURCE_HASH='5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d';
+const SOURCE_HASH='7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b';
 const BASELINE_HASH='b2cdc69c32887afd4887e0eb642af694b317de378f8dab6ce509b1b882167c12';
 const source=path.resolve(process.argv[2]||path.join(__dirname,'../index.html'));
 const evidenceDirectory=process.argv[3]?path.resolve(process.argv[3]):null;
@@ -260,8 +260,8 @@ function runCase(spec) {
 
 try {
   const html=fs.readFileSync(source,'utf8');sourceHashBefore=digest(html);
-  assert.equal(sourceHashBefore,SOURCE_HASH,'exact frozen v270 source');
-  const restored=require('./restore-v269.cjs')(html);assert.equal(digest(restored),BASELINE_HASH,'exact published v269 baseline');
+  assert.equal(sourceHashBefore,SOURCE_HASH,'exact frozen v271 source');
+  const restored=(sourceText=>require('./restore-v269.cjs')(sourceText.includes('ORIGINAL RTS / v0.271')?require('./restore-v270.cjs')(sourceText):sourceText))(html);assert.equal(digest(restored),BASELINE_HASH,'exact published v269 baseline');
   fs.writeFileSync(baseline,restored);
   for(const spec of [
     {name:'running_paid_different_types_and_caps_clear_ordinary_pending',paidTypes:['tank','scout'],pending:'ordinaryCommand',retype:false},

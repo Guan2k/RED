@@ -1,5 +1,5 @@
 'use strict';
-const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),assert=require('node:assert/strict'),{loadGame}=require('./vm-environment.cjs'),restore=require('./restore-v256.cjs');
+const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),assert=require('node:assert/strict'),{loadGame}=require('./vm-environment.cjs'),restore=(sourceText=>require('./restore-v256.cjs')(sourceText.includes('ORIGINAL RTS / v0.271')?require('./restore-v270.cjs')(sourceText):sourceText));
 function runScene(source){
 const g=loadGame(source,{seed:255});g.element('difficulty').value='easy';g.element('objective').value='stronghold';g.start();const events=[],states=[];
 g.run('selection=new Set([6,7,8]);issue({x:600,y:400});toggleArrivalHold()');

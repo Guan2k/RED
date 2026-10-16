@@ -1,0 +1,5 @@
+'use strict';
+// Exact source-only v0.271 reversal. Never loads a game or touches stored data.
+const assert=require('node:assert/strict'),crypto=require('node:crypto');
+const changes=[{"before":"v0.270","after":"v0.271","count":1},{"before":"<button id=\"attack\">","after":"<button id=\"attack\" aria-pressed=\"false\">","count":1},{"before":"$('attack').style.borderColor=attackMode?'#f4cf81':'';","after":"$('attack').setAttribute('aria-pressed',String(attackMode));$('attack').style.borderColor=attackMode?'#f4cf81':'';","count":1}];
+module.exports=function(html){assert.equal(crypto.createHash('sha256').update(html).digest('hex'),'7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b','exact v271 source hash');for(const {before,after,count}of [...changes].reverse()){assert.equal(html.split(after).length-1,count,'exact v271 attack-pressed boundary');html=html.split(after).join(before)}assert.equal(crypto.createHash('sha256').update(html).digest('hex'),'5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d','exact restored v270 hash');return html};
