@@ -14,6 +14,8 @@ function run(script, args, label) {
 }
 let temporary;
 try {
+  run('production-mode-natural.cjs', [source], 'Current v0.263 legal paid-production mode matrix');
+  run('production-mode-negative-control.cjs', [], 'Paid-production mode behavioral mutation controls');
   run('attack-tail.cjs', [source], 'Current v0.263 queued attack tail undo');
   run('attack-tail-negative-control.cjs', [], 'Exact v0.262 attack-tail negative controls');
   run('attack-tail-natural.cjs', [], 'Natural attack queue undo paired with v0.262');
