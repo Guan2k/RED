@@ -14,6 +14,9 @@ function run(script, args, label) {
 }
 let temporary;
 try {
+  run('factory-spawn-check.cjs', [source], 'Current v0.260 manual factory spawn check');
+  run('factory-spawn-check-negative-control.cjs', [], 'Exact v0.259 spawn-check negative controls');
+  run('factory-spawn-check-natural.cjs', [], 'Natural paid blocked-factory release paired with v0.259');
   run('ground-destination.cjs', [source], 'Current v0.259 single ground destination');
   run('ground-destination-negative-control.cjs', [], 'Exact v0.258 destination negative controls');
   run('ground-destination-natural.cjs', [], 'Natural ground destination and arrival paired with v0.258');

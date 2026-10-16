@@ -1,0 +1,25 @@
+{
+  "htmlSha256": "5c0b334334d3d06ddf9c4c162a375a0672c4affc208b96afddc8760e36f4f5a9",
+  "changes": [
+    {
+      "before": "ORIGINAL RTS / v0.259",
+      "after": "ORIGINAL RTS / v0.260",
+      "count": 1
+    },
+    {
+      "before": "<div id=\"factoryExitSelectionRow\" hidden>",
+      "after": "<div id=\"factorySpawnCheckRow\" hidden><div class=\"mini\"><button id=\"checkFactorySpawn\" type=\"button\" aria-describedby=\"factorySpawnCheckStatus\" disabled>检查本厂出厂空间</button></div><div class=\"hint\" id=\"factorySpawnCheckStatus\" style=\"white-space:pre-line;overflow-wrap:anywhere\" aria-live=\"off\"></div></div><div id=\"factoryExitSelectionRow\" hidden>",
+      "count": 1
+    },
+    {
+      "before": "function factoryExitSelectionContext(){",
+      "after": "let factorySpawnSnapshot=null;\nfunction factorySpawnCheckFactory(){if(selection.size!==1)return null;let e=get(selection.values().next().value);return e&&e.team===0&&e.type==='factory'&&!e.build?e:null}\nfunction updateFactorySpawnCheck(){let factory=factorySpawnCheckFactory(),blocked=commandBlocked();if(!factory||blocked||factorySpawnSnapshot&&(factorySpawnSnapshot.battle!==state||factorySpawnSnapshot.factory!==factory))factorySpawnSnapshot=null;setReadonlyPanelProperty($('factorySpawnCheckRow'),'hidden',!factory);setReadonlyPanelProperty($('checkFactorySpawn'),'disabled',!factory||blocked);let snapshot=factorySpawnSnapshot,lines=snapshot?['本厂出厂空间检查快照 · 工厂 #'+factory.id+' · 检查时坐标 X '+Math.round(snapshot.x)+' · Y '+Math.round(snapshot.y),'检查时游戏时间 '+snapshot.at.toFixed(2)+' 秒'+(snapshot.paused?'（当时暂停）':''),...snapshot.results.map(row=>defs[row.type].name+'：'+(row.point?'有开放候选点（X '+Math.round(row.point.x)+' · Y '+Math.round(row.point.y)+'）':'暂无开放候选点')),'坐标四舍五入；结果不会自动刷新。移动或建造后请重新检查。','仅检查当时出厂空间，不检查资金、电力或排产；不保证完工时能出厂或后续道路畅通。']:[blocked?'当前不能检查：尚未开战、重开菜单或战局结束。':'点击检查五种车型的当前出厂空间；只读，不下单或移动车辆。'];setReadonlyPanelProperty($('factorySpawnCheckStatus'),'textContent',lines.join('\\n'))}\nfunction checkFactorySpawn(){let factory=factorySpawnCheckFactory();if(!factory||commandBlocked()){updateFactorySpawnCheck();return false}let results=['tank','scout','artillery','repair','harvester'].map(type=>{let p=spawnPosition(factory,type,0);return{type,point:p?{x:p.x,y:p.y}:null}});factorySpawnSnapshot={battle:state,factory,x:factory.x,y:factory.y,at:state.t,paused:state.paused,results};updateFactorySpawnCheck();return true}\n$('checkFactorySpawn').onclick=checkFactorySpawn;$('checkFactorySpawn').onkeydown=e=>{if(e.key==='Enter'&&e.repeat&&!e.isComposing&&e.keyCode!==229)e.preventDefault()};\nfunction factoryExitSelectionContext(){",
+      "count": 1
+    },
+    {
+      "before": "function updateUI(){updateRepairWorkOverview();",
+      "after": "function updateUI(){updateFactorySpawnCheck();updateRepairWorkOverview();",
+      "count": 1
+    }
+  ]
+}
