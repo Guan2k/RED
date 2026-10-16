@@ -46,8 +46,8 @@ let comparisons = 0, exactReferenceChecks = 0, inertEventChecks = 0;
 let simulationSteps = 0, paidOrders = 0, restartCycles = 0;
 try {
   const html = fs.readFileSync(source, 'utf8');
-  assert.equal(hash(html), SOURCE_HASH, 'frozen v266 source');
-  const oldHtml = require('./restore-v265.cjs')(html);
+  assert.ok([SOURCE_HASH, '503e3f342952646f1b81f0b17bcc4d8b54a2ca4b97ed68bfc2644a991ec8bda9'].includes(hash(html)), 'frozen v266/v267 source');
+  const oldHtml = require('./restore-v265.cjs')(hash(html) === SOURCE_HASH ? html : require('./restore-v266.cjs')(html));
   assert.equal(hash(oldHtml), BASE_HASH, 'byte-exact published v265 reference');
   fs.writeFileSync(baseline, oldHtml);
   for (const gesture of gestures) for (const phase of ['pending','consumed']) {
@@ -261,8 +261,8 @@ try {
       freshOrdinaryAndAppendAccepted:true,staleReleaseClickRepeatRejected:true,
       normalization:'Only verified retired ordinary/append token .battle: actual old state in v265, null in v266'});
   }
-  assert.equal(hash(fs.readFileSync(source)),SOURCE_HASH,'candidate source remains frozen');
-  console.log(JSON.stringify({passed:results.length,failed:0,sourceSha256:SOURCE_HASH,referenceSha256:BASE_HASH,
+  assert.equal(hash(fs.readFileSync(source)),hash(html),'candidate source remains frozen');
+  console.log(JSON.stringify({passed:results.length,failed:0,sourceSha256:hash(html),referenceSha256:BASE_HASH,
     comparisons,exactReferenceChecks,inertEventChecks,restartCycles,paidOrders,simulationSteps,results,
     scope:'Six legal UI-only whole-source VM pairs: pointer/Enter/Space x pending/consumed. Two setup restarts establish tokens for distinct real outgoing battles, followed by 20 retention restart/start cycles per pair. Full state/economy/logs, selection, pending input and control values match at every event and fixed step after only exact, identity-checked retired token .battle normalization. Actual paid orders, stale release/click/repeat rejection, held map gesture cancellation, and fresh ordinary/append commands with bounded natural movement are checked. No world injection, factory fixture, direct finish, save/import/export action, native browser, heap/GC or speed claim. Startup/menu read-only save-status UI is unchanged; storage stays empty.'},null,2));
 } finally {
