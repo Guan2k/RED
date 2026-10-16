@@ -1,0 +1,20 @@
+{
+  "htmlSha256": "55258c0136931b7c1848f4c1d37bc452e1338eb20e077278f661a68c26112327",
+  "changes": [
+    {
+      "before": "ORIGINAL RTS / v0.258",
+      "after": "ORIGINAL RTS / v0.259",
+      "count": 1
+    },
+    {
+      "before": "function selectedGroundMovementSummary(selected){",
+      "after": "function selectedGroundDestinationSummary(selected){if(!state.started||state.result||selected.length!==1)return'';let e=selected[0],p=e?.goal;if(!p||!Number.isFinite(p.x)||!Number.isFinite(p.y)||p.x<0||p.x>WIDTH||p.y<0||p.y>HEIGHT)return'';let mode=groundMovementOrderMode(e);if(!mode)return'';return'\\n'+(restartPrompt?'重开菜单快照':state.paused?'暂停快照':'当前地面命令')+'：'+(mode==='ordinary'?'普通移动':'攻击移动')+' · 当前目的地 X '+Math.round(p.x)+' · Y '+Math.round(p.y)+'（四舍五入）'+(e.moveQueue?'；仅当前路段':'')+'；不代表正在位移或已抵达'}\nfunction selectedGroundMovementSummary(selected){",
+      "count": 1
+    },
+    {
+      "before": "selectionDescription(selected)+selectedCombatSummary(selected)",
+      "after": "selectionDescription(selected)+selectedGroundDestinationSummary(selected)+selectedCombatSummary(selected)",
+      "count": 1
+    }
+  ]
+}

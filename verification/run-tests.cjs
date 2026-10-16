@@ -14,6 +14,9 @@ function run(script, args, label) {
 }
 let temporary;
 try {
+  run('ground-destination.cjs', [source], 'Current v0.259 single ground destination');
+  run('ground-destination-negative-control.cjs', [], 'Exact v0.258 destination negative controls');
+  run('ground-destination-natural.cjs', [], 'Natural ground destination and arrival paired with v0.258');
   run('mining-arrangement.cjs', [source], 'Current v0.258 single-miner arrangement');
   run('mining-arrangement-negative-control.cjs', [], 'Exact v0.257 mining-arrangement negative controls');
   run('mining-arrangement-natural.cjs', [], 'Natural mining-command matrix paired with v0.257');
