@@ -1,0 +1,20 @@
+{
+  "htmlSha256": "4fb813f3a9ee36646a89308216f262e5f9c7834c3b69d31c69993bcbea9ada56",
+  "changes": [
+    {
+      "before": "v0.255",
+      "after": "v0.256",
+      "count": 1
+    },
+    {
+      "before": "function updatePosts(dt){",
+      "after": "function postCaptureNotice(p,previousOwner){let label='据点 '+(state.posts.indexOf(p)+1)+'（'+Math.round(p.x)+','+Math.round(p.y)+'）';return p.owner===0?(previousOwner===1?'已夺取敌方':'已占领中立')+label+'：有效控制时每10秒+30资金':previousOwner===0?'警报：我方'+label+'失守，已被敌军夺取':'警报：敌军占领中立'+label}\nfunction updatePosts(dt){",
+      "count": 1
+    },
+    {
+      "before": "tell(side===0?'中立据点已控制：每10秒获得30资金':'警报：敌军占领一处据点')",
+      "after": "tell(postCaptureNotice(p,previousOwner))",
+      "count": 1
+    }
+  ]
+}
