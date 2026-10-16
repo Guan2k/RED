@@ -1,0 +1,15 @@
+{
+  "htmlSha256": "e23490d3cd5a15a0f2a50a6068914aa4b19b4fa31fa029a995157e6d84a262ca",
+  "changes": [
+    {
+      "before": "v0.248",
+      "after": "v0.249",
+      "count": 1
+    },
+    {
+      "before": "if(o)state.entities.filter(x=>x.team===0&&x.type===o.type).forEach(x=>selection.add(x.id))",
+      "after": "if(o){state.entities.filter(x=>x.team===0&&x.type===o.type).forEach(x=>selection.add(x.id));updateUI()}",
+      "count": 1
+    }
+  ]
+}
