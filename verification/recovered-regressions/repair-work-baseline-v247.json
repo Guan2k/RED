@@ -1,0 +1,35 @@
+{
+  "htmlSha256": "5961f53db3597c9e0b63d7ab221ba052941549fe17ad66a78afe27ed7263c017",
+  "changes": [
+    {
+      "before": "v0.247",
+      "after": "v0.248",
+      "count": 1
+    },
+    {
+      "before": "<div id=\"alertMinerRow\"",
+      "after": "<details id=\"repairWorkDetails\" class=\"controls-help\"><summary>维修车工作检查与选择</summary><p id=\"repairWorkSummary\" class=\"hint\" aria-live=\"off\" style=\"color:var(--gold);white-space:pre-line\"></p><button id=\"refreshRepairWork\" type=\"button\" style=\"width:100%;white-space:normal\">刷新维修车检查</button><label for=\"repairWorkReason\" class=\"hint\">选择检查原因</label><select id=\"repairWorkReason\" aria-describedby=\"repairWorkHelp\" style=\"width:100%;max-width:100%\"><option value=\"off\">关闭</option><option value=\"cooldown\">冷却</option><option value=\"noTarget\">无目标</option><option value=\"noCash\">资金不足</option><option value=\"candidate\">有候选</option></select><button id=\"selectRepairWorkReason\" type=\"button\" style=\"width:100%;white-space:normal\" aria-describedby=\"repairWorkHelp\" disabled>选择这类维修车</button><p id=\"repairWorkStatus\" class=\"hint\" role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></p><p id=\"repairWorkHelp\" class=\"hint\">全图己方存活、已完工维修车。仅展开或显式刷新时检查；选择时重新检查，零匹配保留原选区和待点选。按关闭→冷却→无目标→资金不足→有候选归类，并非维修执行分支的精确模拟。有候选不代表正在维修；移动和其他维修车会改变结果。仅选择并退出待点选，不改变命令、维修开关、资金或编队。暂停可排查；未开战、重开确认、终局只读。</p></details><div id=\"alertMinerRow\"",
+      "count": 1
+    },
+    {
+      "before": "function repairReserveStatus()",
+      "after": "// Repair diagnostics are explicit snapshots; never retain or mutate entity objects.\nconst repairWorkLabels={off:'关闭',cooldown:'冷却',noTarget:'无目标',noCash:'资金不足',candidate:'有候选'};\nlet repairWorkSnapshot=null;\nfunction repairWorkReason(e){if(!e||e.team!==0||e.type!=='repair'||!(e.hp>0)||e.build)return null;if(e.repairEnabled===false)return 'off';if(e.cool>0)return 'cooldown';if(!chooseRepairTarget(e,get(e.escortId)))return 'noTarget';if(automaticRepairCash(e.team)<1)return 'noCash';return 'candidate'}\nfunction repairFleetWork(){let counts=Object.fromEntries(Object.keys(repairWorkLabels).map(k=>[k,0])),ids=Object.fromEntries(Object.keys(repairWorkLabels).map(k=>[k,[]])),total=0;for(let e of state.entities){let reason=repairWorkReason(e);if(reason===null)continue;counts[reason]++;ids[reason].push(e.id);total++}return {total,counts,ids}}\nfunction clearRepairWorkSnapshot(){repairWorkSnapshot=null;$('repairWorkStatus').textContent=''}\nfunction repairWorkLimitation(){return !state.started?'尚未开战 · 只读':state.result?'战局结束 · 只读':restartPrompt?'重开确认中 · 只读':state.paused?'模拟暂停 · 可排查和选择，不会执行维修':'模拟运行中 · 候选不代表正在维修'}\nfunction updateRepairWorkOverview(){let snapshot=repairWorkSnapshot;setReadonlyPanelProperty($('repairWorkSummary'),'textContent',repairWorkLimitation()+'\\n'+(snapshot?'检查快照：游戏 '+snapshot.time.toFixed(1)+' 秒 · '+snapshot.checkedAt+' · 己方维修车共 '+snapshot.total+' 辆\\n'+Object.entries(repairWorkLabels).map(([key,label])=>label+' '+snapshot.counts[key]).join(' · ')+'\\n快照不会随状态变化更新；请刷新或点击选择重新检查。':'尚无检查快照；展开或点击刷新。'));setReadonlyPanelProperty($('selectRepairWorkReason'),'disabled',commandBlocked()||!Object.hasOwn(repairWorkLabels,$('repairWorkReason').value))}\nfunction refreshRepairWorkSnapshot(){repairWorkSnapshot={...repairFleetWork(),time:state.t,checkedAt:new Date().toLocaleTimeString()};updateRepairWorkOverview();return repairWorkSnapshot}\nfunction selectRepairWorkReason(){if(commandBlocked())return;let key=$('repairWorkReason').value;if(!Object.hasOwn(repairWorkLabels,key))return;let snapshot=refreshRepairWorkSnapshot(),ids=snapshot.ids[key];if(ids.length){resetSelectionClicks();selection=new Set(ids);placement=null;attackMode=false;drag=null;clearOrdinaryCommand()}updateUI();$('repairWorkStatus').textContent=ids.length?'已选择 '+ids.length+' 辆「'+repairWorkLabels[key]+'」维修车；原命令保持，候选不代表正在维修。':'当前没有「'+repairWorkLabels[key]+'」维修车；保留原选区和待点选。'}\n$('repairWorkDetails').ontoggle=()=>{if($('repairWorkDetails').open)refreshRepairWorkSnapshot()};\n$('refreshRepairWork').onclick=()=>{refreshRepairWorkSnapshot();$('repairWorkStatus').textContent='已刷新检查快照；候选不代表正在维修。'};\n$('selectRepairWorkReason').onclick=selectRepairWorkReason;\n$('repairWorkReason').onchange=()=>{$('repairWorkStatus').textContent='';updateRepairWorkOverview()};\nfunction repairReserveStatus()",
+      "count": 1
+    },
+    {
+      "before": "function reset(){clearOrdinaryCommand();",
+      "after": "function reset(){clearRepairWorkSnapshot();clearOrdinaryCommand();",
+      "count": 1
+    },
+    {
+      "before": "clearBattleReportExport();trafficCoordination.clear('load');",
+      "after": "clearBattleReportExport();clearRepairWorkSnapshot();trafficCoordination.clear('load');",
+      "count": 1
+    },
+    {
+      "before": "function updateUI(){updateOrdinaryCommandControl();",
+      "after": "function updateUI(){updateRepairWorkOverview();updateOrdinaryCommandControl();",
+      "count": 1
+    }
+  ]
+}

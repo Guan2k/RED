@@ -1,0 +1,3 @@
+'use strict';
+const assert=require('node:assert/strict'),crypto=require('node:crypto'),baseline=require('./stop-repeat-baseline-v246.json');
+module.exports=function(html){if(html.includes("ORIGINAL RTS / v0.249"))html=require("./restore-v248.cjs")(html);if(html.includes("ORIGINAL RTS / v0.248"))html=require("./restore-v247.cjs")(html);for(const {before,after,count} of [...baseline.changes].reverse()){assert.equal(html.split(after).length-1,count,'exact v247 stop-repeat boundary');html=html.split(after).join(before)}assert.equal(crypto.createHash('sha256').update(html).digest('hex'),baseline.htmlSha256,'exact restored v246 hash');return html};

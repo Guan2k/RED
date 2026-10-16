@@ -1,0 +1,15 @@
+{
+  "htmlSha256": "302fe014747717a72d68c44e033edcc3e3ed36050a3510bea78d2c4ecfbad379",
+  "changes": [
+    {
+      "before": "ORIGINAL RTS / v0.246",
+      "after": "ORIGINAL RTS / v0.247",
+      "count": 1
+    },
+    {
+      "before": "['h','a','g','p','n','j','o'].includes(e.key.toLowerCase())",
+      "after": "['h','a','g','p','n','j','o','s'].includes(e.key.toLowerCase())",
+      "count": 1
+    }
+  ]
+}
