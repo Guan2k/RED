@@ -14,21 +14,24 @@ function run(script, args, label) {
 }
 let temporary;
 try {
-  run('post-capture.cjs', [source], 'Current v0.256 capture feedback');
+  run('ground-orders.cjs', [source], 'Current v0.257 selected ground commands');
+  run('ground-orders-negative-control.cjs', [], 'Exact v0.256 ground-summary negative controls');
+  run('ground-orders-natural.cjs', [], 'Paired natural lost-point mixed commands');
+  run('post-capture.cjs', [source], 'Current v0.257 capture feedback');
   run('post-capture-negative-control.cjs', [], 'Exact v0.255 capture negative controls');
   run('post-capture-natural.cjs', [], 'Paired natural enemy-point recapture');
-  run('production-waiting.cjs', [source], 'Current v0.256 paid-order wait explanation');
+  run('production-waiting.cjs', [source], 'Current v0.257 paid-order wait explanation');
   run('production-waiting-negative-control.cjs', [], 'Exact v0.254 wait-explanation negative controls');
   run('production-waiting-natural.cjs', [], 'Paired natural factory-loss transfer');
-  run('weakest-selection.cjs', [source], 'Current v0.256 weakest damaged selection');
+  run('weakest-selection.cjs', [source], 'Current v0.257 weakest damaged selection');
   run('weakest-selection-negative-control.cjs', [], 'Exact v0.253 weakest-selection negative controls');
-  run('selection-health.cjs', [source], 'Current v0.256 selection health');
+  run('selection-health.cjs', [source], 'Current v0.257 selection health');
   run('selection-health-negative-control.cjs', [], 'Exact v0.252 health negative controls');
-  run('all-damaged.cjs', [source], 'Current v0.256 all-damaged selection');
+  run('all-damaged.cjs', [source], 'Current v0.257 all-damaged selection');
   run('all-damaged-negative-control.cjs', [], 'Exact v0.251 missing-feature negative control');
   run('pause-negative-control.cjs', [], 'Exact v0.250 pause regression negative control');
-  run('pause-ui.cjs', [source], 'Current v0.256 immediate pause UI regression');
-  run('repair-paused.cjs', [source], 'Current v0.256 inherited paused-repair regression');
+  run('pause-ui.cjs', [source], 'Current v0.257 immediate pause UI regression');
+  run('repair-paused.cjs', [source], 'Current v0.257 inherited paused-repair regression');
   const baseline = require('./restore-v249.cjs')(require('./restore-v250.cjs')(require('./restore-v251.cjs')(require('./restore-v252.cjs')(require('./restore-v253.cjs')(fs.readFileSync(source, 'utf8'))))));
   temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'red-v249-baseline-'));
   const file = path.join(temporary, 'index.html');

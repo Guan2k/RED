@@ -1,0 +1,25 @@
+{
+  "htmlSha256": "12ebdd5bc8eb805b07f2a7207f6441423f1dbca84af1854fd7eca1cec4e01f7a",
+  "changes": [
+    {
+      "before": "v0.256",
+      "after": "v0.257",
+      "count": 1
+    },
+    {
+      "before": "function canHoldOnArrival(e){return !!e&&e.team===0&&e.hp>0&&!e.build&&['tank','scout','artillery'].includes(e.type)&&!!e.goal&&!e.attackQueue&&!e.target&&!e.escortId&&!e.patrol&&!e.guardArea&&!e.hold&&e.attackMove===false}",
+      "after": "function groundMovementOrderMode(e){if(!canSetFirePriority(e)||!e.goal||e.attackQueue||e.target||e.escortId||e.patrol||e.guardArea||e.hold)return'';return e.attackMove===false?'ordinary':e.attackMove===true?'attack':''}\nfunction canHoldOnArrival(e){return groundMovementOrderMode(e)==='ordinary'}",
+      "count": 1
+    },
+    {
+      "before": "function selectedCombatSummary(selected){",
+      "after": "function selectedGroundMovementSummary(selected){if(!state.started||state.result||selected.length<2)return'';let ordinary=0,attack=0;for(let e of selected){if(!Number.isFinite(e?.goal?.x)||!Number.isFinite(e?.goal?.y))continue;let mode=groundMovementOrderMode(e);if(mode==='ordinary')ordinary++;else if(mode==='attack')attack++}if(!ordinary&&!attack)return'';return'\\n'+(restartPrompt?'重开菜单快照':state.paused?'暂停快照':'当前地面命令')+'（所选己方战斗车）：普通移动 '+ordinary+' / 攻击移动 '+attack+'；命令状态，不代表正在位移或已抵达'}\nfunction selectedCombatSummary(selected){",
+      "count": 1
+    },
+    {
+      "before": "+selectedCombatSummary(selected)+selectedCombatHealthSummary(selected)",
+      "after": "+selectedCombatSummary(selected)+selectedGroundMovementSummary(selected)+selectedCombatHealthSummary(selected)",
+      "count": 1
+    }
+  ]
+}
