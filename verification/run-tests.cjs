@@ -14,6 +14,9 @@ function run(script, args, label) {
 }
 let temporary;
 try {
+  run('mining-arrangement.cjs', [source], 'Current v0.258 single-miner arrangement');
+  run('mining-arrangement-negative-control.cjs', [], 'Exact v0.257 mining-arrangement negative controls');
+  run('mining-arrangement-natural.cjs', [], 'Natural mining-command matrix paired with v0.257');
   run('ground-orders.cjs', [source], 'Current v0.257 selected ground commands');
   run('ground-orders-negative-control.cjs', [], 'Exact v0.256 ground-summary negative controls');
   run('ground-orders-natural.cjs', [], 'Paired natural lost-point mixed commands');

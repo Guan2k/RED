@@ -1,0 +1,15 @@
+{
+  "htmlSha256": "eef122aace5af48a0d96e0540548d6f167670f9a232eb3aa8f5e5a221189a2e8",
+  "changes": [
+    {
+      "before": "v0.257",
+      "after": "v0.258",
+      "count": 1
+    },
+    {
+      "before": "if(e.type==='harvester'&&assignedOre(e)?.amount>0)lines.push('指定矿点：剩余 '+Math.ceil(assignedOre(e).amount)+' · S恢复自动选矿');else if(d.speed",
+      "after": "if(e.type==='harvester'&&assignedOre(e)?.amount>0)lines.push('采矿安排：指定矿点 · 剩余 '+Math.ceil(assignedOre(e).amount)+' · S恢复自动选矿');else if(e.type==='harvester'&&e.team===0&&e.hp>0&&!e.build)lines.push('采矿安排：自动选矿'+(e.manual>0&&!state.result?'；手动指令结束后按自动规则采矿':''));else if(d.speed",
+      "count": 1
+    }
+  ]
+}
