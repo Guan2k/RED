@@ -1,0 +1,30 @@
+{
+  "htmlSha256": "7b5ce79f9a53921ad2df4fa27d3e0b59a7c1af8c44e52849c3c65ef69a53d643",
+  "changes": [
+    {
+      "before": "v0.260",
+      "after": "v0.261",
+      "count": 1
+    },
+    {
+      "before": "<div class=\"mini\"><button type=\"button\" id=\"selectMinerFollowers\"",
+      "after": "<div class=\"mini\"><button type=\"button\" id=\"selectEscortTarget\" disabled title=\"单选已完成的己方护航或维修车时，选择它当前有效的护航／跟随目标；不改双方命令或编队，不移动视角。\">选择护航／跟随目标</button></div><div class=\"mini\"><button type=\"button\" id=\"selectMinerFollowers\"",
+      "count": 1
+    },
+    {
+      "before": "function selectMinerFollowers(){",
+      "after": "// Resolve from current selection and live entities on both render and activation; never retain a target handle.\nfunction selectedEscortTarget(){if(selection.size!==1)return null;let owner=get(selection.values().next().value);if(!owner||owner.team!==0||owner.build)return null;let target=escortDisplayTarget(owner);return target&&!target.build?target:null}\nfunction selectEscortTarget(){if(commandBlocked())return;let target=selectedEscortTarget();if(!target)return;resetSelectionClicks();selection=new Set([target.id]);placement=null;attackMode=false;drag=null;clearOrdinaryCommand();updateUI()}\nfunction updateEscortTargetSelection(){let target=selectedEscortTarget(),button=$('selectEscortTarget');setReadonlyPanelProperty(button,'textContent',target?'选择护航／跟随目标 · '+defs[target.type].name+' #'+target.id:'选择护航／跟随目标');setReadonlyPanelProperty(button,'disabled',commandBlocked()||!target)}\nfunction selectMinerFollowers(){",
+      "count": 1
+    },
+    {
+      "before": "updateMinerFollowersSelection(selected);",
+      "after": "updateMinerFollowersSelection(selected);updateEscortTargetSelection();",
+      "count": 1
+    },
+    {
+      "before": "$('selectMinerFollowers').onclick=selectMinerFollowers;",
+      "after": "$('selectMinerFollowers').onclick=selectMinerFollowers;$('selectEscortTarget').onclick=selectEscortTarget;$('selectEscortTarget').onkeydown=e=>{if(e.key==='Enter'&&e.repeat&&!e.isComposing&&e.keyCode!==229)e.preventDefault()};",
+      "count": 1
+    }
+  ]
+}

@@ -1,1 +1,1 @@
-const original=require('./original-restore-v246.cjs');module.exports=html=>original((html.includes('ORIGINAL RTS / v0.258')||(html.includes('ORIGINAL RTS / v0.259')||html.includes('ORIGINAL RTS / v0.260')))?require('./current-source-chain.cjs')(html):html);
+const original=require('./original-restore-v246.cjs');module.exports=html=>original((html.includes('ORIGINAL RTS / v0.258')||(html.includes('ORIGINAL RTS / v0.259')||(html.includes('ORIGINAL RTS / v0.260')||html.includes('ORIGINAL RTS / v0.261'))))?require('./current-source-chain.cjs')(html):html);
