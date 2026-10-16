@@ -14,6 +14,8 @@ function run(script, args, label) {
 }
 let temporary;
 try {
+  run('production-gesture-natural.cjs', [source], 'Current v0.263 natural production gesture identity');
+  run('production-gesture-negative-control.cjs', [], 'Production gesture targeted mutation controls');
   run('production-mode-natural.cjs', [source], 'Current v0.263 legal paid-production mode matrix');
   run('production-mode-negative-control.cjs', [], 'Paid-production mode behavioral mutation controls');
   run('attack-tail.cjs', [source], 'Current v0.263 queued attack tail undo');
