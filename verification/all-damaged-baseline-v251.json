@@ -1,0 +1,30 @@
+{
+  "htmlSha256": "705b06add6e12d677f1472cb84cc29ad7a157650b22d692764fa170bd5ceeaf4",
+  "changes": [
+    {
+      "before": "ORIGINAL RTS / v0.251",
+      "after": "ORIGINAL RTS / v0.252",
+      "count": 1
+    },
+    {
+      "before": "<div class=\"mini\"><button id=\"selectIdle\">",
+      "after": "<div class=\"mini\"><button id=\"selectAllDamagedCombat\" title=\"从全图选择所有受损的存活、已完工己方坦克、侦察车和火炮，含轻伤；只选择，不撤退、不修理，原命令保留。\">选择全部受损战斗车</button></div><div class=\"mini\"><button id=\"selectIdle\">",
+      "count": 1
+    },
+    {
+      "before": "function damagedCombatUnits()",
+      "after": "function allDamagedCombatUnits(){return state.entities.filter(e=>canSetFirePriority(e)&&e.hp<e.max)}\nfunction selectAllDamagedCombat(){if(commandBlocked())return;let units=allDamagedCombatUnits();if(!units.length){tell('当前没有受损战斗车，保留原选择与待点选操作');updateUI();return}resetSelectionClicks();selection=new Set(units.map(e=>e.id));placement=null;attackMode=false;drag=null;clearOrdinaryCommand();tell('已从全图选择 '+units.length+' 辆受损战斗车（含轻伤）；原命令保留，不自动撤退或修理');updateUI()}\nfunction damagedCombatUnits()",
+      "count": 1
+    },
+    {
+      "before": "$('selectDamaged').onclick=selectDamagedCombat;",
+      "after": "$('selectDamaged').onclick=selectDamagedCombat;$('selectAllDamagedCombat').onclick=selectAllDamagedCombat;",
+      "count": 1
+    },
+    {
+      "before": "$('selectDamaged').disabled=commandBlocked()||!damagedCount;",
+      "after": "$('selectDamaged').disabled=commandBlocked()||!damagedCount;let allDamagedCount=allDamagedCombatUnits().length;$('selectAllDamagedCombat').textContent='选择全部受损战斗车 · '+allDamagedCount;$('selectAllDamagedCombat').disabled=commandBlocked()||!allDamagedCount;",
+      "count": 1
+    }
+  ]
+}
