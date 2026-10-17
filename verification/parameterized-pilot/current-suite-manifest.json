@@ -2,7 +2,7 @@
   "schema": 1,
   "candidate": {
     "path": "../../index.html",
-    "sha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f"
+    "sha256": "c67df10f2988f10d2949a5016d5dd453c1714471ff860b9d3f601e31c430ae20"
   },
   "references": {
     "v283": {
@@ -16,66 +16,22 @@
     "v286": {
       "path": "reference-v286.html",
       "sha256": "a96f5586369f9d46ac0c27b1645b25c44f5bd777373b9bf6f568ce1473e4b204"
+    },
+    "v287": {
+      "path": "reference-v287.html",
+      "sha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f"
     }
   },
   "changeFence": {
-    "previous": "v286",
+    "previous": "v287",
     "changes": [
       {
-        "before": "v0.286",
-        "after": "v0.287"
+        "before": "v0.287",
+        "after": "v0.288"
       },
       {
-        "before": "cell.textContent=battleReportValue(value)",
-        "after": "setReadonlyPanelProperty(cell,'textContent',battleReportValue(value))"
-      },
-      {
-        "before": "$('firePriority').textContent='自动选敌：'+(new Set(fireUnits.map(firePriority)).size>1?'混合，统一为':'改为')+firePriorityLabel(nextFirePriority(fireUnits));",
-        "after": "setReadonlyPanelProperty($('firePriority'),'textContent','自动选敌：'+(new Set(fireUnits.map(firePriority)).size>1?'混合，统一为':'改为')+firePriorityLabel(nextFirePriority(fireUnits)));"
-      },
-      {
-        "before": "$('clearRally').textContent='清除集结点'+(rallyCount?' · '+rallyCount+'厂':'');",
-        "after": "setReadonlyPanelProperty($('clearRally'),'textContent','清除集结点'+(rallyCount?' · '+rallyCount+'厂':''));"
-      },
-      {
-        "before": "$('rallyHold').textContent=holdFactories.length&&holdFactories.every(e=>e.rallyHold===true)?'新战车：改为进攻':'新战车：改为坚守';",
-        "after": "setReadonlyPanelProperty($('rallyHold'),'textContent',holdFactories.length&&holdFactories.every(e=>e.rallyHold===true)?'新战车：改为进攻':'新战车：改为坚守');"
-      },
-      {
-        "before": "$('repairService').textContent=(services.filter(e=>e.hp>0).length>=2?'所选维修车全部':'')+(services.some(e=>e.hp>0&&e.repairEnabled!==false)?'暂停自动维修':'开启自动维修');",
-        "after": "setReadonlyPanelProperty($('repairService'),'textContent',(services.filter(e=>e.hp>0).length>=2?'所选维修车全部':'')+(services.some(e=>e.hp>0&&e.repairEnabled!==false)?'暂停自动维修':'开启自动维修'));"
-      },
-      {
-        "before": "$('repairPriority').textContent=eligibleServices.length&&eligibleServices.every(e=>repairPriority(e)==='critical')?'改为就近维修':'改为重伤优先';",
-        "after": "setReadonlyPanelProperty($('repairPriority'),'textContent',eligibleServices.length&&eligibleServices.every(e=>repairPriority(e)==='critical')?'改为就近维修':'改为重伤优先');"
-      },
-      {
-        "before": "$('hold').textContent=selected.some(e=>e.hold)&&selected.filter(e=>e.team===0&&defs[e.type].speed&&(defs[e.type].damage||defs[e.type].repairRange)).every(e=>e.hold)?'解除坚守 [H]':'坚守阵地 [H]';",
-        "after": "setReadonlyPanelProperty($('hold'),'textContent',selected.some(e=>e.hold)&&selected.filter(e=>e.team===0&&defs[e.type].speed&&(defs[e.type].damage||defs[e.type].repairRange)).every(e=>e.hold)?'解除坚守 [H]':'坚守阵地 [H]');"
-      },
-      {
-        "before": "$('guardArea').textContent=selected.some(e=>e.guardArea)?'解除驻点警戒 [O]':'驻点警戒 [O]';",
-        "after": "setReadonlyPanelProperty($('guardArea'),'textContent',selected.some(e=>e.guardArea)?'解除驻点警戒 [O]':'驻点警戒 [O]');"
-      },
-      {
-        "before": "$('undoAttackTail').textContent='撤销队尾'+(tailTroops.length?' · '+tailTroops.length+'辆':'');",
-        "after": "setReadonlyPanelProperty($('undoAttackTail'),'textContent','撤销队尾'+(tailTroops.length?' · '+tailTroops.length+'辆':''));"
-      },
-      {
-        "before": "$('clearFutureQueue').textContent='清除后续队列 · '+futureQueueOrders.length+'辆';",
-        "after": "setReadonlyPanelProperty($('clearFutureQueue'),'textContent','清除后续队列 · '+futureQueueOrders.length+'辆');"
-      },
-      {
-        "before": "$('holdOnArrival').textContent=arrivalTroops.length&&arrivalTroops.every(e=>e.holdOnArrival===true)?'取消抵达坚守':'抵达后坚守';",
-        "after": "setReadonlyPanelProperty($('holdOnArrival'),'textContent',arrivalTroops.length&&arrivalTroops.every(e=>e.holdOnArrival===true)?'取消抵达坚守':'抵达后坚守');"
-      },
-      {
-        "before": "b.title=(purchaseReason?'暂不可下单：'+purchaseReason+' | ':'')+d.name+' | 快捷生产 '+b.dataset.hotkey+'（单次按下下单，长按不连购） | 生命 '+d.hp+' | 速度 '+d.speed+(d.damage?' | 伤害 '+d.damage+' / '+d.rate+'秒 | 射程 '+d.range+(d.minRange?' | 最小射程 '+d.minRange:'')+(d.splashRadius?' | 对敌车溅射半径50，中心最多12，随距离递减':''):d.repairRange?' | 维修范围 '+d.repairRange+' | 每秒最多恢复 '+d.repairRate+' | 每1资金最多3生命':' | 运载 180')+' | '+unitRoleHint(b.dataset.unit)",
-        "after": "setReadonlyPanelProperty(b,'title',(purchaseReason?'暂不可下单：'+purchaseReason+' | ':'')+d.name+' | 快捷生产 '+b.dataset.hotkey+'（单次按下下单，长按不连购） | 生命 '+d.hp+' | 速度 '+d.speed+(d.damage?' | 伤害 '+d.damage+' / '+d.rate+'秒 | 射程 '+d.range+(d.minRange?' | 最小射程 '+d.minRange:'')+(d.splashRadius?' | 对敌车溅射半径50，中心最多12，随距离递减':''):d.repairRange?' | 维修范围 '+d.repairRange+' | 每秒最多恢复 '+d.repairRate+' | 每1资金最多3生命':' | 运载 180')+' | '+unitRoleHint(b.dataset.unit))"
-      },
-      {
-        "before": "b.title=reason||''});for(let id of ['attack'",
-        "after": "setReadonlyPanelProperty(b,'title',reason||'')});for(let id of ['attack'"
+        "before": "function power(team=0){return {supply:BASE_POWER_SUPPLY+structures(team,'power').filter(e=>!e.build).length*STATION_POWER_SUPPLY,demand:structures(team).filter(e=>!e.build).reduce((s,e)=>s+buildingPowerDemand(e.type),0)}}",
+        "after": "function power(team=0){const completed=structures(team).filter(e=>!e.build);return {supply:BASE_POWER_SUPPLY+completed.filter(e=>e.type==='power').length*STATION_POWER_SUPPLY,demand:completed.reduce((s,e)=>s+buildingPowerDemand(e.type),0)}}"
       }
     ]
   },
