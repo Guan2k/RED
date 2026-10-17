@@ -1,0 +1,1809 @@
+{
+  "passed": 1,
+  "failed": 0,
+  "seed": 43801,
+  "map": "classic",
+  "sourceSha256": "9f4dae093065bcee4f64385bfac49c359e26d70e664bc3e048baae2ac70b21c5",
+  "counts": {
+    "correctnessAndPreconditions": 3726,
+    "pairing": 0,
+    "negativeControls": 10,
+    "checkpoints": 335
+  },
+  "paidOrders": [
+    {
+      "cost": 350,
+      "cashAfter": 1350
+    },
+    {
+      "cost": 350,
+      "cashAfter": 1000
+    },
+    {
+      "cost": 350,
+      "cashAfter": 650
+    },
+    {
+      "cost": 350,
+      "cashAfter": 300
+    }
+  ],
+  "initialSelectedArmyIds": [
+    6,
+    7,
+    8,
+    19,
+    21,
+    23,
+    25
+  ],
+  "finalSelectedArmyIds": [
+    6,
+    19,
+    21,
+    23,
+    25
+  ],
+  "firstDeathTime": 38.3999999999991,
+  "handoffTime": 38.3999999999991,
+  "secondDeathTime": 40.74999999999897,
+  "exhaustionTime": 40.74999999999897,
+  "finalTime": 41.74999999999891,
+  "observedShots": {
+    "first": true,
+    "second": true
+  },
+  "firstDamaged": true,
+  "secondDamaged": true,
+  "initial": {
+    "t": 24.99999999999986,
+    "owner": {
+      "id": 6,
+      "hp": 230,
+      "max": 230,
+      "x": 320,
+      "y": 540,
+      "target": 17,
+      "goal": null,
+      "attackMove": false,
+      "attackQueue": [
+        17,
+        18
+      ]
+    },
+    "first": {
+      "id": 17,
+      "hp": 230,
+      "max": 230,
+      "x": 930,
+      "y": 300,
+      "target": null,
+      "goal": null,
+      "attackMove": false
+    },
+    "second": {
+      "id": 18,
+      "hp": 230,
+      "max": 230,
+      "x": 990,
+      "y": 310,
+      "target": null,
+      "goal": null,
+      "attackMove": false
+    },
+    "result": null,
+    "kills": [
+      0,
+      0
+    ],
+    "losses": [
+      0,
+      0
+    ]
+  },
+  "handoff": {
+    "t": 38.3999999999991,
+    "owner": {
+      "id": 6,
+      "hp": 224.96,
+      "max": 230,
+      "x": 760.1290979956566,
+      "y": 360.5020221009276,
+      "target": 18,
+      "goal": null,
+      "attackMove": false,
+      "attackQueue": [
+        18
+      ]
+    },
+    "first": null,
+    "second": {
+      "id": 18,
+      "hp": 230,
+      "max": 230,
+      "x": 922.9389014688592,
+      "y": 330.0414485977007,
+      "target": 7,
+      "goal": null,
+      "attackMove": true
+    },
+    "result": null,
+    "kills": [
+      1,
+      1
+    ],
+    "losses": [
+      1,
+      1
+    ]
+  },
+  "empty": {
+    "t": 40.74999999999897,
+    "owner": {
+      "id": 6,
+      "hp": 195.60470882307948,
+      "max": 230,
+      "x": 788.7718297077625,
+      "y": 341.116762773833,
+      "target": null,
+      "goal": null,
+      "attackMove": false
+    },
+    "first": null,
+    "second": null,
+    "result": null,
+    "kills": [
+      2,
+      2
+    ],
+    "losses": [
+      2,
+      2
+    ]
+  },
+  "final": {
+    "t": 41.74999999999891,
+    "owner": {
+      "id": 6,
+      "hp": 195.60470882307948,
+      "max": 230,
+      "x": 797.2130126840316,
+      "y": 364.9525624431506,
+      "target": null,
+      "goal": null,
+      "attackMove": false
+    },
+    "first": null,
+    "second": null,
+    "result": null,
+    "kills": [
+      2,
+      2
+    ],
+    "losses": [
+      2,
+      2
+    ]
+  },
+  "trace": [
+    {
+      "t": 24.99999999999986,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 320,
+        "y": 540,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 25.499999999999833,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 342.333582840738,
+        "y": 531.213016587252,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 25.999999999999805,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 364.66716568147604,
+        "y": 522.426033174504,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 26.499999999999776,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 387.00074852221405,
+        "y": 513.639049761756,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 26.999999999999748,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 409.33433136295207,
+        "y": 504.85206634900663,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 27.49999999999972,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 431.6679142036901,
+        "y": 496.06508293625694,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 27.99999999999969,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 454.0014970444281,
+        "y": 487.27809952350725,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 28.499999999999662,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 476.3350798851661,
+        "y": 478.49111611075756,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 28.999999999999634,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 498.66866272590414,
+        "y": 469.70413269800787,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 29.499999999999606,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 521.0022455666422,
+        "y": 460.9171492852582,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 29.999999999999577,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 543.3358284073802,
+        "y": 452.1301658725085,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 30.49999999999955,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 565.6694112481182,
+        "y": 443.3431824597588,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 30.99999999999952,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 588.0029940888562,
+        "y": 434.5561990470091,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 930,
+        "y": 300,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 31.499999999999492,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 610.329531003015,
+        "y": 425.75135861104405,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 917.0035201144073,
+        "y": 304.00643364894256,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 31.999999999999464,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 632.6328453039089,
+        "y": 416.887828397824,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 230,
+        "max": 230,
+        "x": 915.4745224808081,
+        "y": 304.4777787841123,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 990,
+        "y": 310,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 32.49999999999944,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 654.9359886770987,
+        "y": 408.02386790181015,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 220,
+        "max": 230,
+        "x": 915.4745224808081,
+        "y": 304.4777787841123,
+        "target": 8,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 978.9335392895516,
+        "y": 311.72436867986494,
+        "target": 8,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 32.99999999999941,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 677.2391320502886,
+        "y": 399.15990740579707,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 210,
+        "max": 230,
+        "x": 915.4745224808081,
+        "y": 304.4777787841123,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 963.1243097031968,
+        "y": 314.1877525082434,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 33.49999999999938,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 698.9995724554012,
+        "y": 390.10719973293214,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 210,
+        "max": 230,
+        "x": 915.4745224808081,
+        "y": 304.4777787841123,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 963.1243097031968,
+        "y": 314.1877525082434,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 33.99999999999935,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 720.6285372867306,
+        "y": 381.08217786667154,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 210,
+        "max": 230,
+        "x": 915.4745224808081,
+        "y": 304.4777787841123,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 963.1243097031968,
+        "y": 314.1877525082434,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 34.499999999999325,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 742.3896680167588,
+        "y": 372.2784019619744,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 210,
+        "max": 230,
+        "x": 899.0691088533978,
+        "y": 312.8097808959636,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 963.1243097031968,
+        "y": 314.1877525082434,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 34.9999999999993,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 761.0880949790983,
+        "y": 365.1813019109645,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 187,
+        "max": 230,
+        "x": 899.0691088533978,
+        "y": 312.8097808959636,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 963.1243097031968,
+        "y": 314.1877525082434,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 35.49999999999927,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 761.0880949790983,
+        "y": 365.1813019109645,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 164,
+        "max": 230,
+        "x": 899.0691088533978,
+        "y": 312.8097808959636,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 963.1243097031968,
+        "y": 314.1877525082434,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 35.99999999999924,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 761.0880949790983,
+        "y": 365.1813019109645,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 141,
+        "max": 230,
+        "x": 899.0691088533978,
+        "y": 312.8097808959636,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 963.1243097031968,
+        "y": 314.1877525082434,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 36.49999999999921,
+      "owner": {
+        "id": 6,
+        "hp": 230,
+        "max": 230,
+        "x": 761.0880949790983,
+        "y": 365.1813019109645,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 118,
+        "max": 230,
+        "x": 899.0691088533978,
+        "y": 312.8097808959636,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 954.199425271054,
+        "y": 317.7241967496934,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 36.99999999999918,
+      "owner": {
+        "id": 6,
+        "hp": 224.96,
+        "max": 230,
+        "x": 761.0880949790983,
+        "y": 365.1813019109645,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 95,
+        "max": 230,
+        "x": 899.0691088533978,
+        "y": 312.8097808959636,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 931.887214190697,
+        "y": 326.5653073533184,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 37.499999999999154,
+      "owner": {
+        "id": 6,
+        "hp": 224.96,
+        "max": 230,
+        "x": 760.9483617802798,
+        "y": 365.05216641047707,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 72,
+        "max": 230,
+        "x": 899.0691088533978,
+        "y": 312.8097808959636,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 922.9389014688592,
+        "y": 330.0414485977007,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 37.999999999999126,
+      "owner": {
+        "id": 6,
+        "hp": 224.96,
+        "max": 230,
+        "x": 759.5618312251364,
+        "y": 360.70264062030566,
+        "target": 17,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          17,
+          18
+        ]
+      },
+      "first": {
+        "id": 17,
+        "hp": 26,
+        "max": 230,
+        "x": 899.0691088533978,
+        "y": 312.8097808959636,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 922.9389014688592,
+        "y": 330.0414485977007,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        0,
+        1
+      ],
+      "losses": [
+        1,
+        0
+      ]
+    },
+    {
+      "t": 38.3999999999991,
+      "owner": {
+        "id": 6,
+        "hp": 224.96,
+        "max": 230,
+        "x": 760.1290979956566,
+        "y": 360.5020221009276,
+        "target": 18,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          18
+        ]
+      },
+      "first": null,
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 922.9389014688592,
+        "y": 330.0414485977007,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        1,
+        1
+      ],
+      "losses": [
+        1,
+        1
+      ]
+    },
+    {
+      "t": 38.3999999999991,
+      "owner": {
+        "id": 6,
+        "hp": 224.96,
+        "max": 230,
+        "x": 760.1290979956566,
+        "y": 360.5020221009276,
+        "target": 18,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          18
+        ]
+      },
+      "first": null,
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 922.9389014688592,
+        "y": 330.0414485977007,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        1,
+        1
+      ],
+      "losses": [
+        1,
+        1
+      ]
+    },
+    {
+      "t": 38.4999999999991,
+      "owner": {
+        "id": 6,
+        "hp": 224.96,
+        "max": 230,
+        "x": 764.8472319581683,
+        "y": 359.61929229413926,
+        "target": 18,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          18
+        ]
+      },
+      "first": null,
+      "second": {
+        "id": 18,
+        "hp": 230,
+        "max": 230,
+        "x": 922.9389014688592,
+        "y": 330.0414485977007,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        1,
+        1
+      ],
+      "losses": [
+        1,
+        1
+      ]
+    },
+    {
+      "t": 38.99999999999907,
+      "owner": {
+        "id": 6,
+        "hp": 224.96,
+        "max": 230,
+        "x": 778.2088609883027,
+        "y": 357.1164534703622,
+        "target": 18,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          18
+        ]
+      },
+      "first": null,
+      "second": {
+        "id": 18,
+        "hp": 184,
+        "max": 230,
+        "x": 922.9389014688592,
+        "y": 330.0414485977007,
+        "target": 7,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        1,
+        1
+      ],
+      "losses": [
+        1,
+        1
+      ]
+    },
+    {
+      "t": 39.49999999999904,
+      "owner": {
+        "id": 6,
+        "hp": 223.60470882307948,
+        "max": 230,
+        "x": 784.4119435425439,
+        "y": 348.4364669583148,
+        "target": 18,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          18
+        ]
+      },
+      "first": null,
+      "second": {
+        "id": 18,
+        "hp": 138,
+        "max": 230,
+        "x": 922.9389014688592,
+        "y": 330.0414485977007,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        1,
+        2
+      ],
+      "losses": [
+        2,
+        1
+      ]
+    },
+    {
+      "t": 39.99999999999901,
+      "owner": {
+        "id": 6,
+        "hp": 223.60470882307948,
+        "max": 230,
+        "x": 788.5678915225453,
+        "y": 340.3431937061271,
+        "target": 18,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          18
+        ]
+      },
+      "first": null,
+      "second": {
+        "id": 18,
+        "hp": 92,
+        "max": 230,
+        "x": 922.9389014688592,
+        "y": 330.0414485977007,
+        "target": null,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        1,
+        2
+      ],
+      "losses": [
+        2,
+        1
+      ]
+    },
+    {
+      "t": 40.499999999998984,
+      "owner": {
+        "id": 6,
+        "hp": 195.60470882307948,
+        "max": 230,
+        "x": 788.5678915470457,
+        "y": 340.3431936259196,
+        "target": 18,
+        "goal": null,
+        "attackMove": false,
+        "attackQueue": [
+          18
+        ]
+      },
+      "first": null,
+      "second": {
+        "id": 18,
+        "hp": 23,
+        "max": 230,
+        "x": 922.9389014688592,
+        "y": 330.0414485977007,
+        "target": 21,
+        "goal": null,
+        "attackMove": true
+      },
+      "result": null,
+      "kills": [
+        1,
+        2
+      ],
+      "losses": [
+        2,
+        1
+      ]
+    },
+    {
+      "t": 40.74999999999897,
+      "owner": {
+        "id": 6,
+        "hp": 195.60470882307948,
+        "max": 230,
+        "x": 788.7718297077625,
+        "y": 341.116762773833,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "first": null,
+      "second": null,
+      "result": null,
+      "kills": [
+        2,
+        2
+      ],
+      "losses": [
+        2,
+        2
+      ]
+    },
+    {
+      "t": 40.74999999999897,
+      "owner": {
+        "id": 6,
+        "hp": 195.60470882307948,
+        "max": 230,
+        "x": 788.7718297077625,
+        "y": 341.116762773833,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "first": null,
+      "second": null,
+      "result": null,
+      "kills": [
+        2,
+        2
+      ],
+      "losses": [
+        2,
+        2
+      ]
+    },
+    {
+      "t": 41.74999999999891,
+      "owner": {
+        "id": 6,
+        "hp": 195.60470882307948,
+        "max": 230,
+        "x": 797.2130126840316,
+        "y": 364.9525624431506,
+        "target": null,
+        "goal": null,
+        "attackMove": false
+      },
+      "first": null,
+      "second": null,
+      "result": null,
+      "kills": [
+        2,
+        2
+      ],
+      "losses": [
+        2,
+        2
+      ]
+    }
+  ],
+  "negativeControls": [
+    {
+      "name": "late handoff rejected",
+      "detected": true,
+      "expected": "queue consumption within one observation interval"
+    },
+    {
+      "name": "late exhaustion rejected",
+      "detected": true,
+      "expected": "queue consumption within one observation interval"
+    },
+    {
+      "name": "premature first-target replacement",
+      "detected": true,
+      "expected": "retain first target until actual death"
+    },
+    {
+      "name": "premature tail removal",
+      "detected": true,
+      "expected": "retain complete pending queue before death"
+    },
+    {
+      "name": "dead current target retained",
+      "detected": true,
+      "expected": "current target switches to surviving queued enemy"
+    },
+    {
+      "name": "dead head retained in queue",
+      "detected": true,
+      "expected": "dead queue head consumed exactly once"
+    },
+    {
+      "name": "live tail silently dropped",
+      "detected": true,
+      "expected": "dead queue head consumed exactly once"
+    },
+    {
+      "name": "fake handoff while first lives",
+      "detected": true,
+      "expected": "first enemy actually removed by combat"
+    },
+    {
+      "name": "stale target after exhaustion",
+      "detected": true,
+      "expected": "exhausted queue clears current target"
+    },
+    {
+      "name": "empty queue retained",
+      "detected": true,
+      "expected": "exhausted queue property removed"
+    }
+  ],
+  "scope": "One natural legal combat scenario: four paid tanks naturally complete, UI army selection, enemy 17 then appended enemy 18. Independent semantic assertions cover live-head retention, natural death, queued target handoff, exhaustion and one-second persistence. No state/damage/resource injection, no product changes, no browser/save/export. Negative controls mutate detached observation JSON only; no pairing or replay is claimed."
+}
