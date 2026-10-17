@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "sha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+  "results": [
+    {
+      "kind": "fixture-two-same-step-services",
+      "missing": 7.6,
+      "cash": 100,
+      "hp": 230,
+      "spent": 3,
+      "cools": [
+        1,
+        1
+      ]
+    },
+    {
+      "kind": "fixture-two-same-step-services",
+      "missing": 20,
+      "cash": 1,
+      "hp": 213,
+      "spent": 1,
+      "cools": [
+        1,
+        0
+      ]
+    },
+    {
+      "kind": "fixture-two-same-step-services",
+      "missing": 1.6,
+      "cash": 100,
+      "hp": 230,
+      "spent": 1,
+      "cools": [
+        1,
+        0
+      ]
+    },
+    {
+      "kind": "fixture-paused-automatic-repair-resumes",
+      "heal": 12,
+      "cost": 4
+    },
+    {
+      "kind": "fixture-escort-dies-dead-reference-not-repaired",
+      "hp": -20,
+      "cash": 100
+    },
+    {
+      "kind": "fixture-terminal-both-repair-paths-inert",
+      "result": "胜利"
+    }
+  ],
+  "scope": "Explicit isolated fixture removes non-HQ entities, creates two services and target with defined damage/cash; death/terminal use injected projectiles. Original update and UI pause/repair only. Expected HP/cash are independent constants, no repairQuote/repairSupport oracle."
+}

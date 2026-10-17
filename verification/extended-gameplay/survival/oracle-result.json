@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "kind": "offline recorded-evidence mutations; no game execution",
+  "results": [
+    {
+      "name": "HQ defeat",
+      "rejected": true
+    },
+    {
+      "name": "early win",
+      "rejected": true
+    },
+    {
+      "name": "late time",
+      "rejected": true
+    },
+    {
+      "name": "missing step",
+      "rejected": true
+    },
+    {
+      "name": "dead HQ during run",
+      "rejected": true
+    },
+    {
+      "name": "wrong terminal elapsed",
+      "rejected": true
+    }
+  ]
+}

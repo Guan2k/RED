@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "source": "/workspace/scratch/e433d7540f34/red-development/v289-readme/RED/index.html",
+  "sha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+  "results": [
+    {
+      "kind": "natural-paid-four-tanks-ordinary-attack",
+      "ticks": 1077,
+      "deaths": [
+        {
+          "id": 8,
+          "team": 0,
+          "hp": 1.4000000000000057,
+          "at": 32.83333333333275
+        },
+        {
+          "id": 17,
+          "team": 1,
+          "hp": 3,
+          "at": 38.38333333333244
+        },
+        {
+          "id": 7,
+          "team": 0,
+          "hp": 16,
+          "at": 39.26666666666572
+        },
+        {
+          "id": 18,
+          "team": 1,
+          "hp": 23,
+          "at": 42.949999999998845
+        }
+      ],
+      "stats": {
+        "income": [
+          1440,
+          360
+        ],
+        "spent": [
+          1400,
+          1960
+        ],
+        "kills": [
+          2,
+          2
+        ],
+        "losses": [
+          2,
+          2
+        ],
+        "produced": [
+          4,
+          6
+        ],
+        "captures": [
+          0,
+          0
+        ],
+        "harvested": [
+          1440,
+          360
+        ]
+      }
+    },
+    {
+      "kind": "fixture-two-lethal-projectiles-one-target",
+      "kills": [
+        1,
+        0
+      ],
+      "noCashReward": true
+    },
+    {
+      "kind": "fixture-single-nonlethal-projectile",
+      "hpAfterTwoTicks": 207
+    },
+    {
+      "kind": "fixture-lethal-artillery-then-dead-target-projectile-no-second-splash",
+      "secondaryHp": 7.6000000000000005,
+      "expected": 7.6
+    },
+    {
+      "kind": "fixture-both-hq-lethal-same-tick",
+      "result": "平局",
+      "kills": [
+        1,
+        1
+      ],
+      "frozenOneSecond": true
+    },
+    {
+      "kind": "fixture-selected-unit-dies-then-real-ui-order",
+      "selectionCleared": true,
+      "deadReferenceUnchanged": true
+    }
+  ],
+  "scope": "Natural case UI paid four tanks and ordinary single-target attack; no queue work. Other cases explicitly synthetic projectiles/HP/position, no damage-function replacement or reused damage/kill oracle. Original full-source fixed-step update. No storage/browser/download actions."
+}

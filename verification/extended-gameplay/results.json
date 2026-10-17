@@ -1,0 +1,2039 @@
+{
+  "scope": "Opt-in v289 expanded gameplay evidence. Existing default aggregation and game source unchanged. Natural UI, explicit fixtures and offline record mutations are separate.",
+  "sourceSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+  "families": [
+    "damage",
+    "repair",
+    "switchback",
+    "survival"
+  ],
+  "results": {
+    "damage": {
+      "passed": true,
+      "source": "index.html",
+      "sha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+      "results": [
+        {
+          "kind": "natural-paid-four-tanks-ordinary-attack",
+          "ticks": 1077,
+          "deaths": [
+            {
+              "id": 8,
+              "team": 0,
+              "hp": 1.4000000000000057,
+              "at": 32.83333333333275
+            },
+            {
+              "id": 17,
+              "team": 1,
+              "hp": 3,
+              "at": 38.38333333333244
+            },
+            {
+              "id": 7,
+              "team": 0,
+              "hp": 16,
+              "at": 39.26666666666572
+            },
+            {
+              "id": 18,
+              "team": 1,
+              "hp": 23,
+              "at": 42.949999999998845
+            }
+          ],
+          "stats": {
+            "income": [
+              1440,
+              360
+            ],
+            "spent": [
+              1400,
+              1960
+            ],
+            "kills": [
+              2,
+              2
+            ],
+            "losses": [
+              2,
+              2
+            ],
+            "produced": [
+              4,
+              6
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              1440,
+              360
+            ]
+          }
+        },
+        {
+          "kind": "fixture-two-lethal-projectiles-one-target",
+          "kills": [
+            1,
+            0
+          ],
+          "noCashReward": true
+        },
+        {
+          "kind": "fixture-single-nonlethal-projectile",
+          "hpAfterTwoTicks": 207
+        },
+        {
+          "kind": "fixture-lethal-artillery-then-dead-target-projectile-no-second-splash",
+          "secondaryHp": 7.6000000000000005,
+          "expected": 7.6
+        },
+        {
+          "kind": "fixture-both-hq-lethal-same-tick",
+          "result": "平局",
+          "kills": [
+            1,
+            1
+          ],
+          "frozenOneSecond": true
+        },
+        {
+          "kind": "fixture-selected-unit-dies-then-real-ui-order",
+          "selectionCleared": true,
+          "deadReferenceUnchanged": true
+        }
+      ],
+      "scope": "Natural case UI paid four tanks and ordinary single-target attack; no queue work. Other cases explicitly synthetic projectiles/HP/position, no damage-function replacement or reused damage/kill oracle. Original full-source fixed-step update. No storage/browser/download actions."
+    },
+    "repair": {
+      "natural": {
+        "sha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+        "paidRepair": 500,
+        "damage": {
+          "t": 18.800000000000214,
+          "hp": 77.4
+        },
+        "heals": [
+          {
+            "t": 25.733333333333153,
+            "before": 49.400000000000006,
+            "after": 55.400000000000006,
+            "cost": 2
+          },
+          {
+            "t": 26.733333333333096,
+            "before": 55.400000000000006,
+            "after": 61.400000000000006,
+            "cost": 2
+          },
+          {
+            "t": 27.73333333333304,
+            "before": 61.400000000000006,
+            "after": 67.4,
+            "cost": 2
+          },
+          {
+            "t": 28.733333333332983,
+            "before": 67.4,
+            "after": 73.4,
+            "cost": 2
+          },
+          {
+            "t": 29.733333333332926,
+            "before": 73.4,
+            "after": 79.4,
+            "cost": 2
+          },
+          {
+            "t": 30.73333333333287,
+            "before": 79.4,
+            "after": 85.4,
+            "cost": 2
+          },
+          {
+            "t": 31.733333333332812,
+            "before": 85.4,
+            "after": 91.4,
+            "cost": 2
+          },
+          {
+            "t": 32.73333333333276,
+            "before": 91.4,
+            "after": 97.4,
+            "cost": 2
+          },
+          {
+            "t": 33.7333333333327,
+            "before": 97.4,
+            "after": 103.4,
+            "cost": 2
+          },
+          {
+            "t": 34.733333333332645,
+            "before": 103.4,
+            "after": 105,
+            "cost": 1
+          }
+        ],
+        "final": {
+          "t": 34.733333333332645,
+          "scout": {
+            "hp": 105,
+            "x": 324.11122856692447,
+            "y": 697.7907615247884
+          },
+          "service": {
+            "hp": 180,
+            "x": 275,
+            "y": 695
+          }
+        },
+        "scope": "Natural paid repair vehicle, initial scout receives real enemy fire, UI ordinary retreat and arrival hold; no state fixture."
+      },
+      "fixtures": {
+        "passed": true,
+        "sha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+        "results": [
+          {
+            "kind": "fixture-two-same-step-services",
+            "missing": 7.6,
+            "cash": 100,
+            "hp": 230,
+            "spent": 3,
+            "cools": [
+              1,
+              1
+            ]
+          },
+          {
+            "kind": "fixture-two-same-step-services",
+            "missing": 20,
+            "cash": 1,
+            "hp": 213,
+            "spent": 1,
+            "cools": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "fixture-two-same-step-services",
+            "missing": 1.6,
+            "cash": 100,
+            "hp": 230,
+            "spent": 1,
+            "cools": [
+              1,
+              0
+            ]
+          },
+          {
+            "kind": "fixture-paused-automatic-repair-resumes",
+            "heal": 12,
+            "cost": 4
+          },
+          {
+            "kind": "fixture-escort-dies-dead-reference-not-repaired",
+            "hp": -20,
+            "cash": 100
+          },
+          {
+            "kind": "fixture-terminal-both-repair-paths-inert",
+            "result": "胜利"
+          }
+        ],
+        "scope": "Explicit isolated fixture removes non-HQ entities, creates two services and target with defined damage/cash; death/terminal use injected projectiles. Original update and UI pause/repair only. Expected HP/cash are independent constants, no repairQuote/repairSupport oracle."
+      }
+    },
+    "switchback": {
+      "passed": true,
+      "source": "index.html",
+      "sha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+      "trace": [
+        {
+          "label": "outbound-two-gates",
+          "requested": [
+            {
+              "x": 470,
+              "y": 470
+            },
+            {
+              "x": 730,
+              "y": 570
+            },
+            {
+              "x": 780,
+              "y": 570
+            }
+          ],
+          "accepted": [
+            {
+              "x": 470,
+              "y": 470
+            },
+            {
+              "x": 730,
+              "y": 570
+            },
+            {
+              "x": 780,
+              "y": 570
+            }
+          ],
+          "seconds": 7.416666666666646,
+          "arrivals": [
+            {
+              "goal": {
+                "x": 470,
+                "y": 470
+              },
+              "distance": 4.567897005264536,
+              "t": 3.383333333333326
+            },
+            {
+              "goal": {
+                "x": 730,
+                "y": 570
+              },
+              "distance": 4.331036909092097,
+              "t": 6.799999999999981
+            },
+            {
+              "goal": {
+                "x": 780,
+                "y": 570
+              },
+              "distance": 4.863660839278458,
+              "t": 7.416666666666646
+            }
+          ],
+          "at": {
+            "x": 775.1383583890555,
+            "y": 569.8598657562771,
+            "hp": 105
+          }
+        },
+        {
+          "label": "return-two-gates",
+          "requested": [
+            {
+              "x": 730,
+              "y": 570
+            },
+            {
+              "x": 470,
+              "y": 470
+            },
+            {
+              "x": 350,
+              "y": 470
+            }
+          ],
+          "accepted": [
+            {
+              "x": 730,
+              "y": 570
+            },
+            {
+              "x": 470,
+              "y": 470
+            },
+            {
+              "x": 350,
+              "y": 470
+            }
+          ],
+          "seconds": 5.4000000000002375,
+          "arrivals": [
+            {
+              "goal": {
+                "x": 730,
+                "y": 570
+              },
+              "distance": 4.1385759153428605,
+              "t": 7.9333333333333105
+            },
+            {
+              "goal": {
+                "x": 470,
+                "y": 470
+              },
+              "distance": 4.996493784337127,
+              "t": 11.333333333333476
+            },
+            {
+              "goal": {
+                "x": 350,
+                "y": 470
+              },
+              "distance": 4.418782432030905,
+              "t": 12.816666666666883
+            }
+          ],
+          "at": {
+            "x": 354.4183377384045,
+            "y": 470.0626882047571,
+            "hp": 49.400000000000006
+          }
+        }
+      ],
+      "crossings": [
+        {
+          "label": "outbound-two-gates",
+          "wall": 470,
+          "at": 3.4499999999999926,
+          "x": 470,
+          "y": 469.7815255634242
+        },
+        {
+          "label": "outbound-two-gates",
+          "wall": 730,
+          "at": 6.849999999999981,
+          "x": 730,
+          "y": 568.5587764901554
+        },
+        {
+          "label": "return-two-gates",
+          "wall": 730,
+          "at": 7.999999999999977,
+          "x": 730,
+          "y": 568.4205404375855
+        },
+        {
+          "label": "return-two-gates",
+          "wall": 470,
+          "at": 11.400000000000146,
+          "x": 470,
+          "y": 471.70258251320723
+        }
+      ],
+      "minRockClearance": 28.83766539527724,
+      "scope": "Existing switchback standard map. Actual initial scout selected through map UI; paused coordinate ordinary/append commands, arrival-hold then natural fixed stepping out and back through both gate columns. No gameplay fixtures/state injections, no modified navigation. Distances independently computed for each consumed leg. VM/DOM only."
+    },
+    "survival": {
+      "summary": {
+        "passed": true,
+        "sha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+        "config": {
+          "map": "classic",
+          "difficulty": "easy",
+          "objective": "survival",
+          "challenge": "standard",
+          "seed": 28931
+        },
+        "terminal": {
+          "elapsed": 360,
+          "gameTime": 360.00000000000125,
+          "result": "胜利",
+          "reason": "survival",
+          "hq": 1800,
+          "enemyHq": 1800
+        },
+        "ticks": 21600,
+        "actions": [
+          {
+            "t": 0,
+            "kind": "select-map",
+            "id": 4,
+            "x": 220,
+            "y": 750
+          },
+          {
+            "t": 0,
+            "kind": "coordinate-fields",
+            "prefix": "coordinateCommand",
+            "x": 310,
+            "y": 520
+          },
+          {
+            "t": 0,
+            "kind": "select-army"
+          },
+          {
+            "t": 0,
+            "kind": "coordinate-fields",
+            "prefix": "coordinateCommand",
+            "x": 310,
+            "y": 520
+          },
+          {
+            "t": 0,
+            "kind": "hold-on-arrival"
+          },
+          {
+            "t": 0,
+            "kind": "buy",
+            "type": "harvester",
+            "cost": 400
+          },
+          {
+            "t": 0,
+            "kind": "coordinate-fields",
+            "prefix": "coordinateConstruction",
+            "x": 320,
+            "y": 470
+          },
+          {
+            "t": 0,
+            "kind": "build",
+            "type": "turret",
+            "x": 320,
+            "y": 470,
+            "cost": 450
+          },
+          {
+            "t": 10.000000000000076,
+            "kind": "buy",
+            "type": "harvester",
+            "cost": 400
+          },
+          {
+            "t": 20.000000000000146,
+            "kind": "buy",
+            "type": "repair",
+            "cost": 500
+          },
+          {
+            "t": 20.000000000000146,
+            "kind": "coordinate-fields",
+            "prefix": "coordinateConstruction",
+            "x": 100,
+            "y": 510
+          },
+          {
+            "t": 20.000000000000146,
+            "kind": "build",
+            "type": "power",
+            "x": 100,
+            "y": 510,
+            "cost": 300
+          },
+          {
+            "t": 29.999999999999577,
+            "kind": "buy",
+            "type": "repair",
+            "cost": 500
+          },
+          {
+            "t": 39.99999999999901,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 49.999999999998444,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 59.999999999997875,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 59.999999999997875,
+            "kind": "coordinate-fields",
+            "prefix": "coordinateConstruction",
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 59.999999999997875,
+            "kind": "build",
+            "type": "turret",
+            "x": 380,
+            "y": 450,
+            "cost": 450
+          },
+          {
+            "t": 69.99999999999731,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 79.99999999999675,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 79.99999999999675,
+            "kind": "coordinate-fields",
+            "prefix": "coordinateConstruction",
+            "x": 320,
+            "y": 410
+          },
+          {
+            "t": 79.99999999999675,
+            "kind": "build",
+            "type": "turret",
+            "x": 320,
+            "y": 410,
+            "cost": 450
+          },
+          {
+            "t": 85.9999999999964,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 85.9999999999964,
+            "kind": "repair",
+            "id": 31,
+            "heal": 73,
+            "cost": 25
+          },
+          {
+            "t": 88.99999999999623,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 88.99999999999623,
+            "kind": "repair",
+            "id": 31,
+            "heal": 69,
+            "cost": 23
+          },
+          {
+            "t": 89.99999999999618,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 90.99999999999612,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 90.99999999999612,
+            "kind": "repair",
+            "id": 31,
+            "heal": 106,
+            "cost": 36
+          },
+          {
+            "t": 99.99999999999561,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 99.99999999999561,
+            "kind": "coordinate-fields",
+            "prefix": "coordinateConstruction",
+            "x": 260,
+            "y": 410
+          },
+          {
+            "t": 99.99999999999561,
+            "kind": "build",
+            "type": "turret",
+            "x": 260,
+            "y": 410,
+            "cost": 450
+          },
+          {
+            "t": 109.99999999999504,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 110.99999999999498,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 110.99999999999498,
+            "kind": "repair",
+            "id": 31,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 113.99999999999481,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 113.99999999999481,
+            "kind": "repair",
+            "id": 31,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 116.99999999999464,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 116.99999999999464,
+            "kind": "repair",
+            "id": 31,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 118.99999999999453,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 118.99999999999453,
+            "kind": "repair",
+            "id": 31,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 119.99999999999447,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 119.99999999999447,
+            "kind": "coordinate-fields",
+            "prefix": "coordinateConstruction",
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 119.99999999999447,
+            "kind": "build",
+            "type": "turret",
+            "x": 380,
+            "y": 390,
+            "cost": 450
+          },
+          {
+            "t": 121.99999999999436,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 121.99999999999436,
+            "kind": "repair",
+            "id": 31,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 124.99999999999419,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 124.99999999999419,
+            "kind": "repair",
+            "id": 31,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 127.99999999999402,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 127.99999999999402,
+            "kind": "repair",
+            "id": 31,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 130.9999999999964,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 130.9999999999964,
+            "kind": "repair",
+            "id": 31,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 132.99999999999798,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 132.99999999999798,
+            "kind": "repair",
+            "id": 31,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 136.00000000000037,
+            "kind": "select-map",
+            "id": 31,
+            "x": 380,
+            "y": 450
+          },
+          {
+            "t": 136.00000000000037,
+            "kind": "repair",
+            "id": 31,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 140.00000000000355,
+            "kind": "coordinate-fields",
+            "prefix": "coordinateConstruction",
+            "x": 60,
+            "y": 570
+          },
+          {
+            "t": 140.00000000000355,
+            "kind": "build",
+            "type": "power",
+            "x": 60,
+            "y": 570,
+            "cost": 300
+          },
+          {
+            "t": 156.00000000001629,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 156.00000000001629,
+            "kind": "repair",
+            "id": 42,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 158.00000000001788,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 158.00000000001788,
+            "kind": "repair",
+            "id": 42,
+            "heal": 69,
+            "cost": 23
+          },
+          {
+            "t": 159.00000000001867,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 159.00000000001867,
+            "kind": "repair",
+            "id": 42,
+            "heal": 83,
+            "cost": 28
+          },
+          {
+            "t": 160.00000000001947,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 160.00000000001947,
+            "kind": "coordinate-fields",
+            "prefix": "coordinateConstruction",
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 160.00000000001947,
+            "kind": "build",
+            "type": "turret",
+            "x": 420,
+            "y": 510,
+            "cost": 450
+          },
+          {
+            "t": 161.00000000002026,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 161.00000000002026,
+            "kind": "repair",
+            "id": 42,
+            "heal": 152,
+            "cost": 51
+          },
+          {
+            "t": 163.00000000002186,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 163.00000000002186,
+            "kind": "repair",
+            "id": 42,
+            "heal": 92,
+            "cost": 31
+          },
+          {
+            "t": 164.00000000002265,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 164.00000000002265,
+            "kind": "repair",
+            "id": 42,
+            "heal": 129,
+            "cost": 43
+          },
+          {
+            "t": 165.00000000002345,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 165.00000000002345,
+            "kind": "repair",
+            "id": 42,
+            "heal": 69,
+            "cost": 23
+          },
+          {
+            "t": 167.00000000002504,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 167.00000000002504,
+            "kind": "repair",
+            "id": 42,
+            "heal": 175,
+            "cost": 59
+          },
+          {
+            "t": 169.00000000002663,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 169.00000000002663,
+            "kind": "repair",
+            "id": 42,
+            "heal": 69,
+            "cost": 23
+          },
+          {
+            "t": 170.00000000002743,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 170.00000000002743,
+            "kind": "repair",
+            "id": 42,
+            "heal": 106,
+            "cost": 36
+          },
+          {
+            "t": 172.00000000002902,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 172.00000000002902,
+            "kind": "repair",
+            "id": 42,
+            "heal": 69,
+            "cost": 23
+          },
+          {
+            "t": 173.00000000002981,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 173.00000000002981,
+            "kind": "repair",
+            "id": 42,
+            "heal": 83,
+            "cost": 28
+          },
+          {
+            "t": 176.0000000000322,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 176.0000000000322,
+            "kind": "repair",
+            "id": 42,
+            "heal": 129,
+            "cost": 43
+          },
+          {
+            "t": 178.0000000000338,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 178.0000000000338,
+            "kind": "repair",
+            "id": 42,
+            "heal": 83,
+            "cost": 28
+          },
+          {
+            "t": 181.00000000003618,
+            "kind": "select-map",
+            "id": 42,
+            "x": 380,
+            "y": 390
+          },
+          {
+            "t": 181.00000000003618,
+            "kind": "repair",
+            "id": 42,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 250.0000000000911,
+            "kind": "buy",
+            "type": "harvester",
+            "cost": 400
+          },
+          {
+            "t": 255.00000000009507,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 255.00000000009507,
+            "kind": "repair",
+            "id": 46,
+            "heal": 106,
+            "cost": 36
+          },
+          {
+            "t": 257.00000000009493,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 257.00000000009493,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 260.0000000000922,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 260.0000000000922,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 260.0000000000922,
+            "kind": "buy",
+            "type": "harvester",
+            "cost": 400
+          },
+          {
+            "t": 263.00000000008947,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 263.00000000008947,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 266.00000000008674,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 266.00000000008674,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 269.000000000084,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 269.000000000084,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 270.0000000000831,
+            "kind": "buy",
+            "type": "tank",
+            "cost": 350
+          },
+          {
+            "t": 271.0000000000822,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 271.0000000000822,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 274.00000000007947,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 274.00000000007947,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 277.00000000007674,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 277.00000000007674,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 280.000000000074,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 280.000000000074,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 283.0000000000713,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 283.0000000000713,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 286.00000000006855,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 286.00000000006855,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 288.00000000006673,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 288.00000000006673,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 291.000000000064,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 291.000000000064,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 294.0000000000613,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 294.0000000000613,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 297.00000000005855,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 297.00000000005855,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 300.0000000000558,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 300.0000000000558,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 302.000000000054,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 302.000000000054,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 305.0000000000513,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 305.0000000000513,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 308.00000000004854,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 308.00000000004854,
+            "kind": "repair",
+            "id": 46,
+            "heal": 70,
+            "cost": 24
+          },
+          {
+            "t": 311.0000000000458,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 311.0000000000458,
+            "kind": "repair",
+            "id": 46,
+            "heal": 93,
+            "cost": 31
+          },
+          {
+            "t": 314.0000000000431,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 314.0000000000431,
+            "kind": "repair",
+            "id": 46,
+            "heal": 166,
+            "cost": 56
+          },
+          {
+            "t": 316.00000000004127,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 316.00000000004127,
+            "kind": "repair",
+            "id": 46,
+            "heal": 83,
+            "cost": 28
+          },
+          {
+            "t": 317.00000000004036,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 317.00000000004036,
+            "kind": "repair",
+            "id": 46,
+            "heal": 143,
+            "cost": 48
+          },
+          {
+            "t": 318.00000000003945,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 318.00000000003945,
+            "kind": "repair",
+            "id": 46,
+            "heal": 83,
+            "cost": 28
+          },
+          {
+            "t": 319.00000000003854,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 319.00000000003854,
+            "kind": "repair",
+            "id": 46,
+            "heal": 83,
+            "cost": 28
+          },
+          {
+            "t": 320.00000000003763,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 320.00000000003763,
+            "kind": "repair",
+            "id": 46,
+            "heal": 83,
+            "cost": 28
+          },
+          {
+            "t": 321.0000000000367,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 321.0000000000367,
+            "kind": "repair",
+            "id": 46,
+            "heal": 83,
+            "cost": 28
+          },
+          {
+            "t": 322.0000000000358,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 322.0000000000358,
+            "kind": "repair",
+            "id": 46,
+            "heal": 143,
+            "cost": 48
+          },
+          {
+            "t": 324.000000000034,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 324.000000000034,
+            "kind": "repair",
+            "id": 46,
+            "heal": 106,
+            "cost": 36
+          },
+          {
+            "t": 325.0000000000331,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 325.0000000000331,
+            "kind": "repair",
+            "id": 46,
+            "heal": 120,
+            "cost": 40
+          },
+          {
+            "t": 327.00000000003126,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 327.00000000003126,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 328.00000000003035,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 328.00000000003035,
+            "kind": "repair",
+            "id": 46,
+            "heal": 120,
+            "cost": 40
+          },
+          {
+            "t": 330.00000000002854,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 330.00000000002854,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 331.0000000000276,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 331.0000000000276,
+            "kind": "repair",
+            "id": 46,
+            "heal": 120,
+            "cost": 40
+          },
+          {
+            "t": 332.0000000000267,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 332.0000000000267,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 333.0000000000258,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 333.0000000000258,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 334.0000000000249,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 334.0000000000249,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 335.000000000024,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 335.000000000024,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 336.0000000000231,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 336.0000000000231,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 337.00000000002217,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 337.00000000002217,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 338.00000000002126,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 338.00000000002126,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 339.00000000002035,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 339.00000000002035,
+            "kind": "repair",
+            "id": 46,
+            "heal": 120,
+            "cost": 40
+          },
+          {
+            "t": 341.00000000001853,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 341.00000000001853,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 342.0000000000176,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 342.0000000000176,
+            "kind": "repair",
+            "id": 46,
+            "heal": 120,
+            "cost": 40
+          },
+          {
+            "t": 344.0000000000158,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 344.0000000000158,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 345.0000000000149,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 345.0000000000149,
+            "kind": "repair",
+            "id": 46,
+            "heal": 120,
+            "cost": 40
+          },
+          {
+            "t": 347.0000000000131,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 347.0000000000131,
+            "kind": "repair",
+            "id": 46,
+            "heal": 120,
+            "cost": 40
+          },
+          {
+            "t": 348.00000000001216,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 348.00000000001216,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 349.00000000001125,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 349.00000000001125,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 350.00000000001035,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 350.00000000001035,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 350.00000000001035,
+            "kind": "buy",
+            "type": "repair",
+            "cost": 500
+          },
+          {
+            "t": 351.00000000000944,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 351.00000000000944,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 352.0000000000085,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 352.0000000000085,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 353.0000000000076,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 353.0000000000076,
+            "kind": "repair",
+            "id": 46,
+            "heal": 120,
+            "cost": 40
+          },
+          {
+            "t": 355.0000000000058,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 355.0000000000058,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 356.0000000000049,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 356.0000000000049,
+            "kind": "repair",
+            "id": 46,
+            "heal": 120,
+            "cost": 40
+          },
+          {
+            "t": 358.00000000000307,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 358.00000000000307,
+            "kind": "repair",
+            "id": 46,
+            "heal": 60,
+            "cost": 20
+          },
+          {
+            "t": 359.00000000000216,
+            "kind": "select-map",
+            "id": 46,
+            "x": 420,
+            "y": 510
+          },
+          {
+            "t": 359.00000000000216,
+            "kind": "repair",
+            "id": 46,
+            "heal": 120,
+            "cost": 40
+          }
+        ],
+        "snapshots": [
+          {
+            "elapsed": 0,
+            "hq": 1800,
+            "cash": 850,
+            "units": 19,
+            "harvested": 0
+          },
+          {
+            "elapsed": 30,
+            "hq": 1800,
+            "cash": 230,
+            "units": 25,
+            "harvested": 1080
+          },
+          {
+            "elapsed": 60,
+            "hq": 1800,
+            "cash": 350,
+            "units": 31,
+            "harvested": 2700
+          },
+          {
+            "elapsed": 90,
+            "hq": 1800,
+            "cash": 1142,
+            "units": 35,
+            "harvested": 5040
+          },
+          {
+            "elapsed": 120,
+            "hq": 1800,
+            "cash": 1025,
+            "units": 39,
+            "harvested": 7020
+          },
+          {
+            "elapsed": 150,
+            "hq": 1800,
+            "cash": 2921,
+            "units": 42,
+            "harvested": 9360
+          },
+          {
+            "elapsed": 180,
+            "hq": 1800,
+            "cash": 3222,
+            "units": 39,
+            "harvested": 10980
+          },
+          {
+            "elapsed": 210,
+            "hq": 1800,
+            "cash": 4067,
+            "units": 40,
+            "harvested": 11880
+          },
+          {
+            "elapsed": 240,
+            "hq": 1800,
+            "cash": 4591,
+            "units": 40,
+            "harvested": 12420
+          },
+          {
+            "elapsed": 270,
+            "hq": 1800,
+            "cash": 3651,
+            "units": 39,
+            "harvested": 12780
+          },
+          {
+            "elapsed": 300,
+            "hq": 1800,
+            "cash": 4151,
+            "units": 42,
+            "harvested": 13500
+          },
+          {
+            "elapsed": 330,
+            "hq": 1800,
+            "cash": 4508,
+            "units": 41,
+            "harvested": 14400
+          }
+        ],
+        "stepTraceColumns": [
+          "independentElapsed",
+          "gameTime",
+          "ownHqHp",
+          "enemyHqHp",
+          "result"
+        ],
+        "scope": "Normal menu/UI purchases, construction, rally/army and building repair; read-only canPlace/power queries choose legal actions. No resource/HP/position/result injection. Independent fixed-step time plus surviving HQ oracle; bounded361sec one seed. VM only."
+      },
+      "trace": {
+        "rows": 21600,
+        "columns": [
+          "independentElapsed",
+          "gameTime",
+          "ownHqHp",
+          "enemyHqHp",
+          "result"
+        ],
+        "canonicalTraceSha256": "c540456bcdfe69bb687a64183d8c6edf94cfaf43ba5931869c1ed62309668103",
+        "fullRawSha256": "3badaa2370f7160f300c5c082668f6232c4298e266de8373c2ff02adce967bed",
+        "fullRawBytes": 2078651
+      },
+      "offlineRecordedEvidenceMutations": {
+        "passed": true,
+        "kind": "offline recorded-evidence mutations; no game execution",
+        "results": [
+          {
+            "name": "HQ defeat",
+            "rejected": true
+          },
+          {
+            "name": "early win",
+            "rejected": true
+          },
+          {
+            "name": "late time",
+            "rejected": true
+          },
+          {
+            "name": "missing step",
+            "rejected": true
+          },
+          {
+            "name": "dead HQ during run",
+            "rejected": true
+          },
+          {
+            "name": "wrong terminal elapsed",
+            "rejected": true
+          }
+        ]
+      }
+    }
+  },
+  "defaultAggregateExecuted": false
+}

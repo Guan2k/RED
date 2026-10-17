@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+  "vmSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+  "baseline": {
+    "path": "red-development/v289-stable-entry/RED",
+    "fileCount": 477,
+    "unchanged": true
+  },
+  "resultNormalization": {
+    "encoding": "UTF-8",
+    "serialization": "JSON.stringify(JSON.parse(rawResult))",
+    "changes": [
+      {
+        "families": [
+          "damage",
+          "switchback"
+        ],
+        "field": "source",
+        "value": "index.html"
+      }
+    ],
+    "survival": "Hash the complete runtime report including stepTrace. The packaged summary is not oracle input."
+  },
+  "scripts": [
+    {
+      "id": "damage",
+      "family": "damage",
+      "path": "damage/verify.cjs",
+      "originalPath": "red-development/v289-damage-boundary-audit/verify.cjs",
+      "originalSha256": "e2521629663aecad167e0544e1eeb66458b58c17c329f3a44ea28c2110a631cd",
+      "portableSha256": "1ef81936716ef8679b2c6e2b970af0e839ae4bdef3e0d82c20015030e7319ac9",
+      "replacement": {
+        "from": "path.resolve(__dirname,'../v289-readme/RED')",
+        "to": "path.resolve(__dirname,'../../..')"
+      },
+      "role": "gameplay-verification",
+      "originalSourceSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+      "originalVmSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+      "originalResultPath": "red-development/v289-damage-boundary-audit/result.json",
+      "originalResultSha256": "7412ad26a712e9fcf1b3907504ab51ef11d98dcb85c6bac8b26d53e962afaf4b",
+      "originalResultBytes": 2249,
+      "normalizedResultSha256": "bb7fd77f688983e87cce9ad5ab7ef3bfda89935ded9479c0c9cbe4948d8841a1",
+      "resultPath": "damage/result.json"
+    },
+    {
+      "id": "repair-natural",
+      "family": "repair",
+      "path": "repair/natural.cjs",
+      "originalPath": "red-development/v289-repair-boundary-audit/natural.cjs",
+      "originalSha256": "7c64713de655955125dc3623892eec356affa2e606ff761aaa438e1d018366f0",
+      "portableSha256": "e514aa2671c6a541259d2aa39f106ad81f97c81a13690eb2404423f50b6acaaa",
+      "replacement": {
+        "from": "path.resolve(__dirname,'../v289-stable-entry/RED')",
+        "to": "path.resolve(__dirname,'../../..')"
+      },
+      "role": "gameplay-verification",
+      "originalSourceSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+      "originalVmSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+      "originalResultPath": "red-development/v289-repair-boundary-audit/natural-result.json",
+      "originalResultSha256": "cb373905e089a9f11a71f4cf2bed2696b7314ff4da3dd3a0554b1bfa41c66ad5",
+      "originalResultBytes": 1636,
+      "normalizedResultSha256": "9312e072f5b079bf4a5102e973afeef868013e644391a24f49339cd142a7bd63",
+      "resultPath": "repair/natural-result.json"
+    },
+    {
+      "id": "repair-boundary",
+      "family": "repair",
+      "path": "repair/boundary.cjs",
+      "originalPath": "red-development/v289-repair-boundary-audit/boundary.cjs",
+      "originalSha256": "455676fcc5514067f3ef65fd520e142064ea089f3aef2dfb74429c335ead6d4a",
+      "portableSha256": "68976a17b45c6a6aebe002f9e4eefed65aba862299ebde046270076cded3b6a4",
+      "replacement": {
+        "from": "path.resolve(__dirname,'../v289-stable-entry/RED')",
+        "to": "path.resolve(__dirname,'../../..')"
+      },
+      "role": "gameplay-verification",
+      "originalSourceSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+      "originalVmSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+      "originalResultPath": "red-development/v289-repair-boundary-audit/boundary-result.json",
+      "originalResultSha256": "929b84ceb84ab2dd4999aef1c2f81ebeb0a80640367ded3aef7e22a724198164",
+      "originalResultBytes": 1266,
+      "normalizedResultSha256": "d79721e88b2081b1bccafc54919fc085eb521231728bff5ef99df24375f423ea",
+      "resultPath": "repair/boundary-result.json"
+    },
+    {
+      "id": "switchback",
+      "family": "switchback",
+      "path": "switchback/verify.cjs",
+      "originalPath": "red-development/v289-switchback-route-audit/verify.cjs",
+      "originalSha256": "86aba4b6e74a59ccf8166c48b7624cf5ffa0726afc08e79b5c06865861b1b0bd",
+      "portableSha256": "721a90d598486adaf727b10f33d4de36e26cd0053b48e3626d5d0674b9335e03",
+      "replacement": {
+        "from": "path.resolve(__dirname,'../v289-readme/RED')",
+        "to": "path.resolve(__dirname,'../../..')"
+      },
+      "role": "gameplay-verification",
+      "originalSourceSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+      "originalVmSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+      "originalResultPath": "red-development/v289-switchback-route-audit/result.json",
+      "originalResultSha256": "a2f7e07a216498bfbb9fc0784dd7b35f206dc22e8ba1f875caa9047588fbc9c8",
+      "originalResultBytes": 3514,
+      "normalizedResultSha256": "b8a352646440757429a6e27375f723564ca739b95f7b0db90eb77d3a0ace6bb4",
+      "resultPath": "switchback/result.json"
+    },
+    {
+      "id": "survival",
+      "family": "survival",
+      "path": "survival/verify.cjs",
+      "originalPath": "red-development/v289-survival-natural-audit/verify.cjs",
+      "originalSha256": "bc3b5ed8c8f5420475a28c376f07115b20d8791c81ec309069bb21300b58d543",
+      "portableSha256": "d1aa5d15dd462aba69c372ba52890db6ca310ce1d88cfa6269682aed81d3b7bd",
+      "replacement": {
+        "from": "path.resolve(__dirname,'../v289-stable-entry/RED')",
+        "to": "path.resolve(__dirname,'../../..')"
+      },
+      "role": "gameplay-verification",
+      "originalSourceSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+      "originalVmSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+      "originalResultPath": "red-development/v289-survival-natural-audit/result.json",
+      "originalResultSha256": "3badaa2370f7160f300c5c082668f6232c4298e266de8373c2ff02adce967bed",
+      "originalResultBytes": 2078651,
+      "normalizedResultSha256": "4bb0774f9cfd57f60e28791e3a3902061ba25d8bd90bd67a56d2a539f155ecd7",
+      "summaryPath": "survival/summary.json",
+      "summarySha256": "e01e7a4029fec70d87daff952c74890ead40b78567c0f72036dd7d2ba07d509b",
+      "normalizedResultKind": "complete-runtime-report-including-stepTrace"
+    },
+    {
+      "id": "survival-oracle",
+      "family": "survival",
+      "path": "survival/oracle.cjs",
+      "originalPath": "red-development/v289-survival-natural-audit/oracle.cjs",
+      "originalSha256": "14aa55be2f3ab94de5c54cfde5b5f7b8056ce0eddaa687f1b84c711b3f12d9c8",
+      "portableSha256": "14aa55be2f3ab94de5c54cfde5b5f7b8056ce0eddaa687f1b84c711b3f12d9c8",
+      "replacement": null,
+      "role": "dependency"
+    },
+    {
+      "id": "survival-check-oracle",
+      "family": "survival",
+      "path": "survival/check-oracle.cjs",
+      "originalPath": "red-development/v289-survival-natural-audit/check-oracle.cjs",
+      "originalSha256": "b3acf01b0f32c1e5324c3267389e1bea1e2dc4d636c73759ad96d7b9014408cf",
+      "portableSha256": "f1be51ef04c66173063063976b6b57c7c15b75d24c081b107f57eba9a10ed599",
+      "replacement": {
+        "from": "path.join(__dirname,'result.json')",
+        "to": "process.argv[2]"
+      },
+      "role": "offline-evidence-check",
+      "originalResultPath": "red-development/v289-survival-natural-audit/oracle-result.json",
+      "originalResultSha256": "d0e1d24b697ea47ef83c72d6d08e5af2c650a014a6bf41903987d13d354222f6",
+      "originalResultBytes": 511,
+      "normalizedResultSha256": "eb15e1906cfcf7ece852a02b2ae44b01dea2100548682c53a09d8a996160588a",
+      "resultPath": "survival/oracle-result.json"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "damage/result.json",
+      "role": "recorded-result",
+      "originalPath": "red-development/v289-damage-boundary-audit/result.json",
+      "originalSha256": "7412ad26a712e9fcf1b3907504ab51ef11d98dcb85c6bac8b26d53e962afaf4b",
+      "portableSha256": "7412ad26a712e9fcf1b3907504ab51ef11d98dcb85c6bac8b26d53e962afaf4b",
+      "bytes": 2249,
+      "normalizedResultSha256": "bb7fd77f688983e87cce9ad5ab7ef3bfda89935ded9479c0c9cbe4948d8841a1",
+      "normalization": "JSON.stringify parsed JSON with top-level source replaced by 'index.html'; UTF-8"
+    },
+    {
+      "path": "repair/natural-result.json",
+      "role": "recorded-result",
+      "originalPath": "red-development/v289-repair-boundary-audit/natural-result.json",
+      "originalSha256": "cb373905e089a9f11a71f4cf2bed2696b7314ff4da3dd3a0554b1bfa41c66ad5",
+      "portableSha256": "cb373905e089a9f11a71f4cf2bed2696b7314ff4da3dd3a0554b1bfa41c66ad5",
+      "bytes": 1636,
+      "normalizedResultSha256": "9312e072f5b079bf4a5102e973afeef868013e644391a24f49339cd142a7bd63",
+      "normalization": "JSON.stringify parsed JSON; UTF-8; no field changes"
+    },
+    {
+      "path": "repair/boundary-result.json",
+      "role": "recorded-result",
+      "originalPath": "red-development/v289-repair-boundary-audit/boundary-result.json",
+      "originalSha256": "929b84ceb84ab2dd4999aef1c2f81ebeb0a80640367ded3aef7e22a724198164",
+      "portableSha256": "929b84ceb84ab2dd4999aef1c2f81ebeb0a80640367ded3aef7e22a724198164",
+      "bytes": 1266,
+      "normalizedResultSha256": "d79721e88b2081b1bccafc54919fc085eb521231728bff5ef99df24375f423ea",
+      "normalization": "JSON.stringify parsed JSON; UTF-8; no field changes"
+    },
+    {
+      "path": "switchback/result.json",
+      "role": "recorded-result",
+      "originalPath": "red-development/v289-switchback-route-audit/result.json",
+      "originalSha256": "a2f7e07a216498bfbb9fc0784dd7b35f206dc22e8ba1f875caa9047588fbc9c8",
+      "portableSha256": "a2f7e07a216498bfbb9fc0784dd7b35f206dc22e8ba1f875caa9047588fbc9c8",
+      "bytes": 3514,
+      "normalizedResultSha256": "b8a352646440757429a6e27375f723564ca739b95f7b0db90eb77d3a0ace6bb4",
+      "normalization": "JSON.stringify parsed JSON with top-level source replaced by 'index.html'; UTF-8"
+    },
+    {
+      "path": "survival/summary.json",
+      "role": "trace-omitting-summary-not-oracle-input",
+      "portableSha256": "e01e7a4029fec70d87daff952c74890ead40b78567c0f72036dd7d2ba07d509b",
+      "bytes": 27688,
+      "derivedFrom": "red-development/v289-survival-natural-audit/result.json",
+      "derivation": "Preserve every field except stepTrace; add survivalTrace metadata. Full raw result remains outside package."
+    },
+    {
+      "path": "survival/oracle-result.json",
+      "role": "recorded-result",
+      "originalPath": "red-development/v289-survival-natural-audit/oracle-result.json",
+      "originalSha256": "d0e1d24b697ea47ef83c72d6d08e5af2c650a014a6bf41903987d13d354222f6",
+      "portableSha256": "d0e1d24b697ea47ef83c72d6d08e5af2c650a014a6bf41903987d13d354222f6",
+      "bytes": 511,
+      "normalizedResultSha256": "eb15e1906cfcf7ece852a02b2ae44b01dea2100548682c53a09d8a996160588a",
+      "normalization": "JSON.stringify parsed JSON; UTF-8; no field changes"
+    },
+    {
+      "path": "damage/REPORT.md",
+      "role": "verbatim-historical-report",
+      "originalPath": "red-development/v289-damage-boundary-audit/REPORT.md",
+      "originalSha256": "0df94464a7efa40d62097796aae8f6b96cb052ddd8c1907ce29302c806220dba",
+      "portableSha256": "0df94464a7efa40d62097796aae8f6b96cb052ddd8c1907ce29302c806220dba",
+      "bytes": 4008,
+      "historical": true,
+      "originalWorkingDirectory": "red-development/v289-damage-boundary-audit"
+    },
+    {
+      "path": "damage/final-run.stderr",
+      "role": "recorded-stderr",
+      "originalPath": "red-development/v289-damage-boundary-audit/final-run.stderr",
+      "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "portableSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "damage/history/first-run.cjs",
+      "role": "read-only-historical-first-run",
+      "originalPath": "red-development/v289-damage-boundary-audit/first-run.cjs",
+      "originalSha256": "183265a3d67bf60e19d192344143d948bcc4f2a0c337b45419ff2d1079e39726",
+      "portableSha256": "183265a3d67bf60e19d192344143d948bcc4f2a0c337b45419ff2d1079e39726",
+      "bytes": 5813,
+      "historical": true,
+      "execute": false,
+      "paths": "Preserved verbatim; refer to original audit directory, not portable package."
+    },
+    {
+      "path": "damage/history/first-run.stderr",
+      "role": "read-only-historical-first-run",
+      "originalPath": "red-development/v289-damage-boundary-audit/first-run.stderr",
+      "originalSha256": "e731fec16fca16e30ec841ba7babfa7fb2b6d273f62d939cf88bbe5132d343c7",
+      "portableSha256": "e731fec16fca16e30ec841ba7babfa7fb2b6d273f62d939cf88bbe5132d343c7",
+      "bytes": 900,
+      "historical": true,
+      "execute": false,
+      "paths": "Preserved verbatim; refer to original audit directory, not portable package."
+    },
+    {
+      "path": "damage/history/README.txt",
+      "role": "history-warning",
+      "portableSha256": "c53c39188a548ed1f8a69fcb5bfb02beec50c8312b72d46fb75467cde7745942",
+      "bytes": 257,
+      "historical": true,
+      "execute": false
+    },
+    {
+      "path": "repair/REPORT.md",
+      "role": "verbatim-historical-report",
+      "originalPath": "red-development/v289-repair-boundary-audit/REPORT.md",
+      "originalSha256": "66579470fc1805d2a2d4ff8dc37b0cbeb4ebaa8f9fe466ef2cbd1eee9619ac38",
+      "portableSha256": "66579470fc1805d2a2d4ff8dc37b0cbeb4ebaa8f9fe466ef2cbd1eee9619ac38",
+      "bytes": 3253,
+      "historical": true,
+      "originalWorkingDirectory": "red-development/v289-repair-boundary-audit"
+    },
+    {
+      "path": "repair/natural-stderr.txt",
+      "role": "recorded-stderr",
+      "originalPath": "red-development/v289-repair-boundary-audit/natural-stderr.txt",
+      "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "portableSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "repair/boundary-stderr.txt",
+      "role": "recorded-stderr",
+      "originalPath": "red-development/v289-repair-boundary-audit/boundary-stderr.txt",
+      "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "portableSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "switchback/REPORT.md",
+      "role": "verbatim-historical-report",
+      "originalPath": "red-development/v289-switchback-route-audit/REPORT.md",
+      "originalSha256": "c0dda3d232b480939dfec7fb7b5883e2da9d099b446bd9877c86a66a30ff993d",
+      "portableSha256": "c0dda3d232b480939dfec7fb7b5883e2da9d099b446bd9877c86a66a30ff993d",
+      "bytes": 3643,
+      "historical": true,
+      "originalWorkingDirectory": "red-development/v289-switchback-route-audit"
+    },
+    {
+      "path": "switchback/final-run.stderr",
+      "role": "recorded-stderr",
+      "originalPath": "red-development/v289-switchback-route-audit/final-run.stderr",
+      "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "portableSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "survival/REPORT.md",
+      "role": "verbatim-historical-report",
+      "originalPath": "red-development/v289-survival-natural-audit/REPORT.md",
+      "originalSha256": "419cb4df03a29ca0ea4797fa90442de164cb8bdd5a08fd133e7400234ef67f27",
+      "portableSha256": "419cb4df03a29ca0ea4797fa90442de164cb8bdd5a08fd133e7400234ef67f27",
+      "bytes": 4533,
+      "historical": true,
+      "originalWorkingDirectory": "red-development/v289-survival-natural-audit"
+    },
+    {
+      "path": "survival/stderr.txt",
+      "role": "recorded-stderr",
+      "originalPath": "red-development/v289-survival-natural-audit/stderr.txt",
+      "originalSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "portableSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "survival/history/first-run.cjs",
+      "role": "read-only-historical-first-run",
+      "originalPath": "red-development/v289-survival-natural-audit/first-run.cjs",
+      "originalSha256": "e0e3a6c1dd988170c931a952fa4bfba701e8a49dd2590db48c5089efb0b97493",
+      "portableSha256": "e0e3a6c1dd988170c931a952fa4bfba701e8a49dd2590db48c5089efb0b97493",
+      "bytes": 4827,
+      "historical": true,
+      "execute": false,
+      "paths": "Preserved verbatim; refer to original audit directory, not portable package."
+    },
+    {
+      "path": "survival/history/first-run.stderr",
+      "role": "read-only-historical-first-run",
+      "originalPath": "red-development/v289-survival-natural-audit/first-run.stderr",
+      "originalSha256": "3a182e0bcce8022d4f817a67252a83c4ec37aade3881e572dc1c97413b272b83",
+      "portableSha256": "3a182e0bcce8022d4f817a67252a83c4ec37aade3881e572dc1c97413b272b83",
+      "bytes": 966,
+      "historical": true,
+      "execute": false,
+      "paths": "Preserved verbatim; refer to original audit directory, not portable package."
+    },
+    {
+      "path": "survival/history/README.txt",
+      "role": "history-warning",
+      "portableSha256": "c53c39188a548ed1f8a69fcb5bfb02beec50c8312b72d46fb75467cde7745942",
+      "bytes": 257,
+      "historical": true,
+      "execute": false
+    }
+  ],
+  "survivalTrace": {
+    "rows": 21600,
+    "columns": [
+      "independentElapsed",
+      "gameTime",
+      "ownHqHp",
+      "enemyHqHp",
+      "result"
+    ],
+    "canonicalTraceSha256": "c540456bcdfe69bb687a64183d8c6edf94cfaf43ba5931869c1ed62309668103",
+    "fullRawSha256": "3badaa2370f7160f300c5c082668f6232c4298e266de8373c2ff02adce967bed",
+    "fullRawBytes": 2078651
+  },
+  "scope": "Packaging only. No gameplay, browser, save, import, export, download, or aggregate verification executed by this migration. Existing baseline files and root checksum/README unchanged. Historical reports and first-run files preserve their original text and paths; they are not portable execution entrypoints.",
+  "survivalFullResult": {
+    "retainedOutsidePackage": true,
+    "path": "red-development/v289-survival-natural-audit/result.json",
+    "normalizedResultSha256": "4bb0774f9cfd57f60e28791e3a3902061ba25d8bd90bd67a56d2a539f155ecd7",
+    "normalization": "JSON.stringify(JSON.parse(rawResult)) UTF-8; no field changes"
+  }
+}

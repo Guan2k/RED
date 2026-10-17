@@ -1,0 +1,165 @@
+{
+  "passed": true,
+  "source": "/workspace/scratch/e433d7540f34/red-development/v289-readme/RED/index.html",
+  "sha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+  "trace": [
+    {
+      "label": "outbound-two-gates",
+      "requested": [
+        {
+          "x": 470,
+          "y": 470
+        },
+        {
+          "x": 730,
+          "y": 570
+        },
+        {
+          "x": 780,
+          "y": 570
+        }
+      ],
+      "accepted": [
+        {
+          "x": 470,
+          "y": 470
+        },
+        {
+          "x": 730,
+          "y": 570
+        },
+        {
+          "x": 780,
+          "y": 570
+        }
+      ],
+      "seconds": 7.416666666666646,
+      "arrivals": [
+        {
+          "goal": {
+            "x": 470,
+            "y": 470
+          },
+          "distance": 4.567897005264536,
+          "t": 3.383333333333326
+        },
+        {
+          "goal": {
+            "x": 730,
+            "y": 570
+          },
+          "distance": 4.331036909092097,
+          "t": 6.799999999999981
+        },
+        {
+          "goal": {
+            "x": 780,
+            "y": 570
+          },
+          "distance": 4.863660839278458,
+          "t": 7.416666666666646
+        }
+      ],
+      "at": {
+        "x": 775.1383583890555,
+        "y": 569.8598657562771,
+        "hp": 105
+      }
+    },
+    {
+      "label": "return-two-gates",
+      "requested": [
+        {
+          "x": 730,
+          "y": 570
+        },
+        {
+          "x": 470,
+          "y": 470
+        },
+        {
+          "x": 350,
+          "y": 470
+        }
+      ],
+      "accepted": [
+        {
+          "x": 730,
+          "y": 570
+        },
+        {
+          "x": 470,
+          "y": 470
+        },
+        {
+          "x": 350,
+          "y": 470
+        }
+      ],
+      "seconds": 5.4000000000002375,
+      "arrivals": [
+        {
+          "goal": {
+            "x": 730,
+            "y": 570
+          },
+          "distance": 4.1385759153428605,
+          "t": 7.9333333333333105
+        },
+        {
+          "goal": {
+            "x": 470,
+            "y": 470
+          },
+          "distance": 4.996493784337127,
+          "t": 11.333333333333476
+        },
+        {
+          "goal": {
+            "x": 350,
+            "y": 470
+          },
+          "distance": 4.418782432030905,
+          "t": 12.816666666666883
+        }
+      ],
+      "at": {
+        "x": 354.4183377384045,
+        "y": 470.0626882047571,
+        "hp": 49.400000000000006
+      }
+    }
+  ],
+  "crossings": [
+    {
+      "label": "outbound-two-gates",
+      "wall": 470,
+      "at": 3.4499999999999926,
+      "x": 470,
+      "y": 469.7815255634242
+    },
+    {
+      "label": "outbound-two-gates",
+      "wall": 730,
+      "at": 6.849999999999981,
+      "x": 730,
+      "y": 568.5587764901554
+    },
+    {
+      "label": "return-two-gates",
+      "wall": 730,
+      "at": 7.999999999999977,
+      "x": 730,
+      "y": 568.4205404375855
+    },
+    {
+      "label": "return-two-gates",
+      "wall": 470,
+      "at": 11.400000000000146,
+      "x": 470,
+      "y": 471.70258251320723
+    }
+  ],
+  "minRockClearance": 28.83766539527724,
+  "scope": "Existing switchback standard map. Actual initial scout selected through map UI; paused coordinate ordinary/append commands, arrival-hold then natural fixed stepping out and back through both gate columns. No gameplay fixtures/state injections, no modified navigation. Distances independently computed for each consumed leg. VM/DOM only."
+}

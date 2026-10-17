@@ -1,0 +1,1 @@
+Historical archive only. Do not execute these files. Original paths and failed first-run assertions are preserved verbatim. The original REPORT.md explains the fixture/price error; these files are not part of the approved portable verification entrypoints.

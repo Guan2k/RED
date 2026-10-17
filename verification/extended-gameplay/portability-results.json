@@ -1,0 +1,31 @@
+{
+  "scope": "one complete relocated expanded-family run; old default aggregate not run",
+  "exitStatus": 0,
+  "stderr": "",
+  "sourceSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+  "copiedPackageFiles": 507,
+  "allCopiedPackageFilesByteIdenticalAfterRun": true,
+  "families": [
+    "damage",
+    "repair",
+    "switchback",
+    "survival"
+  ],
+  "fullApprovedResultHashesMatched": true,
+  "survivalFullTraceRegeneratedAndChecked": {
+    "rows": 21600,
+    "columns": [
+      "independentElapsed",
+      "gameTime",
+      "ownHqHp",
+      "enemyHqHp",
+      "result"
+    ],
+    "canonicalTraceSha256": "c540456bcdfe69bb687a64183d8c6edf94cfaf43ba5931869c1ed62309668103",
+    "fullRawSha256": "3badaa2370f7160f300c5c082668f6232c4298e266de8373c2ff02adce967bed",
+    "fullRawBytes": 2078651
+  },
+  "offlineRecordedEvidenceMutations": 6,
+  "resultSha256": "5d01c89ce3c7c49400ef81c9dee9688b204a68027eae54bccfafb71522eb4c58",
+  "defaultAggregateExecuted": false
+}
