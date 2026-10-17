@@ -1,0 +1,80 @@
+{
+  "sourceSha256": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+  "passed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "name": "classic ground move",
+      "passed": true,
+      "map": "classic",
+      "simulationSeconds": 20,
+      "pairedCheckpoints": 80,
+      "receipt": "最近地图命令：已接收 · 移动 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。",
+      "witness": {
+        "travel": 125.60000000000178,
+        "remaining": 4.399999999998215,
+        "pausedUnchanged": false
+      }
+    },
+    {
+      "name": "frontier paused command then resume",
+      "passed": true,
+      "map": "frontier",
+      "simulationSeconds": 20,
+      "pairedCheckpoints": 80,
+      "receipt": "最近地图命令：已接收 · 移动 1；0 个所选存活友方单位保留原命令/设置；下达时暂停，恢复后执行。仅回执，不代表抵达或生效结果。",
+      "witness": {
+        "travel": 125.60000000000178,
+        "remaining": 4.399999999998215,
+        "pausedUnchanged": true
+      }
+    },
+    {
+      "name": "ridge assigned ore harvest and delivery",
+      "passed": true,
+      "map": "ridge",
+      "simulationSeconds": 45,
+      "pairedCheckpoints": 180,
+      "receipt": "最近地图命令：已接收 · 指定矿点 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。",
+      "witness": {
+        "maxCargo": 180,
+        "oreRemaining": 10440,
+        "cash": 3140,
+        "delivered": 1440,
+        "deliveryRecord": {
+          "trips": 8,
+          "total": 1440,
+          "lastAt": 41.48333333333226
+        },
+        "oreIndex": 0
+      }
+    },
+    {
+      "name": "ring rally then paid scout production",
+      "passed": true,
+      "map": "ring",
+      "simulationSeconds": 40,
+      "pairedCheckpoints": 160,
+      "receipt": "最近地图命令：已接收 · 工厂集结点 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。",
+      "witness": {
+        "paid": 180,
+        "producedFirst": {
+          "x": 282.59986433088807,
+          "y": 492.0258693224836
+        },
+        "producedLast": {
+          "id": 19,
+          "x": 338.21403128802484,
+          "y": 596.2173904489424,
+          "goal": null
+        },
+        "travel": 118.10507457760484,
+        "rally": {
+          "x": 340,
+          "y": 600
+        }
+      }
+    }
+  ],
+  "scope": "Same-version whole-source deterministic VM, legal UI starts and commands, no funds/health/terminal/map-world injection. Real simulation code advances in 0.05-second steps with paired comparisons every 0.25 seconds. Synthetic DOM/pointer/default clicks, not native browser verification. No persistence actions. Frozen product unmodified."
+}

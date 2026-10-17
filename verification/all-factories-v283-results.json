@@ -1,0 +1,104 @@
+{
+  "passed": 24,
+  "failed": 0,
+  "assertions": 293,
+  "results": [
+    {
+      "name": "legal distinct loops busy idle construction false",
+      "passed": true
+    },
+    {
+      "name": "legal distinct loops busy idle construction true",
+      "passed": true
+    },
+    {
+      "name": "legal pending mode attack",
+      "passed": true
+    },
+    {
+      "name": "legal pending mode appendCommand",
+      "passed": true
+    },
+    {
+      "name": "legal pending mode construction",
+      "passed": true
+    },
+    {
+      "name": "touch activation and duplicate late click",
+      "passed": true
+    },
+    {
+      "name": "native untracked activation on fresh button",
+      "passed": true
+    },
+    {
+      "name": "repeated untracked activation and explicit recovery contract",
+      "passed": true
+    },
+    {
+      "name": "keyboard Enter",
+      "passed": true
+    },
+    {
+      "name": "keyboard  ",
+      "passed": true
+    },
+    {
+      "name": "cancel pointercancel",
+      "passed": true
+    },
+    {
+      "name": "cancel blur",
+      "passed": true
+    },
+    {
+      "name": "cancel lostpointercapture",
+      "passed": true
+    },
+    {
+      "name": "old pointer across actual restart same ID rejected",
+      "passed": true
+    },
+    {
+      "name": "old key across actual restart Enter",
+      "passed": true
+    },
+    {
+      "name": "old key across actual restart  ",
+      "passed": true
+    },
+    {
+      "name": "menu and restart disabled real UI",
+      "passed": true
+    },
+    {
+      "name": "synthetic zero candidate get(4).hp=0",
+      "passed": true
+    },
+    {
+      "name": "synthetic zero candidate get(4).team=1",
+      "passed": true
+    },
+    {
+      "name": "synthetic zero candidate get(4).build=1",
+      "passed": true
+    },
+    {
+      "name": "synthetic zero candidate get(4).type=\"power\"",
+      "passed": true
+    },
+    {
+      "name": "synthetic zero candidate state.entities=state.entities.filter(e=>e.id!==4)",
+      "passed": true
+    },
+    {
+      "name": "synthetic newly complete after stale render",
+      "passed": true
+    },
+    {
+      "name": "synthetic terminal direct handler",
+      "passed": true
+    }
+  ],
+  "scope": "Legal UI construction and paid orders, synthetic DOM pointer/keyboard events; synthetic filtering/terminal fixtures explicitly named. No native browser, persistence or real assistive technology validation."
+}

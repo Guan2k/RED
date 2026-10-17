@@ -1,0 +1,502 @@
+{
+  "sourceSha256": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+  "current": [
+    {
+      "script": "repair-button-repeat.cjs",
+      "passed": 57,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": true
+    },
+    {
+      "script": "attack-pressed.cjs",
+      "passed": 42,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": true
+    },
+    {
+      "script": "same-repeat-factories.cjs",
+      "passed": 57,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "control-group-add.cjs",
+      "passed": 41,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "attack-tail-help.cjs",
+      "passed": 8,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "delivery-refinery-selection.cjs",
+      "passed": 72,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "retired-input-references.cjs",
+      "passed": 66,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "queue-remainder.cjs",
+      "passed": 103,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "queued-point.cjs",
+      "passed": 101,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "production-gesture-natural.cjs",
+      "passed": 19,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "production-mode-natural.cjs",
+      "passed": 32,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "attack-tail.cjs",
+      "passed": 27,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "route-cancel.cjs",
+      "passed": 14,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "escort-target.cjs",
+      "passed": 25,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "factory-spawn-check.cjs",
+      "passed": 25,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "ground-destination.cjs",
+      "passed": 34,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "mining-arrangement.cjs",
+      "passed": 19,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "ground-orders.cjs",
+      "passed": 26,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "post-capture.cjs",
+      "passed": 24,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "production-waiting.cjs",
+      "passed": 23,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "weakest-selection.cjs",
+      "passed": 37,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "selection-health.cjs",
+      "passed": 32,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "all-damaged.cjs",
+      "passed": 24,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "pause-ui.cjs",
+      "passed": 27,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "repair-paused.cjs",
+      "passed": 34,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    }
+  ],
+  "historicalIdentity": [
+    {
+      "script": "attack-tail-help.cjs",
+      "name": "exact current script and historical v268/v267 executable identity",
+      "passed": true,
+      "currentRejection": {
+        "failure": {
+          "stage": "source",
+          "invariant": "current_executable_script_exact",
+          "code": "ERR_ASSERTION"
+        },
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "attack-tail.cjs",
+      "name": "exact v262 restore rejects unrelated gameplay edits",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v263 attack-tail boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "route-cancel.cjs",
+      "name": "exact published v261 restoration rejects unrelated gameplay edits",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v262 route-cancel boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "escort-target.cjs",
+      "name": "restoration rejects unrelated mutation",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v261 escort-target boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "factory-spawn-check.cjs",
+      "name": "exact v259 restore rejects unauthorized gameplay mutation",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v260 spawn-check boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "ground-destination.cjs",
+      "name": "restores byte-exact v258 and detects unrelated gameplay change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v259 destination boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "mining-arrangement.cjs",
+      "name": "exact source restoration preserves every gameplay function",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v258 mining-arrangement boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "ground-orders.cjs",
+      "name": "strict restore preserves all unrelated execution source",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "exact v257 ground-order boundary",
+        "errorFormat": "assertion-message-only"
+      }
+    },
+    {
+      "script": "post-capture.cjs",
+      "name": "strict restoration proves original simulation source unchanged",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "exact v256 capture-notice boundary",
+        "errorFormat": "assertion-message-only"
+      }
+    },
+    {
+      "script": "production-waiting.cjs",
+      "name": "strict v254 restoration rejects unrelated source change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "exact v255 waiting explanation boundary",
+        "errorFormat": "assertion-message-only"
+      }
+    },
+    {
+      "script": "weakest-selection.cjs",
+      "name": "strict restore returns frozen v253 and rejects unrelated changes",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v254 weakest-selection boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "selection-health.cjs",
+      "name": "strict restore returns frozen v252 and rejects unrelated change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v253 selection-health boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "all-damaged.cjs",
+      "name": "strict restore returns frozen v251 and rejects unrelated source mutation",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v252 all-damaged boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "pause-ui.cjs",
+      "name": "strict source restoration rejects unrelated game change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v251 pause-ui boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "repair-paused.cjs",
+      "name": "strict source boundary restores exact v249; unauthorized repair mutation rejected",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v251 pause-ui boundary",
+        "errorFormat": "assertion-stack"
+      }
+    }
+  ],
+  "focused": [
+    {
+      "script": "map-pointer-geometry.cjs",
+      "passed": 39,
+      "assertions": 264
+    },
+    {
+      "script": "map-pointer-geometry-negative-control.cjs",
+      "passed": 6,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-command.cjs",
+      "passed": 85,
+      "assertions": 328
+    },
+    {
+      "script": "coordinate-command-negative-control.cjs",
+      "passed": 7,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-command-natural-v283.cjs",
+      "passed": 4,
+      "assertions": null
+    },
+    {
+      "script": "selection-removal.cjs",
+      "passed": 56,
+      "assertions": 212
+    },
+    {
+      "script": "selection-removal-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "selection-removal-natural.cjs",
+      "passed": 4,
+      "assertions": 1712
+    },
+    {
+      "script": "inherit-dom-v277-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "post-selection.cjs",
+      "passed": 73,
+      "assertions": 251
+    },
+    {
+      "script": "post-selection-negative-control.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "post-selection-natural.cjs",
+      "passed": 1,
+      "assertions": 262
+    },
+    {
+      "script": "coordinate-construction.cjs",
+      "passed": 80,
+      "assertions": 360
+    },
+    {
+      "script": "coordinate-construction-negative-control.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-construction-natural.cjs",
+      "passed": 1,
+      "assertions": 714
+    },
+    {
+      "script": "coordinate-append.cjs",
+      "passed": 65,
+      "assertions": 104
+    },
+    {
+      "script": "coordinate-append-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-append-natural.cjs",
+      "passed": 2,
+      "assertions": 410
+    },
+    {
+      "script": "selection-only.cjs",
+      "passed": 62,
+      "assertions": 186
+    },
+    {
+      "script": "selection-only-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "selection-only-natural.cjs",
+      "passed": 1,
+      "assertions": 310
+    },
+    {
+      "script": "coordinate-attack.cjs",
+      "passed": 76,
+      "assertions": 115
+    },
+    {
+      "script": "coordinate-attack-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-attack-natural.cjs",
+      "passed": 1,
+      "assertions": 488
+    },
+    {
+      "script": "patrol-action-v283.cjs",
+      "passed": 35,
+      "assertions": 725
+    },
+    {
+      "script": "patrol-action-negative-control-v283.cjs",
+      "passed": 9,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v281-negative-control.cjs",
+      "passed": 16,
+      "assertions": 16
+    },
+    {
+      "script": "global-repeat-scope-v283.cjs",
+      "passed": 5,
+      "assertions": 244
+    },
+    {
+      "script": "global-repeat-scope-negative-control-v283.cjs",
+      "passed": 9,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v282-negative-control.cjs",
+      "passed": 16,
+      "assertions": 16
+    },
+    {
+      "script": "all-factories.cjs",
+      "passed": 24,
+      "assertions": 293
+    },
+    {
+      "script": "all-factories-negative-control.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v283-negative-control.cjs",
+      "passed": 42,
+      "assertions": 71
+    }
+  ],
+  "adaptedInheritance": [
+    {
+      "script": "repair-button-repeat.cjs",
+      "originalSha256": "d986a5331fab751b0a5e2f70d9a49dd5b7d753149558e9f9f39055a7f3adfbce",
+      "adaptedSha256": "c288d80af5ffd2a15b1e6dc446f47d9bfbf974172a127f48d506c65125da7147",
+      "scope": "Temporary dom(g)-only exclusion of exact coordinateCommandPanel, selectionRemovePanel, postSelectionPanel and coordinateConstructionPanel nodes/descendants plus marked detached new OPTION nodes and new patrolActionHint subtree; only patrol textContent/title/aria-describedby excluded, disabled and all other fields retained; v282 omits globalRepeatScopeHint and repeatProduction aria-label/title/aria-describedby only; v283 omits only the added selectAllFactories button subtree; indexes rebuilt. Existing fields, world/input state, exceptions and failures unchanged.",
+      "currentPassed": 57,
+      "exactV272OriginalPassed": 57,
+      "exactV272AdaptedPassed": 57
+    },
+    {
+      "script": "attack-pressed.cjs",
+      "originalSha256": "861f2eb41e65fc9b8f96af4182bd1cf60e4ccf651fa8fad1a918e4746b1b5957",
+      "adaptedSha256": "1b646f08930bcc1c213edf5a7f40ec4c4c6174c3ac0bbfca526cd8d8b9da3b49",
+      "scope": "Temporary dom(g)-only exclusion of exact coordinateCommandPanel, selectionRemovePanel, postSelectionPanel and coordinateConstructionPanel nodes/descendants plus marked detached new OPTION nodes and new patrolActionHint subtree; only patrol textContent/title/aria-describedby excluded, disabled and all other fields retained; v282 omits globalRepeatScopeHint and repeatProduction aria-label/title/aria-describedby only; v283 omits only the added selectAllFactories button subtree; indexes rebuilt. Existing fields, world/input state, exceptions and failures unchanged.",
+      "currentPassed": 42,
+      "exactV272OriginalPassed": 42,
+      "exactV272AdaptedPassed": 42
+    }
+  ],
+  "inheritedSourceChecks": 10,
+  "inheritedBehaviorAndMarkup": 959,
+  "legacyFullSuite": null,
+  "scope": "Current-source VM behavior/markup and source checks are counted separately from exact restored-v272 identities. Two named inherited DOM comparators use hash-locked temporary adapters that omit only coordinateCommandPanel, selectionRemovePanel, postSelectionPanel and coordinateConstructionPanel subtrees plus marked detached OPTION nodes; v281 additionally excludes only patrolActionHint and patrol text/title/aria-describedby, all separately tested; v282 additionally excludes only globalRepeatScopeHint and repeatProduction aria-label/title/aria-describedby, also separately tested; v283 additionally excludes only the new selectAllFactories button subtree, with direct removal and retained-control boundary checks. All projections rebuild indexes. All 25 programs execute against this actual v283 source; packaged old tests and VM remain byte-identical. Fifteen old source gates intentionally reject v283; only the frozen case name, failure shape and error first line are allowed. No browser or save/load/import/export execution."
+}

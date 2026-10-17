@@ -1,0 +1,294 @@
+{
+  "passed": 42,
+  "failed": 0,
+  "assertions": 71,
+  "results": [
+    {
+      "name": "repair-button-repeat.cjs: direct new subtree removal",
+      "program": "repair-button-repeat.cjs",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new button text",
+      "program": "repair-button-repeat.cjs",
+      "label": "new button text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new button disabled",
+      "program": "repair-button-repeat.cjs",
+      "label": "new button disabled",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new button attributes",
+      "program": "repair-button-repeat.cjs",
+      "label": "new button attributes",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new button child",
+      "program": "repair-button-repeat.cjs",
+      "label": "new button child",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new button removal",
+      "program": "repair-button-repeat.cjs",
+      "label": "new button removal",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: idle factory label retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "idle factory label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: idle factory disabled retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "idle factory disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: idle factory attribute retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "idle factory attribute retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: idle factory removal retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "idle factory removal retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: global disabled retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "global disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: global value retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "global value retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: global unrelated attribute retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "global unrelated attribute retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: factory local value retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "factory local value retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: factory local label retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "factory local label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: patrol disabled retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "patrol disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: stop label retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "stop label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: unrelated descendant retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "unrelated descendant retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: existing active element retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "existing active element retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: document visibility retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "document visibility retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: duplicate new ID rejected",
+      "program": "repair-button-repeat.cjs",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: direct new subtree removal",
+      "program": "attack-pressed.cjs",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new button text",
+      "program": "attack-pressed.cjs",
+      "label": "new button text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new button disabled",
+      "program": "attack-pressed.cjs",
+      "label": "new button disabled",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new button attributes",
+      "program": "attack-pressed.cjs",
+      "label": "new button attributes",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new button child",
+      "program": "attack-pressed.cjs",
+      "label": "new button child",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new button removal",
+      "program": "attack-pressed.cjs",
+      "label": "new button removal",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: idle factory label retained",
+      "program": "attack-pressed.cjs",
+      "label": "idle factory label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: idle factory disabled retained",
+      "program": "attack-pressed.cjs",
+      "label": "idle factory disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: idle factory attribute retained",
+      "program": "attack-pressed.cjs",
+      "label": "idle factory attribute retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: idle factory removal retained",
+      "program": "attack-pressed.cjs",
+      "label": "idle factory removal retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: global disabled retained",
+      "program": "attack-pressed.cjs",
+      "label": "global disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: global value retained",
+      "program": "attack-pressed.cjs",
+      "label": "global value retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: global unrelated attribute retained",
+      "program": "attack-pressed.cjs",
+      "label": "global unrelated attribute retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: factory local value retained",
+      "program": "attack-pressed.cjs",
+      "label": "factory local value retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: factory local label retained",
+      "program": "attack-pressed.cjs",
+      "label": "factory local label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: patrol disabled retained",
+      "program": "attack-pressed.cjs",
+      "label": "patrol disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: stop label retained",
+      "program": "attack-pressed.cjs",
+      "label": "stop label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: unrelated descendant retained",
+      "program": "attack-pressed.cjs",
+      "label": "unrelated descendant retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: existing active element retained",
+      "program": "attack-pressed.cjs",
+      "label": "existing active element retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: document visibility retained",
+      "program": "attack-pressed.cjs",
+      "label": "document visibility retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: duplicate new ID rejected",
+      "program": "attack-pressed.cjs",
+      "passed": true
+    }
+  ],
+  "scope": "Only selectAllFactories and its descendants are additionally excluded from the frozen v282 DOM projection. Physical removal is compared directly with the old projection, including rebuilt indexes. Existing idle-factory/global/local/patrol/stop controls, unrelated attributes and descendants, active element and document visibility remain compared. Original packaged programs are hash-locked and unmodified. Excluded button behavior is covered by the separate all-factories suite."
+}

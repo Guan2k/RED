@@ -1,0 +1,67 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "results": [
+    {
+      "name": "exclude busy",
+      "passed": true,
+      "detectedBy": "exact visible count"
+    },
+    {
+      "name": "include construction",
+      "passed": true,
+      "detectedBy": "exact visible count"
+    },
+    {
+      "name": "include enemies",
+      "passed": true,
+      "detectedBy": "exact visible count"
+    },
+    {
+      "name": "include dead",
+      "passed": true,
+      "detectedBy": "zero candidate selection and pending retained"
+    },
+    {
+      "name": "clear no candidate",
+      "passed": true,
+      "detectedBy": "zero candidate selection and pending retained"
+    },
+    {
+      "name": "clear paid orders",
+      "passed": true,
+      "detectedBy": "selection preserves whole world economy queue groups and tasks"
+    },
+    {
+      "name": "leave pending input",
+      "passed": true,
+      "detectedBy": "clear only pending input"
+    },
+    {
+      "name": "wrong count",
+      "passed": true,
+      "detectedBy": "exact visible count"
+    },
+    {
+      "name": "disabled paused",
+      "passed": true,
+      "detectedBy": "availability"
+    },
+    {
+      "name": "old battle accepted",
+      "passed": true,
+      "detectedBy": "old battle pointer ignored"
+    },
+    {
+      "name": "ignore canceled gesture",
+      "passed": true,
+      "detectedBy": "canceled click ignored"
+    },
+    {
+      "name": "refresh changes cash",
+      "passed": true,
+      "detectedBy": "refresh world pure"
+    }
+  ],
+  "scope": "Actual temporary product source mutations run all-factories behavioral oracle without source identity gate; original package untouched."
+}
