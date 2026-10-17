@@ -1,0 +1,131 @@
+{
+  "passed": 1,
+  "failed": 0,
+  "assertions": 127,
+  "checkpoints": 26,
+  "sourceSha256": "9f4dae093065bcee4f64385bfac49c359e26d70e664bc3e048baae2ac70b21c5",
+  "seed": 3280,
+  "seconds": 19.500000000000174,
+  "orderRefund": 157,
+  "constructionRefund": 240,
+  "salvageRefund": 150,
+  "finalLedger": {
+    "cash": 2007,
+    "income": 690,
+    "spent": 383
+  },
+  "events": [
+    {
+      "t": 0,
+      "label": "pay scout order",
+      "before": {
+        "cash": 1700,
+        "income": 0,
+        "spent": 0
+      },
+      "after": {
+        "cash": 1520,
+        "income": 0,
+        "spent": 180
+      }
+    },
+    {
+      "t": 0.49999999999999994,
+      "label": "cancel partial scout order",
+      "before": {
+        "cash": 1520,
+        "income": 0,
+        "spent": 180
+      },
+      "after": {
+        "cash": 1677,
+        "income": 0,
+        "spent": 23
+      }
+    },
+    {
+      "t": 0.49999999999999994,
+      "label": "pay coordinate power construction",
+      "before": {
+        "cash": 1677,
+        "income": 0,
+        "spent": 23
+      },
+      "after": {
+        "cash": 1377,
+        "income": 0,
+        "spent": 323
+      }
+    },
+    {
+      "t": 1.4999999999999996,
+      "label": "cancel partial construction",
+      "before": {
+        "cash": 1377,
+        "income": 0,
+        "spent": 323
+      },
+      "after": {
+        "cash": 1617,
+        "income": 0,
+        "spent": 83
+      }
+    },
+    {
+      "t": 1.4999999999999996,
+      "label": "pay coordinate power construction",
+      "before": {
+        "cash": 1617,
+        "income": 0,
+        "spent": 83
+      },
+      "after": {
+        "cash": 1317,
+        "income": 0,
+        "spent": 383
+      }
+    },
+    {
+      "t": 7.499999999999979,
+      "label": "salvage completed replacement",
+      "before": {
+        "cash": 1497,
+        "income": 180,
+        "spent": 383
+      },
+      "after": {
+        "cash": 1647,
+        "income": 330,
+        "spent": 383
+      }
+    }
+  ],
+  "confirmations": [
+    {
+      "message": "取消发电站施工，退回 240 资金？建筑将移除；已施工或受损部分不退，原生产订单保留。",
+      "answer": false,
+      "mode": "synthetic VM confirm callback"
+    },
+    {
+      "message": "取消发电站施工，退回 240 资金？建筑将移除；已施工或受损部分不退，原生产订单保留。",
+      "answer": true,
+      "mode": "synthetic VM confirm callback"
+    },
+    {
+      "message": "取消发电站施工，退回 240 资金？建筑将移除；已施工或受损部分不退，原生产订单保留。",
+      "answer": true,
+      "mode": "synthetic VM confirm callback"
+    },
+    {
+      "message": "回收发电站，获得 150 资金？建筑将移除，可能影响电力、采矿或生产；生产订单会保留。",
+      "answer": false,
+      "mode": "synthetic VM confirm callback"
+    },
+    {
+      "message": "回收发电站，获得 150 资金？建筑将移除，可能影响电力、采矿或生产；生产订单会保留。",
+      "answer": true,
+      "mode": "synthetic VM confirm callback"
+    }
+  ],
+  "scope": "One legal UI-driven cash chain. Only updateUI is called as normal projection; other game-model access is read-only. Dialog responses and a selection change during a confirmation are explicitly synthetic VM callback models, not native dialogs. Old order late release and empty-selection building repeats are checked; no claim of a common building input token. No save/load/export or game state injection."
+}
