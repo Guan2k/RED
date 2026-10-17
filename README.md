@@ -569,3 +569,8 @@ node verification/run-tests.cjs
 - [当前玩家指南](CURRENT_PLAYER_GUIDE.md)
 - [版本说明](RELEASE_NOTES.md)
 
+
+
+## v0.280 测试补充：自然终局后再次作战
+
+产品版本和 index.html 未变。运行 `node verification/terminal-restart.cjs` 可独立验证合法胜利、30 秒终局冻结、正常“再次作战”、新局账目/对象重置和20秒付费建造生产。1112断言、276检查点通过；包含与先前胜利场景重叠的部分，不能作为独立覆盖相加。7项已取消输入的迟到释放仅为合成事件模型，非原生浏览器实测。详见 verification/TERMINAL_RESTART_V280.md；原四场长局入口不变。

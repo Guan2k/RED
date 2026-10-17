@@ -1,0 +1,241 @@
+{
+  "passed": 1,
+  "failed": 0,
+  "coverageComplete": true,
+  "won": true,
+  "restartEvidence": {
+    "passed": true,
+    "armingTime": 224.0000000000704,
+    "modeledCanceledGestures": 7,
+    "lateReleaseChecks": 7,
+    "newBattleSeconds": 20.000000000000146,
+    "newProduced": 1,
+    "newCash": 1590,
+    "newStats": {
+      "income": [
+        540,
+        180
+      ],
+      "spent": [
+        650,
+        530
+      ],
+      "kills": [
+        0,
+        0
+      ],
+      "losses": [
+        0,
+        0
+      ],
+      "produced": [
+        1,
+        1
+      ],
+      "captures": [
+        0,
+        0
+      ],
+      "harvested": [
+        540,
+        180
+      ]
+    },
+    "newActions": [
+      {
+        "t": 0,
+        "kind": "buy",
+        "type": "tank",
+        "paid": 350
+      }
+    ],
+    "idReuse": 1,
+    "scope": "One natural legal victory followed by normal Again. Before ending, seven sequential pointerdown/pointercancel models create real control tokens without overlapping primary presses. After new game, only their stale pointerup/onclick are replayed. This is synthetic delayed-event modeling, not a native delayed-input reproduction."
+  },
+  "assertions": 1112,
+  "checkpoints": 276,
+  "freezeChecks": 53,
+  "sourceSha256": "9f4dae093065bcee4f64385bfac49c359e26d70e664bc3e048baae2ac70b21c5",
+  "seed": 255,
+  "scenario": "classic",
+  "difficulty": "easy",
+  "objective": "stronghold",
+  "observationLimit": 600,
+  "terminal": {
+    "result": "胜利",
+    "t": 225.55000000007163,
+    "progress": [
+      90,
+      0
+    ],
+    "narrative": "要点驻守达成：拥有目标据点并累计驻圈90有效秒。 用时 3分45秒；击毁 10，损失 5；总收入 7260，净消费 8544。 规则：标准规则。"
+  },
+  "captures": [
+    {
+      "t": 88.99999999999623,
+      "post": 2,
+      "from": -1,
+      "to": 1
+    },
+    {
+      "t": 136.00000000000037,
+      "post": 2,
+      "from": 1,
+      "to": 0
+    }
+  ],
+  "completedOrders": 13,
+  "repairs": 7,
+  "builds": 8,
+  "stats": {
+    "income": [
+      7260,
+      1710
+    ],
+    "spent": [
+      8544,
+      2310
+    ],
+    "kills": [
+      10,
+      5
+    ],
+    "losses": [
+      5,
+      10
+    ],
+    "produced": [
+      13,
+      7
+    ],
+    "captures": [
+      1,
+      1
+    ],
+    "harvested": [
+      7020,
+      1620
+    ]
+  },
+  "actions": [
+    {
+      "t": 79.99999999999675,
+      "kind": "build",
+      "type": "power",
+      "x": 420,
+      "y": 480,
+      "paid": 300
+    },
+    {
+      "t": 79.99999999999675,
+      "kind": "buy",
+      "type": "repair",
+      "paid": 500
+    },
+    {
+      "t": 79.99999999999675,
+      "kind": "buy",
+      "type": "artillery",
+      "paid": 550
+    },
+    {
+      "t": 80.99999999999669,
+      "kind": "build",
+      "type": "turret",
+      "x": 470,
+      "y": 520,
+      "paid": 450
+    },
+    {
+      "t": 81.99999999999663,
+      "kind": "build",
+      "type": "turret",
+      "x": 500,
+      "y": 580,
+      "paid": 450
+    },
+    {
+      "t": 82.99999999999658,
+      "kind": "build",
+      "type": "power",
+      "x": 350,
+      "y": 490,
+      "paid": 300
+    },
+    {
+      "t": 83.99999999999652,
+      "kind": "build",
+      "type": "turret",
+      "x": 500,
+      "y": 640,
+      "paid": 450
+    },
+    {
+      "t": 84.99999999999646,
+      "kind": "build",
+      "type": "turret",
+      "x": 270,
+      "y": 430,
+      "paid": 450
+    },
+    {
+      "t": 85.9999999999964,
+      "kind": "build",
+      "type": "power",
+      "x": 70,
+      "y": 670,
+      "paid": 300
+    },
+    {
+      "t": 86.99999999999635,
+      "kind": "build",
+      "type": "turret",
+      "x": 370,
+      "y": 430,
+      "paid": 450
+    },
+    {
+      "t": 88.99999999999623,
+      "kind": "repair",
+      "id": 24,
+      "paid": 100
+    },
+    {
+      "t": 89.99999999999618,
+      "kind": "repair",
+      "id": 24,
+      "paid": 81
+    },
+    {
+      "t": 93.99999999999595,
+      "kind": "repair",
+      "id": 24,
+      "paid": 61
+    },
+    {
+      "t": 97.99999999999572,
+      "kind": "repair",
+      "id": 24,
+      "paid": 65
+    },
+    {
+      "t": 100.99999999999555,
+      "kind": "repair",
+      "id": 24,
+      "paid": 65
+    },
+    {
+      "t": 103.99999999999538,
+      "kind": "repair",
+      "id": 24,
+      "paid": 59
+    },
+    {
+      "t": 108.9999999999951,
+      "kind": "repair",
+      "id": 24,
+      "paid": 63
+    }
+  ],
+  "scope": "Normal menu easy difficulty and all gameplay actions through actual selection/map/native controls. Only normal updateUI refresh plus read-only model queries via run. Adapted legal existing recapture strategy; no resources/HP/positions/result injection, no instrumentation wrapper, no save/load/import/export. Natural result observed and then 30 seconds frozen; if not victory, report it honestly rather than treating it as a product defect. Synthetic VM, not native browser."
+}
