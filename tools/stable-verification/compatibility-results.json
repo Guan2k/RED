@@ -1,0 +1,32 @@
+{
+  "originalFiles": 464,
+  "originalFilesChanged": [
+    "README.md",
+    "SHA256SUMS.txt",
+    "tools/player-package/manifest.json"
+  ],
+  "allOtherOriginalFilesByteIdentical": 461,
+  "playerManifestChange": "only inputs.README.md SHA; previous manifest and README archived byte-exact",
+  "playerZip": {
+    "archive": "RED-v0.289-player.zip",
+    "bytes": 507119,
+    "sha256": "acb876098607dd02ffa54f0222680cd8e9957a54a35e73be8400fd58b6c684a8",
+    "files": {
+      "CURRENT_PLAYER_GUIDE.md": "1c7fd155e6988c21b9c62f1bdc18c21c0293c40e2ef8ba7e87857806fc3c6f1f",
+      "README.md": "97b74857c20c43a3c74aee813a833813c25b578a05924c48224fafde96129302",
+      "SHA256SUMS.txt": "c1f52afcbfcab2edcd28eccc6e2674b81826d389ac29d61c11108b3e83277d67",
+      "index.html": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb"
+    },
+    "validation": "static packaging only; no game/browser/storage execution"
+  },
+  "inheritedReadmeMigrationCheck": {
+    "status": "passed",
+    "protectedOriginalFiles": 445,
+    "archivedExactSections": 13,
+    "originalNotesPrefixBytes": 94123,
+    "readmeBytes": 4659,
+    "relativeReadmeLinks": 15,
+    "gameTestsRun": false
+  },
+  "scope": "packaging and static compatibility only; no game execution by these checks"
+}

@@ -47,11 +47,23 @@
 
 在本目录运行唯一当前默认测试入口（Node.js 18+，无第三方依赖）：
 
+<!-- current-verification-default -->
 ```sh
-node verification/run-tests-v289.cjs
+node verify-current.cjs
+```
+<!-- /current-verification-default -->
+
+本版底层实际命令为 `node verification/run-tests-v289.cjs`，对应[本版聚合脚本](verification/run-tests-v289.cjs)；稳定入口先核完整性，再把已核文件复制到私有临时目录执行它；原包只读，不额外开启历史或长局选项。
+
+只检查包内声明与文件完整性、不执行游戏验证：
+
+```sh
+node verify-current.cjs --check-only
 ```
 
-历史脚本和结果仍保留，但不应把旧命令或累计总数当作当前覆盖。此文档整理未重跑游戏测试；现有v289结果与验证边界见上述专项说明及[玩家指南限制](CURRENT_PLAYER_GUIDE.md#7-必要限制与验证范围)。验证主要使用Node全源码VM／模拟DOM，不能据此宣称原生浏览器布局、输入法、读屏或窄屏体验已验收。
+入口只接受无参数或一次--check-only。它离线验证本包声明版本、源与精确脚本及清单一致，不能证明远端最新或发布者真实性；需从可信发布物取得文件，并核对外部公布的包哈希。详见[稳定入口说明](CURRENT_VERIFICATION_ENTRY.md)。
+
+历史脚本和结果仍保留，但不应把旧命令或累计总数当作当前覆盖。此前README整理未重跑游戏测试；本轮稳定入口的独立门禁及一次默认聚合结果见[入口说明](CURRENT_VERIFICATION_ENTRY.md)。现有v289结果与验证边界见上述专项说明及[玩家指南限制](CURRENT_PLAYER_GUIDE.md#7-必要限制与验证范围)。验证主要使用Node全源码VM／模拟DOM，不能据此宣称原生浏览器布局、输入法、读屏或窄屏体验已验收。
 
 [SHA-256清单](SHA256SUMS.txt)用于核对包内文件完整性；系统已有sha256sum时可运行：
 
