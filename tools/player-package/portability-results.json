@@ -1,0 +1,25 @@
+{
+  "scope": "documentation/tool supplement; no game tests or browser/storage actions",
+  "baseline": "v289 README supplement, 452 files",
+  "baselineChecksumManifestSha256": "5dfcdeee1db77184bafefc487d1cd149f56ac0c2f12a25a6e4ea5916c82053ca",
+  "baselineFilesByteIdenticalBeforeChecksum": 452,
+  "protectedOriginalNonManifestFiles": 451,
+  "gameSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+  "guideSha256": "01e0e4a19f10778c572f824723aee05da8523f61fd9afbcc442d0fb683647b3e",
+  "relocatedFullPackageThreeEntrypoints": "passed",
+  "relocatedArchive": {
+    "archive": "RED-v0.289-player.zip",
+    "bytes": 507119,
+    "sha256": "acb876098607dd02ffa54f0222680cd8e9957a54a35e73be8400fd58b6c684a8",
+    "files": {
+      "CURRENT_PLAYER_GUIDE.md": "1c7fd155e6988c21b9c62f1bdc18c21c0293c40e2ef8ba7e87857806fc3c6f1f",
+      "README.md": "97b74857c20c43a3c74aee813a833813c25b578a05924c48224fafde96129302",
+      "SHA256SUMS.txt": "c1f52afcbfcab2edcd28eccc6e2674b81826d389ac29d61c11108b3e83277d67",
+      "index.html": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb"
+    },
+    "validation": "static packaging only; no game/browser/storage execution"
+  },
+  "relocatedPackagingNegativeCases": 20,
+  "relocatedGuideChecks": 26,
+  "note": "Final checksum manifest is regenerated for new tools/evidence. All other original files remain byte-identical."
+}
