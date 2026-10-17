@@ -1,0 +1,137 @@
+{
+  "passed": 26,
+  "failed": 0,
+  "results": [
+    {
+      "name": "empty records",
+      "detected": true,
+      "expected": "exactly three scenario records"
+    },
+    {
+      "name": "duplicate scenario",
+      "detected": true,
+      "expected": "unique ordered scenario set"
+    },
+    {
+      "name": "unknown root field",
+      "detected": true,
+      "expected": "saved log exact keys"
+    },
+    {
+      "name": "unknown record field",
+      "detected": true,
+      "expected": "scenario record exact keys"
+    },
+    {
+      "name": "unknown macro field",
+      "detected": true,
+      "expected": "macro exact keys"
+    },
+    {
+      "name": "unknown summary field",
+      "detected": true,
+      "expected": "result summary exact keys"
+    },
+    {
+      "name": "unknown coverage field",
+      "detected": true,
+      "expected": "coverage exact keys"
+    },
+    {
+      "name": "unknown feature count field",
+      "detected": true,
+      "expected": "feature counts exact keys"
+    },
+    {
+      "name": "false coverage count",
+      "detected": true,
+      "expected": "summary derived from operations"
+    },
+    {
+      "name": "false result summary",
+      "detected": true,
+      "expected": "saved result summaries match records"
+    },
+    {
+      "name": "empty operations",
+      "detected": true,
+      "expected": "bounded macro operations"
+    },
+    {
+      "name": "empty second battle queue",
+      "detected": true,
+      "expected": "nonempty queue in each battle"
+    },
+    {
+      "name": "false battle queue count",
+      "detected": true,
+      "expected": "recorded queues by battle"
+    },
+    {
+      "name": "missing post success",
+      "detected": true,
+      "expected": "each feature actually succeeds"
+    },
+    {
+      "name": "forbidden keyboard",
+      "detected": true,
+      "expected": "whitelisted keyboard"
+    },
+    {
+      "name": "missing concrete target",
+      "detected": true,
+      "expected": "map exact keys"
+    },
+    {
+      "name": "unknown expected result field",
+      "detected": true,
+      "expected": "feature result exact keys"
+    },
+    {
+      "name": "unknown operation",
+      "detected": true,
+      "expected": "whitelisted operation"
+    },
+    {
+      "name": "forbidden button",
+      "detected": true,
+      "expected": "whitelisted button"
+    },
+    {
+      "name": "unknown field",
+      "detected": true,
+      "expected": "whitelisted field"
+    },
+    {
+      "name": "extra executable property",
+      "detected": true,
+      "expected": "no unknown operation properties"
+    },
+    {
+      "name": "invalid step",
+      "detected": true,
+      "expected": "bounded simulation step"
+    },
+    {
+      "name": "macro substitution",
+      "detected": true,
+      "expected": "fixed macro identity"
+    },
+    {
+      "name": "false accepted result",
+      "detected": true,
+      "expected": "recorded success/rejection exactly replayed"
+    },
+    {
+      "name": "false world hash",
+      "detected": true,
+      "expected": "exact logged macro replay"
+    },
+    {
+      "name": "missing feature result",
+      "detected": true,
+      "expected": "feature result required"
+    }
+  ],
+  "scope": "Malformed/tampered log negative controls. Failure must match the named schema/result/hash assertion; arbitrary setup errors do not count. These are replay-verifier controls, not game-product mutations."
+}
