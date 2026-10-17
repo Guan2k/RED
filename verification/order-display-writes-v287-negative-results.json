@@ -1,0 +1,57 @@
+{
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "name": "redundant status writes",
+      "passed": true,
+      "detectedBy": "stable paused target setter count zero"
+    },
+    {
+      "name": "unconditional aria writes",
+      "passed": true,
+      "detectedBy": "stable paused target setter count zero"
+    },
+    {
+      "name": "stale countdown",
+      "passed": true,
+      "detectedBy": "order display parity countdown"
+    },
+    {
+      "name": "stale refund",
+      "passed": true,
+      "detectedBy": "order display parity active"
+    },
+    {
+      "name": "freeze aria after first value",
+      "passed": true,
+      "detectedBy": "order display parity active"
+    },
+    {
+      "name": "omit complete cancel title",
+      "passed": true,
+      "detectedBy": "order display parity initial eight orders"
+    },
+    {
+      "name": "omit current production status",
+      "passed": true,
+      "detectedBy": "order display parity initial eight orders"
+    },
+    {
+      "name": "freeze existing cancel title",
+      "passed": true,
+      "detectedBy": "order display parity cancel"
+    },
+    {
+      "name": "omit terminal title",
+      "passed": true,
+      "detectedBy": "order display parity terminal"
+    },
+    {
+      "name": "skip empty aria repair",
+      "passed": true,
+      "detectedBy": "order display parity repair empty aria and wrong text/title"
+    }
+  ],
+  "scope": "Actual temporary product source mutants; candidate behavioral/DOM assertions run without candidate hash gate. Host restoration remains exact."
+}

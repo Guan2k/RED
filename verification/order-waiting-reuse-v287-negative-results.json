@@ -1,0 +1,52 @@
+{
+  "passed": 9,
+  "failed": 0,
+  "results": [
+    {
+      "name": "cross refresh cache",
+      "passed": true,
+      "detectedBy": "visible parity no factory"
+    },
+    {
+      "name": "assigned order gets waiting text",
+      "passed": true,
+      "detectedBy": "visible parity completed and assigned"
+    },
+    {
+      "name": "missing membership gate",
+      "passed": true,
+      "detectedBy": "removed order gate"
+    },
+    {
+      "name": "wrong no factory explanation",
+      "passed": true,
+      "detectedBy": "visible parity no factory"
+    },
+    {
+      "name": "wrong construction explanation",
+      "passed": true,
+      "detectedBy": "visible parity new construction"
+    },
+    {
+      "name": "wrong available explanation",
+      "passed": true,
+      "detectedBy": "default live available factory reason"
+    },
+    {
+      "name": "default supplier caches across calls",
+      "passed": true,
+      "detectedBy": "default live available factory reason"
+    },
+    {
+      "name": "eager common reason",
+      "passed": true,
+      "detectedBy": "current exact call counts one-active-seven-waiting"
+    },
+    {
+      "name": "no synchronous reuse",
+      "passed": true,
+      "detectedBy": "current exact call counts one-active-seven-waiting"
+    }
+  ],
+  "scope": "Actual product source mutations; wrong cross-refresh reuse and active/eligibility/text changes must fail semantic display or helper assertions, not a source identity gate. Lazy/nonreuse controls target invocation counts."
+}

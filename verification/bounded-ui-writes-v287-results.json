@@ -1,0 +1,54 @@
+{
+  "passed": 7,
+  "failed": 0,
+  "assertions": 232,
+  "measurements": [
+    {
+      "fields": 33,
+      "refreshes": 20,
+      "before": {
+        "report": 280,
+        "action": 200,
+        "card": 180,
+        "total": 660
+      },
+      "after": 0
+    },
+    {
+      "naturalTerminalSeconds": 151.78333333334626,
+      "ending": "战败",
+      "reportFields": 14
+    }
+  ],
+  "results": [
+    {
+      "name": "stable bounded 33 fields 660 to zero",
+      "passed": true
+    },
+    {
+      "name": "legal combat action and queue label transitions",
+      "passed": true
+    },
+    {
+      "name": "legal factory rally action labels",
+      "passed": true
+    },
+    {
+      "name": "legal repair vehicle action labels",
+      "passed": true
+    },
+    {
+      "name": "legal queue full cancellation and changed building rule titles",
+      "passed": true
+    },
+    {
+      "name": "natural terminal report values and Again placeholder reset",
+      "passed": true
+    },
+    {
+      "name": "synthetic presentation corruption restored including hidden report",
+      "passed": true
+    }
+  ],
+  "scope": "Bounded 14 report text + 10 action text + 9 card title fields in VM. Legal UI actions, paid production/queue cancellation, natural terminal and Again; explicitly synthetic display corruption. Exact v286 world/display parity, no native DOM/layout/FPS claim."
+}

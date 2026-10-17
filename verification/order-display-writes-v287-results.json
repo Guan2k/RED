@@ -1,0 +1,49 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "assertions": 229,
+  "measurements": [
+    {
+      "rows": 8,
+      "refreshes": 20,
+      "oldAssignments": 1760,
+      "oldSameValue": 1440,
+      "newAssignments": 0
+    }
+  ],
+  "results": [
+    {
+      "name": "stable paid eight scout orders measured against v283",
+      "passed": true
+    },
+    {
+      "name": "countdown refund pause priority cancel and factory updates",
+      "passed": true
+    },
+    {
+      "name": "real local loop title and cancellation suffix",
+      "passed": true
+    },
+    {
+      "name": "real global loop title and cancellation suffix",
+      "passed": true
+    },
+    {
+      "name": "synthetic display branch terminal",
+      "passed": true
+    },
+    {
+      "name": "synthetic display branch power shortage",
+      "passed": true
+    },
+    {
+      "name": "synthetic display branch blocked exit",
+      "passed": true
+    },
+    {
+      "name": "synthetic presentation damage repaired on same nodes",
+      "passed": true
+    }
+  ],
+  "scope": "Target textContent/title/aria-label setter invocations only in synthetic VM DOM. Legal UI paid production and loops, exact v283 world/display pairing, independent changed captions/refunds, stable row identities; explicitly synthetic terminal/power/exit branches. No native DOM mutation, layout, time, FPS or browser claim."
+}
