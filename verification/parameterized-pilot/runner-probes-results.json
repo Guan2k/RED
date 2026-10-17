@@ -1,0 +1,2267 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-17T20:33:53.039Z",
+  "command": "node test-maintenance-pilot/runner-probes.cjs",
+  "scope": "Independent cloned-runner/context probes. No frozen files changed and no full 18-mutation aggregate executed.",
+  "methodology": "Verify an unchanged snapshot positively for both families first. Then isolate each attack in a fresh clone. Re-register deliberate suite/context/mutation edits so their own hash checks do not mask the boundary under test. Every rejection is checked for an exact failure message or classifier value, never merely a nonzero exit.",
+  "normal": [
+    {
+      "suiteId": "order-display-writes",
+      "passed": 8,
+      "assertions": 229,
+      "loadCount": 16,
+      "completed": true
+    },
+    {
+      "suiteId": "selection-filter-writes",
+      "passed": 7,
+      "assertions": 110,
+      "loadCount": 14,
+      "completed": true
+    }
+  ],
+  "calibration": [
+    {
+      "suiteId": "order-display-writes",
+      "mutationId": "order-display-writes:redundant-status-writes",
+      "exitStatus": 1,
+      "signal": null,
+      "processError": null,
+      "classification": "DETECTED_BEHAVIOR",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "stable paid eight scout orders measured against v283",
+        "started": [
+          "stable paid eight scout orders measured against v283"
+        ],
+        "completed": false,
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        },
+        "mutation": {
+          "id": "order-display-writes:redundant-status-writes",
+          "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+          "mutatedHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+          "descriptorHash": "6288bcf9fb07b2ef5dc85aafbc0f9bdadfc1a79d734cc17e75ed6744f5f6cb3c"
+        },
+        "loadCount": 2,
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "48fc5353ad292bc655bd8c324c733ee4838f6f9997347596e9fb1ae9c997f49b",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "stable paused target setter count zero"
+        }
+      }
+    },
+    {
+      "suiteId": "selection-filter-writes",
+      "mutationId": "selection-filter-writes:unconditional-filter-text",
+      "exitStatus": 1,
+      "signal": null,
+      "processError": null,
+      "classification": "DETECTED_BEHAVIOR",
+      "evidence": {
+        "suiteId": "selection-filter-writes",
+        "scenario": "stable paused army filters 300 to zero and real selection transitions",
+        "started": [
+          "stable paused army filters 300 to zero and real selection transitions"
+        ],
+        "completed": false,
+        "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "expected": {
+          "candidate": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+          "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+        },
+        "mutation": {
+          "id": "selection-filter-writes:unconditional-filter-text",
+          "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+          "mutatedHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+          "descriptorHash": "162c82d1a46e8c32ef5b374e843ffb41f0b08c16d60b628886806fe7189905c5"
+        },
+        "loadCount": 2,
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "9e2afc310896a8567f8e112a0da2236692517502aaa69b6ee6da9c0dc4b7c9b0",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          }
+        ],
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "stable filter writes zero"
+        }
+      }
+    }
+  ],
+  "probes": [
+    {
+      "id": "wrong-current-hash:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Keep real current source but register an incorrect candidate SHA-256.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "integrity mismatch /tmp/red-portable-pilot-4o6BaB/RED/index.html",
+        "loadCount": 0
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": null,
+          "started": [],
+          "completed": false,
+          "suiteHash": null,
+          "expected": null,
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "integrity mismatch /tmp/red-portable-pilot-4o6BaB/RED/index.html"
+          }
+        }
+      }
+    },
+    {
+      "id": "candidate-old-source:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Use the v286 source and its correct hash as candidate; keep all current change-fence changes.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "current change fence mismatch",
+        "loadCount": 0
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": null,
+          "started": [],
+          "completed": false,
+          "suiteHash": null,
+          "expected": null,
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "current change fence mismatch"
+          }
+        }
+      }
+    },
+    {
+      "id": "candidate-reference-swapped:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Re-register a suite that loads roles in order: reference, candidate.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "VM role order mismatch",
+        "loadCount": 0
+      },
+      "registrations": [
+        {
+          "kind": "suite",
+          "path": "order-display-writes.cjs",
+          "previousSha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "sha256": "171e9531300bd3a182a82a3a8c2e594f42929ded7d6118f7316ed4144cbabb50"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "171e9531300bd3a182a82a3a8c2e594f42929ded7d6118f7316ed4144cbabb50",
+          "expected": {
+            "candidate": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "VM role order mismatch"
+          }
+        }
+      }
+    },
+    {
+      "id": "reference-only-pair:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Re-register a suite that loads roles in order: reference, reference.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "VM role order mismatch",
+        "loadCount": 0
+      },
+      "registrations": [
+        {
+          "kind": "suite",
+          "path": "order-display-writes.cjs",
+          "previousSha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "sha256": "b201c783f7e0a4de0f03d38ca92afee09e34e0e46717b5718824290d1c60b9e8"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "b201c783f7e0a4de0f03d38ca92afee09e34e0e46717b5718824290d1c60b9e8",
+          "expected": {
+            "candidate": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "VM role order mismatch"
+          }
+        }
+      }
+    },
+    {
+      "id": "empty-loadtrace-context:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Re-register a suite that reports every required scenario and exact aggregate counts without loading a VM.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "missing candidate compiled load stable paid eight scout orders measured against v283",
+        "loadCount": 0
+      },
+      "registrations": [
+        {
+          "kind": "suite",
+          "path": "order-display-writes.cjs",
+          "previousSha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "sha256": "714c23001edfa2f82457fe3b8d4d285a6eb64d4617fc57ef032b4a5605319802"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "synthetic presentation damage repaired on same nodes",
+          "started": [
+            "stable paid eight scout orders measured against v283",
+            "countdown refund pause priority cancel and factory updates",
+            "real local loop title and cancellation suffix",
+            "real global loop title and cancellation suffix",
+            "synthetic display branch terminal",
+            "synthetic display branch power shortage",
+            "synthetic display branch blocked exit",
+            "synthetic presentation damage repaired on same nodes"
+          ],
+          "completed": false,
+          "suiteHash": "714c23001edfa2f82457fe3b8d4d285a6eb64d4617fc57ef032b4a5605319802",
+          "expected": {
+            "candidate": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "missing candidate compiled load stable paid eight scout orders measured against v283"
+          }
+        }
+      }
+    },
+    {
+      "id": "empty-loadtrace-runner:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "After valid loads satisfy context finish checks, clear the recorded trace before successful exit; re-register modified context.",
+      "expected": {
+        "childStatus": 0,
+        "completed": true,
+        "loadCount": 0,
+        "runnerCode": "ERR_ASSERTION",
+        "runnerMessage": "runner exactly one role load per scenario"
+      },
+      "registrations": [
+        {
+          "kind": "integrity",
+          "path": "suite-context.cjs",
+          "previousSha256": "b3311c93f9aed6b0fd7caa12f9e976d5454cb33c62bef19f10502897bf586938",
+          "sha256": "356d8e250f7720178f8f21bcffc0fbcece0324ec3d4613595fcdebbdb3f4848b"
+        },
+        {
+          "kind": "suite",
+          "path": "order-display-writes.cjs",
+          "previousSha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "sha256": "d363cd79c2141bc831f0029634538dba96145ca449f031bcd49c5a71e1d46175"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 0,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "synthetic presentation damage repaired on same nodes",
+          "started": [
+            "stable paid eight scout orders measured against v283",
+            "countdown refund pause priority cancel and factory updates",
+            "real local loop title and cancellation suffix",
+            "real global loop title and cancellation suffix",
+            "synthetic display branch terminal",
+            "synthetic display branch power shortage",
+            "synthetic display branch blocked exit",
+            "synthetic presentation damage repaired on same nodes"
+          ],
+          "completed": true,
+          "suiteHash": "d363cd79c2141bc831f0029634538dba96145ca449f031bcd49c5a71e1d46175",
+          "expected": {
+            "candidate": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": null
+        },
+        "runnerFailure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "runner exactly one role load per scenario"
+        }
+      }
+    },
+    {
+      "id": "syntax-only-mutant:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Register an invalid-JavaScript mutant whose intended behavioral assertion/scenario equal a real mutation.",
+      "expected": {
+        "name": "SyntaxError",
+        "code": null,
+        "message": "Unexpected token '='",
+        "classification": "INVALID_INFRASTRUCTURE",
+        "loadCount": 0
+      },
+      "registrations": [
+        {
+          "kind": "mutations",
+          "path": "mutations.json",
+          "previousSha256": "f1e5f59ebae634fcb1f16ab1dfc850a76bf3d210e54677c2cd114444ca105d9d",
+          "sha256": "55a8917ddc4ba27d669e246d6092988318e9e8c2632e7c40a215ec8352d39bd6"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_INFRASTRUCTURE",
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "expected": {
+            "candidate": "8598ec1931852aee19a032daa6bd55ee10c4d7b41ae65c935a1b5930e07294fb",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": {
+            "id": "order-display-writes:probe-syntax-only",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "8598ec1931852aee19a032daa6bd55ee10c4d7b41ae65c935a1b5930e07294fb",
+            "descriptorHash": "170ea19a70d78b52e160a303a3712fdb33ff52ee5b9c59452860c8927873ba45"
+          },
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "SyntaxError",
+            "code": null,
+            "message": "Unexpected token '='"
+          }
+        }
+      }
+    },
+    {
+      "id": "hashgate-failure-not-kill:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Request a real mutation but fail candidate integrity before mutation registration or VM compilation.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "integrity mismatch /tmp/red-portable-pilot-4o6BaB/RED/index.html",
+        "classification": "INVALID_INFRASTRUCTURE",
+        "loadCount": 0
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_INFRASTRUCTURE",
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": null,
+          "started": [],
+          "completed": false,
+          "suiteHash": null,
+          "expected": null,
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "integrity mismatch /tmp/red-portable-pilot-4o6BaB/RED/index.html"
+          }
+        }
+      }
+    },
+    {
+      "id": "wrong-assertion-not-kill:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Load an actual registered mutant and the verified reference, then throw an unrelated assertion from a re-registered suite.",
+      "expected": {
+        "code": "ERR_ASSERTION",
+        "message": "probe unrelated assertion must not kill",
+        "classification": "INVALID_ASSERTION",
+        "loadCount": 2
+      },
+      "registrations": [
+        {
+          "kind": "suite",
+          "path": "order-display-writes.cjs",
+          "previousSha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "sha256": "867f833e25cf3b5ed3a42c0dd98f69e6ddabc17cb1c757f43949da682a1cbf58"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_ASSERTION",
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "867f833e25cf3b5ed3a42c0dd98f69e6ddabc17cb1c757f43949da682a1cbf58",
+          "expected": {
+            "candidate": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": {
+            "id": "order-display-writes:redundant-status-writes",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "descriptorHash": "6288bcf9fb07b2ef5dc85aafbc0f9bdadfc1a79d734cc17e75ed6744f5f6cb3c"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 198199,
+              "suiteId": "order-display-writes",
+              "scriptHash": "48fc5353ad292bc655bd8c324c733ee4838f6f9997347596e9fb1ae9c997f49b",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 198199,
+              "suiteId": "order-display-writes",
+              "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "probe unrelated assertion must not kill"
+          }
+        }
+      }
+    },
+    {
+      "id": "reference-blob-corrupt:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Corrupt only this clone's suite reference blob without changing its registered hash.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "integrity mismatch reference-v283.html",
+        "loadCount": 0
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": null,
+          "started": [],
+          "completed": false,
+          "suiteHash": null,
+          "expected": null,
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "integrity mismatch reference-v283.html"
+          }
+        }
+      }
+    },
+    {
+      "id": "wrong-current-hash:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Keep real current source but register an incorrect candidate SHA-256.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "integrity mismatch /tmp/red-portable-pilot-4o6BaB/RED/index.html",
+        "loadCount": 0
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": null,
+          "started": [],
+          "completed": false,
+          "suiteHash": null,
+          "expected": null,
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "integrity mismatch /tmp/red-portable-pilot-4o6BaB/RED/index.html"
+          }
+        }
+      }
+    },
+    {
+      "id": "candidate-old-source:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Use the v286 source and its correct hash as candidate; keep all current change-fence changes.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "current change fence mismatch",
+        "loadCount": 0
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": null,
+          "started": [],
+          "completed": false,
+          "suiteHash": null,
+          "expected": null,
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "current change fence mismatch"
+          }
+        }
+      }
+    },
+    {
+      "id": "candidate-reference-swapped:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Re-register a suite that loads roles in order: reference, candidate.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "VM role order mismatch",
+        "loadCount": 0
+      },
+      "registrations": [
+        {
+          "kind": "suite",
+          "path": "selection-filter-writes.cjs",
+          "previousSha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "sha256": "ba4c242f20ee86e109f42014c050f4172eaf1028b85fcb208dc8b3602b2117c4"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "ba4c242f20ee86e109f42014c050f4172eaf1028b85fcb208dc8b3602b2117c4",
+          "expected": {
+            "candidate": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "VM role order mismatch"
+          }
+        }
+      }
+    },
+    {
+      "id": "reference-only-pair:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Re-register a suite that loads roles in order: reference, reference.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "VM role order mismatch",
+        "loadCount": 0
+      },
+      "registrations": [
+        {
+          "kind": "suite",
+          "path": "selection-filter-writes.cjs",
+          "previousSha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "sha256": "c998761466f17386ff2bfe28e2f4a30e4a809db7a25da049143e832e07161ebe"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "c998761466f17386ff2bfe28e2f4a30e4a809db7a25da049143e832e07161ebe",
+          "expected": {
+            "candidate": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "VM role order mismatch"
+          }
+        }
+      }
+    },
+    {
+      "id": "empty-loadtrace-context:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Re-register a suite that reports every required scenario and exact aggregate counts without loading a VM.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "missing candidate compiled load stable paused army filters 300 to zero and real selection transitions",
+        "loadCount": 0
+      },
+      "registrations": [
+        {
+          "kind": "suite",
+          "path": "selection-filter-writes.cjs",
+          "previousSha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "sha256": "3bdf03a4123e07477c05567d684cfab0b394d270b350aa3ae2c1b6398ac24719"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "synthetic presentation corruption repaired no gameplay change",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions",
+            "legal natural combat damage updates and live filter action",
+            "legal lifecycle menu",
+            "legal lifecycle restart",
+            "legal lifecycle new battle",
+            "synthetic damaged health death and terminal live recomputation",
+            "synthetic presentation corruption repaired no gameplay change"
+          ],
+          "completed": false,
+          "suiteHash": "3bdf03a4123e07477c05567d684cfab0b394d270b350aa3ae2c1b6398ac24719",
+          "expected": {
+            "candidate": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "missing candidate compiled load stable paused army filters 300 to zero and real selection transitions"
+          }
+        }
+      }
+    },
+    {
+      "id": "empty-loadtrace-runner:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "After valid loads satisfy context finish checks, clear the recorded trace before successful exit; re-register modified context.",
+      "expected": {
+        "childStatus": 0,
+        "completed": true,
+        "loadCount": 0,
+        "runnerCode": "ERR_ASSERTION",
+        "runnerMessage": "runner exactly one role load per scenario"
+      },
+      "registrations": [
+        {
+          "kind": "integrity",
+          "path": "suite-context.cjs",
+          "previousSha256": "b3311c93f9aed6b0fd7caa12f9e976d5454cb33c62bef19f10502897bf586938",
+          "sha256": "356d8e250f7720178f8f21bcffc0fbcece0324ec3d4613595fcdebbdb3f4848b"
+        },
+        {
+          "kind": "suite",
+          "path": "selection-filter-writes.cjs",
+          "previousSha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "sha256": "9d784735f935c178aea404fbf1f3dc4963b1c3fb5eb07316c5436a65f7e2cbef"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 0,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "synthetic presentation corruption repaired no gameplay change",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions",
+            "legal natural combat damage updates and live filter action",
+            "legal lifecycle menu",
+            "legal lifecycle restart",
+            "legal lifecycle new battle",
+            "synthetic damaged health death and terminal live recomputation",
+            "synthetic presentation corruption repaired no gameplay change"
+          ],
+          "completed": true,
+          "suiteHash": "9d784735f935c178aea404fbf1f3dc4963b1c3fb5eb07316c5436a65f7e2cbef",
+          "expected": {
+            "candidate": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": null
+        },
+        "runnerFailure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "runner exactly one role load per scenario"
+        }
+      }
+    },
+    {
+      "id": "syntax-only-mutant:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Register an invalid-JavaScript mutant whose intended behavioral assertion/scenario equal a real mutation.",
+      "expected": {
+        "name": "SyntaxError",
+        "code": null,
+        "message": "Unexpected token '='",
+        "classification": "INVALID_INFRASTRUCTURE",
+        "loadCount": 0
+      },
+      "registrations": [
+        {
+          "kind": "mutations",
+          "path": "mutations.json",
+          "previousSha256": "f1e5f59ebae634fcb1f16ab1dfc850a76bf3d210e54677c2cd114444ca105d9d",
+          "sha256": "179c503454041298229e7415dc25b11cbc492a1ae7ee6dafe7d71f87e6156a54"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_INFRASTRUCTURE",
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "expected": {
+            "candidate": "8598ec1931852aee19a032daa6bd55ee10c4d7b41ae65c935a1b5930e07294fb",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": {
+            "id": "selection-filter-writes:probe-syntax-only",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "8598ec1931852aee19a032daa6bd55ee10c4d7b41ae65c935a1b5930e07294fb",
+            "descriptorHash": "0f4a2948dc13a4e3db203875a80698d557e19d02bec05a922717f6fc69db8d2f"
+          },
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "SyntaxError",
+            "code": null,
+            "message": "Unexpected token '='"
+          }
+        }
+      }
+    },
+    {
+      "id": "hashgate-failure-not-kill:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Request a real mutation but fail candidate integrity before mutation registration or VM compilation.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "integrity mismatch /tmp/red-portable-pilot-4o6BaB/RED/index.html",
+        "classification": "INVALID_INFRASTRUCTURE",
+        "loadCount": 0
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_INFRASTRUCTURE",
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": null,
+          "started": [],
+          "completed": false,
+          "suiteHash": null,
+          "expected": null,
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "integrity mismatch /tmp/red-portable-pilot-4o6BaB/RED/index.html"
+          }
+        }
+      }
+    },
+    {
+      "id": "wrong-assertion-not-kill:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Load an actual registered mutant and the verified reference, then throw an unrelated assertion from a re-registered suite.",
+      "expected": {
+        "code": "ERR_ASSERTION",
+        "message": "probe unrelated assertion must not kill",
+        "classification": "INVALID_ASSERTION",
+        "loadCount": 2
+      },
+      "registrations": [
+        {
+          "kind": "suite",
+          "path": "selection-filter-writes.cjs",
+          "previousSha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "sha256": "1440f1d54851587c0b261a08baa3aed8a6679e68348faf0d459b04a1b6280da0"
+        }
+      ],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_ASSERTION",
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "1440f1d54851587c0b261a08baa3aed8a6679e68348faf0d459b04a1b6280da0",
+          "expected": {
+            "candidate": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": {
+            "id": "selection-filter-writes:unconditional-filter-text",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "descriptorHash": "162c82d1a46e8c32ef5b374e843ffb41f0b08c16d60b628886806fe7189905c5"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 198199,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "9e2afc310896a8567f8e112a0da2236692517502aaa69b6ee6da9c0dc4b7c9b0",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 198199,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "probe unrelated assertion must not kill"
+          }
+        }
+      }
+    },
+    {
+      "id": "reference-blob-corrupt:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Corrupt only this clone's suite reference blob without changing its registered hash.",
+      "expected": {
+        "code": "PILOT_INFRASTRUCTURE",
+        "message": "integrity mismatch reference-v285.html",
+        "loadCount": 0
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": null,
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": null,
+          "started": [],
+          "completed": false,
+          "suiteHash": null,
+          "expected": null,
+          "mutation": null,
+          "loadCount": 0,
+          "loads": [],
+          "failure": {
+            "name": "Error",
+            "code": "PILOT_INFRASTRUCTURE",
+            "message": "integrity mismatch reference-v285.html"
+          }
+        }
+      }
+    },
+    {
+      "id": "forged-reference-identity:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Make reference expected/source hashes agree with each other but disagree with the manifest-verified reference.",
+      "expected": {
+        "classification": "INVALID_REFERENCE",
+        "calibration": "order-display-writes:redundant-status-writes"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_REFERENCE",
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "expected": {
+            "candidate": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "reference": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          "mutation": {
+            "id": "order-display-writes:redundant-status-writes",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "descriptorHash": "6288bcf9fb07b2ef5dc85aafbc0f9bdadfc1a79d734cc17e75ed6744f5f6cb3c"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "48fc5353ad292bc655bd8c324c733ee4838f6f9997347596e9fb1ae9c997f49b",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable paused target setter count zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "forged-reference-script:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Retain the correct reference raw hash but forge its compiled script hash.",
+      "expected": {
+        "classification": "INVALID_REFERENCE",
+        "calibration": "order-display-writes:redundant-status-writes"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_REFERENCE",
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "expected": {
+            "candidate": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": {
+            "id": "order-display-writes:redundant-status-writes",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "descriptorHash": "6288bcf9fb07b2ef5dc85aafbc0f9bdadfc1a79d734cc17e75ed6744f5f6cb3c"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "48fc5353ad292bc655bd8c324c733ee4838f6f9997347596e9fb1ae9c997f49b",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable paused target setter count zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "wrong-evidence-suite:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Attribute an otherwise real failing outcome to the wrong suite in its evidence envelope.",
+      "expected": {
+        "classification": "INVALID_REGISTRATION",
+        "calibration": "order-display-writes:redundant-status-writes"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_REGISTRATION",
+        "evidence": {
+          "suiteId": "probe-unregistered-suite",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "expected": {
+            "candidate": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": {
+            "id": "order-display-writes:redundant-status-writes",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "descriptorHash": "6288bcf9fb07b2ef5dc85aafbc0f9bdadfc1a79d734cc17e75ed6744f5f6cb3c"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "48fc5353ad292bc655bd8c324c733ee4838f6f9997347596e9fb1ae9c997f49b",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable paused target setter count zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "wrong-receipt-suite:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Change a compiled candidate receipt to name the other suite.",
+      "expected": {
+        "classification": "INVALID_VM_PROVENANCE",
+        "calibration": "order-display-writes:redundant-status-writes"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_VM_PROVENANCE",
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "expected": {
+            "candidate": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": {
+            "id": "order-display-writes:redundant-status-writes",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "descriptorHash": "6288bcf9fb07b2ef5dc85aafbc0f9bdadfc1a79d734cc17e75ed6744f5f6cb3c"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "48fc5353ad292bc655bd8c324c733ee4838f6f9997347596e9fb1ae9c997f49b",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable paused target setter count zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "reversed-role-trace:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Reverse actual candidate/reference receipt order while keeping both raw/script identities intact.",
+      "expected": {
+        "classification": "INVALID_VM_PROVENANCE",
+        "calibration": "order-display-writes:redundant-status-writes"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_VM_PROVENANCE",
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "expected": {
+            "candidate": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": {
+            "id": "order-display-writes:redundant-status-writes",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "descriptorHash": "6288bcf9fb07b2ef5dc85aafbc0f9bdadfc1a79d734cc17e75ed6744f5f6cb3c"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "reference",
+              "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+              "compiled": true
+            },
+            {
+              "role": "candidate",
+              "sourceHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "48fc5353ad292bc655bd8c324c733ee4838f6f9997347596e9fb1ae9c997f49b",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable paused target setter count zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "forged-descriptor-hash:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Preserve the real mutation ID and VM receipts but forge its registered descriptor hash.",
+      "expected": {
+        "classification": "INVALID_REGISTRATION",
+        "calibration": "order-display-writes:redundant-status-writes"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_REGISTRATION",
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "expected": {
+            "candidate": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": {
+            "id": "order-display-writes:redundant-status-writes",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "descriptorHash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "48fc5353ad292bc655bd8c324c733ee4838f6f9997347596e9fb1ae9c997f49b",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable paused target setter count zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "forged-candidate-script:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Preserve the exact mutated HTML hash but forge its compiled JavaScript hash.",
+      "expected": {
+        "classification": "INVALID_VM_PROVENANCE",
+        "calibration": "order-display-writes:redundant-status-writes"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_VM_PROVENANCE",
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "expected": {
+            "candidate": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": {
+            "id": "order-display-writes:redundant-status-writes",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "descriptorHash": "6288bcf9fb07b2ef5dc85aafbc0f9bdadfc1a79d734cc17e75ed6744f5f6cb3c"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable paused target setter count zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "duplicate-reference-receipt:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Duplicate the real reference receipt to defeat an existence-only load check.",
+      "expected": {
+        "classification": "INVALID_VM_PROVENANCE",
+        "calibration": "order-display-writes:redundant-status-writes"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_VM_PROVENANCE",
+        "evidence": {
+          "suiteId": "order-display-writes",
+          "scenario": "stable paid eight scout orders measured against v283",
+          "started": [
+            "stable paid eight scout orders measured against v283"
+          ],
+          "completed": false,
+          "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+          "expected": {
+            "candidate": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+          },
+          "mutation": {
+            "id": "order-display-writes:redundant-status-writes",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+            "descriptorHash": "6288bcf9fb07b2ef5dc85aafbc0f9bdadfc1a79d734cc17e75ed6744f5f6cb3c"
+          },
+          "loadCount": 3,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "6e9a4c51c9f85fed9474b1fdbde14a4dc521bf83c5257b9f81dc7e5cba000aed",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "48fc5353ad292bc655bd8c324c733ee4838f6f9997347596e9fb1ae9c997f49b",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+              "scenario": "stable paid eight scout orders measured against v283",
+              "seed": 28342,
+              "suiteId": "order-display-writes",
+              "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable paused target setter count zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "forged-reference-identity:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Make reference expected/source hashes agree with each other but disagree with the manifest-verified reference.",
+      "expected": {
+        "classification": "INVALID_REFERENCE",
+        "calibration": "selection-filter-writes:unconditional-filter-text"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_REFERENCE",
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "expected": {
+            "candidate": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "reference": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          "mutation": {
+            "id": "selection-filter-writes:unconditional-filter-text",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "descriptorHash": "162c82d1a46e8c32ef5b374e843ffb41f0b08c16d60b628886806fe7189905c5"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "9e2afc310896a8567f8e112a0da2236692517502aaa69b6ee6da9c0dc4b7c9b0",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable filter writes zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "forged-reference-script:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Retain the correct reference raw hash but forge its compiled script hash.",
+      "expected": {
+        "classification": "INVALID_REFERENCE",
+        "calibration": "selection-filter-writes:unconditional-filter-text"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_REFERENCE",
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "expected": {
+            "candidate": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": {
+            "id": "selection-filter-writes:unconditional-filter-text",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "descriptorHash": "162c82d1a46e8c32ef5b374e843ffb41f0b08c16d60b628886806fe7189905c5"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "9e2afc310896a8567f8e112a0da2236692517502aaa69b6ee6da9c0dc4b7c9b0",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable filter writes zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "wrong-evidence-suite:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Attribute an otherwise real failing outcome to the wrong suite in its evidence envelope.",
+      "expected": {
+        "classification": "INVALID_REGISTRATION",
+        "calibration": "selection-filter-writes:unconditional-filter-text"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_REGISTRATION",
+        "evidence": {
+          "suiteId": "probe-unregistered-suite",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "expected": {
+            "candidate": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": {
+            "id": "selection-filter-writes:unconditional-filter-text",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "descriptorHash": "162c82d1a46e8c32ef5b374e843ffb41f0b08c16d60b628886806fe7189905c5"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "9e2afc310896a8567f8e112a0da2236692517502aaa69b6ee6da9c0dc4b7c9b0",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable filter writes zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "wrong-receipt-suite:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Change a compiled candidate receipt to name the other suite.",
+      "expected": {
+        "classification": "INVALID_VM_PROVENANCE",
+        "calibration": "selection-filter-writes:unconditional-filter-text"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_VM_PROVENANCE",
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "expected": {
+            "candidate": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": {
+            "id": "selection-filter-writes:unconditional-filter-text",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "descriptorHash": "162c82d1a46e8c32ef5b374e843ffb41f0b08c16d60b628886806fe7189905c5"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "order-display-writes",
+              "scriptHash": "9e2afc310896a8567f8e112a0da2236692517502aaa69b6ee6da9c0dc4b7c9b0",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable filter writes zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "reversed-role-trace:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Reverse actual candidate/reference receipt order while keeping both raw/script identities intact.",
+      "expected": {
+        "classification": "INVALID_VM_PROVENANCE",
+        "calibration": "selection-filter-writes:unconditional-filter-text"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_VM_PROVENANCE",
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "expected": {
+            "candidate": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": {
+            "id": "selection-filter-writes:unconditional-filter-text",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "descriptorHash": "162c82d1a46e8c32ef5b374e843ffb41f0b08c16d60b628886806fe7189905c5"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "reference",
+              "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+              "compiled": true
+            },
+            {
+              "role": "candidate",
+              "sourceHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "9e2afc310896a8567f8e112a0da2236692517502aaa69b6ee6da9c0dc4b7c9b0",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable filter writes zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "forged-descriptor-hash:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Preserve the real mutation ID and VM receipts but forge its registered descriptor hash.",
+      "expected": {
+        "classification": "INVALID_REGISTRATION",
+        "calibration": "selection-filter-writes:unconditional-filter-text"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_REGISTRATION",
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "expected": {
+            "candidate": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": {
+            "id": "selection-filter-writes:unconditional-filter-text",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "descriptorHash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "9e2afc310896a8567f8e112a0da2236692517502aaa69b6ee6da9c0dc4b7c9b0",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable filter writes zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "forged-candidate-script:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Preserve the exact mutated HTML hash but forge its compiled JavaScript hash.",
+      "expected": {
+        "classification": "INVALID_VM_PROVENANCE",
+        "calibration": "selection-filter-writes:unconditional-filter-text"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_VM_PROVENANCE",
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "expected": {
+            "candidate": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": {
+            "id": "selection-filter-writes:unconditional-filter-text",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "descriptorHash": "162c82d1a46e8c32ef5b374e843ffb41f0b08c16d60b628886806fe7189905c5"
+          },
+          "loadCount": 2,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable filter writes zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "duplicate-reference-receipt:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Duplicate the real reference receipt to defeat an existence-only load check.",
+      "expected": {
+        "classification": "INVALID_VM_PROVENANCE",
+        "calibration": "selection-filter-writes:unconditional-filter-text"
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "processError": null,
+        "classification": "INVALID_VM_PROVENANCE",
+        "evidence": {
+          "suiteId": "selection-filter-writes",
+          "scenario": "stable paused army filters 300 to zero and real selection transitions",
+          "started": [
+            "stable paused army filters 300 to zero and real selection transitions"
+          ],
+          "completed": false,
+          "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+          "expected": {
+            "candidate": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+          },
+          "mutation": {
+            "id": "selection-filter-writes:unconditional-filter-text",
+            "originalHash": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+            "mutatedHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+            "descriptorHash": "162c82d1a46e8c32ef5b374e843ffb41f0b08c16d60b628886806fe7189905c5"
+          },
+          "loadCount": 3,
+          "loads": [
+            {
+              "role": "candidate",
+              "sourceHash": "501d4c1eac5152bd4afd8cd7d331e6c53792f057cbff8e6e8e6a117ec87c7ada",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "9e2afc310896a8567f8e112a0da2236692517502aaa69b6ee6da9c0dc4b7c9b0",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+              "compiled": true
+            },
+            {
+              "role": "reference",
+              "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+              "scenario": "stable paused army filters 300 to zero and real selection transitions",
+              "seed": 28551,
+              "suiteId": "selection-filter-writes",
+              "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+              "compiled": true
+            }
+          ],
+          "failure": {
+            "name": "AssertionError",
+            "code": "ERR_ASSERTION",
+            "message": "stable filter writes zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "missing-required-suite:order-display-writes",
+      "suiteId": "order-display-writes",
+      "attack": "Delete one required registry entry and invoke the real main runner; require rejection before suite execution.",
+      "expected": {
+        "code": "ERR_ASSERTION",
+        "message": "complete required suite registry",
+        "stdout": "",
+        "noSuiteEvidence": true
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "complete required suite registry"
+        },
+        "stdout": "",
+        "noSuiteEvidence": true
+      }
+    },
+    {
+      "id": "missing-required-suite:selection-filter-writes",
+      "suiteId": "selection-filter-writes",
+      "attack": "Delete one required registry entry and invoke the real main runner; require rejection before suite execution.",
+      "expected": {
+        "code": "ERR_ASSERTION",
+        "message": "complete required suite registry",
+        "stdout": "",
+        "noSuiteEvidence": true
+      },
+      "registrations": [],
+      "passed": true,
+      "observed": {
+        "exitStatus": 1,
+        "signal": null,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "complete required suite registry"
+        },
+        "stdout": "",
+        "noSuiteEvidence": true
+      }
+    }
+  ],
+  "failures": [],
+  "candidateSha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+  "snapshot": {
+    "candidate": {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/index.html",
+      "sha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f"
+    },
+    "suites": {
+      "order-display-writes": {
+        "sha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "historical": {
+          "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/order-display-writes-v287.cjs",
+          "sha256": "5813537908ef09e1cc8cad72754adc7d6eb8b2e734bdade66fbe99e05f34ed21"
+        }
+      },
+      "selection-filter-writes": {
+        "sha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "historical": {
+          "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/selection-filter-writes-v287.cjs",
+          "sha256": "6a2a7d27db764baa695524728a97dda748cacfc2e76929432cce8e6a0fcb27f6"
+        }
+      }
+    },
+    "integrity": {
+      "vm-environment-original": {
+        "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/vm-environment.cjs",
+        "sha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f"
+      },
+      "suite-context.cjs": {
+        "path": "suite-context.cjs",
+        "sha256": "b3311c93f9aed6b0fd7caa12f9e976d5454cb33c62bef19f10502897bf586938"
+      },
+      "vm-environment-provenance.cjs": {
+        "path": "vm-environment-provenance.cjs",
+        "sha256": "52e799ffe68512525ec1e4adb1d506bb602c747f8a12864ee495901a29686470"
+      },
+      "run-current-suites.cjs": {
+        "path": "run-current-suites.cjs",
+        "sha256": "718ca10aeda2c4e22632022ef8485b82bb083e1fbed0ca6a2320ecf2bfbf9cea"
+      }
+    },
+    "mutations": {
+      "path": "mutations.json",
+      "sha256": "f1e5f59ebae634fcb1f16ab1dfc850a76bf3d210e54677c2cd114444ca105d9d"
+    },
+    "references": {
+      "v283": {
+        "path": "reference-v283.html",
+        "sha256": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+      },
+      "v285": {
+        "path": "reference-v285.html",
+        "sha256": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+      },
+      "v286": {
+        "path": "reference-v286.html",
+        "sha256": "a96f5586369f9d46ac0c27b1645b25c44f5bd777373b9bf6f568ce1473e4b204"
+      }
+    }
+  },
+  "originalFilesUnchanged": [
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/parameterized-pilot/current-suite-manifest.json",
+      "sha256": "646d5b682529394f97f1e391c2b14e4bf93c79f090845676de22e453c506d78e",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/parameterized-pilot/reference-v283.html",
+      "sha256": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/parameterized-pilot/reference-v285.html",
+      "sha256": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/parameterized-pilot/reference-v286.html",
+      "sha256": "a96f5586369f9d46ac0c27b1645b25c44f5bd777373b9bf6f568ce1473e4b204",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/parameterized-pilot/mutations.json",
+      "sha256": "f1e5f59ebae634fcb1f16ab1dfc850a76bf3d210e54677c2cd114444ca105d9d",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/parameterized-pilot/order-display-writes.cjs",
+      "sha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/order-display-writes-v287.cjs",
+      "sha256": "5813537908ef09e1cc8cad72754adc7d6eb8b2e734bdade66fbe99e05f34ed21",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/parameterized-pilot/selection-filter-writes.cjs",
+      "sha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/selection-filter-writes-v287.cjs",
+      "sha256": "6a2a7d27db764baa695524728a97dda748cacfc2e76929432cce8e6a0fcb27f6",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/vm-environment.cjs",
+      "sha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/parameterized-pilot/suite-context.cjs",
+      "sha256": "b3311c93f9aed6b0fd7caa12f9e976d5454cb33c62bef19f10502897bf586938",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/parameterized-pilot/vm-environment-provenance.cjs",
+      "sha256": "52e799ffe68512525ec1e4adb1d506bb602c747f8a12864ee495901a29686470",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/verification/parameterized-pilot/run-current-suites.cjs",
+      "sha256": "718ca10aeda2c4e22632022ef8485b82bb083e1fbed0ca6a2320ecf2bfbf9cea",
+      "unchanged": true
+    },
+    {
+      "path": "/tmp/red-portable-pilot-4o6BaB/RED/index.html",
+      "sha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+      "unchanged": true
+    }
+  ],
+  "summary": {
+    "normalPassed": 2,
+    "behaviorCalibrationsPassed": 2,
+    "probesPassed": 38,
+    "probesTotal": 38,
+    "originalFilesVerifiedUnchanged": 14,
+    "failures": 0
+  },
+  "completedAt": "2026-10-17T20:33:57.439Z",
+  "temporaryClonesRemoved": true
+}

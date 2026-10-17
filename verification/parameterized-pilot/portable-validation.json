@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "actualWorkingDirectory": "/tmp/red-portable-pilot-4o6BaB/RED",
+  "commands": [
+    "node verification/parameterized-pilot/verify-bootstrap-migration.cjs",
+    "node verification/parameterized-pilot/run-current-suites.cjs",
+    "node verification/parameterized-pilot/runner-probes.cjs"
+  ],
+  "exitCode": 0,
+  "originalFrozenFilesPreservedBeforeChecksumUpdate": 360,
+  "candidateSha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+  "semanticCases": [
+    {
+      "suite": "order-display-writes",
+      "passed": 8,
+      "assertions": 229
+    },
+    {
+      "suite": "selection-filter-writes",
+      "passed": 7,
+      "assertions": 110
+    }
+  ],
+  "behaviorMutations": 18,
+  "runnerProbeSummary": {
+    "normalPassed": 2,
+    "behaviorCalibrationsPassed": 2,
+    "probesPassed": 38,
+    "probesTotal": 38,
+    "originalFilesVerifiedUnchanged": 14,
+    "failures": 0
+  },
+  "relativePathsOnlyInRuntimeManifest": true,
+  "runtimeModulesEqualToApprovedExternalPilot": {
+    "run-current-suites.cjs": true,
+    "suite-context.cjs": true,
+    "vm-environment-provenance.cjs": true,
+    "order-display-writes.cjs": true,
+    "selection-filter-writes.cjs": true,
+    "mutations.json": true,
+    "runner-probes.cjs": true,
+    "verify-bootstrap-migration.cjs": true
+  },
+  "note": "runner-probes report.command is its historical descriptive label; commands above are the actual relocated invocations. Probe snapshot paths point inside this relocated RED copy, not an external frozen version."
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "mutations": [
+    {
+      "id": "order-display-writes:redundant-status-writes",
+      "suiteId": "order-display-writes",
+      "name": "redundant status writes",
+      "anchor": "setReadonlyPanelProperty(row.statusNode,'textContent',prefix+' · '+productionStateLabel(q,readOrderPower)+productionWaitingExplanation(q,readWaitingReason)+(q.left>0?' · 还需生产 '+Math.ceil(q.left)+' 秒':' · 生产已完成'+(q.waitingForExit?'，等待出口':'')))",
+      "replacement": "row.statusNode.textContent=prefix+' · '+productionStateLabel(q,readOrderPower)+productionWaitingExplanation(q,readWaitingReason)+(q.left>0?' · 还需生产 '+Math.ceil(q.left)+' 秒':' · 生产已完成'+(q.waitingForExit?'，等待出口':''))",
+      "expectedOccurrences": 1,
+      "expectedMessage": "stable paused target setter count zero",
+      "expectedScenario": "stable paid eight scout orders measured against v283"
+    },
+    {
+      "id": "order-display-writes:unconditional-aria-writes",
+      "suiteId": "order-display-writes",
+      "name": "unconditional aria writes",
+      "anchor": "if(node.getAttribute(key)!==value)node.setAttribute(key,value)",
+      "replacement": "node.setAttribute(key,value)",
+      "expectedOccurrences": 1,
+      "expectedMessage": "stable paused target setter count zero",
+      "expectedScenario": "stable paid eight scout orders measured against v283"
+    },
+    {
+      "id": "order-display-writes:stale-countdown",
+      "suiteId": "order-display-writes",
+      "name": "stale countdown",
+      "anchor": "' · 还需生产 '+Math.ceil(q.left)+' 秒'",
+      "replacement": "' · 还需生产 '+Math.ceil(q.total)+' 秒'",
+      "expectedOccurrences": 1,
+      "expectedMessage": "order display parity countdown",
+      "expectedScenario": "countdown refund pause priority cancel and factory updates"
+    },
+    {
+      "id": "order-display-writes:stale-refund",
+      "suiteId": "order-display-writes",
+      "name": "stale refund",
+      "anchor": "'取消订单 · 退 '+productionRefund(q)",
+      "replacement": "'取消订单 · 退 '+defs[q.type].cost",
+      "expectedOccurrences": 1,
+      "expectedMessage": "order display parity active",
+      "expectedScenario": "countdown refund pause priority cancel and factory updates"
+    },
+    {
+      "id": "order-display-writes:freeze-aria-after-first-value",
+      "suiteId": "order-display-writes",
+      "name": "freeze aria after first value",
+      "anchor": "if(node.getAttribute(key)!==value)node.setAttribute(key,value)",
+      "replacement": "if(node.getAttribute(key)===null)node.setAttribute(key,value)",
+      "expectedOccurrences": 1,
+      "expectedMessage": "order display parity active",
+      "expectedScenario": "countdown refund pause priority cancel and factory updates"
+    },
+    {
+      "id": "order-display-writes:omit-complete-cancel-title",
+      "suiteId": "order-display-writes",
+      "name": "omit complete cancel title",
+      "anchor": "setReadonlyPanelProperty(b,'title',title)",
+      "replacement": "void title",
+      "expectedOccurrences": 1,
+      "expectedMessage": "order display parity initial eight orders",
+      "expectedScenario": "stable paid eight scout orders measured against v283"
+    },
+    {
+      "id": "order-display-writes:omit-current-production-status",
+      "suiteId": "order-display-writes",
+      "name": "omit current production status",
+      "anchor": "productionStateLabel(q,readOrderPower)+productionWaitingExplanation(q,readWaitingReason)",
+      "replacement": "'排队'+productionWaitingExplanation(q,readWaitingReason)",
+      "expectedOccurrences": 1,
+      "expectedMessage": "order display parity initial eight orders",
+      "expectedScenario": "stable paid eight scout orders measured against v283"
+    },
+    {
+      "id": "order-display-writes:freeze-existing-cancel-title",
+      "suiteId": "order-display-writes",
+      "name": "freeze existing cancel title",
+      "anchor": "setReadonlyPanelProperty(b,'title',title)",
+      "replacement": "if(!b.title)setReadonlyPanelProperty(b,'title',title)",
+      "expectedOccurrences": 1,
+      "expectedMessage": "order display parity cancel",
+      "expectedScenario": "countdown refund pause priority cancel and factory updates"
+    },
+    {
+      "id": "order-display-writes:omit-terminal-title",
+      "suiteId": "order-display-writes",
+      "name": "omit terminal title",
+      "anchor": "setReadonlyPanelProperty(b,'title','战局已结束，订单仅供只读查看；结束时剩余'+Math.ceil(q.left)+'秒')",
+      "replacement": "void 0",
+      "expectedOccurrences": 1,
+      "expectedMessage": "order display parity terminal",
+      "expectedScenario": "synthetic display branch terminal"
+    },
+    {
+      "id": "order-display-writes:skip-empty-aria-repair",
+      "suiteId": "order-display-writes",
+      "name": "skip empty aria repair",
+      "anchor": "if(node.getAttribute(key)!==value)node.setAttribute(key,value)",
+      "replacement": "if(node.getAttribute(key)!==''&&node.getAttribute(key)!==value)node.setAttribute(key,value)",
+      "expectedOccurrences": 1,
+      "expectedMessage": "order display parity repair empty aria and wrong text/title",
+      "expectedScenario": "synthetic presentation damage repaired on same nodes"
+    },
+    {
+      "id": "selection-filter-writes:unconditional-filter-text",
+      "suiteId": "selection-filter-writes",
+      "name": "unconditional filter text",
+      "anchor": "setReadonlyPanelProperty(b,'textContent','仅选'+config.label+' '+count)",
+      "replacement": "b.textContent='仅选'+config.label+' '+count",
+      "expectedOccurrences": 1,
+      "expectedMessage": "stable filter writes zero",
+      "expectedScenario": "stable paused army filters 300 to zero and real selection transitions"
+    },
+    {
+      "id": "selection-filter-writes:stale-selection-counts",
+      "suiteId": "selection-filter-writes",
+      "name": "stale selection counts",
+      "anchor": "let view=selectionFilterView(selected),blocked=commandBlocked();",
+      "replacement": "let view=selected.length?(globalThis.badFilterView??=selectionFilterView(selected)):selectionFilterView(selected),blocked=commandBlocked();",
+      "expectedOccurrences": 1,
+      "expectedMessage": "filter display parity tank filter",
+      "expectedScenario": "stable paused army filters 300 to zero and real selection transitions"
+    },
+    {
+      "id": "selection-filter-writes:skip-changed-filter-text",
+      "suiteId": "selection-filter-writes",
+      "name": "skip changed filter text",
+      "anchor": "setReadonlyPanelProperty(b,'textContent','仅选'+config.label+' '+count)",
+      "replacement": "if(!b.textContent||b.textContent.endsWith(' 0'))setReadonlyPanelProperty(b,'textContent','仅选'+config.label+' '+count)",
+      "expectedOccurrences": 1,
+      "expectedMessage": "filter display parity tank filter",
+      "expectedScenario": "stable paused army filters 300 to zero and real selection transitions"
+    },
+    {
+      "id": "selection-filter-writes:skip-critical-title-repair",
+      "suiteId": "selection-filter-writes",
+      "name": "skip critical title repair",
+      "anchor": "setReadonlyPanelProperty(b,'title','只在当前选区选一辆受损战斗车（含轻伤）：最低生命比例优先，同率按编号；不选满血车辆，不是战略优先推荐。不撤退、不修理，原命令与编队成员保留。')",
+      "replacement": "if(b.title===undefined)setReadonlyPanelProperty(b,'title','只在当前选区选一辆受损战斗车（含轻伤）：最低生命比例优先，同率按编号；不选满血车辆，不是战略优先推荐。不撤退、不修理，原命令与编队成员保留。')",
+      "expectedOccurrences": 1,
+      "expectedMessage": "filter display parity wrong strings restored",
+      "expectedScenario": "synthetic presentation corruption repaired no gameplay change"
+    },
+    {
+      "id": "selection-filter-writes:stale-damaged-count",
+      "suiteId": "selection-filter-writes",
+      "name": "stale damaged count",
+      "anchor": "kind==='damaged'?view.damaged:kind==='combat'?view.combat:view.types[kind]",
+      "replacement": "kind==='damaged'?[]:kind==='combat'?view.combat:view.types[kind]",
+      "expectedOccurrences": 1,
+      "expectedMessage": "filter display parity natural damage",
+      "expectedScenario": "legal natural combat damage updates and live filter action"
+    },
+    {
+      "id": "selection-filter-writes:ignore-blocked-filters",
+      "suiteId": "selection-filter-writes",
+      "name": "ignore blocked filters",
+      "anchor": "b.disabled=blocked||!count||count===selection.size",
+      "replacement": "b.disabled=!count||count===selection.size",
+      "expectedOccurrences": 1,
+      "expectedMessage": "filter display parity restart",
+      "expectedScenario": "legal lifecycle restart"
+    },
+    {
+      "id": "selection-filter-writes:do-not-disable-matching-selection",
+      "suiteId": "selection-filter-writes",
+      "name": "do not disable matching selection",
+      "anchor": "b.disabled=blocked||!count||count===selection.size",
+      "replacement": "b.disabled=blocked||!count",
+      "expectedOccurrences": 1,
+      "expectedMessage": "filter display parity army initial",
+      "expectedScenario": "stable paused army filters 300 to zero and real selection transitions"
+    },
+    {
+      "id": "selection-filter-writes:wrong-critical-title",
+      "suiteId": "selection-filter-writes",
+      "name": "wrong critical title",
+      "anchor": "最低生命比例优先，同率按编号；不选满血车辆，不是战略优先推荐。不撤退、不修理，原命令与编队成员保留。')",
+      "replacement": "最低生命比例优先，同率按编号；自动修理。')",
+      "expectedOccurrences": 1,
+      "expectedMessage": "filter display parity army initial",
+      "expectedScenario": "stable paused army filters 300 to zero and real selection transitions"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "suites": [
+    {
+      "suiteId": "order-display-writes",
+      "bootstrapOnly": true,
+      "reverseMigrationByteExact": true,
+      "originalCases": 8,
+      "originalAssertions": 229,
+      "originalMutationCount": 10,
+      "sourceSha256": "5813537908ef09e1cc8cad72754adc7d6eb8b2e734bdade66fbe99e05f34ed21",
+      "targetSha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be"
+    },
+    {
+      "suiteId": "selection-filter-writes",
+      "bootstrapOnly": true,
+      "reverseMigrationByteExact": true,
+      "originalCases": 7,
+      "originalAssertions": 110,
+      "originalMutationCount": 8,
+      "sourceSha256": "6a2a7d27db764baa695524728a97dda748cacfc2e76929432cce8e6a0fcb27f6",
+      "targetSha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364"
+    }
+  ],
+  "mutationCount": 18,
+  "behaviorExecuted": false,
+  "scope": "Read-only bootstrap migration and pure descriptor audit; no behavioral suite or mutation runner executed."
+}

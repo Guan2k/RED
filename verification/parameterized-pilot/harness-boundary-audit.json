@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "originalSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+  "instrumentedSha256": "52e799ffe68512525ec1e4adb1d506bb602c747f8a12864ee495901a29686470",
+  "allowedDifferences": [
+    "export loader factory with closed-over authorization and compilation callbacks",
+    "read actual raw Buffer and authorize exact path/hash before parsing",
+    "compile same extracted script using vm.Script; record source/script hashes after compile and execute same Script"
+  ],
+  "allOtherHarnessBytesExact": true,
+  "frozenV287ChecksumEntriesPassed": 359
+}

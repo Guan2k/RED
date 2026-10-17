@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "scope": "Bootstrap-only suite migration. Existing behavioral bodies, scenario names and assertion messages remain byte-for-byte identical after reversing the three allowlisted substitutions. Frozen source files are only read.",
+  "suites": [
+    {
+      "suiteId": "order-display-writes",
+      "source": "../order-display-writes-v287.cjs",
+      "sourceSha256": "5813537908ef09e1cc8cad72754adc7d6eb8b2e734bdade66fbe99e05f34ed21",
+      "target": "order-display-writes.cjs",
+      "targetSha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+      "historicalNegativeSource": "../order-display-writes-negative-control-v287.cjs",
+      "historicalNegativeSha256": "db0c22a791f9b6dedbe7bf3561a646aef56dbb0d9f5c2967fa7f806735248848",
+      "historicalResult": "../order-display-writes-v287-results.json",
+      "historicalResultSha256": "3470327ba8c71e3131787c0e8bf2c7acd046277435666476848fa51ff5232220",
+      "baselineReference": "v283",
+      "expectedPassed": 8,
+      "expectedAssertions": 229,
+      "caseMapping": [
+        {
+          "oldName": "stable paid eight scout orders measured against v283",
+          "newName": "stable paid eight scout orders measured against v283"
+        },
+        {
+          "oldName": "countdown refund pause priority cancel and factory updates",
+          "newName": "countdown refund pause priority cancel and factory updates"
+        },
+        {
+          "oldName": "real local loop title and cancellation suffix",
+          "newName": "real local loop title and cancellation suffix"
+        },
+        {
+          "oldName": "real global loop title and cancellation suffix",
+          "newName": "real global loop title and cancellation suffix"
+        },
+        {
+          "oldName": "synthetic display branch terminal",
+          "newName": "synthetic display branch terminal"
+        },
+        {
+          "oldName": "synthetic display branch power shortage",
+          "newName": "synthetic display branch power shortage"
+        },
+        {
+          "oldName": "synthetic display branch blocked exit",
+          "newName": "synthetic display branch blocked exit"
+        },
+        {
+          "oldName": "synthetic presentation damage repaired on same nodes",
+          "newName": "synthetic presentation damage repaired on same nodes"
+        }
+      ],
+      "invariantMapping": "Identity mapping: all existing exact assertion messages and dynamic branch expressions remain unchanged.",
+      "allowlistedTransforms": [
+        {
+          "id": "explicit-context-bootstrap",
+          "expectedOccurrences": 1,
+          "before": "'use strict';\nconst fs=require('node:fs'),path=require('node:path'),os=require('node:os'),assert=require('node:assert/strict'),{loadGame}=require('./vm-environment.cjs');\nconst source=path.resolve(process.argv[2]||path.join(__dirname,'../index.html')),frozen=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'),old=require('./restore-v283.cjs')(require('./restore-v284.cjs')(require('./restore-v285.cjs')(require('./restore-v286.cjs')(frozen)))),dir=fs.mkdtempSync(path.join(os.tmpdir(),'red-order-display-')),baseline=path.join(dir,'old.html');fs.writeFileSync(baseline,old);",
+          "after": "'use strict';\nconst fs=require('node:fs'),assert=require('node:assert/strict');\nconst ctx=require('./suite-context.cjs').createContext(\"order-display-writes\");\nconst {source,baseline,dir,loadGame}=ctx;\n"
+        },
+        {
+          "id": "scenario-entry-hook",
+          "expectedOccurrences": 1,
+          "before": "function test(name,f){f();results.push({name,passed:true})}",
+          "after": "function test(name,f){ctx.enterScenario(name);f();results.push({name,passed:true})}"
+        },
+        {
+          "id": "result-context-emission",
+          "expectedOccurrences": 1,
+          "before": " console.log(JSON.stringify({passed:results.length,failed:0,assertions,measurements,results,scope:'Target textContent/title/aria-label setter invocations only in synthetic VM DOM. Legal UI paid production and loops, exact v283 world/display pairing, independent changed captions/refunds, stable row identities; explicitly synthetic terminal/power/exit branches. No native DOM mutation, layout, time, FPS or browser claim.'},null,2));",
+          "after": " ctx.finish({passed:results.length,failed:0,assertions,measurements,results,scope:'Target textContent/title/aria-label setter invocations only in synthetic VM DOM. Legal UI paid production and loops, exact v283 world/display pairing, independent changed captions/refunds, stable row identities; explicitly synthetic terminal/power/exit branches. No native DOM mutation, layout, time, FPS or browser claim.'});"
+        }
+      ]
+    },
+    {
+      "suiteId": "selection-filter-writes",
+      "source": "../selection-filter-writes-v287.cjs",
+      "sourceSha256": "6a2a7d27db764baa695524728a97dda748cacfc2e76929432cce8e6a0fcb27f6",
+      "target": "selection-filter-writes.cjs",
+      "targetSha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+      "historicalNegativeSource": "../selection-filter-writes-negative-control-v287.cjs",
+      "historicalNegativeSha256": "289751361a6a645daa0bf3df24695755b98ae8b6e587e9ac9228acdfa49058a2",
+      "historicalResult": "../selection-filter-writes-v287-results.json",
+      "historicalResultSha256": "7d8f3a3f48693a098cfe37b407bdbd7b423d74c2ddf054058c08bebda0fddbca",
+      "baselineReference": "v285",
+      "expectedPassed": 7,
+      "expectedAssertions": 110,
+      "caseMapping": [
+        {
+          "oldName": "stable paused army filters 300 to zero and real selection transitions",
+          "newName": "stable paused army filters 300 to zero and real selection transitions"
+        },
+        {
+          "oldName": "legal natural combat damage updates and live filter action",
+          "newName": "legal natural combat damage updates and live filter action"
+        },
+        {
+          "oldName": "legal lifecycle menu",
+          "newName": "legal lifecycle menu"
+        },
+        {
+          "oldName": "legal lifecycle restart",
+          "newName": "legal lifecycle restart"
+        },
+        {
+          "oldName": "legal lifecycle new battle",
+          "newName": "legal lifecycle new battle"
+        },
+        {
+          "oldName": "synthetic damaged health death and terminal live recomputation",
+          "newName": "synthetic damaged health death and terminal live recomputation"
+        },
+        {
+          "oldName": "synthetic presentation corruption repaired no gameplay change",
+          "newName": "synthetic presentation corruption repaired no gameplay change"
+        }
+      ],
+      "invariantMapping": "Identity mapping: all existing exact assertion messages and dynamic branch expressions remain unchanged.",
+      "allowlistedTransforms": [
+        {
+          "id": "explicit-context-bootstrap",
+          "expectedOccurrences": 1,
+          "before": "'use strict';const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),assert=require('node:assert/strict'),{loadGame}=require('./vm-environment.cjs');const source=path.resolve(process.argv[2]||path.join(__dirname,'../index.html')),dir=fs.mkdtempSync(path.join(os.tmpdir(),'red-filter-writes-')),baseline=path.join(dir,'old.html');fs.writeFileSync(baseline,require('./restore-v285.cjs')(require('./restore-v286.cjs')(fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'))));",
+          "after": "'use strict';\nconst fs=require('node:fs'),assert=require('node:assert/strict');\nconst ctx=require('./suite-context.cjs').createContext(\"selection-filter-writes\");\nconst {source,baseline,dir,loadGame}=ctx;\n"
+        },
+        {
+          "id": "scenario-entry-hook",
+          "expectedOccurrences": 1,
+          "before": "function test(name,f){f();results.push({name,passed:true})}",
+          "after": "function test(name,f){ctx.enterScenario(name);f();results.push({name,passed:true})}"
+        },
+        {
+          "id": "result-context-emission",
+          "expectedOccurrences": 1,
+          "before": " console.log(JSON.stringify({passed:results.length,failed:0,assertions,measurements,results,scope:'VM string setter invocations only; legal UI army/filter/shift selection, natural combat damage and lifecycle pairing with v285; synthetic health/terminal and display corruption explicitly named. No native DOM/layout/FPS/browser claim.'},null,2));",
+          "after": " ctx.finish({passed:results.length,failed:0,assertions,measurements,results,scope:'VM string setter invocations only; legal UI army/filter/shift selection, natural combat damage and lifecycle pairing with v285; synthetic health/terminal and display corruption explicitly named. No native DOM/layout/FPS/browser claim.'});"
+        }
+      ]
+    }
+  ]
+}
