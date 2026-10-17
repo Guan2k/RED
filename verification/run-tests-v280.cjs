@@ -43,6 +43,7 @@ try{
  }
  assert.equal(summary.historicalIdentity.length,15);
  if(process.argv.includes('--legacy')){const p=spawnSync(process.execPath,[path.join(verify,'run-tests.cjs')],{encoding:'utf8',maxBuffer:16*1024*1024});if(p.error)throw p.error;assert.equal(p.status,0,p.stdout+p.stderr);assert.equal(p.stderr,'');const lines=[...p.stdout.matchAll(/^(.+): (\d+) passed, 0 failed$/gm)];assert.equal(lines.length,65);assert.equal(lines.reduce((n,x)=>n+Number(x[2]),0),1304);summary.legacyFullSuite={groups:65,passed:1304,scope:'Exact restored v272 only, including its separately reported v249 baseline; not v280 behavior coverage.',log:p.stdout};}
+ if(process.argv.includes('--long')){const p=spawnSync(process.execPath,[path.join(__dirname,'run-long-games-v280.cjs')],{encoding:'utf8',maxBuffer:8*1024*1024});if(p.error)throw p.error;assert.equal(p.status,0,p.stderr);assert.equal(p.stderr,'');const result=JSON.parse(p.stdout);assert.equal(result.failed,0);assert.equal(result.passed,4);assert.equal(result.sourceSha256,digest);summary.longGames=result;}
  assert.equal(hash(fs.readFileSync(source)),digest,'candidate source unchanged during all verification');
  console.log(JSON.stringify(summary,null,2));
 }finally{fs.rmSync(temp,{recursive:true,force:true})}

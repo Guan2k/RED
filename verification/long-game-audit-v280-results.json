@@ -1,0 +1,686 @@
+{
+  "passed": 3,
+  "failed": 0,
+  "assertions": 8012,
+  "sourceSha256": "9f4dae093065bcee4f64385bfac49c359e26d70e664bc3e048baae2ac70b21c5",
+  "results": [
+    {
+      "name": "classic-stronghold",
+      "seed": 12801,
+      "observationLimit": 240,
+      "checkpoints": 195,
+      "assertions": 2610,
+      "simulationSeconds": 164.90000000002337,
+      "terminal": {
+        "t": 164.90000000002337,
+        "result": "战败",
+        "narrative": "敌军完成要点驻守。进入目标圈可暂停计时，赶走全部守军可清零。 用时 2分44秒；击毁 4，损失 17；总收入 6810，净消费 7542。 规则：标准规则。",
+        "stats": {
+          "income": [
+            6810,
+            2220
+          ],
+          "spent": [
+            7542,
+            3740
+          ],
+          "kills": [
+            4,
+            17
+          ],
+          "losses": [
+            17,
+            4
+          ],
+          "produced": [
+            14,
+            11
+          ],
+          "captures": [
+            1,
+            1
+          ],
+          "harvested": [
+            6660,
+            1980
+          ]
+        }
+      },
+      "observedTerminal": true,
+      "maxQueue": 2,
+      "completedOrders": 14,
+      "completedEnemyOrders": 11,
+      "completedConstruction": 4,
+      "postSelected": true,
+      "selectedOnly": true,
+      "removed": true,
+      "initialCash": [
+        1700,
+        1700
+      ],
+      "finalCash": [
+        968,
+        180
+      ],
+      "stats": {
+        "income": [
+          6810,
+          2220
+        ],
+        "spent": [
+          7542,
+          3740
+        ],
+        "kills": [
+          4,
+          17
+        ],
+        "losses": [
+          17,
+          4
+        ],
+        "produced": [
+          14,
+          11
+        ],
+        "captures": [
+          1,
+          1
+        ],
+        "harvested": [
+          6660,
+          1980
+        ]
+      },
+      "actions": [
+        {
+          "t": 0,
+          "action": "build",
+          "type": "power",
+          "x": 80,
+          "y": 460,
+          "paid": 300
+        },
+        {
+          "t": 0,
+          "action": "build",
+          "type": "refinery",
+          "x": 380,
+          "y": 520,
+          "paid": 650
+        },
+        {
+          "t": 0,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 0,
+          "action": "buy",
+          "type": "tank",
+          "paid": 350
+        },
+        {
+          "t": 0,
+          "action": "factory rally",
+          "x": 600,
+          "y": 400
+        },
+        {
+          "t": 0,
+          "action": "army route then append",
+          "target": {
+            "x": 600,
+            "y": 400
+          }
+        },
+        {
+          "t": 1.0000000000000013,
+          "action": "only selected tank attack movement",
+          "id": 6,
+          "target": {
+            "x": 600,
+            "y": 400
+          }
+        },
+        {
+          "t": 7.999999999999977,
+          "action": "remove scout from selection",
+          "id": 8
+        },
+        {
+          "t": 23.99999999999992,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 29.999999999999577,
+          "action": "select current post defenders",
+          "post": 2
+        },
+        {
+          "t": 35.99999999999924,
+          "action": "buy",
+          "type": "repair",
+          "paid": 500
+        },
+        {
+          "t": 44.99999999999873,
+          "action": "build",
+          "type": "turret",
+          "x": 320,
+          "y": 480,
+          "paid": 450
+        },
+        {
+          "t": 47.99999999999856,
+          "action": "buy",
+          "type": "tank",
+          "paid": 350
+        },
+        {
+          "t": 59.999999999997875,
+          "action": "buy",
+          "type": "tank",
+          "paid": 350
+        },
+        {
+          "t": 59.999999999997875,
+          "action": "select current post defenders",
+          "post": 2
+        },
+        {
+          "t": 71.9999999999972,
+          "action": "buy",
+          "type": "repair",
+          "paid": 500
+        },
+        {
+          "t": 83.99999999999652,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 89.99999999999618,
+          "action": "build",
+          "type": "turret",
+          "x": 300,
+          "y": 540,
+          "paid": 450
+        },
+        {
+          "t": 95.99999999999584,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 107.99999999999515,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 119.99999999999447,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 131.9999999999972,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 144.00000000000674,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 156.00000000001629,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        }
+      ]
+    },
+    {
+      "name": "frontier-harvest",
+      "seed": 12802,
+      "observationLimit": 360,
+      "checkpoints": 197,
+      "assertions": 2630,
+      "simulationSeconds": 166.21666666669108,
+      "terminal": {
+        "t": 166.21666666669108,
+        "result": "战败",
+        "narrative": "指挥中心被摧毁。机动作战可尝试留装甲守家、保护矿车，用维修与补员支援防线。 用时 2分46秒；击毁 9，损失 20；总收入 4320，净消费 5728。 规则：机动作战（己方禁建炮塔）。",
+        "stats": {
+          "income": [
+            4320,
+            10170
+          ],
+          "spent": [
+            5728,
+            8580
+          ],
+          "kills": [
+            9,
+            20
+          ],
+          "losses": [
+            20,
+            9
+          ],
+          "produced": [
+            12,
+            24
+          ],
+          "captures": [
+            0,
+            1
+          ],
+          "harvested": [
+            4320,
+            9900
+          ]
+        }
+      },
+      "observedTerminal": true,
+      "maxQueue": 2,
+      "completedOrders": 12,
+      "completedEnemyOrders": 24,
+      "completedConstruction": 2,
+      "postSelected": false,
+      "selectedOnly": true,
+      "removed": true,
+      "initialCash": [
+        1700,
+        1700
+      ],
+      "finalCash": [
+        292,
+        3290
+      ],
+      "stats": {
+        "income": [
+          4320,
+          10170
+        ],
+        "spent": [
+          5728,
+          8580
+        ],
+        "kills": [
+          9,
+          20
+        ],
+        "losses": [
+          20,
+          9
+        ],
+        "produced": [
+          12,
+          24
+        ],
+        "captures": [
+          0,
+          1
+        ],
+        "harvested": [
+          4320,
+          9900
+        ]
+      },
+      "actions": [
+        {
+          "t": 0,
+          "action": "build",
+          "type": "power",
+          "x": 80,
+          "y": 240,
+          "paid": 300
+        },
+        {
+          "t": 0,
+          "action": "build",
+          "type": "refinery",
+          "x": 420,
+          "y": 500,
+          "paid": 650
+        },
+        {
+          "t": 0,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 0,
+          "action": "buy",
+          "type": "tank",
+          "paid": 350
+        },
+        {
+          "t": 0,
+          "action": "factory rally",
+          "x": 240,
+          "y": 300
+        },
+        {
+          "t": 0,
+          "action": "army route then append",
+          "target": {
+            "x": 240,
+            "y": 300
+          }
+        },
+        {
+          "t": 1.0000000000000013,
+          "action": "only selected tank attack movement",
+          "id": 6,
+          "target": {
+            "x": 240,
+            "y": 300
+          }
+        },
+        {
+          "t": 7.999999999999977,
+          "action": "remove scout from selection",
+          "id": 8
+        },
+        {
+          "t": 23.99999999999992,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 35.99999999999924,
+          "action": "buy",
+          "type": "repair",
+          "paid": 500
+        },
+        {
+          "t": 47.99999999999856,
+          "action": "buy",
+          "type": "tank",
+          "paid": 350
+        },
+        {
+          "t": 59.999999999997875,
+          "action": "buy",
+          "type": "tank",
+          "paid": 350
+        },
+        {
+          "t": 71.9999999999972,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 83.99999999999652,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 95.99999999999584,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 107.99999999999515,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 119.99999999999447,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 131.9999999999972,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        }
+      ]
+    },
+    {
+      "name": "ring-survival",
+      "seed": 12803,
+      "observationLimit": 420,
+      "checkpoints": 206,
+      "assertions": 2772,
+      "simulationSeconds": 175.80000000003204,
+      "terminal": {
+        "t": 175.80000000003204,
+        "result": "战败",
+        "narrative": "指挥中心被摧毁。尝试先建炮塔、保持电力，并增援装甲部队。 用时 2分55秒；击毁 12，损失 19；总收入 6120，净消费 6716。 规则：标准规则。",
+        "stats": {
+          "income": [
+            6120,
+            8220
+          ],
+          "spent": [
+            6716,
+            9392
+          ],
+          "kills": [
+            12,
+            19
+          ],
+          "losses": [
+            19,
+            12
+          ],
+          "produced": [
+            11,
+            25
+          ],
+          "captures": [
+            0,
+            3
+          ],
+          "harvested": [
+            6120,
+            7380
+          ]
+        }
+      },
+      "observedTerminal": true,
+      "maxQueue": 2,
+      "completedOrders": 11,
+      "completedEnemyOrders": 25,
+      "completedConstruction": 5,
+      "postSelected": false,
+      "selectedOnly": true,
+      "removed": true,
+      "initialCash": [
+        1700,
+        1700
+      ],
+      "finalCash": [
+        1104,
+        528
+      ],
+      "stats": {
+        "income": [
+          6120,
+          8220
+        ],
+        "spent": [
+          6716,
+          9392
+        ],
+        "kills": [
+          12,
+          19
+        ],
+        "losses": [
+          19,
+          12
+        ],
+        "produced": [
+          11,
+          25
+        ],
+        "captures": [
+          0,
+          3
+        ],
+        "harvested": [
+          6120,
+          7380
+        ]
+      },
+      "actions": [
+        {
+          "t": 0,
+          "action": "build",
+          "type": "power",
+          "x": 80,
+          "y": 240,
+          "paid": 300
+        },
+        {
+          "t": 0,
+          "action": "build",
+          "type": "refinery",
+          "x": 380,
+          "y": 300,
+          "paid": 650
+        },
+        {
+          "t": 0,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 0,
+          "action": "buy",
+          "type": "tank",
+          "paid": 350
+        },
+        {
+          "t": 0,
+          "action": "factory rally",
+          "x": 240,
+          "y": 300
+        },
+        {
+          "t": 0,
+          "action": "army route then append",
+          "target": {
+            "x": 240,
+            "y": 300
+          }
+        },
+        {
+          "t": 1.0000000000000013,
+          "action": "only selected tank attack movement",
+          "id": 6,
+          "target": {
+            "x": 240,
+            "y": 300
+          }
+        },
+        {
+          "t": 7.999999999999977,
+          "action": "remove scout from selection",
+          "id": 8
+        },
+        {
+          "t": 23.99999999999992,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 35.99999999999924,
+          "action": "buy",
+          "type": "repair",
+          "paid": 500
+        },
+        {
+          "t": 44.99999999999873,
+          "action": "build",
+          "type": "turret",
+          "x": 340,
+          "y": 240,
+          "paid": 450
+        },
+        {
+          "t": 47.99999999999856,
+          "action": "buy",
+          "type": "tank",
+          "paid": 350
+        },
+        {
+          "t": 59.999999999997875,
+          "action": "buy",
+          "type": "tank",
+          "paid": 350
+        },
+        {
+          "t": 71.9999999999972,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 83.99999999999652,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 89.99999999999618,
+          "action": "build",
+          "type": "turret",
+          "x": 280,
+          "y": 220,
+          "paid": 450
+        },
+        {
+          "t": 95.99999999999584,
+          "action": "buy",
+          "type": "tank",
+          "paid": 350
+        },
+        {
+          "t": 107.99999999999515,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 119.99999999999447,
+          "action": "buy",
+          "type": "harvester",
+          "paid": 400
+        },
+        {
+          "t": 134.99999999999957,
+          "action": "build",
+          "type": "turret",
+          "x": 360,
+          "y": 300,
+          "paid": 450
+        }
+      ]
+    }
+  ],
+  "scope": "UI-only legal menu, build/unit purchase, selection and coordinate commands; all g.run calls read model state except normal updateUI projection refresh after each second (the step helper does not drive frame UI updates). Normal difficulty, bounded windows, no resource/HP/position/result injection, no save/load/import/export or browser use. Natural terminal states freeze for 30 further simulated seconds and disabled combat/payment attempts; absence of terminal within bound is reported, not a victory or defect. Synthetic VM, not native-browser acceptance."
+}
