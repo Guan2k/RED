@@ -1,0 +1,104 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "assertions": 16,
+  "results": [
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "new hint content only",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "intentional patrol label",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "intentional patrol aria association",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "intentional patrol title",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "patrol disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "unrelated button label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "patrol other attributes retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "unrelated child structure retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "new hint content only",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "intentional patrol label",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "intentional patrol aria association",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "intentional patrol title",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "patrol disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "unrelated button label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "patrol other attributes retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "unrelated child structure retained",
+      "ignored": false,
+      "passed": true
+    }
+  ],
+  "scope": "The v281 inherited DOM projection omits only the added hint subtree and patrol textContent/title/aria-describedby in addition to the prior four panels and marked detached options. Disabled state, other attributes, unrelated controls and DOM structure remain compared. Packaged original tests remain unchanged."
+}
