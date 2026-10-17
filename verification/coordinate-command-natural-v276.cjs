@@ -1,0 +1,30 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const root=path.resolve(__dirname,'..'),source=path.join(root,'index.html'),{loadGame}=require('./vm-environment.cjs');
+const digest=crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex');assert.equal(digest,'8adbea855443778e9699315ce4bbdb1da7d10cc52a1671d5442a2b6d0d6f73e3');
+const world=g=>g.run('JSON.stringify({state,uid,selection:[...selection],groups,simulationRemainder,navigation:state.entities.map(e=>[e.id,navigationMemory.get(e)]),traffic:trafficCoordination.status(),deliveries:state.entities.map(e=>[e.id,harvesterDeliveries.get(e)])})');
+function point(g,p){for(const type of ['pointerdown','pointerup'])g.element('map').dispatchEvent({type,clientX:p.x,clientY:p.y,pointerId:1,pointerType:'mouse',isPrimary:true,button:0})}
+function coordinate(g,p){for(const [id,value]of [['coordinateCommandX',p.x],['coordinateCommandY',p.y]]){g.element(id).value=String(value);g.element(id).dispatchEvent({type:'input'})}const button=g.element('coordinateCommandExecute');assert.equal(button.disabled,false);for(const type of ['pointerdown','pointerup'])button.dispatchEvent({type,pointerId:2,isPrimary:true,button:0});button.click({detail:1})}
+function finite(value,at='world'){if(typeof value==='number')assert.ok(Number.isFinite(value),'nonfinite '+at);else if(value&&typeof value==='object')for(const[k,v]of Object.entries(value))finite(v,at+'.'+k)}
+const scenarios=[
+{name:'classic ground move',map:'classic',select:'tank',p:{x:450,y:540},seconds:20},
+{name:'frontier paused command then resume',map:'frontier',select:'tank',p:{x:450,y:320},paused:true,seconds:20},
+{name:'ridge assigned ore harvest and delivery',map:'ridge',select:'harvester',p:{x:420,y:420},seconds:45},
+{name:'ring rally then paid scout production',map:'ring',select:'factory',p:{x:340,y:600},produce:true,seconds:40}
+],results=[];
+for(const scenario of scenarios){try{
+ const a=loadGame(source,{seed:27410}),b=loadGame(source,{seed:27410});for(const g of[a,b]){g.element('scenario').value=scenario.map;g.element('scenario').dispatchEvent({type:'change'});g.start();assert.equal(g.state.cash,1700);assert.equal(g.state.mapChoice,scenario.map);const unit=g.state.entities.find(e=>e.team===0&&e.type===scenario.select);point(g,{x:unit.x,y:unit.y});assert.equal(g.run('selection.size'),1);if(scenario.paused)g.click('pause')}
+ const selected=a.run('[...selection][0]'),initial=JSON.parse(a.run('JSON.stringify(get('+selected+'))')),maxId=a.run('Math.max(...state.entities.map(e=>e.id))');assert.equal(world(a),world(b));
+ coordinate(a,scenario.p);b.click('ordinaryCommand');point(b,scenario.p);assert.equal(world(a),world(b));assert.equal(a.element('mapCommandReceipt').textContent,b.element('mapCommandReceipt').textContent);const receipt=a.element('mapCommandReceipt').textContent;assert.ok(receipt.includes('已接收'));
+ let pausedUnchanged=false;if(scenario.paused){const before=world(a);a.step(2);b.step(2);assert.equal(world(a),before);assert.equal(world(a),world(b));pausedUnchanged=true;for(const g of[a,b])g.click('pause')}
+ let paid=null;if(scenario.produce){for(const g of[a,b]){const btn=g.document.querySelectorAll('[data-unit]').find(e=>e.dataset.unit==='scout');assert.equal(btn.disabled,false);btn.click()}assert.equal(world(a),world(b));paid=1700-a.state.cash;assert.equal(paid,180);assert.equal(a.state.queue.length,1)}
+ let checkpoints=0,maxCargo=0,producedFirst=null,producedLast=null;
+ for(let elapsed=0;elapsed<scenario.seconds;elapsed+=.25){a.step(.25);b.step(.25);assert.equal(world(a),world(b),'world mismatch at '+(elapsed+.25));finite(a.state);finite(b.state);checkpoints++;maxCargo=Math.max(maxCargo,...a.state.entities.filter(e=>e.team===0&&e.type==='harvester').map(e=>e.load||0));const made=a.state.entities.find(e=>e.team===0&&e.id>maxId&&e.type==='scout');if(made){producedFirst??={x:made.x,y:made.y};producedLast={id:made.id,x:made.x,y:made.y,goal:made.goal}}}
+ const final=JSON.parse(a.run('JSON.stringify(get('+selected+'))'));let witness;
+ if(scenario.select==='tank'){const travel=Math.hypot(final.x-initial.x,final.y-initial.y),remaining=Math.hypot(final.x-scenario.p.x,final.y-scenario.p.y);assert.ok(travel>100);assert.ok(remaining<15);witness={travel,remaining,pausedUnchanged}}
+ if(scenario.select==='harvester'){assert.equal(final.oreIndex,0);assert.ok(maxCargo>0);assert.ok(a.state.ores[0].amount<12000);assert.ok(a.state.cash>1700);assert.ok(a.state.stats.harvested[0]>0);assert.ok(a.run('harvesterDeliveries.get(get('+selected+')).trips')>0);witness={maxCargo,oreRemaining:a.state.ores[0].amount,cash:a.state.cash,delivered:a.state.stats.harvested[0],deliveryRecord:JSON.parse(a.run('JSON.stringify(harvesterDeliveries.get(get('+selected+')))')),oreIndex:final.oreIndex}}
+ if(scenario.produce){assert.ok(producedFirst&&producedLast);const travel=Math.hypot(producedLast.x-producedFirst.x,producedLast.y-producedFirst.y);assert.ok(travel>30);assert.equal(a.state.queue.length,0);assert.equal(producedLast.goal,null);assert.ok(Math.hypot(producedLast.x-final.rally.x,producedLast.y-final.rally.y)<15);witness={paid,producedFirst,producedLast,travel,rally:final.rally}}
+ results.push({name:scenario.name,passed:true,map:scenario.map,simulationSeconds:scenario.seconds,pairedCheckpoints:checkpoints,receipt,witness});
+ }catch(e){results.push({name:scenario.name,passed:false,error:e.stack})}}
+assert.equal(crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex'),digest);
+console.log(JSON.stringify({sourceSha256:digest,passed:results.filter(x=>x.passed).length,failed:results.filter(x=>!x.passed).length,results,scope:'Same-version whole-source deterministic VM, legal UI starts and commands, no funds/health/terminal/map-world injection. Real simulation code advances in 0.05-second steps with paired comparisons every 0.25 seconds. Synthetic DOM/pointer/default clicks, not native browser verification. No persistence actions. Frozen product unmodified.'},null,2));if(results.some(x=>!x.passed))process.exitCode=1;
