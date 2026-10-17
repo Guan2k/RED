@@ -1,0 +1,23 @@
+{
+  "sourceSha256": "c67df10f2988f10d2949a5016d5dd453c1714471ff860b9d3f601e31c430ae20",
+  "suites": [
+    {
+      "kind": "production",
+      "path": "production-boundary-v288/verify.cjs",
+      "originalSha256": "79b8acfe31660a6983ee9ac404dbe98393050fdef6990da416aefa7b0759a0ff",
+      "portableSha256": "45288f44f35c7a2b8ce1424ebddc52e4afa90acf2979ceffadcb63afe7263650",
+      "allowedBefore": "path.resolve(__dirname,'../v288/RED')",
+      "allowedAfter": "path.resolve(__dirname,'../..')",
+      "semanticResultReference": "production-boundary-v288/result.json"
+    },
+    {
+      "kind": "exit",
+      "path": "exit-boundary-v288/verify.cjs",
+      "originalSha256": "d80e929546a20462c408e66389d200da70cc87d12ef8612b65d47546b0de969e",
+      "portableSha256": "782347014db73ce4b0e9b01ba4afc2ceb5c251c6ba66aacb122f41f0547ed8be",
+      "allowedBefore": "path.resolve(__dirname,'../v288/RED')",
+      "allowedAfter": "path.resolve(__dirname,'../..')",
+      "semanticResultReference": "exit-boundary-v288/result.json"
+    }
+  ]
+}

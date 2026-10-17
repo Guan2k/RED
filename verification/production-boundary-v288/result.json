@@ -1,0 +1,333 @@
+{
+  "passed": true,
+  "source": "/tmp/red-production-exit-portable-P4AhNm/RED/index.html",
+  "sha256": "c67df10f2988f10d2949a5016d5dd453c1714471ff860b9d3f601e31c430ae20",
+  "sourceUnchanged": true,
+  "trace": [
+    {
+      "seed": 28881,
+      "event": "partial-tank-cancel-refund",
+      "t": 1.9999999999999978,
+      "cash": 1403,
+      "spent": 297,
+      "income": 0,
+      "produced": 0,
+      "queue": [
+        {
+          "type": "scout",
+          "left": 4,
+          "total": 4,
+          "factoryId": 4
+        }
+      ],
+      "factories": [
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 750,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0
+        }
+      ],
+      "repeat": "off"
+    },
+    {
+      "seed": 28881,
+      "event": "last-factory-salvaged-order-waits",
+      "t": 3.9999999999999907,
+      "cash": 1828,
+      "spent": 297,
+      "income": 425,
+      "produced": 0,
+      "queue": [
+        {
+          "type": "scout",
+          "left": 4,
+          "total": 4,
+          "factoryId": null
+        }
+      ],
+      "factories": [],
+      "repeat": "off"
+    },
+    {
+      "seed": 28881,
+      "event": "replacement-factory-resumes-and-completes-paid-order",
+      "t": 20.10000000000014,
+      "cash": 1518,
+      "spent": 1147,
+      "income": 965,
+      "produced": 1,
+      "queue": [],
+      "factories": [
+        {
+          "id": 19,
+          "type": "factory",
+          "team": 0,
+          "x": 219.99999999999997,
+          "y": 750,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0
+        }
+      ],
+      "repeat": "off"
+    },
+    {
+      "seed": 28882,
+      "event": "local-target-three-source-salvaged",
+      "t": 12.200000000000186,
+      "cash": 975,
+      "spent": 1510,
+      "income": 785,
+      "produced": 0,
+      "queue": [
+        {
+          "type": "scout",
+          "left": 3.916666666666667,
+          "total": 4,
+          "factoryId": null,
+          "factoryRepeatSource": 4
+        },
+        {
+          "type": "scout",
+          "left": 3.9333333333333336,
+          "total": 4,
+          "factoryId": 19,
+          "factoryRepeatSource": 19
+        }
+      ],
+      "factories": [
+        {
+          "id": 19,
+          "type": "factory",
+          "team": 0,
+          "x": 50,
+          "y": 600,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0,
+          "factoryRepeatType": "scout",
+          "factoryRepeatTarget": 3
+        }
+      ],
+      "repeat": "off"
+    },
+    {
+      "seed": 28882,
+      "event": "surviving-loop-restores-target-with-no-overshoot",
+      "t": 21.200000000000077,
+      "cash": 1331,
+      "spent": 1514,
+      "income": 1145,
+      "produced": 2,
+      "queue": [],
+      "factories": [
+        {
+          "id": 19,
+          "type": "factory",
+          "team": 0,
+          "x": 50,
+          "y": 600,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0,
+          "factoryRepeatType": "scout",
+          "factoryRepeatTarget": 3
+        }
+      ],
+      "repeat": "off"
+    },
+    {
+      "seed": 28884,
+      "event": "global-parallel-target-five-after-cancel-and-reenable",
+      "t": 28.19999999999968,
+      "cash": 726,
+      "spent": 1874,
+      "income": 900,
+      "produced": 4,
+      "queue": [],
+      "factories": [
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 750,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0
+        },
+        {
+          "id": 19,
+          "type": "factory",
+          "team": 0,
+          "x": 50,
+          "y": 600,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0
+        }
+      ],
+      "repeat": "scout"
+    },
+    {
+      "seed": 28885,
+      "event": "paused-zero-progress-full-refund-and-retired-row-no-double-refund",
+      "t": 0,
+      "cash": 1700,
+      "spent": 0,
+      "income": 0,
+      "produced": 0,
+      "queue": [],
+      "factories": [
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 750,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0
+        }
+      ],
+      "repeat": "off"
+    },
+    {
+      "seed": 28883,
+      "event": "fixture-lethal-projectile-factory-destroyed",
+      "t": 13.116666666666898,
+      "cash": 550,
+      "spent": 1510,
+      "income": 360,
+      "produced": 0,
+      "queue": [
+        {
+          "type": "scout",
+          "left": 2.983333333333337,
+          "total": 4,
+          "factoryId": 4
+        },
+        {
+          "type": "scout",
+          "left": 2.983333333333337,
+          "total": 4,
+          "factoryId": 19
+        }
+      ],
+      "factories": [
+        {
+          "id": 19,
+          "type": "factory",
+          "team": 0,
+          "x": 50,
+          "y": 600,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0
+        }
+      ],
+      "repeat": "off"
+    },
+    {
+      "seed": 28883,
+      "event": "fixture-orders-finish-after-surviving-factory-reassignment",
+      "t": 20.13333333333347,
+      "cash": 730,
+      "spent": 1510,
+      "income": 540,
+      "produced": 2,
+      "queue": [],
+      "factories": [
+        {
+          "id": 19,
+          "type": "factory",
+          "team": 0,
+          "x": 50,
+          "y": 600,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0
+        }
+      ],
+      "repeat": "off"
+    }
+  ],
+  "scope": "Synthetic DOM/Node VM. First four worlds legal UI controls and natural simulation only. Fifth world one explicitly injected lethal enemy projectile; no injected orders/factory/cash/progress. Confirmation dialog uses harness true. No browser/FPS claims."
+}

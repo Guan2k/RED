@@ -1,0 +1,180 @@
+{
+  "passed": true,
+  "source": "/tmp/red-production-exit-portable-P4AhNm/RED/index.html",
+  "sha256": "c67df10f2988f10d2949a5016d5dd453c1714471ff860b9d3f601e31c430ae20",
+  "trace": [
+    {
+      "seed": 28891,
+      "event": "natural-preferred-point-blocked-fallback-produces-once",
+      "t": 7.04999999999998,
+      "cash": 1700,
+      "spent": 180,
+      "income": 180,
+      "produced": 1,
+      "queue": [],
+      "factories": [
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 750,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0
+        }
+      ],
+      "repeat": "off"
+    },
+    {
+      "seed": 28892,
+      "event": "fixture-crowd-after-completion",
+      "t": 4.099999999999991,
+      "cash": 1520,
+      "spent": 180,
+      "income": 0,
+      "produced": 0,
+      "queue": [
+        {
+          "type": "scout",
+          "left": 0,
+          "total": 4,
+          "factoryId": 4,
+          "waitingForExit": true
+        }
+      ],
+      "factories": [
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 750,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0,
+          "rally": {
+            "x": 450,
+            "y": 600
+          },
+          "rallyHold": true
+        }
+      ],
+      "repeat": "off"
+    },
+    {
+      "seed": 28892,
+      "event": "fixture-crowd-waits-one-second",
+      "t": 5.099999999999987,
+      "cash": 1520,
+      "spent": 180,
+      "income": 0,
+      "produced": 0,
+      "queue": [
+        {
+          "type": "scout",
+          "left": 0,
+          "total": 4,
+          "factoryId": 4,
+          "waitingForExit": true
+        }
+      ],
+      "factories": [
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 750,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0,
+          "rally": {
+            "x": 450,
+            "y": 600
+          },
+          "rallyHold": true
+        }
+      ],
+      "repeat": "off"
+    },
+    {
+      "event": "waiting-ui",
+      "orderStatus": "1. 侦察战车 · 等待出口 · 生产已完成，等待出口",
+      "occupantStatus": "当前候选点占位友军 1 辆；仅选择，请自行下达移动命令。不保证移开后立即出厂。",
+      "occupantTitle": "按现有出厂搜索顺序，仅选择第一个静态有效且无敌军占位候选点上的全部友军；请另行移动，不保证立即出厂"
+    },
+    {
+      "seed": 28892,
+      "event": "fixture-ui-unblock-one-production-real-arrival",
+      "t": 7.09999999999998,
+      "cash": 1700,
+      "spent": 180,
+      "income": 180,
+      "produced": 1,
+      "queue": [],
+      "factories": [
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 750,
+          "hp": 1000,
+          "max": 1000,
+          "r": 36,
+          "angle": 0,
+          "cool": 0,
+          "target": null,
+          "goal": null,
+          "attackMove": false,
+          "build": 0,
+          "load": 0,
+          "mine": 0,
+          "rally": {
+            "x": 450,
+            "y": 600
+          },
+          "rallyHold": true
+        }
+      ],
+      "repeat": "off"
+    },
+    {
+      "fixtureBlockers": 41,
+      "selectedToUnblock": [
+        19
+      ],
+      "arrivingId": 60,
+      "goal": {
+        "x": 450,
+        "y": 648
+      },
+      "distance": 4.066560389736592
+    }
+  ]
+}

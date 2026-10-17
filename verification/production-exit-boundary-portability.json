@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "actualWorkingDirectory": "/tmp/red-production-exit-portable-P4AhNm/RED",
+  "command": "node verification/run-production-exit-boundaries-v288.cjs",
+  "exitCode": 0,
+  "originalFilesPreservedBeforeChecksumUpdate": 406,
+  "sourceSha256": "c67df10f2988f10d2949a5016d5dd453c1714471ff860b9d3f601e31c430ae20",
+  "originalAssertions": "Each script reverse root-locator substitution matches its original SHA; original complete semantic results equal except source path.",
+  "scenarios": {
+    "production": {
+      "legalUIWorlds": 4,
+      "syntheticLethalProjectileWorlds": 1
+    },
+    "exit": {
+      "legalUIWorlds": 1,
+      "synthetic41TankWorlds": 1
+    }
+  },
+  "defaultAggregateUnchanged": true
+}
