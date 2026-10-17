@@ -1,0 +1,47 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "results": [
+    {
+      "name": "unconditional filter text",
+      "passed": true,
+      "detectedBy": "stable filter writes zero"
+    },
+    {
+      "name": "stale selection counts",
+      "passed": true,
+      "detectedBy": "filter display parity tank filter"
+    },
+    {
+      "name": "skip changed filter text",
+      "passed": true,
+      "detectedBy": "filter display parity tank filter"
+    },
+    {
+      "name": "skip critical title repair",
+      "passed": true,
+      "detectedBy": "filter display parity wrong strings restored"
+    },
+    {
+      "name": "stale damaged count",
+      "passed": true,
+      "detectedBy": "filter display parity natural damage"
+    },
+    {
+      "name": "ignore blocked filters",
+      "passed": true,
+      "detectedBy": "filter display parity restart"
+    },
+    {
+      "name": "do not disable matching selection",
+      "passed": true,
+      "detectedBy": "filter display parity army initial"
+    },
+    {
+      "name": "wrong critical title",
+      "passed": true,
+      "detectedBy": "filter display parity army initial"
+    }
+  ],
+  "scope": "Actual temporary product source mutants, original candidate passes first. Candidate hash gate is not used; changed display/state/disabled errors must hit specific behavior assertions."
+}

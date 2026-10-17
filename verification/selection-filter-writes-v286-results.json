@@ -1,0 +1,50 @@
+{
+  "passed": 7,
+  "failed": 0,
+  "assertions": 110,
+  "measurements": [
+    {
+      "refreshes": 20,
+      "oldAssignments": 300,
+      "oldSameValue": 300,
+      "currentAssignments": 0
+    },
+    {
+      "naturalDamageObservedAt": 7,
+      "damagedIds": [
+        8
+      ]
+    }
+  ],
+  "results": [
+    {
+      "name": "stable paused army filters 300 to zero and real selection transitions",
+      "passed": true
+    },
+    {
+      "name": "legal natural combat damage updates and live filter action",
+      "passed": true
+    },
+    {
+      "name": "legal lifecycle menu",
+      "passed": true
+    },
+    {
+      "name": "legal lifecycle restart",
+      "passed": true
+    },
+    {
+      "name": "legal lifecycle new battle",
+      "passed": true
+    },
+    {
+      "name": "synthetic damaged health death and terminal live recomputation",
+      "passed": true
+    },
+    {
+      "name": "synthetic presentation corruption repaired no gameplay change",
+      "passed": true
+    }
+  ],
+  "scope": "VM string setter invocations only; legal UI army/filter/shift selection, natural combat damage and lifecycle pairing with v285; synthetic health/terminal and display corruption explicitly named. No native DOM/layout/FPS/browser claim."
+}
