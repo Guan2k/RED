@@ -1,0 +1,523 @@
+{
+  "passed": 7,
+  "failed": 0,
+  "seed": 43801,
+  "map": "classic",
+  "sourceSha256": "9f4dae093065bcee4f64385bfac49c359e26d70e664bc3e048baae2ac70b21c5",
+  "counts": {
+    "correctness": 357,
+    "pairing": 7,
+    "negativeControls": 10
+  },
+  "checkpoints": [
+    {
+      "name": "ordinary safe ground",
+      "input": {
+        "kind": "ordinary",
+        "x": 450,
+        "y": 540
+      },
+      "before": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": null,
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0
+      },
+      "after": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": {
+          "x": 450,
+          "y": 540
+        },
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0
+      },
+      "worldSha256": "437852fcdd8a55ea5ff8a473ddfd1431b980f6e1231f3f25f66b15f99be27ece",
+      "receipt": "最近地图命令：已接收 · 移动 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "name": "first ground append",
+      "input": {
+        "kind": "append",
+        "x": 500,
+        "y": 600
+      },
+      "before": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": {
+          "x": 450,
+          "y": 540
+        },
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0
+      },
+      "after": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": {
+          "x": 450,
+          "y": 540
+        },
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0,
+        "moveQueue": [
+          {
+            "x": 450,
+            "y": 540
+          },
+          {
+            "x": 500,
+            "y": 600
+          }
+        ]
+      },
+      "worldSha256": "1de8da9fbdc30eebaa59738b790f6910c930c43f187be22f791d874b5aafe0b8",
+      "receipt": "最近地图命令：已接收 · 追加路线点 1；0 个所选存活友方单位保留原命令/设置；路线仅接受普通模式空地；最多8个路点，不适用或无安全落点单位保留原命令。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "name": "second append preserves existing prefix",
+      "input": {
+        "kind": "append",
+        "x": 550,
+        "y": 650
+      },
+      "before": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": {
+          "x": 450,
+          "y": 540
+        },
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0,
+        "moveQueue": [
+          {
+            "x": 450,
+            "y": 540
+          },
+          {
+            "x": 500,
+            "y": 600
+          }
+        ]
+      },
+      "after": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": {
+          "x": 450,
+          "y": 540
+        },
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0,
+        "moveQueue": [
+          {
+            "x": 450,
+            "y": 540
+          },
+          {
+            "x": 500,
+            "y": 600
+          },
+          {
+            "x": 550,
+            "y": 650
+          }
+        ]
+      },
+      "worldSha256": "4c1957807dee5d1e4f3169d0c6ce3d052b51a6ea4180c19c37310a7ed38f8749",
+      "receipt": "最近地图命令：已接收 · 追加路线点 1；0 个所选存活友方单位保留原命令/设置；路线仅接受普通模式空地；最多8个路点，不适用或无安全落点单位保留原命令。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "name": "attack move replaces queued route",
+      "input": {
+        "kind": "attack",
+        "x": 650,
+        "y": 550
+      },
+      "before": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": {
+          "x": 450,
+          "y": 540
+        },
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0,
+        "moveQueue": [
+          {
+            "x": 450,
+            "y": 540
+          },
+          {
+            "x": 500,
+            "y": 600
+          },
+          {
+            "x": 550,
+            "y": 650
+          }
+        ]
+      },
+      "after": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": {
+          "x": 650,
+          "y": 550
+        },
+        "attackMove": true,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0
+      },
+      "worldSha256": "de1e6e895b1e3221b63c148962242d850cc8b4be189e9635e54529ddbc969673",
+      "receipt": "最近地图命令：已接收 · 攻击移动 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "name": "ordinary replaces attack move",
+      "input": {
+        "kind": "ordinary",
+        "x": 450,
+        "y": 600
+      },
+      "before": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": {
+          "x": 650,
+          "y": 550
+        },
+        "attackMove": true,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0
+      },
+      "after": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": {
+          "x": 450,
+          "y": 600
+        },
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0
+      },
+      "worldSha256": "a0d9b444bc435d8816f71e36f00dc5e720751605e3f2c513e9c7b1c260e726b7",
+      "receipt": "最近地图命令：已接收 · 移动 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "name": "enemy HQ replaces ground command",
+      "input": {
+        "kind": "ordinary",
+        "x": 1050,
+        "y": 125
+      },
+      "before": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": {
+          "x": 450,
+          "y": 600
+        },
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0
+      },
+      "after": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": 9,
+        "goal": null,
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0
+      },
+      "worldSha256": "c266f8fab12fb3278c1e7971fce9f3994e4c74a9dd483dcde66dc683243890c6",
+      "receipt": "最近地图命令：已接收 · 指定攻击目标 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "name": "enemy factory append retains HQ",
+      "input": {
+        "kind": "append",
+        "x": 1100,
+        "y": 250
+      },
+      "before": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": 9,
+        "goal": null,
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0
+      },
+      "after": {
+        "id": 6,
+        "type": "tank",
+        "team": 0,
+        "x": 320,
+        "y": 540,
+        "hp": 230,
+        "max": 230,
+        "r": 13,
+        "angle": 0,
+        "cool": 0,
+        "target": 9,
+        "goal": null,
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0,
+        "escortId": null,
+        "hold": false,
+        "arrivalRadius": 5,
+        "manual": 0,
+        "attackQueue": [
+          9,
+          10
+        ]
+      },
+      "worldSha256": "8ce6aa42956d6a612b02001ba26ac609ad88f875278e3319c64347c84d9d0055",
+      "receipt": "最近地图命令：已接收 · 追加攻击目标 1；0 个所选存活友方单位保留原命令/设置；攻击排队最多8个目标含当前；重复或不适用单位保留原命令。仅回执，不代表抵达或生效结果。"
+    }
+  ],
+  "negativeControls": [
+    {
+      "name": "ordinary wrong but safe destination",
+      "detected": true,
+      "expected": "unadjusted safe request destination applied"
+    },
+    {
+      "name": "append wrong but safe tail",
+      "detected": true,
+      "expected": "unadjusted safe request destination applied"
+    },
+    {
+      "name": "ordinary wrongly attacks",
+      "detected": true,
+      "expected": "correct ordinary versus attack movement"
+    },
+    {
+      "name": "ordinary illegal goal",
+      "detected": true,
+      "expected": "point inside map"
+    },
+    {
+      "name": "append replaces current goal",
+      "detected": true,
+      "expected": "append preserves current goal"
+    },
+    {
+      "name": "append drops old route prefix",
+      "detected": true,
+      "expected": "append preserves complete old prefix"
+    },
+    {
+      "name": "attack move keeps ordinary route",
+      "detected": true,
+      "expected": "replacement clears prior ground route"
+    },
+    {
+      "name": "HQ targets wrong enemy",
+      "detected": true,
+      "expected": "actual targeted enemy ID"
+    },
+    {
+      "name": "attack append replaces current target",
+      "detected": true,
+      "expected": "attack append preserves current target"
+    },
+    {
+      "name": "attack append loses prefix",
+      "detected": true,
+      "expected": "attack queue retains target prefix"
+    }
+  ],
+  "scope": "Seven legal UI command transitions on one real selected tank, no simulation steps, no state injection, no browser or save/export. Independent structural and circle-clearance oracles; separate legacy-UI full-world pairing. Ten negative controls mutate detached observations only. Exact destination is checked only for these independently proven unclamped, entity-free, single-unit clear sites in classic with no terrain rocks; no claim for terrain-adjusted destinations."
+}
