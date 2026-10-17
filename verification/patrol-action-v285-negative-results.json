@@ -1,0 +1,52 @@
+{
+  "passed": 9,
+  "failed": 0,
+  "results": [
+    {
+      "name": "wrong tooltip",
+      "detected": true,
+      "expected": "tooltip matches directly checked visible explanation"
+    },
+    {
+      "name": "wrong guard label",
+      "detected": true,
+      "expected": "exact priority action label"
+    },
+    {
+      "name": "ignore patrol priority",
+      "detected": true,
+      "expected": "exact priority action label"
+    },
+    {
+      "name": "include noncombat units",
+      "detected": true,
+      "expected": "availability unchanged"
+    },
+    {
+      "name": "hide visible explanation",
+      "detected": true,
+      "expected": "conditional visible explanation"
+    },
+    {
+      "name": "break accessible association",
+      "detected": true,
+      "expected": "accessible explanation association"
+    },
+    {
+      "name": "misstate guard start",
+      "detected": true,
+      "expected": "visible semantic explanation"
+    },
+    {
+      "name": "refresh mutates world",
+      "detected": true,
+      "expected": "refresh has no command/world side effects"
+    },
+    {
+      "name": "pause wrongly disables",
+      "detected": true,
+      "expected": "availability unchanged"
+    }
+  ],
+  "scope": "Temporary product-source mutants target exact UI semantics and read-only refresh assertions. Exact v280 behavior baseline supplied separately so identity guards do not masquerade as mutation detection. No packaged source modified."
+}
