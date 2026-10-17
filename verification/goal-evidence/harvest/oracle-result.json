@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "kind": "offline evidence mutations, no game execution",
+  "results": [
+    {
+      "name": "fake winner",
+      "rejected": true
+    },
+    {
+      "name": "missing delivery",
+      "rejected": true
+    },
+    {
+      "name": "dead unloading witness",
+      "rejected": true
+    },
+    {
+      "name": "remote unloading",
+      "rejected": true
+    },
+    {
+      "name": "unemptied cargo",
+      "rejected": true
+    },
+    {
+      "name": "replaced entity",
+      "rejected": true
+    },
+    {
+      "name": "early result",
+      "rejected": true
+    }
+  ]
+}

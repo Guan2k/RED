@@ -1,0 +1,775 @@
+{
+  "passed": true,
+  "sha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+  "config": {
+    "map": "classic",
+    "difficulty": "easy",
+    "objective": "annihilation",
+    "challenge": "standard",
+    "seed": 28961
+  },
+  "terminal": {
+    "elapsed": 359.78333333333336,
+    "gameTime": 359.7833333333348,
+    "result": "战败",
+    "reason": "hq",
+    "hqs": [
+      {
+        "id": 1,
+        "team": 0,
+        "hp": -19,
+        "inEntities": false,
+        "sameEntity": false
+      },
+      {
+        "id": 9,
+        "team": 1,
+        "hp": 1549,
+        "inEntities": true,
+        "sameEntity": true
+      }
+    ],
+    "live": [
+      9
+    ]
+  },
+  "ticks": 21587,
+  "actions": [
+    {
+      "t": 0,
+      "kind": "select-map",
+      "id": 4,
+      "x": 220,
+      "y": 750
+    },
+    {
+      "t": 0,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 800,
+      "y": 350
+    },
+    {
+      "t": 0,
+      "kind": "select-army"
+    },
+    {
+      "t": 0,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 400,
+      "y": 500
+    },
+    {
+      "t": 0,
+      "kind": "hold-on-arrival"
+    },
+    {
+      "t": 0,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 0,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateConstruction",
+      "x": 320,
+      "y": 470
+    },
+    {
+      "t": 0,
+      "kind": "build",
+      "type": "turret",
+      "x": 320,
+      "y": 470,
+      "cost": 450
+    },
+    {
+      "t": 10.000000000000076,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 20.000000000000146,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 20.000000000000146,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateConstruction",
+      "x": 100,
+      "y": 510
+    },
+    {
+      "t": 20.000000000000146,
+      "kind": "build",
+      "type": "power",
+      "x": 100,
+      "y": 510,
+      "cost": 300
+    },
+    {
+      "t": 29.999999999999577,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 39.99999999999901,
+      "kind": "buy",
+      "type": "tank",
+      "cost": 350
+    },
+    {
+      "t": 49.999999999998444,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 59.999999999997875,
+      "kind": "buy",
+      "type": "tank",
+      "cost": 350
+    },
+    {
+      "t": 59.999999999997875,
+      "kind": "select-army"
+    },
+    {
+      "t": 59.999999999997875,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 1050,
+      "y": 125
+    },
+    {
+      "t": 59.999999999997875,
+      "kind": "attack-move-execute"
+    },
+    {
+      "t": 69.99999999999731,
+      "kind": "buy",
+      "type": "tank",
+      "cost": 350
+    },
+    {
+      "t": 79.99999999999675,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 79.99999999999675,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateConstruction",
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 79.99999999999675,
+      "kind": "build",
+      "type": "turret",
+      "x": 380,
+      "y": 470,
+      "cost": 450
+    },
+    {
+      "t": 89.99999999999618,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 89.99999999999618,
+      "kind": "select-army"
+    },
+    {
+      "t": 89.99999999999618,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 1050,
+      "y": 125
+    },
+    {
+      "t": 89.99999999999618,
+      "kind": "attack-move-execute"
+    },
+    {
+      "t": 99.99999999999561,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 109.99999999999504,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 119.99999999999447,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 119.99999999999447,
+      "kind": "select-army"
+    },
+    {
+      "t": 119.99999999999447,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 1050,
+      "y": 125
+    },
+    {
+      "t": 119.99999999999447,
+      "kind": "attack-move-execute"
+    },
+    {
+      "t": 129.9999999999956,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 140.00000000000355,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 140.00000000000355,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateConstruction",
+      "x": 320,
+      "y": 410
+    },
+    {
+      "t": 140.00000000000355,
+      "kind": "build",
+      "type": "turret",
+      "x": 320,
+      "y": 410,
+      "cost": 450
+    },
+    {
+      "t": 150.0000000000115,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 150.0000000000115,
+      "kind": "select-army"
+    },
+    {
+      "t": 150.0000000000115,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 1050,
+      "y": 125
+    },
+    {
+      "t": 150.0000000000115,
+      "kind": "attack-move-execute"
+    },
+    {
+      "t": 160.00000000001947,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 161.00000000002026,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 161.00000000002026,
+      "kind": "repair",
+      "id": 33,
+      "heal": 53,
+      "cost": 18
+    },
+    {
+      "t": 163.00000000002186,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 163.00000000002186,
+      "kind": "repair",
+      "id": 33,
+      "heal": 66,
+      "cost": 22
+    },
+    {
+      "t": 168.00000000002584,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 168.00000000002584,
+      "kind": "repair",
+      "id": 33,
+      "heal": 69,
+      "cost": 23
+    },
+    {
+      "t": 170.00000000002743,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 170.00000000002743,
+      "kind": "repair",
+      "id": 33,
+      "heal": 152,
+      "cost": 51
+    },
+    {
+      "t": 170.00000000002743,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 172.00000000002902,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 172.00000000002902,
+      "kind": "repair",
+      "id": 33,
+      "heal": 69,
+      "cost": 23
+    },
+    {
+      "t": 173.00000000002981,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 173.00000000002981,
+      "kind": "repair",
+      "id": 33,
+      "heal": 83,
+      "cost": 28
+    },
+    {
+      "t": 176.0000000000322,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 176.0000000000322,
+      "kind": "repair",
+      "id": 33,
+      "heal": 129,
+      "cost": 43
+    },
+    {
+      "t": 179.0000000000346,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 179.0000000000346,
+      "kind": "repair",
+      "id": 33,
+      "heal": 69,
+      "cost": 23
+    },
+    {
+      "t": 180.00000000003539,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 180.00000000003539,
+      "kind": "select-army"
+    },
+    {
+      "t": 180.00000000003539,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 1050,
+      "y": 125
+    },
+    {
+      "t": 180.00000000003539,
+      "kind": "attack-move-execute"
+    },
+    {
+      "t": 184.00000000003857,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 184.00000000003857,
+      "kind": "repair",
+      "id": 33,
+      "heal": 60,
+      "cost": 20
+    },
+    {
+      "t": 190.00000000004334,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 193.00000000004573,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 193.00000000004573,
+      "kind": "repair",
+      "id": 33,
+      "heal": 129,
+      "cost": 43
+    },
+    {
+      "t": 196.00000000004812,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 196.00000000004812,
+      "kind": "repair",
+      "id": 33,
+      "heal": 106,
+      "cost": 36
+    },
+    {
+      "t": 200.0000000000513,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 210.00000000005926,
+      "kind": "select-army"
+    },
+    {
+      "t": 210.00000000005926,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 1050,
+      "y": 125
+    },
+    {
+      "t": 210.00000000005926,
+      "kind": "attack-move-execute"
+    },
+    {
+      "t": 218.00000000006563,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 218.00000000006563,
+      "kind": "repair",
+      "id": 33,
+      "heal": 60,
+      "cost": 20
+    },
+    {
+      "t": 220.00000000006722,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 220.00000000006722,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateConstruction",
+      "x": 320,
+      "y": 530
+    },
+    {
+      "t": 220.00000000006722,
+      "kind": "build",
+      "type": "turret",
+      "x": 320,
+      "y": 530,
+      "cost": 450
+    },
+    {
+      "t": 226.000000000072,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 226.000000000072,
+      "kind": "repair",
+      "id": 33,
+      "heal": 60,
+      "cost": 20
+    },
+    {
+      "t": 229.00000000007438,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 229.00000000007438,
+      "kind": "repair",
+      "id": 33,
+      "heal": 129,
+      "cost": 43
+    },
+    {
+      "t": 230.00000000007518,
+      "kind": "buy",
+      "type": "repair",
+      "cost": 500
+    },
+    {
+      "t": 232.00000000007677,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 232.00000000007677,
+      "kind": "repair",
+      "id": 33,
+      "heal": 129,
+      "cost": 43
+    },
+    {
+      "t": 235.00000000007915,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 235.00000000007915,
+      "kind": "repair",
+      "id": 33,
+      "heal": 106,
+      "cost": 36
+    },
+    {
+      "t": 240.00000000008313,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 240.00000000008313,
+      "kind": "select-army"
+    },
+    {
+      "t": 240.00000000008313,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 1050,
+      "y": 125
+    },
+    {
+      "t": 240.00000000008313,
+      "kind": "attack-move-execute"
+    },
+    {
+      "t": 243.00000000008552,
+      "kind": "select-map",
+      "id": 33,
+      "x": 380,
+      "y": 470
+    },
+    {
+      "t": 243.00000000008552,
+      "kind": "repair",
+      "id": 33,
+      "heal": 106,
+      "cost": 36
+    },
+    {
+      "t": 250.0000000000911,
+      "kind": "buy",
+      "type": "harvester",
+      "cost": 400
+    },
+    {
+      "t": 270.0000000000831,
+      "kind": "select-army"
+    },
+    {
+      "t": 270.0000000000831,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 1050,
+      "y": 125
+    },
+    {
+      "t": 270.0000000000831,
+      "kind": "attack-move-execute"
+    },
+    {
+      "t": 300.0000000000558,
+      "kind": "select-army"
+    },
+    {
+      "t": 300.0000000000558,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 1050,
+      "y": 125
+    },
+    {
+      "t": 300.0000000000558,
+      "kind": "attack-move-execute"
+    },
+    {
+      "t": 330.00000000002854,
+      "kind": "select-army"
+    },
+    {
+      "t": 330.00000000002854,
+      "kind": "coordinate-fields",
+      "prefix": "coordinateCommand",
+      "x": 1050,
+      "y": 125
+    },
+    {
+      "t": 330.00000000002854,
+      "kind": "attack-move-execute"
+    }
+  ],
+  "snapshots": [
+    {
+      "elapsed": 0,
+      "hq": 1800,
+      "cash": 850,
+      "units": 19,
+      "harvested": 0
+    },
+    {
+      "elapsed": 30,
+      "hq": 1800,
+      "cash": 50,
+      "units": 25,
+      "harvested": 900
+    },
+    {
+      "elapsed": 60,
+      "hq": 1800,
+      "cash": 324,
+      "units": 28,
+      "harvested": 2340
+    },
+    {
+      "elapsed": 90,
+      "hq": 1800,
+      "cash": 382,
+      "units": 24,
+      "harvested": 4140
+    },
+    {
+      "elapsed": 120,
+      "hq": 1800,
+      "cash": 388,
+      "units": 25,
+      "harvested": 5580
+    },
+    {
+      "elapsed": 150,
+      "hq": 1800,
+      "cash": 155,
+      "units": 27,
+      "harvested": 7200
+    },
+    {
+      "elapsed": 180,
+      "hq": 1800,
+      "cash": 324,
+      "units": 25,
+      "harvested": 9000
+    },
+    {
+      "elapsed": 210,
+      "hq": 1800,
+      "cash": 403,
+      "units": 26,
+      "harvested": 10080
+    },
+    {
+      "elapsed": 240,
+      "hq": 1800,
+      "cash": 290,
+      "units": 25,
+      "harvested": 11880
+    },
+    {
+      "elapsed": 270,
+      "hq": 1800,
+      "cash": 34,
+      "units": 24,
+      "harvested": 12060
+    },
+    {
+      "elapsed": 300,
+      "hq": 1800,
+      "cash": 34,
+      "units": 22,
+      "harvested": 12060
+    },
+    {
+      "elapsed": 330,
+      "hq": 1800,
+      "cash": 34,
+      "units": 19,
+      "harvested": 12060
+    }
+  ],
+  "scope": "Normal menu/UI purchases, construction, rally/army and building repair; read-only canPlace/power queries choose legal actions. No resource/HP/position/result injection. Independent original HQ object HP/removal and living ID set each fixed step; bounded600sec one seed. VM only.",
+  "traceMetadata": {
+    "rows": 21587,
+    "traceJsonSha256": "ebc935d56c942c7dcc4dea28ab9f298611a1b8ecdc8893540938a12b2042ca3c",
+    "sourceResultRawBytes": 15165524,
+    "sourceResultRawSha256": "dd635d632a2ccde555df27e6bd8c927c451c1c4d80a88a135b911ecb885ce568",
+    "sourceResultJsonSha256": "15c60581562ce3e35979bfb02c71094ffa918e273ecf786244f5aa90993fbae7"
+  }
+}

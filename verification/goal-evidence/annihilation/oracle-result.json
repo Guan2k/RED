@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "kind": "offline recorded-evidence mutations, no game execution",
+  "results": [
+    {
+      "name": "wrong winner",
+      "rejected": true
+    },
+    {
+      "name": "early result",
+      "rejected": true
+    },
+    {
+      "name": "living HQ disappears",
+      "rejected": true
+    },
+    {
+      "name": "dead HQ retained",
+      "rejected": true
+    },
+    {
+      "name": "replaced HQ identity",
+      "rejected": true
+    },
+    {
+      "name": "missing final step",
+      "rejected": true
+    }
+  ]
+}

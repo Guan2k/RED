@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "scope": "Portable packaging of existing recorded natural gameplay evidence; no game execution. Full step traces are intentionally omitted; summary fields and trace/result hashes retain exact source provenance.",
+  "basePackage": "v289-extended-gameplay/RED",
+  "source": {
+    "path": "index.html",
+    "sha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb"
+  },
+  "vm": {
+    "path": "verification/vm-environment.cjs",
+    "sha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f"
+  },
+  "families": {
+    "harvest": {
+      "directory": "verification/goal-evidence/harvest",
+      "originalDirectory": "v289-harvest-natural-audit",
+      "scripts": {
+        "verify.cjs": {
+          "originalPath": "v289-harvest-natural-audit/verify.cjs",
+          "portablePath": "verification/goal-evidence/harvest/verify.cjs",
+          "originalSha256": "b3bfe3073fab48044c1a018e55e17ba6e39bdc442f2a4fbf562e7cc9f206b758",
+          "portableSha256": "e33debe3a7ad717cb21a2d670328efa1feec18cf23d965d864ac0fb96c9f036a",
+          "forwardReplacement": {
+            "from": "'../v289-stable-entry/RED'",
+            "to": "'../../..'",
+            "occurrences": 1
+          },
+          "inverseReplacement": {
+            "from": "'../../..'",
+            "to": "'../v289-stable-entry/RED'",
+            "occurrences": 1
+          }
+        },
+        "oracle.cjs": {
+          "originalPath": "v289-harvest-natural-audit/oracle.cjs",
+          "portablePath": "verification/goal-evidence/harvest/oracle.cjs",
+          "originalSha256": "f8f255c16de5ebec86c146af00d2bf1b0aef0745fe27dff4057920166a074522",
+          "portableSha256": "f8f255c16de5ebec86c146af00d2bf1b0aef0745fe27dff4057920166a074522",
+          "forwardReplacement": null,
+          "inverseReplacement": null
+        },
+        "check-oracle.cjs": {
+          "originalPath": "v289-harvest-natural-audit/check-oracle.cjs",
+          "portablePath": "verification/goal-evidence/harvest/check-oracle.cjs",
+          "originalSha256": "8e444f72f71fc5e6355173914fa7aa0d7fd19ae51d3bdbd644788602ab9e490a",
+          "portableSha256": "dcb8298948250622fa95d98f5943640af0eb96fd14d08c20933422d4f27d2ae9",
+          "forwardReplacement": {
+            "from": "path.join(__dirname,'result.json')",
+            "to": "process.argv[2]",
+            "occurrences": 1
+          },
+          "inverseReplacement": {
+            "from": "process.argv[2]",
+            "to": "path.join(__dirname,'result.json')",
+            "occurrences": 1
+          }
+        }
+      },
+      "preservedFiles": {
+        "REPORT.md": {
+          "originalPath": "v289-harvest-natural-audit/REPORT.md",
+          "portablePath": "verification/goal-evidence/harvest/REPORT.md",
+          "bytes": 3134,
+          "sha256": "e14d863a8f38052eb5de54e9e41a40edf28bcafe851d76813c615418934f3c9d"
+        },
+        "oracle-result.json": {
+          "originalPath": "v289-harvest-natural-audit/oracle-result.json",
+          "portablePath": "verification/goal-evidence/harvest/oracle-result.json",
+          "bytes": 584,
+          "sha256": "08787f82f48ce0b79bd503ea531b772abe97d2481ade9cd4c58d0484b44e1b46"
+        },
+        "stderr.txt": {
+          "originalPath": "v289-harvest-natural-audit/stderr.txt",
+          "portablePath": "verification/goal-evidence/harvest/stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "traceMetadata": {
+        "rows": 10187,
+        "traceJsonSha256": "c9edf461cd70cba124bee96555636b5bfbb736e5aadc7b1fb124cf5b091fa049",
+        "sourceResultRawBytes": 1256165,
+        "sourceResultRawSha256": "5d9936bb56630e793c2e1964ea8df5eea61007396e8edc5f5b0b778009d933ab",
+        "sourceResultJsonSha256": "fe1f57381e0e07e6fe7187e20df4d174819a5928b2aab9b3435b4abb52b0e8c7"
+      },
+      "summaryPath": "verification/goal-evidence/harvest/summary.json",
+      "summarySha256": "c044c54896bb14fdf4d8256bd22d2929b781698d7ac0e872ce3b983b498cbdd1",
+      "negativeResult": {
+        "path": "verification/goal-evidence/harvest/oracle-result.json",
+        "rawBytes": 584,
+        "rawSha256": "08787f82f48ce0b79bd503ea531b772abe97d2481ade9cd4c58d0484b44e1b46",
+        "jsonSha256": "80bdb3890e5c6288ab4955225816678e7413a88d46f015e0d266b42dabba5633",
+        "cases": 7,
+        "passed": true
+      }
+    },
+    "control": {
+      "directory": "verification/goal-evidence/control",
+      "originalDirectory": "v289-control-natural-audit",
+      "scripts": {
+        "verify.cjs": {
+          "originalPath": "v289-control-natural-audit/verify.cjs",
+          "portablePath": "verification/goal-evidence/control/verify.cjs",
+          "originalSha256": "411df3f718f0c43f567d424135288a757276437df7f1a159dee31084743d6e28",
+          "portableSha256": "cbb0dfdcbd54435bc9e413006cf573b5de57e8b3c67763aed9165f1600171f72",
+          "forwardReplacement": {
+            "from": "'../v289-stable-entry/RED'",
+            "to": "'../../..'",
+            "occurrences": 1
+          },
+          "inverseReplacement": {
+            "from": "'../../..'",
+            "to": "'../v289-stable-entry/RED'",
+            "occurrences": 1
+          }
+        },
+        "oracle.cjs": {
+          "originalPath": "v289-control-natural-audit/oracle.cjs",
+          "portablePath": "verification/goal-evidence/control/oracle.cjs",
+          "originalSha256": "360de9e66499ca25109b21f0853a7f8d0b4d6e2aa676f3fc6977de8360572d91",
+          "portableSha256": "360de9e66499ca25109b21f0853a7f8d0b4d6e2aa676f3fc6977de8360572d91",
+          "forwardReplacement": null,
+          "inverseReplacement": null
+        },
+        "check-oracle.cjs": {
+          "originalPath": "v289-control-natural-audit/check-oracle.cjs",
+          "portablePath": "verification/goal-evidence/control/check-oracle.cjs",
+          "originalSha256": "2ec1246eedbfe590f7f0d2669d42be9456a271777d87c5caad7429ed1027059a",
+          "portableSha256": "e234e3560855ebb285eed2d2a89ef8dc9885f968f562d3a3cbf4b803a4424ce2",
+          "forwardReplacement": {
+            "from": "path.join(__dirname,'result.json')",
+            "to": "process.argv[2]",
+            "occurrences": 1
+          },
+          "inverseReplacement": {
+            "from": "process.argv[2]",
+            "to": "path.join(__dirname,'result.json')",
+            "occurrences": 1
+          }
+        }
+      },
+      "preservedFiles": {
+        "REPORT.md": {
+          "originalPath": "v289-control-natural-audit/REPORT.md",
+          "portablePath": "verification/goal-evidence/control/REPORT.md",
+          "bytes": 3588,
+          "sha256": "ecdbdb353ec023ed840528993ad3a3748c29f2cdb584b27d7bedf73f82ba67b4"
+        },
+        "oracle-result.json": {
+          "originalPath": "v289-control-natural-audit/oracle-result.json",
+          "portablePath": "verification/goal-evidence/control/oracle-result.json",
+          "bytes": 507,
+          "sha256": "408a56fa84b771a1ac7f06d1e897d047a598ecf7613ffe94f9cda351da0f8c3c"
+        },
+        "stderr.txt": {
+          "originalPath": "v289-control-natural-audit/stderr.txt",
+          "portablePath": "verification/goal-evidence/control/stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "traceMetadata": {
+        "rows": 12014,
+        "traceJsonSha256": "8f06408e8a4c6e50098d003f8cfd5d1d604094a7851fb26f14a0a07023d60b58",
+        "sourceResultRawBytes": 24060194,
+        "sourceResultRawSha256": "1b0f70e3394fce287b550598a0b254f16e729fe44888c9b81759f6a06256b3c3",
+        "sourceResultJsonSha256": "c91b317ca91ed2f5c3594d6febcea97455d187ea570e2f3d3d4b656e2440ef3a"
+      },
+      "summaryPath": "verification/goal-evidence/control/summary.json",
+      "summarySha256": "2bd71553d75d8f91645cd2cc8227cd50ea08e0ab8b94a8f4cd7c58f93dcfce7f",
+      "negativeResult": {
+        "path": "verification/goal-evidence/control/oracle-result.json",
+        "rawBytes": 507,
+        "rawSha256": "408a56fa84b771a1ac7f06d1e897d047a598ecf7613ffe94f9cda351da0f8c3c",
+        "jsonSha256": "8eb5549d18fb29e22a4762e9593f80eb0ea87429d1fc2dc9147f527f8b9bf68a",
+        "cases": 6,
+        "passed": true
+      }
+    },
+    "annihilation": {
+      "directory": "verification/goal-evidence/annihilation",
+      "originalDirectory": "v289-annihilation-natural-audit",
+      "scripts": {
+        "verify.cjs": {
+          "originalPath": "v289-annihilation-natural-audit/verify.cjs",
+          "portablePath": "verification/goal-evidence/annihilation/verify.cjs",
+          "originalSha256": "8d491bc3f3ece95b10a7482cc781c03d7bb41a0f4b8fef76be3d7382c9a2136e",
+          "portableSha256": "04c7cac51847d3a61732c2fcc9a04ec09476f62557cb318ba13554ebe07fd59a",
+          "forwardReplacement": {
+            "from": "'../v289-stable-entry/RED'",
+            "to": "'../../..'",
+            "occurrences": 1
+          },
+          "inverseReplacement": {
+            "from": "'../../..'",
+            "to": "'../v289-stable-entry/RED'",
+            "occurrences": 1
+          }
+        },
+        "oracle.cjs": {
+          "originalPath": "v289-annihilation-natural-audit/oracle.cjs",
+          "portablePath": "verification/goal-evidence/annihilation/oracle.cjs",
+          "originalSha256": "68bec849530f4d9b8b454277267a33ca75574550c5836dd404c5324ee2fba975",
+          "portableSha256": "68bec849530f4d9b8b454277267a33ca75574550c5836dd404c5324ee2fba975",
+          "forwardReplacement": null,
+          "inverseReplacement": null
+        },
+        "check-oracle.cjs": {
+          "originalPath": "v289-annihilation-natural-audit/check-oracle.cjs",
+          "portablePath": "verification/goal-evidence/annihilation/check-oracle.cjs",
+          "originalSha256": "16b4372e245d521df3308d812d2efa632bc526d3df25aeb263cdb2127f4f7ac6",
+          "portableSha256": "96dfb86327ef2c1e420354d51cbd52067f6bbe0cf3f82b19ce3e7e355f5b498a",
+          "forwardReplacement": {
+            "from": "path.join(__dirname,'result.json')",
+            "to": "process.argv[2]",
+            "occurrences": 1
+          },
+          "inverseReplacement": {
+            "from": "process.argv[2]",
+            "to": "path.join(__dirname,'result.json')",
+            "occurrences": 1
+          }
+        }
+      },
+      "preservedFiles": {
+        "REPORT.md": {
+          "originalPath": "v289-annihilation-natural-audit/REPORT.md",
+          "portablePath": "verification/goal-evidence/annihilation/REPORT.md",
+          "bytes": 3457,
+          "sha256": "3976a9a64677ba35dd8a86e4e456a1cbf83c43bfc05d4162ec5340ca8d0ccd89"
+        },
+        "oracle-result.json": {
+          "originalPath": "v289-annihilation-natural-audit/oracle-result.json",
+          "portablePath": "verification/goal-evidence/annihilation/oracle-result.json",
+          "bytes": 530,
+          "sha256": "6903e67423198957422962fe12996872c8d52b398bf4bd157b329757d48a7f89"
+        },
+        "stderr.txt": {
+          "originalPath": "v289-annihilation-natural-audit/stderr.txt",
+          "portablePath": "verification/goal-evidence/annihilation/stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "traceMetadata": {
+        "rows": 21587,
+        "traceJsonSha256": "ebc935d56c942c7dcc4dea28ab9f298611a1b8ecdc8893540938a12b2042ca3c",
+        "sourceResultRawBytes": 15165524,
+        "sourceResultRawSha256": "dd635d632a2ccde555df27e6bd8c927c451c1c4d80a88a135b911ecb885ce568",
+        "sourceResultJsonSha256": "15c60581562ce3e35979bfb02c71094ffa918e273ecf786244f5aa90993fbae7"
+      },
+      "summaryPath": "verification/goal-evidence/annihilation/summary.json",
+      "summarySha256": "82268d4d30e44655c866bab477cfa4db7ad49323e38c39c5a9c68aad19646847",
+      "negativeResult": {
+        "path": "verification/goal-evidence/annihilation/oracle-result.json",
+        "rawBytes": 530,
+        "rawSha256": "6903e67423198957422962fe12996872c8d52b398bf4bd157b329757d48a7f89",
+        "jsonSha256": "91d784cdf022f7601080c556602a62e8addebcc8ed939d485ff013323209504f",
+        "cases": 6,
+        "passed": true
+      },
+      "history": [
+        {
+          "originalPath": "v289-annihilation-natural-audit/pre-review-oracle.cjs",
+          "portablePath": "verification/goal-evidence/annihilation/history/pre-review-oracle.cjs",
+          "bytes": 1296,
+          "sha256": "d010ba72cc4843330b067604347e5f4306d8dd6aba23a04af80d8e29e5085a0c"
+        },
+        {
+          "originalPath": "v289-annihilation-independent-review/initial-cross-realm.stderr",
+          "portablePath": "verification/goal-evidence/annihilation/history/initial-cross-realm.stderr",
+          "bytes": 1019,
+          "sha256": "6d450af61996009e8b43248d49eb7dd8de58e6801fd61ed8e3837729e229419d"
+        },
+        {
+          "originalPath": "v289-annihilation-independent-review/initial-oracle.cjs",
+          "portablePath": "verification/goal-evidence/annihilation/history/independent-review-initial-oracle.cjs",
+          "bytes": 1296,
+          "sha256": "d010ba72cc4843330b067604347e5f4306d8dd6aba23a04af80d8e29e5085a0c"
+        }
+      ]
+    }
+  }
+}

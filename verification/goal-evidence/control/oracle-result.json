@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "kind": "offline evidence mutations, no game execution",
+  "results": [
+    {
+      "name": "wrong winner",
+      "rejected": true
+    },
+    {
+      "name": "false presence",
+      "rejected": true
+    },
+    {
+      "name": "fake progress",
+      "rejected": true
+    },
+    {
+      "name": "early terminal",
+      "rejected": true
+    },
+    {
+      "name": "missing tick",
+      "rejected": true
+    },
+    {
+      "name": "dead combat witness",
+      "rejected": true
+    }
+  ]
+}

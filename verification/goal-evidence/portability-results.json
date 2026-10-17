@@ -1,0 +1,17 @@
+{
+  "scope": "Actual relocated all-three-family run; no default aggregate; complete live-generated traces and original shared oracle/offline checks",
+  "exitCode": 0,
+  "stderrBytes": 0,
+  "families": [
+    "harvest",
+    "control",
+    "annihilation"
+  ],
+  "sourceSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+  "resultSha256": "8992a284300687c59783c4c462f59049d8b00615c268ec6aa091549bee501020",
+  "allCopiedFilesUnchanged": true,
+  "copiedFiles": 537,
+  "rawTraceIncludedInPackage": false,
+  "negativeRecordCases": 19,
+  "invalidFamilyRejected": true
+}
