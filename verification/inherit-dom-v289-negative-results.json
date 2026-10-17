@@ -1,0 +1,610 @@
+{
+  "passed": 84,
+  "failed": 0,
+  "assertions": 152,
+  "results": [
+    {
+      "name": "repair-button-repeat.cjs: direct full subtree removal",
+      "program": "repair-button-repeat.cjs",
+      "excludedIds": [
+        "openingPractice",
+        "openingPracticeSummary",
+        "openingPracticeNote",
+        "openingPracticeHarvest",
+        "openingPracticeProduction",
+        "openingPracticeCapture",
+        "openingPracticeStatus",
+        "openingPracticeBoundaryChild",
+        "openingPracticeBoundaryGrandchild"
+      ],
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: openingPracticeSummary text",
+      "program": "repair-button-repeat.cjs",
+      "label": "openingPracticeSummary text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: openingPracticeHarvest text",
+      "program": "repair-button-repeat.cjs",
+      "label": "openingPracticeHarvest text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: openingPracticeProduction text",
+      "program": "repair-button-repeat.cjs",
+      "label": "openingPracticeProduction text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: openingPracticeCapture text",
+      "program": "repair-button-repeat.cjs",
+      "label": "openingPracticeCapture text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: openingPracticeStatus text",
+      "program": "repair-button-repeat.cjs",
+      "label": "openingPracticeStatus text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: openingPracticeNote text",
+      "program": "repair-button-repeat.cjs",
+      "label": "openingPracticeNote text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel open",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel open",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel hidden",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel hidden",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel disabled",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel disabled",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel accessible association",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel accessible association",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new paragraph live attribute",
+      "program": "repair-button-repeat.cjs",
+      "label": "new paragraph live attribute",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel other attributes",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel other attributes",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel dataset",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel dataset",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel style",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel style",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel class",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel class",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel primitive",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel primitive",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel child",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel child",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel removal",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel removal",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: new panel wrong ID retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "new panel wrong ID retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: former child detached retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "former child detached retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: similarly named sibling retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "similarly named sibling retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: guide text retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "guide text retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: guide hidden retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "guide hidden retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: guide attributes retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "guide attributes retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: guide style retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "guide style retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: guide child retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "guide child retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: guide removal retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "guide removal retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: idle factory label retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "idle factory label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: idle factory disabled retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "idle factory disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: global disabled retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "global disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: global value retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "global value retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: global unrelated attribute retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "global unrelated attribute retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: factory local value retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "factory local value retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: factory local label retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "factory local label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: patrol disabled retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "patrol disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: stop label retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "stop label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: existing report open retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "existing report open retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: existing report hidden retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "existing report hidden retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: existing active element retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "existing active element retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: document visibility retained",
+      "program": "repair-button-repeat.cjs",
+      "label": "document visibility retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs: duplicate new ID rejected",
+      "program": "repair-button-repeat.cjs",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: direct full subtree removal",
+      "program": "attack-pressed.cjs",
+      "excludedIds": [
+        "openingPractice",
+        "openingPracticeSummary",
+        "openingPracticeNote",
+        "openingPracticeHarvest",
+        "openingPracticeProduction",
+        "openingPracticeCapture",
+        "openingPracticeStatus",
+        "openingPracticeBoundaryChild",
+        "openingPracticeBoundaryGrandchild"
+      ],
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: openingPracticeSummary text",
+      "program": "attack-pressed.cjs",
+      "label": "openingPracticeSummary text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: openingPracticeHarvest text",
+      "program": "attack-pressed.cjs",
+      "label": "openingPracticeHarvest text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: openingPracticeProduction text",
+      "program": "attack-pressed.cjs",
+      "label": "openingPracticeProduction text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: openingPracticeCapture text",
+      "program": "attack-pressed.cjs",
+      "label": "openingPracticeCapture text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: openingPracticeStatus text",
+      "program": "attack-pressed.cjs",
+      "label": "openingPracticeStatus text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: openingPracticeNote text",
+      "program": "attack-pressed.cjs",
+      "label": "openingPracticeNote text",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel open",
+      "program": "attack-pressed.cjs",
+      "label": "new panel open",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel hidden",
+      "program": "attack-pressed.cjs",
+      "label": "new panel hidden",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel disabled",
+      "program": "attack-pressed.cjs",
+      "label": "new panel disabled",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel accessible association",
+      "program": "attack-pressed.cjs",
+      "label": "new panel accessible association",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new paragraph live attribute",
+      "program": "attack-pressed.cjs",
+      "label": "new paragraph live attribute",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel other attributes",
+      "program": "attack-pressed.cjs",
+      "label": "new panel other attributes",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel dataset",
+      "program": "attack-pressed.cjs",
+      "label": "new panel dataset",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel style",
+      "program": "attack-pressed.cjs",
+      "label": "new panel style",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel class",
+      "program": "attack-pressed.cjs",
+      "label": "new panel class",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel primitive",
+      "program": "attack-pressed.cjs",
+      "label": "new panel primitive",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel child",
+      "program": "attack-pressed.cjs",
+      "label": "new panel child",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel removal",
+      "program": "attack-pressed.cjs",
+      "label": "new panel removal",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: new panel wrong ID retained",
+      "program": "attack-pressed.cjs",
+      "label": "new panel wrong ID retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: former child detached retained",
+      "program": "attack-pressed.cjs",
+      "label": "former child detached retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: similarly named sibling retained",
+      "program": "attack-pressed.cjs",
+      "label": "similarly named sibling retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: guide text retained",
+      "program": "attack-pressed.cjs",
+      "label": "guide text retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: guide hidden retained",
+      "program": "attack-pressed.cjs",
+      "label": "guide hidden retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: guide attributes retained",
+      "program": "attack-pressed.cjs",
+      "label": "guide attributes retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: guide style retained",
+      "program": "attack-pressed.cjs",
+      "label": "guide style retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: guide child retained",
+      "program": "attack-pressed.cjs",
+      "label": "guide child retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: guide removal retained",
+      "program": "attack-pressed.cjs",
+      "label": "guide removal retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: idle factory label retained",
+      "program": "attack-pressed.cjs",
+      "label": "idle factory label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: idle factory disabled retained",
+      "program": "attack-pressed.cjs",
+      "label": "idle factory disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: global disabled retained",
+      "program": "attack-pressed.cjs",
+      "label": "global disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: global value retained",
+      "program": "attack-pressed.cjs",
+      "label": "global value retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: global unrelated attribute retained",
+      "program": "attack-pressed.cjs",
+      "label": "global unrelated attribute retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: factory local value retained",
+      "program": "attack-pressed.cjs",
+      "label": "factory local value retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: factory local label retained",
+      "program": "attack-pressed.cjs",
+      "label": "factory local label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: patrol disabled retained",
+      "program": "attack-pressed.cjs",
+      "label": "patrol disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: stop label retained",
+      "program": "attack-pressed.cjs",
+      "label": "stop label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: existing report open retained",
+      "program": "attack-pressed.cjs",
+      "label": "existing report open retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: existing report hidden retained",
+      "program": "attack-pressed.cjs",
+      "label": "existing report hidden retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: existing active element retained",
+      "program": "attack-pressed.cjs",
+      "label": "existing active element retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: document visibility retained",
+      "program": "attack-pressed.cjs",
+      "label": "document visibility retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs: duplicate new ID rejected",
+      "program": "attack-pressed.cjs",
+      "passed": true
+    }
+  ],
+  "scope": "Only openingPractice and its exact descendants are additionally excluded from the frozen v283 DOM projection. Full physical subtree removal is directly compared with the old projection after index rebuilding. No additional primitive, attribute, style, dataset, class, focus or document fields are ignored. Tests cover the six named panel texts and subtree field changes, duplicate root rejection, detached former descendants, similarly named siblings, guide and existing control/report/focus/visibility differences. Separate opening-practice positive and mutation suites directly verify the displayed subtree."
+}

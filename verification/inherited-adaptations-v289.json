@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "sourceSha256": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+  "scope": "Exact current-host startup restoration, identity and current-entry naming only; original historical programs and all semantic assertions are retained. These recipes are also reversed independently against the frozen v288 files.",
+  "files": [
+    {
+      "original": "coordinate-command-natural-v288.cjs",
+      "current": "coordinate-command-natural-v289.cjs",
+      "originalSha256": "790f4bf7ef0e5318c7e6be9c0e78097e06d79466043930c1296c5d19573c0eac",
+      "currentSha256": "9c16a7e6d467703fc2bcdd43a7f39558402517709aef12350fa7e00a1a858b7c",
+      "replacements": [
+        {
+          "before": "c67df10f2988f10d2949a5016d5dd453c1714471ff860b9d3f601e31c430ae20",
+          "after": "ea0becbe2c9ff381512b92cbe6e6713d461f20ae20707584b43d3f462f0ed9fb",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "original": "patrol-action-v288.cjs",
+      "current": "patrol-action-v289.cjs",
+      "originalSha256": "6fe903fbbc2c278d77730bedce3d75e7540aa71783129934db00b5ef6a882085",
+      "currentSha256": "b831084478155800760791bee99ee8df0cf48a5c2f026601ac51100ace7c1508",
+      "replacements": [
+        {
+          "before": "require('./restore-v287.cjs')(html)",
+          "after": "require('./restore-v287.cjs')(require('./restore-v288.cjs')(html))",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "original": "patrol-action-negative-control-v288.cjs",
+      "current": "patrol-action-negative-control-v289.cjs",
+      "originalSha256": "40c13d7bd7535ab9471aa0bf40956b26be1e3a3062643faca94a2abc35446421",
+      "currentSha256": "fa384da38acce35fb5fd6f471be7aaef96b980dbd8cfdd2bbd4d992d22d27623",
+      "replacements": [
+        {
+          "before": "v288",
+          "after": "v289",
+          "occurrences": 1
+        },
+        {
+          "before": "require('./restore-v287.cjs')(html)",
+          "after": "require('./restore-v287.cjs')(require('./restore-v288.cjs')(html))",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "original": "global-repeat-scope-v288.cjs",
+      "current": "global-repeat-scope-v289.cjs",
+      "originalSha256": "c24c9ff84e159aeb92124268975b4269e87a3ba8cd1b3990e5c8b8064450060f",
+      "currentSha256": "204ee6f93fc98abb353c7b7156b691838afbf623bf344b22feab00c27e77337e",
+      "replacements": [
+        {
+          "before": "v288",
+          "after": "v289",
+          "occurrences": 3
+        },
+        {
+          "before": "require('./restore-v287.cjs')(frozenHtml)",
+          "after": "require('./restore-v287.cjs')(require('./restore-v288.cjs')(frozenHtml))",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "original": "global-repeat-scope-negative-control-v288.cjs",
+      "current": "global-repeat-scope-negative-control-v289.cjs",
+      "originalSha256": "88d708947f894a26e92b055d60f012da7aef2287e9a664e71e413f6e190e12b5",
+      "currentSha256": "2bff02317b64c6e5ee435b6fad83aef1239ca343e23b306505ec8eb1cb7588d4",
+      "replacements": [
+        {
+          "before": "v288",
+          "after": "v289",
+          "occurrences": 3
+        },
+        {
+          "before": "require('./restore-v287.cjs')(html)",
+          "after": "require('./restore-v287.cjs')(require('./restore-v288.cjs')(html))",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "original": "order-waiting-reuse-v288.cjs",
+      "current": "order-waiting-reuse-v289.cjs",
+      "originalSha256": "404b4ac27b58929131d18616339ad9989d8415194377b1e3c025a06dc41b251e",
+      "currentSha256": "ebbaa5da2499408cf22679c1e90f2c9ca8db0b637162ff4a0ee77205b1212af4",
+      "replacements": [
+        {
+          "before": "require('./restore-v287.cjs')(frozen)",
+          "after": "require('./restore-v287.cjs')(require('./restore-v288.cjs')(frozen))",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "original": "order-waiting-reuse-negative-control-v288.cjs",
+      "current": "order-waiting-reuse-negative-control-v289.cjs",
+      "originalSha256": "0890d31007686ff15d35f2791b2a310af35842afb5b9f2614df1eaf4552ba696",
+      "currentSha256": "7394a4b68992fcfe3b5b8ccbd8d8ac7c3b4e221ad9e115f61c2347855dd42710",
+      "replacements": [
+        {
+          "before": "v288",
+          "after": "v289",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "original": "bounded-ui-writes-v288.cjs",
+      "current": "bounded-ui-writes-v289.cjs",
+      "originalSha256": "58979b88f12b74b7bcb4e6b7041765d84fb54f2907875e7d564c871a850161b2",
+      "currentSha256": "a59c8261b178f955d4d9d7da2115aa7cb4066c91961ee1ccc165cda868cd5c8b",
+      "replacements": [
+        {
+          "before": "require('./restore-v287.cjs')(fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'))",
+          "after": "require('./restore-v287.cjs')(require('./restore-v288.cjs')(fs.readFileSync(path.join(__dirname,'../index.html'),'utf8')))",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "original": "bounded-ui-writes-negative-control-v288.cjs",
+      "current": "bounded-ui-writes-negative-control-v289.cjs",
+      "originalSha256": "37f11f81f30641e46702d3d7f3bbc45df10806cf9f675302f8400c9cbeabedb4",
+      "currentSha256": "3d2d548b6315f8f5ca8adce961e4f5b5574d8a3e4f1b8fe34e1d3fae1f4cad9c",
+      "replacements": [
+        {
+          "before": "v288",
+          "after": "v289",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "original": "power-read-reuse.cjs",
+      "current": "power-read-reuse-v289.cjs",
+      "originalSha256": "da7b10acb3dcfec9bf1cf8728bf2169be8c9039891f707fbd4b289a8b301755e",
+      "currentSha256": "03f4b35ad86129a64863c786692dc656668990cdc3f223d95344d6a7d9e1ee93",
+      "replacements": [
+        {
+          "before": "require('./restore-v287.cjs')(fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'))",
+          "after": "require('./restore-v287.cjs')(require('./restore-v288.cjs')(fs.readFileSync(path.join(__dirname,'../index.html'),'utf8')))",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "original": "power-read-reuse-negative-control.cjs",
+      "current": "power-read-reuse-negative-control-v289.cjs",
+      "originalSha256": "783cecf4a7c7e5ba62ec6411b78b2d250c9b4876bc0618a0c985eb83f5e7ace8",
+      "currentSha256": "3af0f0fdb87e9bc1adf9b98a1357938b5e7bab53bed8435a7b104d966a8886a3",
+      "replacements": [
+        {
+          "before": "'power-read-reuse.cjs'",
+          "after": "'power-read-reuse-v289.cjs'",
+          "occurrences": 2
+        }
+      ]
+    }
+  ]
+}

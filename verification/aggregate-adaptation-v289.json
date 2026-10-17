@@ -1,0 +1,133 @@
+{
+  "original": "run-tests-v288.cjs",
+  "current": "run-tests-v289.cjs",
+  "originalSha256": "5a0a714edac4ca651bd03063200cfd4c9fe69ee20c5620db1da7b967bf476060",
+  "currentSha256": "61fd85c231aa423fcbd02bf50a91f11d476ed2cd77f6484c3f802e67a27f7992",
+  "replacements": [
+    {
+      "before": "'coordinate-command-natural-v288.cjs'",
+      "after": "'coordinate-command-natural-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "'patrol-action-v288.cjs'",
+      "after": "'patrol-action-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "'patrol-action-negative-control-v288.cjs'",
+      "after": "'patrol-action-negative-control-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "'global-repeat-scope-v288.cjs'",
+      "after": "'global-repeat-scope-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "'global-repeat-scope-negative-control-v288.cjs'",
+      "after": "'global-repeat-scope-negative-control-v289.cjs'",
+      "occurrences": 2
+    },
+    {
+      "before": "'order-waiting-reuse-v288.cjs'",
+      "after": "'order-waiting-reuse-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "'order-waiting-reuse-negative-control-v288.cjs'",
+      "after": "'order-waiting-reuse-negative-control-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "'bounded-ui-writes-v288.cjs'",
+      "after": "'bounded-ui-writes-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "'bounded-ui-writes-negative-control-v288.cjs'",
+      "after": "'bounded-ui-writes-negative-control-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "'power-read-reuse.cjs'",
+      "after": "'power-read-reuse-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "'power-read-reuse-negative-control.cjs'",
+      "after": "'power-read-reuse-negative-control-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "'./inherit-dom-v283.cjs'",
+      "after": "'./inherit-dom-v289.cjs'",
+      "occurrences": 1
+    },
+    {
+      "before": "restore287=require('./restore-v287.cjs');",
+      "after": "restore287=require('./restore-v287.cjs'),restore288=require('./restore-v288.cjs');",
+      "occurrences": 1
+    },
+    {
+      "before": "for(const[name,digest]of Object.entries(require('./v287-host-manifest.json').files))assert.equal(hash(fs.readFileSync(path.join(__dirname,name))),digest,'unchanged v287 verification file '+name);",
+      "after": "for(const[name,digest]of Object.entries(require('./v287-host-manifest.json').files))assert.equal(hash(fs.readFileSync(path.join(__dirname,name))),digest,'unchanged v287 verification file '+name);\nfor(const[name,digest]of Object.entries(require('./v288-host-manifest.json').files))assert.equal(hash(fs.readFileSync(path.join(__dirname,name))),digest,'unchanged v288 verification file '+name);",
+      "occurrences": 1
+    },
+    {
+      "before": "const v287=restore287(html),",
+      "after": "const v288=restore288(html),v287=restore287(v288),",
+      "occurrences": 1
+    },
+    {
+      "before": "assert.equal(hash(v287),require('./v287-host-manifest.json').sourceSha256,'exact restored v287 source');",
+      "after": "assert.equal(hash(v288),require('./v288-host-manifest.json').sourceSha256,'exact restored v288 source');\nassert.equal(hash(v287),require('./v287-host-manifest.json').sourceSha256,'exact restored v287 source');",
+      "occurrences": 1
+    },
+    {
+      "before": "assert.throws(()=>restore287(html+'\\n'),{code:'ERR_ASSERTION'});assert.throws(()=>restore287(html.replace('v0.288','v0.289')),{code:'ERR_ASSERTION'});",
+      "after": "assert.throws(()=>restore288(html+'\\n'),{code:'ERR_ASSERTION'});assert.throws(()=>restore288(html.replace('v0.289','v0.290')),{code:'ERR_ASSERTION'});assert.throws(()=>restore287(v288+'\\n'),{code:'ERR_ASSERTION'});assert.throws(()=>restore287(v288.replace('v0.288','v0.289')),{code:'ERR_ASSERTION'});",
+      "occurrences": 1
+    },
+    {
+      "before": "'red-v288-verification-'",
+      "after": "'red-v289-verification-'",
+      "occurrences": 1
+    },
+    {
+      "before": "'power-read-reuse-negative-control-v289.cjs']",
+      "after": "'power-read-reuse-negative-control-v289.cjs','inherit-dom-v289-negative-control.cjs','opening-practice.cjs','opening-practice-negative-control.cjs']",
+      "occurrences": 1
+    },
+    {
+      "before": "'run-pilot-release-v288.cjs'",
+      "after": "'run-pilot-release-v289.cjs'",
+      "occurrences": 2
+    },
+    {
+      "before": "v288 reuses one local completed-building list within each power call. None adds DOM exclusions. All projections rebuild indexes. All 25 programs execute against this actual v288 source;",
+      "after": "v288 reuses one local completed-building list within each power call. v284-v288 add no DOM exclusions. v289 additionally excludes only openingPractice and descendants, with exact prior-projection reversal, physical removal equivalence and retained-field boundaries; a separate opening-practice suite directly covers its content and behavior. All projections rebuild indexes. All 25 programs execute against this actual v289 source;",
+      "occurrences": 1
+    },
+    {
+      "before": "Fifteen old source gates intentionally reject v288;",
+      "after": "Fifteen old source gates intentionally reject v289;",
+      "occurrences": 1
+    },
+    {
+      "before": "v283 omits only the added selectAllFactories button subtree; indexes rebuilt.",
+      "after": "v283 omits only the added selectAllFactories button subtree; v289 adds only openingPractice and descendants, separately tested directly and by projection boundaries; indexes rebuilt.",
+      "occurrences": 1
+    },
+    {
+      "before": "not v288 behavior coverage.",
+      "after": "not v289 behavior coverage.",
+      "occurrences": 1
+    },
+    {
+      "before": "assert.equal(summary.historicalIdentity.length,15);",
+      "after": "assert.equal(summary.historicalIdentity.length,15);\n assert.equal(summary.focused.length,46,'39 inherited current entry points, one new DOM boundary, two opening-practice programs, and four stable-family results');",
+      "occurrences": 1
+    }
+  ]
+}
