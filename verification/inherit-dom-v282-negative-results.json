@@ -1,0 +1,104 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "assertions": 16,
+  "results": [
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "new fixed hint",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "global aria label",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "global title",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "global description link",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "global disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "global value retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "unrelated attribute retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "repair-button-repeat.cjs",
+      "label": "local control label retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "new fixed hint",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "global aria label",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "global title",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "global description link",
+      "ignored": true,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "global disabled retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "global value retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "unrelated attribute retained",
+      "ignored": false,
+      "passed": true
+    },
+    {
+      "program": "attack-pressed.cjs",
+      "label": "local control label retained",
+      "ignored": false,
+      "passed": true
+    }
+  ],
+  "scope": "Only new global scope hint subtree and repeatProduction aria-label/title/aria-describedby are additionally excluded. Disabled, value, unrelated attributes and local factory controls remain compared; direct new tests cover all excluded fields."
+}

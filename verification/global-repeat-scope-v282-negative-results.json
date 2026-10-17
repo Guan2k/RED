@@ -1,0 +1,47 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "results": [
+    {
+      "name": "ambiguous off option",
+      "detected": true,
+      "expected": "all six global option labels and values"
+    },
+    {
+      "name": "wrong option value",
+      "detected": true,
+      "expected": "all six global option labels and values"
+    },
+    {
+      "name": "hidden scope hint",
+      "detected": true,
+      "expected": "scope paragraph never hidden"
+    },
+    {
+      "name": "wrong visible scope",
+      "detected": true,
+      "expected": "exact visible scope text"
+    },
+    {
+      "name": "wrong title",
+      "detected": true,
+      "expected": "title includes full override and off semantics"
+    },
+    {
+      "name": "wrong accessible label",
+      "detected": true,
+      "expected": "global accessible label"
+    },
+    {
+      "name": "broken description link",
+      "detected": true,
+      "expected": "scope accessible association"
+    },
+    {
+      "name": "no wrapping",
+      "detected": true,
+      "expected": "scope hint wraps on narrow layout"
+    }
+  ],
+  "scope": "Temporary static-markup mutations must hit exact option/text/visibility/title/aria/wrapping assertions. Supplied exact v281 baseline bypasses only restoration identity so a hash gate cannot masquerade as useful detection. Original source is unchanged."
+}
