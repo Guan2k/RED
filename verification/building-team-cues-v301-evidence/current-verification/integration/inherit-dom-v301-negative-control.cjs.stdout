@@ -1,0 +1,1008 @@
+{
+  "passed": 250,
+  "failed": 0,
+  "assertions": 253,
+  "results": [
+    {
+      "name": "repair-button-repeat.cjs physical removal exactly equals previous projection",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded exact descendant beginnerSurvivalGuide textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded exact descendant beginnerSurvivalGuide hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded exact descendant beginnerSurvivalGuide disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded exact descendant beginnerSurvivalScope textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded exact descendant beginnerSurvivalScope hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded exact descendant beginnerSurvivalScope disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs renamed root retained",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs similarly named sibling retained",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs detached original descendant retained",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs new detached descendant retained",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained unitReference textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained unitReference hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained unitReference disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained unitReference value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained unitReference data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained unitReference aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained unitReference title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained controlsHelp textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained controlsHelp hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained controlsHelp disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained controlsHelp value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained controlsHelp data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained controlsHelp aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained controlsHelp title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatReserve textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatReserve hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatReserve disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatReserve value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatReserve data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatReserve aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatReserve title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatTarget textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatTarget hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatTarget disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatTarget value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatTarget data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatTarget aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatTarget title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained start textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained start hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained start disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained start value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained start data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained start aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained start title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained scenario textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained scenario hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained scenario disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained scenario value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained scenario data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained scenario aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained scenario title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs parent attribute retained",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs physical removal exactly equals previous projection",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded exact descendant beginnerSurvivalGuide textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded exact descendant beginnerSurvivalGuide hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded exact descendant beginnerSurvivalGuide disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded exact descendant beginnerSurvivalScope textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded exact descendant beginnerSurvivalScope hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded exact descendant beginnerSurvivalScope disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs renamed root retained",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs similarly named sibling retained",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs detached original descendant retained",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs new detached descendant retained",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained unitReference textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained unitReference hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained unitReference disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained unitReference value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained unitReference data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained unitReference aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained unitReference title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained controlsHelp textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained controlsHelp hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained controlsHelp disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained controlsHelp value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained controlsHelp data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained controlsHelp aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained controlsHelp title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatReserve textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatReserve hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatReserve disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatReserve value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatReserve data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatReserve aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatReserve title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatTarget textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatTarget hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatTarget disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatTarget value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatTarget data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatTarget aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatTarget title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained start textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained start hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained start disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained start value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained start data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained start aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained start title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained scenario textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained scenario hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained scenario disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained scenario value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained scenario data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained scenario aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained scenario title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs parent attribute retained",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback physical removal exactly equals previous projection",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded exact descendant beginnerSurvivalGuide textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded exact descendant beginnerSurvivalGuide hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded exact descendant beginnerSurvivalGuide disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded exact descendant beginnerSurvivalScope textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded exact descendant beginnerSurvivalScope hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded exact descendant beginnerSurvivalScope disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback renamed root retained",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback similarly named sibling retained",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback detached original descendant retained",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback new detached descendant retained",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained unitReference textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained unitReference hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained unitReference disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained unitReference value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained unitReference data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained unitReference aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained unitReference title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained controlsHelp textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained controlsHelp hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained controlsHelp disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained controlsHelp value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained controlsHelp data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained controlsHelp aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained controlsHelp title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatReserve textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatReserve hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatReserve disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatReserve value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatReserve data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatReserve aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatReserve title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatTarget textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatTarget hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatTarget disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatTarget value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatTarget data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatTarget aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatTarget title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained start textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained start hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained start disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained start value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained start data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained start aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained start title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained scenario textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained scenario hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained scenario disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained scenario value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained scenario data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained scenario aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained scenario title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback parent attribute retained",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs strict frozen source identity",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs duplicate guide root rejected",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs strict frozen source identity",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs duplicate guide root rejected",
+      "passed": true
+    }
+  ],
+  "scope": "Current actual two inherited comparator functions and compact feedback comparator. Exactly one guide root/descendants newly excluded, physical removal matches frozen v299 projections; prior hold/scope normalizations unchanged. All surrounding controls/attributes, similarly named nodes and detached descendants remain checked. No native browser claim."
+}

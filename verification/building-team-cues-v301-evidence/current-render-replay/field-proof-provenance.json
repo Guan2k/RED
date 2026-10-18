@@ -1,0 +1,18 @@
+{
+  "baseSha256": "87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e",
+  "prototypeSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "stateSha256": "936df7aeffb634ae5dc283b7ead87ab18e448a06a07b31fd320cde524336a1aa",
+  "fixtureSha256": "61f42c9b25918db0af9ba7458fab48f7408974a6794855ead7cfe5e26d6329ef",
+  "sameStateBothPanels": true,
+  "renderPreservedState": true,
+  "source": "Actual whole render calls via existing no-persistence VM, recording Path2D mock; curated fixture, not gameplay screenshot",
+  "paintCounts": [
+    355,
+    375
+  ],
+  "combinedCacheInitialization": {
+    "constructors": 30,
+    "pathMethods": 177
+  },
+  "limitations": "No native raster, fonts, viewport/browser layout, GPU/FPS or dynamic animation proof. SVG conversion supports only recorded primitives used in this fixture."
+}

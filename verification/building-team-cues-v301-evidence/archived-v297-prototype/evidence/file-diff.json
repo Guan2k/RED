@@ -1,0 +1,26 @@
+{
+  "baselineFileCount": 1477,
+  "changes": [
+    {
+      "path": "index.html",
+      "baseSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+      "prototypeSha256": "362a8749b3d9fcecc881844290328200f4c6a62a423f82de1745461b66c83c89"
+    },
+    {
+      "path": "source-build-receipt.json",
+      "baseSha256": "427bc9753484c3eec53d12ccb41e3c81774c205838ba6d8c529c87b1c14c6075",
+      "prototypeSha256": "012779278cc86b4b8131749e6966624ddaac1e26ac51ab74acb5460ddc1f82be"
+    },
+    {
+      "path": "src/art/buildings.mjs",
+      "baseSha256": "30e9add7c250520341c16bac68b0527262b7bfc85f06649fc615a8f9403ad2c8",
+      "prototypeSha256": "91bbb7781700bd9098fe5091757d150be4b4b463d8f545c6f625260ba3ad0e6c"
+    },
+    {
+      "path": "src/script/03-renderer.jsfrag",
+      "baseSha256": "6e487154334ec7429179027c0fde6fca3092795581f6f258d0477b599c5bc30c",
+      "prototypeSha256": "75854dcfdf2ccfa0878866aef69f5c9e440422e4c54cc60d42efb425e8bb1094"
+    }
+  ],
+  "newFiles": []
+}

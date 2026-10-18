@@ -1,0 +1,10 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),hash=x=>require('node:crypto').createHash('sha256').update(x).digest('hex'),reverse=require('./source-delta-v301.cjs'),restore=require('./restore-v300.cjs'),changes=require('./changes-v301.json');
+const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'),baseline=restore(html),results=[];
+function test(name,fn){fn();results.push({name,passed:true})}
+test('reviewed inverse is exact pinned v300',()=>{assert.equal(reverse(html),baseline);assert.equal(hash(baseline),'87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e')});
+for(let i=0;i<changes.length;i++)test('changed reviewed boundary rejected '+i,()=>{assert.equal(html.split(changes[i].after).length-1,1);assert.throws(()=>reverse(html.replace(changes[i].after,'BROKEN_REVIEWED_BOUNDARY_'+i)),{code:'ERR_ASSERTION'})});
+for(const [before,after]of [['function repeatProductionParallel(){return state.repeatParallel===true}','function repeatProductionParallel(){return true}'],['<h1><b>RED</b> FRONT</h1>','<h1><b>WRONG</b> FRONT</h1>']])test('unrelated mutation survives source inverse '+before,()=>{assert.equal(html.split(before).length-1,1);assert.equal(baseline.split(before).length-1,1);const mutated=html.replace(before,after);assert.equal(reverse(mutated),baseline.replace(before,after));assert.notEqual(reverse(mutated),baseline);assert.throws(()=>restore(mutated),{code:'ERR_ASSERTION'})});
+test('unrelated extra bytes retained, strict identity rejects',()=>{assert.equal(reverse(html+'\n'),baseline+'\n');assert.throws(()=>restore(html+'\n'),{code:'ERR_ASSERTION'})});
+test('duplicate reviewed code anchor rejected',()=>{assert.throws(()=>reverse(html+changes[3].after),{code:'ERR_ASSERTION'})});
+console.log(JSON.stringify({passed:results.length,failed:0,results,scope:'Source-only negative controls: precisely five reviewed inverse changes. Unrelated executable/markup mutations and extra bytes survive inverse and cannot be hidden by historical source comparison. Strict restore retains complete current/baseline identity locks.'},null,2));

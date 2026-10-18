@@ -1,0 +1,67 @@
+{
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "name": "remove-clamp",
+      "passed": true,
+      "diagnostic": "natural pointer route retains four-pixel bars",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "wrong-min",
+      "passed": true,
+      "diagnostic": "natural pointer route retains four-pixel bars",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "only-background",
+      "passed": true,
+      "diagnostic": "natural pointer route retains four-pixel bars",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "changed-width",
+      "passed": true,
+      "diagnostic": "natural pointer route emits original health pair",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "changed-predicate",
+      "passed": true,
+      "diagnostic": "natural pointer route emits original health pair",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "unnecessary-inset",
+      "passed": true,
+      "diagnostic": "natural pointer route retains four-pixel bars",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "changed-world",
+      "passed": true,
+      "diagnostic": "natural route world/input equality",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "rng",
+      "passed": true,
+      "diagnostic": "unexpected RNG",
+      "errorName": "Error"
+    },
+    {
+      "name": "reordered-pair",
+      "passed": true,
+      "diagnostic": "health branch exact paint semantics",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "changed-ratio",
+      "passed": true,
+      "diagnostic": "health branch exact paint semantics",
+      "errorName": "AssertionError"
+    }
+  ],
+  "scope": "In-memory behavioral mutants; exact named assertion diagnostics required. Historical product files unchanged."
+}

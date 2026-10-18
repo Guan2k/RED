@@ -1,0 +1,40 @@
+{
+  "baselineFiles": 1789,
+  "baselineSha256": "87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e",
+  "sourceSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "changedProductFiles": [
+    {
+      "path": "src/art/buildings.mjs",
+      "baseSha256": "30e9add7c250520341c16bac68b0527262b7bfc85f06649fc615a8f9403ad2c8",
+      "currentSha256": "91bbb7781700bd9098fe5091757d150be4b4b463d8f545c6f625260ba3ad0e6c"
+    },
+    {
+      "path": "src/script/03-renderer.jsfrag",
+      "baseSha256": "6e487154334ec7429179027c0fde6fca3092795581f6f258d0477b599c5bc30c",
+      "currentSha256": "75854dcfdf2ccfa0878866aef69f5c9e440422e4c54cc60d42efb425e8bb1094"
+    },
+    {
+      "path": "src/index.template.html",
+      "baseSha256": "dfbe7c99c22fe82a84bc264a6e05037e5cfddbb358a8574ab8a85f1dacb9bca6",
+      "currentSha256": "976e3eecab79e83624c0c27f42921898391b87632764873b25c7964552229e68"
+    },
+    {
+      "path": "index.html",
+      "baseSha256": "87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e",
+      "currentSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39"
+    },
+    {
+      "path": "source-build-receipt.json",
+      "baseSha256": "8cd909d75f399482ae5f6b1f05ff56249df5afa2ae8b5b856846389f552daeca",
+      "currentSha256": "eccb31979deed78242344ddaaf502a78e3bf114b54262ef15ee315871179af3a"
+    }
+  ],
+  "otherSourceFilesByteIdentical": {
+    "src/styles.css": "d8b8b8fa220823fb681c9e95cda6d937288fa8e0c9e4db94cbfff09e43c0819c",
+    "src/geometry.mjs": "ec617ada5a5c3466a4c326d2c3a3f3d968946a10c619f5c48b49c172f14ba76f",
+    "src/script/02-gameplay.jsfrag": "6d61904a9daacf35cbf4dc339d2ec3faf4b10efea9c705087a71517797dfd3e4",
+    "src/script/01-bootstrap.jsfrag": "94d62eaf3a24e5de5bda7c81689b224a3230672966aa206d43c779d252c9b8aa",
+    "src/script/04-interface-runtime.jsfrag": "9ef9cfd6340d2b0d376bccff95ccb2cca82e2d5974a5e5bf7caccefba2ed4d86"
+  },
+  "scope": "Four building cue helpers/static triangle, template version and existing preview help addition only. Existing v298/v299/v300 features and all other source bytes retained. No publication."
+}

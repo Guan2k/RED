@@ -1,0 +1,66 @@
+{
+  "passed": 9,
+  "failed": 0,
+  "results": [
+    {
+      "name": "corrected in-memory baseline",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "name": "old actual baseline caught",
+      "passed": true,
+      "issues": [
+        "current-runner-command",
+        "current-runner-link",
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "wrong current command",
+      "passed": true,
+      "issues": [
+        "current-runner-command"
+      ]
+    },
+    {
+      "name": "wrong current link",
+      "passed": true,
+      "issues": [
+        "current-runner-link"
+      ]
+    },
+    {
+      "name": "wrong general guide claim",
+      "passed": true,
+      "issues": [
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "historical guide claim retained",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "name": "historical current-command quote excluded",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "name": "heading version prefix is not accepted",
+      "passed": true,
+      "issues": [
+        "title-README.md"
+      ]
+    },
+    {
+      "name": "missing target caught",
+      "passed": true,
+      "issues": [
+        "link-README.md-verification/DOES_NOT_EXIST.cjs"
+      ]
+    }
+  ],
+  "scope": "In-memory document mutations only; no package writes or game execution."
+}

@@ -1,0 +1,739 @@
+{
+  "sourceVersion": "301",
+  "root": "/workspace/scratch/e433d7540f34/red-development/v301-building-team-cues/RED",
+  "hashes": {
+    "README.md": "3930d6eae2d22f55e6492bd17292a8bbd41df20442d1657ca66c6b6b4b05019c",
+    "CURRENT_VERIFICATION_ENTRY.md": "238fa4c369381d25ba8f4b75eadaad4353f56faae97cfb576ebdccd157108dfa",
+    "QA_STATUS.md": "24c61ae5f4367025a306cb27ab49e9a75dd7241c2a24fe3c60d4e450fbc21e4e",
+    "current-verification.json": "cb8b332768e3cd856f4f169ea2516864e5c87d4007ab3f1a6f5564c14f2d8563",
+    "CURRENT_PLAYER_GUIDE.md": "6acf754177911bfade73a7be867681a498622408ef3b9df8e107b96b48dc7eba"
+  },
+  "manifestVersion": "301",
+  "manifestMatchesCurrentSource": true,
+  "manifestRunnerExists": true,
+  "manifestRunnerHashMatches": true,
+  "readmeKnownOldCurrentRunnerRemoved": true,
+  "explicitGuideIdentityClaims": [
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 393,
+      "text": "本指南对应v0.301。当前验证入口与实际结果见[验证状态](QA_STATUS.md)和[稳定入口说明](CURRENT_VERIFICATION_ENTRY.md)，启动说明见[README](README.md)。前序版本的专项与数量保留在[发布记录](RELEASE_NOTES.md)，不冒称当前实跑或当前玩法覆盖。",
+      "currentSection": true,
+      "matchesSource": true
+    }
+  ],
+  "localLinks": [
+    {
+      "file": "README.md",
+      "line": 17,
+      "target": "index.html",
+      "fileExists": true,
+      "section": "## 立即开始",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 30,
+      "target": "CURRENT_PLAYER_GUIDE.md#3-选择编队与地图命令",
+      "fileExists": true,
+      "section": "## 先会四个动作",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "README.md",
+      "line": 30,
+      "target": "CURRENT_PLAYER_GUIDE.md#1-开局暂停与重新部署",
+      "fileExists": true,
+      "section": "## 先会四个动作",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "README.md",
+      "line": 72,
+      "target": "CURRENT_PLAYER_GUIDE.md#6-存档备份与恢复",
+      "fileExists": true,
+      "section": "## 保存与备份提醒",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "README.md",
+      "line": 76,
+      "target": "CURRENT_PLAYER_GUIDE.md",
+      "fileExists": true,
+      "section": "## 文档导航",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 76,
+      "target": "CURRENT_PLAYER_GUIDE.md#5-建造订单与出厂",
+      "fileExists": true,
+      "section": "## 文档导航",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "README.md",
+      "line": 77,
+      "target": "RELEASE_NOTES.md",
+      "fileExists": true,
+      "section": "## 文档导航",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 78,
+      "target": "verification/OPENING_PRACTICE_V289.md",
+      "fileExists": true,
+      "section": "## 文档导航",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 79,
+      "target": "verification/parameterized-pilot/README_V289.md",
+      "fileExists": true,
+      "section": "## 文档导航",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 80,
+      "target": "README_MIGRATION_V289.md",
+      "fileExists": true,
+      "section": "## 文档导航",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 92,
+      "target": "verification/run-tests-v301.cjs",
+      "fileExists": true,
+      "section": "## 当前测试与限制",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 100,
+      "target": "CURRENT_VERIFICATION_ENTRY.md",
+      "fileExists": true,
+      "section": "## 当前测试与限制",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 102,
+      "target": "QA_STATUS.md",
+      "fileExists": true,
+      "section": "## 当前测试与限制",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 102,
+      "target": "verification/BUILDING_TEAM_CUES_V301.md",
+      "fileExists": true,
+      "section": "## 当前测试与限制",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 104,
+      "target": "SHA256SUMS.txt",
+      "fileExists": true,
+      "section": "## 当前测试与限制",
+      "historicalSection": false
+    },
+    {
+      "file": "README.md",
+      "line": 114,
+      "target": "verification/COMMAND_FEEDBACK_V291.md",
+      "fileExists": true,
+      "section": "## 已有命令回执说明（v291）",
+      "historicalSection": false
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 49,
+      "target": "#1-开局暂停与重新部署",
+      "fileExists": true,
+      "section": "# RED v0.301：当前玩家指南",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 50,
+      "target": "#2-五种胜利条件与据点",
+      "fileExists": true,
+      "section": "# RED v0.301：当前玩家指南",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 51,
+      "target": "#3-选择编队与地图命令",
+      "fileExists": true,
+      "section": "# RED v0.301：当前玩家指南",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 52,
+      "target": "#4-矿车护航与维修",
+      "fileExists": true,
+      "section": "# RED v0.301：当前玩家指南",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 53,
+      "target": "#5-建造订单与出厂",
+      "fileExists": true,
+      "section": "# RED v0.301：当前玩家指南",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 54,
+      "target": "#6-存档备份与恢复",
+      "fileExists": true,
+      "section": "# RED v0.301：当前玩家指南",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 55,
+      "target": "#7-必要限制与验证范围",
+      "fileExists": true,
+      "section": "# RED v0.301：当前玩家指南",
+      "historicalSection": false,
+      "headingAnchorMatches": true
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 57,
+      "target": "RELEASE_NOTES.md",
+      "fileExists": true,
+      "section": "# RED v0.301：当前玩家指南",
+      "historicalSection": false
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 393,
+      "target": "QA_STATUS.md",
+      "fileExists": true,
+      "section": "## 7. 必要限制与验证范围",
+      "historicalSection": false
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 393,
+      "target": "CURRENT_VERIFICATION_ENTRY.md",
+      "fileExists": true,
+      "section": "## 7. 必要限制与验证范围",
+      "historicalSection": false
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 393,
+      "target": "README.md",
+      "fileExists": true,
+      "section": "## 7. 必要限制与验证范围",
+      "historicalSection": false
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 393,
+      "target": "RELEASE_NOTES.md",
+      "fileExists": true,
+      "section": "## 7. 必要限制与验证范围",
+      "historicalSection": false
+    }
+  ],
+  "readmeNodeCommands": [
+    {
+      "command": "node verify-current.cjs",
+      "exists": true
+    },
+    {
+      "command": "node verification/run-tests-v301.cjs",
+      "exists": true
+    },
+    {
+      "command": "node verify-current.cjs",
+      "exists": true
+    },
+    {
+      "command": "node verify-development.cjs",
+      "exists": true
+    }
+  ],
+  "currentMarkedLines": [
+    {
+      "file": "README.md",
+      "line": 42,
+      "section": "## 可选车辆与建筑外观预览",
+      "text": "建筑预览保留原有炮塔朝向、总部旗杆、施工遮罩／倒计时与施工、工厂生产状态条。当前首次启用最多懒建30条静态路径（车辆10＋建筑20）；API缺失或失败时直接绘制，直接路径可能增加调用开销。预览不写入战局或存档。原型调用计数中，双方四类建筑各一座的一帧增加44次缓存Canvas方法调用或64次直接调用，包含保存／恢复上下文与坐标转换；这是额外开销计数，不是实际帧率测量。"
+    },
+    {
+      "file": "README.md",
+      "line": 70,
+      "section": "## 保存与备份提醒",
+      "text": "“导出所选存档”只导出槽内已有快照，不会先保存当前局。备份最新进度请用“保存本局并导出”，或先确认保存成功再导出。“已发起下载”不等于下载完成，请核对浏览器下载列表和实际文件。"
+    },
+    {
+      "file": "README.md",
+      "line": 76,
+      "section": "## 文档导航",
+      "text": "- [当前玩家指南](CURRENT_PLAYER_GUIDE.md)：完整操作与规则；[建造、订单与出厂](CURRENT_PLAYER_GUIDE.md#5-建造订单与出厂)"
+    },
+    {
+      "file": "README.md",
+      "line": 77,
+      "section": "## 文档导航",
+      "text": "- [完整版本历史](RELEASE_NOTES.md)：含旧验证、失败与修复记录，历史命令不作为当前默认入口"
+    },
+    {
+      "file": "README.md",
+      "line": 82,
+      "section": "## 当前测试与限制",
+      "text": "## 当前测试与限制"
+    },
+    {
+      "file": "README.md",
+      "line": 84,
+      "section": "## 当前测试与限制",
+      "text": "在本目录运行唯一当前默认测试入口（Node.js 18+，无第三方依赖）："
+    },
+    {
+      "file": "README.md",
+      "line": 92,
+      "section": "## 当前测试与限制",
+      "text": "本版底层实际命令为 `node verification/run-tests-v301.cjs`，对应[本版聚合脚本](verification/run-tests-v301.cjs)；稳定入口先核完整性，再把已核文件复制到私有临时目录执行它；原包只读，不额外开启历史或长局选项。"
+    },
+    {
+      "file": "README.md",
+      "line": 102,
+      "section": "## 当前测试与限制",
+      "text": "本轮v301四建筑辅助阵营标记、当前聚合及隔离入口范围见[验证状态](QA_STATUS.md)和[专项说明](verification/BUILDING_TEAM_CUES_V301.md)。历史脚本和结果保留，不作为当前实跑；旧玩家ZIP及构建工具／配置保留为历史；当前v301玩家包是单独产物，其打包校验单列，不属于游戏回归范围。验证使用Node全源码VM／模拟DOM，不能据此宣称原生浏览器像素、布局、输入法、读屏或窄屏体验已验收。本轮不执行真实游戏存档、载入、导入、导出或浏览器存储操作；无持久化模型与历史模拟初始化范围按专项证据区分。"
+    },
+    {
+      "file": "README.md",
+      "line": 114,
+      "section": "## 已有命令回执说明（v291）",
+      "text": "普通或坐标命令无法分配安全落点／工厂集结点时，持续显示的命令回执会列出失败数量；部分成功与原有命令保持规则不变。此提示不代表路线永远不可达。v291历史专项范围见[说明](verification/COMMAND_FEEDBACK_V291.md)，当前继承验证见本版QA状态。"
+    },
+    {
+      "file": "README.md",
+      "line": 117,
+      "section": "## 已有命令回执说明（v291）",
+      "text": "开发者编辑src后，先装配并核验生成结果，再经审阅更新当前版本验证身份与包清单，运行 `node verify-development.cjs` 完整开发发布入口；仅运行游戏验证不能代替权威源码一致性检查。玩家无需开发工具。"
+    },
+    {
+      "file": "CURRENT_VERIFICATION_ENTRY.md",
+      "line": 3,
+      "section": "# 稳定默认验证入口：v0.301",
+      "text": "开发／发布运行 `node verify-development.cjs`。五阶段为包完整性、权威src装配一致性、构建器测试、可信建筑数据验证、当前游戏聚合。`--check-only` 不运行游戏。编辑后显式构建并经审查更新当前身份和封包清单，历史测试身份保持原样。"
+    },
+    {
+      "file": "CURRENT_VERIFICATION_ENTRY.md",
+      "line": 5,
+      "section": "# 稳定默认验证入口：v0.301",
+      "text": "v301新增四建筑辅助阵营标记，默认OFF，炮塔不变；模板原帮助段解释标记范围与局限。当前runner适配及完整隔离gate待完成，以QA_STATUS.md及verification/building-team-cues-v301-evidence最终结果为准。"
+    },
+    {
+      "file": "CURRENT_VERIFICATION_ENTRY.md",
+      "line": 7,
+      "section": "# 稳定默认验证入口：v0.301",
+      "text": "不得把原型测试、历史模拟与原生浏览器验收混用；当前path与上下文保存状态分别检查，不承诺性能或全类别无障碍。"
+    },
+    {
+      "file": "QA_STATUS.md",
+      "line": 1,
+      "section": "# 当前QA：v0.301",
+      "text": "# 当前QA：v0.301"
+    },
+    {
+      "file": "QA_STATUS.md",
+      "line": 3,
+      "section": "# 当前QA：v0.301",
+      "text": "当前四建筑辅助阵营标记候选已由权威src构建，完整隔离开发gate待执行，不以原型结果代替当前验收。"
+    },
+    {
+      "file": "QA_STATUS.md",
+      "line": 5,
+      "section": "# 当前QA：v0.301",
+      "text": "范围为默认关闭的原有外观预览：指挥中心、发电站、精炼厂、战车工厂新增双横条/三角辅助标记；炮塔不加，所有原版OFF及动态图层、战局/RNG和存档规则应保持。前序v298/299/300功能与历史验证保留。原型的10,278断言及123项source/data测试作为历史开发证据，不冒称当前整合验证。"
+    },
+    {
+      "file": "QA_STATUS.md",
+      "line": 7,
+      "section": "# 当前QA：v0.301",
+      "text": "缓存上限保持20路径/128顶点/12圆弧，实际建筑20/84/9。原型测得八座带标记建筑每帧增加44次缓存Canvas方法或64次直接方法，包含save/translate/restore；不是FPS改善。当前整合应复核同样计数、首次失败/锁存、上下文状态以及当前path影响。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 1,
+      "section": "# RED v0.301：当前玩家指南",
+      "text": "# RED v0.301：当前玩家指南"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 45,
+      "section": "# RED v0.301：当前玩家指南",
+      "text": "本指南按操作整理当前版本。游戏内价格、按钮状态与即时回执以操作时显示为准。选中单位被击毁后，本帧结束前会刷新选区及动作按钮；不改变原命令规则。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 63,
+      "section": "## 1. 开局、暂停与重新部署",
+      "text": "选择战场、胜利条件、难度和规则，再点“开始作战”或“再次作战”。七个快速任务只预填下次开局配置，不自动开始，也不改写当前局或终局快照；前六项使用标准难度，双闸突进使用老兵难度；均可继续调整："
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 81,
+      "section": "## 1. 开局、暂停与重新部署",
+      "text": "终局不再接受战场命令或保存当前局；可只读查看战场、订单、战报及存档概览，再返回结算。导出的 TXT 战报不是可载入存档。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 101,
+      "section": "## 2. 五种胜利条件与据点",
+      "text": "据点概览说明当前归属、圈内战斗车、有效控制及收入条件；不是即时到账承诺。暂停、菜单与终局显示相应快照。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 107,
+      "section": "### 选择据点圈内己方战斗车",
+      "text": "有匹配成员时替换当前选区，并按普通选择操作退出建造待放置、攻击／普通／追加点选和拖框；原单位命令、已保存编队、资金与占领进度不变。操作时已无匹配成员则保留原选区及待点选操作。按钮不会召集圈外增援、不下移动命令，也不自动坚守；轮换守军仍需玩家另行下令。暂停可用，未开局、重开确认、终局或圈内无候选时按钮禁用。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 121,
+      "section": "### 从选区移出指定单位",
+      "text": "展开“当前选区筛选”，在“移出指定单位”下拉框按车型、编号和坐标找到目标，再点击“从选区移出此单位”。键盘可用 Tab 到下拉框选择，再 Tab 到按钮用 Enter／空格执行；也可点击或轻触原生控件。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 123,
+      "section": "### 从选区移出指定单位",
+      "text": "这只把指定的存活己方单位移出当前选区，不删除单位、不撤退、不停止原任务，也不改变已保存编队、资金或待点选操作。只有当前已选单位会列出，建筑也可移出，最后一辆也可移出。每次执行后回到空占位，不会自动选择下一辆；目标死亡、失选或开始新局会清空下拉框中的待移出目标。暂停时可用，未开局、重开确认与终局禁用。Shift追加、地图点选和双击同类原义不变。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 130,
+      "section": "### 选择与编队",
+      "text": "Ctrl／⌘＋1–3 保存当前己方车辆编队，1–3 召回存活成员。按住这些数字键时系统自动重复事件不再执行；松开再按仍正常。也可使用“编队管理”保存按钮或 Ctrl＋点击编队按钮。保存替换该编队成员，只包含存活己方车辆（含矿车与维修车），不包含建筑。若没有有效车辆，保留原编队；快捷键和Ctrl点击会显示原因，保存按钮保持禁用。选区和待点选操作不变；召回只是选择，不自动下令。需要把新出厂车辆补入已有编队时，先选中增援，再展开“编队管理”点击“加入所选到编队1／2／3”。按钮显示尚未入组的存活己方车辆数；成功加入保留原存活车辆顺序、追加新成员，并清理失效编号。没有新成员时不操作；选区、原命令及待点选操作保持不变。暂停可用，未开局、重开确认与终局不可用。筛选选区、阶段选矿车或选择受损车不改写已保存编队；新局清空编队，存档会保存编队，载入只恢复有效己方成员。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 132,
+      "section": "### 选择与编队",
+      "text": "双击同型单位扩选后即时刷新选区和动作按钮，暂停时也显示当前坚守动作。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 136,
+      "section": "### 受损战斗车选择与伤情",
+      "text": "“当前选区筛选”只在现有选区保留战斗车或一种车型，不扩大到全图。“仅选受损战斗车 N”保留生命低于自身满值的存活、已完工己方坦克、侦察车和火炮，含轻伤；点击时重算，无候选或已全选时保留选择。它不改命令、编队，也不自动撤退或修理。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 138,
+      "section": "### 受损战斗车选择与伤情",
+      "text": "侧栏有独立一行“选择全部受损战斗车 · N”。它选择全图存活、已完工且生命低于满值的己方坦克、侦察车和火炮，包含轻伤；不选矿车、维修车、建筑、敌军或已毁单位。J 仍只选生命≤50%的重伤战斗车，“当前选区筛选”内的受损筛选仍只缩小现有选区。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 142,
+      "section": "### 受损战斗车选择与伤情",
+      "text": "“选区最弱受损一辆”在当前所选存活、已完工己方坦克、侦察车和火炮中选生命比例最低的一辆受损车，含轻伤，同率按编号。不选满血车，不扩大到全图；J仍从全图选择≤50%的重伤战斗车。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 144,
+      "section": "### 受损战斗车选择与伤情",
+      "text": "只有轻伤的选区也能定位伤情摘要中的最弱一辆。“仅选受损战斗车”仍保留全部受损候选；当前已经全部受损时因无可缩小而禁用，这是正确行为。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 152,
+      "section": "### 受损战斗车选择与伤情",
+      "text": "摘要随选区和正常界面刷新更新；暂停、重开确认与战后只读查看仍可显示当前选区，不是持续诊断或撤退建议。只读显示，不选择、移动、修理、花钱或更改原命令。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 159,
+      "section": "### 直接命令、停止与巡逻",
+      "text": "- S 取消车辆当前移动／攻击等命令；地图下方回执统计本次实际取消车辆数，每车一次。空选、闲置车或建筑不会报取消成功；退出攻击／普通点选或框选另列。回执与最近地图命令互相覆盖，相同结果不重复写入，新局或成功读档清空。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 161,
+      "section": "### 直接命令、停止与巡逻",
+      "text": "- H 切换坚守，不主动追击，但不锁定碰撞位置。O 按战斗车当前位置设驻点警戒，可能追击离开占点圈。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 171,
+      "section": "### 按坐标下达普通指令",
+      "text": "执行时重查当前字段、选区及下令条件，沿用普通右键的上下文规则：移动、指定敌军、矿点、护航／跟随或工厂集结点。它替换普通命令，不追加后续队列；安全落点可能调整，命令回执不保证抵达。暂停时可用，未开局、重开确认与终局不可用。取消保留已填坐标，开始新局清空并折叠；长按执行按钮不重复发令，取消或失焦后的迟到激活被拒绝，新明确按下可恢复。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 181,
+      "section": "### 普通指令点选与单框候选预览",
+      "text": "开启普通点选后，鼠标／笔移到地图，现有检视框追加当前点的各类命令候选数；空地也用同一个框，保留对象原信息。矿点、护航、维修跟随、移动及工厂集结按各自兵种规则统计。敌军点的非战斗车只记录目标，不代表能攻击；实际点令命中与最近悬停对象可能不同，候选头行标明实际点令目标。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 183,
+      "section": "### 普通指令点选与单框候选预览",
+      "text": "预览只是当前点的候选快照；实际接收看抬起后回执，不保证落点安全、抵达或目标届时仍有效。退出模式、移出地图、失焦、后台、新局或发起读档都会清除预览。只读 DOM 描述采用非 live 区域，设计意图是避免随指针持续主动播报；原生辅助技术尚未验收，不能保证所有读屏软件的实际播报行为。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 187,
+      "section": "### 追加路线、攻击排队与抵达后坚守",
+      "text": "普通模式中的 Shift＋右键另有用途：空地给闲置或移动中的战斗车追加路线；敌军目标给待命或指定攻击中的战斗车追加攻击目标。两类队列各最多 8 项（含当前），不能混排；矿车、维修车和工厂不参加。“撤销队尾”保留当前任务。普通移动可预约“抵达后坚守”，最后一个路点完成后才生效。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 189,
+      "section": "### 追加路线、攻击排队与抵达后坚守",
+      "text": "普通移动的“抵达后坚守”只适用于当前普通地面移动的己方战斗车，不接受攻击移动或指定攻击、攻击队列、护航、巡逻、驻点警戒、坚守等高优先级命令。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 193,
+      "section": "#### 一次性追加队列点选",
+      "text": "选中战斗车辆后，点击“追加队列点选”，再用主指针在地图有效位置按下、抬起一次。点空地尝试追加普通路线，点敌军尝试追加攻击目标；沿用原Shift＋右键的资格、重复目标和最多8项（含当前）限制。只追加符合条件的战斗车辆，矿车、维修车和工厂不会因此改成移动、跟随或集结命令。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 195,
+      "section": "#### 一次性追加队列点选",
+      "text": "有效点选抬起后尝试一次并退出，包括因友军占位、目标重复、队列已满或单位当前命令不兼容而拒绝的情况；请看既有命令回执。它不替换当前任务，不混排两类队列，也不保证道路可达或敌人到抬起时仍然有效。当前段原为攻击移动时继续保留，后续追加地面路段按原规则普通移动。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 203,
+      "section": "#### 撤销队尾",
+      "text": "仍然保留当前实际指定目标；即使暂时的队列顺序与当前目标不一致，也不撤掉当前目标。只剩零个或一个有效队列目标时不操作。点击时重新检查，显示阶段不改队列；多选各撤一项，普通移动路线的撤销规则不变。暂停可操作，重开菜单、未开战和终局继续禁用。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 209,
+      "section": "#### 一次清除后续队列",
+      "text": "地面路线保留当前目标点、当前普通／攻击移动状态及导航进度。已有“抵达后坚守”预约保留：当前这一段成为最终段，到达后再按既有规则坚守，不会立即停下。攻击排队保留车辆实际指定的存活敌人，不选择队首、不立即换目标。无有效后续项、当前目标失效、队列与当前指令不一致或混用两类队列的车辆不操作。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 215,
+      "section": "#### 路线受阻与坚守预约取消",
+      "text": "分段路线的当前路点或下一路点被建筑／岩石阻挡而停止时，若同时清除了“抵达后坚守”预约，日志明确说明预约已取消。当前路点同时阻挡多辆车时，只报告其中实际有预约的数量；没有预约的原有停止提示保持不变，不额外重复提示。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 217,
+      "section": "#### 路线受阻与坚守预约取消",
+      "text": "这只是解释已有取消结果，不会让车辆提前坚守，也不会自动重新下达命令。正常路线仍只在最后一段抵达后坚守；追加路点会把终点延后。路线取消后，请按当前战况自行选择新的移动或坚守命令。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 219,
+      "section": "### 当前地面命令与目的地",
+      "text": "### 当前地面命令与目的地"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 221,
+      "section": "### 当前地面命令与目的地",
+      "text": "单选存活、已完工己方战斗车时，普通移动或攻击移动的当前地面命令显示目的地 X/Y。坐标沿用地图辅助的左上原点、四舍五入整数约定；仅接受地图范围内的有限坐标。分段路线只说明当前路段，不把队尾当成正在执行的目标。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 225,
+      "section": "### 当前地面命令与目的地",
+      "text": "多选时，选区摘要显示“当前地面命令（所选己方战斗车）：普通移动 N / 攻击移动 M”。只计所选存活、已完工己方战斗车的有效地面目标，不包括指定攻击、攻击队列、护航、巡逻、驻点警戒或坚守；不是对所有选中单位的完整命令分类。分段普通路线仍归普通移动，原有专门摘要继续显示。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 227,
+      "section": "### 当前地面命令与目的地",
+      "text": "显示的是当前命令，不代表车辆正在位移、道路畅通或已经抵达。攻击移动可能正在接敌；暂停或重开菜单明确显示快照，终局隐藏此行。抵达清空goal后，即使attackMove标记保留也不计入；无适用车辆时不添加空计数。只读，不改变命令、选区、编队、资金或存档。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 231,
+      "section": "### 岩石与地图检视",
+      "text": "悬停单位、建筑、矿点或据点可看当前信息，不改变选择。矿点附近矿车数、最近精炼厂直线距离仅辅助判断，不保证路线畅通。坐标辅助每格 100 地图单位，左上原点，X 向右、Y 向下；只辅助定位，不吸附或下令，开关只保留在当前页面。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 245,
+      "section": "### 采矿与九阶段全图选择",
+      "text": "G只让有载矿车辆提前返厂，保留当时指定/自动安排；S或新的手动地面移动会取消指定矿点和提前返厂状态。新的地面移动结束后，矿车按现有自动规则行动。界面只解释当前字段，不改变G/S/移动、采集交付、经济或历史日志。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 253,
+      "section": "### 采矿与九阶段全图选择",
+      "text": "九阶段描述下一采矿分支，不承诺路线可达、运输安全、已实际运动或及时抵达；“手动指令待结束”不代表故障。暂停可选且不推进模拟；未开始、重新部署菜单、终局不可选，仍可浏览。下拉聚焦保持快捷键隔离。阶段偏好只保留在当前页面、不入存档，跨新局及成功载入保留；上次选择回执清空，回执不是持续跟踪。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 255,
+      "section": "### 选择当前交矿精炼厂",
+      "text": "### 选择当前交矿精炼厂"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 257,
+      "section": "### 选择当前交矿精炼厂",
+      "text": "单选一辆正在返厂交矿或等待交矿结算的己方矿车时，侧栏显示“选择当前交矿精炼厂”，附当次判定的建筑编号和中心坐标。点击只选择这座精炼厂，方便接着查看或使用既有建筑操作；不会更改矿车命令、指定矿点、载矿、资金或编队，也不移动视角。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 259,
+      "section": "### 选择当前交矿精炼厂",
+      "text": "目的地沿用实际采矿规则：选择矿车当前位置最近的存活、已完工己方精炼厂。满载、已接受的提前返厂，以及全图矿石耗尽时的带矿返厂都按原规则判定。显示是当前界面判定；建筑毁坏、新厂完工或矿车移动后，点击会重新判断，可能选择另一座厂。这不是固定绑定或最短／安全／可达路线保证。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 271,
+      "section": "### 护航与车辆维修",
+      "text": "单独选择存活、已完成的己方护航战车或维修车后，“选择护航／跟随目标”显示当前有效友军目标的车型与编号。点击只选择这一个目标；不取消双方命令、不改变编队、资金或生命，也不移动视角。矿车原有“选此矿车护航／跟随”保留，可双向定位。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 273,
+      "section": "### 护航与车辆维修",
+      "text": "点击时重新读取当前选中车辆的真实关系：目标已死、变为敌方、关系取消或选择变为多选时不操作；如果关系已经改派，则选择当下的新目标，不使用之前显示的旧对象。双方必须存活且已完成。暂停可使用；重开菜单、未开战与终局禁用。成功选择会和已有选择按钮一样清除未提交的建造、攻击、普通命令输入及拖框，不影响已下达命令。按住Enter的重复按键不会连续跳转关系链。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 277,
+      "section": "### 维修诊断与全图检查",
+      "text": "暂停时单选维修车，保留“游戏暂停（不会执行维修）”提示，并继续显示关闭、冷却、无目标、资金不足或当前位置候选。这里只排查当前条件，不推进模拟、不承诺恢复后一定维修。未开战、重开确认和终局仍仅显示相应限制。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 279,
+      "section": "### 维修诊断与全图检查",
+      "text": "侧栏“维修车工作检查与选择”默认折叠。展开或点击“刷新维修车检查”生成检查快照，包含己方存活、已完工维修车总数及关闭、冷却、无目标、资金不足、有候选五类互斥计数。该顺序沿用单车说明，非维修执行分支的精确模拟；有候选不代表正在维修。快照显示检查游戏时间及钟表时间，当前暂停、终局等限制另行更新，状态变化后需刷新。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 291,
+      "section": "### 按坐标放置所选建筑",
+      "text": "在“基地建设”先选建筑卡片，再展开独立的“按坐标放置所选建筑”，填写X（0–1200）和Y（0–800）纯数字整数。界面显示当前建筑、价格、原建造预览的限制／资金／预计电力；执行按钮明确写出“放置[建筑] · 花费[N]资金”。默认输入为空，填写与输入框Enter都不会建造；可用Tab转到按钮，再用Enter／空格确认。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 312,
+      "section": "### 购买与三项订单动作",
+      "text": "暂停及重新部署菜单中可只读查看当前原因；终局沿用结束时快照，不提示继续生产。已分配生产及等待出口的订单沿用原提示。只读说明不自动下令，也不改变退款、分配、出厂及经济规则。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 318,
+      "section": "### 购买与三项订单动作",
+      "text": "3. **选择此订单工厂**：只选当前分配的存活己方已完工工厂，Shift／Alt 不改变含义；不取消订单，不改生产、循环或集结，不自动清出口。无可用工厂时禁用并说明原因；暂停、缺电或等待出口时仍可选有效工厂。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 320,
+      "section": "### 购买与三项订单动作",
+      "text": "取消全局循环订单会关闭当前全局循环，即使刚换了循环车型。取消仍关联本厂循环的订单，会关闭其来源工厂循环；来源厂已毁时不影响接手厂的循环。来源厂已切换或关闭模式后，旧单不再关联该厂循环。请看按钮的“并关闭循环／并停来源厂循环”提示。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 334,
+      "section": "### 出厂点与集结",
+      "text": "出口被堵会保留已完成订单等待。单选对应工厂，若“选择出厂点占位友军”可用，可选择按现有搜索顺序第一个静态有效且无敌军占位候选点上的全部友军，再自行移动。点击时重新判断；已有开放出口、只有地形／建筑阻挡或候选均有敌军占位等情况会禁用或保留当前选择，不自动清出口。暂停还须继续、缺电还须恢复供电；移开友军不保证马上出厂。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 338,
+      "section": "### 出厂点与集结",
+      "text": "新车在中心 144 范围内按 48 网格寻找附近空位，避开当前车辆、同队移动目标及警戒锚点，不读取敌方未来命令。分散落点不移动集结中心；附近无空位则仍向安全中心集结并提示拥挤。出厂时重新检查中心，受阻会尝试附近安全位置；仍无落点时保留工厂原设置，本次新车用默认行为：矿车自动采矿、战斗车就近接敌、维修车就近维修。不会跳过已付订单、加价或加速，不保证整条路线可达或消除之后拥堵。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 346,
+      "section": "### 循环生产",
+      "text": "要统一查看或调整同一循环车型的工厂，先单选一座已开启本厂循环的己方已完工工厂，再展开“按本厂循环车型选厂”，点击“选择同循环车型工厂”。至少2座才可用，数量包含本厂；点击按当前设置重新检查，选择全图存活、已完工且本厂循环车型相同的己方工厂。关闭状态不匹配；是否空闲、已付订单车型和来源、各厂补单目标均不作为筛选条件。这与“选空闲工厂”是两种独立筛选。只改变选择并退出待点选，不修改循环、目标、订单、集结或资金；调整仍需自行使用现有控件。暂停可用，未开局、重开确认及终局不可用。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 358,
+      "section": "### 保存与下载",
+      "text": "- **保存进度**：把当前进行中战局写入所选槽，替换该槽快照，不下载。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 360,
+      "section": "### 保存与下载",
+      "text": "- **导出所选存档**：只下载所选槽已有快照，不先保存当前局；若要最新进度，先确认保存成功或使用上一按钮。保存失败后尤其要核对快照时间。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 362,
+      "section": "### 保存与下载",
+      "text": "未开始或终局不能保存当前局；暂停和重新部署菜单中的进行中战局仍可保存。双方车辆与建筑超过 1000 个、数据校验、体积或浏览器存储问题都可能阻止保存。写入前失败保留旧档；若已成功写入但随后界面更新异常，快照未回滚，页面应提示已保存，请核对槽位。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 370,
+      "section": "### 载入、导入与取消读取",
+      "text": "1. 选槽不会自动载入。点击载入才替换当前局，替换进行中战局需确认；成功后默认暂停，配置以存档为准。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 372,
+      "section": "### 载入、导入与取消读取",
+      "text": "3. 读取开始时记录目标槽和原内容；读取后及覆盖确认后都检查。读取完成及覆盖确认后检查时，当前槽与起始槽不同或目标内容改变会停止导入，保留槽内新内容，请核对后重新选文件。切走再切回且内容相同可能继续。这不是跨页面原子锁，不能识别变化后又恢复完全相同字节（ABA），也不能消除检查与写入之间的并发；避免多个页面同时改同一槽。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 373,
+      "section": "### 载入、导入与取消读取",
+      "text": "4. 若槽位已写入、随后界面更新异常，会明确提示已导入且未回滚；当前战局仍未载入，不应误以为旧档未覆盖。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 375,
+      "section": "### 载入、导入与取消读取",
+      "text": "读取未完成时显示“正在读取存档文件（目标槽 N）”，可点“取消读取”。取消使这次后续读取结果和错误失效，不删除／改写存档，也不改变当前局；底层读取可能仍完成，但结果不会用于导入。取消不撤销已完成导入；读取结束后按钮隐藏并禁用，后续覆盖确认仍可取消。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 379,
+      "section": "### 载入、导入与取消读取",
+      "text": "存档格式为版本 1，旧档须通过当前校验；新内容宜用同版或更新程序打开，旧程序能打开不代表完整兼容。读档不保证逐帧重演。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 393,
+      "section": "## 7. 必要限制与验证范围",
+      "text": "本指南对应v0.301。当前验证入口与实际结果见[验证状态](QA_STATUS.md)和[稳定入口说明](CURRENT_VERIFICATION_ENTRY.md)，启动说明见[README](README.md)。前序版本的专项与数量保留在[发布记录](RELEASE_NOTES.md)，不冒称当前实跑或当前玩法覆盖。"
+    },
+    {
+      "file": "CURRENT_PLAYER_GUIDE.md",
+      "line": 395,
+      "section": "## 7. 必要限制与验证范围",
+      "text": "当前证据主要来自Node全源码VM／模拟DOM与Canvas指令记录；合成边界夹具不冒称自然玩法，文字与模型检查不替代原生浏览器验收。旧v0.274段落中的“历史1078项未运行”属于当时验证范围，不是当前轮结果；原文随上一版完整指南归档保留。真实存档、载入、导入、导出及浏览器存储操作不在本轮验收范围，更细的即时条件见侧栏帮助。"
+    }
+  ],
+  "limits": "Semantic historical/current scope needs human review; mutable candidate manifest/links may be intentionally pending. No game execution or package writes."
+}

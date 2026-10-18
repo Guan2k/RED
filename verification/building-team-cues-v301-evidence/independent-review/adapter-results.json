@@ -1,0 +1,5 @@
+{
+  "passed": 96,
+  "failed": 0,
+  "scope": "Own recorded current paints/events versus actual v300; independent shape/color/transform/opacity/missing/duplicate/prior-body/reordered-block/extra-method mutants; unrelated paint retained"
+}

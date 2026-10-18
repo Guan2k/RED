@@ -1,0 +1,22 @@
+[
+  {
+    "before": "赤色前线 / ORIGINAL RTS / v0.300",
+    "after": "赤色前线 / ORIGINAL RTS / v0.301"
+  },
+  {
+    "before": "默认关闭；仅本页面会话保留，新局沿用，重新打开页面恢复关闭。仅切换车辆与建筑外观，不改变单位属性或操作。新外观绘制开销可能更高，未验证原生浏览器效果与帧率；可随时关闭。",
+    "after": "默认关闭；仅本页面会话保留，新局沿用，重新打开页面恢复关闭。仅切换车辆与建筑外观，不改变单位属性或操作。新外观绘制开销可能更高，未验证原生浏览器效果与帧率；可随时关闭。启用后，指挥中心、发电站、精炼厂和战车工厂增加辅助阵营标记：双横条为己方，三角为敌方；炮塔暂未添加，无标记不代表中立。缩小显示时标记可能难辨，仍需结合阵营颜色与查看信息。"
+  },
+  {
+    "before": "  Object.freeze([\"circle\",Object.freeze([0.0,0.0,12.0])])\n",
+    "after": "  Object.freeze([\"circle\",Object.freeze([0.0,0.0,12.0])]),\n  Object.freeze([\"poly\",Object.freeze([0,0,6,2,0,4])])\n"
+  },
+  {
+    "before": "function drawBuildingPreview(e){\n",
+    "after": "// Shared canonical team triangle; fixed placements only on four larger building bodies.\nconst buildingTeamCueOrigins=Object.freeze({hq:Object.freeze([-18,-5]),power:Object.freeze([-17,9]),refinery:Object.freeze([-22,9]),factory:Object.freeze([19,1])});\nfunction drawBuildingTeamCue(type,team){\n  if(!Object.hasOwn(buildingTeamCueOrigins,type))return;\n  let p=buildingTeamCueOrigins[type];ctx.save();ctx.translate(p[0],p[1]);\n  rect(-1,-1,8,6,'#14201b');\n  if(team){\n    ctx.fillStyle='#e7d9b4';let path=buildingArtPathCache?.[19],painted=false;\n    if(path){try{ctx.fill(path);painted=true}catch{buildingArtPathCache=null}}\n    if(!painted){ctx.beginPath();buildingArtTrace(ctx,buildingArtGeometry[19]);ctx.fill()}\n  }else{rect(0,0,6,1.5,'#e7d9b4');rect(0,2.5,6,1.5,'#e7d9b4')}\n  ctx.restore()\n}\nfunction drawBuildingPreview(e){\n"
+  },
+  {
+    "before": "  if(e.type==='hq'){ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}\n",
+    "after": "  drawBuildingTeamCue(e.type,e.team);\n  if(e.type==='hq'){ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}\n"
+  }
+]

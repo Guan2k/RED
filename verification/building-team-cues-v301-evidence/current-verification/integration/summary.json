@@ -1,0 +1,44 @@
+[
+  {
+    "name": "command-allocation-feedback-v301.cjs",
+    "exit": 0,
+    "passed": 104,
+    "failed": 0,
+    "seconds": 3.6
+  },
+  {
+    "name": "run-pilot-release-v301.cjs",
+    "exit": 0,
+    "passed": null,
+    "failed": 0,
+    "seconds": 7.7
+  },
+  {
+    "name": "coordinate-command-natural-v301.cjs",
+    "exit": 0,
+    "passed": 4,
+    "failed": 0,
+    "seconds": 2.5
+  },
+  {
+    "name": "inherit-dom-v301-negative-control.cjs",
+    "exit": 0,
+    "passed": 250,
+    "failed": 0,
+    "seconds": 3.5
+  },
+  {
+    "name": "visual-preference-v301.cjs",
+    "exit": 0,
+    "passed": 10,
+    "failed": 0,
+    "seconds": 0.3
+  },
+  {
+    "name": "ore-layout-v301.cjs",
+    "exit": 0,
+    "passed": 5528,
+    "failed": 0,
+    "seconds": 7.5
+  }
+]

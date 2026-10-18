@@ -1,0 +1,389 @@
+{
+  "passed": true,
+  "assertions": 10278,
+  "fixtureCases": 450,
+  "methodCounts": [
+    {
+      "type": "hq",
+      "team": 0,
+      "baselineCached": 19,
+      "cached": 25,
+      "cachedDelta": 6,
+      "baselineDirect": 33,
+      "direct": 39,
+      "directDelta": 6,
+      "baselinePaints": 13,
+      "paints": 16,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 14,
+        "fill": 1,
+        "restore": 2,
+        "beginPath": 1,
+        "moveTo": 1,
+        "lineTo": 1,
+        "stroke": 1
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 14,
+        "beginPath": 2,
+        "moveTo": 2,
+        "lineTo": 12,
+        "closePath": 1,
+        "fill": 1,
+        "restore": 2,
+        "stroke": 1
+      }
+    },
+    {
+      "type": "hq",
+      "team": 1,
+      "baselineCached": 19,
+      "cached": 24,
+      "cachedDelta": 5,
+      "baselineDirect": 33,
+      "direct": 43,
+      "directDelta": 10,
+      "baselinePaints": 13,
+      "paints": 15,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 12,
+        "fill": 2,
+        "restore": 2,
+        "beginPath": 1,
+        "moveTo": 1,
+        "lineTo": 1,
+        "stroke": 1
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 12,
+        "beginPath": 3,
+        "moveTo": 3,
+        "lineTo": 14,
+        "closePath": 2,
+        "fill": 2,
+        "restore": 2,
+        "stroke": 1
+      }
+    },
+    {
+      "type": "power",
+      "team": 0,
+      "baselineCached": 14,
+      "cached": 20,
+      "cachedDelta": 6,
+      "baselineDirect": 41,
+      "direct": 47,
+      "directDelta": 6,
+      "baselinePaints": 11,
+      "paints": 14,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 8,
+        "fill": 6,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 8,
+        "beginPath": 6,
+        "moveTo": 2,
+        "lineTo": 13,
+        "closePath": 2,
+        "fill": 6,
+        "arc": 4,
+        "restore": 2
+      }
+    },
+    {
+      "type": "power",
+      "team": 1,
+      "baselineCached": 14,
+      "cached": 19,
+      "cachedDelta": 5,
+      "baselineDirect": 41,
+      "direct": 51,
+      "directDelta": 10,
+      "baselinePaints": 11,
+      "paints": 13,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 6,
+        "fill": 7,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 6,
+        "beginPath": 7,
+        "moveTo": 3,
+        "lineTo": 15,
+        "closePath": 3,
+        "fill": 7,
+        "arc": 4,
+        "restore": 2
+      }
+    },
+    {
+      "type": "refinery",
+      "team": 0,
+      "baselineCached": 14,
+      "cached": 20,
+      "cachedDelta": 6,
+      "baselineDirect": 46,
+      "direct": 52,
+      "directDelta": 6,
+      "baselinePaints": 11,
+      "paints": 14,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 8,
+        "fill": 6,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 8,
+        "beginPath": 6,
+        "moveTo": 3,
+        "lineTo": 17,
+        "closePath": 3,
+        "fill": 6,
+        "arc": 3,
+        "restore": 2
+      }
+    },
+    {
+      "type": "refinery",
+      "team": 1,
+      "baselineCached": 14,
+      "cached": 19,
+      "cachedDelta": 5,
+      "baselineDirect": 46,
+      "direct": 56,
+      "directDelta": 10,
+      "baselinePaints": 11,
+      "paints": 13,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 6,
+        "fill": 7,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 6,
+        "beginPath": 7,
+        "moveTo": 4,
+        "lineTo": 19,
+        "closePath": 4,
+        "fill": 7,
+        "arc": 3,
+        "restore": 2
+      }
+    },
+    {
+      "type": "factory",
+      "team": 0,
+      "baselineCached": 14,
+      "cached": 20,
+      "cachedDelta": 6,
+      "baselineDirect": 36,
+      "direct": 42,
+      "directDelta": 6,
+      "baselinePaints": 11,
+      "paints": 14,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 12,
+        "fill": 2,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 12,
+        "beginPath": 2,
+        "moveTo": 2,
+        "lineTo": 16,
+        "closePath": 2,
+        "fill": 2,
+        "restore": 2
+      }
+    },
+    {
+      "type": "factory",
+      "team": 1,
+      "baselineCached": 14,
+      "cached": 19,
+      "cachedDelta": 5,
+      "baselineDirect": 36,
+      "direct": 46,
+      "directDelta": 10,
+      "baselinePaints": 11,
+      "paints": 13,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 10,
+        "fill": 3,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 10,
+        "beginPath": 3,
+        "moveTo": 3,
+        "lineTo": 18,
+        "closePath": 3,
+        "fill": 3,
+        "restore": 2
+      }
+    },
+    {
+      "type": "turret",
+      "team": 0,
+      "baselineCached": 15,
+      "cached": 15,
+      "cachedDelta": 0,
+      "baselineDirect": 39,
+      "direct": 39,
+      "directDelta": 0,
+      "baselinePaints": 9,
+      "paints": 9,
+      "cachedMethods": {
+        "save": 1,
+        "translate": 1,
+        "fillRect": 4,
+        "fill": 5,
+        "rotate": 1,
+        "beginPath": 1,
+        "arc": 1,
+        "restore": 1
+      },
+      "directMethods": {
+        "save": 1,
+        "translate": 1,
+        "fillRect": 4,
+        "beginPath": 5,
+        "moveTo": 2,
+        "lineTo": 14,
+        "closePath": 2,
+        "fill": 5,
+        "arc": 3,
+        "rotate": 1,
+        "restore": 1
+      }
+    },
+    {
+      "type": "turret",
+      "team": 1,
+      "baselineCached": 15,
+      "cached": 15,
+      "cachedDelta": 0,
+      "baselineDirect": 39,
+      "direct": 39,
+      "directDelta": 0,
+      "baselinePaints": 9,
+      "paints": 9,
+      "cachedMethods": {
+        "save": 1,
+        "translate": 1,
+        "fillRect": 4,
+        "fill": 5,
+        "rotate": 1,
+        "beginPath": 1,
+        "arc": 1,
+        "restore": 1
+      },
+      "directMethods": {
+        "save": 1,
+        "translate": 1,
+        "fillRect": 4,
+        "beginPath": 5,
+        "moveTo": 2,
+        "lineTo": 14,
+        "closePath": 2,
+        "fill": 5,
+        "arc": 3,
+        "rotate": 1,
+        "restore": 1
+      }
+    }
+  ],
+  "cacheCost": {
+    "baseline": {
+      "constructors": 19,
+      "pathMethods": 100
+    },
+    "prototype": {
+      "constructors": 20,
+      "pathMethods": 104
+    },
+    "delta": {
+      "constructors": 1,
+      "pathMethods": 4
+    }
+  },
+  "failures": 10,
+  "frames": 16,
+  "parity": [
+    {
+      "map": "classic",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "frontier",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "canyon",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "ridge",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "crossroads",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "switchback",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "ring",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "meridian",
+      "seconds": 90,
+      "passed": true
+    }
+  ]
+}

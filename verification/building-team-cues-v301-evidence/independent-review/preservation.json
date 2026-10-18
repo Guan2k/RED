@@ -1,0 +1,18 @@
+{
+  "exactRestoration": true,
+  "prototypeTwoSourcesIdentical": true,
+  "baseFiles": 1789,
+  "missing": [],
+  "changed": [
+    "RELEASE_NOTES.md",
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "index.html",
+    "CURRENT_PLAYER_GUIDE.md",
+    "QA_STATUS.md",
+    "README.md",
+    "source-build-receipt.json",
+    "src/index.template.html",
+    "src/script/03-renderer.jsfrag",
+    "src/art/buildings.mjs"
+  ]
+}

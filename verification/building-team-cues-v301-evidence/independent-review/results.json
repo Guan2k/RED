@@ -1,0 +1,148 @@
+{
+  "sha": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "passed": 255,
+  "failed": 0,
+  "costs": [
+    {
+      "type": "hq",
+      "team": 0,
+      "cached": false,
+      "baseline": 33,
+      "candidate": 39
+    },
+    {
+      "type": "hq",
+      "team": 1,
+      "cached": false,
+      "baseline": 33,
+      "candidate": 43
+    },
+    {
+      "type": "power",
+      "team": 0,
+      "cached": false,
+      "baseline": 41,
+      "candidate": 47
+    },
+    {
+      "type": "power",
+      "team": 1,
+      "cached": false,
+      "baseline": 41,
+      "candidate": 51
+    },
+    {
+      "type": "refinery",
+      "team": 0,
+      "cached": false,
+      "baseline": 46,
+      "candidate": 52
+    },
+    {
+      "type": "refinery",
+      "team": 1,
+      "cached": false,
+      "baseline": 46,
+      "candidate": 56
+    },
+    {
+      "type": "factory",
+      "team": 0,
+      "cached": false,
+      "baseline": 36,
+      "candidate": 42
+    },
+    {
+      "type": "factory",
+      "team": 1,
+      "cached": false,
+      "baseline": 36,
+      "candidate": 46
+    },
+    {
+      "type": "turret",
+      "team": 0,
+      "cached": false,
+      "baseline": 39,
+      "candidate": 39
+    },
+    {
+      "type": "turret",
+      "team": 1,
+      "cached": false,
+      "baseline": 39,
+      "candidate": 39
+    },
+    {
+      "type": "hq",
+      "team": 0,
+      "cached": true,
+      "baseline": 19,
+      "candidate": 25
+    },
+    {
+      "type": "hq",
+      "team": 1,
+      "cached": true,
+      "baseline": 19,
+      "candidate": 24
+    },
+    {
+      "type": "power",
+      "team": 0,
+      "cached": true,
+      "baseline": 14,
+      "candidate": 20
+    },
+    {
+      "type": "power",
+      "team": 1,
+      "cached": true,
+      "baseline": 14,
+      "candidate": 19
+    },
+    {
+      "type": "refinery",
+      "team": 0,
+      "cached": true,
+      "baseline": 14,
+      "candidate": 20
+    },
+    {
+      "type": "refinery",
+      "team": 1,
+      "cached": true,
+      "baseline": 14,
+      "candidate": 19
+    },
+    {
+      "type": "factory",
+      "team": 0,
+      "cached": true,
+      "baseline": 14,
+      "candidate": 20
+    },
+    {
+      "type": "factory",
+      "team": 1,
+      "cached": true,
+      "baseline": 14,
+      "candidate": 19
+    },
+    {
+      "type": "turret",
+      "team": 0,
+      "cached": true,
+      "baseline": 15,
+      "candidate": 15
+    },
+    {
+      "type": "turret",
+      "team": 1,
+      "cached": true,
+      "baseline": 15,
+      "candidate": 15
+    }
+  ],
+  "scope": "Independent recorder tests; current path excluded from save/restore. All called draw methods including measureText counted. Consecutive full frames OFF/ON/OFF/ON carry path residue; no persistence/native renderer."
+}

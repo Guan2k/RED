@@ -18,7 +18,8 @@ const buildingArtGeometry=Object.freeze([
   Object.freeze(["poly",Object.freeze([-22.0,-12.0,-12.0,-22.0,12.0,-22.0,22.0,-12.0,22.0,12.0,12.0,22.0,-12.0,22.0,-22.0,12.0])]),
   Object.freeze(["poly",Object.freeze([-19.0,-10.0,-10.0,-19.0,10.0,-19.0,19.0,-10.0,19.0,10.0,10.0,19.0,-10.0,19.0,-19.0,10.0])]),
   Object.freeze(["circle",Object.freeze([0.0,0.0,15.0])]),
-  Object.freeze(["circle",Object.freeze([0.0,0.0,12.0])])
+  Object.freeze(["circle",Object.freeze([0.0,0.0,12.0])]),
+  Object.freeze(["poly",Object.freeze([0,0,6,2,0,4])])
 ]);
 const buildingArtRecipes=Object.freeze({
   hq:Object.freeze([Object.freeze(["path",0,"#263a30","#44322d"]),Object.freeze(["rect",Object.freeze([-38.0,-16.0,76.0,39.0]),"#75977c","#a66755"]),Object.freeze(["rect",Object.freeze([-26.0,-33.0,52.0,53.0]),"#566a59","#8b5d4f"]),Object.freeze(["rect",Object.freeze([-23.0,-30.0,46.0,4.0]),"#84917a","#b58d73"]),Object.freeze(["rect",Object.freeze([-20.0,-19.0,40.0,30.0]),"#263a30","#44322d"]),Object.freeze(["rect",Object.freeze([-17.0,-15.0,34.0,6.0]),"#9ab9a5","#9ab9a5"]),Object.freeze(["rect",Object.freeze([-8.0,12.0,16.0,24.0]),"#566a59","#8b5d4f"]),Object.freeze(["rect",Object.freeze([-8.0,12.0,16.0,3.0]),"#84917a","#b58d73"]),Object.freeze(["rect",Object.freeze([-34.0,-9.0,7.0,17.0]),"#a4b49a","#c19c86"]),Object.freeze(["rect",Object.freeze([27.0,-9.0,7.0,17.0]),"#a4b49a","#c19c86"])]),

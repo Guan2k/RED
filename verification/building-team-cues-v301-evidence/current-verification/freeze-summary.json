@@ -1,0 +1,11 @@
+{
+  "sourceSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "runnerSha256": "6629e5303485e3e52366b366bbcd2e0d294d8b56d1c418d3946b3bb01bd663c1",
+  "helperSha256": "b962d7183c26b14e4206b8353d67498a4f9213b8d86b960105db18022c861eb4",
+  "historicalVerificationFilesUnchanged": 1439,
+  "newVerificationScriptsSyntaxChecked": 65,
+  "aggregateExecuted": false,
+  "renderSelection": "source/|adapter/|lifecycle/|building-dynamics/|building-failure/|cached-render/full-frame-all-units",
+  "focusedEntryCount": 73,
+  "syntheticStableEntryChecks": 165
+}

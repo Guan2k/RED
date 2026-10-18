@@ -17,11 +17,25 @@ function buildingArtTrace(target,shape){let [kind,p]=shape;if(kind==='circle'){t
 let buildingArtPathCache;
 function initializeBuildingArtPaths(){if(buildingArtPathCache!==undefined)return;buildingArtPathCache=(()=>{if(typeof Path2D!=='function')return null;try{return Object.freeze(buildingArtGeometry.map(shape=>{let path=new Path2D();buildingArtTrace(path,shape);return path}))}catch{return null}})()}
 function drawBuildingStaticBody(type,team){for(let item of buildingArtRecipes[type]){ctx.fillStyle=item[team?3:2];if(item[0]==='rect'){let p=item[1];ctx.fillRect(p[0],p[1],p[2],p[3]);continue}let index=item[1],path=buildingArtPathCache?.[index];if(path){try{ctx.fill(path);continue}catch{buildingArtPathCache=null}}ctx.beginPath();buildingArtTrace(ctx,buildingArtGeometry[index]);ctx.fill()}}
+// Shared canonical team triangle; fixed placements only on four larger building bodies.
+const buildingTeamCueOrigins=Object.freeze({hq:Object.freeze([-18,-5]),power:Object.freeze([-17,9]),refinery:Object.freeze([-22,9]),factory:Object.freeze([19,1])});
+function drawBuildingTeamCue(type,team){
+  if(!Object.hasOwn(buildingTeamCueOrigins,type))return;
+  let p=buildingTeamCueOrigins[type];ctx.save();ctx.translate(p[0],p[1]);
+  rect(-1,-1,8,6,'#14201b');
+  if(team){
+    ctx.fillStyle='#e7d9b4';let path=buildingArtPathCache?.[19],painted=false;
+    if(path){try{ctx.fill(path);painted=true}catch{buildingArtPathCache=null}}
+    if(!painted){ctx.beginPath();buildingArtTrace(ctx,buildingArtGeometry[19]);ctx.fill()}
+  }else{rect(0,0,6,1.5,'#e7d9b4');rect(0,2.5,6,1.5,'#e7d9b4')}
+  ctx.restore()
+}
 function drawBuildingPreview(e){
   if(!Object.hasOwn(buildingArtCanonicalRadius,e.type)||e.r!==buildingArtCanonicalRadius[e.type])return drawBuilding(e);
   let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);
   rect(-r+5,-r+9,r*2,r*2,'#16231c80');ctx.strokeStyle=color;ctx.lineWidth=3;
   drawBuildingStaticBody(e.type,e.team);
+  drawBuildingTeamCue(e.type,e.team);
   if(e.type==='hq'){ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}
   if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}
   if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "relocatedBuilderByteIdentical": true,
+  "sourceInputsMatchFrozenRelease": true,
+  "frozenInputs": {
+    "index.html": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+    "README.md": "3930d6eae2d22f55e6492bd17292a8bbd41df20442d1657ca66c6b6b4b05019c",
+    "CURRENT_PLAYER_GUIDE.md": "6acf754177911bfade73a7be867681a498622408ef3b9df8e107b96b48dc7eba"
+  },
+  "currentPathCountsAndUnmarkedTurretCaveatVerified": true,
+  "preliminaryBuildStatus": "Superseded pending-history-review build preserved locally; not delivered. Final source history and chapter-7 review incorporated; all tests rerun.",
+  "archiveSha256": "dd928554c289c8de80a37f373ebfe42b6acbb196e6816a545837c951d3a44099",
+  "archiveBytes": 537055,
+  "files": [
+    "RED-v0.301-player/CURRENT_PLAYER_GUIDE.md",
+    "RED-v0.301-player/README.md",
+    "RED-v0.301-player/SHA256SUMS.txt",
+    "RED-v0.301-player/index.html"
+  ]
+}
