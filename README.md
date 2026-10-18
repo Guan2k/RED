@@ -1,4 +1,4 @@
-# RED v0.289：赤色前线
+# RED v0.290：赤色前线
 
 可离线运行的原创单文件即时战略游戏。
 
@@ -18,6 +18,10 @@
 - Esc 取消待建造或待点选操作。
 
 输入框、下拉框和输入法组字期间不触发游戏快捷键；按钮聚焦时空格／Enter用于激活按钮。详细操作见[选择、编队与地图命令](CURRENT_PLAYER_GUIDE.md#3-选择编队与地图命令)，开局与重开见[开局说明](CURRENT_PLAYER_GUIDE.md#1-开局暂停与重新部署)。
+
+## 编队空选保护
+
+Ctrl／⌘＋1–3 或 Ctrl＋点击编队按钮时，若没有选中存活己方车辆，会保留原编队并显示原因。只有建筑、敌方、已毁车辆或空选择都不会清空编队。有效保存仍替换该组；矿车、维修车仍可入组，召回与暂停规则不变。
 
 ## 可选开局练习
 
@@ -39,9 +43,9 @@
 
 - [当前玩家指南](CURRENT_PLAYER_GUIDE.md)：完整操作与规则；[建造、订单与出厂](CURRENT_PLAYER_GUIDE.md#5-建造订单与出厂)
 - [完整版本历史](RELEASE_NOTES.md)：含旧验证、失败与修复记录，历史命令不作为当前默认入口
-- [当前练习验证范围](verification/OPENING_PRACTICE_V289.md)
-- [当前两族参数化测试说明](verification/parameterized-pilot/README_V289.md)：维护者入口，当前与历史配置分列
-- [文档迁移说明](README_MIGRATION_V289.md)：本次仅整理文档，游戏仍为v0.289
+- [历史 v289 练习验证范围](verification/OPENING_PRACTICE_V289.md)
+- [历史 v289 两族参数化测试说明](verification/parameterized-pilot/README_V289.md)：旧版维护者入口
+- [文档迁移说明](README_MIGRATION_V289.md)：历史文档整理记录
 
 ## 当前测试与限制
 
@@ -53,7 +57,7 @@ node verify-current.cjs
 ```
 <!-- /current-verification-default -->
 
-本版底层实际命令为 `node verification/run-tests-v289.cjs`，对应[本版聚合脚本](verification/run-tests-v289.cjs)；稳定入口先核完整性，再把已核文件复制到私有临时目录执行它；原包只读，不额外开启历史或长局选项。
+本版底层实际命令为 `node verification/run-tests-v290.cjs`，对应[本版聚合脚本](verification/run-tests-v290.cjs)；稳定入口先核完整性，再把已核文件复制到私有临时目录执行它；原包只读，不额外开启历史或长局选项。
 
 只检查包内声明与文件完整性、不执行游戏验证：
 
@@ -63,7 +67,7 @@ node verify-current.cjs --check-only
 
 入口只接受无参数或一次--check-only。它离线验证本包声明版本、源与精确脚本及清单一致，不能证明远端最新或发布者真实性；需从可信发布物取得文件，并核对外部公布的包哈希。详见[稳定入口说明](CURRENT_VERIFICATION_ENTRY.md)。
 
-历史脚本和结果仍保留，但不应把旧命令或累计总数当作当前覆盖。此前README整理未重跑游戏测试；本轮稳定入口的独立门禁及一次默认聚合结果见[入口说明](CURRENT_VERIFICATION_ENTRY.md)。现有v289结果与验证边界见上述专项说明及[玩家指南限制](CURRENT_PLAYER_GUIDE.md#7-必要限制与验证范围)。验证主要使用Node全源码VM／模拟DOM，不能据此宣称原生浏览器布局、输入法、读屏或窄屏体验已验收。
+本轮 v290 编队保护、当前聚合及隔离入口的范围见[验证状态](QA_STATUS.md)和[专项说明](verification/GROUP_PROTECTION_V290.md)。历史脚本和结果保留，不作为当前实跑；旧 v289 玩家包构建工具/配置保留为历史，未重建 v290 精简玩家ZIP。验证使用 Node 全源码 VM／模拟 DOM，不能据此宣称原生浏览器布局、输入法、读屏或窄屏体验已验收。本轮不执行存档、载入、导入、导出或存储操作。
 
 [SHA-256清单](SHA256SUMS.txt)用于核对包内文件完整性；系统已有sha256sum时可运行：
 

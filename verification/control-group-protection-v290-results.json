@@ -1,0 +1,385 @@
+{
+  "passed": 94,
+  "failed": 0,
+  "assertions": 384,
+  "sourceSha256": "85c7c33f0ae8022294c6392df37b52525cd97367dd9aaad82475c4825a3ac8e3",
+  "results": [
+    {
+      "name": "ctrl group 1 rejects empty",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 1 rejects building",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 1 rejects enemy",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 1 rejects dead",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 1 rejects negative hp",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 1 rejects stale id",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 2 rejects empty",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 2 rejects building",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 2 rejects enemy",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 2 rejects dead",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 2 rejects negative hp",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 2 rejects stale id",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 3 rejects empty",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 3 rejects building",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 3 rejects enemy",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 3 rejects dead",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 3 rejects negative hp",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 3 rejects stale id",
+      "passed": true
+    },
+    {
+      "name": "meta group 1 rejects empty",
+      "passed": true
+    },
+    {
+      "name": "meta group 1 rejects building",
+      "passed": true
+    },
+    {
+      "name": "meta group 1 rejects enemy",
+      "passed": true
+    },
+    {
+      "name": "meta group 1 rejects dead",
+      "passed": true
+    },
+    {
+      "name": "meta group 1 rejects negative hp",
+      "passed": true
+    },
+    {
+      "name": "meta group 1 rejects stale id",
+      "passed": true
+    },
+    {
+      "name": "meta group 2 rejects empty",
+      "passed": true
+    },
+    {
+      "name": "meta group 2 rejects building",
+      "passed": true
+    },
+    {
+      "name": "meta group 2 rejects enemy",
+      "passed": true
+    },
+    {
+      "name": "meta group 2 rejects dead",
+      "passed": true
+    },
+    {
+      "name": "meta group 2 rejects negative hp",
+      "passed": true
+    },
+    {
+      "name": "meta group 2 rejects stale id",
+      "passed": true
+    },
+    {
+      "name": "meta group 3 rejects empty",
+      "passed": true
+    },
+    {
+      "name": "meta group 3 rejects building",
+      "passed": true
+    },
+    {
+      "name": "meta group 3 rejects enemy",
+      "passed": true
+    },
+    {
+      "name": "meta group 3 rejects dead",
+      "passed": true
+    },
+    {
+      "name": "meta group 3 rejects negative hp",
+      "passed": true
+    },
+    {
+      "name": "meta group 3 rejects stale id",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 1 rejects empty",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 1 rejects building",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 1 rejects enemy",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 1 rejects dead",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 1 rejects negative hp",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 1 rejects stale id",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 2 rejects empty",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 2 rejects building",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 2 rejects enemy",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 2 rejects dead",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 2 rejects negative hp",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 2 rejects stale id",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 3 rejects empty",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 3 rejects building",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 3 rejects enemy",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 3 rejects dead",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 3 rejects negative hp",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 3 rejects stale id",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 1 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 2 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "ctrl group 3 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "meta group 1 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "meta group 2 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "meta group 3 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 1 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 2 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "ctrl-click group 3 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "button group 1 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "button group 2 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "button group 3 replaces with live mobile friendly only",
+      "passed": true
+    },
+    {
+      "name": "repair vehicle is eligible and epsilon hp is live",
+      "passed": true
+    },
+    {
+      "name": "empty untouched group remains empty with explanatory feedback",
+      "passed": true
+    },
+    {
+      "name": "prestart blocks ctrl",
+      "passed": true
+    },
+    {
+      "name": "prestart blocks meta",
+      "passed": true
+    },
+    {
+      "name": "prestart blocks ctrl-click",
+      "passed": true
+    },
+    {
+      "name": "prestart blocks button",
+      "passed": true
+    },
+    {
+      "name": "restart blocks ctrl",
+      "passed": true
+    },
+    {
+      "name": "restart blocks meta",
+      "passed": true
+    },
+    {
+      "name": "restart blocks ctrl-click",
+      "passed": true
+    },
+    {
+      "name": "restart blocks button",
+      "passed": true
+    },
+    {
+      "name": "terminal blocks ctrl",
+      "passed": true
+    },
+    {
+      "name": "terminal blocks meta",
+      "passed": true
+    },
+    {
+      "name": "terminal blocks ctrl-click",
+      "passed": true
+    },
+    {
+      "name": "terminal blocks button",
+      "passed": true
+    },
+    {
+      "name": "paused ctrl save and recall",
+      "passed": true
+    },
+    {
+      "name": "paused meta save and recall",
+      "passed": true
+    },
+    {
+      "name": "paused ctrl-click save and recall",
+      "passed": true
+    },
+    {
+      "name": "paused button save and recall",
+      "passed": true
+    },
+    {
+      "name": "keyboard boundary input",
+      "passed": true
+    },
+    {
+      "name": "keyboard boundary select",
+      "passed": true
+    },
+    {
+      "name": "keyboard boundary composition",
+      "passed": true
+    },
+    {
+      "name": "keyboard boundary IME229",
+      "passed": true
+    },
+    {
+      "name": "keyboard boundary alt",
+      "passed": true
+    },
+    {
+      "name": "keyboard boundary editable",
+      "passed": true
+    },
+    {
+      "name": "repeat rejects empty without losing group; later valid repeated save stays supported",
+      "passed": true
+    },
+    {
+      "name": "disabled visible save and stale onclick remain no-op",
+      "passed": true
+    },
+    {
+      "name": "recall survivors and cancellation semantics unchanged",
+      "passed": true
+    },
+    {
+      "name": "natural map selection and actual key click routing preserve saved tanks",
+      "passed": true
+    }
+  ],
+  "scope": "Whole-source VM/mock-DOM registered key and click handlers. Natural map selection chain plus explicitly synthetic dead/enemy/stale-ID/lifecycle boundaries. No save/load/import/export/storage actions or native browser acceptance."
+}

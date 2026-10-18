@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "candidate": {
+    "path": "../../index.html",
+    "sha256": "85c7c33f0ae8022294c6392df37b52525cd97367dd9aaad82475c4825a3ac8e3"
+  },
+  "references": {
+    "v283": {
+      "path": "reference-v283.html",
+      "sha256": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+    },
+    "v285": {
+      "path": "reference-v285.html",
+      "sha256": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+    },
+    "v286": {
+      "path": "reference-v286.html",
+      "sha256": "a96f5586369f9d46ac0c27b1645b25c44f5bd777373b9bf6f568ce1473e4b204"
+    },
+    "v287": {
+      "path": "reference-v287.html",
+      "sha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f"
+    },
+    "v288": {
+      "path": "reference-v288.html",
+      "sha256": "c67df10f2988f10d2949a5016d5dd453c1714471ff860b9d3f601e31c430ae20"
+    }
+  },
+  "changeFence": {
+    "previous": "v288",
+    "changes": [
+      {
+        "before": "v0.288",
+        "after": "v0.289"
+      },
+      {
+        "before": "<details id=\"unitReference\"",
+        "after": "<details id=\"openingPractice\" class=\"controls-help\" aria-describedby=\"openingPracticeNote\"><summary id=\"openingPracticeSummary\">可选开局练习 · 0/3</summary><p id=\"openingPracticeNote\" class=\"hint\">可选练习，不改变本局胜利条件；敌军仍会行动，阅读时可自行暂停。仅按本局已有累计记录显示，旧记录缺省按0，不回推；循环生产也计入，载入已有记录可显示已完成。折叠偏好不写入存档。</p><p id=\"openingPracticeHarvest\" class=\"hint\" aria-live=\"off\"></p><p id=\"openingPracticeProduction\" class=\"hint\" aria-live=\"off\"></p><p id=\"openingPracticeCapture\" class=\"hint\" aria-live=\"off\"></p><p id=\"openingPracticeStatus\" class=\"hint\" aria-live=\"off\"></p></details><details id=\"unitReference\""
+      },
+      {
+        "before": "function strategyAdvice(){",
+        "after": "function openingPracticeProgress(){return [['harvested',180],['produced',1],['captures',1]].map(([key,limit])=>{const value=state.stats?.[key]?.[0];return Math.min(limit,Math.max(0,Number.isFinite(value)?Math.floor(value):0))})}\nfunction updateOpeningPractice(){const [harvested,produced,captures]=openingPracticeProgress(),done=Number(harvested>=180)+Number(produced>=1)+Number(captures>=1);setReadonlyPanelProperty($('openingPracticeSummary'),'textContent','可选开局练习 · '+done+'/3');setReadonlyPanelProperty($('openingPracticeHarvest'),'textContent',(harvested>=180?'已完成：':'待完成：')+'累计实际交回矿石 '+harvested+'/180。开局矿车会自动工作；需要时可选矿车提前返厂，载货未交不计。');setReadonlyPanelProperty($('openingPracticeProduction'),'textContent',(produced>=1?'已完成：':'待完成：')+'实际生产增援 '+produced+'/1。用生产卡正常付费下单；排队未出厂不计，循环生产也计入。缺电或出口拥堵按现有提示处理。');setReadonlyPanelProperty($('openingPracticeCapture'),'textContent',(captures>=1?'已完成：':'待完成：')+'本局曾占领据点 '+captures+'/1。可单选侦察车移到中立旗帜附近，停留完成占领；保留坦克守家。之后失去据点仍记为曾完成。');setReadonlyPanelProperty($('openingPracticeStatus'),'textContent',!state.started?'尚未开战；开始后按本局累计记录显示进度。':state.result?'战局已结束；以上为本局累计记录。':done===3?'开局练习已完成，继续按本局胜利条件作战。':'按自己的节奏完成练习，仍以本局胜利条件为目标。')}\nfunction strategyAdvice(){"
+      },
+      {
+        "before": "function updateUI(){updateCoordinateCommandControl();",
+        "after": "function updateUI(){updateOpeningPractice();updateCoordinateCommandControl();"
+      },
+      {
+        "before": "v0.289",
+        "after": "v0.290"
+      },
+      {
+        "before": "// Visible saves gate empty selection; legacy save and recall semantics stay unchanged.",
+        "after": "// All save routes preserve an existing group when no live friendly vehicle is selected; recall stays unchanged."
+      },
+      {
+        "before": "if(save){groups[i]=state.entities.filter(e=>selection.has(e.id)&&e.team===0&&defs[e.type].speed).map(e=>e.id);tell",
+        "after": "if(save){let ids=state.entities.filter(e=>selection.has(e.id)&&e.team===0&&e.hp>0&&defs[e.type].speed).map(e=>e.id);if(!ids.length){tell('未保存编队 '+(i+1)+'：请先选择存活的己方车辆；原编队保留');return}groups[i]=ids;tell"
+      }
+    ]
+  },
+  "suites": {
+    "order-display-writes": {
+      "module": "order-display-writes.cjs",
+      "reference": "v283",
+      "passed": 8,
+      "assertions": 229,
+      "historical": {
+        "path": "../order-display-writes-v287.cjs",
+        "sha256": "5813537908ef09e1cc8cad72754adc7d6eb8b2e734bdade66fbe99e05f34ed21"
+      },
+      "scenarios": [
+        "stable paid eight scout orders measured against v283",
+        "countdown refund pause priority cancel and factory updates",
+        "real local loop title and cancellation suffix",
+        "real global loop title and cancellation suffix",
+        "synthetic display branch terminal",
+        "synthetic display branch power shortage",
+        "synthetic display branch blocked exit",
+        "synthetic presentation damage repaired on same nodes"
+      ],
+      "sha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be"
+    },
+    "selection-filter-writes": {
+      "module": "selection-filter-writes.cjs",
+      "reference": "v285",
+      "passed": 7,
+      "assertions": 110,
+      "historical": {
+        "path": "../selection-filter-writes-v287.cjs",
+        "sha256": "6a2a7d27db764baa695524728a97dda748cacfc2e76929432cce8e6a0fcb27f6"
+      },
+      "scenarios": [
+        "stable paused army filters 300 to zero and real selection transitions",
+        "legal natural combat damage updates and live filter action",
+        "legal lifecycle menu",
+        "legal lifecycle restart",
+        "legal lifecycle new battle",
+        "synthetic damaged health death and terminal live recomputation",
+        "synthetic presentation corruption repaired no gameplay change"
+      ],
+      "sha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364"
+    }
+  },
+  "integrity": {
+    "vm-environment-original": {
+      "path": "../vm-environment.cjs",
+      "sha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f"
+    },
+    "suite-context.cjs": {
+      "path": "suite-context.cjs",
+      "sha256": "b3311c93f9aed6b0fd7caa12f9e976d5454cb33c62bef19f10502897bf586938"
+    },
+    "vm-environment-provenance.cjs": {
+      "path": "vm-environment-provenance.cjs",
+      "sha256": "52e799ffe68512525ec1e4adb1d506bb602c747f8a12864ee495901a29686470"
+    },
+    "run-current-suites.cjs": {
+      "path": "run-current-suites.cjs",
+      "sha256": "718ca10aeda2c4e22632022ef8485b82bb083e1fbed0ca6a2320ecf2bfbf9cea"
+    }
+  },
+  "mutations": {
+    "path": "mutations.json",
+    "sha256": "f1e5f59ebae634fcb1f16ab1dfc850a76bf3d210e54677c2cd114444ca105d9d"
+  }
+}

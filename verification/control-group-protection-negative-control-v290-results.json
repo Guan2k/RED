@@ -1,0 +1,62 @@
+{
+  "passed": 11,
+  "failed": 0,
+  "results": [
+    {
+      "name": "remove empty protection",
+      "passed": true,
+      "detectedBy": "rejection preserves whole gameplay and pending state"
+    },
+    {
+      "name": "include dead vehicles",
+      "passed": true,
+      "detectedBy": "rejection preserves whole gameplay and pending state"
+    },
+    {
+      "name": "include enemy vehicles",
+      "passed": true,
+      "detectedBy": "rejection preserves whole gameplay and pending state"
+    },
+    {
+      "name": "include buildings",
+      "passed": true,
+      "detectedBy": "rejection preserves whole gameplay and pending state"
+    },
+    {
+      "name": "append instead of replace",
+      "passed": true,
+      "detectedBy": "same live friendly eligibility includes harvester and scout in entity order"
+    },
+    {
+      "name": "wrong group slot",
+      "passed": true,
+      "detectedBy": "same live friendly eligibility includes harvester and scout in entity order"
+    },
+    {
+      "name": "erase unrelated group",
+      "passed": true,
+      "detectedBy": "other groups untouched"
+    },
+    {
+      "name": "silent rejection",
+      "passed": true,
+      "detectedBy": "specific rejection feedback"
+    },
+    {
+      "name": "clear selection on rejection",
+      "passed": true,
+      "detectedBy": "rejection preserves whole gameplay and pending state"
+    },
+    {
+      "name": "discard harvesters",
+      "passed": true,
+      "detectedBy": "same live friendly eligibility includes harvester and scout in entity order"
+    },
+    {
+      "name": "exact v289 demonstrates intentional behavior change",
+      "passed": true,
+      "detectedBy": "rejection preserves whole gameplay and pending state"
+    }
+  ],
+  "scope": "Ten actual source mutations detected by named behavioral assertions plus exact v289 contrast. No hash, syntax, timeout or generic exception counted as behavioral detection."
+}

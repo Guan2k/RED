@@ -1,0 +1,14 @@
+[
+  {
+    "before": "v0.289",
+    "after": "v0.290"
+  },
+  {
+    "before": "// Visible saves gate empty selection; legacy save and recall semantics stay unchanged.",
+    "after": "// All save routes preserve an existing group when no live friendly vehicle is selected; recall stays unchanged."
+  },
+  {
+    "before": "if(save){groups[i]=state.entities.filter(e=>selection.has(e.id)&&e.team===0&&defs[e.type].speed).map(e=>e.id);tell",
+    "after": "if(save){let ids=state.entities.filter(e=>selection.has(e.id)&&e.team===0&&e.hp>0&&defs[e.type].speed).map(e=>e.id);if(!ids.length){tell('未保存编队 '+(i+1)+'：请先选择存活的己方车辆；原编队保留');return}groups[i]=ids;tell"
+  }
+]
