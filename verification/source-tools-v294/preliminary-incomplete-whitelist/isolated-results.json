@@ -1,0 +1,14 @@
+{
+  "command": "node verify-development.cjs",
+  "startedAt": "2026-10-18T05:37:17.708713+00:00",
+  "finishedAt": "2026-10-18T05:37:19.248098+00:00",
+  "exitCode": 1,
+  "stderr": "node:fs:622\n  return binding.open(\n                 ^\n\nError: ENOENT: no such file or directory, open '/tmp/red-current-verification-LrvaqA/verification/release-v289-docs/SHA256SUMS.txt'\n    at Object.openSync (node:fs:622:18)\n    at Object.readFileSync (node:fs:488:35)\n    at Object.<anonymous> (/tmp/red-current-verification-LrvaqA/verification/run-tests-v294.cjs:6:136)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  errno: -2,\n  code: 'ENOENT',\n  syscall: 'open',\n  path: '/tmp/red-current-verification-LrvaqA/verification/release-v289-docs/SHA256SUMS.txt'\n}\n\nNode.js v24.19.0\nDeveloper preflight failed at unchanged canonical game verification (exit 1)\n",
+  "sourceSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "wrapperSha256": "f4688d2986aa1a5bc7cd95dca0420ca5f4bb57962fa9920e70501334dc77a2d4",
+  "builderSha256": "031e77a4cdfd79f2b28993e6916aecc961eb355f267b148e4992df2cd5728900",
+  "packageFilesChecked": 927,
+  "originalPackageUnchanged": true,
+  "isolatedSnapshotUnchanged": true,
+  "leftoverNewTemporaryDirectories": []
+}

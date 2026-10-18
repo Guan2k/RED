@@ -1,0 +1,159 @@
+{
+  "toolSha": "031e77a4cdfd79f2b28993e6916aecc961eb355f267b148e4992df2cd5728900",
+  "passed": 38,
+  "failed": 0,
+  "results": [
+    {
+      "name": "initial exact bytes and repeatability",
+      "pass": true
+    },
+    {
+      "name": "editable src/index.template.html",
+      "pass": true
+    },
+    {
+      "name": "editable src/styles.css",
+      "pass": true
+    },
+    {
+      "name": "editable src/script/01-bootstrap.jsfrag",
+      "pass": true
+    },
+    {
+      "name": "editable src/geometry.mjs",
+      "pass": true
+    },
+    {
+      "name": "editable src/script/02-gameplay.jsfrag",
+      "pass": true
+    },
+    {
+      "name": "editable src/script/03-renderer.jsfrag",
+      "pass": true
+    },
+    {
+      "name": "editable src/script/04-interface-runtime.jsfrag",
+      "pass": true
+    },
+    {
+      "name": "manual index preserved check",
+      "pass": true
+    },
+    {
+      "name": "manual index preserved writeGenerated",
+      "pass": true
+    },
+    {
+      "name": "manual index preserved recover",
+      "pass": true
+    },
+    {
+      "name": "receipt state absent",
+      "pass": true
+    },
+    {
+      "name": "receipt state invalid",
+      "pass": true
+    },
+    {
+      "name": "receipt state stale",
+      "pass": true
+    },
+    {
+      "name": "receipt state future-input-hash",
+      "pass": true
+    },
+    {
+      "name": "symlink refused src/styles.css",
+      "pass": true
+    },
+    {
+      "name": "symlink refused index.html",
+      "pass": true
+    },
+    {
+      "name": "symlink refused source-build-receipt.json",
+      "pass": true
+    },
+    {
+      "name": "symlink refused .source-build.lock",
+      "pass": true
+    },
+    {
+      "name": "directory symlink output and source refusal",
+      "pass": true
+    },
+    {
+      "name": "output exclusive and path guards",
+      "pass": true
+    },
+    {
+      "name": "stale lock is preserved",
+      "pass": true
+    },
+    {
+      "name": "args []",
+      "pass": true
+    },
+    {
+      "name": "args [\"--check\",\"x\"]",
+      "pass": true
+    },
+    {
+      "name": "args [\"--out\"]",
+      "pass": true
+    },
+    {
+      "name": "args [\"--out\",\"x\",\"y\"]",
+      "pass": true
+    },
+    {
+      "name": "args [\"--write-generated\",\"x\"]",
+      "pass": true
+    },
+    {
+      "name": "args [\"--recover-receipt\",\"x\"]",
+      "pass": true
+    },
+    {
+      "name": "args [\"--force\"]",
+      "pass": true
+    },
+    {
+      "name": "out reserves internal lock pathname",
+      "pass": true
+    },
+    {
+      "name": "new tools output is exclusive and permitted",
+      "pass": true
+    },
+    {
+      "name": "injected rename failure 1",
+      "pass": true
+    },
+    {
+      "name": "injected rename failure 2",
+      "pass": true
+    },
+    {
+      "name": "changed source cannot recover stale artifact",
+      "pass": true
+    },
+    {
+      "name": "HTML raw-text boundary script attr",
+      "pass": true
+    },
+    {
+      "name": "HTML raw-text boundary script slash",
+      "pass": true
+    },
+    {
+      "name": "HTML raw-text boundary style attr",
+      "pass": true
+    },
+    {
+      "name": "HTML raw-text boundary style slash",
+      "pass": true
+    }
+  ]
+}

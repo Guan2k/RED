@@ -1,0 +1,17 @@
+{
+  "base": "v294-package-tools/RED",
+  "baseFiles": 897,
+  "byteIdentical": 893,
+  "modifiedCurrentFiles": [
+    "RELEASE_NOTES.md",
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "SHA256SUMS.txt",
+    "QA_STATUS.md"
+  ],
+  "removed": [],
+  "sourceSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "READMEsha256": "fe253e63fdb0fdde80c70fba6455edaac2211627178b91a9dacfb1d9d2706c3a",
+  "guideSha256": "9b262e7ef29323b3ba176030ca0760b3deb9c8c3eb736e76c5518a7cde4df568",
+  "currentManifestSha256": "6602a6f30a07895376cc289d526815233e426355cea47649a6ffa4ef720c2df0",
+  "allPriorToolsAndTestsByteIdentical": true
+}
