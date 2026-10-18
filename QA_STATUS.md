@@ -22,3 +22,7 @@
 `node verify-current.cjs` 从2026-10-18T05:09:40.226945+00:00至2026-10-18T05:15:22.025542+00:00完成，退出0、stderr为空；原包871文件哈希全部不变，无新增遗留临时目录，随后check-only通过。完整聚合再次通过959行为/标记、10源码检查、15单列历史身份与63focused结果条目（59直接程序+4稳定系列结果）。最终使用强化后的精确绘制负控。所有测试程序冻结哈希见verification/frozen-tests-v294.json；完整执行前快照及结果见tools/stable-verification/default-isolated-v294-input-hashes.json及default-isolated-v294-results.json。此后只补QA/证据/清单，重跑入口工具与静态校验，游戏及测试逻辑不变。
 
 最终稳定入口工具167/167通过（工具/synthetic覆盖，不计游戏功能数）；补入结果后check-only及874条SHA清单全部通过。875个文件的最终包保留全部806个基础文件，新增69个，只有8个当前产品/文档/清单文件修改；历史verification、tools和experiments原字节全部保留。
+
+## 当前玩家包与绘制回放归档
+
+[当前v294玩家包构建说明](PLAYER_PACKAGE_BUILD_V294.md)提供版本化静态构建工具、26项指南检查、20项包拒绝案例及固定ZIP身份。[全战场绘制指令回放归档](experiments/render-proof-v294/README.md)保存同一明确合成VM场景的原外观／预览对比，来源绑定当前v294渲染器；不是原生截图，不包含侧栏或浏览器布局验收，没有FPS结论，也不承诺独立重建归档图像。这次仅增加文档、工具和既有图像证据，未改游戏、测试或玩家包绑定输入，未重新运行游戏；重算清单并执行check-only。

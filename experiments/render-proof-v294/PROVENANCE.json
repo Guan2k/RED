@@ -1,0 +1,73 @@
+{
+  "scope": "Archival copy only; no game, renderer, browser, storage or image-generation execution in this additive update.",
+  "sourceSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "committedHarness": "verification/render-preview-v294.cjs",
+  "committedHarnessSha256": "659243337f4d3dfb2cd67e7695f852d26cf684190cc33aa674973d9a2bdc8d62",
+  "originalGeneratorSha256": "2235b96ed03c58be7f4b492fc198b8338a60170df89a2d0fbd2422dcae223367",
+  "generatorIncluded": false,
+  "standaloneImageReproductionClaim": false,
+  "capturedWorldAndTracksHashesVerified": true,
+  "limits": "Actual full-render Canvas command replay from a synthetic VM scene. Not a native browser screenshot. VM/mock text measurements and SVG fonts are not native layout acceptance. Sidebar/display UI is excluded.",
+  "artifacts": [
+    {
+      "name": "captured-world.json",
+      "bytes": 12782,
+      "sha256": "129a3d4f2f5544b92d92f561181efaa0f0a6185f86dd6ea8f1dac3a488eeaa40",
+      "originalArtifact": "v294-render-proof/captured-world.json"
+    },
+    {
+      "name": "full-field-comparison.png",
+      "bytes": 267683,
+      "sha256": "3219bfab3b5e443a2675b3dd2080309a0d2a2a651c2a4e26abf1325efcaef8f0",
+      "originalArtifact": "v294-render-proof/full-field-comparison.png",
+      "dimensions": [
+        2472,
+        966
+      ]
+    },
+    {
+      "name": "full-field-comparison.svg",
+      "bytes": 122615,
+      "sha256": "aeabe68dc5e83cbe893761a6ccc184893abf1282afaa79d44b6a844aa7fa1915",
+      "originalArtifact": "v294-render-proof/full-field-comparison.svg"
+    },
+    {
+      "name": "legacy-full-frame.png",
+      "bytes": 148144,
+      "sha256": "7093fdf0a38ba27255b357e3f2f5739d58efcb1652f2e8362d8d82169d6e6c25",
+      "originalArtifact": "v294-render-proof/legacy-full-frame.png",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "name": "legacy-full-frame.svg",
+      "bytes": 57530,
+      "sha256": "8c3f8b955aaa8c69271b04c615a2c18197df0dd50890aa669b57bb8ce0d3617e",
+      "originalArtifact": "v294-render-proof/legacy-full-frame.svg"
+    },
+    {
+      "name": "preview-full-frame.png",
+      "bytes": 152148,
+      "sha256": "1b5e2d8620b3e9ff8b8c8a76b3dce52499468c2d13013d74266ba680c9c2516f",
+      "originalArtifact": "v294-render-proof/preview-full-frame.png",
+      "dimensions": [
+        1200,
+        800
+      ]
+    },
+    {
+      "name": "preview-full-frame.svg",
+      "bytes": 64347,
+      "sha256": "f2396188b4953890785cebb16fe9bd79f7f4e25a802b35d814840226c5aaede3",
+      "originalArtifact": "v294-render-proof/preview-full-frame.svg"
+    },
+    {
+      "name": "proof-metadata.json",
+      "bytes": 1942,
+      "sha256": "d1486bd6f97f5827f630b46bbda8f8649e13f97d1fd4c820c9a2215289d2b05e",
+      "originalArtifact": "v294-render-proof/proof-metadata.json"
+    }
+  ]
+}

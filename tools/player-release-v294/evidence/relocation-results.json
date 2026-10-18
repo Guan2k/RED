@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "relocatedBuilderByteIdentical": true,
+  "sourceInputsMatchFrozenRelease": true,
+  "archiveSha256": "a0132424e994f2f64580f60bfcda7d02bcb557ef86e8b4982483776285cbd41e",
+  "archiveBytes": 517178,
+  "files": [
+    "RED-v0.294-player/CURRENT_PLAYER_GUIDE.md",
+    "RED-v0.294-player/README.md",
+    "RED-v0.294-player/SHA256SUMS.txt",
+    "RED-v0.294-player/index.html"
+  ]
+}

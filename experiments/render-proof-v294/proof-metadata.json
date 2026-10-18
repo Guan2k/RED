@@ -1,0 +1,63 @@
+{
+  "sourceSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "positiveHarnessSha256": "659243337f4d3dfb2cd67e7695f852d26cf684190cc33aa674973d9a2bdc8d62",
+  "seed": 29401,
+  "map": "classic",
+  "time": 0,
+  "stateSha256": "96052918c40ac2f39332ba55f0d9f99d87f462987e9c9bbb76ca687983a162c5",
+  "trackStateSha256": "8f1ebd3076553f1266e93f7d2d28da567da4e24bc3713785e86a3bbe6e3f6834",
+  "capturedStateIdentical": true,
+  "trackStateIdentical": true,
+  "unsupportedOperations": 0,
+  "implicitCanvasBoundsClipped": true,
+  "paintCounts": {
+    "legacy": 351,
+    "preview": 400
+  },
+  "usedOperations": {
+    "fillRect": 530,
+    "fill": 79,
+    "rect": 528,
+    "stroke": 70,
+    "moveTo": 153,
+    "lineTo": 266,
+    "bezierCurveTo": 2,
+    "arc": 96,
+    "fillText": 40,
+    "strokeRect": 32,
+    "closePath": 29
+  },
+  "unitTypesByTeam": [
+    {
+      "team": 0,
+      "types": [
+        "tank",
+        "scout",
+        "artillery",
+        "harvester",
+        "repair"
+      ]
+    },
+    {
+      "team": 1,
+      "types": [
+        "tank",
+        "scout",
+        "artillery",
+        "repair",
+        "harvester"
+      ]
+    }
+  ],
+  "fixture": "Explicit synthetic rich scene; unit positions/angles/HP, selection, order data, buildings, queued production, shots and FX are seeded. Not a natural-playability claim.",
+  "captions": "Comparison header/footer are proof-added outside the exact 1200x800 recorded battlefield. Separate legacy/preview SVGs contain only recorded game paints.",
+  "limits": "Actual full-render Canvas command replay from a synthetic VM scene. Not a native browser screenshot. VM/mock text measurements and SVG fonts are not native layout acceptance. Sidebar/display UI is excluded.",
+  "files": [
+    "legacy-full-frame.svg",
+    "preview-full-frame.svg",
+    "full-field-comparison.svg",
+    "legacy-full-frame.png",
+    "preview-full-frame.png",
+    "full-field-comparison.png"
+  ]
+}
