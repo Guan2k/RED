@@ -1,0 +1,135 @@
+{
+  "passed": 32,
+  "failed": 0,
+  "scope": "Pure expected-paint adapter tested with independent synthetic paint records; no game or storage execution.",
+  "results": [
+    {
+      "name": "world/construction/only-y",
+      "pass": true
+    },
+    {
+      "name": "world/construction/clip",
+      "pass": true
+    },
+    {
+      "name": "world/construction/color",
+      "pass": true
+    },
+    {
+      "name": "world/construction/width",
+      "pass": true
+    },
+    {
+      "name": "world/construction/height",
+      "pass": true
+    },
+    {
+      "name": "world/construction/extra-anchor",
+      "pass": true
+    },
+    {
+      "name": "world/construction/duplicate-view",
+      "pass": true
+    },
+    {
+      "name": "world/construction/unrelated-retained",
+      "pass": true
+    },
+    {
+      "name": "world/factory/only-y",
+      "pass": true
+    },
+    {
+      "name": "world/factory/clip",
+      "pass": true
+    },
+    {
+      "name": "world/factory/color",
+      "pass": true
+    },
+    {
+      "name": "world/factory/width",
+      "pass": true
+    },
+    {
+      "name": "world/factory/height",
+      "pass": true
+    },
+    {
+      "name": "world/factory/extra-anchor",
+      "pass": true
+    },
+    {
+      "name": "world/factory/duplicate-view",
+      "pass": true
+    },
+    {
+      "name": "world/factory/unrelated-retained",
+      "pass": true
+    },
+    {
+      "name": "commands/construction/only-y",
+      "pass": true
+    },
+    {
+      "name": "commands/construction/clip",
+      "pass": true
+    },
+    {
+      "name": "commands/construction/color",
+      "pass": true
+    },
+    {
+      "name": "commands/construction/width",
+      "pass": true
+    },
+    {
+      "name": "commands/construction/height",
+      "pass": true
+    },
+    {
+      "name": "commands/construction/extra-anchor",
+      "pass": true
+    },
+    {
+      "name": "commands/construction/duplicate-view",
+      "pass": true
+    },
+    {
+      "name": "commands/construction/unrelated-retained",
+      "pass": true
+    },
+    {
+      "name": "commands/factory/only-y",
+      "pass": true
+    },
+    {
+      "name": "commands/factory/clip",
+      "pass": true
+    },
+    {
+      "name": "commands/factory/color",
+      "pass": true
+    },
+    {
+      "name": "commands/factory/width",
+      "pass": true
+    },
+    {
+      "name": "commands/factory/height",
+      "pass": true
+    },
+    {
+      "name": "commands/factory/extra-anchor",
+      "pass": true
+    },
+    {
+      "name": "commands/factory/duplicate-view",
+      "pass": true
+    },
+    {
+      "name": "commands/factory/unrelated-retained",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+✔ normal exact ordered stages, explicit cwd and no shell (1.74439ms)
+✔ check-only never launches canonical aggregate (0.230678ms)
+✔ reject arguments --write-generated (0.106681ms)
+✔ reject arguments --recover-receipt (0.078328ms)
+✔ reject arguments --check-only extra (0.116355ms)
+✔ reject arguments --legacy (0.069445ms)
+✔ reject arguments --long (0.07984ms)
+✔ reject arguments --help (0.088593ms)
+✔ fail fast stage 0 7 (0.302355ms)
+✔ fail fast stage 0 SIGTERM (0.205249ms)
+✔ fail fast stage 0 ENOENT (0.129215ms)
+✔ fail fast stage 0 null (0.103396ms)
+✔ fail fast stage 0 -1 (0.078438ms)
+✔ fail fast stage 0 spawn exception (0.091448ms)
+✔ fail fast stage 1 7 (0.051157ms)
+✔ fail fast stage 1 SIGTERM (0.041463ms)
+✔ fail fast stage 1 ENOENT (0.618172ms)
+✔ fail fast stage 1 null (0.062634ms)
+✔ fail fast stage 1 -1 (0.033991ms)
+✔ fail fast stage 1 spawn exception (0.034462ms)
+✔ fail fast stage 2 7 (0.028013ms)
+✔ fail fast stage 2 SIGTERM (0.038578ms)
+✔ fail fast stage 2 ENOENT (0.030306ms)
+✔ fail fast stage 2 null (0.025308ms)
+✔ fail fast stage 2 -1 (0.024457ms)
+✔ fail fast stage 2 spawn exception (0.02676ms)
+✔ fail fast stage 3 7 (0.031317ms)
+✔ fail fast stage 3 SIGTERM (0.059019ms)
+✔ fail fast stage 3 ENOENT (0.035413ms)
+✔ fail fast stage 3 null (0.030085ms)
+✔ fail fast stage 3 -1 (0.029745ms)
+✔ fail fast stage 3 spawn exception (0.033921ms)
+✔ real child chain none from unrelated cwd (334.43231ms)
+✔ real child chain integrity from unrelated cwd (118.664218ms)
+✔ real child chain source from unrelated cwd (173.589914ms)
+✔ real child chain builder from unrelated cwd (318.275892ms)
+✔ real child chain game from unrelated cwd (330.612915ms)
+✔ real builder source drift prevents builder tests and game (176.249521ms)
+✔ real builder artifact drift prevents builder tests and game (184.058128ms)
+✔ real builder receipt drift prevents builder tests and game (180.460283ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1909.78916

@@ -1,0 +1,25 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),{loadGame}=require('./vm-environment.cjs'),adapter=require('./inherit-dom-v296.cjs'),previous=require('./inherit-dom-v293.cjs');
+const source=path.join(__dirname,'../index.html'),results=[];let assertions=0;const eq=(a,b,m)=>{assert.deepEqual(a,b,m);assertions++},neq=(a,b,m)=>{assert.notDeepEqual(a,b,m);assertions++},test=(name,f)=>{f();results.push({name,passed:true})};
+const oldText='六项快速任务均有参考；按钮只填开局配置，建造、护矿与维修仍需自行操作。更改选项后请按实际条件调整；这些思路不保证获胜。机动作战不能新建己方炮塔。',newText=oldText.replace('六项','七项'),roots=['displayPreview'];
+const within=(e,p)=>{for(let n=e;n;n=n.parentNode)if(n===p)return true;return false},intro=g=>g.element('quickMissionTips').children.find(n=>n.tagName==='P'),compile=s=>Function('assert','classNames','return ('+s+')')(assert,['hidden','active']);
+const programs=Object.entries(adapter.programs).map(([name,e])=>({name,dom:compile(e.after),old:compile(previous.programs[name].after)}));
+// This newer feedback suite has its own compact DOM snapshot; test its actual expression too.
+const current=fs.readFileSync(path.join(__dirname,'command-allocation-feedback-v295.cjs'),'utf8'),prior=fs.readFileSync(path.join(__dirname,'command-allocation-feedback-v293.cjs'),'utf8');
+const extract=s=>Function('return ('+s.match(/const dom=(g=>[^\n]+);/)[1]+')')();const frozen=f=>g=>JSON.parse(JSON.stringify(f(g)));programs.push({name:'command-allocation-feedback',dom:frozen(extract(current)),old:frozen(extract(prior))});
+for(const{name,dom,old}of programs){
+ test(name+' physical removal and exact count reversal',()=>{const g=loadGame(source).start(),expected=dom(g),panels=roots.map(id=>g.element(id)),excluded=g.elements.filter(e=>panels.some(p=>within(e,p)));assert.ok(excluded.length>=5);assertions++;if(intro(g).textContent===newText)intro(g).textContent=oldText;for(const p of panels)p.remove();g.elements.splice(0,g.elements.length,...g.elements.filter(e=>!excluded.includes(e)));eq(old(g),expected,'only added roots and exact count differ')});
+ for(const id of roots){
+  for(const [field,value]of [['textContent','different'],['hidden',true],['disabled',true]])test(name+' excluded '+id+' '+field,()=>{const g=loadGame(source).start(),before=dom(g);g.element(id)[field]=value;eq(dom(g),before,'only new subtree ignored')});
+  test(name+' wrong root id retained '+id,()=>{const g=loadGame(source).start(),before=dom(g);g.element(id).id+='Wrong';neq(dom(g),before,'renamed node retained')});
+  test(name+' detached descendant retained '+id,()=>{const g=loadGame(source).start(),before=dom(g);g.element(id).children[0].remove();neq(dom(g),before,'detached descendant retained')});
+  test(name+' similarly named sibling retained '+id,()=>{const g=loadGame(source).start(),before=dom(g),e=g.document.createElement('p');e.id=id+'Other';g.element(id).parentNode.appendChild(e);neq(dom(g),before,'similar sibling retained')});
+ }
+ for(const id of ['quickAssault','quickSurvival','quickMissionTips','soundToggle','gameSpeed','start','scenario','stop'])for(const field of ['textContent','hidden','disabled'])test(name+' retained '+id+' '+field,()=>{const g=loadGame(source).start(),before=dom(g),n=g.element(id);n[field]=field==='textContent'?'unexpected text':!n[field];neq(dom(g),before,'existing field remains visible')});
+ test(name+' exact introductory count normalization',()=>{const g=loadGame(source).start();intro(g).textContent=newText;const before=dom(g);intro(g).textContent=oldText;eq(dom(g),before,'exact count normalized')});
+ test(name+' arbitrary introductory text retained',()=>{const g=loadGame(source).start(),before=dom(g);intro(g).textContent=newText+'changed';neq(dom(g),before,'normalization exact, not paragraph suppression')});
+ test(name+' introductory attributes retained',()=>{const g=loadGame(source).start(),before=dom(g);intro(g).setAttribute('data-boundary','changed');neq(dom(g),before,'only count text normalized')});
+ test(name+' same text outside paragraph scope retained',()=>{const g=loadGame(source).start(),n=g.element('quickSurvival');n.textContent=newText;const before=dom(g);n.textContent=oldText;neq(dom(g),before,'normalization parent/tag scope exact')});
+}
+for(const[name,e]of Object.entries(adapter.programs)){test(name+' strict original identity',()=>{const bytes=fs.readFileSync(path.join(__dirname,name));adapter.adapt(name,bytes);assert.throws(()=>adapter.adapt(name,Buffer.concat([bytes,Buffer.from('\n')])),{code:'ERR_ASSERTION'});assertions++});test(name+' duplicate new root rejected',()=>{const g=loadGame(source),n=g.document.createElement('button');n.id=roots[0];g.element(roots[0]).parentNode.appendChild(n);assert.throws(()=>compile(e.after)(g),/unique added panel/);assertions++})}
+console.log(JSON.stringify({passed:results.length,failed:0,assertions,results,scope:'Actual two inherited projections and current feedback comparator. Only displayPreview root and descendants newly excluded. Previous exact mission-intro normalization retained. Physical removal and all surrounding settings, menu, focus and control fields remain sensitive.'},null,2));

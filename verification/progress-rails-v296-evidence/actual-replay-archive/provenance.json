@@ -1,0 +1,2031 @@
+{
+  "baseSha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "candidateSha256": "3841cf1a441494c4d268f187eed51332563968c1846b5f57925f3a9b72ab63b3",
+  "cases": [
+    {
+      "name": "0%",
+      "type": "factory",
+      "build": 0,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=false;state.result=null;state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('factory',0,100,100);e.build=0;e.angle=.73;e.hp=e.max*.75;selection.add(e.id);create('power',0,700,600);state.queue=[{type:'tank',factoryId:e.id,total:6,left:6,waitingForExit:false}];updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "factory",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 750,
+              "max": 1000,
+              "r": 36,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": false,
+          "started": true,
+          "result": null,
+          "queue": [
+            {
+              "type": "tank",
+              "factoryId": 1,
+              "total": 6,
+              "left": 6,
+              "waitingForExit": false
+            }
+          ],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 3,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "a42e06aa7d90bf99e35cbcd1e23863859b375780e82299491e79af8b0fe0101e",
+      "changes": [
+        {
+          "paintIndex": 18,
+          "oldArgs": [
+            69,
+            130,
+            62,
+            5
+          ],
+          "newArgs": [
+            69,
+            127,
+            62,
+            5
+          ],
+          "delta": 3
+        },
+        {
+          "paintIndex": 19,
+          "oldArgs": [
+            70,
+            131,
+            0,
+            3
+          ],
+          "newArgs": [
+            70,
+            128,
+            0,
+            3
+          ],
+          "delta": 3
+        }
+      ],
+      "paintCounts": [
+        33,
+        33
+      ]
+    },
+    {
+      "name": "50%",
+      "type": "factory",
+      "build": 0,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=false;state.result=null;state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('factory',0,100,100);e.build=0;e.angle=.73;e.hp=e.max*.75;selection.add(e.id);create('power',0,700,600);state.queue=[{type:'tank',factoryId:e.id,total:6,left:3,waitingForExit:false}];updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "factory",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 750,
+              "max": 1000,
+              "r": 36,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": false,
+          "started": true,
+          "result": null,
+          "queue": [
+            {
+              "type": "tank",
+              "factoryId": 1,
+              "total": 6,
+              "left": 3,
+              "waitingForExit": false
+            }
+          ],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 3,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "9f4a6710895b9790a9cdf5b434db172014516efdb08bdf06260ac0e233420775",
+      "changes": [
+        {
+          "paintIndex": 18,
+          "oldArgs": [
+            69,
+            130,
+            62,
+            5
+          ],
+          "newArgs": [
+            69,
+            127,
+            62,
+            5
+          ],
+          "delta": 3
+        },
+        {
+          "paintIndex": 19,
+          "oldArgs": [
+            70,
+            131,
+            30,
+            3
+          ],
+          "newArgs": [
+            70,
+            128,
+            30,
+            3
+          ],
+          "delta": 3
+        }
+      ],
+      "paintCounts": [
+        33,
+        33
+      ]
+    },
+    {
+      "name": "100%",
+      "type": "factory",
+      "build": 0,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=false;state.result=null;state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('factory',0,100,100);e.build=0;e.angle=.73;e.hp=e.max*.75;selection.add(e.id);create('power',0,700,600);state.queue=[{type:'tank',factoryId:e.id,total:6,left:0,waitingForExit:false}];updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "factory",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 750,
+              "max": 1000,
+              "r": 36,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": false,
+          "started": true,
+          "result": null,
+          "queue": [
+            {
+              "type": "tank",
+              "factoryId": 1,
+              "total": 6,
+              "left": 0,
+              "waitingForExit": false
+            }
+          ],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 3,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "f383debc9fe55dc7a8e93d0c60e782664852aea403319b799165913857898e87",
+      "changes": [
+        {
+          "paintIndex": 18,
+          "oldArgs": [
+            69,
+            130,
+            62,
+            5
+          ],
+          "newArgs": [
+            69,
+            127,
+            62,
+            5
+          ],
+          "delta": 3
+        },
+        {
+          "paintIndex": 19,
+          "oldArgs": [
+            70,
+            131,
+            60,
+            3
+          ],
+          "newArgs": [
+            70,
+            128,
+            60,
+            3
+          ],
+          "delta": 3
+        }
+      ],
+      "paintCounts": [
+        33,
+        33
+      ]
+    },
+    {
+      "name": "暂停",
+      "type": "factory",
+      "build": 0,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=true;state.result=null;state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('factory',0,100,100);e.build=0;e.angle=.73;e.hp=e.max*.75;selection.add(e.id);create('power',0,700,600);state.queue=[{type:'tank',factoryId:e.id,total:6,left:3,waitingForExit:false}];updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "factory",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 750,
+              "max": 1000,
+              "r": 36,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": true,
+          "started": true,
+          "result": null,
+          "queue": [
+            {
+              "type": "tank",
+              "factoryId": 1,
+              "total": 6,
+              "left": 3,
+              "waitingForExit": false
+            }
+          ],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 3,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "cdceeaa7d07640763bef22934b33605af1b9362b3571effd7a7266bbeadf3c98",
+      "changes": [
+        {
+          "paintIndex": 18,
+          "oldArgs": [
+            69,
+            130,
+            62,
+            5
+          ],
+          "newArgs": [
+            69,
+            127,
+            62,
+            5
+          ],
+          "delta": 3
+        },
+        {
+          "paintIndex": 19,
+          "oldArgs": [
+            70,
+            131,
+            30,
+            3
+          ],
+          "newArgs": [
+            70,
+            128,
+            30,
+            3
+          ],
+          "delta": 3
+        }
+      ],
+      "paintCounts": [
+        35,
+        35
+      ]
+    },
+    {
+      "name": "缺电",
+      "type": "factory",
+      "build": 0,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=false;state.result=null;state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('factory',0,100,100);e.build=0;e.angle=.73;e.hp=e.max*.2;selection.add(e.id);create('power',0,700,600);for(let n=0;n<6;n++)create('factory',0,700+n*80,700);state.queue=[{type:'tank',factoryId:e.id,total:6,left:3,waitingForExit:false}];updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "factory",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 200,
+              "max": 1000,
+              "r": 36,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 3,
+              "type": "factory",
+              "team": 0,
+              "x": 700,
+              "y": 700,
+              "hp": 1000,
+              "max": 1000,
+              "r": 36,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 4,
+              "type": "factory",
+              "team": 0,
+              "x": 780,
+              "y": 700,
+              "hp": 1000,
+              "max": 1000,
+              "r": 36,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 5,
+              "type": "factory",
+              "team": 0,
+              "x": 860,
+              "y": 700,
+              "hp": 1000,
+              "max": 1000,
+              "r": 36,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 6,
+              "type": "factory",
+              "team": 0,
+              "x": 940,
+              "y": 700,
+              "hp": 1000,
+              "max": 1000,
+              "r": 36,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 7,
+              "type": "factory",
+              "team": 0,
+              "x": 1020,
+              "y": 700,
+              "hp": 1000,
+              "max": 1000,
+              "r": 36,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 8,
+              "type": "factory",
+              "team": 0,
+              "x": 1100,
+              "y": 700,
+              "hp": 1000,
+              "max": 1000,
+              "r": 36,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": false,
+          "started": true,
+          "result": null,
+          "queue": [
+            {
+              "type": "tank",
+              "factoryId": 1,
+              "total": 6,
+              "left": 3,
+              "waitingForExit": false
+            }
+          ],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 9,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "47b9629c717a2050eb5446c7ee801bea49bb0222385b234fda5e90934353aef3",
+      "changes": [
+        {
+          "paintIndex": 19,
+          "oldArgs": [
+            69,
+            130,
+            62,
+            5
+          ],
+          "newArgs": [
+            69,
+            127,
+            62,
+            5
+          ],
+          "delta": 3
+        },
+        {
+          "paintIndex": 20,
+          "oldArgs": [
+            70,
+            131,
+            30,
+            3
+          ],
+          "newArgs": [
+            70,
+            128,
+            30,
+            3
+          ],
+          "delta": 3
+        }
+      ],
+      "paintCounts": [
+        100,
+        100
+      ]
+    },
+    {
+      "name": "待出口",
+      "type": "factory",
+      "build": 0,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=false;state.result=null;state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('factory',0,100,100);e.build=0;e.angle=.73;e.hp=e.max*.75;selection.add(e.id);create('power',0,700,600);state.queue=[{type:'tank',factoryId:e.id,total:6,left:0,waitingForExit:true}];updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "factory",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 750,
+              "max": 1000,
+              "r": 36,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": false,
+          "started": true,
+          "result": null,
+          "queue": [
+            {
+              "type": "tank",
+              "factoryId": 1,
+              "total": 6,
+              "left": 0,
+              "waitingForExit": true
+            }
+          ],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 3,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "ee2ee6d156af7e06a14d7a20ecdc5031e86b45531acf1bfe2006b04d7ea165ab",
+      "changes": [
+        {
+          "paintIndex": 18,
+          "oldArgs": [
+            69,
+            130,
+            62,
+            5
+          ],
+          "newArgs": [
+            69,
+            127,
+            62,
+            5
+          ],
+          "delta": 3
+        },
+        {
+          "paintIndex": 19,
+          "oldArgs": [
+            70,
+            131,
+            60,
+            3
+          ],
+          "newArgs": [
+            70,
+            128,
+            60,
+            3
+          ],
+          "delta": 3
+        }
+      ],
+      "paintCounts": [
+        33,
+        33
+      ]
+    },
+    {
+      "name": "已结束",
+      "type": "factory",
+      "build": 0,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=false;state.result=\"fixture terminal\";state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('factory',0,100,100);e.build=0;e.angle=.73;e.hp=e.max*.2;selection.add(e.id);create('power',0,700,600);state.queue=[{type:'tank',factoryId:e.id,total:6,left:3,waitingForExit:false}];updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "factory",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 200,
+              "max": 1000,
+              "r": 36,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": false,
+          "started": true,
+          "result": "fixture terminal",
+          "queue": [
+            {
+              "type": "tank",
+              "factoryId": 1,
+              "total": 6,
+              "left": 3,
+              "waitingForExit": false
+            }
+          ],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 3,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "69e1b4562ed5596672257b91eb69c2df69abeabe3ae31bbe313d42c426587472",
+      "changes": [
+        {
+          "paintIndex": 19,
+          "oldArgs": [
+            69,
+            130,
+            62,
+            5
+          ],
+          "newArgs": [
+            69,
+            127,
+            62,
+            5
+          ],
+          "delta": 3
+        },
+        {
+          "paintIndex": 20,
+          "oldArgs": [
+            70,
+            131,
+            30,
+            3
+          ],
+          "newArgs": [
+            70,
+            128,
+            30,
+            3
+          ],
+          "delta": 3
+        }
+      ],
+      "paintCounts": [
+        34,
+        34
+      ]
+    },
+    {
+      "name": "工厂在建",
+      "type": "factory",
+      "build": 3,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=false;state.result=null;state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('factory',0,100,100);e.build=3;e.angle=.73;e.hp=e.max*.75;selection.add(e.id);create('power',0,700,600);updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "factory",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 750,
+              "max": 1000,
+              "r": 36,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 3,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": false,
+          "started": true,
+          "result": null,
+          "queue": [],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 3,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "ce793fb5f95d020acbbb6d135edab560e35f5f2d6e47665c54bf31e4da4595c6",
+      "changes": [
+        {
+          "paintIndex": 18,
+          "oldArgs": [
+            69,
+            129,
+            62,
+            5
+          ],
+          "newArgs": [
+            69,
+            127,
+            62,
+            5
+          ],
+          "delta": 2
+        },
+        {
+          "paintIndex": 19,
+          "oldArgs": [
+            70,
+            130,
+            45,
+            3
+          ],
+          "newArgs": [
+            70,
+            128,
+            45,
+            3
+          ],
+          "delta": 2
+        }
+      ],
+      "paintCounts": [
+        33,
+        33
+      ]
+    },
+    {
+      "name": "电站在建",
+      "type": "power",
+      "build": 3,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=false;state.result=null;state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('power',0,100,100);e.build=3;e.angle=.73;e.hp=e.max*.75;selection.add(e.id);create('power',0,700,600);updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "power",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 412.5,
+              "max": 550,
+              "r": 26,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 3,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": false,
+          "started": true,
+          "result": null,
+          "queue": [],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 3,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "bf0667551a6317dedbd25cafe9a7b8bd57c1589508bd33e9640f512c9d44a0ca",
+      "changes": [
+        {
+          "paintIndex": 18,
+          "oldArgs": [
+            79,
+            119,
+            42,
+            5
+          ],
+          "newArgs": [
+            79,
+            117,
+            42,
+            5
+          ],
+          "delta": 2
+        },
+        {
+          "paintIndex": 19,
+          "oldArgs": [
+            80,
+            120,
+            16,
+            3
+          ],
+          "newArgs": [
+            80,
+            118,
+            16,
+            3
+          ],
+          "delta": 2
+        }
+      ],
+      "paintCounts": [
+        33,
+        33
+      ]
+    },
+    {
+      "name": "精炼厂在建",
+      "type": "refinery",
+      "build": 3,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=false;state.result=null;state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('refinery',0,100,100);e.build=3;e.angle=.73;e.hp=e.max*.75;selection.add(e.id);create('power',0,700,600);updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "refinery",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 637.5,
+              "max": 850,
+              "r": 33,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 3,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": false,
+          "started": true,
+          "result": null,
+          "queue": [],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 3,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "48857bba6fbb081b3221949e9583ce405f2a415814430a93ab874602b55b193e",
+      "changes": [
+        {
+          "paintIndex": 18,
+          "oldArgs": [
+            72,
+            126,
+            56,
+            5
+          ],
+          "newArgs": [
+            72,
+            124,
+            56,
+            5
+          ],
+          "delta": 2
+        },
+        {
+          "paintIndex": 19,
+          "oldArgs": [
+            73,
+            127,
+            36.00000000000001,
+            3
+          ],
+          "newArgs": [
+            73,
+            125,
+            36.00000000000001,
+            3
+          ],
+          "delta": 2
+        }
+      ],
+      "paintCounts": [
+        33,
+        33
+      ]
+    },
+    {
+      "name": "炮塔在建",
+      "type": "turret",
+      "build": 3,
+      "fixture": "state.entities=[];state.queue=[];state.shots=[];state.fx=[];state.posts=[];state.ores=[];uid=1;state.paused=false;state.result=null;state.started=true;hoverActive=false;placement=null;drag=null;selection.clear();let e=create('turret',0,100,100);e.build=3;e.angle=.73;e.hp=e.max*.2;selection.add(e.id);create('power',0,700,600);updateUI();",
+      "state": {
+        "state": {
+          "entities": [
+            {
+              "id": 1,
+              "type": "turret",
+              "team": 0,
+              "x": 100,
+              "y": 100,
+              "hp": 130,
+              "max": 650,
+              "r": 22,
+              "angle": 0.73,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 3,
+              "load": 0,
+              "mine": 0
+            },
+            {
+              "id": 2,
+              "type": "power",
+              "team": 0,
+              "x": 700,
+              "y": 600,
+              "hp": 550,
+              "max": 550,
+              "r": 26,
+              "angle": 0,
+              "cool": 0,
+              "target": null,
+              "goal": null,
+              "attackMove": false,
+              "build": 0,
+              "load": 0,
+              "mine": 0
+            }
+          ],
+          "shots": [],
+          "fx": [],
+          "ores": [],
+          "posts": [],
+          "cash": 1700,
+          "enemyCash": 1700,
+          "stats": {
+            "income": [
+              0,
+              0
+            ],
+            "spent": [
+              0,
+              0
+            ],
+            "kills": [
+              0,
+              0
+            ],
+            "losses": [
+              0,
+              0
+            ],
+            "produced": [
+              0,
+              0
+            ],
+            "captures": [
+              0,
+              0
+            ],
+            "harvested": [
+              0,
+              0
+            ]
+          },
+          "enemyQueue": null,
+          "enemyRebuildWait": 0,
+          "enemyRebuildSiteWaits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "aiCount": 0,
+          "t": 0,
+          "formationSpacing": 36,
+          "gameSpeed": 1,
+          "paused": false,
+          "started": true,
+          "result": null,
+          "queue": [],
+          "logs": [
+            "左键选中部队，右键下达命令"
+          ],
+          "ai": 0,
+          "wave": 0,
+          "difficulty": "normal",
+          "challenge": "standard",
+          "mapChoice": "classic",
+          "objective": "annihilation",
+          "controlProgress": [
+            0,
+            0
+          ]
+        },
+        "uid": 3,
+        "selection": [
+          1
+        ],
+        "groups": [
+          [],
+          [],
+          []
+        ],
+        "placement": null,
+        "attackMode": false,
+        "drag": null,
+        "hoverActive": false,
+        "mouse": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "stateSha256": "17e31eabbecaffcf058881b72f364f89014bd971c25df7af93c01308b8d317cd",
+      "changes": [
+        {
+          "paintIndex": 17,
+          "oldArgs": [
+            83,
+            115,
+            34,
+            5
+          ],
+          "newArgs": [
+            83,
+            113,
+            34,
+            5
+          ],
+          "delta": 2
+        },
+        {
+          "paintIndex": 18,
+          "oldArgs": [
+            84,
+            116,
+            18.285714285714285,
+            3
+          ],
+          "newArgs": [
+            84,
+            114,
+            18.285714285714285,
+            3
+          ],
+          "delta": 2
+        }
+      ],
+      "paintCounts": [
+        32,
+        32
+      ]
+    }
+  ],
+  "assertions": "All 11 paired fixtures have identical state, equal paint counts, exactly two changed fillRect y positions; all other paint geometry/style/clip data identical. RNG forbidden; render preserves state.",
+  "limits": "Synthetic fixed states and recording Canvas/Path2D. No native screenshot, font/GPU/browser/FPS validation."
+}

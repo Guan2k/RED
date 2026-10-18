@@ -1,0 +1,13 @@
+# Integrated v296 independent review
+
+Candidate SHA-256: `02c622cdfaf30fb5c9ea854c2c3b4208cc39f4057af4277e229cc009cbb0e2a1`.
+
+131 independent checks pass:64 actual clip intersections,35 behavior/source/negative-mutant cases,32 expected-paint adapter cases. Scoped source and adapter approval for parent release gate; no aggregate or publication performed.
+
+Source-build --check passes (inputs SHA `105c696c77e4e0f1ded21a37008056f3972d4b49e57c08481ee4b146b7dae6a0`). Reversing only the four approved rail/fill y offsets and v0.296→v0.295 restores the entire frozen v295 source exactly. Intersections verify full5px rail/3px fill at0/.25/.5/1 progress, canonical and near-minimum radii, unchanged clip/width/label/colors and no-op behavior. Actual view/status tests cover all affected construction types/teams and factory normal/paused/powerless/exit/terminal, original and preview paths, invalid/no-op predicates, plus four single-offset regression mutants. See prior progress-clip-independent-review/REVIEW.md for defect derivation and scope.
+
+Reviewed new render-preview-v296.cjs and building-preview-v296.cjs baseline adapters. Only historical EXPECTED paint arrays are copied and translated; current candidate paints remain unmodified. Descriptors derive from historical helper views, with exact world-space clip, rectangle geometry, colors, adjacency and factory status label/font anchors. Exactly two rectangles per view move by2 or3 pixels; all other fields remain in deep equality. Duplicate/malformed anchors and reapplication are rejected. Independent tests cover both recorder formats and both helper kinds, immutable inputs, expected-only y changes, no-view identity, clip/color/width/height corruption, duplicate anchors/views and retained unrelated style differences. Strict restored v295/v294/v293 source identity remains enforced. Frozen older suites were not edited.
+
+Final review-time comparison against all1086 base files shows no changed historical verification/ or tools/ files. Existing changes were four source/generated artifacts and expected release/development/player documentation; package seal/current entry work was still ongoing. This is not a final file-count/checksum certification.
+
+Evidence: intersections.cjs/intersection-results.json (explicit candidate path/hash,64), behavior.cjs/behavior-results.json (candidate hash,35), adapters.cjs/adapter-results.json (32), preservation-early.json and preservation-final-review.json. Shared read-only no-persistence recorder dependency remains ../building-art-independent-review/recorder.cjs. No native browser/storage/aggregate execution or performance claim.

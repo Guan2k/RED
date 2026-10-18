@@ -1,0 +1,235 @@
+{
+  "schema": 1,
+  "candidate": {
+    "path": "../../index.html",
+    "sha256": "02c622cdfaf30fb5c9ea854c2c3b4208cc39f4057af4277e229cc009cbb0e2a1"
+  },
+  "references": {
+    "v283": {
+      "path": "reference-v283.html",
+      "sha256": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+    },
+    "v285": {
+      "path": "reference-v285.html",
+      "sha256": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+    },
+    "v286": {
+      "path": "reference-v286.html",
+      "sha256": "a96f5586369f9d46ac0c27b1645b25c44f5bd777373b9bf6f568ce1473e4b204"
+    },
+    "v287": {
+      "path": "reference-v287.html",
+      "sha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f"
+    },
+    "v288": {
+      "path": "reference-v288.html",
+      "sha256": "c67df10f2988f10d2949a5016d5dd453c1714471ff860b9d3f601e31c430ae20"
+    }
+  },
+  "changeFence": {
+    "previous": "v288",
+    "changes": [
+      {
+        "before": "v0.288",
+        "after": "v0.289"
+      },
+      {
+        "before": "<details id=\"unitReference\"",
+        "after": "<details id=\"openingPractice\" class=\"controls-help\" aria-describedby=\"openingPracticeNote\"><summary id=\"openingPracticeSummary\">可选开局练习 · 0/3</summary><p id=\"openingPracticeNote\" class=\"hint\">可选练习，不改变本局胜利条件；敌军仍会行动，阅读时可自行暂停。仅按本局已有累计记录显示，旧记录缺省按0，不回推；循环生产也计入，载入已有记录可显示已完成。折叠偏好不写入存档。</p><p id=\"openingPracticeHarvest\" class=\"hint\" aria-live=\"off\"></p><p id=\"openingPracticeProduction\" class=\"hint\" aria-live=\"off\"></p><p id=\"openingPracticeCapture\" class=\"hint\" aria-live=\"off\"></p><p id=\"openingPracticeStatus\" class=\"hint\" aria-live=\"off\"></p></details><details id=\"unitReference\""
+      },
+      {
+        "before": "function strategyAdvice(){",
+        "after": "function openingPracticeProgress(){return [['harvested',180],['produced',1],['captures',1]].map(([key,limit])=>{const value=state.stats?.[key]?.[0];return Math.min(limit,Math.max(0,Number.isFinite(value)?Math.floor(value):0))})}\nfunction updateOpeningPractice(){const [harvested,produced,captures]=openingPracticeProgress(),done=Number(harvested>=180)+Number(produced>=1)+Number(captures>=1);setReadonlyPanelProperty($('openingPracticeSummary'),'textContent','可选开局练习 · '+done+'/3');setReadonlyPanelProperty($('openingPracticeHarvest'),'textContent',(harvested>=180?'已完成：':'待完成：')+'累计实际交回矿石 '+harvested+'/180。开局矿车会自动工作；需要时可选矿车提前返厂，载货未交不计。');setReadonlyPanelProperty($('openingPracticeProduction'),'textContent',(produced>=1?'已完成：':'待完成：')+'实际生产增援 '+produced+'/1。用生产卡正常付费下单；排队未出厂不计，循环生产也计入。缺电或出口拥堵按现有提示处理。');setReadonlyPanelProperty($('openingPracticeCapture'),'textContent',(captures>=1?'已完成：':'待完成：')+'本局曾占领据点 '+captures+'/1。可单选侦察车移到中立旗帜附近，停留完成占领；保留坦克守家。之后失去据点仍记为曾完成。');setReadonlyPanelProperty($('openingPracticeStatus'),'textContent',!state.started?'尚未开战；开始后按本局累计记录显示进度。':state.result?'战局已结束；以上为本局累计记录。':done===3?'开局练习已完成，继续按本局胜利条件作战。':'按自己的节奏完成练习，仍以本局胜利条件为目标。')}\nfunction strategyAdvice(){"
+      },
+      {
+        "before": "function updateUI(){updateCoordinateCommandControl();",
+        "after": "function updateUI(){updateOpeningPractice();updateCoordinateCommandControl();"
+      },
+      {
+        "before": "v0.289",
+        "after": "v0.290"
+      },
+      {
+        "before": "// Visible saves gate empty selection; legacy save and recall semantics stay unchanged.",
+        "after": "// All save routes preserve an existing group when no live friendly vehicle is selected; recall stays unchanged."
+      },
+      {
+        "before": "if(save){groups[i]=state.entities.filter(e=>selection.has(e.id)&&e.team===0&&defs[e.type].speed).map(e=>e.id);tell",
+        "after": "if(save){let ids=state.entities.filter(e=>selection.has(e.id)&&e.team===0&&e.hp>0&&defs[e.type].speed).map(e=>e.id);if(!ids.length){tell('未保存编队 '+(i+1)+'：请先选择存活的己方车辆；原编队保留');return}groups[i]=ids;tell"
+      },
+      {
+        "before": "v0.290",
+        "after": "v0.291"
+      },
+      {
+        "before": "if(!enemy&&used.length+followed+guarded+assigned<troops.length)tell('部分单位未找到安全落点，保留原命令');",
+        "after": "if(!enemy&&used.length+followed+guarded+assigned<troops.length)tell('部分单位未找到安全落点，保留原命令');if(!enemy){let failedTroops=troops.length-used.length-followed-guarded-assigned,failedFactories=factories.length-rallied,reasons=[];if(failedTroops)reasons.push(failedTroops+'辆车未找到安全落点');if(failedFactories)reasons.push(failedFactories+'座工厂未找到安全集结点');if(reasons.length)mapCommandReason(reasons.join('；'))}"
+      },
+      {
+        "before": "v0.291",
+        "after": "v0.292"
+      },
+      {
+        "before": "e.preventDefault();controlGroup(Number(e.key)-1,e.ctrlKey||e.metaKey);return",
+        "after": "e.preventDefault();if(!e.repeat)controlGroup(Number(e.key)-1,e.ctrlKey||e.metaKey);return"
+      },
+      {
+        "before": "v0.292",
+        "after": "v0.293"
+      },
+      {
+        "before": "survival:Object.freeze({scenario:'classic',objective:'survival',difficulty:'normal',challenge:'standard'})",
+        "after": "survival:Object.freeze({scenario:'classic',objective:'survival',difficulty:'normal',challenge:'standard'}),switchback:Object.freeze({scenario:'switchback',objective:'stronghold',difficulty:'hard',challenge:'mobile'})"
+      },
+      {
+        "before": "<button type=\"button\" id=\"quickSurvival\">斜线守卫<small>斜线前哨 · 守卫 · 标准难度 · 标准规则</small></button>",
+        "after": "<button type=\"button\" id=\"quickSurvival\">斜线守卫<small>斜线前哨 · 守卫 · 标准难度 · 标准规则</small></button><button type=\"button\" id=\"quickSwitchback\">双闸突进<small>双闸回廊 · 要点驻守 · 老兵 · 机动作战</small></button>"
+      },
+      {
+        "before": "六项快速任务均有参考",
+        "after": "七项快速任务均有参考"
+      },
+      {
+        "before": "<h4>四丘争夺</h4>",
+        "after": "<section id=\"quickSwitchbackBrief\"><h4>双闸突进</h4><p>双闸回廊 · 要点驻守 · 老兵 · 机动作战；进阶挑战，不保证获胜。</p><ul><li>目标是中央据点（600,500）：战斗车辆进入65距离内，无敌车争夺时先占领8秒，再有效驻守90游戏秒。双方在圈内暂停累计；己方战斗车辆全部离开或失去归属会归零。矿车与维修车不计驻守。</li><li>可尝试让侦察车与坦克分散守住据点西侧，工厂向据点附近集结并开启抵达驻停；先补火炮、维修车、火炮，再用正常采矿收入持续补坦克。火炮分散在据点上下侧，避免贴身；维修车跟随前线受损车辆支援。</li><li>这条路线余量很小，增援未必都落在圈内；留意战斗车辆覆盖、维修与矿线。机动作战不能新建己方炮塔；指挥中心毁坏优先于驻守计时结算。更改配置后请重新调整战术。</li></ul></section><h4>四丘争夺</h4>"
+      },
+      {
+        "before": "$('quickSurvival').onclick=()=>applyQuickMission('survival');",
+        "after": "$('quickSurvival').onclick=()=>applyQuickMission('survival');$('quickSwitchback').onclick=()=>applyQuickMission('switchback');"
+      },
+      {
+        "before": "v0.293",
+        "after": "v0.294"
+      },
+      {
+        "before": "<div class=\"mini\"><select id=\"gameSpeed\"",
+        "after": "<details id=\"displayPreview\" class=\"controls-help\"><summary>显示预览</summary><div id=\"vehicleArtPreviewControl\"><label for=\"vehicleArtPreview\"><input id=\"vehicleArtPreview\" type=\"checkbox\" autocomplete=\"off\" aria-describedby=\"vehicleArtPreviewHelp\"> 实验性车辆外观预览（5种轮廓）</label><p id=\"vehicleArtPreviewHelp\" class=\"hint\">默认关闭；仅本页面会话保留，新局沿用，重新打开页面恢复关闭。不改变单位属性或操作。新外观绘制开销可能更高，未验证原生浏览器效果与帧率；可随时关闭。</p></div></details><div class=\"mini\"><select id=\"gameSpeed\""
+      },
+      {
+        "before": "function drawTerrain(){",
+        "after": "let vehicleArtPreview=false;\n// Draw-only art pilot: immutable polygon paths, exact direct-command fallback.\n// No simulation fields, RNG, raster caches or separate turret rotation are introduced.\nconst unitArtCanonicalRadius=Object.freeze({tank:13,scout:10,artillery:14,repair:13,harvester:16});\nconst unitArtGeometry=Object.freeze([\n  Object.freeze([-9,-6,4,-7,10,-3,10,3,4,7,-9,6]),\n  Object.freeze([-8,-5,4,-6,9,-2,9,2,4,6,-8,5]),\n  Object.freeze([-13,-8,7,-8,13,-4,13,4,7,8,-13,8]),\n  Object.freeze([-12,-7,7,-7,12,-3,12,3,7,7,-12,7]),\n  Object.freeze([-6,-6,4,-6,8,-2,8,3,3,6,-6,5]),\n  Object.freeze([-14,-9,9,-9,14,-5,14,5,9,9,-14,9]),\n  Object.freeze([-13,-8,9,-8,13,-4,13,4,9,8,-13,8]),\n  Object.freeze([-13,-8,5,-8,13,-4,13,5,6,8,-13,8]),\n  Object.freeze([-12,-7,5,-7,12,-3,12,4,6,7,-12,7]),\n  Object.freeze([-1,-6,1,-4,4,-6,5,-2,2,1,-2,6,-5,4,-1,0,-3,-2])\n]);\nfunction unitArtTrace(target,points){target.moveTo(points[0],points[1]);for(let i=2;i<points.length;i+=2)target.lineTo(points[i],points[i+1]);target.closePath()}\nlet unitArtPathCache;\nfunction initializeUnitArtPaths(){if(unitArtPathCache!==undefined)return;unitArtPathCache=(()=>{if(typeof Path2D!=='function')return null;try{return Object.freeze(unitArtGeometry.map(points=>{let path=new Path2D();unitArtTrace(path,points);return path}))}catch{return null}})()}\nfunction unitArtPoly(points,color,cacheIndex=-1){ctx.fillStyle=color;let path=cacheIndex>=0&&unitArtPathCache?unitArtPathCache[cacheIndex]:null;if(path){try{ctx.fill(path);return}catch{unitArtPathCache=null}}ctx.beginPath();unitArtTrace(ctx,points);ctx.fill()}\nfunction drawUnitPreview(e){\n  let phase=unitTrackPhase(e),r=e.r,color=e.team?'#a66755':'#75977c',high=e.team?'#d19b7e':'#a4b49a',dark=e.team?'#6f4038':'#405c49';\n  let usePaths=Object.hasOwn(unitArtCanonicalRadius,e.type)&&unitArtCanonicalRadius[e.type]===r;\n  ctx.save();ctx.translate(e.x,e.y);ctx.rotate(e.angle);\n  rect(-r+2,-r+4,r*2,r*2,'#0d211680');\n  if(e.type==='scout'){\n    for(let x of[-8,3])for(let y of[-10,6])rect(x,y,6,4,'#17231d');\n    unitArtPoly(unitArtGeometry[0],'#17271e',usePaths?0:-1);\n    unitArtPoly(unitArtGeometry[1],color,usePaths?1:-1);\n    rect(-6,-5,7,2,high);rect(-3,-3,7,6,dark);rect(2,-1.5,15,3,'#c0c7a3');\n  }else{\n    rect(-r,-r,r*2,5,'#202c24');rect(-r,r-5,r*2,5,'#202c24');\n    for(let x=-r-7+phase;x<r;x+=7){let left=Math.max(-r,x),right=Math.min(r,x+2);if(right>left){rect(left,-r,right-left,4,'#687361');rect(left,r-4,right-left,4,'#687361')}}\n    if(e.type==='tank'){\n      unitArtPoly(unitArtGeometry[2],'#17271e',usePaths?2:-1);\n      unitArtPoly(unitArtGeometry[3],color,usePaths?3:-1);\n      rect(-10,-7,14,2,high);unitArtPoly(unitArtGeometry[4],dark,usePaths?4:-1);\n      rect(-4,-5,7,2,high);rect(3,-2,21,4,'#c0c7a3');rect(20,-2.5,4,5,dark);\n    }else if(e.type==='artillery'){\n      unitArtPoly(unitArtGeometry[5],'#17271e',usePaths?5:-1);\n      unitArtPoly(unitArtGeometry[6],color,usePaths?6:-1);\n      rect(-11,-8,14,2,high);rect(-12,-7,12,14,dark);rect(-9,-5,7,10,high);\n      rect(-2,-2.5,36,5,'#c0c7a3');rect(29,-3.5,5,7,dark);\n    }else if(e.type==='repair'){\n      unitArtPoly(unitArtGeometry[7],'#17271e',usePaths?7:-1);\n      unitArtPoly(unitArtGeometry[8],color,usePaths?8:-1);\n      rect(-10,-7,15,14,'#b4c5ab');rect(7,-3,4,6,dark);\n      unitArtPoly(unitArtGeometry[9],dark,usePaths?9:-1);\n      rect(-10,8,13,2,'#d9bd77');rect(3,6,3,4,'#d9bd77');\n    }else if(e.type==='harvester'){\n      rect(-15,-10,23,20,color);rect(-13,-8,17,16,dark);rect(-12,-7,15,2,high);\n      rect(-10,-3,5,6,'#b59b60');rect(-4,-5,6,9,'#d0b16f');rect(8,-10,7,20,'#c6ab6b');\n      rect(10,-10,1,20,'#524f38');rect(13,-10,1,20,'#524f38');\n      rect(-11,8,Math.max(1,e.load/180*20),3,'#e9c55f');\n    }\n  }\n  // Small rear-corner team stencil; leave the role-defining hull detail visible.\n  // Secondary cue may weaken at half-scale; never enlarge the collision footprint.\n  let badgeX=-r+2,badgeY=-r+5;rect(badgeX-1,badgeY-1,8,6,'#14201b');\n  if(e.team)unitArtPoly([badgeX,badgeY,badgeX+6,badgeY+2,badgeX,badgeY+4],'#e7d9b4');\n  else{rect(badgeX,badgeY,6,1.5,'#e7d9b4');rect(badgeX,badgeY+2.5,6,1.5,'#e7d9b4')}\n  ctx.restore();\n}\n\nfunction drawTerrain(){"
+      },
+      {
+        "before": "defs[e.type].speed?drawUnit(e):drawBuilding(e)",
+        "after": "defs[e.type].speed?(vehicleArtPreview?drawUnitPreview(e):drawUnit(e)):drawBuilding(e)"
+      },
+      {
+        "before": "$('soundToggle').onclick=toggleSound;",
+        "after": "$('soundToggle').onclick=toggleSound;\nfunction updateVisualPreviewControl(){const control=$('vehicleArtPreview');if(control.checked!==vehicleArtPreview)control.checked=vehicleArtPreview}\n$('vehicleArtPreview').checked=false;$('vehicleArtPreview').onchange=()=>{vehicleArtPreview=$('vehicleArtPreview').checked;if(vehicleArtPreview)initializeUnitArtPaths()};"
+      },
+      {
+        "before": "marker.y+90}]:[];for(let o of state.ores)",
+        "after": "marker.y+90}]:[];let normalBoxes,expandedBoxes;for(let o of state.ores)"
+      },
+      {
+        "before": "boxes=(expanded?postBoxes.concat(rangeBoxes):postBoxes).concat(markerBoxes)",
+        "after": "boxes=expanded?(expandedBoxes??=postBoxes.concat(rangeBoxes,markerBoxes)):(normalBoxes??=postBoxes.concat(markerBoxes))"
+      },
+      {
+        "before": "function updateUI(){updateOpeningPractice();",
+        "after": "function updateUI(){updateVisualPreviewControl();updateOpeningPractice();"
+      },
+      {
+        "before": "v0.294",
+        "after": "v0.295"
+      },
+      {
+        "before": "const unitTrackMemory=new WeakMap();",
+        "after": "// Building art preview: finite static recipes only; original dynamic layers remain below.\nconst buildingArtCanonicalRadius=Object.freeze({hq:40,power:26,refinery:33,factory:36,turret:22});\nconst buildingArtGeometry=Object.freeze([\n  Object.freeze([\"poly\",Object.freeze([-40.0,-18.0,-28.0,-18.0,-28.0,-35.0,28.0,-35.0,28.0,-18.0,40.0,-18.0,40.0,27.0,23.0,27.0,23.0,38.0,-23.0,38.0,-23.0,27.0,-40.0,27.0])]),\n  Object.freeze([\"poly\",Object.freeze([-25.0,-18.0,-18.0,-25.0,18.0,-25.0,25.0,-18.0,25.0,21.0,19.0,25.0,-19.0,25.0,-25.0,21.0])]),\n  Object.freeze([\"circle\",Object.freeze([-12.0,-10.0,8.0])]),\n  Object.freeze([\"circle\",Object.freeze([12.0,-10.0,8.0])]),\n  Object.freeze([\"circle\",Object.freeze([-12.0,-10.0,4.0])]),\n  Object.freeze([\"circle\",Object.freeze([12.0,-10.0,4.0])]),\n  Object.freeze([\"poly\",Object.freeze([0.0,-5.0,8.0,-5.0,2.0,3.0,8.0,3.0,-4.0,17.0,-1.0,7.0,-7.0,7.0])]),\n  Object.freeze([\"poly\",Object.freeze([-31.0,-23.0,-24.0,-30.0,22.0,-30.0,31.0,-21.0,31.0,25.0,15.0,25.0,15.0,32.0,-20.0,32.0,-20.0,25.0,-31.0,25.0])]),\n  Object.freeze([\"circle\",Object.freeze([-12.0,-7.0,15.0])]),\n  Object.freeze([\"circle\",Object.freeze([-12.0,-9.0,12.0])]),\n  Object.freeze([\"circle\",Object.freeze([-12.0,-9.0,5.0])]),\n  Object.freeze([\"poly\",Object.freeze([7.0,-20.0,26.0,-20.0,26.0,8.0,20.0,15.0,7.0,8.0])]),\n  Object.freeze([\"poly\",Object.freeze([11.0,-14.0,18.0,-14.0,21.0,-8.0,15.0,-5.0,11.0,-9.0])]),\n  Object.freeze([\"poly\",Object.freeze([-35.0,-25.0,-21.0,-34.0,-12.0,-26.0,2.0,-34.0,11.0,-26.0,25.0,-34.0,35.0,-25.0,35.0,31.0,-35.0,31.0])]),\n  Object.freeze([\"poly\",Object.freeze([-30.0,-23.0,-21.0,-29.0,-12.0,-23.0,2.0,-29.0,11.0,-23.0,25.0,-29.0,31.0,-23.0,31.0,10.0,-30.0,10.0])]),\n  Object.freeze([\"poly\",Object.freeze([-22.0,-12.0,-12.0,-22.0,12.0,-22.0,22.0,-12.0,22.0,12.0,12.0,22.0,-12.0,22.0,-22.0,12.0])]),\n  Object.freeze([\"poly\",Object.freeze([-19.0,-10.0,-10.0,-19.0,10.0,-19.0,19.0,-10.0,19.0,10.0,10.0,19.0,-10.0,19.0,-19.0,10.0])]),\n  Object.freeze([\"circle\",Object.freeze([0.0,0.0,15.0])]),\n  Object.freeze([\"circle\",Object.freeze([0.0,0.0,12.0])])\n]);\nconst buildingArtRecipes=Object.freeze({\n  hq:Object.freeze([Object.freeze([\"path\",0,\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([-38.0,-16.0,76.0,39.0]),\"#75977c\",\"#a66755\"]),Object.freeze([\"rect\",Object.freeze([-26.0,-33.0,52.0,53.0]),\"#566a59\",\"#8b5d4f\"]),Object.freeze([\"rect\",Object.freeze([-23.0,-30.0,46.0,4.0]),\"#84917a\",\"#b58d73\"]),Object.freeze([\"rect\",Object.freeze([-20.0,-19.0,40.0,30.0]),\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([-17.0,-15.0,34.0,6.0]),\"#9ab9a5\",\"#9ab9a5\"]),Object.freeze([\"rect\",Object.freeze([-8.0,12.0,16.0,24.0]),\"#566a59\",\"#8b5d4f\"]),Object.freeze([\"rect\",Object.freeze([-8.0,12.0,16.0,3.0]),\"#84917a\",\"#b58d73\"]),Object.freeze([\"rect\",Object.freeze([-34.0,-9.0,7.0,17.0]),\"#a4b49a\",\"#c19c86\"]),Object.freeze([\"rect\",Object.freeze([27.0,-9.0,7.0,17.0]),\"#a4b49a\",\"#c19c86\"])]),\n  power:Object.freeze([Object.freeze([\"path\",1,\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([-22.0,-21.0,44.0,42.0]),\"#75977c\",\"#a66755\"]),Object.freeze([\"rect\",Object.freeze([-21.0,-20.0,18.0,34.0]),\"#566a59\",\"#8b5d4f\"]),Object.freeze([\"rect\",Object.freeze([3.0,-20.0,18.0,34.0]),\"#566a59\",\"#8b5d4f\"]),Object.freeze([\"path\",2,\"#84917a\",\"#b58d73\"]),Object.freeze([\"path\",3,\"#84917a\",\"#b58d73\"]),Object.freeze([\"path\",4,\"#263a30\",\"#44322d\"]),Object.freeze([\"path\",5,\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([-20.0,7.0,40.0,9.0]),\"#263a30\",\"#44322d\"]),Object.freeze([\"path\",6,\"#d3bd7d\",\"#d3bd7d\"])]),\n  refinery:Object.freeze([Object.freeze([\"path\",7,\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([-28.0,-25.0,56.0,47.0]),\"#75977c\",\"#a66755\"]),Object.freeze([\"path\",8,\"#566a59\",\"#8b5d4f\"]),Object.freeze([\"path\",9,\"#84917a\",\"#b58d73\"]),Object.freeze([\"path\",10,\"#566a59\",\"#8b5d4f\"]),Object.freeze([\"path\",11,\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([10.0,-16.0,13.0,20.0]),\"#b6a16d\",\"#b6a16d\"]),Object.freeze([\"path\",12,\"#d1bb7d\",\"#d1bb7d\"]),Object.freeze([\"rect\",Object.freeze([-23.0,17.0,45.0,5.0]),\"#566a59\",\"#8b5d4f\"]),Object.freeze([\"rect\",Object.freeze([-16.0,23.0,29.0,7.0]),\"#263a30\",\"#44322d\"])]),\n  factory:Object.freeze([Object.freeze([\"path\",13,\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([-32.0,-23.0,64.0,51.0]),\"#75977c\",\"#a66755\"]),Object.freeze([\"path\",14,\"#566a59\",\"#8b5d4f\"]),Object.freeze([\"rect\",Object.freeze([-28.0,-18.0,56.0,3.0]),\"#84917a\",\"#b58d73\"]),Object.freeze([\"rect\",Object.freeze([-27.0,-10.0,3.0,19.0]),\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([-7.0,-10.0,3.0,19.0]),\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([13.0,-10.0,3.0,19.0]),\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([-24.0,13.0,48.0,15.0]),\"#263a30\",\"#44322d\"]),Object.freeze([\"rect\",Object.freeze([-20.0,16.0,40.0,3.0]),\"#84917a\",\"#b58d73\"]),Object.freeze([\"rect\",Object.freeze([-22.0,25.0,44.0,4.0]),\"#566a59\",\"#8b5d4f\"])]),\n  turret:Object.freeze([Object.freeze([\"path\",15,\"#263a30\",\"#44322d\"]),Object.freeze([\"path\",16,\"#75977c\",\"#a66755\"]),Object.freeze([\"rect\",Object.freeze([-10.0,-17.0,20.0,3.0]),\"#a4b49a\",\"#c19c86\"]),Object.freeze([\"path\",17,\"#566a59\",\"#8b5d4f\"]),Object.freeze([\"path\",18,\"#263a30\",\"#44322d\"])])\n});\nfunction buildingArtTrace(target,shape){let [kind,p]=shape;if(kind==='circle'){target.arc(p[0],p[1],p[2],0,Math.PI*2)}else{target.moveTo(p[0],p[1]);for(let i=2;i<p.length;i+=2)target.lineTo(p[i],p[i+1]);target.closePath()}}\nlet buildingArtPathCache;\nfunction initializeBuildingArtPaths(){if(buildingArtPathCache!==undefined)return;buildingArtPathCache=(()=>{if(typeof Path2D!=='function')return null;try{return Object.freeze(buildingArtGeometry.map(shape=>{let path=new Path2D();buildingArtTrace(path,shape);return path}))}catch{return null}})()}\nfunction drawBuildingStaticBody(type,team){for(let item of buildingArtRecipes[type]){ctx.fillStyle=item[team?3:2];if(item[0]==='rect'){let p=item[1];ctx.fillRect(p[0],p[1],p[2],p[3]);continue}let index=item[1],path=buildingArtPathCache?.[index];if(path){try{ctx.fill(path);continue}catch{buildingArtPathCache=null}}ctx.beginPath();buildingArtTrace(ctx,buildingArtGeometry[index]);ctx.fill()}}\nfunction drawBuildingPreview(e){\n  if(!Object.hasOwn(buildingArtCanonicalRadius,e.type)||e.r!==buildingArtCanonicalRadius[e.type])return drawBuilding(e);\n  let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);\n  rect(-r+5,-r+9,r*2,r*2,'#16231c80');ctx.strokeStyle=color;ctx.lineWidth=3;\n  drawBuildingStaticBody(e.type,e.team);\n  if(e.type==='hq'){ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}\n  if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}\n  if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}\n  ctx.restore();drawConstructionProgress(e);drawFactoryProgress(e)\n}\nconst unitTrackMemory=new WeakMap();"
+      },
+      {
+        "before": "defs[e.type].speed?(vehicleArtPreview?drawUnitPreview(e):drawUnit(e)):drawBuilding(e);",
+        "after": "defs[e.type].speed?(vehicleArtPreview?drawUnitPreview(e):drawUnit(e)):(vehicleArtPreview?drawBuildingPreview(e):drawBuilding(e));"
+      },
+      {
+        "before": "if(vehicleArtPreview)initializeUnitArtPaths()",
+        "after": "if(vehicleArtPreview){initializeUnitArtPaths();initializeBuildingArtPaths()}"
+      },
+      {
+        "before": "实验性车辆外观预览（5种轮廓）",
+        "after": "实验性车辆与建筑外观预览（各5种）"
+      },
+      {
+        "before": "不改变单位属性或操作。新外观绘制开销可能更高",
+        "after": "仅切换车辆与建筑外观，不改变单位属性或操作。新外观绘制开销可能更高"
+      },
+      {
+        "before": "rect(x-1,e.y+e.r-7,w+2,5,'#102019');rect(x,e.y+e.r-6,w*view.progress,3,'#e9c579')",
+        "after": "rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,'#e9c579')"
+      },
+      {
+        "before": "rect(x-1,e.y+e.r-6,w+2,5,'#102019');rect(x,e.y+e.r-5,w*view.progress,3,view.color)",
+        "after": "rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,view.color)"
+      },
+      {
+        "before": "v0.295",
+        "after": "v0.296"
+      }
+    ]
+  },
+  "suites": {
+    "order-display-writes": {
+      "module": "order-display-writes.cjs",
+      "reference": "v283",
+      "passed": 8,
+      "assertions": 229,
+      "historical": {
+        "path": "../order-display-writes-v287.cjs",
+        "sha256": "5813537908ef09e1cc8cad72754adc7d6eb8b2e734bdade66fbe99e05f34ed21"
+      },
+      "scenarios": [
+        "stable paid eight scout orders measured against v283",
+        "countdown refund pause priority cancel and factory updates",
+        "real local loop title and cancellation suffix",
+        "real global loop title and cancellation suffix",
+        "synthetic display branch terminal",
+        "synthetic display branch power shortage",
+        "synthetic display branch blocked exit",
+        "synthetic presentation damage repaired on same nodes"
+      ],
+      "sha256": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be"
+    },
+    "selection-filter-writes": {
+      "module": "selection-filter-writes.cjs",
+      "reference": "v285",
+      "passed": 7,
+      "assertions": 110,
+      "historical": {
+        "path": "../selection-filter-writes-v287.cjs",
+        "sha256": "6a2a7d27db764baa695524728a97dda748cacfc2e76929432cce8e6a0fcb27f6"
+      },
+      "scenarios": [
+        "stable paused army filters 300 to zero and real selection transitions",
+        "legal natural combat damage updates and live filter action",
+        "legal lifecycle menu",
+        "legal lifecycle restart",
+        "legal lifecycle new battle",
+        "synthetic damaged health death and terminal live recomputation",
+        "synthetic presentation corruption repaired no gameplay change"
+      ],
+      "sha256": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364"
+    }
+  },
+  "integrity": {
+    "vm-environment-original": {
+      "path": "../vm-environment.cjs",
+      "sha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f"
+    },
+    "suite-context.cjs": {
+      "path": "suite-context.cjs",
+      "sha256": "b3311c93f9aed6b0fd7caa12f9e976d5454cb33c62bef19f10502897bf586938"
+    },
+    "vm-environment-provenance.cjs": {
+      "path": "vm-environment-provenance.cjs",
+      "sha256": "52e799ffe68512525ec1e4adb1d506bb602c747f8a12864ee495901a29686470"
+    },
+    "run-current-suites.cjs": {
+      "path": "run-current-suites.cjs",
+      "sha256": "718ca10aeda2c4e22632022ef8485b82bb083e1fbed0ca6a2320ecf2bfbf9cea"
+    }
+  },
+  "mutations": {
+    "path": "mutations.json",
+    "sha256": "f1e5f59ebae634fcb1f16ab1dfc850a76bf3d210e54677c2cd114444ca105d9d"
+  }
+}

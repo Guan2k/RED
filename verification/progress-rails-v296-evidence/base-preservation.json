@@ -1,0 +1,25 @@
+{
+  "base": "v295-building-preview/RED",
+  "publishedCommit": "8b7bf972261a3335973e0e18227ab29f75b6e78b",
+  "baseFiles": 1086,
+  "byteIdentical": 1074,
+  "modifiedCurrentFiles": [
+    "CURRENT_PLAYER_GUIDE.md",
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "DEVELOPING.md",
+    "QA_STATUS.md",
+    "README.md",
+    "RELEASE_NOTES.md",
+    "SHA256SUMS.txt",
+    "current-verification.json",
+    "index.html",
+    "source-build-receipt.json",
+    "src/index.template.html",
+    "src/script/03-renderer.jsfrag"
+  ],
+  "removed": [],
+  "sourceSha256": "02c622cdfaf30fb5c9ea854c2c3b4208cc39f4057af4277e229cc009cbb0e2a1",
+  "READMEsha256": "e45ff4cb1da97b904488705fa2361f0495776c387aef45918484832b7172008e",
+  "guideSha256": "b4b45f654c20183598c2e890473f6c2fd91c79e4f88e0049ef6ca706492b0be6",
+  "allPriorToolsTestsResearchByteIdentical": true
+}

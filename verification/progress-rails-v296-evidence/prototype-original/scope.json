@@ -1,0 +1,16 @@
+{
+  "sourceSha256": "3841cf1a441494c4d268f187eed51332563968c1846b5f57925f3a9b72ab63b3",
+  "baselineSha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "changedFiles": [
+    "index.html",
+    "source-build-receipt.json",
+    "src/script/03-renderer.jsfrag"
+  ],
+  "newFilesInPrototypePackage": [],
+  "prototypeFiles": 1077,
+  "gameVersionUnchanged": true,
+  "releaseManifestIntentionallyNotRefreshed": true,
+  "builderTestsPassed": 44,
+  "wholeSourceTestsPassed": 202,
+  "independentTestsPassed": 99
+}

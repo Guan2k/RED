@@ -1,0 +1,3 @@
+# v296 release evidence
+
+Current runnable tests are verification/progress-rails-v296.cjs, progress-rails-negative-control-v296.cjs and new current renderer/building copies. Their frozen code/input hashes and actual full isolated gate output are here. Independent-current scripts and prototype-original scripts/reports retain original workspace dependencies and historical paths; archived review evidence is not a claim those raw copies are standalone runnable. The whole-field image archive is actual recorded-command replay for synthetic fixtures using mock font metrics, not a native screenshot or natural-playability result. No raw script is automatically executed by the current aggregate unless explicitly registered.

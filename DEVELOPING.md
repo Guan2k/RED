@@ -41,11 +41,11 @@ Initial bootstrap uses the same restricted recovery command because the existing
 
 ## Adopted developer release workflow
 
-This additive developer-tools package retains game v0.294 and the exact published player artifact. It is not a v0.295 gameplay release. Source-build checks and tool tests are separate from game coverage.
+The original additive source-tools adoption retained the exact v0.294 player artifact. The current v0.296 release deliberately changes only shared progress-rail y offsets and the displayed version through authoritative sources. Source-build checks and tool tests are separate from game coverage.
 
 Run `node verify-development.cjs` before release. In order, it validates the sealed package through `verify-current.cjs --check-only`, runs `node tools/source-build.mjs --check`, runs the builder tests, then invokes the unchanged `node verify-current.cjs`. Any failure stops later stages. `node verify-development.cjs --check-only` runs the first three stages without gameplay. `node --test tools/test-development-preflight.cjs` separately tests this orchestration in disposable fixtures; synthetic child scripts are not game coverage.
 
-The old `node verify-current.cjs` remains the canonical game verifier and does not inherently check editable sources. Do not substitute it alone for the new developer release workflow. The unchanged README block describes that existing game entry. Discovery of the developer entry is here and in CURRENT_VERIFICATION_ENTRY.md; The v0.294 adoption preserved README/player-guide bytes; current-version documentation and packaging pins must deliberately track approved v0.295 changes.
+The old `node verify-current.cjs` remains the canonical game verifier and does not inherently check editable sources. Do not substitute it alone for the new developer release workflow. The unchanged README block describes that existing game entry. Discovery of the developer entry is here and in CURRENT_VERIFICATION_ENTRY.md; The v0.294 adoption preserved README/player-guide bytes; current-version documentation and packaging pins must deliberately track approved current-version changes.
 
 After an intentional source edit/build, the sealed release checksums and current manifest no longer match. Prepare the next release's reviewed versioned verification/identity entries and refresh the current release manifest/checksums deliberately; never rewrite historical gates to conceal a failure. During development use the direct source-build checks above. The developer preflight is a sealed-package release gate, not an automatic resealer or builder.
 

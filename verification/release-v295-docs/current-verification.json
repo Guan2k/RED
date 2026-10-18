@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "version": "295",
+  "source": "index.html",
+  "sourceSha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "runner": "verification/run-tests-v295.cjs",
+  "runnerSha256": "0a5d795517e34f6e9d8cbbc7d490048412336445d34e10152c46a69b17fc2cfd"
+}

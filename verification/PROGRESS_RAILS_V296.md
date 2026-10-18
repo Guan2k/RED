@@ -1,0 +1,11 @@
+# v296 progress-rail correction scope
+
+Authoritative changes: shared construction rail y+r−7→y+r−9 and fill y+r−6→y+r−8; shared factory rail y+r−6→y+r−9 and fill y+r−5→y+r−8. Widths/heights5,3, clip endingy+r−4, labels/colors/status/view predicates are unchanged. Template version is the only other source change. Generated artifact and receipt come from source-build. Exact restore-v295 gates preserve history.
+
+Current focused progress-rails-v296.cjs: whole-source no-persistence VM, actual helpers/original and preview building paths,8 real map starts with3 consecutive whole renders, radii/progress/status/no-op boundaries, command/style/clip identity except intended y offsets, world/RNG/track equality. Exact clip intersection proof reports factory2/1→5/3 and construction3/2→5/3. Zero-width fills are not visible area. Negative suite has8 semantic mutants (four reversals,two clip expansions,one rail offset boundary,one width change) plus exactv295 behavior contrast; selected cases pass on unmodified source before exact AssertionError diagnostic rejection. Source-hash rejection is not counted as semantic coverage.
+
+New v296 renderer/building copies normalize only exact expected historical helper rectangles. Frozen old suites unchanged; baseline identities still exact. No broad ignore of progress fields, clips or paints. Current runner retains25 inherited programs,15 separate historical identity gates and existing focused suite lineage. Full gate result added only after completion.
+
+Prototype evidence retained separately includes202 author cases,44 builder tests,99 independent checks and11 paired actual-draw replay fixtures. The prototype had no version bump and was not sealed/published; its old scripts retain workspace assumptions. Initial author fixture failure tried to iterate WeakMap and used unused scenario assignment; final fixture checks per-entity memory and actual map starts. Preliminary negative diagnostic expectation was refined to specifically check unchanged clip before geometry; no product change.
+
+No native browser/raster/GPU/FPS/input/accessibility or natural-playability claim. Synthetic building/status fixtures, mock font metrics, no real storage or save/load/import/export actions.

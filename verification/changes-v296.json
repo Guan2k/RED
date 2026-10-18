@@ -1,0 +1,14 @@
+[
+  {
+    "before": "rect(x-1,e.y+e.r-7,w+2,5,'#102019');rect(x,e.y+e.r-6,w*view.progress,3,'#e9c579')",
+    "after": "rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,'#e9c579')"
+  },
+  {
+    "before": "rect(x-1,e.y+e.r-6,w+2,5,'#102019');rect(x,e.y+e.r-5,w*view.progress,3,view.color)",
+    "after": "rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,view.color)"
+  },
+  {
+    "before": "v0.295",
+    "after": "v0.296"
+  }
+]
