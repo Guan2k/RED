@@ -1,0 +1,197 @@
+{
+  "passed": 450,
+  "failed": 0,
+  "assertions": 5601,
+  "checks": 5601,
+  "cases": 450,
+  "sourceSha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "baseSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "cache": {
+    "paths": 19,
+    "vertices": 81,
+    "circles": 9,
+    "constructors": 19,
+    "pathMethods": 100
+  },
+  "completedNoOrderMethodCounts": {
+    "hq": {
+      "old": 15,
+      "cached": 19,
+      "direct": 33
+    },
+    "power": {
+      "old": 24,
+      "cached": 14,
+      "direct": 41
+    },
+    "refinery": {
+      "old": 14,
+      "cached": 14,
+      "direct": 46
+    },
+    "factory": {
+      "old": 13,
+      "cached": 14,
+      "direct": 36
+    },
+    "turret": {
+      "old": 13,
+      "cached": 15,
+      "direct": 39
+    }
+  },
+  "constructionMethodCounts": {
+    "hq": {
+      "old": 17,
+      "cached": 21,
+      "direct": 35
+    },
+    "power": {
+      "old": 33,
+      "cached": 23,
+      "direct": 50
+    },
+    "refinery": {
+      "old": 23,
+      "cached": 23,
+      "direct": 55
+    },
+    "factory": {
+      "old": 22,
+      "cached": 23,
+      "direct": 45
+    },
+    "turret": {
+      "old": 22,
+      "cached": 24,
+      "direct": 48
+    }
+  },
+  "factoryStateMethodCounts": {
+    "production": {
+      "old": 22,
+      "cached": 23,
+      "direct": 45
+    },
+    "paused": {
+      "old": 22,
+      "cached": 23,
+      "direct": 45
+    },
+    "no-power": {
+      "old": 22,
+      "cached": 23,
+      "direct": 45
+    },
+    "waiting-exit": {
+      "old": 22,
+      "cached": 23,
+      "direct": 45
+    },
+    "terminal": {
+      "old": 22,
+      "cached": 23,
+      "direct": 45
+    }
+  },
+  "factoryStates": [
+    "production",
+    "paused",
+    "no-power",
+    "waiting-exit",
+    "terminal"
+  ],
+  "failures": [
+    {
+      "mode": "absent",
+      "passed": true,
+      "constructors": 0,
+      "pathMethods": 0
+    },
+    {
+      "mode": "nonfunction",
+      "passed": true,
+      "constructors": 0,
+      "pathMethods": 0
+    },
+    {
+      "mode": "construct-first",
+      "passed": true,
+      "constructors": 1,
+      "pathMethods": 0
+    },
+    {
+      "mode": "construct-partial",
+      "passed": true,
+      "constructors": 7,
+      "pathMethods": 26
+    },
+    {
+      "mode": "trace",
+      "passed": true,
+      "constructors": 1,
+      "pathMethods": 1
+    },
+    {
+      "mode": "arc",
+      "passed": true,
+      "constructors": 3,
+      "pathMethods": 23
+    },
+    {
+      "mode": "fill-first",
+      "passed": true,
+      "constructors": 19,
+      "pathMethods": 100
+    },
+    {
+      "mode": "fill-second",
+      "passed": true,
+      "constructors": 19,
+      "pathMethods": 100
+    }
+  ],
+  "parity": [
+    {
+      "map": "classic",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "frontier",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "canyon",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "ridge",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "crossroads",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "switchback",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "ring",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "meridian",
+      "seconds": 90,
+      "passed": true
+    }
+  ],
+  "limits": "Synthetic recording Path2D/Canvas, no native backend raster/FPS proof. Dynamic comparisons retain path construction transforms and clips. Persistence bootstrap refresh suppressed by existing no-persistence harness; all storage APIs throw."
+}

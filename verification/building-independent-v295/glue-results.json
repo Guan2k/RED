@@ -1,0 +1,55 @@
+{
+  "sha": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "passed": 12,
+  "failed": 0,
+  "results": [
+    {
+      "name": "mismatched checkbox initial/false",
+      "pass": true
+    },
+    {
+      "name": "mismatched checkbox initial/true",
+      "pass": true
+    },
+    {
+      "name": "mismatched checkbox active/false",
+      "pass": true
+    },
+    {
+      "name": "mismatched checkbox active/true",
+      "pass": true
+    },
+    {
+      "name": "mismatched checkbox paused/false",
+      "pass": true
+    },
+    {
+      "name": "mismatched checkbox paused/true",
+      "pass": true
+    },
+    {
+      "name": "mismatched checkbox restart/false",
+      "pass": true
+    },
+    {
+      "name": "mismatched checkbox restart/true",
+      "pass": true
+    },
+    {
+      "name": "mismatched checkbox terminal/false",
+      "pass": true
+    },
+    {
+      "name": "mismatched checkbox terminal/true",
+      "pass": true
+    },
+    {
+      "name": "session preview survives restart cancel and next rounds",
+      "pass": true
+    },
+    {
+      "name": "explicit broadened label/default and unchanged legacy",
+      "pass": true
+    }
+  ]
+}

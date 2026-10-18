@@ -1,0 +1,1 @@
+Independent evidence copied from integrated review; glue import adjusted only to local recorder. Reproduce with node verification/building-independent-v295/run.cjs. Strict restore-v294 creates a temporary baseline; current source is read-only. REVIEW.md describes original invocation paths as provenance, while run.cjs is the packaged invocation. No browser/FPS claim.

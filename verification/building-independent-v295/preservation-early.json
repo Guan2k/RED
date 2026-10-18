@@ -1,0 +1,11 @@
+{
+  "baseFiles": 938,
+  "changed": [
+    "index.html",
+    "source-build-receipt.json",
+    "src/index.template.html",
+    "src/script/03-renderer.jsfrag",
+    "src/script/04-interface-runtime.jsfrag"
+  ],
+  "missing": []
+}

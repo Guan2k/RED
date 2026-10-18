@@ -1,0 +1,52 @@
+{
+  "passed": 9,
+  "failed": 0,
+  "results": [
+    {
+      "name": "ambiguous off option",
+      "detected": true,
+      "expected": "all six global option labels and values"
+    },
+    {
+      "name": "wrong option value",
+      "detected": true,
+      "expected": "all six global option labels and values"
+    },
+    {
+      "name": "hidden scope hint",
+      "detected": true,
+      "expected": "scope paragraph never hidden"
+    },
+    {
+      "name": "wrong visible scope",
+      "detected": true,
+      "expected": "exact visible scope text"
+    },
+    {
+      "name": "wrong title",
+      "detected": true,
+      "expected": "title includes full override and off semantics"
+    },
+    {
+      "name": "wrong accessible label",
+      "detected": true,
+      "expected": "global accessible label"
+    },
+    {
+      "name": "broken description link",
+      "detected": true,
+      "expected": "scope accessible association"
+    },
+    {
+      "name": "no wrapping",
+      "detected": true,
+      "expected": "scope hint wraps on narrow layout"
+    },
+    {
+      "name": "changed tested executable script",
+      "detected": true,
+      "expected": "tested executable game script matches frozen v294 source"
+    }
+  ],
+  "scope": "All eight inherited static-markup mutations must hit the same exact option/text/visibility/title/aria/wrapping assertions. A ninth semantics-preserving script-comment mutation directly verifies current candidate whole-script integrity. The supplied exact v281 baseline avoids a restoration identity failure masking the intended assertion; exact frozen v294-to-v282 restoration remains separately verified. Original source is unchanged."
+}

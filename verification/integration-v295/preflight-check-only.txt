@@ -1,0 +1,59 @@
+Developer preflight: sealed package integrity
+Package declares v0.295; source SHA-256 6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa; runner verification/run-tests-v295.cjs; 1069 listed files verified.
+Package integrity passed; game verification was not executed. Offline consistency does not establish authenticity or remote latest version.
+Developer preflight: editable source consistency
+{"schemaVersion":1,"outputSha256":"6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa","inputsSha256":"8465029925bd35be23b7283994771eeb60ea29f817da5e4c9a14ccea1f953076"}
+Developer preflight: source builder tests
+✔ geometry is a real import and pure helpers retain semantics (1.395035ms)
+✔ current generated identity and deterministic assembly (26.655731ms)
+✔ intentional editable input: src/index.template.html (25.500679ms)
+✔ intentional editable input: src/styles.css (24.066194ms)
+✔ intentional editable input: src/script/01-bootstrap.jsfrag (34.012542ms)
+✔ intentional editable input: src/geometry.mjs (32.471828ms)
+✔ intentional editable input: src/script/02-gameplay.jsfrag (28.774017ms)
+✔ intentional editable input: src/script/03-renderer.jsfrag (29.207542ms)
+✔ intentional editable input: src/script/04-interface-runtime.jsfrag (30.860976ms)
+✔ new output identical, refuses overwrite and unsafe paths (10.284669ms)
+✔ manual artifact edits fail check/write/recovery and stay untouched (17.756302ms)
+✔ crash-like stale output receipt fails closed, matching source allows recovery (23.93738ms)
+✔ missing/malformed receipt can only recover matching bytes (26.589187ms)
+✔ unknown and excess arguments refused (0.280744ms)
+✔ missing @@RED_STYLE@@ (2.398439ms)
+✔ duplicate @@RED_STYLE@@ (2.663259ms)
+✔ changed @@RED_STYLE@@ (2.414213ms)
+✔ misplaced @@RED_STYLE@@ (2.415134ms)
+✔ missing @@RED_SCRIPT@@ (2.619462ms)
+✔ duplicate @@RED_SCRIPT@@ (2.585912ms)
+✔ changed @@RED_SCRIPT@@ (2.739173ms)
+✔ misplaced @@RED_SCRIPT@@ (3.462434ms)
+✔ geometry footer missing (3.772812ms)
+✔ geometry footer duplicate (1.928029ms)
+✔ geometry footer nonterminal (2.024745ms)
+✔ geometry footer runtime-import (2.248142ms)
+✔ missing input rejected (0.592574ms)
+✔ input symlink rejected (0.655889ms)
+✔ output symlink rejected (0.511412ms)
+✔ receipt and generated-target symlinks rejected (7.816134ms)
+✔ lock refuses concurrent or stale writer (0.574948ms)
+✔ fragment embedded closing tag/marker and invalid JS rejected (9.402247ms)
+✔ invalid UTF-8 rejected (1.555527ms)
+✔ generated artifact symlink refused (13.326749ms)
+✔ reject HTML script raw-text boundary "</script data-x>" (3.104334ms)
+✔ reject HTML script raw-text boundary "</script/>" (2.94224ms)
+✔ reject HTML script raw-text boundary "</ScRiPt\tdata-x>" (2.971563ms)
+✔ reject HTML script raw-text boundary "</script\f>" (2.83628ms)
+✔ reject HTML style raw-text boundary "</style data-x>" (2.304307ms)
+✔ reject HTML style raw-text boundary "</style/>" (2.371699ms)
+✔ reject HTML style raw-text boundary "</StYlE\tdata-x>" (2.275834ms)
+✔ reject HTML style raw-text boundary "</style\f>" (2.228963ms)
+✔ non-boundary tag prefixes remain valid text (11.662518ms)
+✔ out refuses reserved writer-lock path (4.576234ms)
+ℹ tests 44
+ℹ suites 0
+ℹ pass 44
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 516.267599
+Developer checks passed; game verification was not executed.

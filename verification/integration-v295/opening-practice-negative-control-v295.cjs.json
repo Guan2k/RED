@@ -1,0 +1,87 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "results": [
+    {
+      "name": "income mistaken for delivered",
+      "passed": true,
+      "detectedBy": "summary prior cumulative record"
+    },
+    {
+      "name": "cargo mistaken for delivered",
+      "passed": true,
+      "detectedBy": "harvest natural step 29"
+    },
+    {
+      "name": "queue mistaken for produced",
+      "passed": true,
+      "detectedBy": "summary paid not produced"
+    },
+    {
+      "name": "current ownership mistaken for ever captured",
+      "passed": true,
+      "detectedBy": "summary prior cumulative record"
+    },
+    {
+      "name": "no progress cap",
+      "passed": true,
+      "detectedBy": "harvest natural step 219"
+    },
+    {
+      "name": "backfill missing stats",
+      "passed": true,
+      "detectedBy": "practice never backfills or mutates partial old missing fields"
+    },
+    {
+      "name": "store practice state",
+      "passed": true,
+      "detectedBy": "practice world parity menu"
+    },
+    {
+      "name": "consume random on refresh",
+      "passed": true,
+      "detectedBy": "practice RNG parity start"
+    },
+    {
+      "name": "finish practice after two",
+      "passed": true,
+      "detectedBy": "status natural step 116"
+    },
+    {
+      "name": "skip collapsed practice",
+      "passed": true,
+      "detectedBy": "summary menu"
+    },
+    {
+      "name": "repeat summary same value",
+      "passed": true,
+      "detectedBy": "stable practice writes zero"
+    },
+    {
+      "name": "omit danger pause warning",
+      "passed": true,
+      "detectedBy": "visible enemy and pause warning"
+    },
+    {
+      "name": "wrong description link",
+      "passed": true,
+      "detectedBy": "visible note description linkage"
+    },
+    {
+      "name": "hide practice subtree",
+      "passed": true,
+      "detectedBy": "exact details attributes"
+    },
+    {
+      "name": "finish battle on practice",
+      "passed": true,
+      "detectedBy": "practice world parity natural step 219"
+    },
+    {
+      "name": "skip corrupted capture repair",
+      "passed": true,
+      "detectedBy": "capture corrupt repair"
+    }
+  ],
+  "scope": "Actual temporary candidate source/markup mutations after unmodified positive success. Exact behavior, readonly, completion, warning, linkage and refresh assertions required; not generic exception/hash/syntax/timeout failures."
+}

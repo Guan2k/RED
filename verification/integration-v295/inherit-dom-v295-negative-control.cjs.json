@@ -1,0 +1,444 @@
+{
+  "passed": 109,
+  "failed": 0,
+  "assertions": 112,
+  "results": [
+    {
+      "name": "repair-button-repeat.cjs physical removal and exact count reversal",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded displayPreview textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded displayPreview hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded displayPreview disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs wrong root id retained displayPreview",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs detached descendant retained displayPreview",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs similarly named sibling retained displayPreview",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained quickAssault textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained quickAssault hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained quickAssault disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained quickSurvival textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained quickSurvival hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained quickSurvival disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained quickMissionTips textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained quickMissionTips hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained quickMissionTips disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained soundToggle textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained soundToggle hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained soundToggle disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained gameSpeed textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained gameSpeed hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained gameSpeed disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained start textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained start hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained start disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained scenario textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained scenario hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained scenario disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained stop textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained stop hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained stop disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs exact introductory count normalization",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs arbitrary introductory text retained",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs introductory attributes retained",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs same text outside paragraph scope retained",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs physical removal and exact count reversal",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded displayPreview textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded displayPreview hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded displayPreview disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs wrong root id retained displayPreview",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs detached descendant retained displayPreview",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs similarly named sibling retained displayPreview",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained quickAssault textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained quickAssault hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained quickAssault disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained quickSurvival textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained quickSurvival hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained quickSurvival disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained quickMissionTips textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained quickMissionTips hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained quickMissionTips disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained soundToggle textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained soundToggle hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained soundToggle disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained gameSpeed textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained gameSpeed hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained gameSpeed disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained start textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained start hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained start disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained scenario textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained scenario hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained scenario disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained stop textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained stop hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained stop disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact introductory count normalization",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs arbitrary introductory text retained",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs introductory attributes retained",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs same text outside paragraph scope retained",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback physical removal and exact count reversal",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded displayPreview textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded displayPreview hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded displayPreview disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback wrong root id retained displayPreview",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback detached descendant retained displayPreview",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback similarly named sibling retained displayPreview",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained quickAssault textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained quickAssault hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained quickAssault disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained quickSurvival textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained quickSurvival hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained quickSurvival disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained quickMissionTips textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained quickMissionTips hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained quickMissionTips disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained soundToggle textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained soundToggle hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained soundToggle disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained gameSpeed textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained gameSpeed hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained gameSpeed disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained start textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained start hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained start disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained scenario textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained scenario hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained scenario disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained stop textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained stop hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained stop disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback exact introductory count normalization",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback arbitrary introductory text retained",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback introductory attributes retained",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback same text outside paragraph scope retained",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs strict original identity",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs duplicate new root rejected",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs strict original identity",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs duplicate new root rejected",
+      "passed": true
+    }
+  ],
+  "scope": "Actual two inherited projections and current feedback comparator. Only displayPreview root and descendants newly excluded. Previous exact mission-intro normalization retained. Physical removal and all surrounding settings, menu, focus and control fields remain sensitive."
+}

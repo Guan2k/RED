@@ -1,0 +1,19 @@
+{
+  "parentFiles": 938,
+  "changedParentFiles": [
+    "CURRENT_PLAYER_GUIDE.md",
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "DEVELOPING.md",
+    "QA_STATUS.md",
+    "README.md",
+    "RELEASE_NOTES.md",
+    "SHA256SUMS.txt",
+    "current-verification.json",
+    "index.html",
+    "source-build-receipt.json",
+    "src/index.template.html",
+    "src/script/03-renderer.jsfrag",
+    "src/script/04-interface-runtime.jsfrag"
+  ],
+  "historicalVerificationAndToolsUnchanged": true
+}

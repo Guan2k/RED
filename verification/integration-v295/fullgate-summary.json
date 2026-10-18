@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "sourceSha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "developerGateExit": 0,
+  "builderTests": 44,
+  "inheritedBehaviorAndMarkup": 959,
+  "inheritedSourceChecks": 10,
+  "historicalIdentityRejections": 15,
+  "focusedEntries": 64,
+  "stableEntryCases": 167,
+  "independentIntegratedCases": 108,
+  "originalInputFiles": 1077,
+  "originalInputsUnchanged": true,
+  "stderrBytes": 0,
+  "aggregateRuns": 1,
+  "limitations": "VM/canvas recorder checks; native browser raster/input/FPS unmeasured; no actual player persistence lifecycle actions."
+}

@@ -1,0 +1,23 @@
+{
+  "parentCommit": "35a27cf3e11551cf61c1e8ab8e1aa72eab8e70ed",
+  "parentFiles": 938,
+  "parentSourceSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "preVersionSha256": "764b6174ad1dc8e94e3cac5e02421f3a02a45f144b49a890e8a8204e2bee49d0",
+  "approvedPrototypeSha256": "764b6174ad1dc8e94e3cac5e02421f3a02a45f144b49a890e8a8204e2bee49d0",
+  "sourceSha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "changedParentFiles": [
+    "RELEASE_NOTES.md",
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "DEVELOPING.md",
+    "index.html",
+    "CURRENT_PLAYER_GUIDE.md",
+    "QA_STATUS.md",
+    "current-verification.json",
+    "README.md",
+    "source-build-receipt.json",
+    "src/index.template.html",
+    "src/script/03-renderer.jsfrag",
+    "src/script/04-interface-runtime.jsfrag"
+  ],
+  "historicalVerificationAndToolsUnchanged": true
+}

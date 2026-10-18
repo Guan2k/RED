@@ -1,0 +1,169 @@
+{
+  "passed": 40,
+  "failed": 0,
+  "assertions": 257,
+  "sourceSha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "results": [
+    {
+      "name": "group1 ctrl pausedfalse",
+      "passed": true
+    },
+    {
+      "name": "group1 ctrl pausedtrue",
+      "passed": true
+    },
+    {
+      "name": "group1 meta pausedfalse",
+      "passed": true
+    },
+    {
+      "name": "group1 meta pausedtrue",
+      "passed": true
+    },
+    {
+      "name": "group1 none pausedfalse",
+      "passed": true
+    },
+    {
+      "name": "group1 none pausedtrue",
+      "passed": true
+    },
+    {
+      "name": "group2 ctrl pausedfalse",
+      "passed": true
+    },
+    {
+      "name": "group2 ctrl pausedtrue",
+      "passed": true
+    },
+    {
+      "name": "group2 meta pausedfalse",
+      "passed": true
+    },
+    {
+      "name": "group2 meta pausedtrue",
+      "passed": true
+    },
+    {
+      "name": "group2 none pausedfalse",
+      "passed": true
+    },
+    {
+      "name": "group2 none pausedtrue",
+      "passed": true
+    },
+    {
+      "name": "group3 ctrl pausedfalse",
+      "passed": true
+    },
+    {
+      "name": "group3 ctrl pausedtrue",
+      "passed": true
+    },
+    {
+      "name": "group3 meta pausedfalse",
+      "passed": true
+    },
+    {
+      "name": "group3 meta pausedtrue",
+      "passed": true
+    },
+    {
+      "name": "group3 none pausedfalse",
+      "passed": true
+    },
+    {
+      "name": "group3 none pausedtrue",
+      "passed": true
+    },
+    {
+      "name": "missing repeat field keeps first save 0ctrl",
+      "passed": true
+    },
+    {
+      "name": "missing repeat field keeps first save 0meta",
+      "passed": true
+    },
+    {
+      "name": "missing repeat field keeps first save 1ctrl",
+      "passed": true
+    },
+    {
+      "name": "missing repeat field keeps first save 1meta",
+      "passed": true
+    },
+    {
+      "name": "missing repeat field keeps first save 2ctrl",
+      "passed": true
+    },
+    {
+      "name": "missing repeat field keeps first save 2meta",
+      "passed": true
+    },
+    {
+      "name": "prestart false",
+      "passed": true
+    },
+    {
+      "name": "prestart true",
+      "passed": true
+    },
+    {
+      "name": "restart false",
+      "passed": true
+    },
+    {
+      "name": "restart true",
+      "passed": true
+    },
+    {
+      "name": "terminal false",
+      "passed": true
+    },
+    {
+      "name": "terminal true",
+      "passed": true
+    },
+    {
+      "name": "INPUT false",
+      "passed": true
+    },
+    {
+      "name": "INPUT true",
+      "passed": true
+    },
+    {
+      "name": "SELECT false",
+      "passed": true
+    },
+    {
+      "name": "SELECT true",
+      "passed": true
+    },
+    {
+      "name": "TEXTAREA false",
+      "passed": true
+    },
+    {
+      "name": "TEXTAREA true",
+      "passed": true
+    },
+    {
+      "name": "guard {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "guard {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "guard {\"altKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "visible group control callbacks unchanged",
+      "passed": true
+    }
+  ],
+  "scope": "Registered key-event synthetic VM probes including held-key repeats and explicit selection/lifecycle fixtures. No native physical key timing proof or persistence actions."
+}

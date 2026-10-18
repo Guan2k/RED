@@ -1,0 +1,41 @@
+{
+  "sourceSha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "results": [
+    {
+      "suite": "render-preview-v295.cjs",
+      "passed": 77,
+      "failed": 0,
+      "assertions": 7246,
+      "suiteSha256": "795f0638e973c131067d4b554e3e134c3e6cfa05206245df7ba819ef0fd5e85e"
+    },
+    {
+      "suite": "render-preview-negative-control-v295.cjs",
+      "passed": 27,
+      "failed": 0,
+      "assertions": 239,
+      "suiteSha256": "2b5caec3c51cfdab6656dbd25a2371a40e90afefba4662ab526115a12ecacb56"
+    },
+    {
+      "suite": "visual-preference-v295.cjs",
+      "passed": 10,
+      "failed": 0,
+      "assertions": 132,
+      "suiteSha256": "ee7336988bcae77c2086883d493db49a3a2f2df1fc8c049f164257e610ec43df"
+    },
+    {
+      "suite": "visual-preference-negative-control-v295.cjs",
+      "passed": 15,
+      "failed": 0,
+      "assertions": 46,
+      "suiteSha256": "71e0af3faf55fa8fcb60c7f147ed506bf84255aacb02f4ff41c35b8c9c31fe26"
+    },
+    {
+      "suite": "building-preview-v295.cjs",
+      "passed": 450,
+      "failed": 0,
+      "assertions": 5601,
+      "suiteSha256": "dbb55938d9653de0502e1f255138245971717c14c5c73dc0cd96f8c92ee331ac"
+    }
+  ],
+  "scope": "Focused suites only; aggregate owned by architect. Synthetic VM/command replay; no native browser or FPS validation."
+}

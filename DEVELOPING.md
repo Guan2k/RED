@@ -2,7 +2,7 @@
 
 ## Source of truth
 
-Edit `src/`, not `index.html`. The HTML is generated and remains the single-file offline player artifact. This candidate initially reconstructs v0.294 exactly; it does not change the game version or publish a release.
+Edit `src/`, not `index.html`. The HTML is generated and remains the single-file offline player artifact. The v0.294 adoption initially reconstructed its published artifact exactly. The current v0.295 candidate changes its approved authoritative sources and generates the new version through the same guarded workflow.
 
 `src/index.template.html` owns markup; `src/styles.css` owns CSS. Four ordered `.jsfrag` files retain the existing single script's order and shared globals. They are **not ES modules**. The renderer fragment includes inspection/presentation helpers and art initialization, not a newly isolated renderer API. `src/geometry.mjs` alone is a real ES module with named exports, imported by its unit tests. The narrow assembler removes exactly its terminal export footer for the classic inline player script. It is not a general-purpose JavaScript bundler.
 
@@ -45,7 +45,7 @@ This additive developer-tools package retains game v0.294 and the exact publishe
 
 Run `node verify-development.cjs` before release. In order, it validates the sealed package through `verify-current.cjs --check-only`, runs `node tools/source-build.mjs --check`, runs the builder tests, then invokes the unchanged `node verify-current.cjs`. Any failure stops later stages. `node verify-development.cjs --check-only` runs the first three stages without gameplay. `node --test tools/test-development-preflight.cjs` separately tests this orchestration in disposable fixtures; synthetic child scripts are not game coverage.
 
-The old `node verify-current.cjs` remains the canonical game verifier and does not inherently check editable sources. Do not substitute it alone for the new developer release workflow. The unchanged README block describes that existing game entry. Discovery of the developer entry is here and in CURRENT_VERIFICATION_ENTRY.md; README and the player guide stay byte-identical to preserve reproducible player-package inputs.
+The old `node verify-current.cjs` remains the canonical game verifier and does not inherently check editable sources. Do not substitute it alone for the new developer release workflow. The unchanged README block describes that existing game entry. Discovery of the developer entry is here and in CURRENT_VERIFICATION_ENTRY.md; The v0.294 adoption preserved README/player-guide bytes; current-version documentation and packaging pins must deliberately track approved v0.295 changes.
 
 After an intentional source edit/build, the sealed release checksums and current manifest no longer match. Prepare the next release's reviewed versioned verification/identity entries and refresh the current release manifest/checksums deliberately; never rewrite historical gates to conceal a failure. During development use the direct source-build checks above. The developer preflight is a sealed-package release gate, not an automatic resealer or builder.
 

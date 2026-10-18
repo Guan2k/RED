@@ -1,0 +1,41 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "assertions": 244,
+  "sourceSha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "results": [
+    {
+      "name": "two different local factories",
+      "paused": false,
+      "passed": true,
+      "factoryIds": [
+        4,
+        20
+      ],
+      "paidOrders": 2
+    },
+    {
+      "name": "two different local factories",
+      "paused": true,
+      "passed": true,
+      "factoryIds": [
+        4,
+        20
+      ],
+      "paidOrders": 2
+    },
+    {
+      "name": "menu",
+      "passed": true
+    },
+    {
+      "name": "noncombat",
+      "passed": true
+    },
+    {
+      "name": "restart",
+      "passed": true
+    }
+  ],
+  "scope": "Static source markup checks cover option text because the synthetic VM parser omits text nodes. DOM association/visibility and legal two-factory construction, independent local types/targets, real paid orders, no-selection/noncombat/menu contexts, refresh spy and exact v281 behavioral pairing run against the current v294 candidate. Exact restored v282/v281 whole-script equality and current candidate/frozen v294 whole-script equality are both retained. No game-state injection, browser/native-layout verification, save/load/export or lifecycle changes."
+}

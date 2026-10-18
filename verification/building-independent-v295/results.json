@@ -1,0 +1,392 @@
+{
+  "source": "red-development/v295-building-preview/RED/index.html",
+  "sha": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "passed": 96,
+  "failed": 0,
+  "results": [
+    {
+      "name": "frozen gameplay and original render helpers",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,0,0,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,0,0,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,0,0.1,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,0,0.1,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,0,3.2,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,0,3.2,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,1,0,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,1,0,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,1,0.1,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,1,0.1,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,1,3.2,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact hq,1,3.2,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,0,0,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,0,0,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,0,0.1,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,0,0.1,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,0,3.2,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,0,3.2,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,1,0,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,1,0,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,1,0.1,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,1,0.1,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,1,3.2,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact power,1,3.2,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,0,0,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,0,0,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,0,0.1,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,0,0.1,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,0,3.2,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,0,3.2,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,1,0,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,1,0,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,1,0.1,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,1,0.1,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,1,3.2,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact refinery,1,3.2,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,0,0,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,0,0,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,0,0.1,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,0,0.1,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,0,3.2,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,0,3.2,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,1,0,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,1,0,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,1,0.1,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,1,0.1,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,1,3.2,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact factory,1,3.2,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,0,0,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,0,0,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,0,0.1,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,0,0.1,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,0,3.2,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,0,3.2,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,1,0,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,1,0,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,1,0.1,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,1,0.1,1.7",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,1,3.2,0",
+      "pass": true
+    },
+    {
+      "name": "dynamic exact turret,1,3.2,1.7",
+      "pass": true
+    },
+    {
+      "name": "fallback unknown",
+      "pass": true
+    },
+    {
+      "name": "fallback constructor",
+      "pass": true
+    },
+    {
+      "name": "fallback __proto__",
+      "pass": true
+    },
+    {
+      "name": "fallback hq",
+      "pass": true
+    },
+    {
+      "name": "fallback power",
+      "pass": true
+    },
+    {
+      "name": "fallback refinery",
+      "pass": true
+    },
+    {
+      "name": "fallback factory",
+      "pass": true
+    },
+    {
+      "name": "fallback turret",
+      "pass": true
+    },
+    {
+      "name": "whole frames retained paths and clips 0",
+      "pass": true
+    },
+    {
+      "name": "whole frames retained paths and clips 2",
+      "pass": true
+    },
+    {
+      "name": "whole frames retained paths and clips 12",
+      "pass": true
+    },
+    {
+      "name": "control/cache initial",
+      "pass": true
+    },
+    {
+      "name": "control/cache active",
+      "pass": true
+    },
+    {
+      "name": "control/cache paused",
+      "pass": true
+    },
+    {
+      "name": "control/cache restart",
+      "pass": true
+    },
+    {
+      "name": "control/cache terminal",
+      "pass": true
+    },
+    {
+      "name": "factory progress clips normal",
+      "pass": true
+    },
+    {
+      "name": "factory progress clips paused",
+      "pass": true
+    },
+    {
+      "name": "factory progress clips powerless",
+      "pass": true
+    },
+    {
+      "name": "factory progress clips exit",
+      "pass": true
+    },
+    {
+      "name": "factory progress clips terminal",
+      "pass": true
+    },
+    {
+      "name": "building constructor latch 11",
+      "pass": true
+    },
+    {
+      "name": "building constructor latch 15",
+      "pass": true
+    },
+    {
+      "name": "building constructor latch 29",
+      "pass": true
+    },
+    {
+      "name": "building fill latch survives toggles and next building",
+      "pass": true
+    },
+    {
+      "name": "canonical cached/direct paint hq/0",
+      "pass": true
+    },
+    {
+      "name": "canonical cached/direct paint hq/1",
+      "pass": true
+    },
+    {
+      "name": "canonical cached/direct paint power/0",
+      "pass": true
+    },
+    {
+      "name": "canonical cached/direct paint power/1",
+      "pass": true
+    },
+    {
+      "name": "canonical cached/direct paint refinery/0",
+      "pass": true
+    },
+    {
+      "name": "canonical cached/direct paint refinery/1",
+      "pass": true
+    },
+    {
+      "name": "canonical cached/direct paint factory/0",
+      "pass": true
+    },
+    {
+      "name": "canonical cached/direct paint factory/1",
+      "pass": true
+    },
+    {
+      "name": "canonical cached/direct paint turret/0",
+      "pass": true
+    },
+    {
+      "name": "canonical cached/direct paint turret/1",
+      "pass": true
+    }
+  ]
+}
