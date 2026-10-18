@@ -1,0 +1,15 @@
+{
+  "passed": 150,
+  "failed": 0,
+  "gameAggregateExecuted": false,
+  "script": "tools/test-development-preflight-doc-contract-v301.cjs",
+  "scriptSha256": "5da125e943f846f7a816e59ec67574ef525a0b528abda8a8091225496063cce2",
+  "wrapperSha256": "56d9a9a6fc70f4c7812480bc3d90439ba691a41e02c2fcfbfde2abe02d1b5d1a",
+  "unchanged": {
+    "index.html": true,
+    "README.md": true,
+    "CURRENT_PLAYER_GUIDE.md": true,
+    "verify-current.cjs": true,
+    "tools/test-development-preflight.cjs": true
+  }
+}

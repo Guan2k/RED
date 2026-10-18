@@ -1,0 +1,13 @@
+{
+  "oldhostExactFiles": 16,
+  "oldhostDifferences": [],
+  "baselineFiles": 1959,
+  "missing": [],
+  "changed": [
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "BUILDING_DATA_DEVELOPMENT.md",
+    "DEVELOPING.md",
+    "verify-development.cjs"
+  ],
+  "oldDocsExact": true
+}

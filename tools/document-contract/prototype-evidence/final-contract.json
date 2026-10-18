@@ -1,0 +1,185 @@
+{
+  "sourceVersion": "301",
+  "passed": 34,
+  "failed": 0,
+  "issues": [],
+  "checks": [
+    {
+      "code": "manifest-version",
+      "passed": true,
+      "detail": "manifest.version equals displayed source version"
+    },
+    {
+      "code": "manifest-source",
+      "passed": true,
+      "detail": "manifest source SHA equals actual bytes"
+    },
+    {
+      "code": "manifest-runner",
+      "passed": true,
+      "detail": "current release runner version"
+    },
+    {
+      "code": "manifest-runner-hash",
+      "passed": true,
+      "detail": "declared runner exists with exact SHA"
+    },
+    {
+      "code": "title-README.md",
+      "passed": true,
+      "detail": "first heading agrees exactly with source"
+    },
+    {
+      "code": "title-CURRENT_PLAYER_GUIDE.md",
+      "passed": true,
+      "detail": "first heading agrees exactly with source"
+    },
+    {
+      "code": "title-CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "detail": "first heading agrees exactly with source"
+    },
+    {
+      "code": "title-QA_STATUS.md",
+      "passed": true,
+      "detail": "first heading agrees exactly with source"
+    },
+    {
+      "code": "current-readme-section",
+      "passed": true,
+      "detail": "explicit current testing section"
+    },
+    {
+      "code": "current-runner-line",
+      "passed": true,
+      "detail": "one explicitly current underlying runner paragraph"
+    },
+    {
+      "code": "current-runner-command",
+      "passed": true,
+      "detail": [
+        "verification/run-tests-v301.cjs"
+      ]
+    },
+    {
+      "code": "current-runner-link",
+      "passed": true,
+      "detail": [
+        "verification/run-tests-v301.cjs"
+      ]
+    },
+    {
+      "code": "current-guide-identity",
+      "passed": true,
+      "detail": [
+        "301"
+      ]
+    },
+    {
+      "code": "link-README.md-index.html",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-CURRENT_PLAYER_GUIDE.md#3-选择编队与地图命令",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-CURRENT_PLAYER_GUIDE.md#1-开局暂停与重新部署",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-CURRENT_PLAYER_GUIDE.md#6-存档备份与恢复",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-CURRENT_PLAYER_GUIDE.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-CURRENT_PLAYER_GUIDE.md#5-建造订单与出厂",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-RELEASE_NOTES.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-verification/OPENING_PRACTICE_V289.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-verification/parameterized-pilot/README_V289.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-README_MIGRATION_V289.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-verification/run-tests-v301.cjs",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-QA_STATUS.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-verification/BUILDING_TEAM_CUES_V301.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-SHA256SUMS.txt",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-README.md-verification/COMMAND_FEEDBACK_V291.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-CURRENT_PLAYER_GUIDE.md-RELEASE_NOTES.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-CURRENT_PLAYER_GUIDE.md-QA_STATUS.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-CURRENT_PLAYER_GUIDE.md-CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-CURRENT_PLAYER_GUIDE.md-README.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    },
+    {
+      "code": "link-CURRENT_PLAYER_GUIDE.md-RELEASE_NOTES.md",
+      "passed": true,
+      "detail": "linked file exists; historical versions allowed"
+    }
+  ],
+  "scope": "Experimental explicit release-document contract; historical version sections excluded from current identity checks. Does not execute game commands."
+}

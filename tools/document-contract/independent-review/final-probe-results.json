@@ -1,0 +1,145 @@
+{
+  "results": [
+    {
+      "name": "valid",
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "name": "historical H3 descendant command must not satisfy current",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "current-runner-line",
+          "passed": false,
+          "detail": "one real current command paragraph; historical descendants and comments excluded"
+        }
+      ]
+    },
+    {
+      "name": "fenced fake anchor must not satisfy live link",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#valid",
+          "passed": false,
+          "detail": "Markdown heading anchor"
+        }
+      ]
+    },
+    {
+      "name": "comment-only current command must not satisfy current",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "current-runner-line",
+          "passed": false,
+          "detail": "one real current command paragraph; historical descendants and comments excluded"
+        }
+      ]
+    },
+    {
+      "name": "stale current verification entry command",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "current-entry-command:0",
+          "passed": false,
+          "detail": {
+            "command": "node verification/run-tests-v300.cjs",
+            "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+          }
+        }
+      ]
+    },
+    {
+      "name": "quoted invalid entry option",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "current-entry-command:0",
+          "passed": false,
+          "detail": {
+            "command": "node verify-development.cjs \"--wrong\"",
+            "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+          }
+        }
+      ]
+    },
+    {
+      "name": "nested historical guide claim excluded",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "current-guide-identity",
+          "passed": false,
+          "detail": "one current general claim; historical heading scope inherited by descendants"
+        }
+      ]
+    },
+    {
+      "name": "long fence fake closer cannot expose heading",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#valid",
+          "passed": false,
+          "detail": "Markdown heading anchor"
+        }
+      ]
+    },
+    {
+      "name": "fenced real entry accepted",
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "name": "historical entry descendants excluded",
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "name": "comment fake guide identity excluded",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "current-guide-identity",
+          "passed": false,
+          "detail": "one current general claim; historical heading scope inherited by descendants"
+        }
+      ]
+    },
+    {
+      "name": "README quoted extra runner option",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "current-runner-command",
+          "passed": false,
+          "detail": "current command equals manifest"
+        }
+      ]
+    },
+    {
+      "name": "arbitrary cwd /tmp/red-doc-independent-ZLF0Nn",
+      "failed": 0
+    },
+    {
+      "name": "arbitrary cwd red-doc-independent-ZLF0Nn",
+      "failed": 0
+    },
+    {
+      "name": "CLI usage []",
+      "expectedExit": 2
+    },
+    {
+      "name": "CLI usage [\"--fix\"]",
+      "expectedExit": 2
+    },
+    {
+      "name": "CLI usage [\"/tmp/red-doc-independent-ZLF0Nn\",\"extra\"]",
+      "expectedExit": 2
+    }
+  ],
+  "scope": "Own private fixtures, inspected bytes unchanged; no game execution"
+}

@@ -1,3 +1,7 @@
+# Historical building-data adoption and current workflow
+
+The adoption account below is retained as historical context. Current developer stages are documented in [DOCUMENT_CONTRACT_DEVELOPMENT.md](DOCUMENT_CONTRACT_DEVELOPMENT.md); historical stage counts below describe that earlier adoption, not the current wrapper.
+
 # Building-data source tools supplement
 
 Based on the published v297 package (commit76854f15daa249144ce77f5d074d2bcbebb495e0). No new game version or publication.

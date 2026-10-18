@@ -1,0 +1,18 @@
+{
+  "verify-development.cjs": "3d605f6af971a6638e20dd969aef7d77a7e7f266b8363f1b8726a42edad98c22",
+  "index.html": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "source-build-receipt.json": "eccb31979deed78242344ddaaf502a78e3bf114b54262ef15ee315871179af3a",
+  "tools/test-development-preflight.cjs": "af7dc4f99b8744213bac90debae2a733d653dd30c10dd2a0fc00b200e0a8688c",
+  "tools/source-build.mjs": "536052ac94ddb6694b48759eb95b0614983422face013c2e722df9c8c478e9c9",
+  "tools/source-build.test.mjs": "467d0335e372685001594fc697d8063ec2261e0b0644ad7fd12926f41b49d173",
+  "tools/building-art-data.test.mjs": "2f0f22ba92edc93ee076881a1fa828a8dac11dc9eb0e1e5f40cc5adaf106d24d",
+  "tools/building-art-data-validation.mjs": "b27db9dc8b58d83dd518aed1c27d43b973f1f360de4789af7eb95b343a7155a9",
+  "src/styles.css": "d8b8b8fa220823fb681c9e95cda6d937288fa8e0c9e4db94cbfff09e43c0819c",
+  "src/index.template.html": "976e3eecab79e83624c0c27f42921898391b87632764873b25c7964552229e68",
+  "src/geometry.mjs": "ec617ada5a5c3466a4c326d2c3a3f3d968946a10c619f5c48b49c172f14ba76f",
+  "src/script/02-gameplay.jsfrag": "6d61904a9daacf35cbf4dc339d2ec3faf4b10efea9c705087a71517797dfd3e4",
+  "src/script/01-bootstrap.jsfrag": "94d62eaf3a24e5de5bda7c81689b224a3230672966aa206d43c779d252c9b8aa",
+  "src/script/03-renderer.jsfrag": "75854dcfdf2ccfa0878866aef69f5c9e440422e4c54cc60d42efb425e8bb1094",
+  "src/script/04-interface-runtime.jsfrag": "9ef9cfd6340d2b0d376bccff95ccb2cca82e2d5974a5e5bf7caccefba2ed4d86",
+  "src/art/buildings.mjs": "91bbb7781700bd9098fe5091757d150be4b4b463d8f545c6f625260ba3ad0e6c"
+}

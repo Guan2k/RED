@@ -1,0 +1,21 @@
+
+'use strict';
+const $=id=>document.getElementById(id),canvas=$('map'),ctx=canvas.getContext('2d'),WIDTH=1200,HEIGHT=800;
+const difficultyPresets={easy:{cash:900,decision:8,wave:75,defenders:2,armyCap:18},normal:{cash:1700,decision:2,wave:50,defenders:3,armyCap:18},hard:{cash:2200,decision:1.5,wave:40,defenders:4,armyCap:24}};
+const mapLabels=Object.freeze({classic:'斜线前哨',frontier:'双翼边境',canyon:'断岩峡谷',ridge:'双峰矿谷',crossroads:'四丘枢纽',switchback:'双闸回廊',ring:'孤峰环道',meridian:'南北矿闸'});
+const quickMissions=Object.freeze({assault:Object.freeze({scenario:'classic',objective:'annihilation',difficulty:'normal',challenge:'standard'}),harvest:Object.freeze({scenario:'frontier',objective:'harvest',difficulty:'normal',challenge:'mobile'}),stronghold:Object.freeze({scenario:'ring',objective:'stronghold',difficulty:'normal',challenge:'mobile'}),meridian:Object.freeze({scenario:'meridian',objective:'harvest',difficulty:'normal',challenge:'standard'}),control:Object.freeze({scenario:'crossroads',objective:'control',difficulty:'normal',challenge:'standard'}),survival:Object.freeze({scenario:'classic',objective:'survival',difficulty:'normal',challenge:'standard'}),switchback:Object.freeze({scenario:'switchback',objective:'stronghold',difficulty:'hard',challenge:'mobile'})});
+function applyQuickMission(key){if($('overlay').classList.contains('hidden')||(state?.started&&!restartPrompt&&!state.result)||typeof key!=='string'||!Object.hasOwn(quickMissions,key))return;let preset=quickMissions[key];for(let field of ['scenario','objective','difficulty','challenge'])$(field).value=preset[field];updateMapPreview()}
+function knownMap(value){return typeof value==='string'&&Object.hasOwn(mapLabels,value)}
+function battleIdentityLabel(){if(!state?.started)return '';let levels={easy:'休闲',normal:'标准',hard:'老兵'};return '本局：'+(mapLabels[state.mapChoice||'classic']||'未知战场')+' · '+(levels[state.difficulty]||'未知')+'难度 · '}
+function difficultyRules(mode=state?.difficulty){return Object.hasOwn(difficultyPresets,mode)?difficultyPresets[mode]:difficultyPresets.normal}
+const defs={hq:{name:'指挥中心',hp:1800,r:40},power:{name:'发电站',cost:300,time:5,hp:550,r:26},refinery:{name:'精炼厂',cost:650,time:9,hp:850,r:33},factory:{name:'战车工厂',cost:850,time:12,hp:1000,r:36},turret:{name:'防御炮塔',cost:450,time:7,hp:650,r:22,range:175,damage:28,rate:1.05},tank:{name:'主战坦克',cost:350,time:6,hp:230,r:13,speed:48,range:135,damage:23,rate:1.05},scout:{name:'侦察战车',cost:180,time:4,hp:105,r:10,speed:82,range:105,damage:10,rate:.55},artillery:{name:'自行火炮',cost:550,time:10,hp:130,r:14,speed:30,range:225,minRange:65,damage:48,rate:2.8,splashRadius:50,splashDamage:12},repair:{name:'战地维修车',cost:500,time:9,hp:180,r:13,speed:38,repairRange:100,repairRate:6},harvester:{name:'采矿车',cost:400,time:7,hp:310,r:16,speed:39,capacity:180}};
+let harvesterAlert=null,lastHarvesterAlert=-Infinity;
+let lastBaseAlert=-Infinity,battleAlerts=[null,null,null],objectiveAlert=null,objectiveAlertSeen={control:false,stronghold:false,harvest:false},economyAlert=null,economyAlertSeen=false,movementIntent=new WeakSet();let goalMovementIntent=new WeakSet();
+let finishedBattleNarrative=null;
+let savedBattleSignature=null,savedBattleSource=null,savedBattleTime=null;
+let ordinaryCommandMode=false,ordinaryCommandGesture=null,ordinaryCommandActivation=null;
+let appendCommandMode=false,appendCommandActivation=null;
+let coordinateCommandActivation=null;
+let factoryExitActivation=null,factoryExitInspectionCache=null;
+let selectedDeathUiDirty=false;
+let state,uid=1,last=0,simulationRemainder=0,selection=new Set(),placement=null,attackMode=false,drag=null,hoverActive=false,mouse={x:0,y:0},uiClock=0,restartPrompt=false,resumeAfterCancel=false,groups=[[],[],[]];

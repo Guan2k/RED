@@ -1,0 +1,30 @@
+/workspace/scratch/e433d7540f34/red-development/v301-doc-contract-tools/RED/tools/test-document-development-preflight.cjs:9
+for(const args of [[],['--check-only']])test('exact ordered commands '+JSON.stringify(args),()=>{const r=invoke(args);assert.equal(r.status,0);assert.deepEqual(r.seen.map(x=>x.cmd),expected(ROOT).slice(0,args.length?6:7));for(const x of r.seen){assert.equal(x.exe,process.execPath);assert.deepEqual(x.opts,{cwd:ROOT,shell:false,stdio:'inherit'})}assert.equal(r.errors.length,0);assert.match(r.logs.at(-1),args.length?/game verification was not executed/:unchanged canonical game verification passed/)});
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1804:18)
+    at Module._compile (node:internal/modules/cjs/loader:1846:20)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.19.0
+✖ red-development/v301-doc-contract-tools/RED/tools/test-document-development-preflight.cjs (57.942672ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 66.049949
+
+✖ failing tests:
+
+test at red-development/v301-doc-contract-tools/RED/tools/test-document-development-preflight.cjs:1:1
+✖ red-development/v301-doc-contract-tools/RED/tools/test-document-development-preflight.cjs (57.942672ms)
+  'test failed'

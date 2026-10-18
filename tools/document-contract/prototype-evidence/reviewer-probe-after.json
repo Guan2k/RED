@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "name": "valid",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "current-guide-identity",
+          "passed": false,
+          "detail": "one current general claim; historical heading scope inherited by descendants"
+        }
+      ]
+    },
+    {
+      "name": "historical H3 descendant command must not satisfy current",
+      "failed": 2,
+      "failures": [
+        {
+          "code": "current-guide-identity",
+          "passed": false,
+          "detail": "one current general claim; historical heading scope inherited by descendants"
+        },
+        {
+          "code": "current-runner-line",
+          "passed": false,
+          "detail": "one real current command paragraph; historical descendants and comments excluded"
+        }
+      ]
+    },
+    {
+      "name": "fenced fake anchor must not satisfy live link",
+      "failed": 2,
+      "failures": [
+        {
+          "code": "current-guide-identity",
+          "passed": false,
+          "detail": "one current general claim; historical heading scope inherited by descendants"
+        },
+        {
+          "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#valid",
+          "passed": false,
+          "detail": "Markdown heading anchor"
+        }
+      ]
+    },
+    {
+      "name": "comment-only current command must not satisfy current",
+      "failed": 2,
+      "failures": [
+        {
+          "code": "current-guide-identity",
+          "passed": false,
+          "detail": "one current general claim; historical heading scope inherited by descendants"
+        },
+        {
+          "code": "current-runner-line",
+          "passed": false,
+          "detail": "one real current command paragraph; historical descendants and comments excluded"
+        }
+      ]
+    },
+    {
+      "name": "stale current verification entry command",
+      "failed": 1,
+      "failures": [
+        {
+          "code": "current-guide-identity",
+          "passed": false,
+          "detail": "one current general claim; historical heading scope inherited by descendants"
+        }
+      ]
+    }
+  ],
+  "scope": "Own private fixtures, inspected bytes unchanged; no game execution"
+}

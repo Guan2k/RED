@@ -5,6 +5,8 @@ function run(args,{spawn=require('node:child_process').spawnSync,log=console.log
   if(!(args.length===0||(args.length===1&&args[0]==='--check-only'))){error('Supported arguments: no arguments or --check-only');return 1}
   const stages=[
     ['sealed package integrity',['verify-current.cjs','--check-only']],
+    ['current documentation contract',['tools/document-contract/check.cjs',__dirname]],
+    ['documentation contract tests',['tools/document-contract/test.cjs']],
     ['editable source consistency',['tools/source-build.mjs','--check']],
     ['source builder tests',['--test','tools/source-build.test.mjs']],
     ['trusted building data validation',['--test','tools/building-art-data.test.mjs']]

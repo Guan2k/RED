@@ -1,0 +1,30 @@
+{
+  "results": [
+    {
+      "name": "valid",
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "name": "historical H3 descendant command must not satisfy current",
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "name": "fenced fake anchor must not satisfy live link",
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "name": "comment-only current command must not satisfy current",
+      "failed": 0,
+      "failures": []
+    },
+    {
+      "name": "stale current verification entry command",
+      "failed": 0,
+      "failures": []
+    }
+  ],
+  "scope": "Own private fixtures, inspected bytes unchanged; no game execution"
+}
