@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "sourceSha256": "0113fe16d55a5eebdb68ccc8615d1dd4c935bd0dd32068b02db8bb081d82c071",
+  "copiedInputCount": 6,
+  "copiedInputs": {
+    "index.html": "0113fe16d55a5eebdb68ccc8615d1dd4c935bd0dd32068b02db8bb081d82c071",
+    "verification/global-repeat-mode-scope-v299.cjs": "d473a93c577e6bfc161627eb58dd38fe9f48e89c13aaa62048f7f52a93a2b41f",
+    "verification/global-repeat-mode-scope-v299/contracts.cjs": "74efaf518fe317f6827b9714e220d2b5724e4d585cfb9872530fc59e58532af6",
+    "verification/building-independent-v295/no-persistence-vm.cjs": "478252a0790e4696f9b5225638842a1cad6056ed1c903fed17e9e38e2ef0b5ec",
+    "verification/restore-v298.cjs": "70ea58717169beb8e56f3cb6b528510310f2b6a721995499ca377edabb7294f3",
+    "verification/changes-v299.json": "a579a21736ea9a3ef0a982fd5b5d0082969a4671cb4d998ddef8198c24f47353"
+  },
+  "sameCompleteResult": true,
+  "focusedCases": 31,
+  "assertions": 979,
+  "worldComparisons": 690,
+  "noSiblingPackageDependency": true,
+  "scope": "Fresh temporary minimal host contains only these six files. Exact restored v298 baseline is generated inside another temporary directory and removed. No existing sibling product, prototype, review or recorder directory is accessible through required paths."
+}

@@ -1,0 +1,880 @@
+{
+  "passed": 218,
+  "failed": 0,
+  "assertions": 221,
+  "results": [
+    {
+      "name": "repair-button-repeat.cjs exact physical removal and attribute reversal",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded holdBehaviorHint textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded holdBehaviorHint hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded holdBehaviorHint disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs wrong root id retained holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs similarly named sibling retained holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs detached descendant retained holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded rallyHoldBehaviorHint textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded rallyHoldBehaviorHint hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded rallyHoldBehaviorHint disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs wrong root id retained rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs similarly named sibling retained rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs detached descendant retained rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded repeatParallelScopeHint textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded repeatParallelScopeHint hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excluded repeatParallelScopeHint disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs wrong root id retained repeatParallelScopeHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs similarly named sibling retained repeatParallelScopeHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs detached descendant retained repeatParallelScopeHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs exact attribute normalization hold",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected hold title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected hold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected hold aria-label",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected hold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained hold title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs exact attribute normalization holdOnArrival",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected holdOnArrival title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected holdOnArrival aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected holdOnArrival aria-label",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected holdOnArrival data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained holdOnArrival title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs exact attribute normalization rallyHold",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected rallyHold title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected rallyHold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected rallyHold aria-label",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected rallyHold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rallyHold title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs exact attribute normalization repeatParallel",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected repeatParallel title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected repeatParallel aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected repeatParallel aria-label",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unexpected repeatParallel data-boundary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel hidden",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained repeatParallel title",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby stop textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby stop disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby patrol disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby clearRally textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby clearRally disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby guardArea textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby guardArea disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby start textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby start disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby scenario textContent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs nearby scenario disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs exact title outside control scope retained",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact physical removal and attribute reversal",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded holdBehaviorHint textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded holdBehaviorHint hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded holdBehaviorHint disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs wrong root id retained holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs similarly named sibling retained holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs detached descendant retained holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded rallyHoldBehaviorHint textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded rallyHoldBehaviorHint hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded rallyHoldBehaviorHint disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs wrong root id retained rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs similarly named sibling retained rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs detached descendant retained rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded repeatParallelScopeHint textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded repeatParallelScopeHint hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excluded repeatParallelScopeHint disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs wrong root id retained repeatParallelScopeHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs similarly named sibling retained repeatParallelScopeHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs detached descendant retained repeatParallelScopeHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact attribute normalization hold",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected hold title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected hold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected hold aria-label",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected hold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained hold title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact attribute normalization holdOnArrival",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected holdOnArrival title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected holdOnArrival aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected holdOnArrival aria-label",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected holdOnArrival data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained holdOnArrival title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact attribute normalization rallyHold",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected rallyHold title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected rallyHold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected rallyHold aria-label",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected rallyHold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rallyHold title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact attribute normalization repeatParallel",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected repeatParallel title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected repeatParallel aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected repeatParallel aria-label",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unexpected repeatParallel data-boundary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel hidden",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained repeatParallel title",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby stop textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby stop disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby patrol disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby clearRally textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby clearRally disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby guardArea textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby guardArea disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby start textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby start disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby scenario textContent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs nearby scenario disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact title outside control scope retained",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback exact physical removal and attribute reversal",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded holdBehaviorHint textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded holdBehaviorHint hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded holdBehaviorHint disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback wrong root id retained holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback similarly named sibling retained holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback detached descendant retained holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded rallyHoldBehaviorHint textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded rallyHoldBehaviorHint hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded rallyHoldBehaviorHint disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback wrong root id retained rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback similarly named sibling retained rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback detached descendant retained rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded repeatParallelScopeHint textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded repeatParallelScopeHint hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback excluded repeatParallelScopeHint disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback wrong root id retained repeatParallelScopeHint",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback similarly named sibling retained repeatParallelScopeHint",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback detached descendant retained repeatParallelScopeHint",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback exact attribute normalization hold",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected hold title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected hold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected hold aria-label",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected hold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained hold value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback exact attribute normalization holdOnArrival",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected holdOnArrival title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected holdOnArrival aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected holdOnArrival aria-label",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected holdOnArrival data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained holdOnArrival value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback exact attribute normalization rallyHold",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected rallyHold title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected rallyHold aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected rallyHold aria-label",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected rallyHold data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained rallyHold value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback exact attribute normalization repeatParallel",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected repeatParallel title",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected repeatParallel aria-describedby",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected repeatParallel aria-label",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback unexpected repeatParallel data-boundary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel hidden",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback retained repeatParallel value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby stop textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby stop disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby patrol textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby patrol disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby clearRally textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby clearRally disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby guardArea textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby guardArea disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby start textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby start disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby scenario textContent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback nearby scenario disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation-feedback exact title outside control scope retained",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs strict original identity",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs duplicate root rejected holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs duplicate root rejected rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs duplicate root rejected repeatParallelScopeHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs strict original identity",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs duplicate root rejected holdBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs duplicate root rejected rallyHoldBehaviorHint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs duplicate root rejected repeatParallelScopeHint",
+      "passed": true
+    }
+  ],
+  "scope": "Exact two added hint paragraphs and exact reviewed per-control attribute-value reversal only. Three current comparator expressions tested against previous projections by physical reversal. Unknown values, neighboring controls, detached descendants, similar IDs and unrelated attributes remain visible; frozen original identities and duplicate-root guards retained."
+}

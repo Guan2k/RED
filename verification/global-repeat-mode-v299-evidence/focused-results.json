@@ -1,0 +1,27 @@
+[
+  {
+    "script": "progress-rails-v299.cjs",
+    "passed": 202
+  },
+  {
+    "script": "progress-rails-negative-control-v299.cjs",
+    "passed": 9
+  },
+  {
+    "script": "health-edge-v299.cjs",
+    "passed": 2312
+  },
+  {
+    "script": "health-edge-negative-control-v299.cjs",
+    "passed": 10
+  },
+  {
+    "script": "hold-guidance-v299.cjs",
+    "passed": 16
+  },
+  {
+    "script": "global-repeat-mode-scope-v299.cjs",
+    "passed": 31,
+    "assertions": 979
+  }
+]

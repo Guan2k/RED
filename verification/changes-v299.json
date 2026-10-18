@@ -1,0 +1,22 @@
+[
+  {
+    "input": "src/index.template.html",
+    "before": "<div class=\"mini\"><select id=\"repeatParallel\" aria-label=\"循环补单方式\" title=\"单订单模式最多保留一张循环订单；并行模式仅为空闲的已建成工厂补单，每个模拟步最多一单，正常扣款并遵守保留资金和车型目标。切换不取消已付订单。\" style=\"width:100%;min-width:0;max-width:100%\" disabled><option value=\"single\" selected>循环补单：单订单（默认）</option><option value=\"parallel\">循环补单：空闲工厂并行</option></select></div>",
+    "after": "<div class=\"mini\"><select id=\"repeatParallel\" aria-label=\"全局循环补单方式\" aria-describedby=\"repeatParallelScopeHint\" title=\"仅用于全局循环；本厂独立循环不受此设置影响。全局关闭时可预设，开启全局车型后生效。单订单模式最多保留一张循环订单；并行模式仅为空闲的已建成工厂补单，每个模拟步最多一单，正常扣款并遵守保留资金和车型目标。切换不取消已付订单。\" style=\"width:100%;min-width:0;max-width:100%\" disabled><option value=\"single\" selected>全局补单：单订单（默认）</option><option value=\"parallel\">全局补单：空闲工厂并行</option></select></div><p id=\"repeatParallelScopeHint\" class=\"hint\" style=\"white-space:normal;overflow-wrap:anywhere\">仅设置全局补单方式；本厂独立循环不受影响。全局关闭时可预设，开启全局车型后生效。</p>"
+  },
+  {
+    "input": "src/script/02-gameplay.jsfrag",
+    "before": "循环补单改为按空闲工厂并行；每个模拟步最多一单，正常扣款",
+    "after": "全局循环补单方式设为按空闲工厂并行；每个模拟步最多一单，正常扣款；本厂独立循环不受影响"
+  },
+  {
+    "input": "src/script/02-gameplay.jsfrag",
+    "before": "循环补单改为单订单；已有付费订单保留",
+    "after": "全局循环补单方式设为单订单；已有付费订单保留；本厂独立循环不受影响"
+  },
+  {
+    "input": "src/index.template.html",
+    "before": "ORIGINAL RTS / v0.298",
+    "after": "ORIGINAL RTS / v0.299"
+  }
+]

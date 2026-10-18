@@ -1,0 +1,23 @@
+{
+  "baseSourceSha256": "d03faa6beca0518edea4d5b07fbf8f6940ae2faba257af9b65d81690be998107",
+  "sourceSha256": "0113fe16d55a5eebdb68ccc8615d1dd4c935bd0dd32068b02db8bb081d82c071",
+  "changedParentFiles": [
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "SHA256SUMS.txt",
+    "index.html",
+    "CURRENT_PLAYER_GUIDE.md",
+    "QA_STATUS.md",
+    "current-verification.json",
+    "README.md",
+    "source-build-receipt.json",
+    "src/index.template.html",
+    "src/script/02-gameplay.jsfrag"
+  ],
+  "baseFiles": 1568,
+  "allHistoricalVerificationFilesUnchanged": true,
+  "sourceInputs": [
+    "src/index.template.html",
+    "src/script/02-gameplay.jsfrag"
+  ],
+  "changeScope": "One global repeat mode template block, two receipt text literals, visible version only; strict exact v298 restoration."
+}

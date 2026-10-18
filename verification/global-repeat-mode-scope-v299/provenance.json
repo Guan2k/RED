@@ -1,0 +1,31 @@
+{
+  "suite": "verification/global-repeat-mode-scope-v299.cjs",
+  "currentSourceSha256": "0113fe16d55a5eebdb68ccc8615d1dd4c935bd0dd32068b02db8bb081d82c071",
+  "restoredV298Sha256": "d03faa6beca0518edea4d5b07fbf8f6940ae2faba257af9b65d81690be998107",
+  "prototypeTestSha256": "71428b81a7a89b4bd3bea4575f4bbc8eba98cf3b1e605ad659e3046cad26f18e",
+  "independentReviewTestSha256": "d7d7f2b84860ecb21ac37c70c691fc0d18729f7e6d2e4c7720a0fdc1a3dfe312",
+  "prototypeCoverageRetained": [
+    "Natural Start/build-card/pointer route, power and two factories",
+    "Accessible selector, title, two options, hint and both receipts",
+    "Parallel/single/parallel actual mode transitions",
+    "200 progression comparisons and four completed scouts",
+    "Global-off preset and global single/parallel 1/2 orders",
+    "Complete executable restoration after two receipt reversals",
+    "All eight original wording negatives"
+  ],
+  "independentReviewCoverageRetained": [
+    "Six fresh pairs: off/factory/global crossed with single/parallel",
+    "Every paired state log retained, only exact approved receipts normalized",
+    "81 full-state snapshots per pair and equal RNG",
+    "Five shared reserve/type/target selectors byte-identical",
+    "Independent factory orders and cash unaffected across modes"
+  ],
+  "strengthenedControls": [
+    "Explicit normal construction and production costs",
+    "200-step proof now retains full logs and all independent-review core fields",
+    "23 diagnostic-specific wording, executable and offline snapshot controls",
+    "Strict hash-locked v299 to v298 restoration",
+    "Minimal six-file portable host replay with exact complete report equality"
+  ],
+  "preservation": "Only the new mode suite and its new evidence/helper directory are owned by this task; existing verification programs, product, source builder and aggregate runners were not edited."
+}

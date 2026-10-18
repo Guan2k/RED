@@ -1,0 +1,12 @@
+{
+  "baseFiles": 1568,
+  "missing": [],
+  "changed": [
+    "index.html",
+    "source-build-receipt.json",
+    "src/index.template.html",
+    "src/script/02-gameplay.jsfrag"
+  ],
+  "exactSourceRestoration": true,
+  "holdHintsPreserved": true
+}

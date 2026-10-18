@@ -1,0 +1,57 @@
+{
+  "review.cjs": {
+    "sha": "0113fe16d55a5eebdb68ccc8615d1dd4c935bd0dd32068b02db8bb081d82c071",
+    "checks": 520,
+    "passed": true,
+    "scenarios": [
+      {
+        "scope": "off",
+        "mode": "single",
+        "cash": 1090,
+        "queue": 0,
+        "produced": 0
+      },
+      {
+        "scope": "off",
+        "mode": "parallel",
+        "cash": 1090,
+        "queue": 0,
+        "produced": 0
+      },
+      {
+        "scope": "factory",
+        "mode": "single",
+        "cash": 730,
+        "queue": 2,
+        "produced": 0
+      },
+      {
+        "scope": "factory",
+        "mode": "parallel",
+        "cash": 730,
+        "queue": 2,
+        "produced": 0
+      },
+      {
+        "scope": "global",
+        "mode": "single",
+        "cash": 910,
+        "queue": 1,
+        "produced": 0
+      },
+      {
+        "scope": "global",
+        "mode": "parallel",
+        "cash": 730,
+        "queue": 2,
+        "produced": 0
+      }
+    ],
+    "scope": "Independent natural UI construction; no world injection; full core snapshots retain all logs with only exact two known receipt strings normalized. No persistence harness. Simulation step VM, no native browser proof."
+  },
+  "adapters.cjs": {
+    "passed": 50,
+    "failed": 0,
+    "scope": "Independent current projection physical reversal to v298 plus retained control fields and unexpected attributes; no persistence harness."
+  }
+}
