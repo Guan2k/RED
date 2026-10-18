@@ -1,0 +1,116 @@
+{
+  "scope": "Selected current-source chain-sensitive wrappers, exact restoration, two adapted inherited comparators, guide semantic and projection controls, synthetic entry tests (165 only; two genuine check-only cases deferred to final package). Not the full aggregate.",
+  "sourceSha256": "87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e",
+  "programs": [
+    {
+      "name": "command-allocation-feedback-v300.cjs",
+      "exit": 0,
+      "passed": 104,
+      "failed": 0,
+      "seconds": 3.4,
+      "sha256": "cfdc17b993e55a8c2df9f99d14f809f7c681c5b5455f8a6dc9907ab965972599"
+    },
+    {
+      "name": "health-edge-v300.cjs",
+      "exit": 0,
+      "passed": 2312,
+      "failed": 0,
+      "seconds": 2.1,
+      "sha256": "ec56de6bfbab8bf0ecd5252aacacb4aef3f3fa347866058d09bbd8ac07526ce9"
+    },
+    {
+      "name": "render-preview-v300.cjs",
+      "exit": 0,
+      "passed": 78,
+      "failed": 0,
+      "seconds": 33.3,
+      "sha256": "66c01b65434531c2eadcdd3b9c047524e0dca2e3768253f2a7c776cbbcb3f5ed"
+    },
+    {
+      "name": "building-preview-v300.cjs",
+      "exit": 0,
+      "passed": 450,
+      "failed": 0,
+      "seconds": 14.7,
+      "sha256": "f6c90630a71cfc7d27f656786377f48beaaa8eeb76a4b4ec8b5bd0fb562dfe93"
+    },
+    {
+      "name": "run-pilot-release-v300.cjs",
+      "exit": 0,
+      "passed": null,
+      "failed": 0,
+      "seconds": 7.5,
+      "sha256": "92ccc095476d83e6c8afb0e4fbc4dad2ce7c2c7b4547099f32d8053eeea8df43"
+    },
+    {
+      "name": "coordinate-command-natural-v300.cjs",
+      "exit": 0,
+      "passed": 4,
+      "failed": 0,
+      "seconds": 2.2,
+      "sha256": "cd2a23cc15e7eb93145c86b88878ae7b3629c15e9c7e64726d70f866203a3dc8"
+    },
+    {
+      "name": "global-repeat-mode-scope-v300.cjs",
+      "exit": 0,
+      "passed": 31,
+      "failed": 0,
+      "seconds": 3.4,
+      "sha256": "ea6d61de12e3c1bbab95635acb959a0137bd2fa006651bba2b5cdecf34d762b4"
+    },
+    {
+      "name": "hold-guidance-v300.cjs",
+      "exit": 0,
+      "passed": 16,
+      "failed": 0,
+      "seconds": 4.5,
+      "sha256": "224c0354d4d8c15144d59f71e52224dd163bbfad040cea7506a59c6dd90a4fb2"
+    },
+    {
+      "name": "progress-rails-v300.cjs",
+      "exit": 0,
+      "passed": 202,
+      "failed": 0,
+      "seconds": 4.8,
+      "sha256": "ff30b658d1c92507685eb15ac64f7c7546e98ea04d89ecf96d71c3ca87aad6b8"
+    },
+    {
+      "name": "progress-rails-negative-control-v300.cjs",
+      "exit": 0,
+      "passed": 9,
+      "failed": 0,
+      "seconds": 0.7,
+      "sha256": "6e7fd283b69a956c07a4c21d81c0b3b8b2918b8bd13f7bad95099202b6c96671"
+    },
+    {
+      "name": "repair-button-repeat",
+      "passed": 57,
+      "failed": 0,
+      "sha256": "fa93ef8a136834009d06614a58bb8974f9310bae275218f98e7bd19d07ce558b"
+    },
+    {
+      "name": "attack-pressed",
+      "passed": 42,
+      "failed": 0,
+      "sha256": "84fef8d0b3bb9196f4c13ddc059356d10c25d88bfed6bc0a67ce0e885fd31da2"
+    },
+    {
+      "name": "entry-synthetic",
+      "passed": 165,
+      "failed": 0,
+      "sha256": "7da8925a31b69a421cfd98f0cfe8bf4014e0f43ae2c313bc50d3cdf4011dab67"
+    },
+    {
+      "name": "beginner-guide",
+      "passed": 41,
+      "failed": 0,
+      "sha256": "c43d253cd209a6dc778b3f10aaea81d68eea4c5c5bc5a613f8b8d16e3d33567b"
+    },
+    {
+      "name": "inherit-dom-v300-negative-control",
+      "passed": 250,
+      "failed": 0,
+      "assertions": 253
+    }
+  ]
+}

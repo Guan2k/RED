@@ -1,0 +1,6 @@
+{
+  "sha": "63f69da0e0625100dafa2b28ef638f3a6e7932e7c25f4f1b94750efdef84bda4",
+  "passed": 67,
+  "failed": 0,
+  "scope": "Exact sole subtree insertion; no-persistence VM; modeled native toggle and Space/Enter listener boundary across initial/active/paused/restart/terminal. Native activation/layout unverified."
+}

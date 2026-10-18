@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "relocatedBuilderByteIdentical": true,
+  "sourceInputsMatchFrozenRelease": true,
+  "frozenInputs": {
+    "index.html": "87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e",
+    "README.md": "eaf7751d8d2a62091a57e0d222a7bd554637344b4cf76f52dd5decb717b61ab2",
+    "CURRENT_PLAYER_GUIDE.md": "268018fded9a14a1888728d80599b83196a1643452328962e92ac2c32d67ea25"
+  },
+  "archiveSha256": "8cbbaaf61c29a71c730416e7df3f5edb3b98e69901f9b1096648f3c4c0aa8496",
+  "archiveBytes": 534285,
+  "files": [
+    "RED-v0.300-player/CURRENT_PLAYER_GUIDE.md",
+    "RED-v0.300-player/README.md",
+    "RED-v0.300-player/SHA256SUMS.txt",
+    "RED-v0.300-player/index.html"
+  ]
+}

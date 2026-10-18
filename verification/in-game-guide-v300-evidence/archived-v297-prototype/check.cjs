@@ -1,0 +1,48 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const root=__dirname,base=path.resolve(root,'../v297-beginner-guide/RED/index.html'),source=path.join(root,'index.html'),fragment=fs.readFileSync(path.resolve(root,'../in-game-beginner-guide-plan/proposed-fragment.html'),'utf8'),old=fs.readFileSync(base,'utf8'),html=fs.readFileSync(source,'utf8'),{loadGame}=require('../v297-beginner-guide/RED/verification/vm-environment.cjs');
+const sha=s=>crypto.createHash('sha256').update(s).digest('hex'),plain=v=>JSON.parse(JSON.stringify(v)),results=[];let assertions=0;
+const eq=(a,b,m)=>{assert.deepEqual(plain(a),plain(b),m);assertions++},ok=(x,m)=>{assert.ok(x,m);assertions++},test=(name,fn)=>{fn();results.push({name,passed:true})};
+const script=s=>s.match(/<script\b[^>]*>([\s\S]*?)<\/script>/)[1],style=s=>s.match(/<style>([\s\S]*?)<\/style>/)[1];
+function checkText(f){assert.ok(/^<details id="beginnerSurvivalGuide" class="controls-help" aria-describedby="beginnerSurvivalScope">/.test(f),'default closed root');assert.equal((f.match(/<details\b/g)||[]).length,1,'one details');assert.ok(!/<(?:script|style|a|link|button|input|select|textarea|iframe|canvas)\b/i.test(f),'read-only native content only');assert.ok(!/\son[a-z]+\s*=|\stabindex\s*=|\bhidden\b|\baria-live="(?:polite|assertive)"/.test(f),'no scripted interaction, focus override, hidden or announcements');assert.equal((f.match(/<li>/g)||[]).length,6,'six steps');assert.ok(f.includes('<summary>休闲守卫入门参考</summary>'),'native summary');for(const needle of ['展开说明不会自动暂停，阅读时可点击“暂停”按钮','焦点在本说明标题上时，空格用于展开或收起说明，不会暂停战局','准备新局时选择以下配置；这里不会切换当前战局','斜线前哨 · 守卫 · 休闲难度 · 标准规则','初始1700余600','合计1100','（100,500）','（400,520）','（360,600）','（340,570）','取消待放置','输入框外按Esc','无论是否买车或修理，检查完都点“继续”','不开启“新战车：改为坚守”或“抵达后坚守”','资金至少700','资金至少400','不高于75%','每种策略内三组种子的已记录轨迹相同','不能当作多种随机战况的胜率统计','尚未验证真实浏览器落点误差或新手实操','以实际胜利提示为准'])assert.ok(f.includes(needle),'required instruction '+needle);assert.ok(f.includes('先设“循环车型目标：5（含订单）”，再设“循环补单保留：300”，最后开“全局循环：主战坦克 · 350”'),'exact settings order');}
+function shape(g){const roots=g.elements.filter(e=>e.id==='beginnerSurvivalGuide');assert.equal(roots.length,1);const r=roots[0];assert.equal(r.tagName,'DETAILS');assert.equal(r.parentNode.parentNode.tagName,'ASIDE');assert.equal(r.getAttribute('open'),null);assert.equal(r.hidden,false);const i=r.parentNode.children.indexOf(r);assert.equal(r.parentNode.children[i-1].id,'openingPractice');assert.equal(r.parentNode.children[i+1].id,'unitReference');assert.equal(r.children[0].tagName,'SUMMARY');assert.equal(r.children[0].getAttribute('tabindex'),null);assert.equal(r.getAttribute('aria-describedby'),'beginnerSurvivalScope');assert.ok(g.element('beginnerSurvivalScope').parentNode===r);}
+function dom(g,project=false){const roots=g.elements.filter(e=>e.id==='beginnerSurvivalGuide');assert.ok(roots.length<=1,'unique guide root');const inGuide=e=>{for(let n=e;n;n=n.parentNode)if(roots.includes(n))return true;return false},es=project?g.elements.filter(e=>!inGuide(e)):g.elements,index=new Map(es.map((e,i)=>[e,i]));return es.map(e=>{const fields={};for(const[k,v]of Object.entries(e))if(v===null||['string','number','boolean'].includes(typeof v))fields[k]=v;return{fields,attributes:{...e.attributes},style:{...e.style},dataset:{...e.dataset},children:e.children.filter(c=>!project||!inGuide(c)).map(c=>index.get(c)),parent:index.get(e.parentNode)??null}})}
+const world=g=>g.run('JSON.stringify({state,uid,selection:[...selection],groups,placement,attackMode,ordinaryCommandMode,appendCommandMode,drag,restartPrompt,simulationRemainder,navigation:state.entities.map(e=>[e.id,navigationMemory.get(e)])})');
+function field(g,id,value){const e=g.element(id);assert.equal(e.disabled,false);e.value=String(value);e.dispatchEvent({type:'change'})}
+test('exact single-subtree insertion with unchanged script, styles, display version and all prior markup',()=>{checkText(fragment);eq(html.replace(fragment,''),old,'exact inverse insertion');eq(script(html),script(old),'whole JS exact');eq(style(html),style(old),'whole CSS exact');eq(sha(old),require('./identity.json').baseSha256,'exact pinned baseline');ok(!html.includes('v0.298')&&!html.includes('v0.299'),'not versioned release');});
+test('menu placement outside overlay and native closed semantics',()=>{const g=loadGame(source);shape(g);eq(dom(g,true),dom(loadGame(base)),'all existing DOM fields/order preserved');ok(g.element('beginnerSurvivalGuide').parentNode.parentNode.tagName==='ASIDE','not in map or overlay')});
+const maps=loadGame(base).element('scenario').children.filter(e=>e.tagName==='OPTION').map(e=>e.value);eq(maps.length,8,'eight configured maps');
+for(const map of maps)test(map+' initial world, settings, all old DOM, read-only opening and summary key boundary',()=>{
+ const gs=[base,source].map(s=>loadGame(s,{seed:29801}));for(const g of gs){field(g,'scenario',map);g.start()}const [b,g]=gs;shape(g);eq(world(g),world(b),'entire initial gameplay state equal');eq(dom(g,true),dom(b),'all prior markup and control state equal');
+ const detail=g.element('beginnerSurvivalGuide'),summary=detail.children[0],before=world(g),storage=[...g.storage];summary.focus();
+ for(const [key,code]of [[' ','Space'],['Enter','Enter']])for(const repeat of [false,true]){let prevented=false;g.dispatch('keydown',{key,code,repeat,target:summary,preventDefault(){prevented=true}});g.dispatch('keyup',{key,code,repeat,target:summary});eq(world(g),before,'summary '+key+' does not pause or alter game');eq(prevented,false,'native summary activation not prevented')}
+ // Native details toggling itself is NOT simulated by this VM. This only probes absence of gameplay side effects after modeled native open/close.
+ detail.setAttribute('open','');detail.dispatchEvent({type:'toggle'});eq(world(g),before,'modeled native opening read-only');detail.removeAttribute('open');detail.dispatchEvent({type:'toggle'});eq(world(g),before,'modeled native closing read-only');eq([...g.storage],storage,'no storage effects');
+ // Existing non-activation shortcuts remain exactly as before, including while a summary is focused.
+ b.element('unitReference').children[0].focus();for(const x of gs)x.dispatch('keydown',{key:'f',code:'KeyF',repeat:false});eq(world(g),world(b),'existing F shortcut preserved');for(const x of gs)x.dispatch('keydown',{key:'h',code:'KeyH',repeat:false});eq(world(g),world(b),'existing H shortcut preserved');
+});
+for(const [name,mutate]of [
+ ['missing explicit pause-button instruction',s=>s.replace('展开说明不会自动暂停，阅读时可点击“暂停”按钮','按空格自动暂停')],
+ ['wrong summary Space instruction',s=>s.replace('焦点在本说明标题上时，空格用于展开或收起说明，不会暂停战局','聚焦标题后按空格暂停战局')],
+ ['default-open root',s=>s.replace('class="controls-help"','open class="controls-help"')],
+ ['new auto-action button',s=>s.replace('</details>','<button>自动配置</button></details>')],
+ ['external link dependency',s=>s.replace('</details>','<a href="https://example.com">攻略</a></details>')],
+ ['summary custom key handler',s=>s.replace('<summary>','<summary onkeydown="x()">')],
+ ['lost scope difficulty',s=>s.replace('休闲难度 · 标准规则','标准难度 · 标准规则')],
+ ['wrong opening budget',s=>s.replace('初始1700余600','初始1700余700')],
+ ['wrong coordinate',s=>s.replace('（100,500）','（100,400）')],
+ ['missing placement recovery',s=>s.replace('取消待放置','忽略预览')],
+ ['repeat order changed',s=>s.replace('先设“循环车型目标：5（含订单）”，再设“循环补单保留：300”，最后开“全局循环：主战坦克 · 350”','先开“全局循环：主战坦克 · 350”，再设目标和保留')],
+ ['missing continue after every check',s=>s.replace('无论是否买车或修理，检查完都点“继续”','有修理时再继续')],
+ ['arrival hold inverted',s=>s.replace('不开启“新战车：改为坚守”或“抵达后坚守”','开启“新战车：改为坚守”或“抵达后坚守”')],
+ ['seed limit dropped',s=>s.replace('每种策略内三组种子的已记录轨迹相同','多种种子独立证明必胜')],
+ ['native proof falsely claimed',s=>s.replace('尚未验证真实浏览器落点误差或新手实操','真实浏览器与新手实操均验证通过')]
+])test('negative '+name,()=>{assert.throws(()=>checkText(mutate(fragment)),{code:'ERR_ASSERTION'});assertions++});
+for(const [name,mutate]of [
+ ['root moved to overlay',g=>g.element('gameModal').appendChild(g.element('beginnerSurvivalGuide'))],
+ ['duplicate root',g=>{const n=g.document.createElement('details');n.id='beginnerSurvivalGuide';g.element('beginnerSurvivalGuide').parentNode.appendChild(n)}],
+ ['summary tabindex override',g=>g.element('beginnerSurvivalGuide').children[0].setAttribute('tabindex','-1')]
+])test('negative '+name,()=>{const g=loadGame(source);mutate(g);assert.throws(()=>shape(g),{code:'ERR_ASSERTION'});assertions++});
+test('projection retains unrelated existing fields and similar IDs',()=>{const g=loadGame(source),before=dom(g,true);g.element('unitReference').hidden=true;assert.notDeepEqual(dom(g,true),before);const h=loadGame(source),old=dom(h,true),n=h.document.createElement('p');n.id='beginnerSurvivalGuideOther';h.element('beginnerSurvivalGuide').parentNode.appendChild(n);assert.notDeepEqual(dom(h,true),old);assertions+=2});
+test('product and prototype read-only throughout checks',()=>{eq(fs.readFileSync(base,'utf8'),old,'baseline unchanged');eq(fs.readFileSync(source,'utf8'),html,'prototype unchanged')});
+console.log(JSON.stringify({sourceSha256:sha(html),baselineSha256:sha(old),passed:results.length,failed:0,assertions,maps,scope:'Isolated no-version-bump prototype. Whole script/style exact; static native details semantics, eight-map initial world and retained-DOM comparisons, summary Space/Enter existing-handler boundaries, modeled toggle no-side-effects, semantic negatives. VM does not implement native details keyboard activation, layout, screen reader or browser storage; those remain unverified. No aggregate or published/product candidate changes.',results},null,2));

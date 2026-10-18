@@ -1,0 +1,5 @@
+{
+  "passed": 54,
+  "failed": 0,
+  "scope": "Three actual current projections: physical subtree removal equality, retained adjacent controls/fields, similar sibling ID, detached descendant"
+}

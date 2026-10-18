@@ -1,0 +1,6 @@
+{
+  "base": "v297-beginner-guide/RED/index.html",
+  "baseSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "prototypeSha256": "98b4fe507400519de98173e3d7b097f7572ae46365b44030586638f09dee7839",
+  "scope": "Isolated prototype only, unchanged v0.297 display version; not a release or a v298/v299 source edit."
+}

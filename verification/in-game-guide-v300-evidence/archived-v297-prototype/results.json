@@ -1,0 +1,140 @@
+{
+  "sourceSha256": "98b4fe507400519de98173e3d7b097f7572ae46365b44030586638f09dee7839",
+  "baselineSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "passed": 30,
+  "failed": 0,
+  "assertions": 150,
+  "maps": [
+    "classic",
+    "frontier",
+    "canyon",
+    "ridge",
+    "crossroads",
+    "switchback",
+    "ring",
+    "meridian"
+  ],
+  "scope": "Isolated no-version-bump prototype. Whole script/style exact; static native details semantics, eight-map initial world and retained-DOM comparisons, summary Space/Enter existing-handler boundaries, modeled toggle no-side-effects, semantic negatives. VM does not implement native details keyboard activation, layout, screen reader or browser storage; those remain unverified. No aggregate or published/product candidate changes.",
+  "results": [
+    {
+      "name": "exact single-subtree insertion with unchanged script, styles, display version and all prior markup",
+      "passed": true
+    },
+    {
+      "name": "menu placement outside overlay and native closed semantics",
+      "passed": true
+    },
+    {
+      "name": "classic initial world, settings, all old DOM, read-only opening and summary key boundary",
+      "passed": true
+    },
+    {
+      "name": "frontier initial world, settings, all old DOM, read-only opening and summary key boundary",
+      "passed": true
+    },
+    {
+      "name": "canyon initial world, settings, all old DOM, read-only opening and summary key boundary",
+      "passed": true
+    },
+    {
+      "name": "ridge initial world, settings, all old DOM, read-only opening and summary key boundary",
+      "passed": true
+    },
+    {
+      "name": "crossroads initial world, settings, all old DOM, read-only opening and summary key boundary",
+      "passed": true
+    },
+    {
+      "name": "switchback initial world, settings, all old DOM, read-only opening and summary key boundary",
+      "passed": true
+    },
+    {
+      "name": "ring initial world, settings, all old DOM, read-only opening and summary key boundary",
+      "passed": true
+    },
+    {
+      "name": "meridian initial world, settings, all old DOM, read-only opening and summary key boundary",
+      "passed": true
+    },
+    {
+      "name": "negative missing explicit pause-button instruction",
+      "passed": true
+    },
+    {
+      "name": "negative wrong summary Space instruction",
+      "passed": true
+    },
+    {
+      "name": "negative default-open root",
+      "passed": true
+    },
+    {
+      "name": "negative new auto-action button",
+      "passed": true
+    },
+    {
+      "name": "negative external link dependency",
+      "passed": true
+    },
+    {
+      "name": "negative summary custom key handler",
+      "passed": true
+    },
+    {
+      "name": "negative lost scope difficulty",
+      "passed": true
+    },
+    {
+      "name": "negative wrong opening budget",
+      "passed": true
+    },
+    {
+      "name": "negative wrong coordinate",
+      "passed": true
+    },
+    {
+      "name": "negative missing placement recovery",
+      "passed": true
+    },
+    {
+      "name": "negative repeat order changed",
+      "passed": true
+    },
+    {
+      "name": "negative missing continue after every check",
+      "passed": true
+    },
+    {
+      "name": "negative arrival hold inverted",
+      "passed": true
+    },
+    {
+      "name": "negative seed limit dropped",
+      "passed": true
+    },
+    {
+      "name": "negative native proof falsely claimed",
+      "passed": true
+    },
+    {
+      "name": "negative root moved to overlay",
+      "passed": true
+    },
+    {
+      "name": "negative duplicate root",
+      "passed": true
+    },
+    {
+      "name": "negative summary tabindex override",
+      "passed": true
+    },
+    {
+      "name": "projection retains unrelated existing fields and similar IDs",
+      "passed": true
+    },
+    {
+      "name": "product and prototype read-only throughout checks",
+      "passed": true
+    }
+  ]
+}

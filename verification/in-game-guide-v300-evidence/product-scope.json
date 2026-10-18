@@ -1,0 +1,8 @@
+{
+  "sourceSha256": "87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e",
+  "baselineSha256": "0113fe16d55a5eebdb68ccc8615d1dd4c935bd0dd32068b02db8bb081d82c071",
+  "approvedFragmentSha256": "ab376e9fb844cbe0ee645f609a6959963878b66a901abb2699a1de5c1d17c777",
+  "exactRemovalAndVersionRestoresV299": true,
+  "wholeScriptIdentical": true,
+  "wholeStyleIdentical": true
+}
