@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "file": "RED-休闲守卫入门指南-v297.html",
+  "sha256": "bfce87afeadbc5be60aa770157206905f8dd038e88195ad58eb101ceb5a7ea1d",
+  "bytes": 10228,
+  "steps": 6,
+  "localAnchorLinksVerified": true,
+  "inlineCssOnly": true,
+  "javascriptExternalAssetsAndNetworkReferences": false,
+  "sourceVersion": "v0.297",
+  "reviewCorrectionsIncluded": [
+    "cancel pending placement before orders, focus caveat and no charge",
+    "within-policy identical seeds, separate delayed policy",
+    "600 before loop orders, reserve only affects loop orders",
+    "always resume after maintenance even when no purchase/repair"
+  ],
+  "rendering": "LibreOffice Writer/Web conversion attempted and inspected: it does not preserve this HTML/CSS layout and clips output. Its PDF is not a deliverable or screen-layout validation. No browser rendering or native visual/accessibility acceptance claim.",
+  "reviewStatus": "Independent content reviewer passed; final requested always-resume maintenance sentence included."
+}

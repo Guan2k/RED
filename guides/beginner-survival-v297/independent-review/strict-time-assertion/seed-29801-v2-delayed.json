@@ -1,0 +1,1850 @@
+{
+  "seed": 29801,
+  "win": false,
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 360.00000000000125\n- 360\n     ^\n\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/beginner-survival-independent/verify-v2-delayed.cjs:14:92)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47",
+  "actions": [
+    {
+      "t": 0,
+      "action": "click quickSurvival",
+      "cash": 1700,
+      "label": ""
+    },
+    {
+      "t": 0,
+      "action": "change difficulty",
+      "cash": 1700,
+      "value": "easy"
+    },
+    {
+      "t": 0,
+      "action": "click start",
+      "cash": 1700,
+      "label": ""
+    },
+    {
+      "t": 0,
+      "action": "click pause",
+      "cash": 1700,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 0,
+      "action": "build power",
+      "cash": 1400,
+      "x": 100,
+      "y": 500,
+      "cost": 300
+    },
+    {
+      "t": 0,
+      "action": "build turret",
+      "cash": 950,
+      "x": 400,
+      "y": 520,
+      "cost": 450
+    },
+    {
+      "t": 0,
+      "action": "buy tank",
+      "cash": 600
+    },
+    {
+      "t": 0,
+      "action": "click selectAllFactories",
+      "cash": 600,
+      "label": "选择全部已完工工厂 · 1"
+    },
+    {
+      "t": 0,
+      "action": "ordinary map command",
+      "cash": 600,
+      "x": 360,
+      "y": 600,
+      "receipt": "最近地图命令：已接收 · 工厂集结点 1；0 个所选存活友方单位保留原命令/设置；下达时暂停，恢复后执行。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "t": 0,
+      "action": "click selectArmy",
+      "cash": 600,
+      "label": ""
+    },
+    {
+      "t": 0,
+      "action": "ordinary map command",
+      "cash": 600,
+      "x": 340,
+      "y": 570,
+      "receipt": "最近地图命令：已接收 · 移动 3；0 个所选存活友方单位保留原命令/设置；下达时暂停，恢复后执行。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "t": 0,
+      "action": "change repeatTarget",
+      "cash": 600,
+      "value": "5"
+    },
+    {
+      "t": 0,
+      "action": "change repeatReserve",
+      "cash": 600,
+      "value": "300"
+    },
+    {
+      "t": 0,
+      "action": "change repeatProduction",
+      "cash": 600,
+      "value": "tank"
+    },
+    {
+      "t": 0,
+      "action": "click pause",
+      "cash": 600,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 45.949999999998674,
+      "action": "click pause",
+      "cash": 1340,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 45.949999999998674,
+      "action": "click pause",
+      "cash": 1340,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 75.89999999999698,
+      "action": "click pause",
+      "cash": 2420,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 75.89999999999698,
+      "action": "click pause",
+      "cash": 2420,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 105.84999999999528,
+      "action": "click pause",
+      "cash": 3150,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 105.84999999999528,
+      "action": "click selectDamagedBuilding",
+      "cash": 3150,
+      "label": "选择受损建筑 [B] · 1"
+    },
+    {
+      "t": 105.84999999999528,
+      "action": "click repair",
+      "cash": 3090,
+      "label": "修理防御炮塔 +180 / 60资金 [R]"
+    },
+    {
+      "t": 105.84999999999528,
+      "action": "paid building repair",
+      "cash": 3090,
+      "label": "修理防御炮塔 +180 / 60资金 [R]",
+      "target": "turret"
+    },
+    {
+      "t": 105.84999999999528,
+      "action": "click pause",
+      "cash": 3090,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 135.8000000000002,
+      "action": "click pause",
+      "cash": 3820,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 135.8000000000002,
+      "action": "click selectDamagedBuilding",
+      "cash": 3820,
+      "label": "选择受损建筑 [B] · 1"
+    },
+    {
+      "t": 135.8000000000002,
+      "action": "click repair",
+      "cash": 3740,
+      "label": "修理防御炮塔 +240 / 80资金 [R]"
+    },
+    {
+      "t": 135.8000000000002,
+      "action": "paid building repair",
+      "cash": 3740,
+      "label": "修理防御炮塔 +240 / 80资金 [R]",
+      "target": "turret"
+    },
+    {
+      "t": 135.8000000000002,
+      "action": "click pause",
+      "cash": 3740,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 165.75000000002404,
+      "action": "click pause",
+      "cash": 4290,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 165.75000000002404,
+      "action": "click selectDamagedBuilding",
+      "cash": 4290,
+      "label": "选择受损建筑 [B] · 1"
+    },
+    {
+      "t": 165.75000000002404,
+      "action": "click repair",
+      "cash": 4190,
+      "label": "修理防御炮塔 +300 / 100资金 [R]"
+    },
+    {
+      "t": 165.75000000002404,
+      "action": "paid building repair",
+      "cash": 4190,
+      "label": "修理防御炮塔 +300 / 100资金 [R]",
+      "target": "turret"
+    },
+    {
+      "t": 165.75000000002404,
+      "action": "click pause",
+      "cash": 4190,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 195.70000000004788,
+      "action": "click pause",
+      "cash": 5270,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 195.70000000004788,
+      "action": "click selectDamagedBuilding",
+      "cash": 5270,
+      "label": "选择受损建筑 [B] · 1"
+    },
+    {
+      "t": 195.70000000004788,
+      "action": "click pause",
+      "cash": 5270,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 225.6500000000717,
+      "action": "click pause",
+      "cash": 6350,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 225.6500000000717,
+      "action": "click selectDamagedBuilding",
+      "cash": 6350,
+      "label": "选择受损建筑 [B] · 1"
+    },
+    {
+      "t": 225.6500000000717,
+      "action": "click pause",
+      "cash": 6350,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 255.60000000009555,
+      "action": "click pause",
+      "cash": 6730,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 255.60000000009555,
+      "action": "click pause",
+      "cash": 6730,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 285.55000000006896,
+      "action": "click pause",
+      "cash": 7460,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 285.55000000006896,
+      "action": "click pause",
+      "cash": 7460,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 315.5000000000417,
+      "action": "click pause",
+      "cash": 6590,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 315.5000000000417,
+      "action": "buy harvester",
+      "cash": 6190
+    },
+    {
+      "t": 315.5000000000417,
+      "action": "click pause",
+      "cash": 6190,
+      "label": "继续 [空格]"
+    },
+    {
+      "t": 345.4500000000145,
+      "action": "click pause",
+      "cash": 4790,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 345.4500000000145,
+      "action": "buy harvester",
+      "cash": 4390
+    },
+    {
+      "t": 345.4500000000145,
+      "action": "click pause",
+      "cash": 4390,
+      "label": "继续 [空格]"
+    }
+  ],
+  "checkpoints": [
+    {
+      "t": 0,
+      "result": null,
+      "cash": 600,
+      "harvested": 0,
+      "produced": 0,
+      "losses": 0,
+      "power": {
+        "supply": 120,
+        "demand": 80
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 310,
+          "x": 350,
+          "y": 660,
+          "build": 0
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "hp": 230,
+          "x": 320,
+          "y": 540,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 230,
+          "x": 360,
+          "y": 580,
+          "build": 0
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "hp": 105,
+          "x": 265,
+          "y": 505,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 5
+        },
+        {
+          "id": 20,
+          "type": "turret",
+          "hp": 650,
+          "x": 400,
+          "y": 520,
+          "build": 7
+        }
+      ],
+      "queue": [
+        {
+          "type": "tank",
+          "left": 6,
+          "total": 6,
+          "factoryId": 4
+        }
+      ]
+    },
+    {
+      "t": 45.949999999998674,
+      "result": null,
+      "cash": 1340,
+      "harvested": 1440,
+      "produced": 3,
+      "losses": 0,
+      "power": {
+        "supply": 220,
+        "demand": 105
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 310,
+          "x": 390.11383451557094,
+          "y": 638.5549633768319,
+          "build": 0
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "hp": 230,
+          "x": 345.26795339098334,
+          "y": 551.2261879719136,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 230,
+          "x": 334.01626673835335,
+          "y": 583.6495211962784,
+          "build": 0
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "hp": 105,
+          "x": 314.55854529617045,
+          "y": 545.8640636652635,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 20,
+          "type": "turret",
+          "hp": 650,
+          "x": 400,
+          "y": 520,
+          "build": 0
+        },
+        {
+          "id": 21,
+          "type": "tank",
+          "hp": 230,
+          "x": 409.66948187499645,
+          "y": 587.1990448552579,
+          "build": 0
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "hp": 230,
+          "x": 389.99328508377766,
+          "y": 696.4510069566587,
+          "build": 0
+        },
+        {
+          "id": 25,
+          "type": "tank",
+          "hp": 230,
+          "x": 453.24705591102736,
+          "y": 603.3572981131789,
+          "build": 0
+        }
+      ],
+      "queue": []
+    },
+    {
+      "t": 75.89999999999698,
+      "result": null,
+      "cash": 2420,
+      "harvested": 2520,
+      "produced": 3,
+      "losses": 0,
+      "power": {
+        "supply": 220,
+        "demand": 105
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 310,
+          "x": 390.1083118429875,
+          "y": 639.9630887848022,
+          "build": 0
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "hp": 230,
+          "x": 345.26795339098334,
+          "y": 551.2261879719136,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 230,
+          "x": 334.01626673835335,
+          "y": 583.6495211962784,
+          "build": 0
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "hp": 105,
+          "x": 314.55854529617045,
+          "y": 545.8640636652635,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 20,
+          "type": "turret",
+          "hp": 650,
+          "x": 400,
+          "y": 520,
+          "build": 0
+        },
+        {
+          "id": 21,
+          "type": "tank",
+          "hp": 230,
+          "x": 409.66948187499645,
+          "y": 587.1990448552579,
+          "build": 0
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "hp": 230,
+          "x": 389.99328508377766,
+          "y": 696.4510069566587,
+          "build": 0
+        },
+        {
+          "id": 25,
+          "type": "tank",
+          "hp": 230,
+          "x": 453.24705591102736,
+          "y": 603.3572981131789,
+          "build": 0
+        }
+      ],
+      "queue": []
+    },
+    {
+      "t": 105.84999999999528,
+      "result": null,
+      "cash": 3150,
+      "harvested": 3600,
+      "produced": 4,
+      "losses": 1,
+      "power": {
+        "supply": 220,
+        "demand": 105
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 310,
+          "x": 392.9816824054206,
+          "y": 627.0441016406694,
+          "build": 0
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "hp": 230,
+          "x": 345.26795339098334,
+          "y": 551.2261879719136,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 230,
+          "x": 334.01626673835335,
+          "y": 583.6495211962784,
+          "build": 0
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "hp": 105,
+          "x": 314.55854529617045,
+          "y": 545.8640636652635,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 20,
+          "type": "turret",
+          "hp": 470,
+          "x": 400,
+          "y": 520,
+          "build": 0
+        },
+        {
+          "id": 21,
+          "type": "tank",
+          "hp": 230,
+          "x": 424.04030180067923,
+          "y": 580.3317641367897,
+          "build": 0
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "hp": 230,
+          "x": 390.026135063865,
+          "y": 696.5189570192224,
+          "build": 0
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "hp": 230,
+          "x": 447.06887448549423,
+          "y": 611.0457418384052,
+          "build": 0
+        }
+      ],
+      "queue": []
+    },
+    {
+      "t": 135.8000000000002,
+      "result": null,
+      "cash": 3820,
+      "harvested": 4680,
+      "produced": 5,
+      "losses": 2,
+      "power": {
+        "supply": 220,
+        "demand": 105
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 310,
+          "x": 390.3871191229123,
+          "y": 636.8123113731755,
+          "build": 0
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "hp": 230,
+          "x": 345.26795339098334,
+          "y": 551.2261879719136,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 230,
+          "x": 334.01626673835335,
+          "y": 583.6495211962784,
+          "build": 0
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "hp": 105,
+          "x": 314.55854529617045,
+          "y": 545.8640636652635,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 20,
+          "type": "turret",
+          "hp": 410,
+          "x": 400,
+          "y": 520,
+          "build": 0
+        },
+        {
+          "id": 21,
+          "type": "tank",
+          "hp": 208.38483332568399,
+          "x": 424.04030180067923,
+          "y": 580.3317641367897,
+          "build": 0
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "hp": 230,
+          "x": 390.026135063865,
+          "y": 696.5189570192224,
+          "build": 0
+        },
+        {
+          "id": 32,
+          "type": "tank",
+          "hp": 134,
+          "x": 453.08131800419625,
+          "y": 603.1300719914112,
+          "build": 0
+        }
+      ],
+      "queue": []
+    },
+    {
+      "t": 165.75000000002404,
+      "result": null,
+      "cash": 4290,
+      "harvested": 5580,
+      "produced": 6,
+      "losses": 3,
+      "power": {
+        "supply": 220,
+        "demand": 105
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 310,
+          "x": 390.61369666197953,
+          "y": 634.8799262323449,
+          "build": 0
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "hp": 230,
+          "x": 345.26795339098334,
+          "y": 551.2261879719136,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 230,
+          "x": 334.01626673835335,
+          "y": 583.6495211962784,
+          "build": 0
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "hp": 105,
+          "x": 314.55854529617045,
+          "y": 545.8640636652635,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 20,
+          "type": "turret",
+          "hp": 290,
+          "x": 400,
+          "y": 520,
+          "build": 0
+        },
+        {
+          "id": 21,
+          "type": "tank",
+          "hp": 5.967789732107121,
+          "x": 447.4852327420516,
+          "y": 576.2058588442279,
+          "build": 0
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "hp": 230,
+          "x": 390.026135063865,
+          "y": 696.5189570192224,
+          "build": 0
+        },
+        {
+          "id": 33,
+          "type": "tank",
+          "hp": 205.4367839227323,
+          "x": 454.9993078541882,
+          "y": 604.2154763926553,
+          "build": 0
+        }
+      ],
+      "queue": []
+    },
+    {
+      "t": 195.70000000004788,
+      "result": null,
+      "cash": 5270,
+      "harvested": 6660,
+      "produced": 6,
+      "losses": 3,
+      "power": {
+        "supply": 220,
+        "demand": 105
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 310,
+          "x": 390.54510075053184,
+          "y": 639.888017296298,
+          "build": 0
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "hp": 230,
+          "x": 345.26795339098334,
+          "y": 551.2261879719136,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 230,
+          "x": 334.01626673835335,
+          "y": 583.6495211962784,
+          "build": 0
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "hp": 105,
+          "x": 314.55854529617045,
+          "y": 545.8640636652635,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 20,
+          "type": "turret",
+          "hp": 590,
+          "x": 400,
+          "y": 520,
+          "build": 0
+        },
+        {
+          "id": 21,
+          "type": "tank",
+          "hp": 5.967789732107121,
+          "x": 447.4852327420516,
+          "y": 576.2058588442279,
+          "build": 0
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "hp": 230,
+          "x": 390.026135063865,
+          "y": 696.5189570192224,
+          "build": 0
+        },
+        {
+          "id": 33,
+          "type": "tank",
+          "hp": 205.4367839227323,
+          "x": 454.9993078541882,
+          "y": 604.2154763926553,
+          "build": 0
+        }
+      ],
+      "queue": []
+    },
+    {
+      "t": 225.6500000000717,
+      "result": null,
+      "cash": 6350,
+      "harvested": 7740,
+      "produced": 6,
+      "losses": 3,
+      "power": {
+        "supply": 220,
+        "demand": 105
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 310,
+          "x": 390.5450679482903,
+          "y": 639.9975565621536,
+          "build": 0
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "hp": 230,
+          "x": 345.26795339098334,
+          "y": 551.2261879719136,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 230,
+          "x": 334.01626673835335,
+          "y": 583.6495211962784,
+          "build": 0
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "hp": 105,
+          "x": 314.55854529617045,
+          "y": 545.8640636652635,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 20,
+          "type": "turret",
+          "hp": 590,
+          "x": 400,
+          "y": 520,
+          "build": 0
+        },
+        {
+          "id": 21,
+          "type": "tank",
+          "hp": 5.967789732107121,
+          "x": 447.4852327420516,
+          "y": 576.2058588442279,
+          "build": 0
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "hp": 230,
+          "x": 390.026135063865,
+          "y": 696.5189570192224,
+          "build": 0
+        },
+        {
+          "id": 33,
+          "type": "tank",
+          "hp": 205.4367839227323,
+          "x": 454.9993078541882,
+          "y": 604.2154763926553,
+          "build": 0
+        }
+      ],
+      "queue": []
+    },
+    {
+      "t": 255.60000000009555,
+      "result": null,
+      "cash": 6730,
+      "harvested": 8820,
+      "produced": 7,
+      "losses": 7,
+      "power": {
+        "supply": 220,
+        "demand": 80
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 308.0767856817859,
+          "x": 390.54506793267154,
+          "y": 639.9999466847864,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 161,
+          "x": 308.77496354566205,
+          "y": 494.3983928273741,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 21,
+          "type": "tank",
+          "hp": 5.653291310033142,
+          "x": 334.07927233994405,
+          "y": 508.5649716819749,
+          "build": 0
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "hp": 136,
+          "x": 415.21148364003574,
+          "y": 671.9282639274998,
+          "build": 0
+        },
+        {
+          "id": 39,
+          "type": "tank",
+          "hp": 230,
+          "x": 355.83745706690036,
+          "y": 599.4234538512732,
+          "build": 0
+        }
+      ],
+      "queue": [
+        {
+          "type": "tank",
+          "left": 0.9166666666666842,
+          "total": 6,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      ]
+    },
+    {
+      "t": 285.55000000006896,
+      "result": null,
+      "cash": 7460,
+      "harvested": 9900,
+      "produced": 9,
+      "losses": 8,
+      "power": {
+        "supply": 220,
+        "demand": 80
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 11.883264811701821,
+          "x": 381.77781169630725,
+          "y": 614.3633450424973,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 161,
+          "x": 308.77496354566205,
+          "y": 494.3983928273741,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 21,
+          "type": "tank",
+          "hp": 5.653291310033142,
+          "x": 334.07927233994405,
+          "y": 508.5649716819749,
+          "build": 0
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "hp": 125.3773918590637,
+          "x": 415.21148364003574,
+          "y": 671.9282639274998,
+          "build": 0
+        },
+        {
+          "id": 39,
+          "type": "tank",
+          "hp": 215.12776931745208,
+          "x": 351.94628111078947,
+          "y": 594.8557883579616,
+          "build": 0
+        },
+        {
+          "id": 44,
+          "type": "tank",
+          "hp": 225.68,
+          "x": 395.32883244205925,
+          "y": 643.352478122812,
+          "build": 0
+        }
+      ],
+      "queue": []
+    },
+    {
+      "t": 315.5000000000417,
+      "result": null,
+      "cash": 6590,
+      "harvested": 10080,
+      "produced": 11,
+      "losses": 12,
+      "power": {
+        "supply": 220,
+        "demand": 80
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 115,
+          "x": 349.50766837890257,
+          "y": 492.4041342749847,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 39,
+          "type": "tank",
+          "hp": 38.12776931745208,
+          "x": 379.2829655660497,
+          "y": 573.9810237965278,
+          "build": 0
+        },
+        {
+          "id": 46,
+          "type": "tank",
+          "hp": 229.4676227388193,
+          "x": 378.52699733271396,
+          "y": 626.7458075320457,
+          "build": 0
+        },
+        {
+          "id": 48,
+          "type": "tank",
+          "hp": 230,
+          "x": 373.8364350155637,
+          "y": 655.3639595539518,
+          "build": 0
+        }
+      ],
+      "queue": [
+        {
+          "type": "tank",
+          "left": 3.366666666666676,
+          "total": 6,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      ]
+    },
+    {
+      "t": 345.4500000000145,
+      "result": null,
+      "cash": 4790,
+      "harvested": 10080,
+      "produced": 16,
+      "losses": 20,
+      "power": {
+        "supply": 220,
+        "demand": 80
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 55,
+          "type": "tank",
+          "hp": 230,
+          "x": 223.17476444502068,
+          "y": 655.5761492734863,
+          "build": 0
+        }
+      ],
+      "queue": [
+        {
+          "type": "tank",
+          "left": 4.500000000000005,
+          "total": 6,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      ]
+    },
+    {
+      "t": 360.00000000000125,
+      "result": "胜利",
+      "cash": 4040,
+      "harvested": 10080,
+      "produced": 18,
+      "losses": 22,
+      "power": {
+        "supply": 220,
+        "demand": 80
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 550,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 57,
+          "type": "harvester",
+          "hp": 310,
+          "x": 239.09301112542792,
+          "y": 622.8136800857399,
+          "build": 0
+        }
+      ],
+      "queue": [
+        {
+          "type": "tank",
+          "left": 2.983333333333344,
+          "total": 6,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      ]
+    },
+    {
+      "t": 360.00000000000125,
+      "result": "胜利",
+      "cash": 4040,
+      "harvested": 10080,
+      "produced": 18,
+      "losses": 22,
+      "power": {
+        "supply": 220,
+        "demand": 80
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 550,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 0
+        },
+        {
+          "id": 57,
+          "type": "harvester",
+          "hp": 310,
+          "x": 239.09301112542792,
+          "y": 622.8136800857399,
+          "build": 0
+        }
+      ],
+      "queue": [
+        {
+          "type": "tank",
+          "left": 2.983333333333344,
+          "total": 6,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      ]
+    }
+  ]
+}

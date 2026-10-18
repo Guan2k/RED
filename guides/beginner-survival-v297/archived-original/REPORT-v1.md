@@ -1,0 +1,13 @@
+# Beginner guide route v1: not viable
+
+No beginner success guide is recommended from this policy. All three predeclared fixed seeds29801/29802/29803 lost the HQ at295.25 game seconds, before the360-second survival target. The identical outcomes are three deterministic examples, not a universal loss rate or evidence that easy difficulty is unwinnable.
+
+Actual source ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d remained unchanged. Seven existing presets already span all five objectives; no additional preset or game version was created.
+
+The opening used existing quickSurvival then manually easy, normal Start and player Pause. Paid power300 at(100,500), turret450 at(400,520), tank350; factory rally(360,600) with arrival-hold, army move(340,570) with arrival-hold; existing global tank loop target5 and reserve300. At coarse30-second intervals, normal pause and visible free damaged-building selection/one paid repair if≤75%HP, or replacement harvester if absent and cash≥700. No enemy-target micro or state/AI/RNG/rule edits. Pauses are normal player actions; game time does not advance during them. Actual checks occur at the first one-second observation after each30-second threshold (up to approximately1second late).
+
+All runs observed first mineral delivery by5.95s and first paid vehicle by6.95s (one-second observation granularity). At30.95s:900 harvested,3 vehicles produced,HQ1800. Turret650→560HP at90.85s, gone by120.8s. Harvester77HP at180.7s, gone by210.65s. HQ1174HP at270.55s, destroyed295.25s. Final7200harvested,21vehicles produced,28 losses,7kills,473cash. Each trace has45 logged actions and11 checkpoints. This demonstrates that the prescribed stationary defense was insufficient, despite real production and coarse maintenance. It does not isolate the sole tactical cause.
+
+preliminary-stale-ui-v1 preserves the initial three t0 harness failures: rally was set, but the immediately following rally-hold click saw stale disabled UI before a scheduled frame refreshed it. The corrected harness drives actual RAF/frame updates, including paused UI refresh, and runs the same frozen policy/seeds. Those t0 failures are not gameplay losses. Final run-v1.stderr is empty; summary-v1.json and individual seed traces retain all genuine losses.
+
+No persistence operations or native browser test. The VM harness suppresses startup persistence and installs throwing guards. Tests and policy files live outside the game package. Any further route revision must be separately predeclared, preserve these results, and earn its own evidence before a guide is drafted.

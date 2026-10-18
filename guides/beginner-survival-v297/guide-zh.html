@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="RED v0.297 休闲守卫入门练习：暂停布置、补兵和维修。独立指南，不是必胜攻略。">
+<title>RED · 休闲守卫入门练习</title>
+<style>
+:root{color-scheme:dark;--bg:#11271f;--panel:#1c352a;--cream:#f4edd9;--muted:#c0ccb9;--line:#45604b;--gold:#e1c87b;--light:#a8c99c}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:system-ui,-apple-system,"Noto Sans CJK SC","Microsoft YaHei",sans-serif;font-size:17px;line-height:1.8}main{max-width:950px;margin:auto;padding:48px 26px 64px}header{padding-bottom:30px;border-bottom:1px solid var(--line)}.eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;color:var(--gold);margin:0 0 12px}h1{font-size:clamp(30px,5vw,48px);line-height:1.25;margin:0 0 18px;letter-spacing:.02em}h1 span{display:block;color:var(--light);font-size:.6em;margin-top:12px}p{margin:10px 0}h2{font-size:24px;line-height:1.4;margin:0 0 13px}h3{font-size:18px;margin:16px 0 5px}.goal{font-size:21px;max-width:740px}.meta{font-size:14px;color:var(--muted)}.time{color:var(--gold);font-variant-numeric:tabular-nums;white-space:nowrap}.jump{display:inline-block;margin-top:15px;color:var(--cream);text-underline-offset:5px}a{color:var(--gold)}a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:6px}.steps{list-style:none;padding:0;margin:30px 0;counter-reset:step}.steps>li{position:relative;counter-increment:step;margin:0 0 22px;padding:26px 28px 26px 79px;background:var(--panel);border:1px solid var(--line);border-radius:10px}.steps>li:before{content:counter(step,decimal-leading-zero);position:absolute;left:23px;top:25px;color:var(--gold);font-size:22px;font-weight:700;font-variant-numeric:tabular-nums}strong{font-weight:750;color:#fff7dc}.label{color:#d9e8ce;font-weight:650}.note{font-size:15px;color:var(--muted)}.callout{margin:19px 0 0;padding:14px 18px;border-left:4px solid var(--gold);background:#293b29}.callout strong{color:var(--gold)}.callout p{margin:3px 0}.table-wrap{overflow-x:auto;margin:18px 0}table{border-collapse:collapse;width:100%;font-size:15px;text-align:left}caption{text-align:left;font-size:14px;color:var(--gold);padding:0 0 8px}th,td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-weight:600}thead th{background:#142b20}tfoot th,tfoot td{color:var(--cream);font-weight:700;border-bottom:none}.coordinate,.amount{white-space:nowrap;font-variant-numeric:tabular-nums}.settings{padding-left:23px}.settings li{margin:7px 0}.maintenance{padding-left:23px}.maintenance li{margin:10px 0}.finish{border-color:#7d9868!important}.finish h2{color:var(--light)}details{margin-top:36px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:19px 0;color:var(--muted);font-size:14px}summary{cursor:pointer;color:var(--cream);font-weight:650;font-size:16px}.evidence{padding-top:12px}.hash{overflow-wrap:anywhere;font-family:ui-monospace,monospace;font-size:12px;color:var(--muted)}footer{margin-top:22px;color:var(--muted);font-size:13px}kbd{font-family:inherit;padding:1px 6px;border:1px solid #73816a;border-bottom-width:2px;border-radius:4px;font-size:.88em;white-space:nowrap}@media(max-width:600px){main{padding:27px 16px 40px}.steps>li{padding:22px 18px 22px 58px}.steps>li:before{left:15px;top:22px;font-size:18px}h2{font-size:21px}body{font-size:16px}th,td{padding:8px 6px;font-size:13px}.goal{font-size:18px}}@media print{body{background:white;color:#172b20;font-size:11pt}main{max-width:none;padding:0}.steps>li{background:white;border-color:#aaa;break-inside:avoid}strong,.label,summary,h2,.goal{color:#172b20}.note,.meta,footer{color:#444}.callout{background:#f4f1df}thead th{background:#eee}th,td{color:#172b20}.jump{display:none}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<p class="eyebrow">RED / V0.297 / 入门练习</p>
+<h1>休闲守卫<span>先学会补兵与维修</span></h1>
+<p class="goal">让自己的指挥中心存活到游戏计时 <strong class="time">06:00</strong>。<br>暂停不计时；不必追着敌人进攻。</p>
+<p class="meta">独立操作指南 · 使用现有「斜线守卫」任务 · 可参考，不保证任意操作都获胜</p>
+<a class="jump" href="#steps">从六步开局开始 ↓</a>
+</header>
+<ol class="steps" id="steps" aria-label="六步练习">
+<li>
+<h2>选休闲，开始后立即暂停</h2>
+<p>在新战局菜单点<span class="label">「斜线守卫」</span>，把难度改为<span class="label">「休闲 · 敌军初始资金900 / 决策较慢」</span>，保持<span class="label">「标准规则」</span>。</p>
+<p>点「开始作战」，立即点<span class="label">「暂停 [空格]」</span>。暂停时可以慢慢安排开局。</p>
+</li>
+<li>
+<h2>先放两座建筑，再买一辆坦克</h2>
+<p>按顺序安排发电站、防御炮塔和一辆主战坦克。选择建筑后，在地图点击放置，<strong>以可放置预览为准</strong>。</p>
+<div class="table-wrap"><table>
+<caption>开局预算：初始1700，支出1100，剩余600（循环补单前）</caption>
+<thead><tr><th scope="col">项目</th><th scope="col">资金</th><th scope="col">标示时间</th><th scope="col">落点</th></tr></thead>
+<tbody><tr><th scope="row">发电站</th><td class="amount">300</td><td>5秒</td><td class="coordinate">（100,500）</td></tr><tr><th scope="row">防御炮塔</th><td class="amount">450</td><td>7秒</td><td class="coordinate">（400,520）</td></tr><tr><th scope="row">主战坦克 [4]</th><td class="amount">350</td><td>6秒</td><td>由工厂生产</td></tr></tbody>
+<tfoot><tr><th scope="row">合计</th><td class="amount">1100</td><td colspan="2">初始1700 − 1100 = 600</td></tr></tfoot>
+</table></div>
+<p class="note">坐标以地图左上角为原点，向右为X，向下为Y。暂停不会推进建造或生产时间。</p>
+<div class="callout"><p><strong>放置没成功？先取消，再下令。</strong></p><p>若预览不可放置，先点「取消待放置：…」（也可在非输入框焦点下按 <kbd>Esc</kbd>），再重新选择建筑和位置；取消尚未放置的建筑不会扣费。不要在建造点选尚未退出时继续下达部队指令。成功放置会自动退出。这里是恢复操作提醒，不是已验证获胜路线的一部分。</p></div>
+</li>
+<li>
+<h2>设集结点，让部队自由接敌</h2>
+<p>点<span class="label">「选择全部已完工工厂」</span>，在<span class="coordinate">（360,600）</span>右键设置集结点。</p>
+<p>点<span class="label">「作战车辆 [F]」</span>，在<span class="coordinate">（340,570）</span>右键移动。</p>
+<div class="callout"><p><strong>不要开启到达坚守</strong></p><p>保持默认自由接敌；不要开启工厂新车或部队的「到达后坚守」。原地坚守的三次对照路线均未守到6分钟。这个比较只针对本练习路线。</p></div>
+</li>
+<li>
+<h2>设好循环补兵，再继续</h2>
+<ol class="settings"><li>先选<span class="label">「循环车型目标：5（含订单）」</span></li><li>再选<span class="label">「循环补单保留：300」</span></li><li>最后开<span class="label">「全局循环：主战坦克 · 350」</span></li></ol>
+<p>其他生产设置保持默认。补兵正常花钱，<strong>已付订单也计入目标</strong>，不是额外赠兵。「保留300」只限制新的循环订单，手动购买和修理仍会花钱。安排完点<span class="label">「继续 [空格]」</span>。</p>
+</li>
+<li>
+<h2>每半分钟，暂停检查补给</h2>
+<p>大约每过<strong>30游戏秒</strong>暂停看看基地。重点看两件事：</p>
+<ul class="maintenance"><li><strong>矿车：</strong>已没有存活矿车，且资金至少700时，买一辆<span class="label">「采矿车 [8]」</span>，费用400、标示时间7秒。</li><li><strong>建筑：</strong>资金至少400时，若<span class="label">「选择受损建筑 [B]」</span>可用，点它。选中建筑生命不超过四分之三，且修理可用，就按一次修理，然后继续。</li></ul>
+<p><strong>无论是否购买或修理，检查结束都点「继续 [空格]」。</strong></p>
+<p class="note">修理按按钮显示的费用扣钱，每次最多恢复300生命、最多花100资金。不要为了检查而不断把部队拉回原位。</p>
+</li>
+<li class="finish">
+<h2>等到实际胜利提示</h2>
+<p>目标是<strong class="time">06:00 / 360游戏秒</strong>，并看到游戏的实际胜利提示。暂停不计入这360秒。</p>
+<p>后段仍可能损失矿车和部队，继续留意补给。宁可暂停检查，也不要急着操作。</p>
+</li>
+</ol>
+<details>
+<summary>验证范围与限制：6次成功、3次原路线失败</summary>
+<div class="evidence">
+<p>这是一份基于 <strong>RED v0.297完整游戏源码模拟</strong> 的操作参考，不是新增任务或产品规则。</p>
+<ul><li>不启用到达后坚守的路线：三组固定种子均在360秒获胜。</li><li>把每次维护延后15游戏秒：同三组也在360秒获胜。两组成功策略记录的检查点中，指挥中心均为1800/1800。</li><li>原先启用到达后坚守的路线：三组均在295.25秒失败，记录仍保留。</li></ul>
+<p><strong>每种方案的三个种子记录一致，并不代表多种不同战局或胜率统计；延后维护方案另行验证。</strong>证据支持这条路线能容忍所测试的15游戏秒维护延迟；不保证任意操作、地图或设置都获胜。</p>
+<p>模拟通过正常暂停、付费生产、合法建造和指针／界面事件推进。没有修改游戏产品或接触用户存档；真实浏览器中的鼠标落点误差、新手实操、原生像素效果和性能尚未验收。坐标放置需要自行核对预览。</p>
+<p>源版本：v0.297。游戏文件SHA-256：</p><p class="hash">ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d</p>
+</div>
+</details>
+<footer>独立静态指南 · 离线可读 · 不需要账号、联网或开发工具</footer>
+</main>
+</body>
+</html>

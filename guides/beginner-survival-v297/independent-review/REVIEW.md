@@ -1,0 +1,23 @@
+# Independent beginner-survival route review
+
+Reviewed source v297 SHA ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d. No product modifications or publication.
+
+Fresh-process seed29801 baseline and +15s maintenance routes both win at simulation time360.00000000000125 with HQ1800/1800. Each rerun’s complete actions, checkpoints and terminal intro exactly match the corresponding original trace. Additional read-only assertions confirm classic map/standard challenge,600 opening funds after1100 paid purchases and before auto-ordering, no pending placement after opening or terminal. Evidence comparison.json and separate run/seed/summary files.
+
+Harness inspection: quickSurvival→difficulty easy→Start are real controls, then normal pause/build/paid tank/order/repeat controls. Placement is real pointer input; preview checks only read validity. Maintenance uses normal purchase/selection/repair controls. The only g.run expressions in the original route read/serialize data. Ordinary queued RAF callbacks at50ms timestamps drive the actual frame/simulation/UI; six paused callbacks refresh throttled UI without advancing simulation. No hidden state/resource/AI writes, RNG suppression, storage actions or victory injection. Seeded deterministic Math.random replacement is explicit in the shared test harness, not a route-specific optimization. No native-browser input/timing/usability proof.
+
+Policy comparison: v2 omits only rallyHold and holdOnArrival clicks from v1 (aside from evidence filenames). Delayed v2 shifts maintenance30/60/.../330 to45/75/.../345, with first-following one-second observations. Genuine v1 traces retain all three defeats at295.25. Earlier stale-UI attempts remain separately labeled and are not counted as gameplay losses.
+
+All three DIFFERENT seeds within each individual policy have exactly equal recorded actions/checkpoints; v2 and delayed differ from each other (finalcash4288/4040,losses20/22). Thus neither three runs per policy nor six total successes is a diverse-scenario statistical win rate. The scope is tolerance to this specific maintenance shift, not arbitrary delays or guaranteed novice success.
+
+Guide facts checked: opening power300+turret450+tank350=1100, initial1700→600 before repeat purchases; placement coordinates100,500 and400,520; factory rally360,600; army ordinary move340,570; repeat tank target5 includes live tanks+paid orders; reserve300 restricts only new repeat orders. No-harvester replacement requires cash≥700 before400 purchase. Manual building repair when cash≥400 and selected hp≤75% is paid, heals at most300 and costs at most100. Terminal is actual胜利, not merely seeing06:00; pause does not consume simulation time.
+
+Requested guide refinements: explain per-policy identical-seed-path limitation; explicitly distinguish baseline/delayed outcomes; include pending-placement cancellation recovery before subsequent commands. Successful place() clears placement and deducts cost; failed placement retains it; cancelPending/Escape clears it without charging an unplaced building. Recovery instructions are not additional tested winning-route evidence. Preserve no-guarantee/native-usability caveats and exact coordinate-transfer limitation.
+
+Reviewer harness correction disclosure: first fresh-process pair reached actual victory but my added t===360 assertion falsely rejected floating-point360.00000000000125. Those outputs are retained in strict-time-assertion/. Changed only reviewer time tolerance to1e-8 and reran each once; both pass. Original experiment evidence untouched.
+
+## Final guide and portable wrapper review
+
+Final Chinese HTML `beginner-survival-guide/html-draft/RED-休闲守卫入门指南-v297.html`, SHA bfce87afeadbc5be60aa770157206905f8dd038e88195ad58eb101ceb5a7ea1d, reviewed as text/markup. All requested bounds/costs/controls are accurate; per-policy trajectory caveat, cancel-placement recovery, reserve scope and explicit resume after every maintenance check are included. Content approved for parent’s guide-supplement decision. Native visual/usability acceptance remains unclaimed.
+
+Static review of portable `v297-beginner-guide/RED/guides/beginner-survival-v297/verify-v2.cjs` and delayed counterpart confirms entire route body byte-identical to original. Only root/seed handling, source pin and read-only archive comparison/output wrapper differ. Accepted seeds restricted to three declared values; exact v297 source hash required. Full result comparison uses JSON normalization to remove cross-realm prototype mismatch while retaining recorded values. No artifact writes. Portable runs were not duplicated by this reviewer; publication actor owns those integration reruns.

@@ -1,0 +1,9 @@
+# Predeclared beginner survival policy v1
+
+Frozen before the three outcome runs. Seeds:29801,29802,29803. Current source v297 ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d. No game/state/rule edits, no RNG/AI replacement, no persistence. Existing quickSurvival → difficulty easy → Start; classic/survival/easy/standard.
+
+At game time0, use normal Pause to arrange opening. Build power at(100,500), cost300; turret at(400,520), cost450; buy one tank350. Set the existing factory rally to(360,600) and enable its new-combat-vehicles arrival hold. Select army, ordinary move to(340,570), enable arrival hold. Set global tank repeat, quantity target5, reserve300, in that order target/reserve BEFORE enabling repeat. Resume. The extra power/turret/tank cost1100, leaving600 before income and subsequent automatic purchases; built-in repeat may immediately reserve another paid order if permitted.
+
+At game times30,60,...,330, pause for a coarse maintenance check. If no own harvester remains and cash≥700, buy one harvester400 (preserving300). If cash≥400, press the free Select Damaged Building button; if it selects a building at≤75%HP and Repair is available, click Repair once (normal quoted cost, up to300HP). Do not follow enemy positions or retarget units. Resume. No adaptive building additions, no unit micro, no hidden per-frame policies. Repair target choice is the existing visible free-selection control, not a custom target optimizer.
+
+Advance naturally to actual terminal or360 game seconds. Success requires genuine survival victory, not merely alive at an early checkpoint; record HQhealth/losses, first actual harvest, first paid vehicle completion, power, paid purchases, refunds/repair receipts and every UI action. All failures are retained. This is an intentionally modest candidate policy, not yet a proven beginner guide. If the policy fails, report before revising; revisions get a separate policy/file and fresh identical seed set.

@@ -1,0 +1,32 @@
+[
+  {
+    "policy": "v2",
+    "win": true,
+    "time": 360.00000000000125,
+    "actionsExact": true,
+    "checkpointsExact": true,
+    "terminalIntroExact": true,
+    "finalHQ": [
+      {
+        "hp": 1800,
+        "max": 1800
+      }
+    ],
+    "openingCashAfterPurchases": 600
+  },
+  {
+    "policy": "v2-delayed",
+    "win": true,
+    "time": 360.00000000000125,
+    "actionsExact": true,
+    "checkpointsExact": true,
+    "terminalIntroExact": true,
+    "finalHQ": [
+      {
+        "hp": 1800,
+        "max": 1800
+      }
+    ],
+    "openingCashAfterPurchases": 600
+  }
+]

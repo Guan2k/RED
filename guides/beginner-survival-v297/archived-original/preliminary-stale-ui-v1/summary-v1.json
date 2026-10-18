@@ -1,0 +1,28 @@
+{
+  "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "policy": "POLICY-v1.md",
+  "seeds": [
+    {
+      "seed": 29801,
+      "win": false,
+      "error": "AssertionError [ERR_ASSERTION]: enabled UI rallyHold\n    at click (/workspace/scratch/e433d7540f34/red-development/beginner-survival-guide/verify-v1.cjs:5:47)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/beginner-survival-guide/verify-v1.cjs:12:271)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47",
+      "actions": 9,
+      "checkpoints": 1
+    },
+    {
+      "seed": 29802,
+      "win": false,
+      "error": "AssertionError [ERR_ASSERTION]: enabled UI rallyHold\n    at click (/workspace/scratch/e433d7540f34/red-development/beginner-survival-guide/verify-v1.cjs:5:47)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/beginner-survival-guide/verify-v1.cjs:12:271)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47",
+      "actions": 9,
+      "checkpoints": 1
+    },
+    {
+      "seed": 29803,
+      "win": false,
+      "error": "AssertionError [ERR_ASSERTION]: enabled UI rallyHold\n    at click (/workspace/scratch/e433d7540f34/red-development/beginner-survival-guide/verify-v1.cjs:5:47)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/beginner-survival-guide/verify-v1.cjs:12:271)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47",
+      "actions": 9,
+      "checkpoints": 1
+    }
+  ],
+  "scope": "Fixed predeclared UI-only coarse-maintenance policy; natural AI/RNG/simulation, explicit normal player pauses, no game-state edits or persistence. Three seeded examples, not universal win rate or native usability."
+}

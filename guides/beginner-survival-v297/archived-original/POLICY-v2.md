@@ -1,0 +1,5 @@
+# Predeclared diagnostic policy v2
+
+Frozen before runs on seeds 29801, 29802, 29803. All opening, purchase, coordinates, repeat settings, maintenance thresholds, pause behavior and termination rules are exactly POLICY-v1.md except two arrival-hold clicks are omitted: rallyHold for future factory combat vehicles and holdOnArrival for the starting army. Ordinary rally and move destinations remain unchanged. This leaves normal autonomous combat movement available after arrival.
+
+The v1 records show the stationary frontline turret lost by 120.8 seconds, the harvester lost by 210.65 seconds and HQ destroyed at 295.25 seconds despite paid reinforcements. These visible outcomes justify testing whether stationary defense contributed, but do not establish it as the sole cause. The only change is removing arrival hold, not new targeting, enemy-aware control, rules or balance. Keep all v1 losses and preliminary stale-UI harness failures. No further policy revision in this diagnostic round. A win alone does not qualify this as a beginner guide; coarse delayed-action robustness and survival margin would still need checking.

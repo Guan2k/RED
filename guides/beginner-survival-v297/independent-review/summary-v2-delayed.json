@@ -1,0 +1,18 @@
+{
+  "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "policy": "POLICY-v2-delayed.md",
+  "seeds": [
+    {
+      "seed": 29801,
+      "win": true,
+      "result": "胜利",
+      "t": 360.00000000000125,
+      "firstHarvest": 5.949999999999984,
+      "firstProduced": 6.949999999999981,
+      "finishedIntro": "守卫目标达成：指挥中心已坚持360游戏秒。 用时 6分0秒；击毁 15，损失 22；总收入 10080，净消费 7740。 规则：标准规则。",
+      "actions": 50,
+      "checkpoints": 13
+    }
+  ],
+  "scope": "Fixed predeclared UI-only coarse-maintenance policy; natural AI/RNG/simulation, explicit normal player pauses, no game-state edits or persistence. Three seeded examples, not universal win rate or native usability."
+}

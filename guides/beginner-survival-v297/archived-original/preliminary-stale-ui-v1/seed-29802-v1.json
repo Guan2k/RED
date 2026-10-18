@@ -1,0 +1,176 @@
+{
+  "seed": 29802,
+  "win": false,
+  "error": "AssertionError [ERR_ASSERTION]: enabled UI rallyHold\n    at click (/workspace/scratch/e433d7540f34/red-development/beginner-survival-guide/verify-v1.cjs:5:47)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/beginner-survival-guide/verify-v1.cjs:12:271)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47",
+  "actions": [
+    {
+      "t": 0,
+      "action": "click quickSurvival",
+      "cash": 1700,
+      "label": ""
+    },
+    {
+      "t": 0,
+      "action": "change difficulty",
+      "cash": 1700,
+      "value": "easy"
+    },
+    {
+      "t": 0,
+      "action": "click start",
+      "cash": 1700,
+      "label": ""
+    },
+    {
+      "t": 0,
+      "action": "click pause",
+      "cash": 1700,
+      "label": "暂停 [空格]"
+    },
+    {
+      "t": 0,
+      "action": "build power",
+      "cash": 1400,
+      "x": 100,
+      "y": 500,
+      "cost": 300
+    },
+    {
+      "t": 0,
+      "action": "build turret",
+      "cash": 950,
+      "x": 400,
+      "y": 520,
+      "cost": 450
+    },
+    {
+      "t": 0,
+      "action": "buy tank",
+      "cash": 600
+    },
+    {
+      "t": 0,
+      "action": "click selectAllFactories",
+      "cash": 600,
+      "label": "选择全部已完工工厂 · 1"
+    },
+    {
+      "t": 0,
+      "action": "ordinary map command",
+      "cash": 600,
+      "x": 360,
+      "y": 600,
+      "receipt": "最近地图命令：已接收 · 工厂集结点 1；0 个所选存活友方单位保留原命令/设置；下达时暂停，恢复后执行。仅回执，不代表抵达或生效结果。"
+    }
+  ],
+  "checkpoints": [
+    {
+      "t": 0,
+      "result": null,
+      "cash": 600,
+      "harvested": 0,
+      "produced": 0,
+      "losses": 0,
+      "power": {
+        "supply": 120,
+        "demand": 80
+      },
+      "hq": [
+        {
+          "hp": 1800,
+          "max": 1800
+        }
+      ],
+      "forces": [
+        {
+          "id": 1,
+          "type": "hq",
+          "hp": 1800,
+          "x": 140,
+          "y": 620,
+          "build": 0
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 735,
+          "build": 0
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "hp": 850,
+          "x": 290,
+          "y": 640,
+          "build": 0
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "hp": 1000,
+          "x": 220,
+          "y": 750,
+          "build": 0
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "hp": 310,
+          "x": 350,
+          "y": 660,
+          "build": 0
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "hp": 230,
+          "x": 320,
+          "y": 540,
+          "build": 0
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "hp": 230,
+          "x": 360,
+          "y": 580,
+          "build": 0
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "hp": 105,
+          "x": 265,
+          "y": 505,
+          "build": 0
+        },
+        {
+          "id": 19,
+          "type": "power",
+          "hp": 550,
+          "x": 100,
+          "y": 500,
+          "build": 5
+        },
+        {
+          "id": 20,
+          "type": "turret",
+          "hp": 650,
+          "x": 400,
+          "y": 520,
+          "build": 7
+        }
+      ],
+      "queue": [
+        {
+          "type": "tank",
+          "left": 6,
+          "total": 6,
+          "factoryId": 4
+        }
+      ]
+    }
+  ]
+}
