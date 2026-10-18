@@ -56,3 +56,8 @@ Run from a trusted single-writer workspace with editing stopped. The preflight d
 verification/source-tools-v294 preserves original architect and independent review evidence. Their original report paths and scripts retain historical workspace assumptions; they are archival evidence, not promises of standalone replay. Current runnable builder and orchestration tests are the tools listed above. The original 897-file preservation proof describes the pilot before adoption documentation/checksum updates.
 
 No browser/FPS, new gameplay coverage or full modular engine claim follows from this source-layout work. No actual save/load/import/export or real browser-storage operations are performed. Existing VM gameplay verification can read empty simulated storage at initialization.
+
+
+## Building art source data supplement
+
+Static building data now lives in `src/art/buildings.mjs`; the module has three named exports and no runtime imports. Edit data there, run `node tools/source-build.mjs --write-generated`, and run the existing developer preflight. The assembler never executes the module; a distinct trusted-module data-test stage enforces immutable shapes, canonical square bounds, hex colors and20/128/12 budgets. See [BUILDING_DATA_DEVELOPMENT.md](BUILDING_DATA_DEVELOPMENT.md) for limits, tests and the runnable exact old-layout tool host. Do not edit generated index.html or its receipt by hand.

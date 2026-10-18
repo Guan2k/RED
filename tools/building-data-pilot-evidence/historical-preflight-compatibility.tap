@@ -1,0 +1,122 @@
+✔ normal exact ordered stages, explicit cwd and no shell (1.705114ms)
+✔ check-only never launches canonical aggregate (0.234504ms)
+✔ reject arguments --write-generated (0.211219ms)
+✔ reject arguments --recover-receipt (0.07996ms)
+✔ reject arguments --check-only extra (0.125149ms)
+✔ reject arguments --legacy (0.068283ms)
+✔ reject arguments --long (0.074873ms)
+✔ reject arguments --help (0.116145ms)
+✔ fail fast stage 0 7 (0.35126ms)
+✔ fail fast stage 0 SIGTERM (0.233563ms)
+✔ fail fast stage 0 ENOENT (0.126742ms)
+✔ fail fast stage 0 null (0.066571ms)
+✔ fail fast stage 0 -1 (0.070767ms)
+✔ fail fast stage 0 spawn exception (0.127092ms)
+✔ fail fast stage 1 7 (0.052629ms)
+✔ fail fast stage 1 SIGTERM (0.045188ms)
+✔ fail fast stage 1 ENOENT (0.036976ms)
+✔ fail fast stage 1 null (0.041473ms)
+✔ fail fast stage 1 -1 (0.069615ms)
+✔ fail fast stage 1 spawn exception (0.042795ms)
+✔ fail fast stage 2 7 (0.03302ms)
+✔ fail fast stage 2 SIGTERM (0.044618ms)
+✔ fail fast stage 2 ENOENT (0.034181ms)
+✔ fail fast stage 2 null (0.026319ms)
+✔ fail fast stage 2 -1 (0.025098ms)
+✔ fail fast stage 2 spawn exception (0.064688ms)
+✔ fail fast stage 3 7 (0.036024ms)
+✔ fail fast stage 3 SIGTERM (0.033721ms)
+✔ fail fast stage 3 ENOENT (0.029926ms)
+✔ fail fast stage 3 null (0.031117ms)
+✔ fail fast stage 3 -1 (0.030196ms)
+✔ fail fast stage 3 spawn exception (0.03277ms)
+✔ real child chain none from unrelated cwd (347.789568ms)
+✔ real child chain integrity from unrelated cwd (103.346772ms)
+✔ real child chain source from unrelated cwd (153.882363ms)
+✔ real child chain builder from unrelated cwd (281.984351ms)
+✔ real child chain game from unrelated cwd (337.903762ms)
+✖ real builder source drift prevents builder tests and game (173.119271ms)
+✖ real builder artifact drift prevents builder tests and game (168.216236ms)
+✖ real builder receipt drift prevents builder tests and game (161.526881ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 37
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1827.276499
+
+✖ failing tests:
+
+test at red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:23:52
+✖ real builder source drift prevents builder tests and game (173.119271ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /drift|JSON|Unexpected|non-whitespace/i. Input:
+  
+  "ENOENT: no such file or directory, lstat '/tmp/red-dev-preflight-test-GDqjiC/src/art'\n" +
+    'Developer preflight failed at editable source consistency (exit 1)\n'
+  
+      at /workspace/scratch/e433d7540f34/red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:27:124
+      at fixture (/workspace/scratch/e433d7540f34/red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:12:246)
+      at TestContext.<anonymous> (/workspace/scratch/e433d7540f34/red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:23:124)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "ENOENT: no such file or directory, lstat '/tmp/red-dev-preflight-test-GDqjiC/src/art'\nDeveloper preflight failed at editable source consistency (exit 1)\n",
+    expected: /drift|JSON|Unexpected|non-whitespace/i,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:23:52
+✖ real builder artifact drift prevents builder tests and game (168.216236ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /drift|JSON|Unexpected|non-whitespace/i. Input:
+  
+  "ENOENT: no such file or directory, lstat '/tmp/red-dev-preflight-test-QrjrmX/src/art'\n" +
+    'Developer preflight failed at editable source consistency (exit 1)\n'
+  
+      at /workspace/scratch/e433d7540f34/red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:27:124
+      at fixture (/workspace/scratch/e433d7540f34/red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:12:246)
+      at TestContext.<anonymous> (/workspace/scratch/e433d7540f34/red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:23:124)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "ENOENT: no such file or directory, lstat '/tmp/red-dev-preflight-test-QrjrmX/src/art'\nDeveloper preflight failed at editable source consistency (exit 1)\n",
+    expected: /drift|JSON|Unexpected|non-whitespace/i,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:23:52
+✖ real builder receipt drift prevents builder tests and game (161.526881ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /drift|JSON|Unexpected|non-whitespace/i. Input:
+  
+  "ENOENT: no such file or directory, lstat '/tmp/red-dev-preflight-test-TwX8dk/src/art'\n" +
+    'Developer preflight failed at editable source consistency (exit 1)\n'
+  
+      at /workspace/scratch/e433d7540f34/red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:27:124
+      at fixture (/workspace/scratch/e433d7540f34/red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:12:246)
+      at TestContext.<anonymous> (/workspace/scratch/e433d7540f34/red-development/building-data-source-pilot/RED/tools/test-development-preflight.cjs:23:124)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "ENOENT: no such file or directory, lstat '/tmp/red-dev-preflight-test-TwX8dk/src/art'\nDeveloper preflight failed at editable source consistency (exit 1)\n",
+    expected: /drift|JSON|Unexpected|non-whitespace/i,
+    operator: 'match',
+    diff: 'simple'
+  }

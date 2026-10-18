@@ -1,0 +1,9 @@
+{
+  "tools/source-build.mjs": "536052ac94ddb6694b48759eb95b0614983422face013c2e722df9c8c478e9c9",
+  "tools/source-build.test.mjs": "467d0335e372685001594fc697d8063ec2261e0b0644ad7fd12926f41b49d173",
+  "tools/test-development-preflight.cjs": "af7dc4f99b8744213bac90debae2a733d653dd30c10dd2a0fc00b200e0a8688c",
+  "tools/building-art-data.test.mjs": "2f0f22ba92edc93ee076881a1fa828a8dac11dc9eb0e1e5f40cc5adaf106d24d",
+  "tools/building-art-data-validation.mjs": "b27db9dc8b58d83dd518aed1c27d43b973f1f360de4789af7eb95b343a7155a9",
+  "verify-development.cjs": "3d605f6af971a6638e20dd969aef7d77a7e7f266b8363f1b8726a42edad98c22",
+  "src/art/buildings.mjs": "30e9add7c250520341c16bac68b0527262b7bfc85f06649fc615a8f9403ad2c8"
+}

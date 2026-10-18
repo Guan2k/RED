@@ -1,0 +1,19 @@
+{
+  "parentCommit": "76854f15daa249144ce77f5d074d2bcbebb495e0",
+  "parentFiles": 1350,
+  "changedActiveParentFiles": [
+    "DEVELOPING.md",
+    "source-build-receipt.json",
+    "src/script/03-renderer.jsfrag",
+    "tools/source-build.mjs",
+    "tools/source-build.test.mjs",
+    "tools/test-development-preflight.cjs",
+    "verify-development.cjs"
+  ],
+  "historicalVersionedVerificationAndEvidenceUnchanged": true,
+  "playerInputsAndCurrentGameManifestUnchanged": true,
+  "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "oldToolHostScope": "Exact prior builder/wrapper/layout inputs for original44+40 tool tests only, not a full historical game aggregate",
+  "publicDeveloperCommand": "node verify-development.cjs",
+  "noGameVersionBump": true
+}

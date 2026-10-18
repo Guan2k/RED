@@ -1,0 +1,15 @@
+{
+  "index.html": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "source-build-receipt.json": "b7726f0afb91c6a132a5b7e4ebb8ec270118ac31046f02c93519ad4bf7832f66",
+  "verify-development.cjs": "f4688d2986aa1a5bc7cd95dca0420ca5f4bb57962fa9920e70501334dc77a2d4",
+  "tools/source-build.mjs": "031e77a4cdfd79f2b28993e6916aecc961eb355f267b148e4992df2cd5728900",
+  "tools/source-build.test.mjs": "97a1511f9ed098671c2a171b9bb34ccfbf9c6723db1d0765fd3ae210c5cd9749",
+  "tools/test-development-preflight.cjs": "688463e171fda957b12cb4c1cacb6b4cf9936e8a86146c4f38449a2bd399c7c6",
+  "src/geometry.mjs": "ec617ada5a5c3466a4c326d2c3a3f3d968946a10c619f5c48b49c172f14ba76f",
+  "src/index.template.html": "e9aa2aaeddae203d8c6f50af3a275b966f756b463eae9fa00024c47b7cf7c767",
+  "src/script/01-bootstrap.jsfrag": "94d62eaf3a24e5de5bda7c81689b224a3230672966aa206d43c779d252c9b8aa",
+  "src/script/02-gameplay.jsfrag": "268b054e88280ffdba55f28224b709a4f4665d19e4caefc64f4607c9e8ba7f14",
+  "src/script/03-renderer.jsfrag": "29f0ae96f65debf552f2c3c423a1258ef56ed6577988a8940634b860b125da91",
+  "src/script/04-interface-runtime.jsfrag": "9ef9cfd6340d2b0d376bccff95ccb2cca82e2d5974a5e5bf7caccefba2ed4d86",
+  "src/styles.css": "d8b8b8fa220823fb681c9e95cda6d937288fa8e0c9e4db94cbfff09e43c0819c"
+}

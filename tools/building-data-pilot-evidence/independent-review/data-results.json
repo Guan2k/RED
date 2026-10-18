@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "paths": 19,
+  "vertices": 81,
+  "arcs": 9,
+  "allPathsUsed": true,
+  "allShapesWithinCanonicalRadius": true,
+  "allDataDeeplyFrozen": true
+}

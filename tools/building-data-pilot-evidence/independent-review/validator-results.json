@@ -1,0 +1,102 @@
+{
+  "passed": 24,
+  "failed": 0,
+  "results": [
+    {
+      "name": "current imported data",
+      "pass": true
+    },
+    {
+      "name": "reject radius",
+      "pass": true
+    },
+    {
+      "name": "reject color",
+      "pass": true
+    },
+    {
+      "name": "reject reference",
+      "pass": true
+    },
+    {
+      "name": "reject poly odd",
+      "pass": true
+    },
+    {
+      "name": "reject nonfinite",
+      "pass": true
+    },
+    {
+      "name": "reject circle zero",
+      "pass": true
+    },
+    {
+      "name": "reject circle outside",
+      "pass": true
+    },
+    {
+      "name": "reject rectangle negative",
+      "pass": true
+    },
+    {
+      "name": "reject rectangle bounds",
+      "pass": true
+    },
+    {
+      "name": "reject empty recipe",
+      "pass": true
+    },
+    {
+      "name": "reject extra role",
+      "pass": true
+    },
+    {
+      "name": "reject sparse",
+      "pass": true
+    },
+    {
+      "name": "reject unknown operation",
+      "pass": true
+    },
+    {
+      "name": "reject unknown shape",
+      "pass": true
+    },
+    {
+      "name": "reject unfrozen",
+      "pass": true
+    },
+    {
+      "name": "reject getter without reading",
+      "pass": true
+    },
+    {
+      "name": "budget paths/20",
+      "pass": true
+    },
+    {
+      "name": "budget paths/21",
+      "pass": true
+    },
+    {
+      "name": "budget vertices/128",
+      "pass": true
+    },
+    {
+      "name": "budget vertices/129",
+      "pass": true
+    },
+    {
+      "name": "budget circles/12",
+      "pass": true
+    },
+    {
+      "name": "budget circles/13",
+      "pass": true
+    },
+    {
+      "name": "valid new artist geometry and alpha color",
+      "pass": true
+    }
+  ]
+}

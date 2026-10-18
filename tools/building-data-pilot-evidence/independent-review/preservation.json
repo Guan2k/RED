@@ -1,0 +1,13 @@
+{
+  "baseFiles": 1350,
+  "changed": [
+    "DEVELOPING.md",
+    "verify-development.cjs",
+    "source-build-receipt.json",
+    "tools/test-development-preflight.cjs",
+    "tools/source-build.test.mjs",
+    "tools/source-build.mjs",
+    "src/script/03-renderer.jsfrag"
+  ],
+  "indexSHA": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d"
+}

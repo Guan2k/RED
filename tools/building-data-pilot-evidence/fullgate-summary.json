@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "gameVersion": "297",
+  "runtimeOutputUnchanged": true,
+  "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "builderTests": 67,
+  "dataTests": 56,
+  "activePreflightTests": 48,
+  "restoredOriginalToolTests": 84,
+  "independentChecks": {
+    "builder": 53,
+    "validator": 24,
+    "wrapper": 36
+  },
+  "fullGameAggregate": {
+    "behaviorAndMarkup": 959,
+    "sourceChecks": 10,
+    "historicalIdentityRejections": 15,
+    "focusedEntries": 68
+  },
+  "actualAggregateRuns": 1,
+  "exitCode": 0,
+  "stderrBytes": 0,
+  "originalInputFiles": 1398,
+  "originalInputsUnchanged": true
+}

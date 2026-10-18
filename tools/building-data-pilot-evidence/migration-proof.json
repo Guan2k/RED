@@ -1,0 +1,34 @@
+{
+  "parentCommit": "76854f15daa249144ce77f5d074d2bcbebb495e0",
+  "parentFiles": 1350,
+  "initialOutputSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "runtimeArtifactByteIdentical": true,
+  "changedParentPathsBeforeNewSeal": [
+    "DEVELOPING.md",
+    "source-build-receipt.json",
+    "src/script/03-renderer.jsfrag",
+    "tools/source-build.mjs",
+    "tools/source-build.test.mjs",
+    "tools/test-development-preflight.cjs",
+    "verify-development.cjs"
+  ],
+  "allHistoricalVerificationFilesUnchanged": true,
+  "publicCommand": "node verify-development.cjs",
+  "newDataStage": "node --test tools/building-art-data.test.mjs",
+  "builderTests": 67,
+  "dataTests": 56,
+  "activePreflightTests": 48,
+  "restoredOriginalBuilderTests": 44,
+  "restoredOriginalPreflightTests": 40,
+  "baselineData": {
+    "paths": 19,
+    "polygonVertices": 81,
+    "circles": 9
+  },
+  "budget": {
+    "paths": 20,
+    "polygonVertices": 128,
+    "circles": 12
+  },
+  "scope": "No gameplay execution or native browser/performance claim; assembly compiles text but never evaluates art module; data tests execute trusted developer module."
+}

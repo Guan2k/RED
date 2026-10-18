@@ -1,0 +1,15 @@
+{
+  "changedParentFiles": [
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "DEVELOPING.md",
+    "QA_STATUS.md",
+    "SHA256SUMS.txt",
+    "source-build-receipt.json",
+    "src/script/03-renderer.jsfrag",
+    "tools/source-build.mjs",
+    "tools/source-build.test.mjs",
+    "tools/test-development-preflight.cjs",
+    "verify-development.cjs"
+  ],
+  "allVersionedVerificationAndEvidenceUnchanged": true
+}

@@ -6,7 +6,8 @@ function run(args,{spawn=require('node:child_process').spawnSync,log=console.log
   const stages=[
     ['sealed package integrity',['verify-current.cjs','--check-only']],
     ['editable source consistency',['tools/source-build.mjs','--check']],
-    ['source builder tests',['--test','tools/source-build.test.mjs']]
+    ['source builder tests',['--test','tools/source-build.test.mjs']],
+    ['trusted building data validation',['--test','tools/building-art-data.test.mjs']]
   ];
   if(!args.length)stages.push(['unchanged canonical game verification',['verify-current.cjs']]);
   for(const[label,command]of stages){

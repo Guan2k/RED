@@ -4,7 +4,8 @@ import { fileURLToPath } from 'node:url';
 import { createHash, randomBytes } from 'node:crypto';
 import { Script } from 'node:vm';
 export const ROOT=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
-export const INPUTS=Object.freeze(['src/index.template.html','src/styles.css','src/script/01-bootstrap.jsfrag','src/geometry.mjs','src/script/02-gameplay.jsfrag','src/script/03-renderer.jsfrag','src/script/04-interface-runtime.jsfrag']);
+export const INPUTS=Object.freeze(['src/index.template.html','src/styles.css','src/script/01-bootstrap.jsfrag','src/geometry.mjs','src/script/02-gameplay.jsfrag','src/script/03-renderer.jsfrag','src/script/04-interface-runtime.jsfrag','src/art/buildings.mjs']);
+const ART_MARKER='@@RED_BUILDING_ART@@',ART_FOOTER='export { buildingArtCanonicalRadius, buildingArtGeometry, buildingArtRecipes };\n';
 const FOOTER='export { dist, clamp };\n',RECEIPT='source-build-receipt.json',LOCK='.source-build.lock';
 export const sha=b=>createHash('sha256').update(b).digest('hex');
 const need=(ok,msg)=>{if(!ok)throw Error(msg)};
@@ -12,13 +13,18 @@ function noLinks(full,allowMissing=false){full=path.resolve(full);let part=path.
 function file(root,name){need(!path.isAbsolute(name)&&!name.split(/[\\/]/).includes('..'),'unsafe input path');const p=path.join(root,name);noLinks(p);need(fs.statSync(p).isFile(),'not a regular file: '+name);return fs.readFileSync(p)}
 export function assemble(root=ROOT){
  const inputs=INPUTS.map(n=>file(root,n)),texts=inputs.map(b=>b.toString('utf8'));inputs.forEach((b,i)=>need(Buffer.from(texts[i]).equals(b),'invalid UTF-8 input'));
- const [template,css,before,geometry,middle,renderer,after]=texts;
+ const [template,css,before,geometry,middle,renderer,after,art]=texts;
  for(const marker of ['@@RED_STYLE@@','@@RED_SCRIPT@@'])need(template.split(marker).length===2,'exactly one marker required: '+marker);
  need(template.includes('<style>@@RED_STYLE@@</style>')&&template.includes('<script>@@RED_SCRIPT@@</script>'),'markers must occupy inline style/script bodies');
- need(!texts.slice(1).some(s=>s.includes('@@RED_')),'marker in fragment');
+ need(renderer.split(ART_MARKER).length===2&&renderer.includes('\n'+ART_MARKER+'\nfunction buildingArtTrace('),'exactly one correctly placed building art marker required');
+ need(!texts.slice(1).some((s,i)=>(i===4?s.replace(ART_MARKER,''):s).includes('@@RED_')),'marker in fragment');
+ need(art.endsWith(ART_FOOTER)&&art.split(ART_FOOTER).length===2,'invalid building art export footer');
+ const artBody=art.slice(0,-ART_FOOTER.length);need(!/\b(?:import|export)\b/.test(artBody),'unsupported building art module syntax');
+ // Text-only assembly: never import/evaluate this trusted developer module here.
+ const rendered=renderer.replace(ART_MARKER+'\n',()=>artBody);
  need(geometry.endsWith(FOOTER)&&geometry.split(FOOTER).length===2,'invalid geometry export footer');
  const body=geometry.slice(0,-FOOTER.length);need(!/\b(?:import|export)\b/.test(body),'unsupported geometry module syntax');
- const script=before+body+middle+renderer+after;need(!/<\/script(?=[\t\n\f\r />])/i.test(script),'script closing tag in fragment');need(!/<\/style(?=[\t\n\f\r />])/i.test(css),'style closing tag in CSS');
+ const script=before+body+middle+rendered+after;need(!/<\/script(?=[\t\n\f\r />])/i.test(script),'script closing tag in fragment');need(!/<\/style(?=[\t\n\f\r />])/i.test(css),'style closing tag in CSS');
  new Script(script); // Syntax validation only; never execute gameplay.
  const output=Buffer.from(template.replace('@@RED_STYLE@@',()=>css).replace('@@RED_SCRIPT@@',()=>script));need(!output.includes(Buffer.from('@@RED_')),'unresolved marker');
  const h=createHash('sha256');INPUTS.forEach((n,i)=>h.update(n+'\0'+inputs[i].length+'\0').update(inputs[i]));
