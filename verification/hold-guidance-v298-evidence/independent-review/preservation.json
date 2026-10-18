@@ -1,0 +1,13 @@
+{
+  "baseFiles": 1477,
+  "missing": [],
+  "changed": [
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "index.html",
+    "CURRENT_PLAYER_GUIDE.md",
+    "QA_STATUS.md",
+    "README.md",
+    "source-build-receipt.json",
+    "src/index.template.html"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "scope": "Selected chain-sensitive new wrappers, exact restoration, two inherited adapted comparators, narrow projection controls, synthetic entry tests. Not the full aggregate.",
+  "sourceSha256": "d03faa6beca0518edea4d5b07fbf8f6940ae2faba257af9b65d81690be998107",
+  "programs": [
+    {
+      "name": "command-allocation-feedback-v298.cjs",
+      "exit": 0,
+      "passed": 104,
+      "failed": 0,
+      "seconds": 3.9,
+      "sha256": "7be6b332f678827f149cfb7aba1e1d53810cc1faf4816ef276fc19c9429c77ee"
+    },
+    {
+      "name": "health-edge-v298.cjs",
+      "exit": 0,
+      "passed": 2312,
+      "failed": 0,
+      "seconds": 2.2,
+      "sha256": "dcf238f326235dba325aef9a45f087e19a27721c43ee8a36e208dbc1a6a966cb"
+    },
+    {
+      "name": "render-preview-v298.cjs",
+      "exit": 0,
+      "passed": 78,
+      "failed": 0,
+      "seconds": 34.6,
+      "sha256": "d2d2fc84bdf35ee0daee1f56a08ddc378e37a2621ac348e01b3f59ef532043a5"
+    },
+    {
+      "name": "building-preview-v298.cjs",
+      "exit": 0,
+      "passed": 450,
+      "failed": 0,
+      "seconds": 15.7,
+      "sha256": "3d80f1d3e8275d57aaa530a573c10bc7ba2009ff439efeb22015e7352b7dac54"
+    },
+    {
+      "name": "run-pilot-release-v298.cjs",
+      "exit": 0,
+      "passed": null,
+      "failed": 0,
+      "seconds": 7.2,
+      "sha256": "8b2782801ffcb6bc3b7966be0c848bb7d5b3382485e28f37459d9203f7905e6c"
+    },
+    {
+      "name": "coordinate-command-natural-v298.cjs",
+      "exit": 0,
+      "passed": 4,
+      "failed": 0,
+      "seconds": 2.1,
+      "sha256": "d5dee6dc6d6b4e6a819322f0c687943db5cbe72027d77eb3c2849d74a71c25be"
+    },
+    {
+      "name": "patrol-action-v298.cjs",
+      "exit": 0,
+      "passed": 35,
+      "failed": 0,
+      "seconds": 3.9,
+      "sha256": "cf26841a39dd5860ed4147fd1f2ce272094064ce5f9442114aea4c0b75017554"
+    },
+    {
+      "name": "global-repeat-scope-v298.cjs",
+      "exit": 0,
+      "passed": 5,
+      "failed": 0,
+      "seconds": 0.8,
+      "sha256": "6e2ab6b5531f724972b761d1ceb7c666764dbd7757521694fb376d0c08dcc2ef"
+    },
+    {
+      "name": "opening-practice-v298.cjs",
+      "exit": 0,
+      "passed": 5,
+      "failed": 0,
+      "seconds": 1.2,
+      "sha256": "00fee64a43e919adb07e4609920212c0c3a2b6dab5f432d2340dc572b99a3c9e"
+    },
+    {
+      "name": "quick-switchback-v298.cjs",
+      "exit": 0,
+      "passed": 19,
+      "failed": 0,
+      "seconds": 1.0,
+      "sha256": "0cad0c27cf622efe2b273cc245848b628e35f58be0a562672be76e920e49dae8"
+    },
+    {
+      "name": "progress-rails-v298.cjs",
+      "exit": 0,
+      "passed": 202,
+      "failed": 0,
+      "seconds": 4.9,
+      "note": "Initial new-wrapper identity assertion omitted earlier v297 reversal; corrected only new wrapper to reverse both exact changesets; rerun passed202/0.",
+      "sha256": "adbfeaa2089a6e92f20c54ba118eb0c7e4727f54d7f8fc0878b63cfa0ed45240"
+    },
+    {
+      "name": "repair-button-repeat",
+      "passed": 57,
+      "failed": 0,
+      "sha256": "6ef5284314f33ae43a6e9fb595a42dfd0ab190fe801cfa92847234d9961dd17e"
+    },
+    {
+      "name": "attack-pressed",
+      "passed": 42,
+      "failed": 0,
+      "sha256": "bc1dffb14cec59276d0bbec227f8c2702bb1e669a93069cbd2c1038771f91d14"
+    },
+    {
+      "name": "entry-synthetic",
+      "passed": 165,
+      "failed": 0,
+      "sha256": "42036b4b6a6df072f2045389d1cd062ba285602e871506a69904d3b60df5c936"
+    },
+    {
+      "name": "progress-negative",
+      "passed": 9,
+      "failed": 0,
+      "sha256": "6e7fd283b69a956c07a4c21d81c0b3b8b2918b8bd13f7bad95099202b6c96671"
+    },
+    {
+      "name": "inherit-dom-v298-negative-control",
+      "passed": 169,
+      "failed": 0,
+      "assertions": 172
+    }
+  ]
+}

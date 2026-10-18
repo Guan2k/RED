@@ -1,0 +1,10 @@
+{
+  "allScriptFragmentsIdentical": {
+    "02-gameplay.jsfrag": true,
+    "01-bootstrap.jsfrag": true,
+    "03-renderer.jsfrag": true,
+    "04-interface-runtime.jsfrag": true
+  },
+  "sourceSha256": "d03faa6beca0518edea4d5b07fbf8f6940ae2faba257af9b65d81690be998107",
+  "scope": "Only authoritative template wording, associations and version change; generated output/receipt updated by current source builder."
+}

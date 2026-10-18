@@ -1,0 +1,4 @@
+'use strict';
+// Exact reviewed attribute values only; unexpected values survive comparison.
+function normalizeHoldAttributes(id,attributes){const changes={"hold":{"aria-describedby":{"before":null,"after":"holdBehaviorHint"},"title":{"before":null,"after":"战斗车原地交战，不追击射程外敌人；维修车原地保留维修设置。所选部队都已坚守时，再按H解除；S停止不会解除已有坚守。"}},"holdOnArrival":{"aria-describedby":{"before":null,"after":"holdBehaviorHint"},"title":{"before":"先右键指定普通地面终点，再预约抵达后坚守。仅战斗车；分段路线在最后一段生效，Shift追加延长路线。新指令或分段路线受阻停止时会取消预约，不影响H原地坚守。","after":"先右键指定普通地面终点，再预约抵达后坚守。仅战斗车；分段路线在最后一段生效，Shift追加延长路线。抵达后仅在射程内交战，不追击射程外敌人。所选合格车辆都已预约时，再次点击取消预约；新指令或分段路线受阻停止时会取消预约。取消预约不等于解除已有坚守。"}},"rallyHold":{"aria-describedby":{"before":null,"after":"rallyHoldBehaviorHint"}}};const attrs={...attributes};for(const [key,c]of Object.entries(changes[id]||{}))if(attrs[key]===c.after){if(c.before===null)delete attrs[key];else attrs[key]=c.before}return attrs}
+module.exports=normalizeHoldAttributes;

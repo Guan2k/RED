@@ -1,0 +1,439 @@
+{
+  "sha": "d03faa6beca0518edea4d5b07fbf8f6940ae2faba257af9b65d81690be998107",
+  "passed": 108,
+  "failed": 0,
+  "results": [
+    {
+      "name": "entire classic script byte-identical",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,active,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,active,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,active,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,paused,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,paused,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,paused,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,restart,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,restart,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,restart,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,terminal,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,terminal,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity idle,terminal,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,active,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,active,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,active,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,paused,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,paused,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,paused,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,restart,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,restart,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,restart,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,terminal,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,terminal,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity moving,terminal,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,active,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,active,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,active,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,paused,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,paused,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,paused,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,restart,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,restart,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,restart,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,terminal,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,terminal,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity scheduled,terminal,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity held,active,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity held,active,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity held,active,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity held,paused,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity held,paused,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity held,paused,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity held,restart,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity held,restart,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity held,restart,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity held,terminal,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity held,terminal,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity held,terminal,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,active,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,active,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,active,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,paused,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,paused,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,paused,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,restart,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,restart,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,restart,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,terminal,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,terminal,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity mixed,terminal,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,active,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,active,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,active,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,paused,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,paused,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,paused,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,restart,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,restart,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,restart,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,terminal,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,terminal,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity factory,terminal,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,active,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,active,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,active,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,paused,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,paused,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,paused,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,restart,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,restart,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,restart,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,terminal,hold",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,terminal,holdOnArrival",
+      "pass": true
+    },
+    {
+      "name": "control parity repair,terminal,rallyHold",
+      "pass": true
+    },
+    {
+      "name": "held can fire tank",
+      "pass": true
+    },
+    {
+      "name": "held can fire scout",
+      "pass": true
+    },
+    {
+      "name": "held can fire artillery",
+      "pass": true
+    },
+    {
+      "name": "idle versus held pursuit false",
+      "pass": true
+    },
+    {
+      "name": "idle versus held pursuit true",
+      "pass": true
+    },
+    {
+      "name": "artillery held does not back away from minimum range",
+      "pass": true
+    },
+    {
+      "name": "ordinary arrival reservation keeps moving before arrival",
+      "pass": true
+    },
+    {
+      "name": "cancel reservation retains route",
+      "pass": true
+    },
+    {
+      "name": "multileg reservation only final arrival holds",
+      "pass": true
+    },
+    {
+      "name": "new manual attack clears held and scheduled state",
+      "pass": true
+    },
+    {
+      "name": "future factory rally tank",
+      "pass": true
+    },
+    {
+      "name": "future factory rally scout",
+      "pass": true
+    },
+    {
+      "name": "future factory rally artillery",
+      "pass": true
+    },
+    {
+      "name": "future factory rally repair",
+      "pass": true
+    },
+    {
+      "name": "future factory rally harvester",
+      "pass": true
+    },
+    {
+      "name": "mixed H first unifies hold then releases",
+      "pass": true
+    },
+    {
+      "name": "S removes reservation but preserves existing hold false",
+      "pass": true
+    },
+    {
+      "name": "S removes reservation but preserves existing hold true",
+      "pass": true
+    },
+    {
+      "name": "accepted new ground order clears hold false",
+      "pass": true
+    },
+    {
+      "name": "accepted new ground order clears hold true",
+      "pass": true
+    },
+    {
+      "name": "append rejects held without changing entity appendGroundRoute({x:500,y:600})",
+      "pass": true
+    },
+    {
+      "name": "append rejects held without changing entity appendAttackQueue(enemy)",
+      "pass": true
+    },
+    {
+      "name": "paused reservation can be set but update cannot advance",
+      "pass": true
+    }
+  ]
+}

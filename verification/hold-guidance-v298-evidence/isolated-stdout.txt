@@ -1,0 +1,862 @@
+Developer preflight: sealed package integrity
+Package declares v0.298; source SHA-256 d03faa6beca0518edea4d5b07fbf8f6940ae2faba257af9b65d81690be998107; runner verification/run-tests-v298.cjs; 1561 listed files verified.
+Package integrity passed; game verification was not executed. Offline consistency does not establish authenticity or remote latest version.
+Developer preflight: editable source consistency
+{"schemaVersion":1,"outputSha256":"d03faa6beca0518edea4d5b07fbf8f6940ae2faba257af9b65d81690be998107","inputsSha256":"236f70723d617a95b653a6dc3fad027a7a482143d5607f7ab602e65202b54438"}
+Developer preflight: source builder tests
+✔ geometry is a real import and pure helpers retain semantics (5.853669ms)
+✔ current generated identity and deterministic assembly (27.769496ms)
+✔ intentional editable input: src/index.template.html (34.582872ms)
+✔ intentional editable input: src/styles.css (28.638364ms)
+✔ intentional editable input: src/script/01-bootstrap.jsfrag (37.601729ms)
+✔ intentional editable input: src/geometry.mjs (34.078393ms)
+✔ intentional editable input: src/script/02-gameplay.jsfrag (40.938865ms)
+✔ intentional editable input: src/script/03-renderer.jsfrag (34.515229ms)
+✔ intentional editable input: src/script/04-interface-runtime.jsfrag (36.105552ms)
+✔ intentional editable input: src/art/buildings.mjs (38.028209ms)
+✔ new output identical, refuses overwrite and unsafe paths (10.572291ms)
+✔ manual artifact edits fail check/write/recovery and stay untouched (17.863713ms)
+✔ crash-like stale output receipt fails closed, matching source allows recovery (25.278581ms)
+✔ missing/malformed receipt can only recover matching bytes (25.72751ms)
+✔ unknown and excess arguments refused (0.342077ms)
+✔ missing @@RED_STYLE@@ (2.799762ms)
+✔ duplicate @@RED_STYLE@@ (2.451095ms)
+✔ changed @@RED_STYLE@@ (2.856097ms)
+✔ misplaced @@RED_STYLE@@ (2.605057ms)
+✔ missing @@RED_SCRIPT@@ (4.0753ms)
+✔ duplicate @@RED_SCRIPT@@ (2.169039ms)
+✔ changed @@RED_SCRIPT@@ (2.205333ms)
+✔ misplaced @@RED_SCRIPT@@ (2.197332ms)
+✔ geometry footer missing (2.430514ms)
+✔ geometry footer duplicate (2.094586ms)
+✔ geometry footer nonterminal (1.804418ms)
+✔ geometry footer runtime-import (2.389091ms)
+✔ missing input rejected (0.794942ms)
+✔ input symlink rejected (0.81363ms)
+✔ output symlink rejected (0.656402ms)
+✔ receipt and generated-target symlinks rejected (9.280268ms)
+✔ lock refuses concurrent or stale writer (1.19035ms)
+✔ fragment embedded closing tag/marker and invalid JS rejected (9.93672ms)
+✔ invalid UTF-8 rejected (1.538175ms)
+✔ generated artifact symlink refused (13.866322ms)
+✔ reject HTML script raw-text boundary "</script data-x>" (3.568504ms)
+✔ reject HTML script raw-text boundary "</script/>" (3.159596ms)
+✔ reject HTML script raw-text boundary "</ScRiPt\tdata-x>" (3.173858ms)
+✔ reject HTML script raw-text boundary "</script\f>" (3.192886ms)
+✔ reject HTML style raw-text boundary "</style data-x>" (2.359486ms)
+✔ reject HTML style raw-text boundary "</style/>" (2.303973ms)
+✔ reject HTML style raw-text boundary "</StYlE\tdata-x>" (2.472797ms)
+✔ reject HTML style raw-text boundary "</style\f>" (2.24231ms)
+✔ non-boundary tag prefixes remain valid text (12.589ms)
+✔ out refuses reserved writer-lock path (5.118788ms)
+✔ intentional building color edit rebuilds and updates receipt (28.073947ms)
+✔ intentional building coordinate edit rebuilds and updates receipt (28.960407ms)
+✔ building marker missing (2.822076ms)
+✔ building marker duplicate (2.313768ms)
+✔ building marker changed (2.150961ms)
+✔ building marker misplaced (2.258915ms)
+✔ building marker other-fragment (2.744639ms)
+✔ building marker module (2.0044ms)
+✔ building marker template (3.867486ms)
+✔ building module footer missing (3.437566ms)
+✔ building module footer duplicate (1.827462ms)
+✔ building module footer nonterminal (1.821533ms)
+✔ building module footer wrong-name (1.855565ms)
+✔ building module footer import (1.811008ms)
+✔ building module footer extra-export (2.219125ms)
+✔ building module raw-text boundary </script> (2.249741ms)
+✔ building module raw-text boundary </script data-x> (2.266777ms)
+✔ building module raw-text boundary </script/> (2.577316ms)
+✔ building module raw-text boundary </ScRiPt	data-x> (2.597917ms)
+✔ assembly never evaluates building module (13.497794ms)
+✔ building module missing/symlink/invalid UTF-8 rejected (3.398537ms)
+✔ building art directory symlink rejected (0.934553ms)
+ℹ tests 67
+ℹ suites 0
+ℹ pass 67
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 738.4983
+Developer preflight: trusted building data validation
+✔ building art exports exactly three deeply frozen data tables and matches actual gameplay radii (7.406727ms)
+✔ building art reports actual cache/render counts and each intended static footprint (0.984949ms)
+✔ building art accepts valid hex palette edits for both teams without an identity pin (1.761623ms)
+✔ building art accepts in-bounds polygon, circle and rectangle edits (0.77372ms)
+✔ building art accepts geometry at the path and vertex budgets (0.702312ms)
+✔ building art accepts exactly the circle budget (0.330209ms)
+✔ building art bounds are the canonical square, with exact-edge rectangles accepted (0.308837ms)
+✔ building art rejects different canonical radius (0.302988ms)
+✔ building art rejects missing canonical type (0.252902ms)
+✔ building art rejects extra canonical type (0.37692ms)
+✔ building art rejects missing recipe type (0.204249ms)
+✔ building art rejects extra recipe type (0.204008ms)
+✔ building art rejects unknown shape (0.155165ms)
+✔ building art rejects extra shape entry (0.175765ms)
+✔ building art rejects short polygon (0.509961ms)
+✔ building art rejects odd polygon coordinates (0.150878ms)
+✔ building art rejects nonfinite polygon coordinate (0.129666ms)
+✔ building art rejects nonnumeric polygon coordinate (0.181064ms)
+✔ building art rejects sparse polygon coordinates (0.13885ms)
+✔ building art rejects extra circle coordinate (0.147122ms)
+✔ building art rejects nonfinite circle coordinate (0.129576ms)
+✔ building art rejects zero circle radius (0.218139ms)
+✔ building art rejects negative circle radius (0.140092ms)
+✔ building art rejects unknown recipe operation (0.201635ms)
+✔ building art rejects extra recipe entry (0.444652ms)
+✔ building art rejects empty recipe (0.156887ms)
+✔ building art rejects negative path index (0.201084ms)
+✔ building art rejects fractional path index (0.152972ms)
+✔ building art rejects out-of-range path index (0.173403ms)
+✔ building art rejects string path index (0.212151ms)
+✔ building art rejects short rectangle (0.150558ms)
+✔ building art rejects zero rectangle width (0.155195ms)
+✔ building art rejects negative rectangle height (0.176577ms)
+✔ building art rejects nonfinite rectangle coordinate (0.16523ms)
+✔ building art rejects invalid friendly color (0.280584ms)
+✔ building art rejects invalid enemy color (0.197398ms)
+✔ building art rejects color injection suffix (0.16577ms)
+✔ building art rejects polygon outside footprint (0.603923ms)
+✔ building art rejects circle edge outside footprint (0.309628ms)
+✔ building art rejects rectangle far edge outside footprint (0.166251ms)
+✔ building art rejects rectangle near edge outside footprint (0.149516ms)
+✔ building art rejects referenced shape too large for receiving recipe (0.266012ms)
+✔ building art rejects path budget exceeded (0.431031ms)
+✔ building art rejects vertex budget exceeded (0.482619ms)
+✔ building art rejects circle budget exceeded (0.306874ms)
+✔ building art rejects extra geometry array property (0.130307ms)
+✔ building art rejects nondata recipe property (0.095474ms)
+✔ building art rejects mutable radius table (0.114343ms)
+✔ building art rejects mutable geometry table (0.069605ms)
+✔ building art rejects mutable polygon coordinates (0.114583ms)
+✔ building art rejects mutable recipe table (0.07932ms)
+✔ building art rejects mutable recipe operation (0.095735ms)
+✔ building art rejects mutable rectangle coordinates (0.100132ms)
+✔ building art rejects accessors without invoking them (0.127703ms)
+✔ building art rejects cyclic frozen data (0.104588ms)
+✔ building art rejects invalid or changed actual gameplay radii (0.630102ms)
+ℹ tests 56
+ℹ suites 0
+ℹ pass 56
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 119.140129
+Developer preflight: unchanged canonical game verification
+Package declares v0.298; source SHA-256 d03faa6beca0518edea4d5b07fbf8f6940ae2faba257af9b65d81690be998107; runner verification/run-tests-v298.cjs; 1561 listed files verified.
+Running the exact verified runner in a private temporary copy; the original package is read-only.
+{
+  "sourceSha256": "d03faa6beca0518edea4d5b07fbf8f6940ae2faba257af9b65d81690be998107",
+  "current": [
+    {
+      "script": "repair-button-repeat.cjs",
+      "passed": 57,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": true
+    },
+    {
+      "script": "attack-pressed.cjs",
+      "passed": 42,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": true
+    },
+    {
+      "script": "same-repeat-factories.cjs",
+      "passed": 57,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "control-group-add.cjs",
+      "passed": 41,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "attack-tail-help.cjs",
+      "passed": 8,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "delivery-refinery-selection.cjs",
+      "passed": 72,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "retired-input-references.cjs",
+      "passed": 66,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "queue-remainder.cjs",
+      "passed": 103,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "queued-point.cjs",
+      "passed": 101,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "production-gesture-natural.cjs",
+      "passed": 19,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "production-mode-natural.cjs",
+      "passed": 32,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "attack-tail.cjs",
+      "passed": 27,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "route-cancel.cjs",
+      "passed": 14,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "escort-target.cjs",
+      "passed": 25,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "factory-spawn-check.cjs",
+      "passed": 25,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "ground-destination.cjs",
+      "passed": 34,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "mining-arrangement.cjs",
+      "passed": 19,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "ground-orders.cjs",
+      "passed": 26,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "post-capture.cjs",
+      "passed": 24,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "production-waiting.cjs",
+      "passed": 23,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "weakest-selection.cjs",
+      "passed": 37,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "selection-health.cjs",
+      "passed": 32,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "all-damaged.cjs",
+      "passed": 24,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "pause-ui.cjs",
+      "passed": 27,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "repair-paused.cjs",
+      "passed": 34,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    }
+  ],
+  "historicalIdentity": [
+    {
+      "script": "attack-tail-help.cjs",
+      "name": "exact current script and historical v268/v267 executable identity",
+      "passed": true,
+      "currentRejection": {
+        "failure": {
+          "stage": "source",
+          "invariant": "current_executable_script_exact",
+          "code": "ERR_ASSERTION"
+        },
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "attack-tail.cjs",
+      "name": "exact v262 restore rejects unrelated gameplay edits",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v263 attack-tail boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "route-cancel.cjs",
+      "name": "exact published v261 restoration rejects unrelated gameplay edits",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v262 route-cancel boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "escort-target.cjs",
+      "name": "restoration rejects unrelated mutation",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v261 escort-target boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "factory-spawn-check.cjs",
+      "name": "exact v259 restore rejects unauthorized gameplay mutation",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v260 spawn-check boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "ground-destination.cjs",
+      "name": "restores byte-exact v258 and detects unrelated gameplay change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v259 destination boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "mining-arrangement.cjs",
+      "name": "exact source restoration preserves every gameplay function",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v258 mining-arrangement boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "ground-orders.cjs",
+      "name": "strict restore preserves all unrelated execution source",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "exact v257 ground-order boundary",
+        "errorFormat": "assertion-message-only"
+      }
+    },
+    {
+      "script": "post-capture.cjs",
+      "name": "strict restoration proves original simulation source unchanged",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "exact v256 capture-notice boundary",
+        "errorFormat": "assertion-message-only"
+      }
+    },
+    {
+      "script": "production-waiting.cjs",
+      "name": "strict v254 restoration rejects unrelated source change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "exact v255 waiting explanation boundary",
+        "errorFormat": "assertion-message-only"
+      }
+    },
+    {
+      "script": "weakest-selection.cjs",
+      "name": "strict restore returns frozen v253 and rejects unrelated changes",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v254 weakest-selection boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "selection-health.cjs",
+      "name": "strict restore returns frozen v252 and rejects unrelated change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v253 selection-health boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "all-damaged.cjs",
+      "name": "strict restore returns frozen v251 and rejects unrelated source mutation",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v252 all-damaged boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "pause-ui.cjs",
+      "name": "strict source restoration rejects unrelated game change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v251 pause-ui boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "repair-paused.cjs",
+      "name": "strict source boundary restores exact v249; unauthorized repair mutation rejected",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v251 pause-ui boundary",
+        "errorFormat": "assertion-stack"
+      }
+    }
+  ],
+  "focused": [
+    {
+      "script": "map-pointer-geometry.cjs",
+      "passed": 39,
+      "assertions": 264
+    },
+    {
+      "script": "map-pointer-geometry-negative-control.cjs",
+      "passed": 6,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-command.cjs",
+      "passed": 85,
+      "assertions": 328
+    },
+    {
+      "script": "coordinate-command-negative-control.cjs",
+      "passed": 7,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-command-natural-v298.cjs",
+      "passed": 4,
+      "assertions": null
+    },
+    {
+      "script": "selection-removal.cjs",
+      "passed": 56,
+      "assertions": 212
+    },
+    {
+      "script": "selection-removal-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "selection-removal-natural.cjs",
+      "passed": 4,
+      "assertions": 1712
+    },
+    {
+      "script": "inherit-dom-v277-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "post-selection.cjs",
+      "passed": 73,
+      "assertions": 251
+    },
+    {
+      "script": "post-selection-negative-control.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "post-selection-natural.cjs",
+      "passed": 1,
+      "assertions": 262
+    },
+    {
+      "script": "coordinate-construction.cjs",
+      "passed": 80,
+      "assertions": 360
+    },
+    {
+      "script": "coordinate-construction-negative-control.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-construction-natural.cjs",
+      "passed": 1,
+      "assertions": 714
+    },
+    {
+      "script": "coordinate-append.cjs",
+      "passed": 65,
+      "assertions": 104
+    },
+    {
+      "script": "coordinate-append-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-append-natural.cjs",
+      "passed": 2,
+      "assertions": 410
+    },
+    {
+      "script": "selection-only.cjs",
+      "passed": 62,
+      "assertions": 186
+    },
+    {
+      "script": "selection-only-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "selection-only-natural.cjs",
+      "passed": 1,
+      "assertions": 310
+    },
+    {
+      "script": "coordinate-attack.cjs",
+      "passed": 76,
+      "assertions": 115
+    },
+    {
+      "script": "coordinate-attack-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-attack-natural.cjs",
+      "passed": 1,
+      "assertions": 488
+    },
+    {
+      "script": "patrol-action-v298.cjs",
+      "passed": 35,
+      "assertions": 725
+    },
+    {
+      "script": "patrol-action-negative-control-v298.cjs",
+      "passed": 9,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v281-negative-control.cjs",
+      "passed": 16,
+      "assertions": 16
+    },
+    {
+      "script": "global-repeat-scope-v298.cjs",
+      "passed": 5,
+      "assertions": 244
+    },
+    {
+      "script": "global-repeat-scope-negative-control-v298.cjs",
+      "passed": 9,
+      "assertions": null,
+      "behaviorNegativeControls": 8,
+      "sourceIdentityProbes": 1
+    },
+    {
+      "script": "inherit-dom-v282-negative-control.cjs",
+      "passed": 16,
+      "assertions": 16
+    },
+    {
+      "script": "all-factories.cjs",
+      "passed": 24,
+      "assertions": 293
+    },
+    {
+      "script": "all-factories-negative-control.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v283-negative-control.cjs",
+      "passed": 42,
+      "assertions": 71
+    },
+    {
+      "script": "order-waiting-reuse-v298.cjs",
+      "passed": 8,
+      "assertions": 235
+    },
+    {
+      "script": "order-waiting-reuse-negative-control-v298.cjs",
+      "passed": 9,
+      "assertions": null
+    },
+    {
+      "script": "bounded-ui-writes-v298.cjs",
+      "passed": 7,
+      "assertions": 232
+    },
+    {
+      "script": "bounded-ui-writes-negative-control-v298.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "power-read-reuse-v298.cjs",
+      "passed": 5,
+      "assertions": 803
+    },
+    {
+      "script": "power-read-reuse-negative-control-v298.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v289-negative-control.cjs",
+      "passed": 84,
+      "assertions": 152
+    },
+    {
+      "script": "opening-practice-v298.cjs",
+      "passed": 5,
+      "assertions": 2159
+    },
+    {
+      "script": "opening-practice-negative-control-v298.cjs",
+      "passed": 16,
+      "assertions": null
+    },
+    {
+      "script": "control-group-protection-v298.cjs",
+      "passed": 94,
+      "assertions": 385
+    },
+    {
+      "script": "control-group-protection-negative-control-v298.cjs",
+      "passed": 11,
+      "assertions": null
+    },
+    {
+      "script": "command-allocation-feedback-v298.cjs",
+      "passed": 104,
+      "assertions": 1114
+    },
+    {
+      "script": "command-allocation-feedback-negative-control-v298.cjs",
+      "passed": 8,
+      "assertions": null
+    },
+    {
+      "script": "control-group-repeat-v298.cjs",
+      "passed": 40,
+      "assertions": 257
+    },
+    {
+      "script": "control-group-repeat-negative-control-v298.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v293-negative-control.cjs",
+      "passed": 109,
+      "assertions": 112
+    },
+    {
+      "script": "quick-switchback-v298.cjs",
+      "passed": 19,
+      "assertions": 530
+    },
+    {
+      "script": "quick-switchback-negative-control-v298.cjs",
+      "passed": 25,
+      "assertions": null
+    },
+    {
+      "script": "quick-switchback-route-v298.cjs",
+      "passed": 3,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v298-negative-control.cjs",
+      "passed": 169,
+      "assertions": 172
+    },
+    {
+      "script": "visual-preference-v298.cjs",
+      "passed": 10,
+      "assertions": 132
+    },
+    {
+      "script": "visual-preference-negative-control-v298.cjs",
+      "passed": 15,
+      "assertions": 46
+    },
+    {
+      "script": "render-preview-v298.cjs",
+      "passed": 78,
+      "assertions": 7281
+    },
+    {
+      "script": "render-preview-negative-control-v298.cjs",
+      "passed": 27,
+      "assertions": 239
+    },
+    {
+      "script": "ore-layout-v298.cjs",
+      "passed": 5528,
+      "assertions": null
+    },
+    {
+      "script": "ore-layout-negative-control-v298.cjs",
+      "passed": 19,
+      "assertions": null
+    },
+    {
+      "script": "building-preview-v298.cjs",
+      "passed": 450,
+      "assertions": 5607
+    },
+    {
+      "script": "progress-rails-v298.cjs",
+      "passed": 202,
+      "assertions": null
+    },
+    {
+      "script": "progress-rails-negative-control-v298.cjs",
+      "passed": 9,
+      "assertions": null
+    },
+    {
+      "script": "health-edge-v298.cjs",
+      "passed": 2312,
+      "assertions": null
+    },
+    {
+      "script": "health-edge-negative-control-v298.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "hold-guidance-v298.cjs",
+      "passed": 16,
+      "assertions": null
+    },
+    {
+      "script": "parameterized-pilot/order-display-writes.cjs",
+      "passed": 8,
+      "assertions": 229
+    },
+    {
+      "script": "parameterized-pilot/selection-filter-writes.cjs",
+      "passed": 7,
+      "assertions": 110
+    },
+    {
+      "script": "parameterized-pilot/mutations.json#order-display-writes",
+      "passed": 10,
+      "assertions": null,
+      "classification": "DETECTED_BEHAVIOR"
+    },
+    {
+      "script": "parameterized-pilot/mutations.json#selection-filter-writes",
+      "passed": 8,
+      "assertions": null,
+      "classification": "DETECTED_BEHAVIOR"
+    }
+  ],
+  "adaptedInheritance": [
+    {
+      "script": "repair-button-repeat.cjs",
+      "originalSha256": "d986a5331fab751b0a5e2f70d9a49dd5b7d753149558e9f9f39055a7f3adfbce",
+      "adaptedSha256": "c106ad89687294591e645fe70d258db7062d32a9a30adbdb80f700d14c7a0f2c",
+      "scope": "Temporary dom(g)-only exclusion of exact coordinateCommandPanel, selectionRemovePanel, postSelectionPanel and coordinateConstructionPanel nodes/descendants plus marked detached new OPTION nodes and new patrolActionHint subtree; only patrol textContent/title/aria-describedby excluded, disabled and all other fields retained; v282 omits globalRepeatScopeHint and repeatProduction aria-label/title/aria-describedby only; v283 omits only the added selectAllFactories button subtree; v289 adds only openingPractice and descendants, separately tested directly and by projection boundaries; indexes rebuilt. v298 additionally excludes only holdBehaviorHint and rallyHoldBehaviorHint roots and normalizes only exact reviewed title/aria-describedby values on three named hold controls; all unexpected values remain visible. Existing fields, world/input state, exceptions and failures unchanged.",
+      "currentPassed": 57,
+      "exactV272OriginalPassed": 57,
+      "exactV272AdaptedPassed": 57
+    },
+    {
+      "script": "attack-pressed.cjs",
+      "originalSha256": "861f2eb41e65fc9b8f96af4182bd1cf60e4ccf651fa8fad1a918e4746b1b5957",
+      "adaptedSha256": "ff4cd41da49df23e6f779b7102ce660ee7b9abc605b18e1d38dbf1a23bd738e7",
+      "scope": "Temporary dom(g)-only exclusion of exact coordinateCommandPanel, selectionRemovePanel, postSelectionPanel and coordinateConstructionPanel nodes/descendants plus marked detached new OPTION nodes and new patrolActionHint subtree; only patrol textContent/title/aria-describedby excluded, disabled and all other fields retained; v282 omits globalRepeatScopeHint and repeatProduction aria-label/title/aria-describedby only; v283 omits only the added selectAllFactories button subtree; v289 adds only openingPractice and descendants, separately tested directly and by projection boundaries; indexes rebuilt. v298 additionally excludes only holdBehaviorHint and rallyHoldBehaviorHint roots and normalizes only exact reviewed title/aria-describedby values on three named hold controls; all unexpected values remain visible. Existing fields, world/input state, exceptions and failures unchanged.",
+      "currentPassed": 42,
+      "exactV272OriginalPassed": 42,
+      "exactV272AdaptedPassed": 42
+    }
+  ],
+  "inheritedSourceChecks": 10,
+  "inheritedBehaviorAndMarkup": 959,
+  "legacyFullSuite": null,
+  "version": "298",
+  "scope": "v298 adds only exact hold guidance template text and attributes; inline gameplay script stays byte-identical to v297. New projections normalize only exact known added attributes and two hint roots, with independent retained-field boundary controls. v297 clamps only negative shared health-bar y to zero; existing nonnegative positions and gameplay unchanged. Natural pointer-command tanks prove partial 3.8-to-4-pixel visibility; fully hidden thresholds are synthetic. v296 moves shared factory/construction rails fully within unchanged clipping rectangles; only four y offsets and version change. New current renderer comparisons normalize exact expected historical rail offsets, with focused full-intersection/state coverage and semantic mutants. v295 extends the default-off preview to buildings; three authoritative source edits and version-only bump, no gameplay change, no new DOM projection exclusions. v294 adds a default-off session-only vehicle-art preview and per-call lazy ore-label box reuse. Legacy drawUnit stays exact, experimental cached/fallback full-frame paint and default baseline parity are separate from performance claims. A single displayPreview subtree is additionally projected with retained-field boundary tests. v293 adds only one quick-mission preset and tactical brief; exact new button/brief subtree exclusions and exact seven-item text normalization are boundary-tested. v292 ignores repeated group digit keys while preserving first keys and visible clicks; its inherited group-protection test changes only the repeat-save expectation and adds a fresh-key assertion. Frozen v291 files and exact restoration retained. Persistent receipt adds existing allocation-failure counts only; exact v290 restoration and frozen v290 verification preserved. Intentional empty-group protection and live-only saved membership, with frozen v289 files and exact v289 restoration. Current-source VM behavior/markup and source checks are counted separately from exact restored-v272 identities. Two named inherited DOM comparators use hash-locked temporary adapters that omit only coordinateCommandPanel, selectionRemovePanel, postSelectionPanel and coordinateConstructionPanel subtrees plus marked detached OPTION nodes; v281 additionally excludes only patrolActionHint and patrol text/title/aria-describedby, all separately tested; v282 additionally excludes only globalRepeatScopeHint and repeatProduction aria-label/title/aria-describedby, also separately tested; v283 additionally excludes only the new selectAllFactories button subtree, with direct removal and retained-control boundary checks. v284 changes only equal-value order-display string writes; v285 adds a per-updateOrders lazy shared waiting-reason supplier. v286 suppresses equal-value writes for the existing selection-filter button text/title strings. v287 suppresses equal-value writes for the existing battle-report cells, ten action labels and unit/build card titles. v288 reuses one local completed-building list within each power call. v284-v288 add no DOM exclusions. v289 additionally excludes only openingPractice and descendants, with exact prior-projection reversal, physical removal equivalence and retained-field boundaries; a separate opening-practice suite directly covers its content and behavior. All projections rebuild indexes. All 25 programs execute against this actual v298 source; packaged old tests and VM remain byte-identical. Fifteen old source gates intentionally reject v298; only the frozen case name, failure shape and error first line are allowed. No browser or save/load/import/export execution.",
+  "parameterizedMigration": {
+    "runner": "run-pilot-release-v298.cjs",
+    "report": "parameterized-pilot/results-v298.json",
+    "normal": [
+      {
+        "suiteId": "order-display-writes",
+        "passed": 8,
+        "assertions": 229
+      },
+      {
+        "suiteId": "selection-filter-writes",
+        "passed": 7,
+        "assertions": 110
+      }
+    ],
+    "negative": 18,
+    "historicalHostSha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+    "replaces": [
+      "order-display-writes-v287.cjs",
+      "order-display-writes-negative-control-v287.cjs",
+      "selection-filter-writes-v287.cjs",
+      "selection-filter-writes-negative-control-v287.cjs"
+    ],
+    "scope": "Two stable selected-source suites and all 18 exact behavior mutations. The original v287 positive scripts execute only against the separate exact v287 host for semantic-result comparison. Historical identity and comparison are not current-v294 behavior counts."
+  }
+}
+Developer checks and unchanged canonical game verification passed.

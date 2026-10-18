@@ -1,0 +1,26 @@
+[
+  {
+    "before": "赤色前线 / ORIGINAL RTS / v0.297",
+    "after": "赤色前线 / ORIGINAL RTS / v0.298"
+  },
+  {
+    "before": "<button id=\"hold\">",
+    "after": "<button id=\"hold\" aria-describedby=\"holdBehaviorHint\" title=\"战斗车原地交战，不追击射程外敌人；维修车原地保留维修设置。所选部队都已坚守时，再按H解除；S停止不会解除已有坚守。\">"
+  },
+  {
+    "before": "<button id=\"holdOnArrival\" title=\"先右键指定普通地面终点，再预约抵达后坚守。仅战斗车；分段路线在最后一段生效，Shift追加延长路线。新指令或分段路线受阻停止时会取消预约，不影响H原地坚守。\" disabled>",
+    "after": "<button id=\"holdOnArrival\" aria-describedby=\"holdBehaviorHint\" title=\"先右键指定普通地面终点，再预约抵达后坚守。仅战斗车；分段路线在最后一段生效，Shift追加延长路线。抵达后仅在射程内交战，不追击射程外敌人。所选合格车辆都已预约时，再次点击取消预约；新指令或分段路线受阻停止时会取消预约。取消预约不等于解除已有坚守。\" disabled>"
+  },
+  {
+    "before": "抵达后坚守</button></div>",
+    "after": "抵达后坚守</button></div><p id=\"holdBehaviorHint\" class=\"hint\">坚守不是自动追敌：战斗车仅在射程内交战，即使被射程外敌人攻击也不主动追击。已坚守的部队可单独选中后按H解除，或下达有效的新移动/攻击指令；S停止保留已有坚守。抵达前，所选合格车辆都已预约时再次点击可取消预约；只取消预约不改变原路线。</p>"
+  },
+  {
+    "before": "<button id=\"rallyHold\" title=\"先为已建成工厂设置集结点；仅影响此后出厂的坦克、侦察车和火炮。坚守模式使用普通移动，抵达后不追击；矿车、维修车和已出厂车辆不变。再次切换恢复默认攻击移动。\" disabled>",
+    "after": "<button id=\"rallyHold\" aria-describedby=\"rallyHoldBehaviorHint\" title=\"先为已建成工厂设置集结点；仅影响此后出厂的坦克、侦察车和火炮。坚守模式使用普通移动，抵达后不追击；矿车、维修车和已出厂车辆不变。再次切换恢复默认攻击移动。\" disabled>"
+  },
+  {
+    "before": "新战车：改为坚守</button></div>",
+    "after": "新战车：改为坚守</button></div><p id=\"rallyHoldBehaviorHint\" class=\"hint\">新车坚守：仅影响此后出厂的战斗车，抵达后不追击射程外敌人，可能无法还击远处攻击者。再次切换只恢复未来新车的攻击移动；已出厂车辆不变，需另选车辆解除坚守。矿车和维修车不受此开关影响。</p>"
+  }
+]
