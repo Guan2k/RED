@@ -1,0 +1,538 @@
+{
+  "passed": 75,
+  "failed": 0,
+  "baselineSha": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+  "prototypeSha": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "concatCalls": {
+    "baseline": 704,
+    "prototype": 82
+  },
+  "scope": "Independent extracted-function frozen-input tests. No whole game, storage, browser, wall-time, GC or FPS measurement.",
+  "results": [
+    {
+      "name": "empty/classic",
+      "style": 0,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "empty/classic",
+      "style": 1,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "empty/classic",
+      "style": 2,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "empty/classic",
+      "style": 3,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "empty/meridian",
+      "style": 0,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "empty/meridian",
+      "style": 1,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "empty/meridian",
+      "style": 2,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "empty/meridian",
+      "style": 3,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "posts-no-ores/classic",
+      "style": 0,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "posts-no-ores/classic",
+      "style": 1,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "posts-no-ores/classic",
+      "style": 2,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "posts-no-ores/classic",
+      "style": 3,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "posts-no-ores/meridian",
+      "style": 0,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "posts-no-ores/meridian",
+      "style": 1,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "posts-no-ores/meridian",
+      "style": 2,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "posts-no-ores/meridian",
+      "style": 3,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "depleted/classic",
+      "style": 0,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "depleted/classic",
+      "style": 1,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "depleted/classic",
+      "style": 2,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "depleted/classic",
+      "style": 3,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "depleted/meridian",
+      "style": 0,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "depleted/meridian",
+      "style": 1,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "depleted/meridian",
+      "style": 2,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "depleted/meridian",
+      "style": 3,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "no-posts-many/classic",
+      "style": 0,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "no-posts-many/classic",
+      "style": 1,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "no-posts-many/classic",
+      "style": 2,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "no-posts-many/classic",
+      "style": 3,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "no-posts-many/meridian",
+      "style": 0,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "no-posts-many/meridian",
+      "style": 1,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "no-posts-many/meridian",
+      "style": 2,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "no-posts-many/meridian",
+      "style": 3,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "caption-mix/classic",
+      "style": 0,
+      "baseline": 20,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "caption-mix/classic",
+      "style": 1,
+      "baseline": 24,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "caption-mix/classic",
+      "style": 2,
+      "baseline": 36,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "caption-mix/classic",
+      "style": 3,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "caption-mix/meridian",
+      "style": 0,
+      "baseline": 20,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "caption-mix/meridian",
+      "style": 1,
+      "baseline": 24,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "caption-mix/meridian",
+      "style": 2,
+      "baseline": 36,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "caption-mix/meridian",
+      "style": 3,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "overlap/classic",
+      "style": 0,
+      "baseline": 10,
+      "prototype": 2,
+      "labels": 2
+    },
+    {
+      "name": "overlap/classic",
+      "style": 1,
+      "baseline": 10,
+      "prototype": 2,
+      "labels": 2
+    },
+    {
+      "name": "overlap/classic",
+      "style": 2,
+      "baseline": 18,
+      "prototype": 2,
+      "labels": 2
+    },
+    {
+      "name": "overlap/classic",
+      "style": 3,
+      "baseline": 2,
+      "prototype": 1,
+      "labels": 2
+    },
+    {
+      "name": "overlap/meridian",
+      "style": 0,
+      "baseline": 10,
+      "prototype": 2,
+      "labels": 2
+    },
+    {
+      "name": "overlap/meridian",
+      "style": 1,
+      "baseline": 10,
+      "prototype": 2,
+      "labels": 2
+    },
+    {
+      "name": "overlap/meridian",
+      "style": 2,
+      "baseline": 18,
+      "prototype": 2,
+      "labels": 2
+    },
+    {
+      "name": "overlap/meridian",
+      "style": 3,
+      "baseline": 2,
+      "prototype": 1,
+      "labels": 2
+    },
+    {
+      "name": "edges/classic",
+      "style": 0,
+      "baseline": 24,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "edges/classic",
+      "style": 1,
+      "baseline": 30,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "edges/classic",
+      "style": 2,
+      "baseline": 36,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "edges/classic",
+      "style": 3,
+      "baseline": 12,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "edges/meridian",
+      "style": 0,
+      "baseline": 24,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "edges/meridian",
+      "style": 1,
+      "baseline": 30,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "edges/meridian",
+      "style": 2,
+      "baseline": 36,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "edges/meridian",
+      "style": 3,
+      "baseline": 12,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "near-caption/classic",
+      "style": 0,
+      "baseline": 10,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "near-caption/classic",
+      "style": 1,
+      "baseline": 16,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "near-caption/classic",
+      "style": 2,
+      "baseline": 36,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "near-caption/classic",
+      "style": 3,
+      "baseline": 4,
+      "prototype": 1,
+      "labels": 4
+    },
+    {
+      "name": "near-caption/meridian",
+      "style": 0,
+      "baseline": 14,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "near-caption/meridian",
+      "style": 1,
+      "baseline": 16,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "near-caption/meridian",
+      "style": 2,
+      "baseline": 36,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "near-caption/meridian",
+      "style": 3,
+      "baseline": 8,
+      "prototype": 2,
+      "labels": 4
+    },
+    {
+      "name": "sequential-replaced-arrays-and-font-0",
+      "style": 0,
+      "baseline": 10,
+      "prototype": 2,
+      "labels": 2
+    },
+    {
+      "name": "sequential-replaced-arrays-and-font-1",
+      "style": 1,
+      "baseline": 2,
+      "prototype": 1,
+      "labels": 2
+    },
+    {
+      "name": "sequential-replaced-arrays-and-font-2",
+      "style": 2,
+      "baseline": 18,
+      "prototype": 2,
+      "labels": 2
+    },
+    {
+      "name": "sequential-replaced-arrays-and-font-3",
+      "style": 3,
+      "baseline": 2,
+      "prototype": 1,
+      "labels": 2
+    },
+    {
+      "name": "sequential-replaced-arrays-and-font-4",
+      "style": 0,
+      "baseline": 6,
+      "prototype": 2,
+      "labels": 2
+    },
+    {
+      "name": "sequential-replaced-arrays-and-font-5",
+      "style": 1,
+      "baseline": 2,
+      "prototype": 1,
+      "labels": 2
+    },
+    {
+      "name": "sequential-replaced-arrays-and-font-6",
+      "style": 2,
+      "baseline": 18,
+      "prototype": 2,
+      "labels": 2
+    },
+    {
+      "name": "sequential-replaced-arrays-and-font-7",
+      "style": 3,
+      "baseline": 2,
+      "prototype": 1,
+      "labels": 2
+    },
+    {
+      "name": "explicit-empty-concat-zero",
+      "style": 2,
+      "baseline": 0,
+      "prototype": 0,
+      "labels": 0
+    },
+    {
+      "name": "explicit-one-normal-array",
+      "style": 0,
+      "baseline": 2,
+      "prototype": 1,
+      "labels": 2
+    },
+    {
+      "name": "explicit-full-overlap-fallback",
+      "style": 2,
+      "baseline": 18,
+      "prototype": 2,
+      "labels": 2
+    }
+  ]
+}

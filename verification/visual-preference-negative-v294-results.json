@@ -1,0 +1,82 @@
+{
+  "passed": 15,
+  "failed": 0,
+  "results": [
+    {
+      "name": "browser hint removed",
+      "passed": true,
+      "detectedBy": "form restoration discouraged by explicit browser hint"
+    },
+    {
+      "name": "UI omits restored-checkbox repair",
+      "passed": true,
+      "detectedBy": "UI checkbox follows session flag"
+    },
+    {
+      "name": "UI adopts restored checkbox",
+      "passed": true,
+      "detectedBy": "UI checkbox follows session flag"
+    },
+    {
+      "name": "stable sync repeated assignment",
+      "passed": true,
+      "detectedBy": "stable checkbox sync writes zero"
+    },
+    {
+      "name": "default renderer enabled",
+      "passed": true,
+      "detectedBy": "fresh renderer default legacy"
+    },
+    {
+      "name": "panel expanded",
+      "passed": true,
+      "detectedBy": "display panel initially closed"
+    },
+    {
+      "name": "markup checkbox checked",
+      "passed": true,
+      "detectedBy": "markup default unchecked"
+    },
+    {
+      "name": "missing label linkage",
+      "passed": true,
+      "detectedBy": "one explicit accessible label"
+    },
+    {
+      "name": "missing help linkage",
+      "passed": true,
+      "detectedBy": "accessible help linkage"
+    },
+    {
+      "name": "ignored change",
+      "passed": true,
+      "detectedBy": "registered change sets session preview"
+    },
+    {
+      "name": "toggle consumes RNG",
+      "passed": true,
+      "detectedBy": "preference change consumes no RNG"
+    },
+    {
+      "name": "toggle changes economy",
+      "passed": true,
+      "detectedBy": "preference change leaves complete battle and commands unchanged"
+    },
+    {
+      "name": "toggle clears selection",
+      "passed": true,
+      "detectedBy": "preference change leaves complete battle and commands unchanged"
+    },
+    {
+      "name": "new round resets flag",
+      "passed": true,
+      "detectedBy": "new round retains session preference"
+    },
+    {
+      "name": "checkbox keyboard routed to battle",
+      "passed": true,
+      "detectedBy": "checkbox native key not intercepted"
+    }
+  ],
+  "scope": "Exact semantic mutations with successful positive prerequisite. No storage-write mutation or native browser action; generic errors/hash/syntax failures not credited."
+}

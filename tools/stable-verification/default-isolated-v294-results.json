@@ -1,0 +1,55 @@
+{
+  "command": "node verify-current.cjs",
+  "startedAt": "2026-10-18T05:09:40.226945+00:00",
+  "finishedAt": "2026-10-18T05:15:22.025542+00:00",
+  "exitCode": 0,
+  "stderr": "",
+  "sourceSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "runnerSha256": "0a88af5103b81b00d2a0a771fb365031584cc9447318d963dcc5f4d706fe8a5e",
+  "packageFilesChecked": 871,
+  "packageHashesUnchanged": true,
+  "leftoverNewTemporaryDirectories": [],
+  "postRunCheckOnly": {
+    "exitCode": 0,
+    "stdout": "Package declares v0.294; source SHA-256 740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d; runner verification/run-tests-v294.cjs; 870 listed files verified.\nPackage integrity passed; game verification was not executed. Offline consistency does not establish authenticity or remote latest version.\n",
+    "stderr": ""
+  },
+  "inheritedBehaviorAndMarkup": 959,
+  "inheritedSourceChecks": 10,
+  "historicalIdentity": 15,
+  "focusedResultEntries": 63,
+  "focused": [
+    {
+      "script": "ore-layout-v294.cjs",
+      "passed": 5528,
+      "assertions": null
+    },
+    {
+      "script": "ore-layout-negative-control-v294.cjs",
+      "passed": 19,
+      "assertions": null
+    },
+    {
+      "script": "parameterized-pilot/order-display-writes.cjs",
+      "passed": 8,
+      "assertions": 229
+    },
+    {
+      "script": "parameterized-pilot/selection-filter-writes.cjs",
+      "passed": 7,
+      "assertions": 110
+    },
+    {
+      "script": "parameterized-pilot/mutations.json#order-display-writes",
+      "passed": 10,
+      "assertions": null,
+      "classification": "DETECTED_BEHAVIOR"
+    },
+    {
+      "script": "parameterized-pilot/mutations.json#selection-filter-writes",
+      "passed": 8,
+      "assertions": null,
+      "classification": "DETECTED_BEHAVIOR"
+    }
+  ]
+}

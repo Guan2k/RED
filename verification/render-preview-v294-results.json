@@ -1,0 +1,674 @@
+{
+  "passed": 72,
+  "failed": 0,
+  "assertions": 7234,
+  "sourceSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "baselineSha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+  "harnessSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+  "results": [
+    {
+      "name": "source/legacy-draw-byte-identical-and-v293-restoration",
+      "passed": true,
+      "baselineSha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+      "harnessSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f"
+    },
+    {
+      "name": "lifecycle/default-off-lazy-cache-real-change-handler",
+      "passed": true,
+      "bootstrapMockReads": 1,
+      "cachePaths": 10
+    },
+    {
+      "name": "lifecycle/new-round-retains-choice-fresh-page-starts-off",
+      "passed": true
+    },
+    {
+      "name": "off-render/v293-full-frame-classic",
+      "passed": true,
+      "frames": 3,
+      "paints": 1125
+    },
+    {
+      "name": "off-render/v293-full-frame-frontier",
+      "passed": true,
+      "frames": 3,
+      "paints": 1125
+    },
+    {
+      "name": "off-render/v293-full-frame-canyon",
+      "passed": true,
+      "frames": 3,
+      "paints": 1215
+    },
+    {
+      "name": "off-render/v293-full-frame-ridge",
+      "passed": true,
+      "frames": 3,
+      "paints": 1179
+    },
+    {
+      "name": "off-render/v293-full-frame-crossroads",
+      "passed": true,
+      "frames": 3,
+      "paints": 1203
+    },
+    {
+      "name": "off-render/v293-full-frame-switchback",
+      "passed": true,
+      "frames": 3,
+      "paints": 1275
+    },
+    {
+      "name": "off-render/v293-full-frame-ring",
+      "passed": true,
+      "frames": 3,
+      "paints": 1167
+    },
+    {
+      "name": "off-render/v293-full-frame-meridian",
+      "passed": true,
+      "frames": 3,
+      "paints": 1203
+    },
+    {
+      "name": "cached-render/full-frame-all-units-hp-shots-effects",
+      "passed": true,
+      "frames": 3,
+      "paints": 1420,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-no-effects",
+      "passed": true,
+      "frames": 3,
+      "paints": 1381,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-order",
+      "passed": true,
+      "frames": 3,
+      "paints": 1384,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-blast",
+      "passed": true,
+      "frames": 3,
+      "paints": 1384,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-repair",
+      "passed": true,
+      "frames": 3,
+      "paints": 1387,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-cash",
+      "passed": true,
+      "frames": 3,
+      "paints": 1384,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-boom",
+      "passed": true,
+      "frames": 3,
+      "paints": 1387,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-hit",
+      "passed": true,
+      "frames": 3,
+      "paints": 1387,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-unknown",
+      "passed": true,
+      "frames": 3,
+      "paints": 1387,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-pause-drag-overlays",
+      "passed": true,
+      "frames": 3,
+      "paints": 1432,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-hover-entity",
+      "passed": true,
+      "frames": 3,
+      "paints": 1441,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-hover-ore",
+      "passed": true,
+      "frames": 3,
+      "paints": 1444,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-hover-post",
+      "passed": true,
+      "frames": 3,
+      "paints": 1456,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-hover-rock",
+      "passed": true,
+      "frames": 3,
+      "paints": 1459,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-construction-valid",
+      "passed": true,
+      "frames": 3,
+      "paints": 1450,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-construction-blocked",
+      "passed": true,
+      "frames": 3,
+      "paints": 1471,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-terminal-inspection",
+      "passed": true,
+      "frames": 3,
+      "paints": 1432,
+      "pathFills": 60
+    },
+    {
+      "name": "cached-render/full-frame-empty-entities-consecutive-frames",
+      "passed": true,
+      "frames": 3,
+      "paints": 444,
+      "pathFills": 0
+    },
+    {
+      "name": "cached-render/all-eight-maps-full-frame",
+      "passed": true,
+      "maps": [
+        "classic",
+        "frontier",
+        "canyon",
+        "ridge",
+        "crossroads",
+        "switchback",
+        "ring",
+        "meridian"
+      ],
+      "frames": 16,
+      "paints": 7160
+    },
+    {
+      "name": "cached-render/off-on-off-restores-legacy-next-frame-and-track-phase",
+      "passed": true,
+      "cycles": 5,
+      "legacyPaints": 4113
+    },
+    {
+      "name": "track-phase/visible-unit-phase-and-one-call-per-frame-across-toggles",
+      "passed": true,
+      "frames": 6,
+      "vehiclesPerFrame": 10
+    },
+    {
+      "name": "recorder/current-path-is-not-saved-or-changed-by-fill-path",
+      "passed": true
+    },
+    {
+      "name": "finite-cache/frozen-ten-paths-all-roles-team-phase-radius-type-fallback",
+      "passed": true,
+      "specimens": 832,
+      "phaseSamples": 13,
+      "cachePaths": 10,
+      "vertices": 63
+    },
+    {
+      "name": "failure/cache-latches-absent",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 0,
+        "traces": 0,
+        "moveTo": 0,
+        "lineTo": 0,
+        "closePath": 0
+      }
+    },
+    {
+      "name": "failure/cache-latches-nonfunction",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 0,
+        "traces": 0,
+        "moveTo": 0,
+        "lineTo": 0,
+        "closePath": 0
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:1",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 1,
+        "traces": 0,
+        "moveTo": 0,
+        "lineTo": 0,
+        "closePath": 0
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:2",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 2,
+        "traces": 7,
+        "moveTo": 1,
+        "lineTo": 5,
+        "closePath": 1
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:3",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 3,
+        "traces": 14,
+        "moveTo": 2,
+        "lineTo": 10,
+        "closePath": 2
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:4",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 4,
+        "traces": 21,
+        "moveTo": 3,
+        "lineTo": 15,
+        "closePath": 3
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:5",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 5,
+        "traces": 28,
+        "moveTo": 4,
+        "lineTo": 20,
+        "closePath": 4
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:6",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 6,
+        "traces": 35,
+        "moveTo": 5,
+        "lineTo": 25,
+        "closePath": 5
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:7",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 7,
+        "traces": 42,
+        "moveTo": 6,
+        "lineTo": 30,
+        "closePath": 6
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:8",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 8,
+        "traces": 49,
+        "moveTo": 7,
+        "lineTo": 35,
+        "closePath": 7
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:9",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 9,
+        "traces": 56,
+        "moveTo": 8,
+        "lineTo": 40,
+        "closePath": 8
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:10",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 10,
+        "traces": 63,
+        "moveTo": 9,
+        "lineTo": 45,
+        "closePath": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-moveTo:1",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 1,
+        "traces": 1,
+        "moveTo": 1,
+        "lineTo": 0,
+        "closePath": 0
+      }
+    },
+    {
+      "name": "failure/cache-latches-moveTo:10",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 10,
+        "traces": 64,
+        "moveTo": 10,
+        "lineTo": 45,
+        "closePath": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-lineTo:1",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 1,
+        "traces": 2,
+        "moveTo": 1,
+        "lineTo": 1,
+        "closePath": 0
+      }
+    },
+    {
+      "name": "failure/cache-latches-lineTo:53",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 10,
+        "traces": 72,
+        "moveTo": 10,
+        "lineTo": 53,
+        "closePath": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-closePath:1",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 1,
+        "traces": 7,
+        "moveTo": 1,
+        "lineTo": 5,
+        "closePath": 1
+      }
+    },
+    {
+      "name": "failure/cache-latches-closePath:10",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 10,
+        "traces": 73,
+        "moveTo": 10,
+        "lineTo": 53,
+        "closePath": 10
+      }
+    },
+    {
+      "name": "failure/cache-latches-trace:37",
+      "passed": true,
+      "paints": 846,
+      "initialization": {
+        "constructors": 6,
+        "traces": 37,
+        "moveTo": 6,
+        "lineTo": 26,
+        "closePath": 5
+      }
+    },
+    {
+      "name": "failure/fill-path-latches-at-1",
+      "passed": true,
+      "paints": 1270,
+      "failedFillOrdinal": 1
+    },
+    {
+      "name": "failure/fill-path-latches-at-2",
+      "passed": true,
+      "paints": 1270,
+      "failedFillOrdinal": 2
+    },
+    {
+      "name": "failure/fill-path-latches-at-3",
+      "passed": true,
+      "paints": 1270,
+      "failedFillOrdinal": 3
+    },
+    {
+      "name": "failure/fill-path-latches-at-4",
+      "passed": true,
+      "paints": 1270,
+      "failedFillOrdinal": 4
+    },
+    {
+      "name": "failure/fill-path-latches-at-5",
+      "passed": true,
+      "paints": 1270,
+      "failedFillOrdinal": 5
+    },
+    {
+      "name": "failure/fill-path-latches-at-9",
+      "passed": true,
+      "paints": 1270,
+      "failedFillOrdinal": 9
+    },
+    {
+      "name": "failure/fill-path-latches-at-10",
+      "passed": true,
+      "paints": 1270,
+      "failedFillOrdinal": 10
+    },
+    {
+      "name": "failure/fill-path-latches-at-13",
+      "passed": true,
+      "paints": 1270,
+      "failedFillOrdinal": 13
+    },
+    {
+      "name": "failure/fill-path-latches-at-20",
+      "passed": true,
+      "paints": 1270,
+      "failedFillOrdinal": 20
+    },
+    {
+      "name": "natural-ui/preview-on-off-command-rally-production-movement-parity",
+      "passed": true,
+      "map": "ring",
+      "seconds": 60,
+      "checkpoints": 63,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "paid": 180,
+      "producedId": 19,
+      "atRally": {
+        "x": 338.21403128802484,
+        "y": 596.2173904489424
+      },
+      "afterMap": {
+        "x": 223.95158270448388,
+        "y": 657.8679158979471
+      },
+      "final": {
+        "x": 153.3970480919861,
+        "y": 621.7395047779122
+      },
+      "fixtureKind": "Natural legal UI start, pointer selection, coordinate rally, production button, ordinary map movement and coordinate movement. No world/funds/health/position injection; synthetic VM DOM events."
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-classic",
+      "passed": true,
+      "map": "classic",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-frontier",
+      "passed": true,
+      "map": "frontier",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-canyon",
+      "passed": true,
+      "map": "canyon",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-ridge",
+      "passed": true,
+      "map": "ridge",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-crossroads",
+      "passed": true,
+      "map": "crossroads",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-switchback",
+      "passed": true,
+      "map": "switchback",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-ring",
+      "passed": true,
+      "map": "ring",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-meridian",
+      "passed": true,
+      "map": "meridian",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "scope/no-persistence-writes-and-no-real-storage",
+      "passed": true,
+      "mockReadCount": 1,
+      "readKeys": [
+        "red-front-save-v1"
+      ],
+      "note": "Reads return null in memory. No save/load/import/export invoked."
+    }
+  ],
+  "scope": "Whole-source VM, real change-handler and complete render paint recorder. Records transformed geometry, paint order, alpha/composite, styles, clipping, current-path residue and consecutive frames. Synthetic scene/failure fixtures, a separate natural UI command/production trajectory, plus 90-second deterministic trajectories on all eight maps. Only mock bootstrap storage reads; no save/load/import/export or real storage. Not native browser, rasterization, GPU, context-loss, visual usability or FPS acceptance.",
+  "sourceUnchanged": true
+}

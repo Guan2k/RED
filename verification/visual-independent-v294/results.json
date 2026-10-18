@@ -1,0 +1,201 @@
+{
+  "source": "red-development/v294-visual-preview/RED/index.html",
+  "sha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "passed": 48,
+  "failed": 0,
+  "scope": "Independent synthetic whole-source VM, recording Path2D/direct complete-render paints and real queued RAF callbacks. No native raster/FPS/browser or persistence operations; persistence refresh suppressed before bootstrap.",
+  "results": [
+    {
+      "name": "fresh page defaults off without Path2D construction",
+      "pass": true
+    },
+    {
+      "name": "toggle-only lifecycle initial",
+      "pass": true
+    },
+    {
+      "name": "toggle-only lifecycle active",
+      "pass": true
+    },
+    {
+      "name": "toggle-only lifecycle paused",
+      "pass": true
+    },
+    {
+      "name": "toggle-only lifecycle restart",
+      "pass": true
+    },
+    {
+      "name": "toggle-only lifecycle terminal",
+      "pass": true
+    },
+    {
+      "name": "new round retains flag cache but fresh page resets",
+      "pass": true
+    },
+    {
+      "name": "fallback survives toggles and rounds absent",
+      "pass": true
+    },
+    {
+      "name": "fallback survives toggles and rounds constructor",
+      "pass": true
+    },
+    {
+      "name": "fallback survives toggles and rounds fill",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity classic/normal",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity classic/paused",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity classic/selected-effects",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity classic/terminal",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity meridian/normal",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity meridian/paused",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity meridian/selected-effects",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity meridian/terminal",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity switchback/normal",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity switchback/paused",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity switchback/selected-effects",
+      "pass": true
+    },
+    {
+      "name": "full render default legacy parity switchback/terminal",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview classic/normal",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview classic/paused",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview classic/selected-effects",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview classic/terminal",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview meridian/normal",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview meridian/paused",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview meridian/selected-effects",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview meridian/terminal",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview switchback/normal",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview switchback/paused",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview switchback/selected-effects",
+      "pass": true
+    },
+    {
+      "name": "full render cached versus direct preview switchback/terminal",
+      "pass": true
+    },
+    {
+      "name": "real RAF simulation and RNG remain equal through toggles",
+      "pass": true
+    },
+    {
+      "name": "continuous real frames ON OFF ON with retained current path failureAt=0",
+      "pass": true
+    },
+    {
+      "name": "continuous real frames ON OFF ON with retained current path failureAt=2",
+      "pass": true
+    },
+    {
+      "name": "checkbox mismatch repairs from flag initial/false",
+      "pass": true
+    },
+    {
+      "name": "checkbox mismatch repairs from flag initial/true",
+      "pass": true
+    },
+    {
+      "name": "checkbox mismatch repairs from flag active/false",
+      "pass": true
+    },
+    {
+      "name": "checkbox mismatch repairs from flag active/true",
+      "pass": true
+    },
+    {
+      "name": "checkbox mismatch repairs from flag paused/false",
+      "pass": true
+    },
+    {
+      "name": "checkbox mismatch repairs from flag paused/true",
+      "pass": true
+    },
+    {
+      "name": "checkbox mismatch repairs from flag restart/false",
+      "pass": true
+    },
+    {
+      "name": "checkbox mismatch repairs from flag restart/true",
+      "pass": true
+    },
+    {
+      "name": "checkbox mismatch repairs from flag terminal/false",
+      "pass": true
+    },
+    {
+      "name": "checkbox mismatch repairs from flag terminal/true",
+      "pass": true
+    },
+    {
+      "name": "original unit renderer exact and no persistence/schema changes",
+      "pass": true
+    }
+  ]
+}
