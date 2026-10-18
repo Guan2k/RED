@@ -22,3 +22,7 @@
 ## 默认入口最终验证
 
 `node verify-current.cjs` 在 2026-10-18T04:43:30.543322+00:00 至 2026-10-18T04:48:23.137130+00:00 完成，退出0、stderr为空；原包764个文件哈希全部不变，无新增遗留临时目录，随后check-only通过。隔离聚合再次得到959行为/标记、10源码检查、15历史身份及56focused条目。结果见tools/stable-verification/default-isolated-v293-results.json和verification/v293-aggregate-results.json。此后仅补最终文档/证据/清单并重跑入口工具与静态校验，不改变游戏源或测试逻辑。
+
+## 独立玩家包与研究附录
+
+[当前v293玩家包构建说明](PLAYER_PACKAGE_BUILD_V293.md)提供版本化工具、26项指南检查、20项包拒绝案例与固定ZIP身份；这些是静态打包证据，不增加游戏覆盖。[工程研究快照](experiments/research-v292/README.md)明确基线为v292，包含模块化、CPU测量方法和美术实验；原型美术未并入默认游戏，不进入玩家包，没有FPS提升结论。单HTML是当前交付形式，不限制未来技术栈或分发形式。新增附录不改当前游戏、测试或三个玩家包绑定输入；仅重算文件清单并执行check-only。

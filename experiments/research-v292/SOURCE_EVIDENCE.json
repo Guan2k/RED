@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "baseline": "v0.292",
+  "status": "research baseline v292; main game version is defined at repository root; prototypes are not integrated into the default game or player package",
+  "sourcePathBase": "Original red-development workspace (not included)",
+  "includedOriginals": {
+    "architecture/build.mjs": {
+      "original": "architecture-pilot/build.mjs",
+      "bytes": 2061,
+      "sha256": "62a942c0dcfc0dc165ee01d483b3673071eb1ce8c5f23503b29d9db47c6ccc55"
+    },
+    "architecture/test.mjs": {
+      "original": "architecture-pilot/test.mjs",
+      "bytes": 2936,
+      "sha256": "64c3683f7c25563a1a35fe548b110358548940ce2960d65e3306b6173b459d64"
+    },
+    "architecture/build-manifest.json": {
+      "original": "architecture-pilot/build-manifest.json",
+      "bytes": 314,
+      "sha256": "2a6e1beb55e8cf7724f0de4196c0ee8c18a59f1e886e3193a73647289f4235fc"
+    },
+    "architecture/src/index.template.html": {
+      "original": "architecture-pilot/src/index.template.html",
+      "bytes": 455968,
+      "sha256": "f03d07c7a87e32f70a83852275bb0f2fe28e5d5efee1719d2b0a000b728841a4"
+    },
+    "architecture/src/geometry.mjs": {
+      "original": "architecture-pilot/src/geometry.mjs",
+      "bytes": 112,
+      "sha256": "ec617ada5a5c3466a4c326d2c3a3f3d968946a10c619f5c48b49c172f14ba76f"
+    },
+    "cpu/REPORT.md": {
+      "original": "cpu-profile-pilot/REPORT.md",
+      "bytes": 5266,
+      "sha256": "f5efababd8eccea73b6fe9d53a0be515026e045895d714e5a47aeadacb231b01",
+      "snapshotAdaptation": "Added snapshot-only notice explaining omitted raw files and external dependency paths; historical report body unchanged."
+    },
+    "cpu/summary.json": {
+      "original": "cpu-profile-pilot/summary.json",
+      "bytes": 52280,
+      "sha256": "387ed72cd0dde4b44a9a68d9eda73d1ec7857c9a848442024fbac558d7956f6f"
+    },
+    "cpu/analyze.py": {
+      "original": "cpu-profile-pilot/analyze.py",
+      "bytes": 2357,
+      "sha256": "2ea427e476ff7eef7323143b119b18d0cb143359ed8c35ac9f0179324e99522d"
+    },
+    "cpu/profile-template.cjs": {
+      "original": "cpu-profile-pilot/profile-template.cjs",
+      "bytes": 6017,
+      "sha256": "25bd2de65023939e44e5f15d8875875d95ac73ed9adbd626fcab81ec8af98643"
+    },
+    "art/concept/DESIGN_NOTES.md": {
+      "original": "art-direction-pilot/DESIGN_NOTES.md",
+      "bytes": 5949,
+      "sha256": "72ea1c94111140e90cfa1a32e6d380b99dd5181c80912f83dd035342a5b913c2"
+    },
+    "art/concept/build-board.py": {
+      "original": "art-direction-pilot/build-board.py",
+      "bytes": 6227,
+      "sha256": "f15a3be27e4cca5ad4b40aca5660a420d56f26033b22d5be08ffa11b29da55d6"
+    },
+    "art/concept/red-vehicle-art-concept.svg": {
+      "original": "art-direction-pilot/red-vehicle-art-concept.svg",
+      "bytes": 101425,
+      "sha256": "ad01bc61b85bf1d6ceb7a9fb8369998509a565b32cbe72900099ec5135464f4f"
+    },
+    "art/concept/red-vehicle-art-concept.png": {
+      "original": "art-direction-pilot/red-vehicle-art-concept.png",
+      "bytes": 360161,
+      "sha256": "5a100f2233e1befe2305e092e30c507b04327df92d2e905fff88be2a05d44753"
+    },
+    "art/prototype-v2/draw-unit-art.js": {
+      "original": "art-direction-pilot/prototype-v2/draw-unit-art.js",
+      "bytes": 2838,
+      "sha256": "cc2ada70b9409eb4f5ef47e614751d432d06b1be8ed7da22766ec47b30143b0a"
+    },
+    "art/prototype-v2/draw-command-proof.svg": {
+      "original": "art-direction-pilot/prototype-v2/draw-command-proof.svg",
+      "bytes": 153136,
+      "sha256": "8200fe298c1cfa78540e65b14a48ec9c788d66d492a6516e4bcb9007f71e6074"
+    },
+    "art/prototype-v2/draw-command-proof.png": {
+      "original": "art-direction-pilot/prototype-v2/draw-command-proof.png",
+      "bytes": 178245,
+      "sha256": "d4904b88f663111b9fe19abdb6544ad752dd1f721da9d7da60ea6cb676bca22d"
+    },
+    "art/prototype-v2/art-test-results.json": {
+      "original": "art-direction-pilot/prototype-v2/art-test-results.json",
+      "bytes": 1560,
+      "sha256": "a9a162637392f82e9a0742f26d34b243e7286e606efffc3b2138ae38b91aba8d"
+    },
+    "art/prototype-v2/draw-only.patch": {
+      "original": "art-direction-pilot/prototype-v2/draw-only.patch",
+      "bytes": 8272,
+      "sha256": "dc47d4d2c724cbe690bc05ada1b6fd52dcfea7259fb8ce257373d6ec9581f74b"
+    },
+    "art/prototype-v2/verify-art.cjs": {
+      "original": "art-direction-pilot/prototype-v2/verify-art.cjs",
+      "bytes": 5863,
+      "sha256": "f7fdd83353420b66296fcff3526806f99a0332b0b81d636e9aed69b864b178dd"
+    },
+    "art/prototype-v2/build-proof.cjs": {
+      "original": "art-direction-pilot/prototype-v2/build-proof.cjs",
+      "bytes": 4319,
+      "sha256": "c9743ba2f0768a3401832ac3ffaaa9132be87362e7456a6babd92c36c7c32e97"
+    }
+  },
+  "excludedLocalEvidence": {
+    "v292-package-tools/RED/index.html": {
+      "bytes": 456018,
+      "sha256": "e5edd8f7384d37a356071c66c6788e681f3e45ad9ab224a52a783692b5ca0884"
+    },
+    "v292-package-tools/RED/verification/vm-environment.cjs": {
+      "bytes": 6028,
+      "sha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f"
+    },
+    "art-direction-pilot/prototype-v2/index.html": {
+      "bytes": 457922,
+      "sha256": "ad8001a0ccb31152f5ac9e8220adc34f7fa64fb31a916a62e6a2235c2b436d04"
+    },
+    "v293-mission-playability/verify.cjs": {
+      "bytes": 4996,
+      "sha256": "2d3e338b00f5e11838ccf9067c7dd5345cdeb2fdfd8215aa37dc6eb3d6ef266d"
+    },
+    "cpu-profile-pilot/run-1/main.cpuprofile": {
+      "bytes": 235695,
+      "sha256": "36ab706291546978a78c9a927b9dee9d0a3b7b60828cbc26746d0f8e02777afb"
+    },
+    "cpu-profile-pilot/run-1/seed-29301.json": {
+      "bytes": 138583,
+      "sha256": "2fe25e55a23760609e2549b247038830bdab670dc099b1b388c3fdb24f5b39ad"
+    },
+    "cpu-profile-pilot/run-1/runtime.json": {
+      "bytes": 274,
+      "sha256": "d26e21c4991f4c834efd899002e41fcf5f4a6543d7e052be1f05169ba41b2b4f"
+    },
+    "cpu-profile-pilot/run-2/main.cpuprofile": {
+      "bytes": 242337,
+      "sha256": "b102436e4dbdf1bc72367dcaf3eab2fbcaa81ff5c2e370095f96c04b8cc834de"
+    },
+    "cpu-profile-pilot/run-2/seed-29301.json": {
+      "bytes": 138583,
+      "sha256": "2fe25e55a23760609e2549b247038830bdab670dc099b1b388c3fdb24f5b39ad"
+    },
+    "cpu-profile-pilot/run-2/runtime.json": {
+      "bytes": 265,
+      "sha256": "32323dd57df2384d3f12d82f3ed91a5fc9c9ea1c534da37d49e02801b7d551bd"
+    },
+    "cpu-profile-pilot/run-3/main.cpuprofile": {
+      "bytes": 233261,
+      "sha256": "60dbb229c1ddf3f1de6c5bc6bf2e8db5dbe7ea57658c5e784b5e2bf407a79236"
+    },
+    "cpu-profile-pilot/run-3/seed-29301.json": {
+      "bytes": 138583,
+      "sha256": "2fe25e55a23760609e2549b247038830bdab670dc099b1b388c3fdb24f5b39ad"
+    },
+    "cpu-profile-pilot/run-3/runtime.json": {
+      "bytes": 274,
+      "sha256": "e5f1c57d3a594def03e77bec1220d840eb47e58a64b8b37cd432f5ece1eddcfc"
+    }
+  },
+  "cpuSummaryValidation": "Recomputed with unchanged analyze.py against copies of all 3 raw profiles/traces/runtime files; summary.json byte-identical.",
+  "conceptValidation": "Regenerated concept SVG with unchanged build-board.py in temporary directory; bytes identical."
+}

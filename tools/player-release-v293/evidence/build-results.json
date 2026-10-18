@@ -1,0 +1,12 @@
+{
+  "archive": "RED-v0.293-player.zip",
+  "bytes": 510897,
+  "sha256": "0adc98ce30cf5088592e14095128be0eeaf4d5aee9953ca8eefc6367b188c448",
+  "files": {
+    "CURRENT_PLAYER_GUIDE.md": "6f9e316b0c5a623e93f0c5b234af3833995d0bdfaf96c7a1610492973de7fd9f",
+    "README.md": "34c71775e78f64cab548d2bc00c76b89c3de009c67c323d5f1e4a5c57f19cc5c",
+    "SHA256SUMS.txt": "6973863abd87b0971afb02c89dd0156a5d97788c70dd88493aebdec8ba92250b",
+    "index.html": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca"
+  },
+  "validation": "static packaging only; no game/browser/storage execution"
+}

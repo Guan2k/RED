@@ -1,0 +1,55 @@
+--- v292/index.html
++++ art-prototype-v2/index.html
+@@ -393,7 +393,51 @@
+ function drawBuilding(e){let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);rect(-r+5,-r+9,r*2,r*2,'#16231c80');rect(-r,-r,r*2,r*2,'#293c31');ctx.strokeStyle=color;ctx.lineWidth=3;ctx.strokeRect(-r,-r,r*2,r*2);rect(-r+6,-r+6,r*2-12,r*2-12,color);if(e.type==='hq'){rect(-24,-17,48,36,'#263b36');rect(-17,-11,34,10,'#8ccebd');rect(-8,10,16,28,'#435545');ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}if(e.type==='power'){circle(-9,0,12,'#b3b798');circle(10,0,12,'#9ba789');ctx.beginPath();ctx.moveTo(-3,-15);ctx.lineTo(9,-15);ctx.lineTo(1,-3);ctx.lineTo(10,-3);ctx.lineTo(-8,16);ctx.lineTo(-2,2);ctx.lineTo(-10,2);ctx.closePath();ctx.fillStyle='#fff0a4';ctx.fill();ctx.strokeStyle='#5d6743';ctx.lineWidth=1;ctx.stroke()}if(e.type==='factory'){rect(-25,-16,50,34,'#293d32');for(let i=0;i<4;i++)rect(-22+i*12,-12,7,22,'#688879');rect(-15,19,30,12,'#15241d')}if(e.type==='refinery'){circle(-13,-4,14,'#b4ad78');circle(13,-4,14,'#899a73');rect(-22,12,44,10,'#253c2b')}if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}ctx.restore();drawConstructionProgress(e);drawFactoryProgress(e)}
+ const unitTrackMemory=new WeakMap();
+ function unitTrackPhase(e){let v=unitTrackMemory.get(e);if(!v){v={x:e.x,y:e.y,phase:0};unitTrackMemory.set(e,v)}else{v.phase=(v.phase+Math.hypot(e.x-v.x,e.y-v.y))%7;v.x=e.x;v.y=e.y}return v.phase}
+-function drawUnit(e){let phase=unitTrackPhase(e),d=defs[e.type],color=e.team?'#b35d49':'#7da477';ctx.save();ctx.translate(e.x,e.y);ctx.rotate(e.angle);rect(-e.r+2,-e.r+4,e.r*2,e.r*2,'#0d211680');rect(-e.r,-e.r,e.r*2,5,'#202c24');rect(-e.r,e.r-5,e.r*2,5,'#202c24');rect(-e.r,-e.r+5,e.r*2,e.r*2-10,color);for(let x=-e.r-7+phase;x<e.r;x+=7){let left=Math.max(-e.r,x),right=Math.min(e.r,x+2);if(right>left){rect(left,-e.r,right-left,4,'#687361');rect(left,e.r-4,right-left,4,'#687361')}}if(e.type==='harvester'){rect(-11,-8,13,16,'#b4b086');rect(7,-10,9,20,'#dcbe70');rect(-11,8,Math.max(1,e.load/180*20),3,'#e9c55f')}else if(e.type==='repair'){rect(-9,-8,18,16,'#bfd5b0');rect(-2,-6,4,12,'#2c7350');rect(-6,-2,12,4,'#2c7350')}else{circle(0,0,e.type==='tank'?9:6,color);rect(0,-3,e.type==='artillery'?34:e.type==='tank'?24:17,6,'#c0c7a3');if(e.type==='artillery'){rect(-11,-7,14,14,'#bac4a0');rect(-13,-12,4,24,'#263e2c')}}ctx.restore()}
++// Draw-only art pilot: geometry is replayed into SVG by the proof tool.
++// No simulation fields, RNG, caches or separate turret rotation are introduced.
++function unitArtPoly(points,color){ctx.fillStyle=color;ctx.beginPath();ctx.moveTo(points[0],points[1]);for(let i=2;i<points.length;i+=2)ctx.lineTo(points[i],points[i+1]);ctx.closePath();ctx.fill()}
++function drawUnit(e){
++  let phase=unitTrackPhase(e),r=e.r,color=e.team?'#a66755':'#75977c',high=e.team?'#d19b7e':'#a4b49a',dark=e.team?'#6f4038':'#405c49';
++  ctx.save();ctx.translate(e.x,e.y);ctx.rotate(e.angle);
++  rect(-r+2,-r+4,r*2,r*2,'#0d211680');
++  if(e.type==='scout'){
++    for(let x of[-8,3])for(let y of[-10,6])rect(x,y,6,4,'#17231d');
++    unitArtPoly([-9,-6,4,-7,10,-3,10,3,4,7,-9,6],'#17271e');
++    unitArtPoly([-8,-5,4,-6,9,-2,9,2,4,6,-8,5],color);
++    rect(-6,-5,7,2,high);rect(-3,-3,7,6,dark);rect(2,-1.5,15,3,'#c0c7a3');
++  }else{
++    rect(-r,-r,r*2,5,'#202c24');rect(-r,r-5,r*2,5,'#202c24');
++    for(let x=-r-7+phase;x<r;x+=7){let left=Math.max(-r,x),right=Math.min(r,x+2);if(right>left){rect(left,-r,right-left,4,'#687361');rect(left,r-4,right-left,4,'#687361')}}
++    if(e.type==='tank'){
++      unitArtPoly([-13,-8,7,-8,13,-4,13,4,7,8,-13,8],'#17271e');
++      unitArtPoly([-12,-7,7,-7,12,-3,12,3,7,7,-12,7],color);
++      rect(-10,-7,14,2,high);unitArtPoly([-6,-6,4,-6,8,-2,8,3,3,6,-6,5],dark);
++      rect(-4,-5,7,2,high);rect(3,-2,21,4,'#c0c7a3');rect(20,-2.5,4,5,dark);
++    }else if(e.type==='artillery'){
++      unitArtPoly([-14,-9,9,-9,14,-5,14,5,9,9,-14,9],'#17271e');
++      unitArtPoly([-13,-8,9,-8,13,-4,13,4,9,8,-13,8],color);
++      rect(-11,-8,14,2,high);rect(-12,-7,12,14,dark);rect(-9,-5,7,10,high);
++      rect(-2,-2.5,36,5,'#c0c7a3');rect(29,-3.5,5,7,dark);
++    }else if(e.type==='repair'){
++      unitArtPoly([-13,-8,5,-8,13,-4,13,5,6,8,-13,8],'#17271e');
++      unitArtPoly([-12,-7,5,-7,12,-3,12,4,6,7,-12,7],color);
++      rect(-10,-7,15,14,'#b4c5ab');rect(7,-3,4,6,dark);
++      unitArtPoly([-1,-6,1,-4,4,-6,5,-2,2,1,-2,6,-5,4,-1,0,-3,-2],dark);
++      rect(-10,8,13,2,'#d9bd77');rect(3,6,3,4,'#d9bd77');
++    }else if(e.type==='harvester'){
++      rect(-15,-10,23,20,color);rect(-13,-8,17,16,dark);rect(-12,-7,15,2,high);
++      rect(-10,-3,5,6,'#b59b60');rect(-4,-5,6,9,'#d0b16f');rect(8,-10,7,20,'#c6ab6b');
++      rect(10,-10,1,20,'#524f38');rect(13,-10,1,20,'#524f38');
++      rect(-11,8,Math.max(1,e.load/180*20),3,'#e9c55f');
++    }
++  }
++  // Small rear-corner team stencil; leave the role-defining hull detail visible.
++  // Secondary cue may weaken at half-scale; never enlarge the collision footprint.
++  let badgeX=-r+2,badgeY=-r+5;rect(badgeX-1,badgeY-1,8,6,'#14201b');
++  if(e.team)unitArtPoly([badgeX,badgeY,badgeX+6,badgeY+2,badgeX,badgeY+4],'#e7d9b4');
++  else{rect(badgeX,badgeY,6,1.5,'#e7d9b4');rect(badgeX,badgeY+2.5,6,1.5,'#e7d9b4')}
++  ctx.restore();
++}
+ const terrainAccentTiles=[];for(let y=0;y<HEIGHT;y+=40)for(let x=0;x<WIDTH;x+=40)if(Math.sin(x*13+y*27)>.2)terrainAccentTiles.push([x,y]);
+ function drawTerrain(){let meridian=state.mapChoice==='meridian',ring=state.mapChoice==='ring',frontier=state.mapChoice==='frontier',canyon=state.mapChoice==='canyon',ridge=state.mapChoice==='ridge',crossroads=state.mapChoice==='crossroads',switchback=state.mapChoice==='switchback';rect(0,0,WIDTH,HEIGHT,meridian?'#3b454a':ring?'#3c4541':switchback?'#48463c':crossroads?'#3c4745':ridge?'#35483f':canyon?'#494b41':frontier?'#5b553c':'#354a37');ctx.fillStyle=meridian?'#424d51':ring?'#424c46':switchback?'#504d42':crossroads?'#414e4b':ridge?'#3b4f44':canyon?'#505247':frontier?'#625a40':'#394d3a';ctx.beginPath();for(let [x,y] of terrainAccentTiles)ctx.rect(x,y,40,40);ctx.fill();ctx.strokeStyle='#9aba7810';ctx.lineWidth=1;ctx.setLineDash([]);ctx.beginPath();for(let x=0;x<=WIDTH;x+=40){ctx.moveTo(x,0);ctx.lineTo(x,HEIGHT)}for(let y=0;y<=HEIGHT;y+=40){ctx.moveTo(0,y);ctx.lineTo(WIDTH,y)}ctx.stroke();ctx.strokeStyle='#596446';ctx.lineWidth=70;ctx.beginPath();if(meridian){for(let x of[60,600,1140]){ctx.moveTo(600,0);ctx.bezierCurveTo(600,130,x,180,x,400);ctx.bezierCurveTo(x,620,600,670,600,800)}}else if(ring){for(let y of[180,630]){ctx.moveTo(0,400);ctx.bezierCurveTo(290,400,350,y,600,y);ctx.bezierCurveTo(850,y,910,400,1200,400)}}else if(switchback){ctx.moveTo(0,400);ctx.bezierCurveTo(250,400,350,470,470,470);ctx.bezierCurveTo(580,470,630,570,730,570);ctx.bezierCurveTo(870,570,930,400,1200,400);for(let y of [70,755]){ctx.moveTo(0,400);ctx.bezierCurveTo(260,400,330,y,470,y);ctx.lineTo(730,y);ctx.bezierCurveTo(870,y,960,400,1200,400)}ctx.moveTo(600,180);ctx.lineTo(600,660)}else if(crossroads){for(let y of [120,400,680]){ctx.moveTo(0,400);ctx.bezierCurveTo(280,400,350,y,600,y);ctx.bezierCurveTo(850,y,920,400,1200,400)}ctx.moveTo(600,40);ctx.lineTo(600,760)}else if(ridge){ctx.moveTo(0,400);ctx.lineTo(1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(300,400,370,60,600,60);ctx.bezierCurveTo(830,60,900,400,1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(300,400,370,740,600,740);ctx.bezierCurveTo(830,740,900,400,1200,400)}else if(canyon){ctx.moveTo(0,400);ctx.bezierCurveTo(400,400,450,300,600,300);ctx.bezierCurveTo(750,300,850,400,1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(400,400,450,500,600,500);ctx.bezierCurveTo(750,500,850,400,1200,400)}else if(frontier){ctx.moveTo(0,400);ctx.bezierCurveTo(400,100,800,150,1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(400,700,800,650,1200,400)}else{ctx.moveTo(0,770);ctx.bezierCurveTo(400,600,710,300,1200,90)}ctx.stroke()}
+ function orderPath(e){let nav=navigationMemory.get(e);return e.goal&&selection.size<=6&&nav?.route?.length>1&&dist(nav.goal,e.goal)<=8?nav.route:e.goal?[e.goal]:[]}

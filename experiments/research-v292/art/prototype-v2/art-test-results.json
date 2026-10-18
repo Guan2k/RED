@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "checks": 138660,
+  "specimens": 360,
+  "sourceSha256": "ad8001a0ccb31152f5ac9e8220adc34f7fa64fb31a916a62e6a2235c2b436d04",
+  "baselineSha256": "e5edd8f7384d37a356071c66c6788e681f3e45ad9ab224a52a783692b5ca0884",
+  "sourceScope": "Only drawUnit replacement plus unitArtPoly helper; all prefix/suffix bytes identical",
+  "maxCanvasCallsPerType": {
+    "tank": {
+      "prototype": 53,
+      "baseline": 20
+    },
+    "scout": {
+      "prototype": 37,
+      "baseline": 18
+    },
+    "artillery": {
+      "prototype": 45,
+      "baseline": 22
+    },
+    "repair": {
+      "prototype": 56,
+      "baseline": 19
+    },
+    "harvester": {
+      "prototype": 33,
+      "baseline": 21
+    }
+  },
+  "gameplay": [
+    {
+      "map": "classic",
+      "seconds": 90,
+      "matched": true
+    },
+    {
+      "map": "frontier",
+      "seconds": 90,
+      "matched": true
+    },
+    {
+      "map": "canyon",
+      "seconds": 90,
+      "matched": true
+    },
+    {
+      "map": "ridge",
+      "seconds": 90,
+      "matched": true
+    },
+    {
+      "map": "crossroads",
+      "seconds": 90,
+      "matched": true
+    },
+    {
+      "map": "switchback",
+      "seconds": 90,
+      "matched": true
+    },
+    {
+      "map": "ring",
+      "seconds": 90,
+      "matched": true
+    },
+    {
+      "map": "meridian",
+      "seconds": 90,
+      "matched": true
+    }
+  ],
+  "limitations": "Synthetic VM Canvas calls; no native raster/layout/clipping/GPU timing/FPS proof. Dead entities are draw-function robustness fixtures, not changed lifecycle behavior."
+}

@@ -1,0 +1,1419 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1560" height="1310" viewBox="0 0 1560 1310">
+<title>RED FRONT vehicle art concept, not a game screenshot</title>
+<desc>Five vehicle silhouettes, two teams, three status conditions on three terrains at native, three-quarter and half scale. Concept only.</desc>
+<style>text{font-family:"Noto Sans CJK SC",sans-serif} .label{fill:#c5cec4;font-size:12px}.dim{fill:#94a79c;font-size:11px}</style>
+<defs>
+<g id="tank0">
+<rect x="-12" y="-10" width="26" height="26" rx="3" fill="#101914"/>
+<rect x="-13" y="-13" width="26" height="5" rx="1" fill="#19241f"/>
+<rect x="-12" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-7" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-2" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="3" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="8" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-13" y="8" width="26" height="5" rx="1" fill="#19241f"/>
+<rect x="-12" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-7" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-2" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="3" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="8" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<path d="M -12 -8 L 7 -8 L 13 -4 L 13 4 L 7 8 L -12 8 Z" fill="#75977c" stroke="#17271e" stroke-width="1" stroke-linejoin="round"/>
+<rect x="-10" y="-7" width="14" height="2" rx="0" fill="#a4b49a"/>
+<path d="M -6 -6 L 4 -6 L 8 -2 L 8 3 L 3 6 L -6 5 Z" fill="#405c49" stroke="#a4b49a" stroke-width="0.7" stroke-linejoin="round"/>
+<rect x="3" y="-2" width="21" height="4" rx="0" fill="#b5bea6"/>
+<rect x="20" y="-2.5" width="4" height="5" rx="0" fill="#405c49"/>
+<rect x="-9" y="-6" width="2" height="5" rx="0" fill="#f0e9cf"/>
+<rect x="-5" y="-6" width="2" height="5" rx="0" fill="#f0e9cf"/>
+</g>
+<g id="scout0">
+<rect x="-9" y="-7" width="20" height="20" rx="3" fill="#101914"/>
+<rect x="-8" y="-10" width="6" height="4" rx="1" fill="#161f1c"/>
+<rect x="-8" y="6" width="6" height="4" rx="1" fill="#161f1c"/>
+<rect x="3" y="-10" width="6" height="4" rx="1" fill="#161f1c"/>
+<rect x="3" y="6" width="6" height="4" rx="1" fill="#161f1c"/>
+<path d="M -9 -6 L 4 -7 L 10 -3 L 10 3 L 4 7 L -9 6 Z" fill="#75977c" stroke="#192821" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M -7 -5 L 2 -5 L 5 -2 L -7 -2 Z" fill="#a4b49a"/>
+<rect x="-4" y="-3" width="8" height="6" rx="1" fill="#405c49"/>
+<rect x="2" y="-1.5" width="15" height="3" rx="0" fill="#ccd0b5"/>
+<rect x="-9" y="-6" width="2" height="5" rx="0" fill="#f0e9cf"/>
+<rect x="-5" y="-6" width="2" height="5" rx="0" fill="#f0e9cf"/>
+</g>
+<g id="artillery0">
+<rect x="-13" y="-11" width="28" height="28" rx="3" fill="#101914"/>
+<rect x="-14" y="-14" width="28" height="5" rx="1" fill="#19241f"/>
+<rect x="-13" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-8" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-3" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="2" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="7" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="12" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-14" y="9" width="28" height="5" rx="1" fill="#19241f"/>
+<rect x="-13" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-8" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-3" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="2" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="7" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="12" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<path d="M -13 -9 L 9 -9 L 14 -5 L 14 5 L 9 9 L -13 9 Z" fill="#75977c" stroke="#17271e" stroke-width="1" stroke-linejoin="round"/>
+<rect x="-11" y="-8" width="14" height="2" rx="0" fill="#a4b49a"/>
+<rect x="-12" y="-7" width="12" height="14" rx="1" fill="#405c49"/>
+<rect x="-9" y="-5" width="7" height="10" rx="1" fill="#a4b49a"/>
+<rect x="-2" y="-2.5" width="36" height="5" rx="0" fill="#c0c7ab"/>
+<rect x="29" y="-3.5" width="5" height="7" rx="0" fill="#405c49"/>
+<rect x="-9" y="-6" width="2" height="5" rx="0" fill="#f0e9cf"/>
+<rect x="-5" y="-6" width="2" height="5" rx="0" fill="#f0e9cf"/>
+</g>
+<g id="repair0">
+<rect x="-12" y="-10" width="26" height="26" rx="3" fill="#101914"/>
+<rect x="-13" y="-13" width="26" height="5" rx="1" fill="#19241f"/>
+<rect x="-12" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-7" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-2" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="3" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="8" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-13" y="8" width="26" height="5" rx="1" fill="#19241f"/>
+<rect x="-12" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-7" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-2" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="3" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="8" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<path d="M -12 -8 L 5 -8 L 13 -4 L 13 5 L 6 8 L -12 8 Z" fill="#75977c" stroke="#17271e" stroke-width="1" stroke-linejoin="round"/>
+<rect x="-10" y="-7" width="15" height="14" rx="1" fill="#b4c5ab"/>
+<rect x="7" y="-3" width="4" height="6" rx="0" fill="#405c49"/>
+<path d="M -6 -5 L -3 -2 L 0 -5 M -3 -2 L -6 4" fill="none" stroke="#405c49" stroke-width="2" stroke-linejoin="round"/>
+<path d="M -10 7 L -10 10 L 3 10 L 6 7" fill="none" stroke="#d9bd77" stroke-width="2" stroke-linejoin="round"/>
+<rect x="-9" y="-6" width="2" height="5" rx="0" fill="#f0e9cf"/>
+<rect x="-5" y="-6" width="2" height="5" rx="0" fill="#f0e9cf"/>
+</g>
+<g id="harvester0">
+<rect x="-15" y="-13" width="32" height="32" rx="3" fill="#101914"/>
+<rect x="-16" y="-16" width="32" height="5" rx="1" fill="#19241f"/>
+<rect x="-15" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-10" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-5" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="0" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="5" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="10" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-16" y="11" width="32" height="5" rx="1" fill="#19241f"/>
+<rect x="-15" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-10" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-5" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="0" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="5" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="10" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-15" y="-10" width="23" height="20" rx="2" fill="#75977c"/>
+<rect x="-13" y="-8" width="17" height="16" rx="1" fill="#405c49"/>
+<rect x="-12" y="-7" width="15" height="2" rx="0" fill="#a4b49a"/>
+<rect x="-10" y="-3" width="5" height="6" rx="1" fill="#b59b60"/>
+<rect x="-4" y="-5" width="6" height="9" rx="1" fill="#d0b16f"/>
+<rect x="8" y="-9" width="7" height="18" rx="1" fill="#c6ab6b"/>
+<path d="M 10 -10 L 10 10 M 13 -10 L 13 10" fill="none" stroke="#524f38" stroke-width="1" stroke-linejoin="round"/>
+<rect x="-12" y="8" width="17" height="2" rx="0" fill="#e1c379"/>
+<rect x="-9" y="-6" width="2" height="5" rx="0" fill="#f0e9cf"/>
+<rect x="-5" y="-6" width="2" height="5" rx="0" fill="#f0e9cf"/>
+</g>
+<g id="tank1">
+<rect x="-12" y="-10" width="26" height="26" rx="3" fill="#101914"/>
+<rect x="-13" y="-13" width="26" height="5" rx="1" fill="#19241f"/>
+<rect x="-12" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-7" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-2" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="3" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="8" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-13" y="8" width="26" height="5" rx="1" fill="#19241f"/>
+<rect x="-12" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-7" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-2" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="3" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="8" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<path d="M -12 -8 L 7 -8 L 13 -4 L 13 4 L 7 8 L -12 8 Z" fill="#a66755" stroke="#17271e" stroke-width="1" stroke-linejoin="round"/>
+<rect x="-10" y="-7" width="14" height="2" rx="0" fill="#d19b7e"/>
+<path d="M -6 -6 L 4 -6 L 8 -2 L 8 3 L 3 6 L -6 5 Z" fill="#6f4038" stroke="#a4b49a" stroke-width="0.7" stroke-linejoin="round"/>
+<rect x="3" y="-2" width="21" height="4" rx="0" fill="#b5bea6"/>
+<rect x="20" y="-2.5" width="4" height="5" rx="0" fill="#6f4038"/>
+<path d="M -9 -6 L -3 -3.5 L -9 -1 Z" fill="#f0e9cf"/>
+</g>
+<g id="scout1">
+<rect x="-9" y="-7" width="20" height="20" rx="3" fill="#101914"/>
+<rect x="-8" y="-10" width="6" height="4" rx="1" fill="#161f1c"/>
+<rect x="-8" y="6" width="6" height="4" rx="1" fill="#161f1c"/>
+<rect x="3" y="-10" width="6" height="4" rx="1" fill="#161f1c"/>
+<rect x="3" y="6" width="6" height="4" rx="1" fill="#161f1c"/>
+<path d="M -9 -6 L 4 -7 L 10 -3 L 10 3 L 4 7 L -9 6 Z" fill="#a66755" stroke="#192821" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M -7 -5 L 2 -5 L 5 -2 L -7 -2 Z" fill="#d19b7e"/>
+<rect x="-4" y="-3" width="8" height="6" rx="1" fill="#6f4038"/>
+<rect x="2" y="-1.5" width="15" height="3" rx="0" fill="#ccd0b5"/>
+<path d="M -9 -6 L -3 -3.5 L -9 -1 Z" fill="#f0e9cf"/>
+</g>
+<g id="artillery1">
+<rect x="-13" y="-11" width="28" height="28" rx="3" fill="#101914"/>
+<rect x="-14" y="-14" width="28" height="5" rx="1" fill="#19241f"/>
+<rect x="-13" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-8" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-3" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="2" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="7" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="12" y="-13" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-14" y="9" width="28" height="5" rx="1" fill="#19241f"/>
+<rect x="-13" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-8" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-3" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="2" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="7" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="12" y="10" width="2" height="3" rx="0" fill="#596658"/>
+<path d="M -13 -9 L 9 -9 L 14 -5 L 14 5 L 9 9 L -13 9 Z" fill="#a66755" stroke="#17271e" stroke-width="1" stroke-linejoin="round"/>
+<rect x="-11" y="-8" width="14" height="2" rx="0" fill="#d19b7e"/>
+<rect x="-12" y="-7" width="12" height="14" rx="1" fill="#6f4038"/>
+<rect x="-9" y="-5" width="7" height="10" rx="1" fill="#d19b7e"/>
+<rect x="-2" y="-2.5" width="36" height="5" rx="0" fill="#c0c7ab"/>
+<rect x="29" y="-3.5" width="5" height="7" rx="0" fill="#6f4038"/>
+<path d="M -9 -6 L -3 -3.5 L -9 -1 Z" fill="#f0e9cf"/>
+</g>
+<g id="repair1">
+<rect x="-12" y="-10" width="26" height="26" rx="3" fill="#101914"/>
+<rect x="-13" y="-13" width="26" height="5" rx="1" fill="#19241f"/>
+<rect x="-12" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-7" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-2" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="3" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="8" y="-12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-13" y="8" width="26" height="5" rx="1" fill="#19241f"/>
+<rect x="-12" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-7" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-2" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="3" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="8" y="9" width="2" height="3" rx="0" fill="#596658"/>
+<path d="M -12 -8 L 5 -8 L 13 -4 L 13 5 L 6 8 L -12 8 Z" fill="#a66755" stroke="#17271e" stroke-width="1" stroke-linejoin="round"/>
+<rect x="-10" y="-7" width="15" height="14" rx="1" fill="#b4c5ab"/>
+<rect x="7" y="-3" width="4" height="6" rx="0" fill="#6f4038"/>
+<path d="M -6 -5 L -3 -2 L 0 -5 M -3 -2 L -6 4" fill="none" stroke="#6f4038" stroke-width="2" stroke-linejoin="round"/>
+<path d="M -10 7 L -10 10 L 3 10 L 6 7" fill="none" stroke="#d9bd77" stroke-width="2" stroke-linejoin="round"/>
+<path d="M -9 -6 L -3 -3.5 L -9 -1 Z" fill="#f0e9cf"/>
+</g>
+<g id="harvester1">
+<rect x="-15" y="-13" width="32" height="32" rx="3" fill="#101914"/>
+<rect x="-16" y="-16" width="32" height="5" rx="1" fill="#19241f"/>
+<rect x="-15" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-10" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-5" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="0" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="5" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="10" y="-15" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-16" y="11" width="32" height="5" rx="1" fill="#19241f"/>
+<rect x="-15" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-10" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-5" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="0" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="5" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="10" y="12" width="2" height="3" rx="0" fill="#596658"/>
+<rect x="-15" y="-10" width="23" height="20" rx="2" fill="#a66755"/>
+<rect x="-13" y="-8" width="17" height="16" rx="1" fill="#6f4038"/>
+<rect x="-12" y="-7" width="15" height="2" rx="0" fill="#d19b7e"/>
+<rect x="-10" y="-3" width="5" height="6" rx="1" fill="#b59b60"/>
+<rect x="-4" y="-5" width="6" height="9" rx="1" fill="#d0b16f"/>
+<rect x="8" y="-9" width="7" height="18" rx="1" fill="#c6ab6b"/>
+<path d="M 10 -10 L 10 10 M 13 -10 L 13 10" fill="none" stroke="#524f38" stroke-width="1" stroke-linejoin="round"/>
+<rect x="-12" y="8" width="17" height="2" rx="0" fill="#e1c379"/>
+<path d="M -9 -6 L -3 -3.5 L -9 -1 Z" fill="#f0e9cf"/>
+</g>
+</defs>
+<rect x="0" y="0" width="1560" height="1310" rx="0" fill="#111b18"/>
+<text x="32" y="39" fill="#e9aa84" font-size="23">RED / FRONT</text>
+<text x="250" y="39" fill="#e4e6d7" font-size="23">装甲辨识 · 第一轮美术方向</text>
+<text x="32" y="69" fill="#e2c480" font-size="17">概念造型，非游戏截图</text>
+<text x="32" y="92" fill="#e4e6d7" font-size="12">代码原生 SVG · 未修改游戏 · 未验证浏览器布局或 FPS · 向右为当前统一朝向</text>
+<rect x="32" y="112" width="1496" height="203" rx="8" fill="#202e27"/>
+<text x="80" y="139" fill="#e4e6d7" font-size="16">主战坦克</text>
+<g transform="translate(117 204) scale(3)"><use xlink:href="#tank0"/></g>
+<g transform="translate(224 202) scale(1.4)"><use xlink:href="#tank1"/></g>
+<text x="73" y="280" fill="#e4e6d7" font-size="12">宽履带 / 切角炮塔</text>
+<text x="73" y="300" fill="#93aa99" font-size="11">大图 3× · 原逻辑半径 13 保持</text>
+<text x="375" y="139" fill="#e4e6d7" font-size="16">侦察战车</text>
+<g transform="translate(412 204) scale(3)"><use xlink:href="#scout0"/></g>
+<g transform="translate(519 202) scale(1.4)"><use xlink:href="#scout1"/></g>
+<text x="368" y="280" fill="#e4e6d7" font-size="12">轮式 / 窄车头</text>
+<text x="368" y="300" fill="#93aa99" font-size="11">大图 3× · 原逻辑半径 10 保持</text>
+<text x="670" y="139" fill="#e4e6d7" font-size="16">自行火炮</text>
+<g transform="translate(707 204) scale(3)"><use xlink:href="#artillery0"/></g>
+<g transform="translate(814 202) scale(1.4)"><use xlink:href="#artillery1"/></g>
+<text x="663" y="280" fill="#e4e6d7" font-size="12">后炮座 / 长炮管</text>
+<text x="663" y="300" fill="#93aa99" font-size="11">大图 3× · 原逻辑半径 14 保持</text>
+<text x="965" y="139" fill="#e4e6d7" font-size="16">战地维修车</text>
+<g transform="translate(1002 204) scale(3)"><use xlink:href="#repair0"/></g>
+<g transform="translate(1109 202) scale(1.4)"><use xlink:href="#repair1"/></g>
+<text x="958" y="280" fill="#e4e6d7" font-size="12">工具舱 / 维修吊臂</text>
+<text x="958" y="300" fill="#93aa99" font-size="11">大图 3× · 原逻辑半径 13 保持</text>
+<text x="1260" y="139" fill="#e4e6d7" font-size="16">采矿车</text>
+<g transform="translate(1297 204) scale(3)"><use xlink:href="#harvester0"/></g>
+<g transform="translate(1404 202) scale(1.4)"><use xlink:href="#harvester1"/></g>
+<text x="1253" y="280" fill="#e4e6d7" font-size="12">货斗 / 采矿头</text>
+<text x="1253" y="300" fill="#93aa99" font-size="11">大图 3× · 原逻辑半径 16 保持</text>
+<text x="32" y="347" fill="#e4e6d7" font-size="17">实际尺寸对照：每组依次为 坦克 / 侦察 / 火炮 / 维修 / 矿车</text>
+<text x="32" y="372" fill="#bfcdbf" font-size="12">双短条 = 友军；三角 = 敌军。浅色角括号 = 选中；橙色虚线警示 + 短血条 = 低血量。</text>
+<rect x="32" y="391" width="488" height="827" rx="6" fill="#34463a"/>
+<text x="48" y="420" fill="#e5e4d3" font-size="16">林地 / FIELD</text>
+<text x="142" y="445" fill="#d0d5c6" font-size="11">坦克</text>
+<text x="217" y="445" fill="#d0d5c6" font-size="11">侦察</text>
+<text x="292" y="445" fill="#d0d5c6" font-size="11">火炮</text>
+<text x="367" y="445" fill="#d0d5c6" font-size="11">维修</text>
+<text x="442" y="445" fill="#d0d5c6" font-size="11">矿车</text>
+<rect x="40" y="460" width="472" height="24" rx="0" fill="#15251e"/>
+<text x="49" y="477" fill="#e5cf9d" font-size="12">1×  /  原生地图单位尺寸</text>
+<rect x="127" y="488" width="383" height="33" rx="0" fill="#3d5041"/>
+<rect x="312" y="488" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="509" fill="#b7c9b5" font-size="11">友 · 常态</text>
+<g transform="translate(158 505) scale(1)"><use xlink:href="#tank0"/>
+</g>
+<g transform="translate(233 505) scale(1)"><use xlink:href="#scout0"/>
+</g>
+<g transform="translate(308 505) scale(1)"><use xlink:href="#artillery0"/>
+</g>
+<g transform="translate(383 505) scale(1)"><use xlink:href="#repair0"/>
+</g>
+<g transform="translate(458 505) scale(1)"><use xlink:href="#harvester0"/>
+</g>
+<rect x="312" y="523" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="544" fill="#b7c9b5" font-size="11">友 · 选中</text>
+<g transform="translate(158 540) scale(1)"><use xlink:href="#tank0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(233 540) scale(1)"><use xlink:href="#scout0"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(308 540) scale(1)"><use xlink:href="#artillery0"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(383 540) scale(1)"><use xlink:href="#repair0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(458 540) scale(1)"><use xlink:href="#harvester0"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="127" y="558" width="383" height="33" rx="0" fill="#3d5041"/>
+<rect x="312" y="558" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="579" fill="#b7c9b5" font-size="11">友 · 低血</text>
+<g transform="translate(158 575) scale(1)"><use xlink:href="#tank0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(233 575) scale(1)"><use xlink:href="#scout0"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(308 575) scale(1)"><use xlink:href="#artillery0"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(383 575) scale(1)"><use xlink:href="#repair0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(458 575) scale(1)"><use xlink:href="#harvester0"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="312" y="593" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="614" fill="#e2b19d" font-size="11">敌 · 常态</text>
+<g transform="translate(158 610) scale(1)"><use xlink:href="#tank1"/>
+</g>
+<g transform="translate(233 610) scale(1)"><use xlink:href="#scout1"/>
+</g>
+<g transform="translate(308 610) scale(1)"><use xlink:href="#artillery1"/>
+</g>
+<g transform="translate(383 610) scale(1)"><use xlink:href="#repair1"/>
+</g>
+<g transform="translate(458 610) scale(1)"><use xlink:href="#harvester1"/>
+</g>
+<rect x="127" y="628" width="383" height="33" rx="0" fill="#3d5041"/>
+<rect x="312" y="628" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="649" fill="#e2b19d" font-size="11">敌 · 选中</text>
+<g transform="translate(158 645) scale(1)"><use xlink:href="#tank1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(233 645) scale(1)"><use xlink:href="#scout1"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(308 645) scale(1)"><use xlink:href="#artillery1"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(383 645) scale(1)"><use xlink:href="#repair1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(458 645) scale(1)"><use xlink:href="#harvester1"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="312" y="663" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="684" fill="#e2b19d" font-size="11">敌 · 低血</text>
+<g transform="translate(158 680) scale(1)"><use xlink:href="#tank1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(233 680) scale(1)"><use xlink:href="#scout1"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(308 680) scale(1)"><use xlink:href="#artillery1"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(383 680) scale(1)"><use xlink:href="#repair1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(458 680) scale(1)"><use xlink:href="#harvester1"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="40" y="707" width="472" height="24" rx="0" fill="#15251e"/>
+<text x="49" y="724" fill="#e5cf9d" font-size="12">0.75×  /  缩放至 75%</text>
+<rect x="127" y="735" width="383" height="33" rx="0" fill="#3d5041"/>
+<rect x="312" y="735" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="756" fill="#b7c9b5" font-size="11">友 · 常态</text>
+<g transform="translate(158 752) scale(0.75)"><use xlink:href="#tank0"/>
+</g>
+<g transform="translate(233 752) scale(0.75)"><use xlink:href="#scout0"/>
+</g>
+<g transform="translate(308 752) scale(0.75)"><use xlink:href="#artillery0"/>
+</g>
+<g transform="translate(383 752) scale(0.75)"><use xlink:href="#repair0"/>
+</g>
+<g transform="translate(458 752) scale(0.75)"><use xlink:href="#harvester0"/>
+</g>
+<rect x="312" y="770" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="791" fill="#b7c9b5" font-size="11">友 · 选中</text>
+<g transform="translate(158 787) scale(0.75)"><use xlink:href="#tank0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(233 787) scale(0.75)"><use xlink:href="#scout0"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(308 787) scale(0.75)"><use xlink:href="#artillery0"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(383 787) scale(0.75)"><use xlink:href="#repair0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(458 787) scale(0.75)"><use xlink:href="#harvester0"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="127" y="805" width="383" height="33" rx="0" fill="#3d5041"/>
+<rect x="312" y="805" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="826" fill="#b7c9b5" font-size="11">友 · 低血</text>
+<g transform="translate(158 822) scale(0.75)"><use xlink:href="#tank0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(233 822) scale(0.75)"><use xlink:href="#scout0"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(308 822) scale(0.75)"><use xlink:href="#artillery0"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(383 822) scale(0.75)"><use xlink:href="#repair0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(458 822) scale(0.75)"><use xlink:href="#harvester0"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="312" y="840" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="861" fill="#e2b19d" font-size="11">敌 · 常态</text>
+<g transform="translate(158 857) scale(0.75)"><use xlink:href="#tank1"/>
+</g>
+<g transform="translate(233 857) scale(0.75)"><use xlink:href="#scout1"/>
+</g>
+<g transform="translate(308 857) scale(0.75)"><use xlink:href="#artillery1"/>
+</g>
+<g transform="translate(383 857) scale(0.75)"><use xlink:href="#repair1"/>
+</g>
+<g transform="translate(458 857) scale(0.75)"><use xlink:href="#harvester1"/>
+</g>
+<rect x="127" y="875" width="383" height="33" rx="0" fill="#3d5041"/>
+<rect x="312" y="875" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="896" fill="#e2b19d" font-size="11">敌 · 选中</text>
+<g transform="translate(158 892) scale(0.75)"><use xlink:href="#tank1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(233 892) scale(0.75)"><use xlink:href="#scout1"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(308 892) scale(0.75)"><use xlink:href="#artillery1"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(383 892) scale(0.75)"><use xlink:href="#repair1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(458 892) scale(0.75)"><use xlink:href="#harvester1"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="312" y="910" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="931" fill="#e2b19d" font-size="11">敌 · 低血</text>
+<g transform="translate(158 927) scale(0.75)"><use xlink:href="#tank1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(233 927) scale(0.75)"><use xlink:href="#scout1"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(308 927) scale(0.75)"><use xlink:href="#artillery1"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(383 927) scale(0.75)"><use xlink:href="#repair1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(458 927) scale(0.75)"><use xlink:href="#harvester1"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="40" y="954" width="472" height="24" rx="0" fill="#15251e"/>
+<text x="49" y="971" fill="#e5cf9d" font-size="12">0.5×  /  缩放至 50%</text>
+<rect x="127" y="982" width="383" height="33" rx="0" fill="#3d5041"/>
+<rect x="312" y="982" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="1003" fill="#b7c9b5" font-size="11">友 · 常态</text>
+<g transform="translate(158 999) scale(0.5)"><use xlink:href="#tank0"/>
+</g>
+<g transform="translate(233 999) scale(0.5)"><use xlink:href="#scout0"/>
+</g>
+<g transform="translate(308 999) scale(0.5)"><use xlink:href="#artillery0"/>
+</g>
+<g transform="translate(383 999) scale(0.5)"><use xlink:href="#repair0"/>
+</g>
+<g transform="translate(458 999) scale(0.5)"><use xlink:href="#harvester0"/>
+</g>
+<rect x="312" y="1017" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="1038" fill="#b7c9b5" font-size="11">友 · 选中</text>
+<g transform="translate(158 1034) scale(0.5)"><use xlink:href="#tank0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(233 1034) scale(0.5)"><use xlink:href="#scout0"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(308 1034) scale(0.5)"><use xlink:href="#artillery0"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(383 1034) scale(0.5)"><use xlink:href="#repair0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(458 1034) scale(0.5)"><use xlink:href="#harvester0"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="127" y="1052" width="383" height="33" rx="0" fill="#3d5041"/>
+<rect x="312" y="1052" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="1073" fill="#b7c9b5" font-size="11">友 · 低血</text>
+<g transform="translate(158 1069) scale(0.5)"><use xlink:href="#tank0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(233 1069) scale(0.5)"><use xlink:href="#scout0"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(308 1069) scale(0.5)"><use xlink:href="#artillery0"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(383 1069) scale(0.5)"><use xlink:href="#repair0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(458 1069) scale(0.5)"><use xlink:href="#harvester0"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="312" y="1087" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="1108" fill="#e2b19d" font-size="11">敌 · 常态</text>
+<g transform="translate(158 1104) scale(0.5)"><use xlink:href="#tank1"/>
+</g>
+<g transform="translate(233 1104) scale(0.5)"><use xlink:href="#scout1"/>
+</g>
+<g transform="translate(308 1104) scale(0.5)"><use xlink:href="#artillery1"/>
+</g>
+<g transform="translate(383 1104) scale(0.5)"><use xlink:href="#repair1"/>
+</g>
+<g transform="translate(458 1104) scale(0.5)"><use xlink:href="#harvester1"/>
+</g>
+<rect x="127" y="1122" width="383" height="33" rx="0" fill="#3d5041"/>
+<rect x="312" y="1122" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="1143" fill="#e2b19d" font-size="11">敌 · 选中</text>
+<g transform="translate(158 1139) scale(0.5)"><use xlink:href="#tank1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(233 1139) scale(0.5)"><use xlink:href="#scout1"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(308 1139) scale(0.5)"><use xlink:href="#artillery1"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(383 1139) scale(0.5)"><use xlink:href="#repair1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(458 1139) scale(0.5)"><use xlink:href="#harvester1"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="312" y="1157" width="50" height="33" rx="0" fill="#56644a"/>
+<text x="48" y="1178" fill="#e2b19d" font-size="11">敌 · 低血</text>
+<g transform="translate(158 1174) scale(0.5)"><use xlink:href="#tank1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(233 1174) scale(0.5)"><use xlink:href="#scout1"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(308 1174) scale(0.5)"><use xlink:href="#artillery1"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(383 1174) scale(0.5)"><use xlink:href="#repair1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(458 1174) scale(0.5)"><use xlink:href="#harvester1"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="536" y="391" width="488" height="827" rx="6" fill="#514c3d"/>
+<text x="552" y="420" fill="#e5e4d3" font-size="16">干旱 / DUST</text>
+<text x="646" y="445" fill="#d0d5c6" font-size="11">坦克</text>
+<text x="721" y="445" fill="#d0d5c6" font-size="11">侦察</text>
+<text x="796" y="445" fill="#d0d5c6" font-size="11">火炮</text>
+<text x="871" y="445" fill="#d0d5c6" font-size="11">维修</text>
+<text x="946" y="445" fill="#d0d5c6" font-size="11">矿车</text>
+<rect x="544" y="460" width="472" height="24" rx="0" fill="#15251e"/>
+<text x="553" y="477" fill="#e5cf9d" font-size="12">1×  /  原生地图单位尺寸</text>
+<rect x="631" y="488" width="383" height="33" rx="0" fill="#5b5543"/>
+<rect x="816" y="488" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="509" fill="#b7c9b5" font-size="11">友 · 常态</text>
+<g transform="translate(662 505) scale(1)"><use xlink:href="#tank0"/>
+</g>
+<g transform="translate(737 505) scale(1)"><use xlink:href="#scout0"/>
+</g>
+<g transform="translate(812 505) scale(1)"><use xlink:href="#artillery0"/>
+</g>
+<g transform="translate(887 505) scale(1)"><use xlink:href="#repair0"/>
+</g>
+<g transform="translate(962 505) scale(1)"><use xlink:href="#harvester0"/>
+</g>
+<rect x="816" y="523" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="544" fill="#b7c9b5" font-size="11">友 · 选中</text>
+<g transform="translate(662 540) scale(1)"><use xlink:href="#tank0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(737 540) scale(1)"><use xlink:href="#scout0"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(812 540) scale(1)"><use xlink:href="#artillery0"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(887 540) scale(1)"><use xlink:href="#repair0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(962 540) scale(1)"><use xlink:href="#harvester0"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="631" y="558" width="383" height="33" rx="0" fill="#5b5543"/>
+<rect x="816" y="558" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="579" fill="#b7c9b5" font-size="11">友 · 低血</text>
+<g transform="translate(662 575) scale(1)"><use xlink:href="#tank0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(737 575) scale(1)"><use xlink:href="#scout0"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(812 575) scale(1)"><use xlink:href="#artillery0"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(887 575) scale(1)"><use xlink:href="#repair0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(962 575) scale(1)"><use xlink:href="#harvester0"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="816" y="593" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="614" fill="#e2b19d" font-size="11">敌 · 常态</text>
+<g transform="translate(662 610) scale(1)"><use xlink:href="#tank1"/>
+</g>
+<g transform="translate(737 610) scale(1)"><use xlink:href="#scout1"/>
+</g>
+<g transform="translate(812 610) scale(1)"><use xlink:href="#artillery1"/>
+</g>
+<g transform="translate(887 610) scale(1)"><use xlink:href="#repair1"/>
+</g>
+<g transform="translate(962 610) scale(1)"><use xlink:href="#harvester1"/>
+</g>
+<rect x="631" y="628" width="383" height="33" rx="0" fill="#5b5543"/>
+<rect x="816" y="628" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="649" fill="#e2b19d" font-size="11">敌 · 选中</text>
+<g transform="translate(662 645) scale(1)"><use xlink:href="#tank1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(737 645) scale(1)"><use xlink:href="#scout1"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(812 645) scale(1)"><use xlink:href="#artillery1"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(887 645) scale(1)"><use xlink:href="#repair1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(962 645) scale(1)"><use xlink:href="#harvester1"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="816" y="663" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="684" fill="#e2b19d" font-size="11">敌 · 低血</text>
+<g transform="translate(662 680) scale(1)"><use xlink:href="#tank1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(737 680) scale(1)"><use xlink:href="#scout1"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(812 680) scale(1)"><use xlink:href="#artillery1"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(887 680) scale(1)"><use xlink:href="#repair1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(962 680) scale(1)"><use xlink:href="#harvester1"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="544" y="707" width="472" height="24" rx="0" fill="#15251e"/>
+<text x="553" y="724" fill="#e5cf9d" font-size="12">0.75×  /  缩放至 75%</text>
+<rect x="631" y="735" width="383" height="33" rx="0" fill="#5b5543"/>
+<rect x="816" y="735" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="756" fill="#b7c9b5" font-size="11">友 · 常态</text>
+<g transform="translate(662 752) scale(0.75)"><use xlink:href="#tank0"/>
+</g>
+<g transform="translate(737 752) scale(0.75)"><use xlink:href="#scout0"/>
+</g>
+<g transform="translate(812 752) scale(0.75)"><use xlink:href="#artillery0"/>
+</g>
+<g transform="translate(887 752) scale(0.75)"><use xlink:href="#repair0"/>
+</g>
+<g transform="translate(962 752) scale(0.75)"><use xlink:href="#harvester0"/>
+</g>
+<rect x="816" y="770" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="791" fill="#b7c9b5" font-size="11">友 · 选中</text>
+<g transform="translate(662 787) scale(0.75)"><use xlink:href="#tank0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(737 787) scale(0.75)"><use xlink:href="#scout0"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(812 787) scale(0.75)"><use xlink:href="#artillery0"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(887 787) scale(0.75)"><use xlink:href="#repair0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(962 787) scale(0.75)"><use xlink:href="#harvester0"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="631" y="805" width="383" height="33" rx="0" fill="#5b5543"/>
+<rect x="816" y="805" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="826" fill="#b7c9b5" font-size="11">友 · 低血</text>
+<g transform="translate(662 822) scale(0.75)"><use xlink:href="#tank0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(737 822) scale(0.75)"><use xlink:href="#scout0"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(812 822) scale(0.75)"><use xlink:href="#artillery0"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(887 822) scale(0.75)"><use xlink:href="#repair0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(962 822) scale(0.75)"><use xlink:href="#harvester0"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="816" y="840" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="861" fill="#e2b19d" font-size="11">敌 · 常态</text>
+<g transform="translate(662 857) scale(0.75)"><use xlink:href="#tank1"/>
+</g>
+<g transform="translate(737 857) scale(0.75)"><use xlink:href="#scout1"/>
+</g>
+<g transform="translate(812 857) scale(0.75)"><use xlink:href="#artillery1"/>
+</g>
+<g transform="translate(887 857) scale(0.75)"><use xlink:href="#repair1"/>
+</g>
+<g transform="translate(962 857) scale(0.75)"><use xlink:href="#harvester1"/>
+</g>
+<rect x="631" y="875" width="383" height="33" rx="0" fill="#5b5543"/>
+<rect x="816" y="875" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="896" fill="#e2b19d" font-size="11">敌 · 选中</text>
+<g transform="translate(662 892) scale(0.75)"><use xlink:href="#tank1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(737 892) scale(0.75)"><use xlink:href="#scout1"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(812 892) scale(0.75)"><use xlink:href="#artillery1"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(887 892) scale(0.75)"><use xlink:href="#repair1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(962 892) scale(0.75)"><use xlink:href="#harvester1"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="816" y="910" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="931" fill="#e2b19d" font-size="11">敌 · 低血</text>
+<g transform="translate(662 927) scale(0.75)"><use xlink:href="#tank1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(737 927) scale(0.75)"><use xlink:href="#scout1"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(812 927) scale(0.75)"><use xlink:href="#artillery1"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(887 927) scale(0.75)"><use xlink:href="#repair1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(962 927) scale(0.75)"><use xlink:href="#harvester1"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="544" y="954" width="472" height="24" rx="0" fill="#15251e"/>
+<text x="553" y="971" fill="#e5cf9d" font-size="12">0.5×  /  缩放至 50%</text>
+<rect x="631" y="982" width="383" height="33" rx="0" fill="#5b5543"/>
+<rect x="816" y="982" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="1003" fill="#b7c9b5" font-size="11">友 · 常态</text>
+<g transform="translate(662 999) scale(0.5)"><use xlink:href="#tank0"/>
+</g>
+<g transform="translate(737 999) scale(0.5)"><use xlink:href="#scout0"/>
+</g>
+<g transform="translate(812 999) scale(0.5)"><use xlink:href="#artillery0"/>
+</g>
+<g transform="translate(887 999) scale(0.5)"><use xlink:href="#repair0"/>
+</g>
+<g transform="translate(962 999) scale(0.5)"><use xlink:href="#harvester0"/>
+</g>
+<rect x="816" y="1017" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="1038" fill="#b7c9b5" font-size="11">友 · 选中</text>
+<g transform="translate(662 1034) scale(0.5)"><use xlink:href="#tank0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(737 1034) scale(0.5)"><use xlink:href="#scout0"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(812 1034) scale(0.5)"><use xlink:href="#artillery0"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(887 1034) scale(0.5)"><use xlink:href="#repair0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(962 1034) scale(0.5)"><use xlink:href="#harvester0"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="631" y="1052" width="383" height="33" rx="0" fill="#5b5543"/>
+<rect x="816" y="1052" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="1073" fill="#b7c9b5" font-size="11">友 · 低血</text>
+<g transform="translate(662 1069) scale(0.5)"><use xlink:href="#tank0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(737 1069) scale(0.5)"><use xlink:href="#scout0"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(812 1069) scale(0.5)"><use xlink:href="#artillery0"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(887 1069) scale(0.5)"><use xlink:href="#repair0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(962 1069) scale(0.5)"><use xlink:href="#harvester0"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="816" y="1087" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="1108" fill="#e2b19d" font-size="11">敌 · 常态</text>
+<g transform="translate(662 1104) scale(0.5)"><use xlink:href="#tank1"/>
+</g>
+<g transform="translate(737 1104) scale(0.5)"><use xlink:href="#scout1"/>
+</g>
+<g transform="translate(812 1104) scale(0.5)"><use xlink:href="#artillery1"/>
+</g>
+<g transform="translate(887 1104) scale(0.5)"><use xlink:href="#repair1"/>
+</g>
+<g transform="translate(962 1104) scale(0.5)"><use xlink:href="#harvester1"/>
+</g>
+<rect x="631" y="1122" width="383" height="33" rx="0" fill="#5b5543"/>
+<rect x="816" y="1122" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="1143" fill="#e2b19d" font-size="11">敌 · 选中</text>
+<g transform="translate(662 1139) scale(0.5)"><use xlink:href="#tank1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(737 1139) scale(0.5)"><use xlink:href="#scout1"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(812 1139) scale(0.5)"><use xlink:href="#artillery1"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(887 1139) scale(0.5)"><use xlink:href="#repair1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(962 1139) scale(0.5)"><use xlink:href="#harvester1"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="816" y="1157" width="50" height="33" rx="0" fill="#70654c"/>
+<text x="552" y="1178" fill="#e2b19d" font-size="11">敌 · 低血</text>
+<g transform="translate(662 1174) scale(0.5)"><use xlink:href="#tank1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(737 1174) scale(0.5)"><use xlink:href="#scout1"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(812 1174) scale(0.5)"><use xlink:href="#artillery1"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(887 1174) scale(0.5)"><use xlink:href="#repair1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(962 1174) scale(0.5)"><use xlink:href="#harvester1"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="1040" y="391" width="488" height="827" rx="6" fill="#3b4649"/>
+<text x="1056" y="420" fill="#e5e4d3" font-size="16">岩地 / SLATE</text>
+<text x="1150" y="445" fill="#d0d5c6" font-size="11">坦克</text>
+<text x="1225" y="445" fill="#d0d5c6" font-size="11">侦察</text>
+<text x="1300" y="445" fill="#d0d5c6" font-size="11">火炮</text>
+<text x="1375" y="445" fill="#d0d5c6" font-size="11">维修</text>
+<text x="1450" y="445" fill="#d0d5c6" font-size="11">矿车</text>
+<rect x="1048" y="460" width="472" height="24" rx="0" fill="#15251e"/>
+<text x="1057" y="477" fill="#e5cf9d" font-size="12">1×  /  原生地图单位尺寸</text>
+<rect x="1135" y="488" width="383" height="33" rx="0" fill="#444e50"/>
+<rect x="1320" y="488" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="509" fill="#b7c9b5" font-size="11">友 · 常态</text>
+<g transform="translate(1166 505) scale(1)"><use xlink:href="#tank0"/>
+</g>
+<g transform="translate(1241 505) scale(1)"><use xlink:href="#scout0"/>
+</g>
+<g transform="translate(1316 505) scale(1)"><use xlink:href="#artillery0"/>
+</g>
+<g transform="translate(1391 505) scale(1)"><use xlink:href="#repair0"/>
+</g>
+<g transform="translate(1466 505) scale(1)"><use xlink:href="#harvester0"/>
+</g>
+<rect x="1320" y="523" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="544" fill="#b7c9b5" font-size="11">友 · 选中</text>
+<g transform="translate(1166 540) scale(1)"><use xlink:href="#tank0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1241 540) scale(1)"><use xlink:href="#scout0"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1316 540) scale(1)"><use xlink:href="#artillery0"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1391 540) scale(1)"><use xlink:href="#repair0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1466 540) scale(1)"><use xlink:href="#harvester0"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="1135" y="558" width="383" height="33" rx="0" fill="#444e50"/>
+<rect x="1320" y="558" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="579" fill="#b7c9b5" font-size="11">友 · 低血</text>
+<g transform="translate(1166 575) scale(1)"><use xlink:href="#tank0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1241 575) scale(1)"><use xlink:href="#scout0"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1316 575) scale(1)"><use xlink:href="#artillery0"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1391 575) scale(1)"><use xlink:href="#repair0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1466 575) scale(1)"><use xlink:href="#harvester0"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="1320" y="593" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="614" fill="#e2b19d" font-size="11">敌 · 常态</text>
+<g transform="translate(1166 610) scale(1)"><use xlink:href="#tank1"/>
+</g>
+<g transform="translate(1241 610) scale(1)"><use xlink:href="#scout1"/>
+</g>
+<g transform="translate(1316 610) scale(1)"><use xlink:href="#artillery1"/>
+</g>
+<g transform="translate(1391 610) scale(1)"><use xlink:href="#repair1"/>
+</g>
+<g transform="translate(1466 610) scale(1)"><use xlink:href="#harvester1"/>
+</g>
+<rect x="1135" y="628" width="383" height="33" rx="0" fill="#444e50"/>
+<rect x="1320" y="628" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="649" fill="#e2b19d" font-size="11">敌 · 选中</text>
+<g transform="translate(1166 645) scale(1)"><use xlink:href="#tank1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1241 645) scale(1)"><use xlink:href="#scout1"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1316 645) scale(1)"><use xlink:href="#artillery1"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1391 645) scale(1)"><use xlink:href="#repair1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1466 645) scale(1)"><use xlink:href="#harvester1"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="1320" y="663" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="684" fill="#e2b19d" font-size="11">敌 · 低血</text>
+<g transform="translate(1166 680) scale(1)"><use xlink:href="#tank1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1241 680) scale(1)"><use xlink:href="#scout1"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1316 680) scale(1)"><use xlink:href="#artillery1"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1391 680) scale(1)"><use xlink:href="#repair1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1466 680) scale(1)"><use xlink:href="#harvester1"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="1048" y="707" width="472" height="24" rx="0" fill="#15251e"/>
+<text x="1057" y="724" fill="#e5cf9d" font-size="12">0.75×  /  缩放至 75%</text>
+<rect x="1135" y="735" width="383" height="33" rx="0" fill="#444e50"/>
+<rect x="1320" y="735" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="756" fill="#b7c9b5" font-size="11">友 · 常态</text>
+<g transform="translate(1166 752) scale(0.75)"><use xlink:href="#tank0"/>
+</g>
+<g transform="translate(1241 752) scale(0.75)"><use xlink:href="#scout0"/>
+</g>
+<g transform="translate(1316 752) scale(0.75)"><use xlink:href="#artillery0"/>
+</g>
+<g transform="translate(1391 752) scale(0.75)"><use xlink:href="#repair0"/>
+</g>
+<g transform="translate(1466 752) scale(0.75)"><use xlink:href="#harvester0"/>
+</g>
+<rect x="1320" y="770" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="791" fill="#b7c9b5" font-size="11">友 · 选中</text>
+<g transform="translate(1166 787) scale(0.75)"><use xlink:href="#tank0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1241 787) scale(0.75)"><use xlink:href="#scout0"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1316 787) scale(0.75)"><use xlink:href="#artillery0"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1391 787) scale(0.75)"><use xlink:href="#repair0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1466 787) scale(0.75)"><use xlink:href="#harvester0"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="1135" y="805" width="383" height="33" rx="0" fill="#444e50"/>
+<rect x="1320" y="805" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="826" fill="#b7c9b5" font-size="11">友 · 低血</text>
+<g transform="translate(1166 822) scale(0.75)"><use xlink:href="#tank0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1241 822) scale(0.75)"><use xlink:href="#scout0"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1316 822) scale(0.75)"><use xlink:href="#artillery0"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1391 822) scale(0.75)"><use xlink:href="#repair0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1466 822) scale(0.75)"><use xlink:href="#harvester0"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="1320" y="840" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="861" fill="#e2b19d" font-size="11">敌 · 常态</text>
+<g transform="translate(1166 857) scale(0.75)"><use xlink:href="#tank1"/>
+</g>
+<g transform="translate(1241 857) scale(0.75)"><use xlink:href="#scout1"/>
+</g>
+<g transform="translate(1316 857) scale(0.75)"><use xlink:href="#artillery1"/>
+</g>
+<g transform="translate(1391 857) scale(0.75)"><use xlink:href="#repair1"/>
+</g>
+<g transform="translate(1466 857) scale(0.75)"><use xlink:href="#harvester1"/>
+</g>
+<rect x="1135" y="875" width="383" height="33" rx="0" fill="#444e50"/>
+<rect x="1320" y="875" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="896" fill="#e2b19d" font-size="11">敌 · 选中</text>
+<g transform="translate(1166 892) scale(0.75)"><use xlink:href="#tank1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1241 892) scale(0.75)"><use xlink:href="#scout1"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1316 892) scale(0.75)"><use xlink:href="#artillery1"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1391 892) scale(0.75)"><use xlink:href="#repair1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1466 892) scale(0.75)"><use xlink:href="#harvester1"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="1320" y="910" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="931" fill="#e2b19d" font-size="11">敌 · 低血</text>
+<g transform="translate(1166 927) scale(0.75)"><use xlink:href="#tank1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1241 927) scale(0.75)"><use xlink:href="#scout1"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1316 927) scale(0.75)"><use xlink:href="#artillery1"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1391 927) scale(0.75)"><use xlink:href="#repair1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1466 927) scale(0.75)"><use xlink:href="#harvester1"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="1048" y="954" width="472" height="24" rx="0" fill="#15251e"/>
+<text x="1057" y="971" fill="#e5cf9d" font-size="12">0.5×  /  缩放至 50%</text>
+<rect x="1135" y="982" width="383" height="33" rx="0" fill="#444e50"/>
+<rect x="1320" y="982" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="1003" fill="#b7c9b5" font-size="11">友 · 常态</text>
+<g transform="translate(1166 999) scale(0.5)"><use xlink:href="#tank0"/>
+</g>
+<g transform="translate(1241 999) scale(0.5)"><use xlink:href="#scout0"/>
+</g>
+<g transform="translate(1316 999) scale(0.5)"><use xlink:href="#artillery0"/>
+</g>
+<g transform="translate(1391 999) scale(0.5)"><use xlink:href="#repair0"/>
+</g>
+<g transform="translate(1466 999) scale(0.5)"><use xlink:href="#harvester0"/>
+</g>
+<rect x="1320" y="1017" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="1038" fill="#b7c9b5" font-size="11">友 · 选中</text>
+<g transform="translate(1166 1034) scale(0.5)"><use xlink:href="#tank0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1241 1034) scale(0.5)"><use xlink:href="#scout0"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1316 1034) scale(0.5)"><use xlink:href="#artillery0"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1391 1034) scale(0.5)"><use xlink:href="#repair0"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1466 1034) scale(0.5)"><use xlink:href="#harvester0"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="1135" y="1052" width="383" height="33" rx="0" fill="#444e50"/>
+<rect x="1320" y="1052" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="1073" fill="#b7c9b5" font-size="11">友 · 低血</text>
+<g transform="translate(1166 1069) scale(0.5)"><use xlink:href="#tank0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1241 1069) scale(0.5)"><use xlink:href="#scout0"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1316 1069) scale(0.5)"><use xlink:href="#artillery0"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1391 1069) scale(0.5)"><use xlink:href="#repair0"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1466 1069) scale(0.5)"><use xlink:href="#harvester0"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<rect x="1320" y="1087" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="1108" fill="#e2b19d" font-size="11">敌 · 常态</text>
+<g transform="translate(1166 1104) scale(0.5)"><use xlink:href="#tank1"/>
+</g>
+<g transform="translate(1241 1104) scale(0.5)"><use xlink:href="#scout1"/>
+</g>
+<g transform="translate(1316 1104) scale(0.5)"><use xlink:href="#artillery1"/>
+</g>
+<g transform="translate(1391 1104) scale(0.5)"><use xlink:href="#repair1"/>
+</g>
+<g transform="translate(1466 1104) scale(0.5)"><use xlink:href="#harvester1"/>
+</g>
+<rect x="1135" y="1122" width="383" height="33" rx="0" fill="#444e50"/>
+<rect x="1320" y="1122" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="1143" fill="#e2b19d" font-size="11">敌 · 选中</text>
+<g transform="translate(1166 1139) scale(0.5)"><use xlink:href="#tank1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1241 1139) scale(0.5)"><use xlink:href="#scout1"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -15 -10 V -15 H -10 M 10 -15 H 15 V -10 M 15 10 V 15 H 10 M -10 15 H -15 V 10" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1316 1139) scale(0.5)"><use xlink:href="#artillery1"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -19 -14 V -19 H -14 M 14 -19 H 19 V -14 M 19 14 V 19 H 14 M -14 19 H -19 V 14" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1391 1139) scale(0.5)"><use xlink:href="#repair1"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -18 -13 V -18 H -13 M 13 -18 H 18 V -13 M 18 13 V 18 H 13 M -13 18 H -18 V 13" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<g transform="translate(1466 1139) scale(0.5)"><use xlink:href="#harvester1"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#17251e" stroke-width="4" stroke-linejoin="round"/>
+<path d="M -21 -16 V -21 H -16 M 16 -21 H 21 V -16 M 21 16 V 21 H 16 M -16 21 H -21 V 16" fill="none" stroke="#f0e8cd" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<rect x="1320" y="1157" width="50" height="33" rx="0" fill="#59645b"/>
+<text x="1056" y="1178" fill="#e2b19d" font-size="11">敌 · 低血</text>
+<g transform="translate(1166 1174) scale(0.5)"><use xlink:href="#tank1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1241 1174) scale(0.5)"><use xlink:href="#scout1"/>
+<circle r="15" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-10" y="-20" width="20" height="4" rx="0" fill="#111b17"/>
+<rect x="-10" y="-20" width="4.6000000000000005" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1316 1174) scale(0.5)"><use xlink:href="#artillery1"/>
+<circle r="19" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-14" y="-24" width="28" height="4" rx="0" fill="#111b17"/>
+<rect x="-14" y="-24" width="6.44" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1391 1174) scale(0.5)"><use xlink:href="#repair1"/>
+<circle r="18" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-13" y="-23" width="26" height="4" rx="0" fill="#111b17"/>
+<rect x="-13" y="-23" width="5.98" height="4" rx="0" fill="#e7a167"/>
+</g>
+<g transform="translate(1466 1174) scale(0.5)"><use xlink:href="#harvester1"/>
+<circle r="21" fill="none" stroke="#e7a167" stroke-width="1.5" stroke-dasharray="3 4"/>
+<rect x="-16" y="-26" width="32" height="4" rx="0" fill="#111b17"/>
+<rect x="-16" y="-26" width="7.36" height="4" rx="0" fill="#e7a167"/>
+</g>
+<text x="32" y="1246" fill="#e0c78e" font-size="14">评审重点：先看轮廓、敌我、选中，再决定纹理与细节。0.5× 下细小队徽可能失读，需浏览器实测后调整。</text>
+<text x="32" y="1273" fill="#a9bcac" font-size="12">保持碰撞半径、e.angle、武器判定与存档不变；无随机数、无外部素材、无运行时滤镜。地形仅作对比底色，并非实际地图。</text>
+</svg>

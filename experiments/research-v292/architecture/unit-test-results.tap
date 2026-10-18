@@ -1,0 +1,76 @@
+TAP version 13
+# Subtest: distance: identical, negative and 3-4-5 coordinates; inputs unchanged
+ok 1 - distance: identical, negative and 3-4-5 coordinates; inputs unchanged
+  ---
+  duration_ms: 0.984706
+  type: 'test'
+  ...
+# Subtest: clamp: lower, interior, upper, equal bounds and infinities
+ok 2 - clamp: lower, interior, upper, equal bounds and infinities
+  ---
+  duration_ms: 0.196337
+  type: 'test'
+  ...
+# Subtest: repeated assembly exactly matches frozen baseline hash and size
+ok 3 - repeated assembly exactly matches frozen baseline hash and size
+  ---
+  duration_ms: 10.787778
+  type: 'test'
+  ...
+# Subtest: missing template marker rejected
+ok 4 - missing template marker rejected
+  ---
+  duration_ms: 0.754929
+  type: 'test'
+  ...
+# Subtest: duplicate template marker rejected
+ok 5 - duplicate template marker rejected
+  ---
+  duration_ms: 0.392993
+  type: 'test'
+  ...
+# Subtest: changed template marker rejected
+ok 6 - changed template marker rejected
+  ---
+  duration_ms: 1.369316
+  type: 'test'
+  ...
+# Subtest: changed template outside marker rejected
+ok 7 - changed template outside marker rejected
+  ---
+  duration_ms: 1.389767
+  type: 'test'
+  ...
+# Subtest: changed module implementation rejected
+ok 8 - changed module implementation rejected
+  ---
+  duration_ms: 1.466573
+  type: 'test'
+  ...
+# Subtest: missing or duplicate export footer rejected
+ok 9 - missing or duplicate export footer rejected
+  ---
+  duration_ms: 0.309748
+  type: 'test'
+  ...
+# Subtest: wrong output identity and unsupported manifest rejected
+ok 10 - wrong output identity and unsupported manifest rejected
+  ---
+  duration_ms: 2.471529
+  type: 'test'
+  ...
+# Subtest: missing source input rejected
+ok 11 - missing source input rejected
+  ---
+  duration_ms: 3.325202
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 118.344544

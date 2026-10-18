@@ -1,0 +1,1532 @@
+{
+  "runs": [
+    {
+      "run": 1,
+      "runtime": {
+        "setupMs": 49.316565000000004,
+        "mainMs": 5503.549417,
+        "node": "v24.19.0",
+        "v8": "13.6.233.17-node.51",
+        "platform": "linux",
+        "arch": "x64",
+        "cpu": "AMD EPYC 9V74 80-Core Processor",
+        "cpuCount": 9,
+        "totalMemory": 10451439616,
+        "samplingIntervalUs": 1000
+      },
+      "sampleCount": 5105,
+      "sampledMs": 5533.256,
+      "sourceSha256": "e5edd8f7384d37a356071c66c6788e681f3e45ad9ab224a52a783692b5ca0884",
+      "traceSha256": "12637d53a9de8ffed6102ac08a210f1ca2ab65032712c8c789b673cbbbbc8bab",
+      "gameSeconds": 102.46666666666214,
+      "result": "\u80dc\u5229",
+      "sampledTraceEntityCount": {
+        "min": 18,
+        "max": 29
+      },
+      "topSelf": [
+        {
+          "function": "runInContext",
+          "url": "",
+          "line": 0,
+          "sampledMs": 1164.559,
+          "sharePercent": 21.05,
+          "selfSamples": 1023
+        },
+        {
+          "function": "render",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 450,
+          "sampledMs": 407.275,
+          "sharePercent": 7.36,
+          "selfSamples": 369
+        },
+        {
+          "function": "drawUnit",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 393,
+          "sampledMs": 338.645,
+          "sharePercent": 6.12,
+          "selfSamples": 311
+        },
+        {
+          "function": "drawRocks",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 66,
+          "sampledMs": 322.913,
+          "sharePercent": 5.84,
+          "selfSamples": 292
+        },
+        {
+          "function": "dist",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 316.44,
+          "sharePercent": 5.72,
+          "selfSamples": 277
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 371,
+          "sampledMs": 213.659,
+          "sharePercent": 3.86,
+          "selfSamples": 202
+        },
+        {
+          "function": "clamp",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 184.8,
+          "sharePercent": 3.34,
+          "selfSamples": 167
+        },
+        {
+          "function": "legacyMove",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 264,
+          "sampledMs": 176.681,
+          "sharePercent": 3.19,
+          "selfSamples": 168
+        },
+        {
+          "function": "get",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 8,
+          "sampledMs": 158.17,
+          "sharePercent": 2.86,
+          "selfSamples": 143
+        },
+        {
+          "function": "(garbage collector)",
+          "url": "",
+          "line": 0,
+          "sampledMs": 85.703,
+          "sharePercent": 1.55,
+          "selfSamples": 76
+        },
+        {
+          "function": "drawBuilding",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 390,
+          "sampledMs": 80.425,
+          "sharePercent": 1.45,
+          "selfSamples": 73
+        },
+        {
+          "function": "querySelectorAll",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 29,
+          "sampledMs": 69.911,
+          "sharePercent": 1.26,
+          "selfSamples": 64
+        },
+        {
+          "function": "frame",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 775,
+          "sampledMs": 69.442,
+          "sharePercent": 1.25,
+          "selfSamples": 63
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 263,
+          "sampledMs": 68.736,
+          "sharePercent": 1.24,
+          "selfSamples": 67
+        },
+        {
+          "function": "updateUI",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 621,
+          "sampledMs": 62.096,
+          "sharePercent": 1.12,
+          "selfSamples": 55
+        },
+        {
+          "function": "rect",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 378,
+          "sampledMs": 58.466,
+          "sharePercent": 1.06,
+          "selfSamples": 53
+        },
+        {
+          "function": "drawTerrain",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 395,
+          "sampledMs": 53.558,
+          "sharePercent": 0.97,
+          "selfSamples": 49
+        },
+        {
+          "function": "circle",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 378,
+          "sampledMs": 46.642,
+          "sharePercent": 0.84,
+          "selfSamples": 41
+        },
+        {
+          "function": "set",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 8,
+          "sampledMs": 44.957,
+          "sharePercent": 0.81,
+          "selfSamples": 39
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 811,
+          "sampledMs": 43.654,
+          "sharePercent": 0.79,
+          "selfSamples": 39
+        },
+        {
+          "function": "resolvePair",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 265,
+          "sampledMs": 41.708,
+          "sharePercent": 0.75,
+          "selfSamples": 41
+        },
+        {
+          "function": "separateUnits",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 265,
+          "sampledMs": 40.366,
+          "sharePercent": 0.73,
+          "selfSamples": 36
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 29,
+          "sampledMs": 39.951,
+          "sharePercent": 0.72,
+          "selfSamples": 39
+        },
+        {
+          "function": "getElementById",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 29,
+          "sampledMs": 39.58,
+          "sharePercent": 0.72,
+          "selfSamples": 36
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 38.134,
+          "sharePercent": 0.69,
+          "selfSamples": 34
+        },
+        {
+          "function": "power",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 44,
+          "sampledMs": 34.914,
+          "sharePercent": 0.63,
+          "selfSamples": 33
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 41,
+          "sampledMs": 34.781,
+          "sharePercent": 0.63,
+          "selfSamples": 33
+        },
+        {
+          "function": "Script",
+          "url": "node:vm",
+          "line": 85,
+          "sampledMs": 32.679,
+          "sharePercent": 0.59,
+          "selfSamples": 29
+        },
+        {
+          "function": "metrics",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 31.212,
+          "sharePercent": 0.56,
+          "selfSamples": 28
+        },
+        {
+          "function": "nearestEnemyInRange",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 278,
+          "sampledMs": 30.98,
+          "sharePercent": 0.56,
+          "selfSamples": 31
+        }
+      ],
+      "gameInclusive": [
+        {
+          "function": "frame",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 775,
+          "sampledMs": 4107.107,
+          "sharePercent": 74.23,
+          "selfSamples": 63
+        },
+        {
+          "function": "render",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 450,
+          "sampledMs": 2181.787,
+          "sharePercent": 39.43,
+          "selfSamples": 369
+        },
+        {
+          "function": "advanceSimulation",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 774,
+          "sampledMs": 1404.817,
+          "sharePercent": 25.39,
+          "selfSamples": 7
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 837,
+          "sampledMs": 1385.212,
+          "sharePercent": 25.03,
+          "selfSamples": 12
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 823,
+          "sampledMs": 1373.531,
+          "sharePercent": 24.82,
+          "selfSamples": 0
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 811,
+          "sampledMs": 1371.436,
+          "sharePercent": 24.79,
+          "selfSamples": 39
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 371,
+          "sampledMs": 1321.272,
+          "sharePercent": 23.88,
+          "selfSamples": 202
+        },
+        {
+          "function": "updateUI",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 621,
+          "sampledMs": 467.127,
+          "sharePercent": 8.44,
+          "selfSamples": 55
+        },
+        {
+          "function": "drawUnit",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 393,
+          "sampledMs": 445.908,
+          "sharePercent": 8.06,
+          "selfSamples": 311
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 835,
+          "sampledMs": 392.838,
+          "sharePercent": 7.1,
+          "selfSamples": 9
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 805,
+          "sampledMs": 380.258,
+          "sharePercent": 6.87,
+          "selfSamples": 2
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 821,
+          "sampledMs": 380.258,
+          "sharePercent": 6.87,
+          "selfSamples": 0
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 788,
+          "sampledMs": 377.0,
+          "sharePercent": 6.81,
+          "selfSamples": 10
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 263,
+          "sampledMs": 365.38,
+          "sharePercent": 6.6,
+          "selfSamples": 67
+        },
+        {
+          "function": "drawRocks",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 66,
+          "sampledMs": 351.39,
+          "sharePercent": 6.35,
+          "selfSamples": 292
+        },
+        {
+          "function": "dist",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 316.44,
+          "sharePercent": 5.72,
+          "selfSamples": 277
+        },
+        {
+          "function": "oreLabelLayout",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 268.441,
+          "sharePercent": 4.85,
+          "selfSamples": 27
+        },
+        {
+          "function": "legacyMove",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 264,
+          "sampledMs": 252.364,
+          "sharePercent": 4.56,
+          "selfSamples": 168
+        },
+        {
+          "function": "drawBuilding",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 390,
+          "sampledMs": 219.245,
+          "sharePercent": 3.96,
+          "selfSamples": 73
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 197.935,
+          "sharePercent": 3.58,
+          "selfSamples": 34
+        },
+        {
+          "function": "clamp",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 184.8,
+          "sharePercent": 3.34,
+          "selfSamples": 167
+        },
+        {
+          "function": "postPresence",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 344,
+          "sampledMs": 137.102,
+          "sharePercent": 2.48,
+          "selfSamples": 30
+        },
+        {
+          "function": "separateUnits",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 265,
+          "sampledMs": 104.979,
+          "sharePercent": 1.9,
+          "selfSamples": 36
+        },
+        {
+          "function": "rect",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 378,
+          "sampledMs": 102.343,
+          "sharePercent": 1.85,
+          "selfSamples": 53
+        },
+        {
+          "function": "drawTerrain",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 395,
+          "sampledMs": 102.339,
+          "sharePercent": 1.85,
+          "selfSamples": 49
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 790,
+          "sampledMs": 99.516,
+          "sharePercent": 1.8,
+          "selfSamples": 7
+        },
+        {
+          "function": "harvest",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 312,
+          "sampledMs": 98.028,
+          "sharePercent": 1.77,
+          "selfSamples": 16
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 277,
+          "sampledMs": 95.901,
+          "sharePercent": 1.73,
+          "selfSamples": 19
+        },
+        {
+          "function": "updateEnemyRebuildClock",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 363,
+          "sampledMs": 82.811,
+          "sharePercent": 1.5,
+          "selfSamples": 15
+        },
+        {
+          "function": "safe",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 81.196,
+          "sharePercent": 1.47,
+          "selfSamples": 16
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "runtime": {
+        "setupMs": 56.506361,
+        "mainMs": 5404.949933,
+        "node": "v24.19.0",
+        "v8": "13.6.233.17-node.51",
+        "platform": "linux",
+        "arch": "x64",
+        "cpu": "AMD EPYC 9V74 80-Core Processor",
+        "cpuCount": 9,
+        "totalMemory": 10451439616,
+        "samplingIntervalUs": 1000
+      },
+      "sampleCount": 5073,
+      "sampledMs": 5432.445,
+      "sourceSha256": "e5edd8f7384d37a356071c66c6788e681f3e45ad9ab224a52a783692b5ca0884",
+      "traceSha256": "12637d53a9de8ffed6102ac08a210f1ca2ab65032712c8c789b673cbbbbc8bab",
+      "gameSeconds": 102.46666666666214,
+      "result": "\u80dc\u5229",
+      "sampledTraceEntityCount": {
+        "min": 18,
+        "max": 29
+      },
+      "topSelf": [
+        {
+          "function": "runInContext",
+          "url": "",
+          "line": 0,
+          "sampledMs": 1142.024,
+          "sharePercent": 21.02,
+          "selfSamples": 1024
+        },
+        {
+          "function": "render",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 450,
+          "sampledMs": 378.338,
+          "sharePercent": 6.96,
+          "selfSamples": 351
+        },
+        {
+          "function": "drawUnit",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 393,
+          "sampledMs": 318.198,
+          "sharePercent": 5.86,
+          "selfSamples": 289
+        },
+        {
+          "function": "dist",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 312.376,
+          "sharePercent": 5.75,
+          "selfSamples": 286
+        },
+        {
+          "function": "drawRocks",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 66,
+          "sampledMs": 304.235,
+          "sharePercent": 5.6,
+          "selfSamples": 271
+        },
+        {
+          "function": "clamp",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 204.93,
+          "sharePercent": 3.77,
+          "selfSamples": 185
+        },
+        {
+          "function": "legacyMove",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 264,
+          "sampledMs": 180.498,
+          "sharePercent": 3.32,
+          "selfSamples": 173
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 371,
+          "sampledMs": 151.948,
+          "sharePercent": 2.8,
+          "selfSamples": 145
+        },
+        {
+          "function": "get",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 8,
+          "sampledMs": 110.629,
+          "sharePercent": 2.04,
+          "selfSamples": 102
+        },
+        {
+          "function": "(garbage collector)",
+          "url": "",
+          "line": 0,
+          "sampledMs": 79.935,
+          "sharePercent": 1.47,
+          "selfSamples": 72
+        },
+        {
+          "function": "drawBuilding",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 390,
+          "sampledMs": 78.175,
+          "sharePercent": 1.44,
+          "selfSamples": 73
+        },
+        {
+          "function": "rect",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 378,
+          "sampledMs": 77.992,
+          "sharePercent": 1.44,
+          "selfSamples": 69
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 263,
+          "sampledMs": 76.575,
+          "sharePercent": 1.41,
+          "selfSamples": 74
+        },
+        {
+          "function": "frame",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 775,
+          "sampledMs": 74.852,
+          "sharePercent": 1.38,
+          "selfSamples": 69
+        },
+        {
+          "function": "querySelectorAll",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 29,
+          "sampledMs": 66.739,
+          "sharePercent": 1.23,
+          "selfSamples": 62
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 58.77,
+          "sharePercent": 1.08,
+          "selfSamples": 54
+        },
+        {
+          "function": "drawTerrain",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 395,
+          "sampledMs": 53.834,
+          "sharePercent": 0.99,
+          "selfSamples": 46
+        },
+        {
+          "function": "updateUI",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 621,
+          "sampledMs": 47.666,
+          "sharePercent": 0.88,
+          "selfSamples": 42
+        },
+        {
+          "function": "Script",
+          "url": "node:vm",
+          "line": 85,
+          "sampledMs": 46.874,
+          "sharePercent": 0.86,
+          "selfSamples": 41
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 29,
+          "sampledMs": 45.448,
+          "sharePercent": 0.84,
+          "selfSamples": 41
+        },
+        {
+          "function": "separateUnits",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 265,
+          "sampledMs": 45.359,
+          "sharePercent": 0.83,
+          "selfSamples": 43
+        },
+        {
+          "function": "circle",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 378,
+          "sampledMs": 44.595,
+          "sharePercent": 0.82,
+          "selfSamples": 38
+        },
+        {
+          "function": "postPresence",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 344,
+          "sampledMs": 43.298,
+          "sharePercent": 0.8,
+          "selfSamples": 40
+        },
+        {
+          "function": "updatePosts",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 352,
+          "sampledMs": 40.205,
+          "sharePercent": 0.74,
+          "selfSamples": 40
+        },
+        {
+          "function": "getElementById",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 29,
+          "sampledMs": 40.189,
+          "sharePercent": 0.74,
+          "selfSamples": 37
+        },
+        {
+          "function": "resolvePair",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 265,
+          "sampledMs": 36.937,
+          "sharePercent": 0.68,
+          "selfSamples": 36
+        },
+        {
+          "function": "power",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 44,
+          "sampledMs": 35.731,
+          "sharePercent": 0.66,
+          "selfSamples": 34
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 41,
+          "sampledMs": 34.523,
+          "sharePercent": 0.64,
+          "selfSamples": 32
+        },
+        {
+          "function": "oreLabelLayout",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 32.622,
+          "sharePercent": 0.6,
+          "selfSamples": 29
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 361,
+          "sampledMs": 31.525,
+          "sharePercent": 0.58,
+          "selfSamples": 29
+        }
+      ],
+      "gameInclusive": [
+        {
+          "function": "frame",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 775,
+          "sampledMs": 4014.278,
+          "sharePercent": 73.89,
+          "selfSamples": 69
+        },
+        {
+          "function": "render",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 450,
+          "sampledMs": 2061.055,
+          "sharePercent": 37.94,
+          "selfSamples": 351
+        },
+        {
+          "function": "advanceSimulation",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 774,
+          "sampledMs": 1442.906,
+          "sharePercent": 26.56,
+          "selfSamples": 8
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 837,
+          "sampledMs": 1426.493,
+          "sharePercent": 26.26,
+          "selfSamples": 14
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 811,
+          "sampledMs": 1413.355,
+          "sharePercent": 26.02,
+          "selfSamples": 25
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 823,
+          "sampledMs": 1413.355,
+          "sharePercent": 26.02,
+          "selfSamples": 0
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 371,
+          "sampledMs": 1382.127,
+          "sharePercent": 25.44,
+          "selfSamples": 145
+        },
+        {
+          "function": "drawUnit",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 393,
+          "sampledMs": 453.015,
+          "sharePercent": 8.34,
+          "selfSamples": 289
+        },
+        {
+          "function": "updateUI",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 621,
+          "sampledMs": 442.247,
+          "sharePercent": 8.14,
+          "selfSamples": 42
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 835,
+          "sampledMs": 412.494,
+          "sharePercent": 7.59,
+          "selfSamples": 12
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 805,
+          "sampledMs": 397.276,
+          "sharePercent": 7.31,
+          "selfSamples": 0
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 821,
+          "sampledMs": 397.276,
+          "sharePercent": 7.31,
+          "selfSamples": 0
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 788,
+          "sampledMs": 396.291,
+          "sharePercent": 7.29,
+          "selfSamples": 9
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 263,
+          "sampledMs": 387.187,
+          "sharePercent": 7.13,
+          "selfSamples": 74
+        },
+        {
+          "function": "drawRocks",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 66,
+          "sampledMs": 324.941,
+          "sharePercent": 5.98,
+          "selfSamples": 271
+        },
+        {
+          "function": "dist",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 312.376,
+          "sharePercent": 5.75,
+          "selfSamples": 286
+        },
+        {
+          "function": "oreLabelLayout",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 303.926,
+          "sharePercent": 5.59,
+          "selfSamples": 29
+        },
+        {
+          "function": "legacyMove",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 264,
+          "sampledMs": 257.313,
+          "sharePercent": 4.74,
+          "selfSamples": 173
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 245.033,
+          "sharePercent": 4.51,
+          "selfSamples": 54
+        },
+        {
+          "function": "clamp",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 204.93,
+          "sharePercent": 3.77,
+          "selfSamples": 185
+        },
+        {
+          "function": "drawBuilding",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 390,
+          "sampledMs": 200.119,
+          "sharePercent": 3.68,
+          "selfSamples": 73
+        },
+        {
+          "function": "postPresence",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 344,
+          "sampledMs": 139.383,
+          "sharePercent": 2.57,
+          "selfSamples": 40
+        },
+        {
+          "function": "harvest",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 312,
+          "sampledMs": 120.726,
+          "sharePercent": 2.22,
+          "selfSamples": 25
+        },
+        {
+          "function": "separateUnits",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 265,
+          "sampledMs": 114.511,
+          "sharePercent": 2.11,
+          "selfSamples": 43
+        },
+        {
+          "function": "rect",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 378,
+          "sampledMs": 109.253,
+          "sharePercent": 2.01,
+          "selfSamples": 69
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 277,
+          "sampledMs": 105.313,
+          "sharePercent": 1.94,
+          "selfSamples": 21
+        },
+        {
+          "function": "drawTerrain",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 395,
+          "sampledMs": 99.583,
+          "sharePercent": 1.83,
+          "selfSamples": 46
+        },
+        {
+          "function": "updatePosts",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 352,
+          "sampledMs": 97.655,
+          "sharePercent": 1.8,
+          "selfSamples": 40
+        },
+        {
+          "function": "safe",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 95.887,
+          "sharePercent": 1.77,
+          "selfSamples": 10
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 790,
+          "sampledMs": 92.704,
+          "sharePercent": 1.71,
+          "selfSamples": 3
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "runtime": {
+        "setupMs": 53.742799999999995,
+        "mainMs": 5152.899546,
+        "node": "v24.19.0",
+        "v8": "13.6.233.17-node.51",
+        "platform": "linux",
+        "arch": "x64",
+        "cpu": "AMD EPYC 9V74 80-Core Processor",
+        "cpuCount": 9,
+        "totalMemory": 10451439616,
+        "samplingIntervalUs": 1000
+      },
+      "sampleCount": 4793,
+      "sampledMs": 5181.105,
+      "sourceSha256": "e5edd8f7384d37a356071c66c6788e681f3e45ad9ab224a52a783692b5ca0884",
+      "traceSha256": "12637d53a9de8ffed6102ac08a210f1ca2ab65032712c8c789b673cbbbbc8bab",
+      "gameSeconds": 102.46666666666214,
+      "result": "\u80dc\u5229",
+      "sampledTraceEntityCount": {
+        "min": 18,
+        "max": 29
+      },
+      "topSelf": [
+        {
+          "function": "runInContext",
+          "url": "",
+          "line": 0,
+          "sampledMs": 974.642,
+          "sharePercent": 18.81,
+          "selfSamples": 876
+        },
+        {
+          "function": "render",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 450,
+          "sampledMs": 331.694,
+          "sharePercent": 6.4,
+          "selfSamples": 300
+        },
+        {
+          "function": "drawUnit",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 393,
+          "sampledMs": 300.55,
+          "sharePercent": 5.8,
+          "selfSamples": 269
+        },
+        {
+          "function": "drawRocks",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 66,
+          "sampledMs": 298.584,
+          "sharePercent": 5.76,
+          "selfSamples": 274
+        },
+        {
+          "function": "dist",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 255.404,
+          "sharePercent": 4.93,
+          "selfSamples": 232
+        },
+        {
+          "function": "clamp",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 198.793,
+          "sharePercent": 3.84,
+          "selfSamples": 184
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 371,
+          "sampledMs": 186.938,
+          "sharePercent": 3.61,
+          "selfSamples": 175
+        },
+        {
+          "function": "legacyMove",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 264,
+          "sampledMs": 150.299,
+          "sharePercent": 2.9,
+          "selfSamples": 141
+        },
+        {
+          "function": "get",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 8,
+          "sampledMs": 120.651,
+          "sharePercent": 2.33,
+          "selfSamples": 111
+        },
+        {
+          "function": "drawBuilding",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 390,
+          "sampledMs": 95.344,
+          "sharePercent": 1.84,
+          "selfSamples": 87
+        },
+        {
+          "function": "(garbage collector)",
+          "url": "",
+          "line": 0,
+          "sampledMs": 92.642,
+          "sharePercent": 1.79,
+          "selfSamples": 81
+        },
+        {
+          "function": "querySelectorAll",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 29,
+          "sampledMs": 85.836,
+          "sharePercent": 1.66,
+          "selfSamples": 78
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 263,
+          "sampledMs": 75.946,
+          "sharePercent": 1.47,
+          "selfSamples": 74
+        },
+        {
+          "function": "frame",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 775,
+          "sampledMs": 75.853,
+          "sharePercent": 1.46,
+          "selfSamples": 67
+        },
+        {
+          "function": "rect",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 378,
+          "sampledMs": 64.076,
+          "sharePercent": 1.24,
+          "selfSamples": 55
+        },
+        {
+          "function": "updateUI",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 621,
+          "sampledMs": 57.095,
+          "sharePercent": 1.1,
+          "selfSamples": 50
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 29,
+          "sampledMs": 52.859,
+          "sharePercent": 1.02,
+          "selfSamples": 47
+        },
+        {
+          "function": "circle",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 378,
+          "sampledMs": 52.186,
+          "sharePercent": 1.01,
+          "selfSamples": 45
+        },
+        {
+          "function": "drawTerrain",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 395,
+          "sampledMs": 48.914,
+          "sharePercent": 0.94,
+          "selfSamples": 45
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 46.821,
+          "sharePercent": 0.9,
+          "selfSamples": 41
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 811,
+          "sampledMs": 45.791,
+          "sharePercent": 0.88,
+          "selfSamples": 42
+        },
+        {
+          "function": "Script",
+          "url": "node:vm",
+          "line": 85,
+          "sampledMs": 45.559,
+          "sharePercent": 0.88,
+          "selfSamples": 40
+        },
+        {
+          "function": "oreLabelLayout",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 44.273,
+          "sharePercent": 0.85,
+          "selfSamples": 40
+        },
+        {
+          "function": "resolvePair",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 265,
+          "sampledMs": 39.629,
+          "sharePercent": 0.76,
+          "selfSamples": 37
+        },
+        {
+          "function": "metrics",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 37.962,
+          "sharePercent": 0.73,
+          "selfSamples": 35
+        },
+        {
+          "function": "updatePosts",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 352,
+          "sampledMs": 37.217,
+          "sharePercent": 0.72,
+          "selfSamples": 38
+        },
+        {
+          "function": "getElementById",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 29,
+          "sampledMs": 37.212,
+          "sharePercent": 0.72,
+          "selfSamples": 33
+        },
+        {
+          "function": "separateUnits",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 265,
+          "sampledMs": 36.607,
+          "sharePercent": 0.71,
+          "selfSamples": 35
+        },
+        {
+          "function": "set",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/verification/vm-environment.cjs",
+          "line": 8,
+          "sampledMs": 36.083,
+          "sharePercent": 0.7,
+          "selfSamples": 32
+        },
+        {
+          "function": "nearestEnemyInRange",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 278,
+          "sampledMs": 31.837,
+          "sharePercent": 0.61,
+          "selfSamples": 29
+        }
+      ],
+      "gameInclusive": [
+        {
+          "function": "frame",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 775,
+          "sampledMs": 3909.252,
+          "sharePercent": 75.45,
+          "selfSamples": 67
+        },
+        {
+          "function": "render",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 450,
+          "sampledMs": 2038.837,
+          "sharePercent": 39.35,
+          "selfSamples": 300
+        },
+        {
+          "function": "advanceSimulation",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 774,
+          "sampledMs": 1330.328,
+          "sharePercent": 25.68,
+          "selfSamples": 5
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 837,
+          "sampledMs": 1320.406,
+          "sharePercent": 25.49,
+          "selfSamples": 14
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 823,
+          "sampledMs": 1306.113,
+          "sharePercent": 25.21,
+          "selfSamples": 1
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 811,
+          "sampledMs": 1304.976,
+          "sharePercent": 25.19,
+          "selfSamples": 42
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 371,
+          "sampledMs": 1253.653,
+          "sharePercent": 24.2,
+          "selfSamples": 175
+        },
+        {
+          "function": "updateUI",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 621,
+          "sampledMs": 476.298,
+          "sharePercent": 9.19,
+          "selfSamples": 50
+        },
+        {
+          "function": "drawUnit",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 393,
+          "sampledMs": 421.318,
+          "sharePercent": 8.13,
+          "selfSamples": 269
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 835,
+          "sampledMs": 365.491,
+          "sharePercent": 7.05,
+          "selfSamples": 8
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 821,
+          "sampledMs": 358.312,
+          "sharePercent": 6.92,
+          "selfSamples": 2
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 805,
+          "sampledMs": 356.171,
+          "sharePercent": 6.87,
+          "selfSamples": 3
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 788,
+          "sampledMs": 352.849,
+          "sharePercent": 6.81,
+          "selfSamples": 9
+        },
+        {
+          "function": "move",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 263,
+          "sampledMs": 342.653,
+          "sharePercent": 6.61,
+          "selfSamples": 74
+        },
+        {
+          "function": "drawRocks",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 66,
+          "sampledMs": 323.749,
+          "sharePercent": 6.25,
+          "selfSamples": 274
+        },
+        {
+          "function": "oreLabelLayout",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 319.002,
+          "sharePercent": 6.16,
+          "selfSamples": 40
+        },
+        {
+          "function": "dist",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 255.404,
+          "sharePercent": 4.93,
+          "selfSamples": 232
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 236.623,
+          "sharePercent": 4.57,
+          "selfSamples": 41
+        },
+        {
+          "function": "legacyMove",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 264,
+          "sampledMs": 219.568,
+          "sharePercent": 4.24,
+          "selfSamples": 141
+        },
+        {
+          "function": "drawBuilding",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 390,
+          "sampledMs": 215.094,
+          "sharePercent": 4.15,
+          "selfSamples": 87
+        },
+        {
+          "function": "clamp",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 22,
+          "sampledMs": 198.793,
+          "sharePercent": 3.84,
+          "selfSamples": 184
+        },
+        {
+          "function": "separateUnits",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 265,
+          "sampledMs": 113.717,
+          "sharePercent": 2.19,
+          "selfSamples": 35
+        },
+        {
+          "function": "postPresence",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 344,
+          "sampledMs": 113.603,
+          "sharePercent": 2.19,
+          "selfSamples": 25
+        },
+        {
+          "function": "rect",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 378,
+          "sampledMs": 95.309,
+          "sharePercent": 1.84,
+          "selfSamples": 55
+        },
+        {
+          "function": "update",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 790,
+          "sampledMs": 93.502,
+          "sharePercent": 1.8,
+          "selfSamples": 3
+        },
+        {
+          "function": "drawTerrain",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 395,
+          "sampledMs": 91.474,
+          "sharePercent": 1.77,
+          "selfSamples": 45
+        },
+        {
+          "function": "harvest",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 312,
+          "sampledMs": 89.417,
+          "sharePercent": 1.73,
+          "selfSamples": 21
+        },
+        {
+          "function": "(anonymous)",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 277,
+          "sampledMs": 86.263,
+          "sharePercent": 1.66,
+          "selfSamples": 14
+        },
+        {
+          "function": "updatePosts",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 352,
+          "sampledMs": 83.98,
+          "sharePercent": 1.62,
+          "selfSamples": 38
+        },
+        {
+          "function": "safe",
+          "url": "file:///workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+          "line": 448,
+          "sampledMs": 80.433,
+          "sharePercent": 1.55,
+          "selfSamples": 16
+        }
+      ]
+    }
+  ],
+  "identicalTraces": true
+}
