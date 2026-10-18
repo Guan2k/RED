@@ -1,0 +1,12 @@
+{
+  "parentCommit": "801f6d4fd68a0ac32f8b0c066b0db054805aa167",
+  "parentFiles": 1191,
+  "parentSourceSha256": "02c622cdfaf30fb5c9ea854c2c3b4208cc39f4057af4277e229cc009cbb0e2a1",
+  "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "prototypeSha256": "bc5560888f20016532ee308f192d2da3e0c432f03379435ff7264e06960975f3",
+  "versionOnlyNormalizationMatchesPrototype": true,
+  "authoritativeEdits": [
+    "src/script/03-renderer.jsfrag",
+    "src/index.template.html"
+  ]
+}

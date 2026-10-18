@@ -1,0 +1,44 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "assertions": 2159,
+  "measurements": [
+    {
+      "firstMilestoneTimes": {
+        "produced": 4.049999999999991,
+        "harvested": 5.8499999999999845,
+        "captures": 11.000000000000126
+      },
+      "finalTime": 11.000000000000126,
+      "randomDraws": 0
+    },
+    {
+      "stableRefreshes": 20,
+      "stableWrites": 0,
+      "dynamicFields": 5
+    }
+  ],
+  "results": [
+    {
+      "name": "markup menu read-only and existing summary keyboard boundary",
+      "passed": true
+    },
+    {
+      "name": "legal delivered mineral actual unit and first capture milestones",
+      "passed": true
+    },
+    {
+      "name": "legal loop production also counts actual reinforcement",
+      "passed": true
+    },
+    {
+      "name": "synthetic cumulative records absent values and lost ownership read-only",
+      "passed": true
+    },
+    {
+      "name": "stable writes zero and corrupted display repaired without gameplay change",
+      "passed": true
+    }
+  ],
+  "scope": "Optional readonly practice UI. Legal same-seed full-world and RNG pairing, actual cargo delivery / living produced scout / ownership transition, paused and new-battle behavior; synthetic historical/missing stats and display corruption separate. No save lifecycle or native browser, screen-reader, keyboard activation or narrow-layout acceptance claim."
+}

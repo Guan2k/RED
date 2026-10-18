@@ -41,7 +41,7 @@ Initial bootstrap uses the same restricted recovery command because the existing
 
 ## Adopted developer release workflow
 
-The original additive source-tools adoption retained the exact v0.294 player artifact. The current v0.296 release deliberately changes only shared progress-rail y offsets and the displayed version through authoritative sources. Source-build checks and tool tests are separate from game coverage.
+The original additive source-tools adoption retained the exact v0.294 player artifact. The current v0.297 release deliberately changes only shared progress-rail y offsets and the displayed version through authoritative sources. Source-build checks and tool tests are separate from game coverage.
 
 Run `node verify-development.cjs` before release. In order, it validates the sealed package through `verify-current.cjs --check-only`, runs `node tools/source-build.mjs --check`, runs the builder tests, then invokes the unchanged `node verify-current.cjs`. Any failure stops later stages. `node verify-development.cjs --check-only` runs the first three stages without gameplay. `node --test tools/test-development-preflight.cjs` separately tests this orchestration in disposable fixtures; synthetic child scripts are not game coverage.
 

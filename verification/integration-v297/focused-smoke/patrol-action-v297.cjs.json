@@ -1,0 +1,213 @@
+{
+  "passed": 35,
+  "failed": 0,
+  "assertions": 725,
+  "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "results": [
+    {
+      "name": "empty",
+      "paused": false,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "empty",
+      "paused": false,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "empty",
+      "paused": true,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "empty",
+      "paused": true,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "noncombat",
+      "paused": false,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "noncombat",
+      "paused": false,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "noncombat",
+      "paused": true,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "noncombat",
+      "paused": true,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "ordinary",
+      "paused": false,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "ordinary",
+      "paused": false,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "ordinary",
+      "paused": true,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "ordinary",
+      "paused": true,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "guard",
+      "paused": false,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "guard",
+      "paused": false,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "guard",
+      "paused": true,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "guard",
+      "paused": true,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "patrol",
+      "paused": false,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "patrol",
+      "paused": false,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "patrol",
+      "paused": true,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "patrol",
+      "paused": true,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "guard ordinary",
+      "paused": false,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "guard ordinary",
+      "paused": false,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "guard ordinary",
+      "paused": true,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "guard ordinary",
+      "paused": true,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "guard patrol",
+      "paused": false,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "guard patrol",
+      "paused": false,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "guard patrol",
+      "paused": true,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "guard patrol",
+      "paused": true,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "guard patrol noncombat",
+      "paused": false,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "guard patrol noncombat",
+      "paused": false,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "guard patrol noncombat",
+      "paused": true,
+      "input": "button",
+      "passed": true
+    },
+    {
+      "name": "guard patrol noncombat",
+      "paused": true,
+      "input": "keyboard",
+      "passed": true
+    },
+    {
+      "name": "menu",
+      "passed": true
+    },
+    {
+      "name": "restart",
+      "passed": true
+    },
+    {
+      "name": "terminal",
+      "passed": true
+    }
+  ],
+  "scope": "Legal real UI selection, ordinary/guard/patrol setup, normal and paused button/P actions, natural defeat plus menu/restart availability. Exact v280 core parity and read-only refresh checks. Synthetic VM/DOM only; no direct game-state writes, browser, save/load/export or native visual acceptance."
+}

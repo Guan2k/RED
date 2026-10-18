@@ -1,0 +1,153 @@
+{
+  "passed": 3,
+  "failed": 0,
+  "measurements": [
+    {
+      "seed": 29301,
+      "result": "胜利",
+      "time": 102.46666666666214,
+      "firstCapture": 12.483333333333533,
+      "contestSeconds": 0,
+      "progress": [
+        90,
+        0
+      ],
+      "stats": {
+        "income": [
+          4380,
+          3060
+        ],
+        "spent": [
+          5906,
+          5120
+        ],
+        "kills": [
+          10,
+          12
+        ],
+        "losses": [
+          12,
+          10
+        ],
+        "produced": [
+          14,
+          14
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          4140,
+          3060
+        ]
+      },
+      "traceSnapshots": 22,
+      "actions": 23,
+      "events": 38
+    },
+    {
+      "seed": 29302,
+      "result": "胜利",
+      "time": 102.46666666666214,
+      "firstCapture": 12.483333333333533,
+      "contestSeconds": 0,
+      "progress": [
+        90,
+        0
+      ],
+      "stats": {
+        "income": [
+          4380,
+          3060
+        ],
+        "spent": [
+          5906,
+          5120
+        ],
+        "kills": [
+          10,
+          12
+        ],
+        "losses": [
+          12,
+          10
+        ],
+        "produced": [
+          14,
+          14
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          4140,
+          3060
+        ]
+      },
+      "traceSnapshots": 22,
+      "actions": 23,
+      "events": 38
+    },
+    {
+      "seed": 29303,
+      "result": "胜利",
+      "time": 102.46666666666214,
+      "firstCapture": 12.483333333333533,
+      "contestSeconds": 0,
+      "progress": [
+        90,
+        0
+      ],
+      "stats": {
+        "income": [
+          4380,
+          3060
+        ],
+        "spent": [
+          5906,
+          5120
+        ],
+        "kills": [
+          10,
+          12
+        ],
+        "losses": [
+          12,
+          10
+        ],
+        "produced": [
+          14,
+          14
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          4140,
+          3060
+        ]
+      },
+      "traceSnapshots": 22,
+      "actions": 23,
+      "events": 38
+    }
+  ],
+  "results": [
+    {
+      "name": "switchback natural route seed 29301: preset, manual, and retained v292 trace parity",
+      "passed": true
+    },
+    {
+      "name": "switchback natural route seed 29302: preset, manual, and retained v292 trace parity",
+      "passed": true
+    },
+    {
+      "name": "switchback natural route seed 29303: preset, manual, and retained v292 trace parity",
+      "passed": true
+    }
+  ],
+  "scope": "Whole-source natural UI route: actual preset button versus actual manual select changes and retained v292 action/event/world traces, for all three declared seeds. Normal queued RAF callbacks at fixed 1/60 timestamps; read-only state observations. No state/position/HP/resource/capture/timer injection, no command helper shortcuts, no save/load/import/export or explicit storage operations. Retained failures remain in switchback-route-v294; winning route is narrow, not a universal win-rate claim."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "developerGateExit": 0,
+  "builderTests": 44,
+  "inheritedBehaviorAndMarkup": 959,
+  "inheritedSourceChecks": 10,
+  "historicalIdentityRejections": 15,
+  "focusedEntries": 68,
+  "stableEntryCases": 167,
+  "healthPositiveCases": 2312,
+  "healthNamedNegativeControls": 10,
+  "independentIntegratedCases": 1145,
+  "originalInputFiles": 1344,
+  "originalInputsUnchanged": true,
+  "stderrBytes": 0,
+  "aggregateRuns": 1,
+  "naturalWitness": "Two initial selected tanks, actual pointer/contextmenu command handlers and real simulation-step helper: y24.8,r13,bar visible3.8 to4px. Full clipping cases are synthetic.",
+  "limitations": "VM/canvas command recording, not native raster/input/FPS; no real player storage lifecycle actions."
+}

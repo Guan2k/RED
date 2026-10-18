@@ -1,0 +1,79 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "results": [
+    {
+      "name": "duplicate full scan",
+      "passed": true,
+      "detectedBy": "one structures per current power simulation",
+      "category": "scan-count regression"
+    },
+    {
+      "name": "count incomplete structures",
+      "passed": true,
+      "detectedBy": "power world parity natural tick 0.09999999999999999",
+      "category": "semantic regression"
+    },
+    {
+      "name": "exclude damaged living",
+      "passed": true,
+      "detectedBy": "fixture parity mixed alive dead incomplete vehicles teams team 0",
+      "category": "semantic regression"
+    },
+    {
+      "name": "include dead structures",
+      "passed": true,
+      "detectedBy": "fixture parity mixed alive dead incomplete vehicles teams team 0",
+      "category": "semantic regression"
+    },
+    {
+      "name": "include other teams",
+      "passed": true,
+      "detectedBy": "two implementations power start",
+      "category": "semantic regression"
+    },
+    {
+      "name": "normalize null team",
+      "passed": true,
+      "detectedBy": "null uses exact team",
+      "category": "semantic regression"
+    },
+    {
+      "name": "change base supply",
+      "passed": true,
+      "detectedBy": "two implementations power start",
+      "category": "semantic regression"
+    },
+    {
+      "name": "omit factory demand",
+      "passed": true,
+      "detectedBy": "two implementations power start",
+      "category": "semantic regression"
+    },
+    {
+      "name": "cache across calls",
+      "passed": true,
+      "detectedBy": "power world parity natural tick 12.000000000000176",
+      "category": "semantic regression"
+    },
+    {
+      "name": "reuse return object",
+      "passed": true,
+      "detectedBy": "fresh return object",
+      "category": "semantic regression"
+    },
+    {
+      "name": "reverse demand reduction",
+      "passed": true,
+      "detectedBy": "demand original floating point accumulation",
+      "category": "semantic regression"
+    },
+    {
+      "name": "zero only completion",
+      "passed": true,
+      "detectedBy": "fixture parity mixed alive dead incomplete vehicles teams team 0",
+      "category": "semantic regression"
+    }
+  ],
+  "scope": "Actual temporary current product source mutations; unchanged candidate must pass first. Eleven exact semantic failures plus one explicit scan-count regression. No hash, syntax, timeout or generic assertion rejection counted as detection."
+}

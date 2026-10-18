@@ -1,0 +1,4363 @@
+{
+  "sha": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "passed": 1089,
+  "failed": 0,
+  "results": [
+    {
+      "name": "exact sole health placement delta",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-12,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-4,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,-0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 10,10,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-12,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-4,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,-0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 13,10,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-12,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-4,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,-0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 14,10,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-12,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-4,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,-0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 16,10,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-12,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-4,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,-0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 22,10,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-12,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-4,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,-0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 26,10,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-12,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-4,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,-0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 33,10,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-12,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-4,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,-0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 36,10,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-12,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-4,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,-0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,0.2,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,0,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,0,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,0,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,0,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,0,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,0,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,0,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,0,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,0,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,0,150,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,1,-1,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,1,-1,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,1,0,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,1,0,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,1,50,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,1,50,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,1,100,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,1,100,true",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,1,150,false",
+      "pass": true
+    },
+    {
+      "name": "health 40,10,1,150,true",
+      "pass": true
+    },
+    {
+      "name": "whole frames off",
+      "pass": true
+    },
+    {
+      "name": "whole frames direct",
+      "pass": true
+    },
+    {
+      "name": "whole frames cached",
+      "pass": true
+    },
+    {
+      "name": "negative old",
+      "pass": true
+    },
+    {
+      "name": "negative min",
+      "pass": true
+    },
+    {
+      "name": "negative one-rect",
+      "pass": true
+    },
+    {
+      "name": "negative changed-width",
+      "pass": true
+    },
+    {
+      "name": "negative predicate",
+      "pass": true
+    }
+  ]
+}

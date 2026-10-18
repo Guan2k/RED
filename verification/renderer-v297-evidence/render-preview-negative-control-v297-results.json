@@ -1,0 +1,300 @@
+{
+  "assertions": 239,
+  "passed": 27,
+  "failed": 0,
+  "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+  "results": [
+    {
+      "name": "building-drops-construction-progress",
+      "passed": true,
+      "prerequisite": "building-dynamics/power",
+      "rejectedBy": [
+        "building-dynamics/power"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "building dynamic tail equals original power"
+    },
+    {
+      "name": "building-drops-factory-progress",
+      "passed": true,
+      "prerequisite": "building-dynamics/factory",
+      "rejectedBy": [
+        "building-dynamics/factory"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "building dynamic tail equals original factory"
+    },
+    {
+      "name": "building-loses-turret-angle",
+      "passed": true,
+      "prerequisite": "building-dynamics/turret",
+      "rejectedBy": [
+        "building-dynamics/turret"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "building dynamic tail equals original turret"
+    },
+    {
+      "name": "building-restores-before-construction",
+      "passed": true,
+      "prerequisite": "building-dynamics/turret",
+      "rejectedBy": [
+        "building-dynamics/turret"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "building dynamic tail equals original turret"
+    },
+    {
+      "name": "building-failed-cache-retries",
+      "passed": true,
+      "prerequisite": "building-failure/cache-construction-latch",
+      "rejectedBy": [
+        "building-failure/cache-construction-latch"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "building failed cache never reconstructed"
+    },
+    {
+      "name": "building-initializer-removed",
+      "passed": true,
+      "prerequisite": "lifecycle/default-off-lazy-cache-real-change-handler",
+      "rejectedBy": [
+        "lifecycle/default-off-lazy-cache-real-change-handler"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "enabling preview initializes building cache"
+    },
+    {
+      "name": "building-mutates-world",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "all-units-hp-shots-effects does not alter world/input"
+    },
+    {
+      "name": "building-consumes-rng",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "Error",
+      "failureCode": null,
+      "firstReason": "Render or preview toggle consumed RNG"
+    },
+    {
+      "name": "building-branch-ignored",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "enabled preview renderer uses building bodies"
+    },
+    {
+      "name": "building-cached-fill-alpha",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "all-units-hp-shots-effects frame 0 paint order, geometry, styles and clip state"
+    },
+    {
+      "name": "default-on",
+      "passed": true,
+      "prerequisite": "lifecycle/default-off-lazy-cache-real-change-handler",
+      "rejectedBy": [
+        "lifecycle/default-off-lazy-cache-real-change-handler"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "fresh page has preview off and an uninitialized cache"
+    },
+    {
+      "name": "eager-path-allocation",
+      "passed": true,
+      "prerequisite": "lifecycle/default-off-lazy-cache-real-change-handler",
+      "rejectedBy": [
+        "lifecycle/default-off-lazy-cache-real-change-handler"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "fresh page has preview off and an uninitialized cache"
+    },
+    {
+      "name": "render-ignores-preview-checkbox",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "enabled preview renderer uses cached vehicle paths"
+    },
+    {
+      "name": "preview-mutates-world",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "all-units-hp-shots-effects does not alter world/input"
+    },
+    {
+      "name": "preview-consumes-rng",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "Error",
+      "failureCode": null,
+      "firstReason": "Render or preview toggle consumed RNG"
+    },
+    {
+      "name": "preview-skips-track-phase",
+      "passed": true,
+      "prerequisite": "track-phase/visible-unit-phase-and-one-call-per-frame-across-toggles",
+      "rejectedBy": [
+        "track-phase/visible-unit-phase-and-one-call-per-frame-across-toggles"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "exactly one track-phase update per visible vehicle"
+    },
+    {
+      "name": "preview-double-track-read",
+      "passed": true,
+      "prerequisite": "track-phase/visible-unit-phase-and-one-call-per-frame-across-toggles",
+      "rejectedBy": [
+        "track-phase/visible-unit-phase-and-one-call-per-frame-across-toggles"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "exactly one track-phase update per visible vehicle"
+    },
+    {
+      "name": "failed-cache-rebuilds",
+      "passed": true,
+      "prerequisite": "failure/cache-latches-constructor:5",
+      "rejectedBy": [
+        "failure/cache-latches-constructor:5"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "failed cache never reconstructed"
+    },
+    {
+      "name": "fill-failure-not-latched",
+      "passed": true,
+      "prerequisite": "failure/fill-path-latches-at-2",
+      "rejectedBy": [
+        "failure/fill-path-latches-at-2"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "failed path fill is never retried after its latch"
+    },
+    {
+      "name": "following-shot-consumes-stale-current-path",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "all-units-hp-shots-effects frame 0 paint order, geometry, styles and clip state"
+    },
+    {
+      "name": "following-unit-consumes-stale-current-path",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "all-units-hp-shots-effects frame 0 paint order, geometry, styles and clip state"
+    },
+    {
+      "name": "next-frame-terrain-consumes-stale-current-path",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-polygon-tail-no-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-polygon-tail-no-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "polygon-tail-no-effects frame 1 paint order, geometry, styles and clip state"
+    },
+    {
+      "name": "cached-fill-changes-alpha",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "all-units-hp-shots-effects frame 0 paint order, geometry, styles and clip state"
+    },
+    {
+      "name": "fallback-path-missing-begin",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "all-units-hp-shots-effects frame 0 paint order, geometry, styles and clip state"
+    },
+    {
+      "name": "new-round-resets-choice",
+      "passed": true,
+      "prerequisite": "lifecycle/new-round-retains-choice-fresh-page-starts-off",
+      "rejectedBy": [
+        "lifecycle/new-round-retains-choice-fresh-page-starts-off"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "new round preserves enabled preview choice"
+    },
+    {
+      "name": "cached-path-wrong-geometry",
+      "passed": true,
+      "prerequisite": "cached-render/full-frame-all-units-hp-shots-effects",
+      "rejectedBy": [
+        "cached-render/full-frame-all-units-hp-shots-effects"
+      ],
+      "failureClass": "AssertionError",
+      "failureCode": "ERR_ASSERTION",
+      "firstReason": "all-units-hp-shots-effects frame 0 paint order, geometry, styles and clip state"
+    },
+    {
+      "name": "diagnostic-gates-reject-unrelated-errors",
+      "passed": true,
+      "cases": 104
+    }
+  ],
+  "scope": "In-memory behavioral mutations tested by complete product render/lifecycle execution, with passing unmodified selected-case prerequisites and exact intended exception-class/semantic-diagnostic gates. No product file mutations, real browser, storage/save/load/import/export, pixel/FPS claim."
+}

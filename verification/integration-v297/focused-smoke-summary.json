@@ -1,0 +1,147 @@
+[
+  {
+    "script": "global-repeat-scope-v297.cjs",
+    "passed": 5,
+    "failed": 0
+  },
+  {
+    "script": "global-repeat-scope-negative-control-v297.cjs",
+    "passed": 9,
+    "failed": 0
+  },
+  {
+    "script": "command-allocation-feedback-negative-control-v297.cjs",
+    "passed": 8,
+    "failed": 0
+  },
+  {
+    "script": "opening-practice-negative-control-v297.cjs",
+    "passed": 16,
+    "failed": 0
+  },
+  {
+    "script": "control-group-repeat-v297.cjs",
+    "passed": 40,
+    "failed": 0
+  },
+  {
+    "script": "order-waiting-reuse-negative-control-v297.cjs",
+    "passed": 9,
+    "failed": 0
+  },
+  {
+    "script": "bounded-ui-writes-negative-control-v297.cjs",
+    "passed": 10,
+    "failed": 0
+  },
+  {
+    "script": "ore-layout-v297.cjs",
+    "passed": 5528,
+    "failed": 0
+  },
+  {
+    "script": "visual-preference-negative-control-v297.cjs",
+    "passed": 15,
+    "failed": 0
+  },
+  {
+    "script": "patrol-action-v297.cjs",
+    "passed": 35,
+    "failed": 0
+  },
+  {
+    "script": "progress-rails-v297.cjs",
+    "passed": 202,
+    "failed": 0
+  },
+  {
+    "script": "power-read-reuse-negative-control-v297.cjs",
+    "passed": 12,
+    "failed": 0
+  },
+  {
+    "script": "control-group-protection-negative-control-v297.cjs",
+    "passed": 11,
+    "failed": 0
+  },
+  {
+    "script": "visual-preference-v297.cjs",
+    "passed": 10,
+    "failed": 0
+  },
+  {
+    "script": "order-waiting-reuse-v297.cjs",
+    "passed": 8,
+    "failed": 0
+  },
+  {
+    "script": "command-allocation-feedback-v297.cjs",
+    "passed": 104,
+    "failed": 0
+  },
+  {
+    "script": "progress-rails-negative-control-v297.cjs",
+    "passed": 9,
+    "failed": 0
+  },
+  {
+    "script": "bounded-ui-writes-v297.cjs",
+    "passed": 7,
+    "failed": 0
+  },
+  {
+    "script": "coordinate-command-natural-v297.cjs",
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "quick-switchback-v297.cjs",
+    "passed": 19,
+    "failed": 0
+  },
+  {
+    "script": "patrol-action-negative-control-v297.cjs",
+    "passed": 9,
+    "failed": 0
+  },
+  {
+    "script": "power-read-reuse-v297.cjs",
+    "passed": 5,
+    "failed": 0
+  },
+  {
+    "script": "quick-switchback-negative-control-v297.cjs",
+    "passed": 25,
+    "failed": 0
+  },
+  {
+    "script": "ore-layout-negative-control-v297.cjs",
+    "passed": 19,
+    "failed": 0
+  },
+  {
+    "script": "control-group-protection-v297.cjs",
+    "passed": 94,
+    "failed": 0
+  },
+  {
+    "script": "control-group-repeat-negative-control-v297.cjs",
+    "passed": 12,
+    "failed": 0
+  },
+  {
+    "script": "opening-practice-v297.cjs",
+    "passed": 5,
+    "failed": 0
+  },
+  {
+    "script": "quick-switchback-route-v297.cjs",
+    "passed": 3,
+    "failed": 0
+  },
+  {
+    "script": "inherit-dom-v297-negative-control.cjs",
+    "passed": 109,
+    "failed": 0
+  }
+]

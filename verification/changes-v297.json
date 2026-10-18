@@ -1,0 +1,10 @@
+[
+  {
+    "before": "if(e.hp<e.max||selection.has(e.id)){rect(e.x-e.r,e.y-e.r-12,e.r*2,4,'#16231b');rect(e.x-e.r,e.y-e.r-12,e.r*2*Math.max(0,e.hp/e.max),4,e.team?'#e78f6a':'#a3db81')}",
+    "after": "if(e.hp<e.max||selection.has(e.id)){let healthY=Math.max(0,e.y-e.r-12);rect(e.x-e.r,healthY,e.r*2,4,'#16231b');rect(e.x-e.r,healthY,e.r*2*Math.max(0,e.hp/e.max),4,e.team?'#e78f6a':'#a3db81')}"
+  },
+  {
+    "before": "v0.296",
+    "after": "v0.297"
+  }
+]

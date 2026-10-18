@@ -1,0 +1,67 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "results": [
+    {
+      "name": "restore repeated activation",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input"
+    },
+    {
+      "name": "block initial key",
+      "passed": true,
+      "detectedBy": "initial save works"
+    },
+    {
+      "name": "repeat Ctrl still activates",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input"
+    },
+    {
+      "name": "repeat Meta still activates",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input"
+    },
+    {
+      "name": "repeat recall still activates",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input"
+    },
+    {
+      "name": "repeat paused still activates",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input"
+    },
+    {
+      "name": "repeat group three still activates",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input"
+    },
+    {
+      "name": "unconsumed repeated key",
+      "passed": true,
+      "detectedBy": "repeat key consumed"
+    },
+    {
+      "name": "missing repeat field blocked",
+      "passed": true,
+      "detectedBy": "undefined repeat means first event"
+    },
+    {
+      "name": "repeat clears pending command",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input"
+    },
+    {
+      "name": "repeat writes log feedback",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input"
+    },
+    {
+      "name": "exact v291 repeat behavior contrast",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input"
+    }
+  ],
+  "scope": "11 product-source mutations each fail a named behavior assertion after positive success, plus exact-v291 behavior contrast. No identity/syntax/timeout/generic exception detection credited."
+}

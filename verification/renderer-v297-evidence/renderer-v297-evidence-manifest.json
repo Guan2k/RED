@@ -1,0 +1,89 @@
+{
+  "task": "v297 rendering test adaptations only",
+  "files": [
+    {
+      "file": "verification/render-preview-v297.cjs",
+      "sha256": "ced17f9b6491093f901b008e1184095e2f2d09b0e2c1ab55c163fd42c28a1930"
+    },
+    {
+      "file": "verification/render-preview-negative-control-v297.cjs",
+      "sha256": "0b43f132a99f52a2c3162da3c755e64be17bbdf7db117cb39398188e8496e672"
+    },
+    {
+      "file": "verification/building-preview-v297.cjs",
+      "sha256": "00b1188a31e31e5e616057a771414a7589dffc9bdafa7f721e7d9e58921dcb6f"
+    }
+  ],
+  "reports": [
+    {
+      "file": "render-preview-v297-results.json",
+      "sha256": "1078b82ed694a9531451afd74df129ffde44f73d2d5671585291720fe1d191ad",
+      "passed": 78,
+      "failed": 0,
+      "reportedAssertions": 7281,
+      "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+      "baselineSha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca"
+    },
+    {
+      "file": "render-preview-negative-control-v297-results.json",
+      "sha256": "74ce781f7cd99b864fde638ef3101cdd43688914de7f50565322f5569a784f63",
+      "passed": 27,
+      "failed": 0,
+      "reportedAssertions": 239,
+      "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+      "baselineSha256": null
+    },
+    {
+      "file": "building-preview-v297-results.json",
+      "sha256": "e7cb02743a8cd4f4ea60202cd4e23d9f03f9043266a37717a8c5094a8803cd70",
+      "passed": 450,
+      "failed": 0,
+      "reportedAssertions": 5607,
+      "sourceSha256": "ad451d7dd2b7b29e7006e7a5a9747694fb09e49455b2a76054b7dc29b91a571d",
+      "baselineSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d"
+    }
+  ],
+  "restorations": [
+    {
+      "version": 296,
+      "sha256": "02c622cdfaf30fb5c9ea854c2c3b4208cc39f4057af4277e229cc009cbb0e2a1"
+    },
+    {
+      "version": 295,
+      "sha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa"
+    },
+    {
+      "version": 294,
+      "sha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d"
+    },
+    {
+      "version": 293,
+      "sha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca"
+    }
+  ],
+  "railHelperAdapterByteIdentical": true,
+  "railHelperAdapterSha256": "3ee3ce8e7a716416ae671dc0cdc8056516fd06f37671d244f54211c7d686e973",
+  "inheritedNegativeBodyByteIdentical": true,
+  "inheritedNegativeBodySha256": "6e192512207eddd6236b55c3723c52df4d871104f41e601557319c247fab2ea9",
+  "inheritedFiles": [
+    {
+      "file": "verification/render-preview-v296.cjs",
+      "sha256": "789d73187d1ec6c96e34b8e9a488f8283d87fb359c4281028ae028c8bb24f925"
+    },
+    {
+      "file": "verification/render-preview-negative-control-v296.cjs",
+      "sha256": "4ab36ed34fa40abb82fc2ae0243bdce6a0ec687e1bb0b16ecbda95e41ebef1b0"
+    },
+    {
+      "file": "verification/building-preview-v296.cjs",
+      "sha256": "0beab3dc00856b9b41159d41a8d928b4cb3f2a3b4832fea81d1901db54d4c712"
+    }
+  ],
+  "fixtureBounds": {
+    "richInitialMinimumHealthY": 222,
+    "richThreeFrameMinimumHealthY": 220.5,
+    "guards": "Both products before every legacyExpected frame; standalone rail fixture; building off-frame zero visible HP bars.",
+    "healthAdapterAdded": false
+  },
+  "limits": "Three focused VM suites only. No aggregate, browser, real storage, publication, or product edits."
+}

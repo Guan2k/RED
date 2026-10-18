@@ -1,0 +1,102 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "assertions": 235,
+  "measurements": [
+    {
+      "kind": "one-active-seven-waiting",
+      "old": {
+        "get": 110,
+        "withId": 19,
+        "structures": 7,
+        "common": 0
+      },
+      "current": {
+        "get": 62,
+        "withId": 13,
+        "structures": 1,
+        "common": 1
+      }
+    },
+    {
+      "kind": "two-active-one-waiting",
+      "old": {
+        "get": 21,
+        "withId": 14,
+        "structures": 1,
+        "common": 0
+      },
+      "current": {
+        "get": 21,
+        "withId": 14,
+        "structures": 1,
+        "common": 1
+      }
+    },
+    {
+      "kind": "no-factory",
+      "old": {
+        "get": 27,
+        "withId": 0,
+        "structures": 3,
+        "common": 0
+      },
+      "current": {
+        "get": 21,
+        "withId": 0,
+        "structures": 1,
+        "common": 1
+      }
+    },
+    {
+      "kind": "construction-only",
+      "old": {
+        "get": 27,
+        "withId": 0,
+        "structures": 3,
+        "common": 0
+      },
+      "current": {
+        "get": 21,
+        "withId": 0,
+        "structures": 1,
+        "common": 1
+      }
+    }
+  ],
+  "results": [
+    {
+      "name": "legal reason changes across salvage build completion cancellation and power",
+      "passed": true
+    },
+    {
+      "name": "legal measured one-active-seven-waiting",
+      "passed": true
+    },
+    {
+      "name": "legal measured two-active-one-waiting",
+      "passed": true
+    },
+    {
+      "name": "legal measured no-factory",
+      "passed": true
+    },
+    {
+      "name": "legal measured construction-only",
+      "passed": true
+    },
+    {
+      "name": "lazy zero common reason empty and all assigned legal",
+      "passed": true
+    },
+    {
+      "name": "synthetic terminal no common computation",
+      "passed": true
+    },
+    {
+      "name": "synthetic per-order guards and default supplier stay live",
+      "passed": true
+    }
+  ],
+  "scope": "Per synchronous refresh helper invocation counts, not entity predicate visits or timings. Legal four factory scenarios and lifecycle changes; explicit synthetic eligibility/terminal fixtures. Exact v284 display/world pairing, no native browser or FPS claim."
+}

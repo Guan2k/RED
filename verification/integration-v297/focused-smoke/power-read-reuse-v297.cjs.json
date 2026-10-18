@@ -1,0 +1,110 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "assertions": 803,
+  "measurements": [
+    {
+      "trace": [
+        {
+          "label": "start",
+          "t": 0,
+          "power": {
+            "supply": 120,
+            "demand": 80
+          },
+          "produced": 0,
+          "queue": []
+        },
+        {
+          "label": "shortage",
+          "t": 12.10000000000018,
+          "power": {
+            "supply": 120,
+            "demand": 130
+          },
+          "produced": 2,
+          "queue": [
+            {
+              "type": "scout",
+              "left": 0.050000000000009204,
+              "total": 4,
+              "factoryId": 4
+            }
+          ]
+        },
+        {
+          "label": "recovery",
+          "t": 17.200000000000305,
+          "power": {
+            "supply": 220,
+            "demand": 130
+          },
+          "produced": 3,
+          "queue": []
+        }
+      ],
+      "current": {
+        "simulation": {
+          "calls": 4261,
+          "structures": 4261,
+          "entityFilterVisits": 92492
+        },
+        "ui": {
+          "calls": 52,
+          "structures": 52,
+          "entityFilterVisits": 1054
+        },
+        "other": {
+          "calls": 3,
+          "structures": 3,
+          "entityFilterVisits": 66
+        }
+      },
+      "baseline": {
+        "simulation": {
+          "calls": 4261,
+          "structures": 8522,
+          "entityFilterVisits": 184984
+        },
+        "ui": {
+          "calls": 52,
+          "structures": 104,
+          "entityFilterVisits": 2108
+        },
+        "other": {
+          "calls": 3,
+          "structures": 6,
+          "entityFilterVisits": 132
+        }
+      },
+      "simulationSeconds": 18.2
+    },
+    {
+      "naturalRefineryDestroyedAt": 121.99999999999436,
+      "observationStep": 0.25
+    }
+  ],
+  "results": [
+    {
+      "name": "legal second factory shortage paid power recovery and exact per-step parity",
+      "passed": true
+    },
+    {
+      "name": "legal immediate read after building salvage and fresh two-team values",
+      "passed": true
+    },
+    {
+      "name": "legal natural refinery destruction refreshes immediate demand",
+      "passed": true
+    },
+    {
+      "name": "synthetic explicit inclusion and team boundary fixtures",
+      "passed": true
+    },
+    {
+      "name": "synthetic reduction order and exact completion truthiness",
+      "passed": true
+    }
+  ],
+  "scope": "Normal UI paid construction/production and per-0.1-second old/new full world pairing; synthetic inclusion/order/truthiness fixtures explicitly separate. Counts are JS structures full-array filters, not timing or FPS."
+}
