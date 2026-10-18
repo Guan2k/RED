@@ -1,0 +1,10 @@
+[
+  {
+    "before": "v0.290",
+    "after": "v0.291"
+  },
+  {
+    "before": "if(!enemy&&used.length+followed+guarded+assigned<troops.length)tell('部分单位未找到安全落点，保留原命令');",
+    "after": "if(!enemy&&used.length+followed+guarded+assigned<troops.length)tell('部分单位未找到安全落点，保留原命令');if(!enemy){let failedTroops=troops.length-used.length-followed-guarded-assigned,failedFactories=factories.length-rallied,reasons=[];if(failedTroops)reasons.push(failedTroops+'辆车未找到安全落点');if(failedFactories)reasons.push(failedFactories+'座工厂未找到安全集结点');if(reasons.length)mapCommandReason(reasons.join('；'))}"
+  }
+]

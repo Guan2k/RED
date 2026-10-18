@@ -1,0 +1,15 @@
+{
+  "command": "node verify-current.cjs",
+  "startedAt": "2026-10-18T03:44:21.355219+00:00",
+  "finishedAt": "2026-10-18T03:48:25.719230+00:00",
+  "exitCode": 0,
+  "stderr": "",
+  "sourceSha256": "51a272add64ee38d73b8b545e0208892e1b9188ff11102b31fa9d4fb030db045",
+  "packageFilesChecked": 625,
+  "packageHashesUnchanged": true,
+  "postRunCheckOnly": {
+    "exitCode": 0,
+    "stdout": "Package declares v0.291; source SHA-256 51a272add64ee38d73b8b545e0208892e1b9188ff11102b31fa9d4fb030db045; runner verification/run-tests-v291.cjs; 624 listed files verified.\nPackage integrity passed; game verification was not executed. Offline consistency does not establish authenticity or remote latest version.\n",
+    "stderr": ""
+  }
+}

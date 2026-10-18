@@ -1,0 +1,512 @@
+{
+  "source": "red-development/v290-group-protection/RED/index.html",
+  "sha256": "85c7c33f0ae8022294c6392df37b52525cd97367dd9aaad82475c4825a3ac8e3",
+  "passed": 42,
+  "failed": 67,
+  "scope": "Independent differential whole-source synthetic VM fixtures; scripted allocator-null cases and explicit lifecycle fixtures, not natural obstacle or browser reproduction. Actual allocator retained for nonfailed calls. Persistence UI refresh suppressed before bootstrap; no persistence operation executed.",
+  "results": [
+    {
+      "name": "all vehicles fail direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all vehicles fail direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all vehicles fail coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all vehicles fail coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all vehicles fail ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all vehicles fail ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial vehicles fail direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial vehicles fail direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial vehicles fail coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial vehicles fail coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial vehicles fail ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial vehicles fail ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all factories fail direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all factories fail direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all factories fail coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all factories fail coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all factories fail ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all factories fail ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial factories fail direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial factories fail direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial factories fail coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial factories fail coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial factories fail ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "partial factories fail ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed both fail direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed both fail direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed both fail coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed both fail coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed both fail ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed both fail ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed partial vehicle failure direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed partial vehicle failure direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed partial vehicle failure coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed partial vehicle failure coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed partial vehicle failure ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed partial vehicle failure ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed factory failure vehicles accepted direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed factory failure vehicles accepted direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed factory failure vehicles accepted coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed factory failure vehicles accepted coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed factory failure vehicles accepted ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "mixed factory failure vehicles accepted ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "unrelated buildings not failures direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "unrelated buildings not failures direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "unrelated buildings not failures coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "unrelated buildings not failures coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "unrelated buildings not failures ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "unrelated buildings not failures ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "ore accepted remaining vehicle fails direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "ore accepted remaining vehicle fails direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "ore accepted remaining vehicle fails coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "ore accepted remaining vehicle fails coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "ore accepted remaining vehicle fails ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "ore accepted remaining vehicle fails ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "escort accepted factory fails direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "escort accepted factory fails direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "escort accepted factory fails coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "escort accepted factory fails coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "escort accepted factory fails ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "escort accepted factory fails ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "repair follow accepted factory fails direct paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "repair follow accepted factory fails direct paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "repair follow accepted factory fails coordinate paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "repair follow accepted factory fails coordinate paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "repair follow accepted factory fails ordinary paused=false",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "repair follow accepted factory fails ordinary paused=true",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: persistent receipt must gain explanation\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:34:40\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:30:112)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "all success direct paused=false",
+      "pass": true
+    },
+    {
+      "name": "all success direct paused=true",
+      "pass": true
+    },
+    {
+      "name": "all success coordinate paused=false",
+      "pass": true
+    },
+    {
+      "name": "all success coordinate paused=true",
+      "pass": true
+    },
+    {
+      "name": "all success ordinary paused=false",
+      "pass": true
+    },
+    {
+      "name": "all success ordinary paused=true",
+      "pass": true
+    },
+    {
+      "name": "enemy target direct paused=false",
+      "pass": true
+    },
+    {
+      "name": "enemy target direct paused=true",
+      "pass": true
+    },
+    {
+      "name": "enemy target coordinate paused=false",
+      "pass": true
+    },
+    {
+      "name": "enemy target coordinate paused=true",
+      "pass": true
+    },
+    {
+      "name": "enemy target ordinary paused=false",
+      "pass": true
+    },
+    {
+      "name": "enemy target ordinary paused=true",
+      "pass": true
+    },
+    {
+      "name": "ore only accepted direct paused=false",
+      "pass": true
+    },
+    {
+      "name": "ore only accepted direct paused=true",
+      "pass": true
+    },
+    {
+      "name": "ore only accepted coordinate paused=false",
+      "pass": true
+    },
+    {
+      "name": "ore only accepted coordinate paused=true",
+      "pass": true
+    },
+    {
+      "name": "ore only accepted ordinary paused=false",
+      "pass": true
+    },
+    {
+      "name": "ore only accepted ordinary paused=true",
+      "pass": true
+    },
+    {
+      "name": "escort only accepted direct paused=false",
+      "pass": true
+    },
+    {
+      "name": "escort only accepted direct paused=true",
+      "pass": true
+    },
+    {
+      "name": "escort only accepted coordinate paused=false",
+      "pass": true
+    },
+    {
+      "name": "escort only accepted coordinate paused=true",
+      "pass": true
+    },
+    {
+      "name": "escort only accepted ordinary paused=false",
+      "pass": true
+    },
+    {
+      "name": "escort only accepted ordinary paused=true",
+      "pass": true
+    },
+    {
+      "name": "empty selection direct paused=false",
+      "pass": true
+    },
+    {
+      "name": "empty selection direct paused=true",
+      "pass": true
+    },
+    {
+      "name": "empty selection coordinate paused=false",
+      "pass": true
+    },
+    {
+      "name": "empty selection coordinate paused=true",
+      "pass": true
+    },
+    {
+      "name": "empty selection ordinary paused=false",
+      "pass": true
+    },
+    {
+      "name": "empty selection ordinary paused=true",
+      "pass": true
+    },
+    {
+      "name": "building only direct paused=false",
+      "pass": true
+    },
+    {
+      "name": "building only direct paused=true",
+      "pass": true
+    },
+    {
+      "name": "building only coordinate paused=false",
+      "pass": true
+    },
+    {
+      "name": "building only coordinate paused=true",
+      "pass": true
+    },
+    {
+      "name": "building only ordinary paused=false",
+      "pass": true
+    },
+    {
+      "name": "building only ordinary paused=true",
+      "pass": true
+    },
+    {
+      "name": "attack all vehicles fail",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: The input did not match the regular expression /2.*安全落点|安全落点.*2/. Input:\n\n''\n\n    at /workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:47:244\n    at test (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:6:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v291-command-independent-review/acceptance.cjs:47:3)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "rock rejection",
+      "pass": true
+    },
+    {
+      "name": "append",
+      "pass": true
+    },
+    {
+      "name": "placement cancel",
+      "pass": true
+    },
+    {
+      "name": "blocked restart",
+      "pass": true
+    },
+    {
+      "name": "blocked unstarted",
+      "pass": true
+    },
+    {
+      "name": "blocked terminal",
+      "pass": true
+    }
+  ]
+}

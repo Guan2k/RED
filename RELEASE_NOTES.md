@@ -770,3 +770,8 @@ node verification/run-tests.cjs
 
 `SHA256SUMS.txt` 记录本次上传文件的 SHA-256，可用 `sha256sum -c SHA256SUMS.txt` 核对。
 
+
+
+## v0.291 持续命令回执
+
+增加本次安全落点／集结点分配失败的精确数量；无额外搜索或命令规则变化。专项证据见verification/COMMAND_FEEDBACK_V291.md。原生浏览器验收仍单列待办。

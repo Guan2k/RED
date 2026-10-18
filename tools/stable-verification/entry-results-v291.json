@@ -1,0 +1,2028 @@
+{
+  "schemaVersion": 1,
+  "description": "Independent stable entry acceptance. Synthetic fixtures exercise wrapper boundaries and do not constitute RED game coverage.",
+  "mode": "genuine check-only plus synthetic boundary tests",
+  "generatedAt": "2026-10-18T03:40:48.533Z",
+  "nodeVersion": "v24.19.0",
+  "platform": "linux",
+  "testedIdentity": {
+    "entrySha256": "8639b1acc83198b9021347cf22a2da4f621c58aa87e22d686a2dc7cdd6d9166b",
+    "sourceSha256": "51a272add64ee38d73b8b545e0208892e1b9188ff11102b31fa9d4fb030db045",
+    "runnerSha256": "8d3c7b5cbdd89e03abdf75907ed2fc1fd389d6566f0c48bf368efd4a604593d1"
+  },
+  "testScriptSha256": "58bad62e253d5d723588d293cd9417de6bf535a4ac5a4a1acdcf26c74d5808a4",
+  "safety": {
+    "genuineDefaultRunnerExecuted": false,
+    "syntheticFixtureDirectoriesRemoved": true,
+    "reportOutsidePackage": true
+  },
+  "total": 167,
+  "passed": 167,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "genuine package: check-only in VM with fs/path/crypto-only require",
+      "provenance": "genuine package; game execution prohibited",
+      "expected": "exit 0; exact identity and integrity messages; no child_process/game imports or spawn",
+      "status": "passed",
+      "durationMs": 185,
+      "evidence": {
+        "exitStatus": 0,
+        "requiredModules": [
+          "node:fs",
+          "node:path",
+          "node:crypto"
+        ],
+        "spawnCalls": 0,
+        "messages": [
+          "Package declares v0.291; source SHA-256 51a272add64ee38d73b8b545e0208892e1b9188ff11102b31fa9d4fb030db045; runner verification/run-tests-v291.cjs; 620 listed files verified.",
+          "Package integrity passed; game verification was not executed. Offline consistency does not establish authenticity or remote latest version."
+        ]
+      }
+    },
+    {
+      "name": "genuine package: external cwd check-only subprocess",
+      "provenance": "genuine package; only --check-only executed",
+      "expected": "exit 0 from unrelated cwd; exact identity and integrity messages",
+      "status": "passed",
+      "durationMs": 248,
+      "evidence": {
+        "exitStatus": 0,
+        "requestedArguments": [
+          "--check-only"
+        ],
+        "cwd": "unrelated temporary directory",
+        "messages": [
+          "Package declares v0.291; source SHA-256 51a272add64ee38d73b8b545e0208892e1b9188ff11102b31fa9d4fb030db045; runner verification/run-tests-v291.cjs; 620 listed files verified.",
+          "Package integrity passed; game verification was not executed. Offline consistency does not establish authenticity or remote latest version."
+        ]
+      }
+    },
+    {
+      "name": "synthetic baseline: check-only forbids child_process and game require",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 0; exact success output; only fs/path/crypto imports",
+      "status": "passed",
+      "durationMs": 3,
+      "evidence": {
+        "exitStatus": 0,
+        "requiredModules": [
+          "node:fs",
+          "node:path",
+          "node:crypto"
+        ],
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest missing field: schemaVersion",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest missing/unknown fields; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest missing/unknown fields",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest missing field: version",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest missing/unknown fields; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest missing/unknown fields",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest missing field: source",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest missing/unknown fields; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest missing/unknown fields",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest missing field: sourceSha256",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest missing/unknown fields; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest missing/unknown fields",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest missing field: runner",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest missing/unknown fields; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest missing/unknown fields",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest missing field: runnerSha256",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest missing/unknown fields; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest missing/unknown fields",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest unknown field",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest missing/unknown fields; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest missing/unknown fields",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonobject: null",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest must be an object; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest must be an object",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonobject: []",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest must be an object; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest must be an object",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonobject: \"string\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest must be an object; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest must be an object",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonobject: 42",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest must be an object; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest must be an object",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonobject: false",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest must be an object; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest must be an object",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid schema string",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid schema zero",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid schema boolean",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid schema null",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid version numeric",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid version null",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid version zero",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid version leading zero",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid version negative",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid version decimal",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid version prefixed",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid version whitespace",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid version path",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid version newline",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid declared version/schema; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid declared version/schema",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest duplicate JSON key",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest duplicate or nested keys; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest duplicate or nested keys",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest duplicate escaped JSON key",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest duplicate or nested keys; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest duplicate or nested keys",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nested JSON key",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest duplicate or nested keys; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest duplicate or nested keys",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonfixed source: \"game.html\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: source must be index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: source must be index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonfixed source: \"../index.html\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: source must be index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: source must be index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonfixed source: \"/index.html\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: source must be index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: source must be index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonfixed source: \"INDEX.HTML\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: source must be index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: source must be index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonfixed source: null",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: source must be index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: source must be index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonfixed source: 12",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: source must be index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: source must be index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonexact runner: \"verification/run-tests-v288.cjs\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: runner does not match declared version; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 3,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: runner does not match declared version",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonexact runner: \"../run-tests-v291.cjs\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: runner does not match declared version; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: runner does not match declared version",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonexact runner: \"/run-tests-v291.cjs\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: runner does not match declared version; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: runner does not match declared version",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonexact runner: \"verification\\\\run-tests-v291.cjs\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: runner does not match declared version; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: runner does not match declared version",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonexact runner: \"verification/run-tests-v291.cjs --long\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: runner does not match declared version; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: runner does not match declared version",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest nonexact runner: null",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: runner does not match declared version; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: runner does not match declared version",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid sourceSha256: uppercase",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid sourceSha256: short",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid sourceSha256: long",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid sourceSha256: nonhex",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid sourceSha256: number",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid sourceSha256: null",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest ledger disagreement: sourceSha256",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest/source/runner checksum disagreement; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest/source/runner checksum disagreement",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid runnerSha256: uppercase",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid runnerSha256: short",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid runnerSha256: long",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid runnerSha256: nonhex",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid runnerSha256: number",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest invalid runnerSha256: null",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid source/runner SHA; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid source/runner SHA",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest ledger disagreement: runnerSha256",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: manifest/source/runner checksum disagreement; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: manifest/source/runner checksum disagreement",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "required ledger entry missing: index.html",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: required checksum entry missing: index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: required checksum entry missing: index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "required ledger entry missing: verification/run-tests-v291.cjs",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: required checksum entry missing: verification/run-tests-v291.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: required checksum entry missing: verification/run-tests-v291.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "required ledger entry missing: verify-current.cjs",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: required checksum entry missing: verify-current.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: required checksum entry missing: verify-current.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "required ledger entry missing: current-verification.json",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: required checksum entry missing: current-verification.json; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: required checksum entry missing: current-verification.json",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "required ledger entry missing: README.md",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: required checksum entry missing: README.md; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: required checksum entry missing: README.md",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "package file missing: SHA256SUMS.txt",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: missing or differently cased file: SHA256SUMS.txt; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: missing or differently cased file: SHA256SUMS.txt",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "package file missing: current-verification.json",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: missing or differently cased file: current-verification.json; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: missing or differently cased file: current-verification.json",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "package file missing: index.html",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: missing or differently cased file: index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: missing or differently cased file: index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "package file missing: verification/run-tests-v291.cjs",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: missing or differently cased file: verification/run-tests-v291.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: missing or differently cased file: verification/run-tests-v291.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "package file missing: README.md",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: missing or differently cased file: README.md; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: missing or differently cased file: README.md",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "listed bytes tampered: index.html",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum mismatch: index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum mismatch: index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "listed bytes tampered: verification/run-tests-v291.cjs",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum mismatch: verification/run-tests-v291.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum mismatch: verification/run-tests-v291.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "listed bytes tampered: verify-current.cjs",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum mismatch: verify-current.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum mismatch: verify-current.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "listed bytes tampered: README.md",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum mismatch: README.md; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 3,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum mismatch: README.md",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "manifest bytes tampered but still valid JSON",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum mismatch: current-verification.json; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum mismatch: current-verification.json",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "source wrong version with internally matching SHA",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: source display version disagrees with manifest; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: source display version disagrees with manifest",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "source missing display version with matching SHA",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: source display version disagrees with manifest; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: source display version disagrees with manifest",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "source duplicate display version with matching SHA",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: source display version disagrees with manifest; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: source display version disagrees with manifest",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "mixed old declared runner and new displayed source with matching SHA",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: source display version disagrees with manifest; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: source display version disagrees with manifest",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest no final newline",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum manifest must use LF and final newline; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum manifest must use LF and final newline",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest CRLF",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum manifest must use LF and final newline; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum manifest must use LF and final newline",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest empty",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum manifest must use LF and final newline; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum manifest must use LF and final newline",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest blank line",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid checksum line; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid checksum line",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest uppercase SHA",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid checksum line; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid checksum line",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest nonhex SHA",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid checksum line; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid checksum line",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest short SHA",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid checksum line; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid checksum line",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest long SHA",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid checksum line; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid checksum line",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest single separator space",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid checksum line; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid checksum line",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest tab separator",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid checksum line; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid checksum line",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest self entry",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum manifest must exclude itself; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum manifest must exclude itself",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest lowercase self entry",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum manifest must exclude itself; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum manifest must exclude itself",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest exact duplicate",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: duplicate or case-colliding checksum path: index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: duplicate or case-colliding checksum path: index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest case collision",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: case-colliding path component: INDEX.HTML; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: case-colliding path component: INDEX.HTML",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest directory component case collision",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: case-colliding path component: foo/b.txt; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: case-colliding path component: foo/b.txt",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest nested directory component case collision",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: case-colliding path component: extras/foo/b.txt; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: case-colliding path component: extras/foo/b.txt",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum manifest existing runner directory component case collision",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: case-colliding path component: Verification/other.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: case-colliding path component: Verification/other.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"../escape.txt\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: ../escape.txt; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: ../escape.txt",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"./index.html\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: ./index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: ./index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"/absolute.txt\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid package path: /absolute.txt; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid package path: /absolute.txt",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"C:/absolute.txt\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: C:/absolute.txt; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: C:/absolute.txt",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"verification\\\\runner.cjs\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: invalid package path: verification\\runner.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: invalid package path: verification\\runner.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"verification//runner.cjs\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: verification//runner.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: verification//runner.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"verification/../runner.cjs\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: verification/../runner.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: verification/../runner.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"verification/./runner.cjs\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: verification/./runner.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: verification/./runner.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"trailing/\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: trailing/; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: trailing/",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"name with spaces\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: name with spaces; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: name with spaces",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"trailing.\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: trailing.; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: trailing.",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"tab\\tname\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: tab\tname; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: tab\tname",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"control\\u0001name\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: control\u0001name; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: control\u0001name",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"nul.txt\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: nul.txt; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: nul.txt",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \"COM1\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: noncanonical package path: COM1; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: noncanonical package path: COM1",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \".git/config\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: workspace metadata is not a package file: .git/config; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: workspace metadata is not a package file: .git/config",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \".HG/config\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: workspace metadata is not a package file: .HG/config; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: workspace metadata is not a package file: .HG/config",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "unsafe checksum path: \".svn/entries\"",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: workspace metadata is not a package file: .svn/entries; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: workspace metadata is not a package file: .svn/entries",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum listed extra file missing",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: missing or differently cased file: missing.txt; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: missing or differently cased file: missing.txt",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "checksum listed extra file tampered",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: checksum mismatch: extra.txt; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: checksum mismatch: extra.txt",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "differently cased source filename",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: missing or differently cased file: index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: missing or differently cased file: index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "differently cased runner directory",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: missing or differently cased file: verification/run-tests-v291.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: missing or differently cased file: verification/run-tests-v291.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "directory substituted for regular source file",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: not a regular package file: index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: not a regular package file: index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "ordinary file substituted for runner directory",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: not a regular package file: verification/run-tests-v291.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: not a regular package file: verification/run-tests-v291.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "outside-package file symlink: index.html",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: symlink refused: index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: symlink refused: index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "outside-package file symlink: verification/run-tests-v291.cjs",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: symlink refused: verification/run-tests-v291.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: symlink refused: verification/run-tests-v291.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "outside-package file symlink: current-verification.json",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: symlink refused: current-verification.json; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: symlink refused: current-verification.json",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "outside-package file symlink: SHA256SUMS.txt",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: symlink refused: SHA256SUMS.txt; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: symlink refused: SHA256SUMS.txt",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "outside-package directory symlink",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: symlink refused: verification/run-tests-v291.cjs; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: symlink refused: verification/run-tests-v291.cjs",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "inside-package source symlink also refused",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: symlink refused: index.html; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: symlink refused: index.html",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "README missing block",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: README stable default block mismatch; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: README stable default block mismatch",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "README versioned default command",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: README stable default block mismatch; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: README stable default block mismatch",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "README duplicate block",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: README stable default block mismatch; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: README stable default block mismatch",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "README duplicate opening marker",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: README stable default block mismatch; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: README stable default block mismatch",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "README duplicate closing marker",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact error: README stable default block mismatch; no spawn/import of runner",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 1,
+        "error": "Current verification refused: README stable default block mismatch",
+        "spawnCalls": 0
+      }
+    },
+    {
+      "name": "historical runner text outside README default block remains allowed",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 0; historical text does not change default selection",
+      "status": "passed",
+      "durationMs": 1
+    },
+    {
+      "name": "argument rejection: [\"--unknown\"]",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact supported-arguments error; before reading package or spawning",
+      "status": "passed",
+      "durationMs": 0
+    },
+    {
+      "name": "argument rejection: [\"--legacy\"]",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact supported-arguments error; before reading package or spawning",
+      "status": "passed",
+      "durationMs": 1
+    },
+    {
+      "name": "argument rejection: [\"--long\"]",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact supported-arguments error; before reading package or spawning",
+      "status": "passed",
+      "durationMs": 0
+    },
+    {
+      "name": "argument rejection: [\"--check-only\",\"--check-only\"]",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact supported-arguments error; before reading package or spawning",
+      "status": "passed",
+      "durationMs": 1
+    },
+    {
+      "name": "argument rejection: [\"--check-only\",\"--long\"]",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact supported-arguments error; before reading package or spawning",
+      "status": "passed",
+      "durationMs": 1
+    },
+    {
+      "name": "argument rejection: [\"--\"]",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact supported-arguments error; before reading package or spawning",
+      "status": "passed",
+      "durationMs": 0
+    },
+    {
+      "name": "argument rejection: [\"--check-only=true\"]",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact supported-arguments error; before reading package or spawning",
+      "status": "passed",
+      "durationMs": 1
+    },
+    {
+      "name": "argument rejection: [\"verification/run-tests-v288.cjs\"]",
+      "provenance": "synthetic package; no game execution",
+      "expected": "exit 1; exact supported-arguments error; before reading package or spawning",
+      "status": "passed",
+      "durationMs": 1
+    },
+    {
+      "name": "synthetic spawn contract: success zero",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 0; no error",
+      "status": "passed",
+      "durationMs": 3,
+      "evidence": {
+        "exitStatus": 0,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": []
+      }
+    },
+    {
+      "name": "synthetic spawn contract: exit seven",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 7; no error",
+      "status": "passed",
+      "durationMs": 1,
+      "evidence": {
+        "exitStatus": 7,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": []
+      }
+    },
+    {
+      "name": "synthetic spawn contract: SIGTERM",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 1; exact error: Runner terminated by signal: SIGTERM",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": [
+          "Runner terminated by signal: SIGTERM"
+        ]
+      }
+    },
+    {
+      "name": "synthetic spawn contract: signal beats numeric zero",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 1; exact error: Runner terminated by signal: SIGTERM",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": [
+          "Runner terminated by signal: SIGTERM"
+        ]
+      }
+    },
+    {
+      "name": "synthetic spawn contract: spawn error",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 1; exact error: Runner spawn failed: SYNTHETIC spawn failure ENOENT",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": [
+          "Runner spawn failed: SYNTHETIC spawn failure ENOENT"
+        ]
+      }
+    },
+    {
+      "name": "synthetic spawn contract: spawn error beats numeric zero",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 1; exact error: Runner spawn failed: SYNTHETIC spawn failure EACCES",
+      "status": "passed",
+      "durationMs": 4,
+      "evidence": {
+        "exitStatus": 1,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": [
+          "Runner spawn failed: SYNTHETIC spawn failure EACCES"
+        ]
+      }
+    },
+    {
+      "name": "synthetic spawn contract: null status",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 1; exact error: Current verification refused: runner returned no exit status",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": [
+          "Current verification refused: runner returned no exit status"
+        ]
+      }
+    },
+    {
+      "name": "synthetic spawn contract: missing status",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 1; exact error: Current verification refused: runner returned no exit status",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": [
+          "Current verification refused: runner returned no exit status"
+        ]
+      }
+    },
+    {
+      "name": "synthetic spawn contract: negative status",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 1; exact error: Current verification refused: runner returned no exit status",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": [
+          "Current verification refused: runner returned no exit status"
+        ]
+      }
+    },
+    {
+      "name": "synthetic spawn contract: string status",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 1; exact error: Current verification refused: runner returned no exit status",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": [
+          "Current verification refused: runner returned no exit status"
+        ]
+      }
+    },
+    {
+      "name": "synthetic spawn contract: fractional status",
+      "provenance": "synthetic package; mocked spawnSync, no runner execution",
+      "expected": "one exact Node/staged-absolute-runner/staged-cwd/shell:false/stdio:inherit call; identical independent file copies; staging removed; exit 1; exact error: Current verification refused: runner returned no exit status",
+      "status": "passed",
+      "durationMs": 2,
+      "evidence": {
+        "exitStatus": 1,
+        "spawnCalls": 1,
+        "runnerArguments": [
+          "absolute path to staged verification/run-tests-v291.cjs"
+        ],
+        "shell": false,
+        "stdio": "inherit",
+        "temporaryRemoved": true,
+        "stderr": [
+          "Current verification refused: runner returned no exit status"
+        ]
+      }
+    },
+    {
+      "name": "prelaunch re-read catches changed staged index.html",
+      "provenance": "synthetic package; mocked temporary-file read mutation, no runner execution",
+      "expected": "exit 1; exact source/runner changed-before-launch error; zero spawn; staging removed",
+      "status": "passed",
+      "durationMs": 2
+    },
+    {
+      "name": "prelaunch re-read catches changed staged verification/run-tests-v291.cjs",
+      "provenance": "synthetic package; mocked temporary-file read mutation, no runner execution",
+      "expected": "exit 1; exact source/runner changed-before-launch error; zero spawn; staging removed",
+      "status": "passed",
+      "durationMs": 2
+    },
+    {
+      "name": "actual external SYNTHETIC child exits seven",
+      "provenance": "synthetic package; real child process, not game verification",
+      "expected": "entry exits exactly 7; runner output inherited; no false integrity/game success line",
+      "status": "passed",
+      "durationMs": 132,
+      "evidence": {
+        "exitStatus": 7,
+        "realSyntheticChild": true
+      }
+    },
+    {
+      "name": "actual external SYNTHETIC child receives SIGTERM",
+      "provenance": "synthetic package; real child process, not game verification",
+      "expected": "entry exits exactly 1; exact SIGTERM error; no false success line",
+      "status": "passed",
+      "durationMs": 119,
+      "evidence": {
+        "exitStatus": 1,
+        "realSyntheticChild": true,
+        "childSignal": "SIGTERM"
+      }
+    },
+    {
+      "name": "staging whitelist excludes unlisted files, directories and symlinks",
+      "provenance": "synthetic package; mocked spawn, no runner execution",
+      "expected": "exact listed bytes copied independently; no unlisted content copied; original unchanged; staging removed",
+      "status": "passed",
+      "durationMs": 3,
+      "evidence": {
+        "copiedFiles": [
+          "README.md",
+          "SHA256SUMS.txt",
+          "current-verification.json",
+          "index.html",
+          "verification/run-tests-v291.cjs",
+          "verify-current.cjs"
+        ],
+        "unlistedEntriesCopied": 0,
+        "hardLinks": 0,
+        "temporaryRemoved": true
+      }
+    },
+    {
+      "name": "temporary-directory allocation failure is exact and nonzero",
+      "provenance": "synthetic package; injected filesystem failure",
+      "expected": "exit 1; exact allocation error; zero created directories and spawn; original unchanged",
+      "status": "passed",
+      "durationMs": 1
+    },
+    {
+      "name": "copy failure cleans staging: index.html",
+      "provenance": "synthetic package; injected copy-write failure",
+      "expected": "exit 1; exact copy error; zero spawn; staging removed; original unchanged",
+      "status": "passed",
+      "durationMs": 2
+    },
+    {
+      "name": "copy failure cleans staging: verification/run-tests-v291.cjs",
+      "provenance": "synthetic package; injected copy-write failure",
+      "expected": "exit 1; exact copy error; zero spawn; staging removed; original unchanged",
+      "status": "passed",
+      "durationMs": 2
+    },
+    {
+      "name": "copy failure cleans staging: SHA256SUMS.txt",
+      "provenance": "synthetic package; injected copy-write failure",
+      "expected": "exit 1; exact copy error; zero spawn; staging removed; original unchanged",
+      "status": "passed",
+      "durationMs": 1
+    },
+    {
+      "name": "complete staged revalidation catches copy corruption: index.html",
+      "provenance": "synthetic package; injected staging corruption",
+      "expected": "exit 1; exact checksum mismatch; zero spawn; staging removed; original unchanged",
+      "status": "passed",
+      "durationMs": 2
+    },
+    {
+      "name": "complete staged revalidation catches copy corruption: verification/run-tests-v291.cjs",
+      "provenance": "synthetic package; injected staging corruption",
+      "expected": "exit 1; exact checksum mismatch; zero spawn; staging removed; original unchanged",
+      "status": "passed",
+      "durationMs": 2
+    },
+    {
+      "name": "complete staged revalidation checks README semantics after coherent rehash",
+      "provenance": "synthetic package; injected coherent staging alteration",
+      "expected": "exit 1; exact README mismatch; zero spawn; staging removed; original unchanged",
+      "status": "passed",
+      "durationMs": 3
+    },
+    {
+      "name": "consistent staged version replacement fails original identity comparison",
+      "provenance": "synthetic package; injected internally consistent alternate version",
+      "expected": "exit 1; exact temporary identity disagreement; zero spawn; staging removed; original unchanged",
+      "status": "passed",
+      "durationMs": 2
+    },
+    {
+      "name": "consistent staged ledger extension fails original entry-count comparison",
+      "provenance": "synthetic package; injected additional listed content",
+      "expected": "exit 1; exact temporary identity disagreement; zero spawn; staging removed; original unchanged",
+      "status": "passed",
+      "durationMs": 3
+    },
+    {
+      "name": "thrown spawn exception cleans staging and stays nonzero",
+      "provenance": "synthetic package; injected spawn exception",
+      "expected": "exit 1; exact thrown-spawn error; one precise spawn attempt; staging removed; original unchanged",
+      "status": "passed",
+      "durationMs": 2
+    },
+    {
+      "name": "copy uses captured verified bytes after synthetic original mutation",
+      "provenance": "synthetic package; simulated external mutation after validation",
+      "expected": "one spawn with pre-mutation verified source/runner/SHA bytes; staging removed",
+      "status": "passed",
+      "durationMs": 3
+    },
+    {
+      "name": "actual SYNTHETIC writer cannot mutate original package and second check-only succeeds",
+      "provenance": "synthetic package; real writing runner subprocess, not RED game coverage",
+      "expected": "runner exit 0; original full-file hashes unchanged; temporary copy removed; subsequent check-only exit 0",
+      "status": "passed",
+      "durationMs": 171,
+      "evidence": {
+        "writerActuallyExecuted": true,
+        "originalFilesUnchanged": 6,
+        "secondCheckOnlyExitStatus": 0,
+        "temporaryRemoved": true
+      }
+    },
+    {
+      "name": "genuine source, runner and entry bytes unchanged by acceptance tests",
+      "provenance": "genuine package; read-only identity check",
+      "expected": "entry/source/runner SHA256 identical before and after",
+      "status": "passed",
+      "durationMs": 0,
+      "evidence": {
+        "entrySha256": "8639b1acc83198b9021347cf22a2da4f621c58aa87e22d686a2dc7cdd6d9166b",
+        "sourceSha256": "51a272add64ee38d73b8b545e0208892e1b9188ff11102b31fa9d4fb030db045",
+        "runnerSha256": "8d3c7b5cbdd89e03abdf75907ed2fc1fd389d6566f0c48bf368efd4a604593d1"
+      }
+    }
+  ]
+}

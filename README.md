@@ -1,4 +1,4 @@
-# RED v0.290：赤色前线
+# RED v0.291：赤色前线
 
 可离线运行的原创单文件即时战略游戏。
 
@@ -57,7 +57,7 @@ node verify-current.cjs
 ```
 <!-- /current-verification-default -->
 
-本版底层实际命令为 `node verification/run-tests-v290.cjs`，对应[本版聚合脚本](verification/run-tests-v290.cjs)；稳定入口先核完整性，再把已核文件复制到私有临时目录执行它；原包只读，不额外开启历史或长局选项。
+本版底层实际命令为 `node verification/run-tests-v291.cjs`，对应[本版聚合脚本](verification/run-tests-v291.cjs)；稳定入口先核完整性，再把已核文件复制到私有临时目录执行它；原包只读，不额外开启历史或长局选项。
 
 只检查包内声明与文件完整性、不执行游戏验证：
 
@@ -67,7 +67,7 @@ node verify-current.cjs --check-only
 
 入口只接受无参数或一次--check-only。它离线验证本包声明版本、源与精确脚本及清单一致，不能证明远端最新或发布者真实性；需从可信发布物取得文件，并核对外部公布的包哈希。详见[稳定入口说明](CURRENT_VERIFICATION_ENTRY.md)。
 
-本轮 v290 编队保护、当前聚合及隔离入口的范围见[验证状态](QA_STATUS.md)和[专项说明](verification/GROUP_PROTECTION_V290.md)。历史脚本和结果保留，不作为当前实跑；旧 v289 玩家包构建工具/配置保留为历史，未重建 v290 精简玩家ZIP。验证使用 Node 全源码 VM／模拟 DOM，不能据此宣称原生浏览器布局、输入法、读屏或窄屏体验已验收。本轮不执行存档、载入、导入、导出或存储操作。
+本轮 v291 命令回执、当前聚合及隔离入口的范围见[验证状态](QA_STATUS.md)和[专项说明](verification/COMMAND_FEEDBACK_V291.md)。历史脚本和结果保留，不作为当前实跑；旧 v289 玩家包构建工具/配置保留为历史，未重建 v291 精简玩家ZIP。验证使用 Node 全源码 VM／模拟 DOM，不能据此宣称原生浏览器布局、输入法、读屏或窄屏体验已验收。本轮不执行存档、载入、导入、导出或存储操作。
 
 [SHA-256清单](SHA256SUMS.txt)用于核对包内文件完整性；系统已有sha256sum时可运行：
 
@@ -76,3 +76,7 @@ sha256sum -c SHA256SUMS.txt
 ```
 
 无需为了游玩安装此校验工具。文内章节链接若不被本地阅读器支持，可直接打开对应文档查看标题。
+
+## 本轮命令回执改进
+
+普通或坐标命令无法分配安全落点／工厂集结点时，持续显示的命令回执会列出失败数量；部分成功与原有命令保持规则不变。此提示不代表路线永远不可达。详见[专项范围](verification/COMMAND_FEEDBACK_V291.md)。
