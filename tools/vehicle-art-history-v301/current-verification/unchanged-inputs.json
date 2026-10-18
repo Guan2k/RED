@@ -1,0 +1,11 @@
+{
+  "index.html": true,
+  "README.md": true,
+  "CURRENT_PLAYER_GUIDE.md": true,
+  "verify-current.cjs": true,
+  "tools/source-build.test.mjs": true,
+  "tools/test-development-preflight.cjs": true,
+  "tools/test-development-preflight-doc-contract-v301.cjs": true,
+  "tools/building-art-data-validation.mjs": true,
+  "tools/building-art-data.test.mjs": true
+}

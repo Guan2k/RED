@@ -1,0 +1,303 @@
+✔ geometry is a real import and pure helpers retain semantics (3.144835ms)
+✔ current generated identity and deterministic assembly (33.785689ms)
+✔ intentional editable input: src/index.template.html (26.813579ms)
+✔ intentional editable input: src/styles.css (22.702425ms)
+✔ intentional editable input: src/script/01-bootstrap.jsfrag (42.457593ms)
+✔ intentional editable input: src/geometry.mjs (37.836361ms)
+✔ intentional editable input: src/script/02-gameplay.jsfrag (38.764641ms)
+✔ intentional editable input: src/script/03-renderer.jsfrag (44.921256ms)
+✔ intentional editable input: src/script/04-interface-runtime.jsfrag (44.172155ms)
+✔ intentional editable input: src/art/buildings.mjs (46.195138ms)
+✔ new output identical, refuses overwrite and unsafe paths (10.96183ms)
+✔ manual artifact edits fail check/write/recovery and stay untouched (21.404377ms)
+✔ crash-like stale output receipt fails closed, matching source allows recovery (25.309224ms)
+✔ missing/malformed receipt can only recover matching bytes (34.36305ms)
+✔ unknown and excess arguments refused (0.27861ms)
+✔ missing @@RED_STYLE@@ (2.692051ms)
+✔ duplicate @@RED_STYLE@@ (2.81651ms)
+✔ changed @@RED_STYLE@@ (2.396976ms)
+✔ misplaced @@RED_STYLE@@ (3.730029ms)
+✔ missing @@RED_SCRIPT@@ (4.132055ms)
+✔ duplicate @@RED_SCRIPT@@ (3.725742ms)
+✔ changed @@RED_SCRIPT@@ (3.827515ms)
+✔ misplaced @@RED_SCRIPT@@ (3.951442ms)
+✔ geometry footer missing (3.71763ms)
+✔ geometry footer duplicate (3.887185ms)
+✔ geometry footer nonterminal (3.814015ms)
+✔ geometry footer runtime-import (4.225255ms)
+✔ missing input rejected (1.058347ms)
+✔ input symlink rejected (1.055883ms)
+✔ output symlink rejected (0.916032ms)
+✔ receipt and generated-target symlinks rejected (16.002777ms)
+✔ lock refuses concurrent or stale writer (1.461986ms)
+✔ fragment embedded closing tag/marker and invalid JS rejected (13.63243ms)
+✔ invalid UTF-8 rejected (1.492592ms)
+✔ generated artifact symlink refused (12.50628ms)
+✔ reject HTML script raw-text boundary "</script data-x>" (5.057771ms)
+✔ reject HTML script raw-text boundary "</script/>" (7.05108ms)
+✔ reject HTML script raw-text boundary "</ScRiPt\tdata-x>" (4.940285ms)
+✔ reject HTML script raw-text boundary "</script\f>" (4.799892ms)
+✔ reject HTML style raw-text boundary "</style data-x>" (3.806623ms)
+✔ reject HTML style raw-text boundary "</style/>" (4.11546ms)
+✔ reject HTML style raw-text boundary "</StYlE\tdata-x>" (3.853945ms)
+✔ reject HTML style raw-text boundary "</style\f>" (3.840715ms)
+✔ non-boundary tag prefixes remain valid text (16.008736ms)
+✔ out refuses reserved writer-lock path (7.344573ms)
+✔ intentional building color edit rebuilds and updates receipt (37.476452ms)
+✔ intentional building coordinate edit rebuilds and updates receipt (32.693471ms)
+✔ building marker missing (2.973536ms)
+✔ building marker duplicate (2.466341ms)
+✔ building marker changed (2.680324ms)
+✔ building marker misplaced (3.458353ms)
+✔ building marker other-fragment (4.090673ms)
+✔ building marker module (1.921059ms)
+✔ building marker template (3.862799ms)
+✔ building module footer missing (2.501023ms)
+✔ building module footer duplicate (2.112327ms)
+✔ building module footer nonterminal (2.885253ms)
+✔ building module footer wrong-name (2.153529ms)
+✔ building module footer import (2.109022ms)
+✔ building module footer extra-export (2.281653ms)
+✔ building module raw-text boundary </script> (3.270585ms)
+✔ building module raw-text boundary </script data-x> (2.822629ms)
+✔ building module raw-text boundary </script/> (7.938598ms)
+✔ building module raw-text boundary </ScRiPt	data-x> (2.358358ms)
+✔ assembly never evaluates building module (14.680391ms)
+✔ building module missing/symlink/invalid UTF-8 rejected (2.807417ms)
+✔ building art directory symlink rejected (0.775671ms)
+✔ exact ordered commands [] (4.014657ms)
+✔ exact ordered commands ["--check-only"] (0.340614ms)
+✔ reject unsupported ["--help"] (0.171189ms)
+✔ reject unsupported ["--write-generated"] (0.183456ms)
+✔ reject unsupported ["--recover-receipt"] (0.134523ms)
+✔ reject unsupported ["--legacy"] (0.111438ms)
+✔ reject unsupported ["--long"] (0.207583ms)
+✔ reject unsupported ["--check-only","extra"] (0.263568ms)
+✔ reject unsupported ["--check-only","--check-only"] (0.19185ms)
+✔ reject unsupported [""] (0.259031ms)
+✔ reject unsupported ["--CHECK-ONLY"] (0.215916ms)
+✔ short circuit full integrity 0 (0.343699ms)
+✔ short circuit full integrity 1 (0.218169ms)
+✔ short circuit full integrity 2 (0.078359ms)
+✔ short circuit full integrity 3 (0.057557ms)
+✔ short circuit full integrity 4 (0.114573ms)
+✔ short circuit full integrity 5 (0.124778ms)
+✔ short circuit full integrity 6 (0.075294ms)
+✔ short circuit full integrity 7 (0.104087ms)
+✔ short circuit full integrity 8 (0.137027ms)
+✔ short circuit full docs 0 (0.075734ms)
+✔ short circuit full docs 1 (0.081373ms)
+✔ short circuit full docs 2 (0.128003ms)
+✔ short circuit full docs 3 (0.060672ms)
+✔ short circuit full docs 4 (0.22492ms)
+✔ short circuit full docs 5 (0.069245ms)
+✔ short circuit full docs 6 (0.055374ms)
+✔ short circuit full docs 7 (0.050306ms)
+✔ short circuit full docs 8 (0.056666ms)
+✔ short circuit full docTests 0 (0.049054ms)
+✔ short circuit full docTests 1 (0.063977ms)
+✔ short circuit full docTests 2 (0.081533ms)
+✔ short circuit full docTests 3 (0.052469ms)
+✔ short circuit full docTests 4 (0.051828ms)
+✔ short circuit full docTests 5 (0.051247ms)
+✔ short circuit full docTests 6 (0.058208ms)
+✔ short circuit full docTests 7 (0.050736ms)
+✔ short circuit full docTests 8 (0.053571ms)
+✔ short circuit full source 0 (0.051748ms)
+✔ short circuit full source 1 (0.049094ms)
+✔ short circuit full source 2 (0.052119ms)
+✔ short circuit full source 3 (0.049114ms)
+✔ short circuit full source 4 (0.086861ms)
+✔ short circuit full source 5 (0.061202ms)
+✔ short circuit full source 6 (0.055664ms)
+✔ short circuit full source 7 (0.050366ms)
+✔ short circuit full source 8 (0.05262ms)
+✔ short circuit full builder 0 (0.051167ms)
+✔ short circuit full builder 1 (0.049094ms)
+✔ short circuit full builder 2 (0.045558ms)
+✔ short circuit full builder 3 (0.050937ms)
+✔ short circuit full builder 4 (0.050736ms)
+✔ short circuit full builder 5 (0.048673ms)
+✔ short circuit full builder 6 (0.050085ms)
+✔ short circuit full builder 7 (0.049274ms)
+✔ short circuit full builder 8 (0.055714ms)
+✔ short circuit full data 0 (0.069915ms)
+✔ short circuit full data 1 (0.054873ms)
+✔ short circuit full data 2 (0.065228ms)
+✔ short circuit full data 3 (0.065569ms)
+✔ short circuit full data 4 (0.051758ms)
+✔ short circuit full data 5 (0.049195ms)
+✔ short circuit full data 6 (0.051007ms)
+✔ short circuit full data 7 (0.104417ms)
+✔ short circuit full data 8 (0.070897ms)
+✔ short circuit full game 0 (0.05922ms)
+✔ short circuit full game 1 (0.088794ms)
+✔ short circuit full game 2 (0.083726ms)
+✔ short circuit full game 3 (0.11868ms)
+✔ short circuit full game 4 (0.056826ms)
+✔ short circuit full game 5 (0.163066ms)
+✔ short circuit full game 6 (0.065379ms)
+✔ short circuit full game 7 (0.062555ms)
+✔ short circuit full game 8 (0.062614ms)
+✔ short circuit check integrity 0 (0.048824ms)
+✔ short circuit check integrity 1 (0.040722ms)
+✔ short circuit check integrity 2 (0.114443ms)
+✔ short circuit check integrity 3 (0.057026ms)
+✔ short circuit check integrity 4 (0.042995ms)
+✔ short circuit check integrity 5 (0.040291ms)
+✔ short circuit check integrity 6 (0.038037ms)
+✔ short circuit check integrity 7 (0.042273ms)
+✔ short circuit check integrity 8 (0.075585ms)
+✔ short circuit check docs 0 (0.049104ms)
+✔ short circuit check docs 1 (0.045649ms)
+✔ short circuit check docs 2 (0.063896ms)
+✔ short circuit check docs 3 (0.047021ms)
+✔ short circuit check docs 4 (0.051047ms)
+✔ short circuit check docs 5 (0.055564ms)
+✔ short circuit check docs 6 (0.08648ms)
+✔ short circuit check docs 7 (0.070036ms)
+✔ short circuit check docs 8 (0.050406ms)
+✔ short circuit check docTests 0 (0.066791ms)
+✔ short circuit check docTests 1 (0.043856ms)
+✔ short circuit check docTests 2 (0.051928ms)
+✔ short circuit check docTests 3 (0.048003ms)
+✔ short circuit check docTests 4 (0.051368ms)
+✔ short circuit check docTests 5 (0.057187ms)
+✔ short circuit check docTests 6 (0.055283ms)
+✔ short circuit check docTests 7 (0.095914ms)
+✔ short circuit check docTests 8 (0.09944ms)
+✔ short circuit check source 0 (0.061973ms)
+✔ short circuit check source 1 (0.05934ms)
+✔ short circuit check source 2 (0.054101ms)
+✔ short circuit check source 3 (0.054592ms)
+✔ short circuit check source 4 (0.052199ms)
+✔ short circuit check source 5 (0.053942ms)
+✔ short circuit check source 6 (0.05269ms)
+✔ short circuit check source 7 (0.052609ms)
+✔ short circuit check source 8 (0.068644ms)
+✔ short circuit check builder 0 (0.055243ms)
+✔ short circuit check builder 1 (0.051728ms)
+✔ short circuit check builder 2 (0.088032ms)
+✔ short circuit check builder 3 (0.056315ms)
+✔ short circuit check builder 4 (0.045789ms)
+✔ short circuit check builder 5 (0.042965ms)
+✔ short circuit check builder 6 (0.044136ms)
+✔ short circuit check builder 7 (0.047091ms)
+✔ short circuit check builder 8 (0.129204ms)
+✔ short circuit check data 0 (0.156176ms)
+✔ short circuit check data 1 (0.088464ms)
+✔ short circuit check data 2 (0.081333ms)
+✔ short circuit check data 3 (0.111969ms)
+✔ short circuit check data 4 (0.076926ms)
+✔ short circuit check data 5 (0.070537ms)
+✔ short circuit check data 6 (0.061874ms)
+✔ short circuit check data 7 (0.057787ms)
+✔ short circuit check data 8 (0.062594ms)
+✔ real unrelated-cwd synthetic chain false none (722.152927ms)
+✔ real unrelated-cwd synthetic chain false integrity (122.634311ms)
+✔ real unrelated-cwd synthetic chain false docs (186.949225ms)
+✔ real unrelated-cwd synthetic chain false docTests (249.53588ms)
+✔ real unrelated-cwd synthetic chain false source (327.082763ms)
+✔ real unrelated-cwd synthetic chain false builder (416.874453ms)
+✔ real unrelated-cwd synthetic chain false data (553.457706ms)
+✔ real unrelated-cwd synthetic chain false game (581.51405ms)
+✔ real unrelated-cwd synthetic chain true none (544.202987ms)
+✔ real unrelated-cwd synthetic chain true integrity (106.461457ms)
+✔ real unrelated-cwd synthetic chain true docs (186.348918ms)
+✔ real unrelated-cwd synthetic chain true docTests (240.59915ms)
+✔ real unrelated-cwd synthetic chain true source (278.849701ms)
+✔ real unrelated-cwd synthetic chain true builder (387.467472ms)
+✔ real unrelated-cwd synthetic chain true data (542.849427ms)
+✔ wrapper module requires only path with injected spawn; no filesystem API available (1.705193ms)
+✖ actual documentation checker from unrelated cwd is read-only and does not import gameplay (59.399888ms)
+✖ actual checker permits only read-only fs APIs, path and crypto; gameplay cannot load (2.844883ms)
+✔ boundary negative control omit document contract (2.031696ms)
+✔ boundary negative control wrong document root (1.167672ms)
+✔ boundary negative control check-only runs game (0.856693ms)
+✔ boundary negative control ignore nonzero failure (0.798024ms)
+ℹ tests 217
+ℹ suites 0
+ℹ pass 215
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5681.979659
+
+✖ failing tests:
+
+test at tools/test-development-preflight-doc-contract-v301.cjs:23:1
+✖ actual documentation checker from unrelated cwd is read-only and does not import gameplay (59.399888ms)
+  AssertionError [ERR_ASSERTION]: {
+    "schemaVersion": 1,
+    "root": "/workspace/scratch/e433d7540f34/red-development/v301-vehicle-art-data/RED/tools/vehicle-art-history-v301/host",
+    "passed": 0,
+    "failed": 5,
+    "checks": [
+      {
+        "code": "read:current-verification.json",
+        "passed": false,
+        "detail": "ENOENT"
+      },
+      {
+        "code": "read:README.md",
+        "passed": false,
+        "detail": "ENOENT"
+      },
+      {
+        "code": "read:CURRENT_PLAYER_GUIDE.md",
+        "passed": false,
+        "detail": "ENOENT"
+      },
+      {
+        "code": "read:CURRENT_VERIFICATION_ENTRY.md",
+        "passed": false,
+        "detail": "ENOENT"
+      },
+      {
+        "code": "read:QA_STATUS.md",
+        "passed": false,
+        "detail": "ENOENT"
+      }
+    ],
+    "scope": "Read-only explicit current-document contract, no game execution or automatic repair. Historical versioned sections retain their version values. External links are not fetched."
+  }
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v301-vehicle-art-data/RED/tools/vehicle-art-history-v301/host/tools/test-development-preflight-doc-contract-v301.cjs:23:279)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tools/test-development-preflight-doc-contract-v301.cjs:24:1
+✖ actual checker permits only read-only fs APIs, path and crypto; gameplay cannot load (2.844883ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  5 !== 0
+  
+      at TestContext.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v301-vehicle-art-data/RED/tools/vehicle-art-history-v301/host/tools/test-development-preflight-doc-contract-v301.cjs:24:714)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 5,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

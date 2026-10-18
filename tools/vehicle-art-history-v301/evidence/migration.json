@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "oldReceiptRejected": true,
+  "htmlEqualBeforeExplicitRecovery": true,
+  "htmlUnchangedAfterRecovery": true,
+  "extractedBytes": 674,
+  "extractedSha256": "0290f626c92864b05b8d908382c2197c0e812a9c424828bce88ffb708b594cb5",
+  "sourceSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "receipt": {
+    "schemaVersion": 1,
+    "outputSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+    "inputsSha256": "52d3a6eb83961fc74c06a09892f6fae710c95ec3c9459173232d5e593c9697e8"
+  }
+}

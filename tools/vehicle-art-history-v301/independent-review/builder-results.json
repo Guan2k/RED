@@ -1,0 +1,26 @@
+{
+  "passed": 20,
+  "failed": 0,
+  "results": [
+    "assembly byte identical",
+    "module throw is compiled but never executed",
+    "duplicate marker",
+    "missing marker",
+    "misplaced marker",
+    "marker elsewhere",
+    "footer missing newline",
+    "footer reordered",
+    "extra export",
+    "import",
+    "script close slash",
+    "script close space",
+    "new marker art",
+    "bad UTF8",
+    "old receipt rejects same HTML then explicit recovery",
+    "manual generated edit protected",
+    "legitimate source edit buildable",
+    "new input symlink denied",
+    "lock protected output",
+    "existing output cannot overwrite"
+  ]
+}

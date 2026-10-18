@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "root": "/workspace/scratch/e433d7540f34/red-development/v301-vehicle-art-data/RED",
+  "passed": 63,
+  "failed": 0,
+  "checks": [
+    {
+      "code": "manifest-json",
+      "passed": true,
+      "detail": "JSON object required"
+    },
+    {
+      "code": "manifest-schema",
+      "passed": true,
+      "detail": "expected current verification identity fields"
+    },
+    {
+      "code": "source-version-marker",
+      "passed": true,
+      "detail": "one displayed version marker"
+    },
+    {
+      "code": "manifest-source-hash",
+      "passed": true,
+      "detail": "source bytes agree with manifest"
+    },
+    {
+      "code": "manifest-runner-hash",
+      "passed": true,
+      "detail": "runner bytes agree with manifest"
+    },
+    {
+      "code": "manifest-version",
+      "passed": true,
+      "detail": "manifest and source version agree"
+    },
+    {
+      "code": "manifest-runner",
+      "passed": true,
+      "detail": "runner uses displayed version"
+    },
+    {
+      "code": "title:README.md",
+      "passed": true,
+      "detail": "current first heading version"
+    },
+    {
+      "code": "title:CURRENT_PLAYER_GUIDE.md",
+      "passed": true,
+      "detail": "current first heading version"
+    },
+    {
+      "code": "title:CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "detail": "current first heading version"
+    },
+    {
+      "code": "title:QA_STATUS.md",
+      "passed": true,
+      "detail": "current first heading version"
+    },
+    {
+      "code": "current-guide-identity",
+      "passed": true,
+      "detail": "one current general claim; historical heading scope inherited by descendants"
+    },
+    {
+      "code": "current-entry-command-present",
+      "passed": true,
+      "detail": "at least one real current entry command, including fenced commands"
+    },
+    {
+      "code": "current-entry-command:0",
+      "passed": true,
+      "detail": {
+        "command": "node verify-development.cjs",
+        "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+      }
+    },
+    {
+      "code": "current-entry-command:1",
+      "passed": true,
+      "detail": {
+        "command": "node verify-development.cjs --check-only",
+        "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+      }
+    },
+    {
+      "code": "current-entry-command:2",
+      "passed": true,
+      "detail": {
+        "command": "node verify-current.cjs",
+        "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+      }
+    },
+    {
+      "code": "current-readme-section",
+      "passed": true,
+      "detail": "one real explicit current testing section"
+    },
+    {
+      "code": "current-runner-line",
+      "passed": true,
+      "detail": "one real current command paragraph; historical descendants and comments excluded"
+    },
+    {
+      "code": "current-runner-command",
+      "passed": true,
+      "detail": "current command equals manifest"
+    },
+    {
+      "code": "current-runner-link",
+      "passed": true,
+      "detail": "current runner link equals manifest"
+    },
+    {
+      "code": "link:README.md:index.html",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#3-选择编队与地图命令",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#3-选择编队与地图命令",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#1-开局暂停与重新部署",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局暂停与重新部署",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#6-存档备份与恢复",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#6-存档备份与恢复",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:README.md:CURRENT_PLAYER_GUIDE.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#5-建造订单与出厂",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#5-建造订单与出厂",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:README.md:RELEASE_NOTES.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:verification/OPENING_PRACTICE_V289.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:verification/parameterized-pilot/README_V289.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:README_MIGRATION_V289.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:verification/run-tests-v301.cjs",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:QA_STATUS.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:verification/BUILDING_TEAM_CUES_V301.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:SHA256SUMS.txt",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:verification/COMMAND_FEEDBACK_V291.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#1-开局暂停与重新部署",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#1-开局暂停与重新部署",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#2-五种胜利条件与据点",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#2-五种胜利条件与据点",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#3-选择编队与地图命令",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#3-选择编队与地图命令",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#4-矿车护航与维修",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#4-矿车护航与维修",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#5-建造订单与出厂",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#5-建造订单与出厂",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#6-存档备份与恢复",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#6-存档备份与恢复",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#7-必要限制与验证范围",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#7-必要限制与验证范围",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:RELEASE_NOTES.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:QA_STATUS.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:README.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:RELEASE_NOTES.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_VERIFICATION_ENTRY.md:DOCUMENT_CONTRACT_DEVELOPMENT.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_VERIFICATION_ENTRY.md:QA_STATUS.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_VERIFICATION_ENTRY.md:DOCUMENT_CONTRACT_DEVELOPMENT.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_VERIFICATION_ENTRY.md:VEHICLE_ART_DATA_DEVELOPMENT.md",
+      "passed": true,
+      "detail": "local target readable"
+    }
+  ],
+  "scope": "Read-only explicit current-document contract, no game execution or automatic repair. Historical versioned sections retain their version values. External links are not fetched."
+}

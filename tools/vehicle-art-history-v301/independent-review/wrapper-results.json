@@ -1,0 +1,5 @@
+{
+  "passed": 22,
+  "failed": 0,
+  "scope": "Independent ordering/failfast/argument fixtures plus real subprocess integrity and real checker failures. No game runner execution."
+}

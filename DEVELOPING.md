@@ -2,7 +2,7 @@
 
 ## Source of truth
 
-Edit `src/`, not `index.html`. The HTML is generated and remains the single-file offline player artifact. The v0.294 adoption initially reconstructed its published artifact exactly. The current game is v0.301; this additive documentation-tool adoption retains its exact generated artifact. Future approved source changes use the same guarded workflow.
+Edit `src/`, not `index.html`. The HTML is generated and remains the single-file offline player artifact. The v0.294 adoption initially reconstructed its published artifact exactly. The current game is v0.301; this additive vehicle-data adoption retains its exact generated artifact. Future approved source changes use the same guarded workflow.
 
 `src/index.template.html` owns markup; `src/styles.css` owns CSS. Four ordered `.jsfrag` files retain the existing single script's order and shared globals. They are **not ES modules**. The renderer fragment includes inspection/presentation helpers and art initialization, not a newly isolated renderer API. `src/geometry.mjs` alone is a real ES module with named exports, imported by its unit tests. The narrow assembler removes exactly its terminal export footer for the classic inline player script. It is not a general-purpose JavaScript bundler.
 
@@ -11,7 +11,7 @@ The fixed input list is in `tools/source-build.mjs`. No directory glob determine
 ## Normal workflow
 
 1. Edit the relevant source file(s).
-2. Run `node --test tools/source-build.test.mjs`.
+2. Run `node --test tools/source-build-vehicle-art.test.mjs`.
 3. Run `node tools/source-build.mjs --out /an/existing/directory/new-index.html` to inspect a fresh output. The output parent must exist; existing targets, symlinks and traversal paths are refused.
 4. Run `node tools/source-build.mjs --write-generated` explicitly to replace this project's index and build receipt. Review source and generated diff together.
 5. Run `node tools/source-build.mjs --check` to prove exact artifact/source consistency, then, after reviewed identity/checksum refresh, the current developer verifier before release integration.
@@ -41,9 +41,9 @@ Initial bootstrap uses the same restricted recovery command because the existing
 
 ## Adopted developer release workflow
 
-The original additive source-tools adoption retained the exact v0.294 player artifact. This additive v0.301 developer-tool update retains the current game and player-package inputs byte-for-byte. Source-build checks and tool tests are separate from game coverage.
+The original additive source-tools adoption retained the exact v0.294 player artifact. This additive v0.301 vehicle-data update retains the current game and player-package inputs byte-for-byte. Source-build checks and tool tests are separate from game coverage.
 
-Run `node verify-development.cjs` before release. Its seven ordered stages are sealed package integrity through `verify-current.cjs --check-only`, current documentation contract, 66 documentation-contract tests, `node tools/source-build.mjs --check`, builder tests, trusted building-data tests, then unchanged `node verify-current.cjs`. Any failure stops later stages. `node verify-development.cjs --check-only` runs the first six stages without gameplay. `node --test tools/test-development-preflight-doc-contract-v301.cjs` tests current orchestration in disposable fixtures. The unchanged old tools/test-development-preflight.cjs runs from tools/document-contract/pre-adoption-host. Synthetic child scripts are not game coverage. See [documentation contract development](DOCUMENT_CONTRACT_DEVELOPMENT.md) for syntax limits and evidence.
+Run `node verify-development.cjs` before release. Its eight ordered stages are sealed package integrity through `verify-current.cjs --check-only`, current documentation contract, 66 documentation-contract tests, `node tools/source-build.mjs --check`, current vehicle-aware builder tests, trusted building-data tests, trusted vehicle-data tests, then unchanged `node verify-current.cjs`. Any failure stops later stages. `node verify-development.cjs --check-only` runs the first seven stages without gameplay. `node --test tools/test-development-preflight-vehicle-art-v301.cjs` tests current orchestration in disposable fixtures. The unchanged old tools/test-development-preflight.cjs runs from tools/document-contract/pre-adoption-host. Synthetic child scripts are not game coverage. See [documentation contract development](DOCUMENT_CONTRACT_DEVELOPMENT.md) for syntax limits and evidence.
 
 The old `node verify-current.cjs` remains the canonical game verifier and does not inherently check editable sources or current documentation. Do not substitute it alone for the new developer release workflow. The unchanged README block describes that existing game entry. Discovery of the developer entry is here and in CURRENT_VERIFICATION_ENTRY.md; The v0.294 adoption preserved README/player-guide bytes; current-version documentation and packaging pins must deliberately track approved current-version changes.
 
@@ -61,3 +61,10 @@ No browser/FPS, new gameplay coverage or full modular engine claim follows from 
 ## Building art source data supplement
 
 Static building data now lives in `src/art/buildings.mjs`; the module has three named exports and no runtime imports. Edit data there, run `node tools/source-build.mjs --write-generated`, then review and deliberately refresh the sealing checksum before running the existing developer preflight. The assembler never executes the module; a distinct trusted-module data-test stage enforces immutable shapes, canonical square bounds, hex colors and20/128/12 budgets. See [BUILDING_DATA_DEVELOPMENT.md](BUILDING_DATA_DEVELOPMENT.md) for limits, tests and the runnable exact old-layout tool host. Do not edit generated index.html or its receipt by hand.
+
+
+## Vehicle art source data supplement
+
+The five canonical radii and ten fixed polygon slots now live in src/art/vehicles.mjs. All dynamic drawing, color choices and functions remain in the renderer fragment. The assembler text-splices the fixed export-free body without importing or evaluating the module. A separate trusted-data test checks recursively frozen numeric geometry, definition radii, canonical body-square bounds, fixed slots and the conservative 63-vertex adoption budget. This budget is not a Canvas platform limit. See [vehicle data workflow](VEHICLE_ART_DATA_DEVELOPMENT.md).
+
+The previous active builder and documentation-aware wrapper tests remain unchanged. Run them from tools/vehicle-art-history-v301/host for their original source-layout assumptions. This historical fixture is not a standalone release gate.

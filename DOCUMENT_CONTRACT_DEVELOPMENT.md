@@ -1,4 +1,6 @@
-# v301 additive documentation-contract tools
+Current workflow note: the following records the earlier documentation-contract adoption. The current wrapper adds trusted vehicle-data validation and uses the vehicle-aware builder tests; see [VEHICLE_ART_DATA_DEVELOPMENT.md](VEHICLE_ART_DATA_DEVELOPMENT.md). Its current total is eight stages, seven with --check-only. Historical run counts and commands below describe the retained prior host.
+
+# v301 documentation-contract tools: retained adoption record
 
 Game version remains v0.301. index.html, README.md, CURRENT_PLAYER_GUIDE.md, current-verification.json, all versioned game runners and player-package inputs are preserved byte-for-byte from the final v301 base.
 

@@ -1,0 +1,100 @@
+{
+  "checks": 21,
+  "cases": [
+    {
+      "name": "exact source anchors",
+      "passed": true
+    },
+    {
+      "name": "entire two-declaration body",
+      "passed": true
+    },
+    {
+      "name": "unique builder edit 'src/art/buildings.mjs']);",
+      "passed": true
+    },
+    {
+      "name": "unique builder edit renderer,after,art]=texts",
+      "passed": true
+    },
+    {
+      "name": "unique builder edit s.replace(ART_MARKER,'')",
+      "passed": true
+    },
+    {
+      "name": "unique builder edit  const rendered=renderer.replace(ART_MARKER+'\\n',(",
+      "passed": true
+    },
+    {
+      "name": "entire generated index byte identity",
+      "passed": true
+    },
+    {
+      "name": "input receipt must change",
+      "passed": true
+    },
+    {
+      "name": "old input receipt rejected",
+      "passed": true
+    },
+    {
+      "name": "exact recovery/check only updates isolated receipt",
+      "passed": true
+    },
+    {
+      "name": "recovery does not edit HTML",
+      "passed": true
+    },
+    {
+      "name": "existing recursive freeze",
+      "passed": true
+    },
+    {
+      "name": "existing ten paths and 63 vertices",
+      "passed": true
+    },
+    {
+      "name": "duplicate-marker",
+      "passed": true
+    },
+    {
+      "name": "misplaced-marker",
+      "passed": true
+    },
+    {
+      "name": "missing-marker",
+      "passed": true
+    },
+    {
+      "name": "missing export footer",
+      "passed": true
+    },
+    {
+      "name": "duplicate export footer",
+      "passed": true
+    },
+    {
+      "name": "module import injection",
+      "passed": true
+    },
+    {
+      "name": "identity restored after negative probes",
+      "passed": true
+    },
+    {
+      "name": "current complete product tree unchanged",
+      "passed": true
+    }
+  ],
+  "failed": 0,
+  "sourceSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "outputSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "baselineFiles": 2029,
+  "baselineTreeUnchanged": true,
+  "extractedBytes": 674,
+  "paths": 10,
+  "vertices": 63,
+  "inputReceiptChanges": true,
+  "runtimeChanges": false,
+  "scope": "Standalone text-only proof; no current product writes or gameplay aggregate"
+}

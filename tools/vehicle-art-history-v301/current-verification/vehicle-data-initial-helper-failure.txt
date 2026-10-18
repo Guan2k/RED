@@ -1,0 +1,23 @@
+Initial run diagnostic excerpt, captured from the actual first test command output.
+This was a TEST HELPER ERROR, not a product-validator failure.
+The helper validate(data = art, radii = actualRadii) replaced an explicit undefined
+radii argument with actualRadii. The negative case was corrected to call
+validateVehicleArtData(fixture, makeRadii()) directly. No product code was edited.
+
+Command: node --test tools/vehicle-art-data.test.mjs
+Initial result: tests 178; pass 177; fail 1; cancelled 0; skipped 0; todo 0.
+
+test at tools/vehicle-art-data.test.mjs:338:3
+✖ vehicle art rejects undefined in actual gameplay definition radii (1.038477ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (TypeError).
+      at TestContext.<anonymous> (file:///workspace/scratch/e433d7540f34/red-development/v301-vehicle-art-data/RED/tools/vehicle-art-data.test.mjs:339:12)
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+
+The original source line locations above preceded subsequent test additions.
+Definition-radii prototype hardening was already present by the first complete
+run. It was identified during source review; this log is not evidence of an
+observed product failure for that earlier implementation.

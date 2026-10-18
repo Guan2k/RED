@@ -1,0 +1,19 @@
+{
+  "passed": {
+    "builder": 101,
+    "vehicleData": 180,
+    "wrapper": 171
+  },
+  "failed": 0,
+  "aggregateExecuted": false,
+  "files": {
+    "tools/source-build-vehicle-art.test.mjs": "109b94df626a96d56e075b638e5624e46b72c569e36252dc75f9dffc383a12d4",
+    "tools/vehicle-art-data.test.mjs": "8d61468ef57c7de3039a77fd511cada057d986afc987d557ead75cb6b7483b03",
+    "tools/test-development-preflight-vehicle-art-v301.cjs": "916f2c6ecfd1ec5bf1c8664c8cc8242de3859ced570e6756534afda7edec5ba2",
+    "tools/source-build.mjs": "ae012e574d3789a868cb9d566fd0c5c229868d30f95b5872e3a10ffa5ff0fd02",
+    "tools/vehicle-art-data-validation.mjs": "be3969de941cb124eb59f8c973907a3e1f227f5986d7325656fa3f234f1fc4d7",
+    "verify-development.cjs": "6d82362376fce7948a1aaef4d6ad8a66c4195cd774afc00b5fd4bee6a69f0f2f"
+  },
+  "sourceSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "initialFailureScope": "One new test-helper default-argument issue; diagnostic excerpt retained; not a product failure."
+}

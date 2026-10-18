@@ -1,0 +1,17 @@
+{
+  "baseFiles": 2029,
+  "missing": [],
+  "changed": [
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "DEVELOPING.md",
+    "verify-development.cjs",
+    "DOCUMENT_CONTRACT_DEVELOPMENT.md",
+    "source-build-receipt.json",
+    "tools/source-build.mjs",
+    "src/script/03-renderer.jsfrag"
+  ],
+  "extractedDeclarationBytes": 674,
+  "exactRendererRestoration": true,
+  "oldHostFiles": 34,
+  "oldHostDifferences": []
+}
