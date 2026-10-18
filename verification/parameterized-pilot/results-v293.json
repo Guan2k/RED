@@ -1,0 +1,1833 @@
+{
+  "candidateSha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+  "normal": [
+    {
+      "suiteId": "order-display-writes",
+      "result": {
+        "passed": 8,
+        "failed": 0,
+        "assertions": 229,
+        "measurements": [
+          {
+            "rows": 8,
+            "refreshes": 20,
+            "oldAssignments": 1760,
+            "oldSameValue": 1440,
+            "newAssignments": 0
+          }
+        ],
+        "results": [
+          {
+            "name": "stable paid eight scout orders measured against v283",
+            "passed": true
+          },
+          {
+            "name": "countdown refund pause priority cancel and factory updates",
+            "passed": true
+          },
+          {
+            "name": "real local loop title and cancellation suffix",
+            "passed": true
+          },
+          {
+            "name": "real global loop title and cancellation suffix",
+            "passed": true
+          },
+          {
+            "name": "synthetic display branch terminal",
+            "passed": true
+          },
+          {
+            "name": "synthetic display branch power shortage",
+            "passed": true
+          },
+          {
+            "name": "synthetic display branch blocked exit",
+            "passed": true
+          },
+          {
+            "name": "synthetic presentation damage repaired on same nodes",
+            "passed": true
+          }
+        ],
+        "scope": "Target textContent/title/aria-label setter invocations only in synthetic VM DOM. Legal UI paid production and loops, exact v283 world/display pairing, independent changed captions/refunds, stable row identities; explicitly synthetic terminal/power/exit branches. No native DOM mutation, layout, time, FPS or browser claim."
+      },
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "synthetic presentation damage repaired on same nodes",
+        "started": [
+          "stable paid eight scout orders measured against v283",
+          "countdown refund pause priority cancel and factory updates",
+          "real local loop title and cancellation suffix",
+          "real global loop title and cancellation suffix",
+          "synthetic display branch terminal",
+          "synthetic display branch power shortage",
+          "synthetic display branch blocked exit",
+          "synthetic presentation damage repaired on same nodes"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "real local loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "real local loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "real global loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "real global loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "synthetic display branch terminal",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "synthetic display branch terminal",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "synthetic display branch power shortage",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "synthetic display branch power shortage",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "synthetic display branch blocked exit",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "synthetic display branch blocked exit",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "synthetic presentation damage repaired on same nodes",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "synthetic presentation damage repaired on same nodes",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": true,
+        "failure": null,
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      },
+      "historicalComparison": "exact result equality, startup/provenance only changed"
+    },
+    {
+      "suiteId": "selection-filter-writes",
+      "result": {
+        "passed": 7,
+        "failed": 0,
+        "assertions": 110,
+        "measurements": [
+          {
+            "refreshes": 20,
+            "oldAssignments": 300,
+            "oldSameValue": 300,
+            "currentAssignments": 0
+          },
+          {
+            "naturalDamageObservedAt": 7,
+            "damagedIds": [
+              8
+            ]
+          }
+        ],
+        "results": [
+          {
+            "name": "stable paused army filters 300 to zero and real selection transitions",
+            "passed": true
+          },
+          {
+            "name": "legal natural combat damage updates and live filter action",
+            "passed": true
+          },
+          {
+            "name": "legal lifecycle menu",
+            "passed": true
+          },
+          {
+            "name": "legal lifecycle restart",
+            "passed": true
+          },
+          {
+            "name": "legal lifecycle new battle",
+            "passed": true
+          },
+          {
+            "name": "synthetic damaged health death and terminal live recomputation",
+            "passed": true
+          },
+          {
+            "name": "synthetic presentation corruption repaired no gameplay change",
+            "passed": true
+          }
+        ],
+        "scope": "VM string setter invocations only; legal UI army/filter/shift selection, natural combat damage and lifecycle pairing with v285; synthetic health/terminal and display corruption explicitly named. No native DOM/layout/FPS/browser claim."
+      },
+      "evidence": {
+        "suiteId": "selection-filter-writes",
+        "scenario": "synthetic presentation corruption repaired no gameplay change",
+        "started": [
+          "stable paused army filters 300 to zero and real selection transitions",
+          "legal natural combat damage updates and live filter action",
+          "legal lifecycle menu",
+          "legal lifecycle restart",
+          "legal lifecycle new battle",
+          "synthetic damaged health death and terminal live recomputation",
+          "synthetic presentation corruption repaired no gameplay change"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "legal natural combat damage updates and live filter action",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal natural combat damage updates and live filter action",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "legal lifecycle menu",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal lifecycle menu",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "legal lifecycle restart",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal lifecycle restart",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "legal lifecycle new battle",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal lifecycle new battle",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "synthetic damaged health death and terminal live recomputation",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "synthetic damaged health death and terminal live recomputation",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+            "scenario": "synthetic presentation corruption repaired no gameplay change",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "a124ae845828abb1890ad7c678fbe751931a6d58a2ac6f0ed2121ca1e5fc5674",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "synthetic presentation corruption repaired no gameplay change",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          }
+        ],
+        "completed": true,
+        "failure": null,
+        "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "expected": {
+          "candidate": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+        }
+      },
+      "historicalComparison": "exact result equality, startup/provenance only changed"
+    }
+  ],
+  "negative": [
+    {
+      "id": "order-display-writes:redundant-status-writes",
+      "suiteId": "order-display-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "stable paused target setter count zero",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "stable paid eight scout orders measured against v283",
+        "started": [
+          "stable paid eight scout orders measured against v283"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "f36b0ac87d48c818a8078f9a8dc0be019869fb6108afd91127f0c795e0b4909d",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "ce7fdad90252a145e1b2db82d1fb2245a67a5e69e5da9148640b2ded4bd2359b",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "stable paused target setter count zero",
+          "stack": "AssertionError [ERR_ASSERTION]: stable paused target setter count zero\n\n160 !== 0\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:132)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:17:308\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:267)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:17:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+        },
+        "mutation": {
+          "id": "order-display-writes:redundant-status-writes",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "f36b0ac87d48c818a8078f9a8dc0be019869fb6108afd91127f0c795e0b4909d",
+          "descriptorHash": "6288bcf9fb07b2ef5dc85aafbc0f9bdadfc1a79d734cc17e75ed6744f5f6cb3c"
+        },
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "f36b0ac87d48c818a8078f9a8dc0be019869fb6108afd91127f0c795e0b4909d",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      }
+    },
+    {
+      "id": "order-display-writes:unconditional-aria-writes",
+      "suiteId": "order-display-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "stable paused target setter count zero",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "stable paid eight scout orders measured against v283",
+        "started": [
+          "stable paid eight scout orders measured against v283"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "12070337b15c824dd107a1991635e006e9c6193fdfb764092ae5a8ac389c0592",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "9237f70b062843209cec44cf71b2b34bd11fe1ea00e659a847f54d9c5f297629",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "stable paused target setter count zero",
+          "stack": "AssertionError [ERR_ASSERTION]: stable paused target setter count zero\n\n480 !== 0\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:132)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:17:308\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:267)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:17:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+        },
+        "mutation": {
+          "id": "order-display-writes:unconditional-aria-writes",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "12070337b15c824dd107a1991635e006e9c6193fdfb764092ae5a8ac389c0592",
+          "descriptorHash": "c536ea67e11ac478c04671c46b6c975ff840b4dcca7d8baf3cb5ea1296d1c300"
+        },
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "12070337b15c824dd107a1991635e006e9c6193fdfb764092ae5a8ac389c0592",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      }
+    },
+    {
+      "id": "order-display-writes:stale-countdown",
+      "suiteId": "order-display-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "order display parity countdown",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "countdown refund pause priority cancel and factory updates",
+        "started": [
+          "stable paid eight scout orders measured against v283",
+          "countdown refund pause priority cancel and factory updates"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "0131cabb5b2829280cef8f3a12a5edde1435ec590153eae24cce5835cd941141",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "dba52fe509d2f67c105a30c589819f508f922ccd189b6d71c48219ce7b2f37dd",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "0131cabb5b2829280cef8f3a12a5edde1435ec590153eae24cce5835cd941141",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "dba52fe509d2f67c105a30c589819f508f922ccd189b6d71c48219ce7b2f37dd",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "order display parity countdown",
+          "stack": "AssertionError [ERR_ASSERTION]: order display parity countdown\n+ actual - expected\n\n  [\n    {\n      children: [\n        {\n          aria: null,\n          disabled: false,\n          id: '',\n+         text: '1. 侦察战车 · 生产中 · 还需生产 4 秒',\n-         text: '1. 侦察战车 · 生产中 · 还需生产 3 秒',\n          title: ''\n        },\n        {\n          aria: '第1单 侦察战车：普通点击取消订单 · 退 121',\n          disabled: false,\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:132)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:10:77)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:18:362\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:267)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:18:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "order-display-writes:stale-countdown",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "0131cabb5b2829280cef8f3a12a5edde1435ec590153eae24cce5835cd941141",
+          "descriptorHash": "3b2222718f535ab47cec72fe632e669637aef2fd30d6cdae0690d46ce8f2e6d0"
+        },
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "0131cabb5b2829280cef8f3a12a5edde1435ec590153eae24cce5835cd941141",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      }
+    },
+    {
+      "id": "order-display-writes:stale-refund",
+      "suiteId": "order-display-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "order display parity active",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "countdown refund pause priority cancel and factory updates",
+        "started": [
+          "stable paid eight scout orders measured against v283",
+          "countdown refund pause priority cancel and factory updates"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "511bfcfd0b88db82ccfd167fbb06483ea26d0ae64899c942084f532dd79f8bfd",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "8af0d3a95f6be6f507f850c3a1337372c782676193caf52537a5abd11caa2d1a",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "511bfcfd0b88db82ccfd167fbb06483ea26d0ae64899c942084f532dd79f8bfd",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "8af0d3a95f6be6f507f850c3a1337372c782676193caf52537a5abd11caa2d1a",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "order display parity active",
+          "stack": "AssertionError [ERR_ASSERTION]: order display parity active\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      children: [\n        {\n          aria: null,\n...\n        {\n+         aria: '第1单 侦察战车：普通点击取消订单 · 退 180',\n-         aria: '第1单 侦察战车：普通点击取消订单 · 退 175',\n          disabled: false,\n          display: 'block',\n          id: 'order0',\n+         text: '取消订单 · 退 180',\n-         text: '取消订单 · 退 175',\n          title: '点击取消订单，按剩余生产比例退款；已占用工厂，不可Shift插队；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n          aria: '第1单 侦察战车：移到等待首位（正在生产／已分配工厂）',\n          disabled: true,\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:132)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:10:77)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:18:161\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:267)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:18:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "order-display-writes:stale-refund",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "511bfcfd0b88db82ccfd167fbb06483ea26d0ae64899c942084f532dd79f8bfd",
+          "descriptorHash": "235ee289f2bfcd13632d6958ea9f61fbcc42c6ee5f60d71c4bb5e0f7ed9c17d2"
+        },
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "511bfcfd0b88db82ccfd167fbb06483ea26d0ae64899c942084f532dd79f8bfd",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      }
+    },
+    {
+      "id": "order-display-writes:freeze-aria-after-first-value",
+      "suiteId": "order-display-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "order display parity active",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "countdown refund pause priority cancel and factory updates",
+        "started": [
+          "stable paid eight scout orders measured against v283",
+          "countdown refund pause priority cancel and factory updates"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "12a4fefb7f7e51e03dd0a73537c216a0f40368086f9367228b21b015fda5d606",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "8ab09434e274470dada22876f744a8067ad2bf9a1f3a3403bde89905f40effa0",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "12a4fefb7f7e51e03dd0a73537c216a0f40368086f9367228b21b015fda5d606",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "8ab09434e274470dada22876f744a8067ad2bf9a1f3a3403bde89905f40effa0",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "order display parity active",
+          "stack": "AssertionError [ERR_ASSERTION]: order display parity active\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      children: [\n        {\n          aria: null,\n...\n        {\n+         aria: '第1单 侦察战车：普通点击取消订单 · 退 180',\n-         aria: '第1单 侦察战车：普通点击取消订单 · 退 175',\n          disabled: false,\n          display: 'block',\n          id: 'order0',\n          text: '取消订单 · 退 175',\n          title: '点击取消订单，按剩余生产比例退款；已占用工厂，不可Shift插队；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:132)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:10:77)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:18:161\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:267)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:18:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "order-display-writes:freeze-aria-after-first-value",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "12a4fefb7f7e51e03dd0a73537c216a0f40368086f9367228b21b015fda5d606",
+          "descriptorHash": "f54bc728ed98c4bb81e6d7118666dd28e3fe19be3f1b5ee65c5f3d92c48c09a9"
+        },
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "12a4fefb7f7e51e03dd0a73537c216a0f40368086f9367228b21b015fda5d606",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      }
+    },
+    {
+      "id": "order-display-writes:omit-complete-cancel-title",
+      "suiteId": "order-display-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "order display parity initial eight orders",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "stable paid eight scout orders measured against v283",
+        "started": [
+          "stable paid eight scout orders measured against v283"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "1a1a3df44cf348e8020a28c30da71fb1f4910b13d5e2987573208fe8108286c1",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "90b37cc3a02003a1870ba12c76562fa1a1de60b898966f55e01edc0806131130",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "order display parity initial eight orders",
+          "stack": "AssertionError [ERR_ASSERTION]: order display parity initial eight orders\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      children: [\n        {\n          aria: null,\n...\n          text: '取消订单 · 退 180',\n+         title: ''\n-         title: '点击取消订单，按剩余生产比例退款；已占用工厂，不可Shift插队；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n          aria: '第1单 侦察战车：移到等待首位（正在生产／已分配工厂）',\n          disabled: true,\n          id: 'orderPriority0',\n...\n          text: '取消订单 · 退 180',\n+         title: ''\n-         title: '点击取消并按剩余生产比例退款；Shift+点击移到等待首位，费用和已有进度保留；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n          aria: '第2单 侦察战车：移到等待首位（已在等待首位）',\n          disabled: true,\n          id: 'orderPriority1',\n...\n          text: '取消订单 · 退 180',\n+         title: ''\n-         title: '点击取消并按剩余生产比例退款；Shift+点击移到等待首位，费用和已有进度保留；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n          aria: '第3单 侦察战车：移到等待首位',\n          disabled: false,\n          id: 'orderPriority2',\n...\n          text: '取消订单 · 退 180',\n+         title: ''\n-         title: '点击取消并按剩余生产比例退款；Shift+点击移到等待首位，费用和已有进度保留；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n          aria: '第4单 侦察战车：移到等待首位',\n          disabled: false,\n          id: 'orderPriority3',\n...\n          text: '取消订单 · 退 180',\n+         title: ''\n-         title: '点击取消并按剩余生产比例退款；Shift+点击移到等待首位，费用和已有进度保留；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n          aria: '第5单 侦察战车：移到等待首位',\n          disabled: false,\n          id: 'orderPriority4',\n...\n          text: '取消订单 · 退 180',\n+         title: ''\n-         title: '点击取消并按剩余生产比例退款；Shift+点击移到等待首位，费用和已有进度保留；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n          aria: '第6单 侦察战车：移到等待首位',\n          disabled: false,\n          id: 'orderPriority5',\n...\n          text: '取消订单 · 退 180',\n+         title: ''\n-         title: '点击取消并按剩余生产比例退款；Shift+点击移到等待首位，费用和已有进度保留；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n          aria: '第7单 侦察战车：移到等待首位',\n          disabled: false,\n          id: 'orderPriority6',\n...\n          text: '取消订单 · 退 180',\n+         title: ''\n-         title: '点击取消并按剩余生产比例退款；Shift+点击移到等待首位，费用和已有进度保留；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n          aria: '第8单 侦察战车：移到等待首位',\n          disabled: false,\n          id: 'orderPriority7',\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:132)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:10:77)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:17:161\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:267)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:17:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "order-display-writes:omit-complete-cancel-title",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "1a1a3df44cf348e8020a28c30da71fb1f4910b13d5e2987573208fe8108286c1",
+          "descriptorHash": "9a6e30ca54fa6bd682f47a655e0573d9393146a00b4c02a7d09369f801ea08f4"
+        },
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "1a1a3df44cf348e8020a28c30da71fb1f4910b13d5e2987573208fe8108286c1",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      }
+    },
+    {
+      "id": "order-display-writes:omit-current-production-status",
+      "suiteId": "order-display-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "order display parity initial eight orders",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "stable paid eight scout orders measured against v283",
+        "started": [
+          "stable paid eight scout orders measured against v283"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "9e9b9b42beb487cc92acdab6e1aabcbcc508fcee677ca142112a734d655be83d",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "6c68a890a2511b1a1a1f88fae4216f5bf04ae8cc9c855a251b3b746f0837a9f1",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "order display parity initial eight orders",
+          "stack": "AssertionError [ERR_ASSERTION]: order display parity initial eight orders\n+ actual - expected\n\n  [\n    {\n      children: [\n        {\n          aria: null,\n          disabled: false,\n          id: '',\n+         text: '1. 侦察战车 · 排队 · 还需生产 4 秒',\n-         text: '1. 侦察战车 · 游戏暂停 · 还需生产 4 秒',\n          title: ''\n        },\n        {\n          aria: '第1单 侦察战车：普通点击取消订单 · 退 180',\n          disabled: false,\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:132)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:10:77)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:17:161\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:267)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:17:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "order-display-writes:omit-current-production-status",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "9e9b9b42beb487cc92acdab6e1aabcbcc508fcee677ca142112a734d655be83d",
+          "descriptorHash": "36b73052425d676b5d354b2a3c04f7b034e1a1eefd67850f2e0cf875dac6d6e2"
+        },
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "9e9b9b42beb487cc92acdab6e1aabcbcc508fcee677ca142112a734d655be83d",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      }
+    },
+    {
+      "id": "order-display-writes:freeze-existing-cancel-title",
+      "suiteId": "order-display-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "order display parity cancel",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "countdown refund pause priority cancel and factory updates",
+        "started": [
+          "stable paid eight scout orders measured against v283",
+          "countdown refund pause priority cancel and factory updates"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "b58605013d40adc9e67343fba99a72b898e70dbefed1015fba2dc9f4fc32d0d6",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "04b081c78f7dd9a229565379b9890cda0a7b901ba43547081fbb877ae3be3c0d",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "b58605013d40adc9e67343fba99a72b898e70dbefed1015fba2dc9f4fc32d0d6",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "04b081c78f7dd9a229565379b9890cda0a7b901ba43547081fbb877ae3be3c0d",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "order display parity cancel",
+          "stack": "AssertionError [ERR_ASSERTION]: order display parity cancel\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      children: [\n        {\n          aria: null,\n...\n          text: '取消订单 · 退 180',\n+         title: '点击取消并按剩余生产比例退款；Shift+点击移到等待首位，费用和已有进度保留；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n-         title: '点击取消订单，按剩余生产比例退款；已占用工厂，不可Shift插队；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n          aria: '第1单 侦察战车：移到等待首位（正在生产／已分配工厂）',\n          disabled: true,\n          id: 'orderPriority0',\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:132)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:10:77)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:18:1406\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:267)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:18:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "order-display-writes:freeze-existing-cancel-title",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "b58605013d40adc9e67343fba99a72b898e70dbefed1015fba2dc9f4fc32d0d6",
+          "descriptorHash": "f42a19f4b5da22de15c37132de50471f3480303a2f418729003209c9699057e6"
+        },
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "b58605013d40adc9e67343fba99a72b898e70dbefed1015fba2dc9f4fc32d0d6",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      }
+    },
+    {
+      "id": "order-display-writes:omit-terminal-title",
+      "suiteId": "order-display-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "order display parity terminal",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "synthetic display branch terminal",
+        "started": [
+          "stable paid eight scout orders measured against v283",
+          "countdown refund pause priority cancel and factory updates",
+          "real local loop title and cancellation suffix",
+          "real global loop title and cancellation suffix",
+          "synthetic display branch terminal"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "9dc7e327ee8260e9d3f5e4d0f7b8d3aa0833c415b994c628db4e3b0bc93fe3da",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "0c487b15578a62354aeaae70d926a61d96e038803980d7117feb4666b0a280a5",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "9dc7e327ee8260e9d3f5e4d0f7b8d3aa0833c415b994c628db4e3b0bc93fe3da",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "0c487b15578a62354aeaae70d926a61d96e038803980d7117feb4666b0a280a5",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "9dc7e327ee8260e9d3f5e4d0f7b8d3aa0833c415b994c628db4e3b0bc93fe3da",
+            "scenario": "real local loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "0c487b15578a62354aeaae70d926a61d96e038803980d7117feb4666b0a280a5",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "real local loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "9dc7e327ee8260e9d3f5e4d0f7b8d3aa0833c415b994c628db4e3b0bc93fe3da",
+            "scenario": "real global loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "0c487b15578a62354aeaae70d926a61d96e038803980d7117feb4666b0a280a5",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "real global loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "9dc7e327ee8260e9d3f5e4d0f7b8d3aa0833c415b994c628db4e3b0bc93fe3da",
+            "scenario": "synthetic display branch terminal",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "0c487b15578a62354aeaae70d926a61d96e038803980d7117feb4666b0a280a5",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "synthetic display branch terminal",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "order display parity terminal",
+          "stack": "AssertionError [ERR_ASSERTION]: order display parity terminal\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      children: [\n        {\n          aria: null,\n...\n          text: '取消订单 · 战局已结束',\n+         title: '点击取消订单，按剩余生产比例退款；已占用工厂，不可Shift插队；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n-         title: '战局已结束，订单仅供只读查看；结束时剩余4秒'\n        },\n        {\n          aria: '第1单 侦察战车：移到等待首位（当前不能下达命令）',\n          disabled: true,\n          id: 'orderPriority0',\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:132)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:10:77)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:20:452\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:267)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:20:210)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "order-display-writes:omit-terminal-title",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "9dc7e327ee8260e9d3f5e4d0f7b8d3aa0833c415b994c628db4e3b0bc93fe3da",
+          "descriptorHash": "cd594660c339dfd4a329b26768c78ebb87b8656d81ad3849b7056074a678a101"
+        },
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "9dc7e327ee8260e9d3f5e4d0f7b8d3aa0833c415b994c628db4e3b0bc93fe3da",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      }
+    },
+    {
+      "id": "order-display-writes:skip-empty-aria-repair",
+      "suiteId": "order-display-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "order display parity repair empty aria and wrong text/title",
+      "evidence": {
+        "suiteId": "order-display-writes",
+        "scenario": "synthetic presentation damage repaired on same nodes",
+        "started": [
+          "stable paid eight scout orders measured against v283",
+          "countdown refund pause priority cancel and factory updates",
+          "real local loop title and cancellation suffix",
+          "real global loop title and cancellation suffix",
+          "synthetic display branch terminal",
+          "synthetic display branch power shortage",
+          "synthetic display branch blocked exit",
+          "synthetic presentation damage repaired on same nodes"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "bc6f02b51068dc5e595026680f721e1abcaca38fed116f68a104f2143198d69e",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "b00847de8ee7e8616732ba02636dfd3aef38e708db70481fa747fc0cfb65a630",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "stable paid eight scout orders measured against v283",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "bc6f02b51068dc5e595026680f721e1abcaca38fed116f68a104f2143198d69e",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "b00847de8ee7e8616732ba02636dfd3aef38e708db70481fa747fc0cfb65a630",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "countdown refund pause priority cancel and factory updates",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "bc6f02b51068dc5e595026680f721e1abcaca38fed116f68a104f2143198d69e",
+            "scenario": "real local loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "b00847de8ee7e8616732ba02636dfd3aef38e708db70481fa747fc0cfb65a630",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "real local loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "bc6f02b51068dc5e595026680f721e1abcaca38fed116f68a104f2143198d69e",
+            "scenario": "real global loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "b00847de8ee7e8616732ba02636dfd3aef38e708db70481fa747fc0cfb65a630",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "real global loop title and cancellation suffix",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "bc6f02b51068dc5e595026680f721e1abcaca38fed116f68a104f2143198d69e",
+            "scenario": "synthetic display branch terminal",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "b00847de8ee7e8616732ba02636dfd3aef38e708db70481fa747fc0cfb65a630",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "synthetic display branch terminal",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "bc6f02b51068dc5e595026680f721e1abcaca38fed116f68a104f2143198d69e",
+            "scenario": "synthetic display branch power shortage",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "b00847de8ee7e8616732ba02636dfd3aef38e708db70481fa747fc0cfb65a630",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "synthetic display branch power shortage",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "bc6f02b51068dc5e595026680f721e1abcaca38fed116f68a104f2143198d69e",
+            "scenario": "synthetic display branch blocked exit",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "b00847de8ee7e8616732ba02636dfd3aef38e708db70481fa747fc0cfb65a630",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "synthetic display branch blocked exit",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "bc6f02b51068dc5e595026680f721e1abcaca38fed116f68a104f2143198d69e",
+            "scenario": "synthetic presentation damage repaired on same nodes",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "b00847de8ee7e8616732ba02636dfd3aef38e708db70481fa747fc0cfb65a630",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac",
+            "scenario": "synthetic presentation damage repaired on same nodes",
+            "seed": 28342,
+            "suiteId": "order-display-writes",
+            "scriptHash": "fa802bc3c65e5dca66ed53acb6cc943d0d4d92bedcd35f024beed570217e03c6",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "order display parity repair empty aria and wrong text/title",
+          "stack": "AssertionError [ERR_ASSERTION]: order display parity repair empty aria and wrong text/title\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      children: [\n        {\n          aria: null,\n...\n        {\n+         aria: '',\n-         aria: '第1单 侦察战车：普通点击取消订单 · 退 175',\n          disabled: false,\n          display: 'block',\n          id: 'order0',\n          text: '取消订单 · 退 175',\n          title: '点击取消订单，按剩余生产比例退款；已占用工厂，不可Shift插队；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n+         aria: '',\n-         aria: '第1单 侦察战车：移到等待首位（正在生产／已分配工厂）',\n          disabled: true,\n          id: 'orderPriority0',\n          text: '移到等待首位 · 正在生产／已分配工厂',\n          title: '正在生产／已分配工厂；仅调整此已付订单的等待顺序，不抢占已分配工厂；费用、已有进度与循环设置保留，Shift或Alt不改变本按钮含义'\n        },\n        {\n+         aria: '',\n-         aria: '第1单 侦察战车：选择当前已分配工厂',\n          disabled: false,\n          id: 'orderFactory0',\n          text: '选择此订单工厂',\n          title: '仅选择此订单当前已分配的存活己方已完工工厂；订单、费用、进度、循环与集结设置保留，不自动清理出口，Shift或Alt不改变本按钮含义'\n        }\n...\n        {\n+         aria: '',\n-         aria: '第2单 侦察战车：普通点击取消订单 · 退 180',\n          disabled: false,\n          display: 'block',\n          id: 'order1',\n          text: '取消订单 · 退 180',\n          title: '点击取消并按剩余生产比例退款；Shift+点击移到等待首位，费用和已有进度保留；Alt+点击仅选择已分配工厂（优先于Shift），不取消订单'\n        },\n        {\n+         aria: '',\n-         aria: '第2单 侦察战车：移到等待首位（已在等待首位）',\n          disabled: true,\n          id: 'orderPriority1',\n          text: '移到等待首位 · 已在等待首位',\n          title: '已在等待首位；仅调整此已付订单的等待顺序，不抢占已分配工厂；费用、已有进度与循环设置保留，Shift或Alt不改变本按钮含义'\n        },\n        {\n+         aria: '',\n-         aria: '第2单 侦察战车：选择当前已分配工厂（暂无可用的已分配工厂）',\n          disabled: true,\n          id: 'orderFactory1',\n          text: '选择此订单工厂 · 暂无可用的已分配工厂',\n          title: '暂无可用的已分配工厂；仅选择此订单当前已分配的存活己方已完工工厂；订单、费用、进度、循环与集结设置保留，不自动清理出口，Shift或Alt不改变本按钮含义'\n        }\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:132)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:10:77)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:21:388\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:5:267)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/order-display-writes.cjs:21:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "order-display-writes:skip-empty-aria-repair",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "bc6f02b51068dc5e595026680f721e1abcaca38fed116f68a104f2143198d69e",
+          "descriptorHash": "2deca1ebaf1d99b3ebdd6b1f985a4335d13d5e38791b7d725cc2e5b01e4f2ad5"
+        },
+        "suiteHash": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+        "expected": {
+          "candidate": "bc6f02b51068dc5e595026680f721e1abcaca38fed116f68a104f2143198d69e",
+          "reference": "4a271b7245a28231aef287ede31474c2ac5c368a2ec5e3e289ae792b90f32dac"
+        }
+      }
+    },
+    {
+      "id": "selection-filter-writes:unconditional-filter-text",
+      "suiteId": "selection-filter-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "stable filter writes zero",
+      "evidence": {
+        "suiteId": "selection-filter-writes",
+        "scenario": "stable paused army filters 300 to zero and real selection transitions",
+        "started": [
+          "stable paused army filters 300 to zero and real selection transitions"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "4c6f037e8f90c624cb15d225d0c8249220e44496d318f01fd6239ed513e32c45",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "03ff8c40265551d99fecc38ef2d46fccaa83b07d5557d2db5053902bdbce0b92",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "stable filter writes zero",
+          "stack": "AssertionError [ERR_ASSERTION]: stable filter writes zero\n\n140 !== 0\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:336)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:12:607\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:471)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:12:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+        },
+        "mutation": {
+          "id": "selection-filter-writes:unconditional-filter-text",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "4c6f037e8f90c624cb15d225d0c8249220e44496d318f01fd6239ed513e32c45",
+          "descriptorHash": "162c82d1a46e8c32ef5b374e843ffb41f0b08c16d60b628886806fe7189905c5"
+        },
+        "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "expected": {
+          "candidate": "4c6f037e8f90c624cb15d225d0c8249220e44496d318f01fd6239ed513e32c45",
+          "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+        }
+      }
+    },
+    {
+      "id": "selection-filter-writes:stale-selection-counts",
+      "suiteId": "selection-filter-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "filter display parity tank filter",
+      "evidence": {
+        "suiteId": "selection-filter-writes",
+        "scenario": "stable paused army filters 300 to zero and real selection transitions",
+        "started": [
+          "stable paused army filters 300 to zero and real selection transitions"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "34cbd66b3925a4a7305ddfdc5df660ee7333a14d63787dadf9cddaf4019295fb",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "c1f40a7980f00b9939e6b41a19161422f86d4581fae1a380d3e8d3f78b54c66f",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "filter display parity tank filter",
+          "stack": "AssertionError [ERR_ASSERTION]: filter display parity tank filter\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n+     disabled: false,\n-     disabled: true,\n      id: 'filterSelectionCombat',\n+     text: '仅选战斗车 3',\n-     text: '仅选战斗车 2',\n      title: '仅保留当前选区内存活且已完成的己方战斗车（坦克、侦察车、火炮）；不扩大到全图，不改命令或编队成员。'\n    },\n    {\n      disabled: true,\n      id: 'filterSelectionDamaged',\n...\n    {\n+     disabled: false,\n-     disabled: true,\n      id: 'filterSelectionScout',\n+     text: '仅选侦察车 1',\n-     text: '仅选侦察车 0',\n      title: '仅保留当前选区内存活且已完成的己方侦察车；不扩大到全图，不改命令或编队成员。'\n    },\n    {\n      disabled: true,\n      id: 'filterSelectionArtillery',\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:336)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:8:436)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:12:933\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:471)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:12:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "selection-filter-writes:stale-selection-counts",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "34cbd66b3925a4a7305ddfdc5df660ee7333a14d63787dadf9cddaf4019295fb",
+          "descriptorHash": "ba19c3bd4c17097fd2ff51edea52c8142be32c72c7d774c727bfcda29b53e1b7"
+        },
+        "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "expected": {
+          "candidate": "34cbd66b3925a4a7305ddfdc5df660ee7333a14d63787dadf9cddaf4019295fb",
+          "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+        }
+      }
+    },
+    {
+      "id": "selection-filter-writes:skip-changed-filter-text",
+      "suiteId": "selection-filter-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "filter display parity tank filter",
+      "evidence": {
+        "suiteId": "selection-filter-writes",
+        "scenario": "stable paused army filters 300 to zero and real selection transitions",
+        "started": [
+          "stable paused army filters 300 to zero and real selection transitions"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "041bb6078f9767a92f51f32919bbb63914fe41d3e1c8edbee5aec98187bc194b",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "a150e9190048da994b474503c583d0770a72f0f23418845d87ead0747f768569",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "filter display parity tank filter",
+          "stack": "AssertionError [ERR_ASSERTION]: filter display parity tank filter\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      disabled: true,\n      id: 'filterSelectionCombat',\n+     text: '仅选战斗车 3',\n-     text: '仅选战斗车 2',\n      title: '仅保留当前选区内存活且已完成的己方战斗车（坦克、侦察车、火炮）；不扩大到全图，不改命令或编队成员。'\n    },\n    {\n      disabled: true,\n      id: 'filterSelectionDamaged',\n...\n      id: 'filterSelectionScout',\n+     text: '仅选侦察车 1',\n-     text: '仅选侦察车 0',\n      title: '仅保留当前选区内存活且已完成的己方侦察车；不扩大到全图，不改命令或编队成员。'\n    },\n    {\n      disabled: true,\n      id: 'filterSelectionArtillery',\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:336)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:8:436)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:12:933\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:471)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:12:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "selection-filter-writes:skip-changed-filter-text",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "041bb6078f9767a92f51f32919bbb63914fe41d3e1c8edbee5aec98187bc194b",
+          "descriptorHash": "a1f717a8d694c14791a5ce3a20e2ac4d8cb77d2970b15b7032bbdf5311c38b76"
+        },
+        "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "expected": {
+          "candidate": "041bb6078f9767a92f51f32919bbb63914fe41d3e1c8edbee5aec98187bc194b",
+          "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+        }
+      }
+    },
+    {
+      "id": "selection-filter-writes:skip-critical-title-repair",
+      "suiteId": "selection-filter-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "filter display parity wrong strings restored",
+      "evidence": {
+        "suiteId": "selection-filter-writes",
+        "scenario": "synthetic presentation corruption repaired no gameplay change",
+        "started": [
+          "stable paused army filters 300 to zero and real selection transitions",
+          "legal natural combat damage updates and live filter action",
+          "legal lifecycle menu",
+          "legal lifecycle restart",
+          "legal lifecycle new battle",
+          "synthetic damaged health death and terminal live recomputation",
+          "synthetic presentation corruption repaired no gameplay change"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "fedc738fc75610b2beb73c0050769172b24df15374176284c2115b20b1e9b81a",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "51280233cdff255b259e92d85f006f1dad30bbb20d8eda034de33b263076a573",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "fedc738fc75610b2beb73c0050769172b24df15374176284c2115b20b1e9b81a",
+            "scenario": "legal natural combat damage updates and live filter action",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "51280233cdff255b259e92d85f006f1dad30bbb20d8eda034de33b263076a573",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal natural combat damage updates and live filter action",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "fedc738fc75610b2beb73c0050769172b24df15374176284c2115b20b1e9b81a",
+            "scenario": "legal lifecycle menu",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "51280233cdff255b259e92d85f006f1dad30bbb20d8eda034de33b263076a573",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal lifecycle menu",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "fedc738fc75610b2beb73c0050769172b24df15374176284c2115b20b1e9b81a",
+            "scenario": "legal lifecycle restart",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "51280233cdff255b259e92d85f006f1dad30bbb20d8eda034de33b263076a573",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal lifecycle restart",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "fedc738fc75610b2beb73c0050769172b24df15374176284c2115b20b1e9b81a",
+            "scenario": "legal lifecycle new battle",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "51280233cdff255b259e92d85f006f1dad30bbb20d8eda034de33b263076a573",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal lifecycle new battle",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "fedc738fc75610b2beb73c0050769172b24df15374176284c2115b20b1e9b81a",
+            "scenario": "synthetic damaged health death and terminal live recomputation",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "51280233cdff255b259e92d85f006f1dad30bbb20d8eda034de33b263076a573",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "synthetic damaged health death and terminal live recomputation",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "fedc738fc75610b2beb73c0050769172b24df15374176284c2115b20b1e9b81a",
+            "scenario": "synthetic presentation corruption repaired no gameplay change",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "51280233cdff255b259e92d85f006f1dad30bbb20d8eda034de33b263076a573",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "synthetic presentation corruption repaired no gameplay change",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "filter display parity wrong strings restored",
+          "stack": "AssertionError [ERR_ASSERTION]: filter display parity wrong strings restored\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      disabled: true,\n      id: 'filterSelectionCombat',\n      text: '仅选战斗车 3',\n...\n      text: '',\n+     title: 'wrong'\n-     title: '只在当前选区选一辆受损战斗车（含轻伤）：最低生命比例优先，同率按编号；不选满血车辆，不是战略优先推荐。不撤退、不修理，原命令与编队成员保留。'\n    }\n  ]\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:336)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:8:436)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:16:311\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:471)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:16:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "selection-filter-writes:skip-critical-title-repair",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "fedc738fc75610b2beb73c0050769172b24df15374176284c2115b20b1e9b81a",
+          "descriptorHash": "84278a35cb35e9f8257516936c97e03aae7f978c542865d7f55bdb174cc59310"
+        },
+        "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "expected": {
+          "candidate": "fedc738fc75610b2beb73c0050769172b24df15374176284c2115b20b1e9b81a",
+          "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+        }
+      }
+    },
+    {
+      "id": "selection-filter-writes:stale-damaged-count",
+      "suiteId": "selection-filter-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "filter display parity natural damage",
+      "evidence": {
+        "suiteId": "selection-filter-writes",
+        "scenario": "legal natural combat damage updates and live filter action",
+        "started": [
+          "stable paused army filters 300 to zero and real selection transitions",
+          "legal natural combat damage updates and live filter action"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "72e79b8b711897acb0a339a405be933de7276b5c00f9b8673866899f4112274d",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "bdc64c1977cc0982a3048ab5cce05a9eec60258ff1b0863b5c55f6af5b17645a",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "72e79b8b711897acb0a339a405be933de7276b5c00f9b8673866899f4112274d",
+            "scenario": "legal natural combat damage updates and live filter action",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "bdc64c1977cc0982a3048ab5cce05a9eec60258ff1b0863b5c55f6af5b17645a",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal natural combat damage updates and live filter action",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "filter display parity natural damage",
+          "stack": "AssertionError [ERR_ASSERTION]: filter display parity natural damage\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      disabled: true,\n      id: 'filterSelectionCombat',\n      text: '仅选战斗车 3',\n...\n    {\n+     disabled: true,\n-     disabled: false,\n      id: 'filterSelectionDamaged',\n+     text: '仅选受损战斗车 0',\n-     text: '仅选受损战斗车 1',\n      title: '仅保留当前选区内存活、已完工且生命低于自身满值的己方战斗车（坦克、侦察车、火炮），含轻伤；只改变选择，不扩大到全图，不改命令或编队，不自动撤退或修理。'\n    },\n    {\n      disabled: false,\n      id: 'filterSelectionTank',\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:336)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:8:436)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:13:524\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:471)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:13:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "selection-filter-writes:stale-damaged-count",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "72e79b8b711897acb0a339a405be933de7276b5c00f9b8673866899f4112274d",
+          "descriptorHash": "5b0d568340179abbebc79a03c075a99ff303194f1fad83cbe6b53b0350d9570a"
+        },
+        "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "expected": {
+          "candidate": "72e79b8b711897acb0a339a405be933de7276b5c00f9b8673866899f4112274d",
+          "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+        }
+      }
+    },
+    {
+      "id": "selection-filter-writes:ignore-blocked-filters",
+      "suiteId": "selection-filter-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "filter display parity restart",
+      "evidence": {
+        "suiteId": "selection-filter-writes",
+        "scenario": "legal lifecycle restart",
+        "started": [
+          "stable paused army filters 300 to zero and real selection transitions",
+          "legal natural combat damage updates and live filter action",
+          "legal lifecycle menu",
+          "legal lifecycle restart"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "0a86ab35821c8c96d0da0cbfd7e7fc4007ae85cff2264436c541ccb0203c0844",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "eaa307e4fa7567dec3f17d92dd97c4b569bb6de7d7eaf7bf8d6d16b22a74ac02",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "0a86ab35821c8c96d0da0cbfd7e7fc4007ae85cff2264436c541ccb0203c0844",
+            "scenario": "legal natural combat damage updates and live filter action",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "eaa307e4fa7567dec3f17d92dd97c4b569bb6de7d7eaf7bf8d6d16b22a74ac02",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal natural combat damage updates and live filter action",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "0a86ab35821c8c96d0da0cbfd7e7fc4007ae85cff2264436c541ccb0203c0844",
+            "scenario": "legal lifecycle menu",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "eaa307e4fa7567dec3f17d92dd97c4b569bb6de7d7eaf7bf8d6d16b22a74ac02",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal lifecycle menu",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          },
+          {
+            "role": "candidate",
+            "sourceHash": "0a86ab35821c8c96d0da0cbfd7e7fc4007ae85cff2264436c541ccb0203c0844",
+            "scenario": "legal lifecycle restart",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "eaa307e4fa7567dec3f17d92dd97c4b569bb6de7d7eaf7bf8d6d16b22a74ac02",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "legal lifecycle restart",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "filter display parity restart",
+          "stack": "AssertionError [ERR_ASSERTION]: filter display parity restart\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      disabled: true,\n      id: 'filterSelectionCombat',\n      text: '仅选战斗车 3',\n...\n    {\n+     disabled: false,\n-     disabled: true,\n      id: 'filterSelectionTank',\n      text: '仅选坦克 2',\n      title: '仅保留当前选区内存活且已完成的己方坦克；不扩大到全图，不改命令或编队成员。'\n    },\n    {\n+     disabled: false,\n-     disabled: true,\n      id: 'filterSelectionScout',\n      text: '仅选侦察车 1',\n      title: '仅保留当前选区内存活且已完成的己方侦察车；不扩大到全图，不改命令或编队成员。'\n    },\n    {\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:336)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:8:436)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:14:230\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:471)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:14:52)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "selection-filter-writes:ignore-blocked-filters",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "0a86ab35821c8c96d0da0cbfd7e7fc4007ae85cff2264436c541ccb0203c0844",
+          "descriptorHash": "c8e3e6915514089817d0c6afb30899eb96b8e6d0df0edce071290a0085a2a2f4"
+        },
+        "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "expected": {
+          "candidate": "0a86ab35821c8c96d0da0cbfd7e7fc4007ae85cff2264436c541ccb0203c0844",
+          "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+        }
+      }
+    },
+    {
+      "id": "selection-filter-writes:do-not-disable-matching-selection",
+      "suiteId": "selection-filter-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "filter display parity army initial",
+      "evidence": {
+        "suiteId": "selection-filter-writes",
+        "scenario": "stable paused army filters 300 to zero and real selection transitions",
+        "started": [
+          "stable paused army filters 300 to zero and real selection transitions"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "d2c7076fc91bb66a9f2a7924d1815af144c89131b467d8ff482309c554e56d1a",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "997861259ba310a9d22b9fef715b5e466d41317688d6e86d65b7e8337af81990",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "filter display parity army initial",
+          "stack": "AssertionError [ERR_ASSERTION]: filter display parity army initial\n+ actual - expected\n\n  [\n    {\n+     disabled: false,\n-     disabled: true,\n      id: 'filterSelectionCombat',\n      text: '仅选战斗车 3',\n      title: '仅保留当前选区内存活且已完成的己方战斗车（坦克、侦察车、火炮）；不扩大到全图，不改命令或编队成员。'\n    },\n    {\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:336)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:8:436)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:12:218\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:471)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:12:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "selection-filter-writes:do-not-disable-matching-selection",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "d2c7076fc91bb66a9f2a7924d1815af144c89131b467d8ff482309c554e56d1a",
+          "descriptorHash": "acae1cbd5866113db3923ebb9ecef3cb898c06f759555899cdd7d5963bef982d"
+        },
+        "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "expected": {
+          "candidate": "d2c7076fc91bb66a9f2a7924d1815af144c89131b467d8ff482309c554e56d1a",
+          "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+        }
+      }
+    },
+    {
+      "id": "selection-filter-writes:wrong-critical-title",
+      "suiteId": "selection-filter-writes",
+      "classification": "DETECTED_BEHAVIOR",
+      "expectedMessage": "filter display parity army initial",
+      "evidence": {
+        "suiteId": "selection-filter-writes",
+        "scenario": "stable paused army filters 300 to zero and real selection transitions",
+        "started": [
+          "stable paused army filters 300 to zero and real selection transitions"
+        ],
+        "loads": [
+          {
+            "role": "candidate",
+            "sourceHash": "a0c1732dbd5c80d36294190de21b602036425655194c69708084cc71348a9e75",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "3fbc92ecf6c0d83ed7cf3aec5e736861e0e55776301ca1ff78ee0cf62baec57e",
+            "compiled": true
+          },
+          {
+            "role": "reference",
+            "sourceHash": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc",
+            "scenario": "stable paused army filters 300 to zero and real selection transitions",
+            "seed": 28551,
+            "suiteId": "selection-filter-writes",
+            "scriptHash": "b1d4d34ccf3001b9dbafe8e45d8d85713b62fd7629a073226886916811a61e98",
+            "compiled": true
+          }
+        ],
+        "completed": false,
+        "failure": {
+          "name": "AssertionError",
+          "code": "ERR_ASSERTION",
+          "message": "filter display parity army initial",
+          "stack": "AssertionError [ERR_ASSERTION]: filter display parity army initial\n+ actual - expected\n... Skipped lines\n\n  [\n    {\n      disabled: true,\n      id: 'filterSelectionCombat',\n      text: '仅选战斗车 3',\n...\n      text: '',\n+     title: '只在当前选区选一辆受损战斗车（含轻伤）：最低生命比例优先，同率按编号；自动修理。'\n-     title: '只在当前选区选一辆受损战斗车（含轻伤）：最低生命比例优先，同率按编号；不选满血车辆，不是战略优先推荐。不撤退、不修理，原命令与编队成员保留。'\n    }\n  ]\n\n    at eq (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:336)\n    at pair (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:8:436)\n    at /tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:12:218\n    at test (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:5:471)\n    at Object.<anonymous> (/tmp/red-v289-pilot-release-gCpTeA/RED/verification/parameterized-pilot/selection-filter-writes.cjs:12:2)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+        },
+        "mutation": {
+          "id": "selection-filter-writes:wrong-critical-title",
+          "originalHash": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+          "mutatedHash": "a0c1732dbd5c80d36294190de21b602036425655194c69708084cc71348a9e75",
+          "descriptorHash": "9e17e57872bd7771246c2f0a1fa6b6c27cc52f86e7aaddd55dd7c37cab45106c"
+        },
+        "suiteHash": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+        "expected": {
+          "candidate": "a0c1732dbd5c80d36294190de21b602036425655194c69708084cc71348a9e75",
+          "reference": "2bd7435675b262d4b20c537e3e97ab5410346903b17943cd85c36c2a4e4c94dc"
+        }
+      }
+    }
+  ],
+  "scope": "Two-family pilot only; frozen default aggregate unchanged; exact existing semantic outputs retained.",
+  "releaseIntegration": {
+    "mode": "current-v293",
+    "selectedManifest": "current-suite-manifest-v293.json",
+    "originalCandidatePath": "../../index.html",
+    "currentSourceSha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+    "historicalHostSha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+    "sourceIdentitySeparateFromBehavior": true,
+    "stableCodeUnchanged": true,
+    "scope": "Two stable selected-source suites and all 18 exact behavior mutations. The original v287 positive scripts execute only against the separate exact v287 host for semantic-result comparison. Historical identity and comparison are not current-v293 behavior counts."
+  }
+}

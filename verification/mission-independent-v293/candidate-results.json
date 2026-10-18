@@ -1,0 +1,89 @@
+{
+  "source": "red-development/v293-switchback-mission/RED/index.html",
+  "sha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+  "passed": 20,
+  "failed": 0,
+  "scope": "Synthetic whole-source VM/DOM lifecycle and UI-prefill checks, with terminal fixtures explicit. No native browser or persistence operations. Gameplay rule parity checked by exact normalized script equality.",
+  "results": [
+    {
+      "name": "prefill only initial",
+      "pass": true
+    },
+    {
+      "name": "prefill only restart",
+      "pass": true
+    },
+    {
+      "name": "prefill only terminal",
+      "pass": true
+    },
+    {
+      "name": "unavailable prefill guard live",
+      "pass": true
+    },
+    {
+      "name": "unavailable prefill guard paused",
+      "pass": true
+    },
+    {
+      "name": "unavailable prefill guard terminal-view",
+      "pass": true
+    },
+    {
+      "name": "manual override honored scenario",
+      "pass": true
+    },
+    {
+      "name": "manual override honored objective",
+      "pass": true
+    },
+    {
+      "name": "manual override honored difficulty",
+      "pass": true
+    },
+    {
+      "name": "manual override honored challenge",
+      "pass": true
+    },
+    {
+      "name": "preset start exactly matches existing manual configuration",
+      "pass": true
+    },
+    {
+      "name": "old preset unchanged assault",
+      "pass": true
+    },
+    {
+      "name": "old preset unchanged harvest",
+      "pass": true
+    },
+    {
+      "name": "old preset unchanged stronghold",
+      "pass": true
+    },
+    {
+      "name": "old preset unchanged meridian",
+      "pass": true
+    },
+    {
+      "name": "old preset unchanged control",
+      "pass": true
+    },
+    {
+      "name": "old preset unchanged survival",
+      "pass": true
+    },
+    {
+      "name": "restart cancel retains current battle and selected next configuration",
+      "pass": true
+    },
+    {
+      "name": "repeated quick button does not start or alter existing world",
+      "pass": true
+    },
+    {
+      "name": "entire script unchanged except preset binding",
+      "pass": true
+    }
+  ]
+}

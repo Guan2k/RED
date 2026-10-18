@@ -1,0 +1,143 @@
+{
+  "source": "/workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+  "sha256": "e5edd8f7384d37a356071c66c6788e681f3e45ad9ab224a52a783692b5ca0884",
+  "sourceUnchanged": true,
+  "config": {
+    "scenario": "switchback",
+    "objective": "stronghold",
+    "difficulty": "hard",
+    "challenge": "mobile"
+  },
+  "seeds": [
+    29301,
+    29302,
+    29303
+  ],
+  "result": "3 reproducible wins, narrow margin; not population win-rate",
+  "successfulStrategy": "Artillery-supported west-edge hold with repair escort and continuous paid tanks",
+  "runs": [
+    {
+      "seed": 29301,
+      "result": "胜利",
+      "time": 102.46666666666214,
+      "firstCapture": 12.483333333333533,
+      "contestSeconds": 0,
+      "progress": [
+        90,
+        0
+      ],
+      "stats": {
+        "income": [
+          4380,
+          3060
+        ],
+        "spent": [
+          5906,
+          5120
+        ],
+        "kills": [
+          10,
+          12
+        ],
+        "losses": [
+          12,
+          10
+        ],
+        "produced": [
+          14,
+          14
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          4140,
+          3060
+        ]
+      }
+    },
+    {
+      "seed": 29302,
+      "result": "胜利",
+      "time": 102.46666666666214,
+      "firstCapture": 12.483333333333533,
+      "contestSeconds": 0,
+      "progress": [
+        90,
+        0
+      ],
+      "stats": {
+        "income": [
+          4380,
+          3060
+        ],
+        "spent": [
+          5906,
+          5120
+        ],
+        "kills": [
+          10,
+          12
+        ],
+        "losses": [
+          12,
+          10
+        ],
+        "produced": [
+          14,
+          14
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          4140,
+          3060
+        ]
+      }
+    },
+    {
+      "seed": 29303,
+      "result": "胜利",
+      "time": 102.46666666666214,
+      "firstCapture": 12.483333333333533,
+      "contestSeconds": 0,
+      "progress": [
+        90,
+        0
+      ],
+      "stats": {
+        "income": [
+          4380,
+          3060
+        ],
+        "spent": [
+          5906,
+          5120
+        ],
+        "kills": [
+          10,
+          12
+        ],
+        "losses": [
+          12,
+          10
+        ],
+        "produced": [
+          14,
+          14
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          4140,
+          3060
+        ]
+      }
+    }
+  ]
+}

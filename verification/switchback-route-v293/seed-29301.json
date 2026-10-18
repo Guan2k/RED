@@ -1,0 +1,7051 @@
+{
+  "seed": 29301,
+  "source": "/workspace/scratch/e433d7540f34/red-development/v292-package-tools/RED/index.html",
+  "sha256": "e5edd8f7384d37a356071c66c6788e681f3e45ad9ab224a52a783692b5ca0884",
+  "config": {
+    "scenario": "switchback",
+    "objective": "stronghold",
+    "difficulty": "hard",
+    "challenge": "mobile"
+  },
+  "result": "胜利",
+  "time": 102.46666666666214,
+  "firstCapture": 12.483333333333533,
+  "contestSeconds": 0,
+  "progress": [
+    90,
+    0
+  ],
+  "stats": {
+    "income": [
+      4380,
+      3060
+    ],
+    "spent": [
+      5906,
+      5120
+    ],
+    "kills": [
+      10,
+      12
+    ],
+    "losses": [
+      12,
+      10
+    ],
+    "produced": [
+      14,
+      14
+    ],
+    "captures": [
+      1,
+      0
+    ],
+    "harvested": [
+      4140,
+      3060
+    ]
+  },
+  "narrative": "要点驻守达成：拥有目标据点并累计驻圈90有效秒。 用时 1分42秒；击毁 10，损失 12；总收入 4380，净消费 5906。 规则：机动作战（己方禁建炮塔）。",
+  "actions": [
+    {
+      "t": 0,
+      "kind": "move",
+      "selected": [
+        8
+      ],
+      "x": 550,
+      "y": 510,
+      "hold": true,
+      "receipt": "最近地图命令：已接收 · 移动 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "t": 0,
+      "kind": "move",
+      "selected": [
+        6
+      ],
+      "x": 565,
+      "y": 470,
+      "hold": true,
+      "receipt": "最近地图命令：已接收 · 移动 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "t": 0,
+      "kind": "move",
+      "selected": [
+        7
+      ],
+      "x": 590,
+      "y": 535,
+      "hold": true,
+      "receipt": "最近地图命令：已接收 · 移动 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "t": 0,
+      "kind": "move",
+      "selected": [
+        4
+      ],
+      "x": 580,
+      "y": 500,
+      "hold": false,
+      "receipt": "最近地图命令：已接收 · 工厂集结点 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "t": 0,
+      "kind": "rallyHold"
+    },
+    {
+      "t": 0,
+      "kind": "buy",
+      "type": "artillery",
+      "before": 1700,
+      "after": 1150,
+      "queue": [
+        "artillery"
+      ]
+    },
+    {
+      "t": 0,
+      "kind": "buy",
+      "type": "repair",
+      "before": 1150,
+      "after": 650,
+      "queue": [
+        "artillery",
+        "repair"
+      ]
+    },
+    {
+      "t": 0,
+      "kind": "buy",
+      "type": "artillery",
+      "before": 650,
+      "after": 100,
+      "queue": [
+        "artillery",
+        "repair",
+        "artillery"
+      ]
+    },
+    {
+      "t": 10.000000000000076,
+      "kind": "move",
+      "selected": [
+        20
+      ],
+      "x": 600,
+      "y": 440,
+      "hold": true,
+      "receipt": "最近地图命令：已接收 · 移动 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "t": 11.000000000000126,
+      "kind": "buy",
+      "type": "tank",
+      "before": 460,
+      "after": 110,
+      "queue": [
+        "repair",
+        "artillery",
+        "tank"
+      ]
+    },
+    {
+      "t": 19.000000000000203,
+      "kind": "move",
+      "selected": [
+        23
+      ],
+      "x": 545,
+      "y": 510,
+      "hold": false,
+      "receipt": "最近地图命令：已接收 · 维修车跟随 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "t": 19.000000000000203,
+      "kind": "buy",
+      "type": "tank",
+      "before": 470,
+      "after": 120,
+      "queue": [
+        "artillery",
+        "tank",
+        "tank"
+      ]
+    },
+    {
+      "t": 28.999999999999634,
+      "kind": "move",
+      "selected": [
+        25
+      ],
+      "x": 575,
+      "y": 560,
+      "hold": true,
+      "receipt": "最近地图命令：已接收 · 移动 1；0 个所选存活友方单位保留原命令/设置。仅回执，不代表抵达或生效结果。"
+    },
+    {
+      "t": 28.999999999999634,
+      "kind": "buy",
+      "type": "tank",
+      "before": 510,
+      "after": 160,
+      "queue": [
+        "tank",
+        "tank",
+        "tank"
+      ]
+    },
+    {
+      "t": 35.99999999999924,
+      "kind": "buy",
+      "type": "tank",
+      "before": 550,
+      "after": 200,
+      "queue": [
+        "tank",
+        "tank",
+        "tank"
+      ]
+    },
+    {
+      "t": 44.99999999999873,
+      "kind": "buy",
+      "type": "tank",
+      "before": 588,
+      "after": 238,
+      "queue": [
+        "tank",
+        "tank",
+        "tank"
+      ]
+    },
+    {
+      "t": 52.99999999999827,
+      "kind": "buy",
+      "type": "tank",
+      "before": 614,
+      "after": 264,
+      "queue": [
+        "tank",
+        "tank",
+        "tank"
+      ]
+    },
+    {
+      "t": 61.99999999999776,
+      "kind": "buy",
+      "type": "tank",
+      "before": 606,
+      "after": 256,
+      "queue": [
+        "tank",
+        "tank"
+      ]
+    },
+    {
+      "t": 65.99999999999754,
+      "kind": "buy",
+      "type": "tank",
+      "before": 460,
+      "after": 110,
+      "queue": [
+        "tank",
+        "tank"
+      ]
+    },
+    {
+      "t": 73.99999999999709,
+      "kind": "buy",
+      "type": "tank",
+      "before": 484,
+      "after": 134,
+      "queue": [
+        "tank",
+        "tank"
+      ]
+    },
+    {
+      "t": 82.99999999999658,
+      "kind": "buy",
+      "type": "tank",
+      "before": 507,
+      "after": 157,
+      "queue": [
+        "tank",
+        "tank"
+      ]
+    },
+    {
+      "t": 90.99999999999612,
+      "kind": "buy",
+      "type": "tank",
+      "before": 504,
+      "after": 154,
+      "queue": [
+        "tank"
+      ]
+    },
+    {
+      "t": 98.99999999999567,
+      "kind": "buy",
+      "type": "tank",
+      "before": 530,
+      "after": 180,
+      "queue": [
+        "tank"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "t": 5.8499999999999845,
+      "kind": "harvest",
+      "total": 180,
+      "cash": 280
+    },
+    {
+      "t": 10.000000000000076,
+      "kind": "produced",
+      "total": 1,
+      "types": [
+        {
+          "id": 20,
+          "type": "artillery"
+        }
+      ]
+    },
+    {
+      "t": 10.216666666666754,
+      "kind": "harvest",
+      "total": 360,
+      "cash": 460
+    },
+    {
+      "t": 12.483333333333533,
+      "kind": "owner",
+      "from": -1,
+      "to": 0,
+      "present": [
+        3,
+        0
+      ]
+    },
+    {
+      "t": 14.516666666666968,
+      "kind": "harvest",
+      "total": 540,
+      "cash": 290
+    },
+    {
+      "t": 18.766666666666882,
+      "kind": "harvest",
+      "total": 720,
+      "cash": 470
+    },
+    {
+      "t": 19.000000000000203,
+      "kind": "produced",
+      "total": 2,
+      "types": [
+        {
+          "id": 20,
+          "type": "artillery"
+        },
+        {
+          "id": 23,
+          "type": "repair"
+        }
+      ]
+    },
+    {
+      "t": 23.01666666666664,
+      "kind": "harvest",
+      "total": 900,
+      "cash": 330
+    },
+    {
+      "t": 27.2666666666664,
+      "kind": "harvest",
+      "total": 1080,
+      "cash": 510
+    },
+    {
+      "t": 28.999999999999634,
+      "kind": "produced",
+      "total": 3,
+      "types": [
+        {
+          "id": 20,
+          "type": "artillery"
+        },
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 25,
+          "type": "artillery"
+        }
+      ]
+    },
+    {
+      "t": 31.499999999999492,
+      "kind": "harvest",
+      "total": 1260,
+      "cash": 340
+    },
+    {
+      "t": 35.01666666666596,
+      "kind": "produced",
+      "total": 4,
+      "types": [
+        {
+          "id": 20,
+          "type": "artillery"
+        },
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 25,
+          "type": "artillery"
+        },
+        {
+          "id": 27,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 35.71666666666592,
+      "kind": "harvest",
+      "total": 1440,
+      "cash": 550
+    },
+    {
+      "t": 39.93333333333235,
+      "kind": "harvest",
+      "total": 1620,
+      "cash": 380
+    },
+    {
+      "t": 41.03333333333229,
+      "kind": "produced",
+      "total": 5,
+      "types": [
+        {
+          "id": 20,
+          "type": "artillery"
+        },
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 25,
+          "type": "artillery"
+        },
+        {
+          "id": 27,
+          "type": "tank"
+        },
+        {
+          "id": 29,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 44.149999999998776,
+      "kind": "harvest",
+      "total": 1800,
+      "cash": 590
+    },
+    {
+      "t": 47.04999999999861,
+      "kind": "produced",
+      "total": 6,
+      "types": [
+        {
+          "id": 20,
+          "type": "artillery"
+        },
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 25,
+          "type": "artillery"
+        },
+        {
+          "id": 27,
+          "type": "tank"
+        },
+        {
+          "id": 29,
+          "type": "tank"
+        },
+        {
+          "id": 31,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 48.3666666666652,
+      "kind": "harvest",
+      "total": 1980,
+      "cash": 412
+    },
+    {
+      "t": 52.58333333333163,
+      "kind": "harvest",
+      "total": 2160,
+      "cash": 614
+    },
+    {
+      "t": 53.066666666664936,
+      "kind": "produced",
+      "total": 7,
+      "types": [
+        {
+          "id": 20,
+          "type": "artillery"
+        },
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 29,
+          "type": "tank"
+        },
+        {
+          "id": 31,
+          "type": "tank"
+        },
+        {
+          "id": 32,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 56.79999999999806,
+      "kind": "harvest",
+      "total": 2340,
+      "cash": 436
+    },
+    {
+      "t": 59.08333333333126,
+      "kind": "produced",
+      "total": 8,
+      "types": [
+        {
+          "id": 20,
+          "type": "artillery"
+        },
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 31,
+          "type": "tank"
+        },
+        {
+          "id": 32,
+          "type": "tank"
+        },
+        {
+          "id": 34,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 61.016666666664484,
+      "kind": "harvest",
+      "total": 2520,
+      "cash": 608
+    },
+    {
+      "t": 65.09999999999759,
+      "kind": "produced",
+      "total": 9,
+      "types": [
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 31,
+          "type": "tank"
+        },
+        {
+          "id": 32,
+          "type": "tank"
+        },
+        {
+          "id": 34,
+          "type": "tank"
+        },
+        {
+          "id": 36,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 65.23333333333092,
+      "kind": "harvest",
+      "total": 2700,
+      "cash": 460
+    },
+    {
+      "t": 69.44999999999735,
+      "kind": "harvest",
+      "total": 2880,
+      "cash": 282
+    },
+    {
+      "t": 71.11666666666392,
+      "kind": "produced",
+      "total": 10,
+      "types": [
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 31,
+          "type": "tank"
+        },
+        {
+          "id": 32,
+          "type": "tank"
+        },
+        {
+          "id": 36,
+          "type": "tank"
+        },
+        {
+          "id": 38,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 73.66666666666377,
+      "kind": "harvest",
+      "total": 3060,
+      "cash": 484
+    },
+    {
+      "t": 77.13333333333024,
+      "kind": "produced",
+      "total": 11,
+      "types": [
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 31,
+          "type": "tank"
+        },
+        {
+          "id": 32,
+          "type": "tank"
+        },
+        {
+          "id": 36,
+          "type": "tank"
+        },
+        {
+          "id": 38,
+          "type": "tank"
+        },
+        {
+          "id": 40,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 77.8833333333302,
+      "kind": "harvest",
+      "total": 3240,
+      "cash": 306
+    },
+    {
+      "t": 82.09999999999663,
+      "kind": "harvest",
+      "total": 3420,
+      "cash": 479
+    },
+    {
+      "t": 83.14999999999657,
+      "kind": "produced",
+      "total": 12,
+      "types": [
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 31,
+          "type": "tank"
+        },
+        {
+          "id": 32,
+          "type": "tank"
+        },
+        {
+          "id": 36,
+          "type": "tank"
+        },
+        {
+          "id": 38,
+          "type": "tank"
+        },
+        {
+          "id": 40,
+          "type": "tank"
+        },
+        {
+          "id": 42,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 86.31666666666305,
+      "kind": "harvest",
+      "total": 3600,
+      "cash": 333
+    },
+    {
+      "t": 89.16666666666289,
+      "kind": "produced",
+      "total": 13,
+      "types": [
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 31,
+          "type": "tank"
+        },
+        {
+          "id": 32,
+          "type": "tank"
+        },
+        {
+          "id": 36,
+          "type": "tank"
+        },
+        {
+          "id": 40,
+          "type": "tank"
+        },
+        {
+          "id": 42,
+          "type": "tank"
+        },
+        {
+          "id": 43,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 90.53333333332948,
+      "kind": "harvest",
+      "total": 3780,
+      "cash": 506
+    },
+    {
+      "t": 94.74999999999591,
+      "kind": "harvest",
+      "total": 3960,
+      "cash": 359
+    },
+    {
+      "t": 97.01666666666245,
+      "kind": "produced",
+      "total": 14,
+      "types": [
+        {
+          "id": 23,
+          "type": "repair"
+        },
+        {
+          "id": 31,
+          "type": "tank"
+        },
+        {
+          "id": 36,
+          "type": "tank"
+        },
+        {
+          "id": 42,
+          "type": "tank"
+        },
+        {
+          "id": 43,
+          "type": "tank"
+        },
+        {
+          "id": 46,
+          "type": "tank"
+        }
+      ]
+    },
+    {
+      "t": 98.96666666666233,
+      "kind": "harvest",
+      "total": 4140,
+      "cash": 530
+    }
+  ],
+  "trace": [
+    {
+      "t": 0.016666666666666666,
+      "cash": 100,
+      "progress": [
+        0,
+        0
+      ],
+      "owner": -1,
+      "present": [
+        0,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          0,
+          0
+        ],
+        "spent": [
+          1600,
+          0
+        ],
+        "kills": [
+          0,
+          0
+        ],
+        "losses": [
+          0,
+          0
+        ],
+        "produced": [
+          0,
+          0
+        ],
+        "captures": [
+          0,
+          0
+        ],
+        "harvested": [
+          0,
+          0
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 350.64819610934575,
+          "y": 440.0483921876863,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 320.682281043261,
+          "y": 320.41772308771084,
+          "hp": 230,
+          "hold": false,
+          "goal": {
+            "x": 565,
+            "y": 470
+          }
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "team": 0,
+          "x": 360.6366629552967,
+          "y": 360.4844174659866,
+          "hp": 230,
+          "hold": false,
+          "goal": {
+            "x": 590,
+            "y": 535
+          }
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 266.0726731128957,
+          "y": 285.84684719439133,
+          "hp": 105,
+          "hold": false,
+          "goal": {
+            "x": 550,
+            "y": 510
+          }
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 979.4031586888864,
+          "y": 764.7425501032274,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 17,
+          "type": "tank",
+          "team": 1,
+          "x": 930,
+          "y": 575,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 990,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        }
+      ]
+    },
+    {
+      "t": 5.016666666666654,
+      "cash": 100,
+      "progress": [
+        0,
+        0
+      ],
+      "owner": -1,
+      "present": [
+        2,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          0,
+          0
+        ],
+        "spent": [
+          1600,
+          350
+        ],
+        "kills": [
+          0,
+          0
+        ],
+        "losses": [
+          0,
+          0
+        ],
+        "produced": [
+          0,
+          0
+        ],
+        "captures": [
+          0,
+          0
+        ],
+        "harvested": [
+          0,
+          0
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 376.4705062086281,
+          "y": 438.0231364052752,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 473.70414664717,
+          "y": 464.8575873047961,
+          "hp": 230,
+          "hold": false,
+          "goal": {
+            "x": 565,
+            "y": 470
+          }
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "team": 0,
+          "x": 564.6591399060682,
+          "y": 517.004876847334,
+          "hp": 230,
+          "hold": false,
+          "goal": {
+            "x": 590,
+            "y": 535
+          }
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 541.4111444440811,
+          "y": 505.36311121666495,
+          "hp": 105,
+          "hold": false,
+          "goal": {
+            "x": 550,
+            "y": 510
+          }
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 919.5618523744064,
+          "y": 701.9046489708734,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 17,
+          "type": "tank",
+          "team": 1,
+          "x": 930,
+          "y": 575,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 990,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        }
+      ]
+    },
+    {
+      "t": 10.016666666666744,
+      "cash": 280,
+      "progress": [
+        0,
+        0
+      ],
+      "owner": -1,
+      "present": [
+        3,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          180,
+          180
+        ],
+        "spent": [
+          1600,
+          530
+        ],
+        "kills": [
+          0,
+          0
+        ],
+        "losses": [
+          0,
+          0
+        ],
+        "produced": [
+          1,
+          1
+        ],
+        "captures": [
+          0,
+          0
+        ],
+        "harvested": [
+          180,
+          180
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 374.7896831712386,
+          "y": 435.40048143391533,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 560.7661148063044,
+          "y": 469.76175607974824,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "team": 0,
+          "x": 586.0603522249855,
+          "y": 532.157478791428,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1509045099881,
+          "y": 507.94212708903615,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 926.8726926563677,
+          "y": 692.239395373573,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 17,
+          "type": "tank",
+          "team": 1,
+          "x": 930,
+          "y": 575,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 990,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 19,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 275.2283668393147,
+          "y": 475.4448017386448,
+          "hp": 130,
+          "hold": false,
+          "goal": {
+            "x": 600,
+            "y": 440
+          }
+        }
+      ]
+    },
+    {
+      "t": 15.016666666666993,
+      "cash": 290,
+      "progress": [
+        2.549999999999996,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        3,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          540,
+          360
+        ],
+        "spent": [
+          1950,
+          880
+        ],
+        "kills": [
+          0,
+          0
+        ],
+        "losses": [
+          0,
+          0
+        ],
+        "produced": [
+          1,
+          2
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          540,
+          360
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.24687600914575,
+          "y": 433.50518936101724,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 560.7661148063044,
+          "y": 469.76175607974824,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "team": 0,
+          "x": 586.0603522249855,
+          "y": 532.157478791428,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1509045099881,
+          "y": 507.94212708903615,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.3710578696106,
+          "y": 689.0448079775059,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 17,
+          "type": "tank",
+          "team": 1,
+          "x": 930,
+          "y": 575,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 990,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 19,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 416.1644274050902,
+          "y": 476.2524038567025,
+          "hp": 130,
+          "hold": false,
+          "goal": {
+            "x": 600,
+            "y": 440
+          }
+        },
+        {
+          "id": 21,
+          "type": "scout",
+          "team": 1,
+          "x": 1058.0011774714462,
+          "y": 558.9425824918354,
+          "hp": 105,
+          "goal": null
+        }
+      ]
+    },
+    {
+      "t": 20.01666666666681,
+      "cash": 120,
+      "progress": [
+        7.5499999999999785,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        3,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          720,
+          540
+        ],
+        "spent": [
+          2300,
+          1430
+        ],
+        "kills": [
+          0,
+          0
+        ],
+        "losses": [
+          0,
+          0
+        ],
+        "produced": [
+          2,
+          3
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          720,
+          540
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.18914592875615,
+          "y": 433.1154740997509,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 560.7661148063044,
+          "y": 469.76175607974824,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "team": 0,
+          "x": 586.0603522249855,
+          "y": 532.157478791428,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1509045099881,
+          "y": 507.94212708903615,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.6708766474736,
+          "y": 687.8608840560984,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 17,
+          "type": "tank",
+          "team": 1,
+          "x": 930,
+          "y": 575,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 990,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 19,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 555.0537230196992,
+          "y": 440.3106341982931,
+          "hp": 130,
+          "hold": false,
+          "goal": {
+            "x": 600,
+            "y": 440
+          }
+        },
+        {
+          "id": 21,
+          "type": "scout",
+          "team": 1,
+          "x": 1058.0011774714462,
+          "y": 558.9425824918354,
+          "hp": 105,
+          "goal": null
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "team": 1,
+          "x": 1083.0443406559236,
+          "y": 579.4197171639805,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 305.1192653827062,
+          "y": 497.32446409919555,
+          "hp": 180,
+          "hold": false,
+          "goal": {
+            "x": 546.1509045099881,
+            "y": 507.94212708903615
+          }
+        }
+      ]
+    },
+    {
+      "t": 25.016666666666527,
+      "cash": 330,
+      "progress": [
+        12.550000000000203,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        4,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          930,
+          720
+        ],
+        "spent": [
+          2300,
+          1430
+        ],
+        "kills": [
+          0,
+          0
+        ],
+        "losses": [
+          0,
+          0
+        ],
+        "produced": [
+          2,
+          3
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          900,
+          720
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.13442154153944,
+          "y": 432.73581156362087,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 560.7661148063044,
+          "y": 469.76175607974824,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "team": 0,
+          "x": 586.0603522249855,
+          "y": 532.157478791428,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1509045099881,
+          "y": 507.94212708903615,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 956.4659853263948,
+          "y": 694.5994009066691,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 17,
+          "type": "tank",
+          "team": 1,
+          "x": 930,
+          "y": 575,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 990,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 19,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 595.4880784932974,
+          "y": 439.9725409803035,
+          "hp": 130,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 21,
+          "type": "scout",
+          "team": 1,
+          "x": 1058.0011774714462,
+          "y": 558.9425824918354,
+          "hp": 105,
+          "goal": null
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "team": 1,
+          "x": 1083.0443406559236,
+          "y": 579.4197171639805,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 487.9950349602056,
+          "y": 480.1199343304934,
+          "hp": 180,
+          "hold": false,
+          "goal": null
+        }
+      ]
+    },
+    {
+      "t": 30.016666666666243,
+      "cash": 160,
+      "progress": [
+        17.550000000000285,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        4,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          1110,
+          720
+        ],
+        "spent": [
+          2650,
+          1780
+        ],
+        "kills": [
+          0,
+          0
+        ],
+        "losses": [
+          0,
+          0
+        ],
+        "produced": [
+          3,
+          4
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          1080,
+          720
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 560.7661148063044,
+          "y": 469.76175607974824,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "team": 0,
+          "x": 586.0603522249855,
+          "y": 532.157478791428,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1509045099881,
+          "y": 507.94212708903615,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 931.3002024679055,
+          "y": 688.0655671887254,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 17,
+          "type": "tank",
+          "team": 1,
+          "x": 930,
+          "y": 575,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 990,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 19,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 595.4880784932974,
+          "y": 439.9725409803035,
+          "hp": 130,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 21,
+          "type": "scout",
+          "team": 1,
+          "x": 1058.0011774714462,
+          "y": 558.9425824918354,
+          "hp": 105,
+          "goal": null
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "team": 1,
+          "x": 1083.0443406559236,
+          "y": 579.4197171639805,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 487.9950349602056,
+          "y": 480.1199343304934,
+          "hp": 180,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 1042.238194024873,
+          "y": 530.2510732704661,
+          "hp": 130,
+          "goal": null
+        },
+        {
+          "id": 25,
+          "type": "artillery",
+          "team": 0,
+          "x": 296.5882529167091,
+          "y": 495.8672132527183,
+          "hp": 130,
+          "hold": false,
+          "goal": {
+            "x": 575,
+            "y": 560
+          }
+        }
+      ]
+    },
+    {
+      "t": 35.01666666666596,
+      "cash": 370,
+      "progress": [
+        22.55,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        4,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          1320,
+          900
+        ],
+        "spent": [
+          2650,
+          1960
+        ],
+        "kills": [
+          0,
+          0
+        ],
+        "losses": [
+          0,
+          0
+        ],
+        "produced": [
+          4,
+          5
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          1260,
+          900
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 560.7661148063044,
+          "y": 469.76175607974824,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "team": 0,
+          "x": 586.0603522249855,
+          "y": 532.157478791428,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1509045099881,
+          "y": 507.94212708903615,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8139284858468,
+          "y": 687.2908556694557,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 17,
+          "type": "tank",
+          "team": 1,
+          "x": 930,
+          "y": 575,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 990,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 19,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 595.4880784932974,
+          "y": 439.9725409803035,
+          "hp": 130,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 21,
+          "type": "scout",
+          "team": 1,
+          "x": 1058.0011774714462,
+          "y": 558.9425824918354,
+          "hp": 105,
+          "goal": null
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "team": 1,
+          "x": 1083.0443406559236,
+          "y": 579.4197171639805,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 487.9950349602056,
+          "y": 480.1199343304934,
+          "hp": 180,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 1042.238194024873,
+          "y": 530.2510732704661,
+          "hp": 130,
+          "goal": null
+        },
+        {
+          "id": 25,
+          "type": "artillery",
+          "team": 0,
+          "x": 434.5117866548118,
+          "y": 490.41262321912797,
+          "hp": 130,
+          "hold": false,
+          "goal": {
+            "x": 575,
+            "y": 560
+          }
+        },
+        {
+          "id": 26,
+          "type": "tank",
+          "team": 1,
+          "x": 1116.1358594445003,
+          "y": 579.6684007447385,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 27,
+          "type": "tank",
+          "team": 0,
+          "x": 275,
+          "y": 475,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 500
+          }
+        }
+      ]
+    },
+    {
+      "t": 40.01666666666568,
+      "cash": 380,
+      "progress": [
+        27.549999999999716,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        4,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          1680,
+          1080
+        ],
+        "spent": [
+          3000,
+          2310
+        ],
+        "kills": [
+          0,
+          0
+        ],
+        "losses": [
+          0,
+          0
+        ],
+        "produced": [
+          4,
+          6
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          1620,
+          1080
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 565.750341642205,
+          "y": 469.39707515919673,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "team": 0,
+          "x": 586.0603522249855,
+          "y": 532.157478791428,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1509045099881,
+          "y": 507.94212708903615,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8271953060236,
+          "y": 687.2378191327487,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 17,
+          "type": "tank",
+          "team": 1,
+          "x": 930,
+          "y": 575,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 990,
+          "y": 585,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 19,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 595.4880784932974,
+          "y": 439.9725409803035,
+          "hp": 130,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 21,
+          "type": "scout",
+          "team": 1,
+          "x": 1058.0011774714462,
+          "y": 558.9425824918354,
+          "hp": 105,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "team": 1,
+          "x": 1083.0443406559236,
+          "y": 579.4197171639805,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 536.7923811596974,
+          "y": 467.8361380388974,
+          "hp": 180,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 1042.238194024873,
+          "y": 530.2510732704661,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 25,
+          "type": "artillery",
+          "team": 0,
+          "x": 523.0274037607627,
+          "y": 495.3959800327857,
+          "hp": 130,
+          "hold": false,
+          "goal": {
+            "x": 575,
+            "y": 560
+          }
+        },
+        {
+          "id": 26,
+          "type": "tank",
+          "team": 1,
+          "x": 1116.1358594445003,
+          "y": 579.6684007447385,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 27,
+          "type": "tank",
+          "team": 0,
+          "x": 499.1653369512407,
+          "y": 477.21352234473073,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 500
+          }
+        },
+        {
+          "id": 28,
+          "type": "scout",
+          "team": 1,
+          "x": 1052.5688891946982,
+          "y": 499.18741144760605,
+          "hp": 105,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        }
+      ]
+    },
+    {
+      "t": 45.016666666665394,
+      "cash": 238,
+      "progress": [
+        32.549999999999436,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        6,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          1890,
+          1260
+        ],
+        "spent": [
+          3352,
+          2310
+        ],
+        "kills": [
+          0,
+          0
+        ],
+        "losses": [
+          0,
+          0
+        ],
+        "produced": [
+          5,
+          6
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          1800,
+          1260
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 579.4493557013824,
+          "y": 472.88356764817416,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 7,
+          "type": "tank",
+          "team": 0,
+          "x": 586.0603522249855,
+          "y": 532.157478791428,
+          "hp": 213,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1509045099881,
+          "y": 507.94212708903615,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8319037810585,
+          "y": 687.218989107793,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 17,
+          "type": "tank",
+          "team": 1,
+          "x": 698.7286859265838,
+          "y": 547.3547662642941,
+          "hp": 111,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 724.4588837292174,
+          "y": 584.4321632401566,
+          "hp": 221.71311609879726,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 19,
+          "type": "tank",
+          "team": 1,
+          "x": 815.423778009762,
+          "y": 548.2060512110897,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 595.4880784932974,
+          "y": 439.9725409803035,
+          "hp": 130,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 21,
+          "type": "scout",
+          "team": 1,
+          "x": 722.2044654832248,
+          "y": 558.5300861347943,
+          "hp": 100.98766060484951,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "team": 1,
+          "x": 847.6247051131137,
+          "y": 555.381531895177,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 560.4048813405798,
+          "y": 450.03309864859153,
+          "hp": 180,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 953.951795405527,
+          "y": 443.9323280050455,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 25,
+          "type": "artillery",
+          "team": 0,
+          "x": 570.5307212486496,
+          "y": 557.82517369648,
+          "hp": 130,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 26,
+          "type": "tank",
+          "team": 1,
+          "x": 988.5705899640162,
+          "y": 572.6466595634902,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 27,
+          "type": "tank",
+          "team": 0,
+          "x": 552.5014355024246,
+          "y": 482.7296151928743,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 500
+          }
+        },
+        {
+          "id": 28,
+          "type": "scout",
+          "team": 1,
+          "x": 797.1815479737261,
+          "y": 421.60594366631113,
+          "hp": 105,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 29,
+          "type": "tank",
+          "team": 0,
+          "x": 448.3111747605023,
+          "y": 484.3972935626191,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 548
+          }
+        }
+      ]
+    },
+    {
+      "t": 50.01666666666511,
+      "cash": 408,
+      "progress": [
+        37.54999999999915,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        6,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          2070,
+          1440
+        ],
+        "spent": [
+          3362,
+          2860
+        ],
+        "kills": [
+          2,
+          1
+        ],
+        "losses": [
+          1,
+          2
+        ],
+        "produced": [
+          6,
+          7
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          1980,
+          1440
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 579.4493557013824,
+          "y": 472.88356764817416,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1509045099881,
+          "y": 507.94212708903615,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8335752257232,
+          "y": 687.2123038176,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 711.8082557499274,
+          "y": 604.6349393781128,
+          "hp": 219.15816514804354,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 19,
+          "type": "tank",
+          "team": 1,
+          "x": 683.9048870315119,
+          "y": 582.2866234153254,
+          "hp": 152.97279516117385,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 595.4880784932974,
+          "y": 439.9725409803035,
+          "hp": 130,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "team": 1,
+          "x": 717.7203768647654,
+          "y": 576.2439756057523,
+          "hp": 227.5161373223953,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 560.4048813405798,
+          "y": 450.03309864859153,
+          "hp": 180,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 838.1967154824392,
+          "y": 445.9385592931618,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 25,
+          "type": "artillery",
+          "team": 0,
+          "x": 570.5307212486496,
+          "y": 557.82517369648,
+          "hp": 41,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 26,
+          "type": "tank",
+          "team": 1,
+          "x": 781.9337536169081,
+          "y": 537.1289084437947,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 27,
+          "type": "tank",
+          "team": 0,
+          "x": 626.04966832547,
+          "y": 449.2001501855967,
+          "hp": 182,
+          "goal": {
+            "x": 628,
+            "y": 500
+          }
+        },
+        {
+          "id": 28,
+          "type": "scout",
+          "team": 1,
+          "x": 689.0408118301202,
+          "y": 556.798934691884,
+          "hp": 71.63999999999999,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 29,
+          "type": "tank",
+          "team": 0,
+          "x": 552.7451852073241,
+          "y": 482.7922670082178,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 548
+          }
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 408.94309820455527,
+          "y": 498.85187595095294,
+          "hp": 230,
+          "goal": {
+            "x": 484,
+            "y": 500
+          }
+        }
+      ]
+    },
+    {
+      "t": 55.016666666664825,
+      "cash": 260,
+      "progress": [
+        42.54999999999887,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        4,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          2280,
+          1620
+        ],
+        "spent": [
+          3720,
+          2860
+        ],
+        "kills": [
+          4,
+          3
+        ],
+        "losses": [
+          3,
+          4
+        ],
+        "produced": [
+          7,
+          7
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          2160,
+          1620
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 579.4493557013824,
+          "y": 472.88356764817416,
+          "hp": 150,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1647871387376,
+          "y": 507.9302413438604,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8341686136306,
+          "y": 687.2099303275326,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 686.1368325175823,
+          "y": 574.4061888726151,
+          "hp": 209.82559032557046,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 595.4880784932974,
+          "y": 439.9725409803035,
+          "hp": 130,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "team": 1,
+          "x": 703.5313455334565,
+          "y": 551.202074648181,
+          "hp": 196.850206967945,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 560.4048813405798,
+          "y": 450.03309864859153,
+          "hp": 180,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 834.3637658579388,
+          "y": 444.5342846656707,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 26,
+          "type": "tank",
+          "team": 1,
+          "x": 806.7760820494034,
+          "y": 496.18033461731966,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 29,
+          "type": "tank",
+          "team": 0,
+          "x": 596.2412266612752,
+          "y": 542.7472363710208,
+          "hp": 207,
+          "goal": {
+            "x": 628,
+            "y": 548
+          }
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 494.66171675879644,
+          "y": 488.8436590069301,
+          "hp": 230,
+          "goal": {
+            "x": 484,
+            "y": 500
+          }
+        },
+        {
+          "id": 32,
+          "type": "tank",
+          "team": 0,
+          "x": 358.4149603487464,
+          "y": 508.2127153541259,
+          "hp": 230,
+          "goal": {
+            "x": 580,
+            "y": 548
+          }
+        }
+      ]
+    },
+    {
+      "t": 60.01666666666454,
+      "cash": 430,
+      "progress": [
+        47.54999999999858,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        3,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          2460,
+          1800
+        ],
+        "spent": [
+          3730,
+          3210
+        ],
+        "kills": [
+          4,
+          4
+        ],
+        "losses": [
+          4,
+          4
+        ],
+        "produced": [
+          8,
+          8
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          2340,
+          1800
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 6,
+          "type": "tank",
+          "team": 0,
+          "x": 579.4493557013824,
+          "y": 472.88356764817416,
+          "hp": 61.78667600264407,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 546.1647871387376,
+          "y": 507.9302413438604,
+          "hp": 105,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 952.796802661917,
+          "y": 693.2001030817306,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 682.1212117400763,
+          "y": 578.2880558543181,
+          "hp": 133.6273018898445,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 20,
+          "type": "artillery",
+          "team": 0,
+          "x": 595.4880784932974,
+          "y": 439.9725409803035,
+          "hp": 82,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 22,
+          "type": "tank",
+          "team": 1,
+          "x": 679.3984584902258,
+          "y": 537.3714155956255,
+          "hp": 8.850206967945013,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 560.4048813405798,
+          "y": 450.03309864859153,
+          "hp": 176.75932778698663,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 833.9115263325376,
+          "y": 444.7475436904854,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 26,
+          "type": "tank",
+          "team": 1,
+          "x": 701.2232055539137,
+          "y": 556.4680230327085,
+          "hp": 224.96,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 486.90154297836074,
+          "y": 496.92740335593004,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 32,
+          "type": "tank",
+          "team": 0,
+          "x": 524.1685949914005,
+          "y": 494.06779094656673,
+          "hp": 230,
+          "goal": {
+            "x": 580,
+            "y": 548
+          }
+        },
+        {
+          "id": 33,
+          "type": "artillery",
+          "team": 1,
+          "x": 1048.6445484414346,
+          "y": 551.9558452884686,
+          "hp": 130,
+          "goal": null
+        },
+        {
+          "id": 34,
+          "type": "tank",
+          "team": 0,
+          "x": 311.4769828010356,
+          "y": 497.4284674343833,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 500
+          }
+        }
+      ]
+    },
+    {
+      "t": 65.01666666666426,
+      "cash": 280,
+      "progress": [
+        52.5499999999983,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        2,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          2670,
+          1800
+        ],
+        "spent": [
+          4090,
+          3390
+        ],
+        "kills": [
+          5,
+          6
+        ],
+        "losses": [
+          6,
+          5
+        ],
+        "produced": [
+          8,
+          9
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          2520,
+          1800
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 8,
+          "type": "scout",
+          "team": 0,
+          "x": 558.8981408847467,
+          "y": 519.4474256364095,
+          "hp": 34.20000000000002,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 935.1403121102377,
+          "y": 688.7855429151508,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 671.7255347388644,
+          "y": 578.0840602957044,
+          "hp": 105.5873018898445,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 560.0979704758656,
+          "y": 454.45417633419964,
+          "hp": 170.2779833609599,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 803.8236745346934,
+          "y": 420.7556112819913,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 26,
+          "type": "tank",
+          "team": 1,
+          "x": 683.8866547401909,
+          "y": 551.7571318703575,
+          "hp": 176.96,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 486.90154297836074,
+          "y": 496.92740335593004,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 32,
+          "type": "tank",
+          "team": 0,
+          "x": 538.2001140649332,
+          "y": 503.71237921873796,
+          "hp": 230,
+          "goal": {
+            "x": 580,
+            "y": 548
+          }
+        },
+        {
+          "id": 33,
+          "type": "artillery",
+          "team": 1,
+          "x": 1048.6445484414346,
+          "y": 551.9558452884686,
+          "hp": 130,
+          "goal": null
+        },
+        {
+          "id": 34,
+          "type": "tank",
+          "team": 0,
+          "x": 531.894629380507,
+          "y": 475.38147516290377,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 500
+          }
+        },
+        {
+          "id": 35,
+          "type": "tank",
+          "team": 1,
+          "x": 1083.0443406559236,
+          "y": 579.4197171639805,
+          "hp": 230,
+          "goal": null
+        }
+      ]
+    },
+    {
+      "t": 70.01666666666398,
+      "cash": 282,
+      "progress": [
+        57.549999999998015,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        2,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          3030,
+          1980
+        ],
+        "spent": [
+          4448,
+          3740
+        ],
+        "kills": [
+          5,
+          7
+        ],
+        "losses": [
+          7,
+          5
+        ],
+        "produced": [
+          9,
+          10
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          2880,
+          1980
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8344540743225,
+          "y": 687.2087884935131,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 18,
+          "type": "tank",
+          "team": 1,
+          "x": 669.4277249967372,
+          "y": 577.3580628790971,
+          "hp": 13.587301889844497,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 561.2678905278054,
+          "y": 452.97109888469544,
+          "hp": 170.2779833609599,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 804.724793221043,
+          "y": 417.12029361094477,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 26,
+          "type": "tank",
+          "team": 1,
+          "x": 680.9106861824816,
+          "y": 550.7283501054549,
+          "hp": 107.96000000000001,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 486.90154297836074,
+          "y": 496.92740335593004,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 32,
+          "type": "tank",
+          "team": 0,
+          "x": 576.6459941615304,
+          "y": 544.4613581637431,
+          "hp": 190,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 33,
+          "type": "artillery",
+          "team": 1,
+          "x": 1048.6445484414346,
+          "y": 551.9558452884686,
+          "hp": 130,
+          "goal": null
+        },
+        {
+          "id": 34,
+          "type": "tank",
+          "team": 0,
+          "x": 623.3419622428651,
+          "y": 498.8067886583552,
+          "hp": 14,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 35,
+          "type": "tank",
+          "team": 1,
+          "x": 1083.0443406559236,
+          "y": 579.4197171639805,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 36,
+          "type": "tank",
+          "team": 0,
+          "x": 487.4595305477259,
+          "y": 467.9327719585069,
+          "hp": 230,
+          "goal": {
+            "x": 580,
+            "y": 500
+          }
+        },
+        {
+          "id": 37,
+          "type": "scout",
+          "team": 1,
+          "x": 1046.3013175372487,
+          "y": 519.3033780391698,
+          "hp": 105,
+          "goal": null
+        }
+      ]
+    },
+    {
+      "t": 75.0166666666637,
+      "cash": 132,
+      "progress": [
+        62.54999999999773,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        2,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          3240,
+          2160
+        ],
+        "spent": [
+          4808,
+          4240
+        ],
+        "kills": [
+          7,
+          8
+        ],
+        "losses": [
+          8,
+          7
+        ],
+        "produced": [
+          10,
+          11
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          3060,
+          2160
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8344806281044,
+          "y": 687.2086822785054,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 561.2678905278054,
+          "y": 452.97109888469544,
+          "hp": 170.2779833609599,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 802.707956676671,
+          "y": 420.7401086405584,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 486.90154297836074,
+          "y": 496.92740335593004,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 32,
+          "type": "tank",
+          "team": 0,
+          "x": 576.6459941615304,
+          "y": 544.4613581637431,
+          "hp": 145,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 33,
+          "type": "artillery",
+          "team": 1,
+          "x": 1048.6445484414346,
+          "y": 551.9558452884686,
+          "hp": 130,
+          "goal": null
+        },
+        {
+          "id": 35,
+          "type": "tank",
+          "team": 1,
+          "x": 1083.0443406559236,
+          "y": 579.4197171639805,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 36,
+          "type": "tank",
+          "team": 0,
+          "x": 575.638706966868,
+          "y": 498.41008064399443,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 37,
+          "type": "scout",
+          "team": 1,
+          "x": 1046.3013175372487,
+          "y": 519.3033780391698,
+          "hp": 105,
+          "goal": null
+        },
+        {
+          "id": 38,
+          "type": "tank",
+          "team": 0,
+          "x": 450.34323509990674,
+          "y": 481.4281187504965,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 500
+          }
+        },
+        {
+          "id": 39,
+          "type": "tank",
+          "team": 1,
+          "x": 1116.1358594445003,
+          "y": 579.6684007447385,
+          "hp": 230,
+          "goal": null
+        }
+      ]
+    },
+    {
+      "t": 80.01666666666341,
+      "cash": 302,
+      "progress": [
+        67.54999999999745,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        3,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          3420,
+          2340
+        ],
+        "spent": [
+          4818,
+          4240
+        ],
+        "kills": [
+          7,
+          8
+        ],
+        "losses": [
+          8,
+          7
+        ],
+        "produced": [
+          11,
+          11
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          3240,
+          2340
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8344900555081,
+          "y": 687.2086445689107,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 562.5906341901372,
+          "y": 442.42588963834066,
+          "hp": 170.2779833609599,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 816.442997276587,
+          "y": 490.71327174554546,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 486.90154297836074,
+          "y": 496.92740335593004,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 32,
+          "type": "tank",
+          "team": 0,
+          "x": 576.6459941615304,
+          "y": 544.4613581637431,
+          "hp": 163,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 33,
+          "type": "artillery",
+          "team": 1,
+          "x": 1048.6445484414346,
+          "y": 551.9558452884686,
+          "hp": 130,
+          "goal": null
+        },
+        {
+          "id": 35,
+          "type": "tank",
+          "team": 1,
+          "x": 1083.0443406559236,
+          "y": 579.4197171639805,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 36,
+          "type": "tank",
+          "team": 0,
+          "x": 575.638706966868,
+          "y": 498.41008064399443,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 37,
+          "type": "scout",
+          "team": 1,
+          "x": 1046.3013175372487,
+          "y": 519.3033780391698,
+          "hp": 105,
+          "goal": null
+        },
+        {
+          "id": 38,
+          "type": "tank",
+          "team": 0,
+          "x": 624.3859090651422,
+          "y": 497.43607694772487,
+          "hp": 188,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 39,
+          "type": "tank",
+          "team": 1,
+          "x": 1116.1358594445003,
+          "y": 579.6684007447385,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 40,
+          "type": "tank",
+          "team": 0,
+          "x": 404.9768838069578,
+          "y": 483.1528088971292,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 452
+          }
+        }
+      ]
+    },
+    {
+      "t": 85.01666666666313,
+      "cash": 154,
+      "progress": [
+        72.54999999999717,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        4,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          3630,
+          2520
+        ],
+        "spent": [
+          5176,
+          4590
+        ],
+        "kills": [
+          7,
+          8
+        ],
+        "losses": [
+          8,
+          7
+        ],
+        "produced": [
+          12,
+          12
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          3420,
+          2520
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8344934025232,
+          "y": 687.2086311808449,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 570.4799741493908,
+          "y": 429.23972564697925,
+          "hp": 170.2779833609599,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 816.442997276587,
+          "y": 490.71327174554546,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "team": 1,
+          "x": 816.2569567331159,
+          "y": 548.3863186560226,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 486.90154297836074,
+          "y": 496.92740335593004,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 32,
+          "type": "tank",
+          "team": 0,
+          "x": 576.6459941615304,
+          "y": 544.4613581637431,
+          "hp": 163,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 33,
+          "type": "artillery",
+          "team": 1,
+          "x": 914.2516792632028,
+          "y": 571.084310363953,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 35,
+          "type": "tank",
+          "team": 1,
+          "x": 850.8262860367925,
+          "y": 556.1984641662661,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 36,
+          "type": "tank",
+          "team": 0,
+          "x": 575.638706966868,
+          "y": 498.41008064399443,
+          "hp": 229.7016636247653,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 37,
+          "type": "scout",
+          "team": 1,
+          "x": 726.6025898813233,
+          "y": 556.2779136041313,
+          "hp": 77.4,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 38,
+          "type": "tank",
+          "team": 0,
+          "x": 624.3859090651422,
+          "y": 497.43607694772487,
+          "hp": 100,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 39,
+          "type": "tank",
+          "team": 1,
+          "x": 997.8750656591454,
+          "y": 573.5055040247734,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 40,
+          "type": "tank",
+          "team": 0,
+          "x": 623.6780564098467,
+          "y": 452.48235437652454,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 41,
+          "type": "repair",
+          "team": 1,
+          "x": 1012.7984000828096,
+          "y": 604.1263389862903,
+          "hp": 180,
+          "goal": null
+        },
+        {
+          "id": 42,
+          "type": "tank",
+          "team": 0,
+          "x": 356.2084129893647,
+          "y": 497.9989424109755,
+          "hp": 230,
+          "goal": {
+            "x": 532,
+            "y": 500
+          }
+        }
+      ]
+    },
+    {
+      "t": 90.01666666666284,
+      "cash": 326,
+      "progress": [
+        77.54999999999688,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        3,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          3810,
+          2700
+        ],
+        "spent": [
+          5184,
+          4770
+        ],
+        "kills": [
+          8,
+          9
+        ],
+        "losses": [
+          9,
+          8
+        ],
+        "produced": [
+          13,
+          13
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          3600,
+          2700
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8344945908162,
+          "y": 687.2086264276718,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 570.4799741493908,
+          "y": 429.23972564697925,
+          "hp": 170.2779833609599,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 816.442997276587,
+          "y": 490.71327174554546,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "team": 1,
+          "x": 708.1552176461962,
+          "y": 577.787093774892,
+          "hp": 161,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 486.90154297836074,
+          "y": 496.92740335593004,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 32,
+          "type": "tank",
+          "team": 0,
+          "x": 576.6459941615304,
+          "y": 544.4613581637431,
+          "hp": 117,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 33,
+          "type": "artillery",
+          "team": 1,
+          "x": 811.3809249287173,
+          "y": 525.1290944693961,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 35,
+          "type": "tank",
+          "team": 1,
+          "x": 728.2720948757184,
+          "y": 556.899028988217,
+          "hp": 184,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 36,
+          "type": "tank",
+          "team": 0,
+          "x": 575.638706966868,
+          "y": 498.41008064399443,
+          "hp": 229.7016636247653,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 39,
+          "type": "tank",
+          "team": 1,
+          "x": 761.5345631954561,
+          "y": 550.7695806381902,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 40,
+          "type": "tank",
+          "team": 0,
+          "x": 623.6780564098467,
+          "y": 452.48235437652454,
+          "hp": 196,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 41,
+          "type": "repair",
+          "team": 1,
+          "x": 1012.7984000828096,
+          "y": 604.1263389862903,
+          "hp": 180,
+          "goal": null
+        },
+        {
+          "id": 42,
+          "type": "tank",
+          "team": 0,
+          "x": 528.9894701588884,
+          "y": 496.71889389903737,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 43,
+          "type": "tank",
+          "team": 0,
+          "x": 307.48104051932745,
+          "y": 497.2784097755819,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 500
+          }
+        },
+        {
+          "id": 44,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        }
+      ]
+    },
+    {
+      "t": 95.01666666666256,
+      "cash": 357,
+      "progress": [
+        82.5499999999966,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        1,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          4200,
+          2880
+        ],
+        "spent": [
+          5543,
+          4770
+        ],
+        "kills": [
+          9,
+          11
+        ],
+        "losses": [
+          11,
+          9
+        ],
+        "produced": [
+          13,
+          14
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          3960,
+          2880
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 949.0134588532025,
+          "y": 692.2533663909791,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 570.4799741493908,
+          "y": 429.23972564697925,
+          "hp": 170.2779833609599,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 808.5915584439374,
+          "y": 436.06150656355425,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 30,
+          "type": "tank",
+          "team": 1,
+          "x": 696.0338881817729,
+          "y": 583.8283961742388,
+          "hp": 92,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 486.90154297836074,
+          "y": 496.92740335593004,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 33,
+          "type": "artillery",
+          "team": 1,
+          "x": 811.3809249287173,
+          "y": 525.1290944693961,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 36,
+          "type": "tank",
+          "team": 0,
+          "x": 575.638706966868,
+          "y": 498.41008064399443,
+          "hp": 190,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 39,
+          "type": "tank",
+          "team": 1,
+          "x": 710.7142354197022,
+          "y": 558.8186499745306,
+          "hp": 230,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 41,
+          "type": "repair",
+          "team": 1,
+          "x": 1012.7984000828096,
+          "y": 604.1263389862903,
+          "hp": 180,
+          "goal": null
+        },
+        {
+          "id": 42,
+          "type": "tank",
+          "team": 0,
+          "x": 528.9894701588884,
+          "y": 496.71889389903737,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 43,
+          "type": "tank",
+          "team": 0,
+          "x": 529.0284628020534,
+          "y": 467.7189201132944,
+          "hp": 230,
+          "goal": {
+            "x": 628,
+            "y": 500
+          }
+        },
+        {
+          "id": 44,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 45,
+          "type": "scout",
+          "team": 1,
+          "x": 1058.0011774714462,
+          "y": 558.9425824918354,
+          "hp": 105,
+          "goal": null
+        }
+      ]
+    },
+    {
+      "t": 100.01666666666227,
+      "cash": 178,
+      "progress": [
+        87.54999999999632,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        2,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          4380,
+          2880
+        ],
+        "spent": [
+          5902,
+          4770
+        ],
+        "kills": [
+          10,
+          11
+        ],
+        "losses": [
+          11,
+          10
+        ],
+        "produced": [
+          14,
+          14
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          4140,
+          2880
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 938.9239770352893,
+          "y": 689.7309951562179,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 570.4799741493908,
+          "y": 429.23972564697925,
+          "hp": 122.2779833609599,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 808.2319760076275,
+          "y": 435.12839879345137,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 486.90154297836074,
+          "y": 496.92740335593004,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 33,
+          "type": "artillery",
+          "team": 1,
+          "x": 811.3809249287173,
+          "y": 525.1290944693961,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 36,
+          "type": "tank",
+          "team": 0,
+          "x": 575.638706966868,
+          "y": 498.41008064399443,
+          "hp": 90.21205455029855,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 39,
+          "type": "tank",
+          "team": 1,
+          "x": 710.7142354197022,
+          "y": 558.8186499745306,
+          "hp": 138,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 41,
+          "type": "repair",
+          "team": 1,
+          "x": 1012.7984000828096,
+          "y": 604.1263389862903,
+          "hp": 180,
+          "goal": null
+        },
+        {
+          "id": 42,
+          "type": "tank",
+          "team": 0,
+          "x": 528.9894701588884,
+          "y": 496.71889389903737,
+          "hp": 229.20317174128385,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 43,
+          "type": "tank",
+          "team": 0,
+          "x": 623.9807035788315,
+          "y": 497.148828145112,
+          "hp": 19,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 44,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 45,
+          "type": "scout",
+          "team": 1,
+          "x": 1058.0011774714462,
+          "y": 558.9425824918354,
+          "hp": 105,
+          "goal": null
+        },
+        {
+          "id": 46,
+          "type": "tank",
+          "team": 0,
+          "x": 406.63778047276224,
+          "y": 512.5800206432963,
+          "hp": 230,
+          "goal": {
+            "x": 580,
+            "y": 548
+          }
+        }
+      ]
+    },
+    {
+      "t": 102.46666666666214,
+      "cash": 174,
+      "progress": [
+        90,
+        0
+      ],
+      "owner": 0,
+      "present": [
+        1,
+        0
+      ],
+      "contested": false,
+      "stats": {
+        "income": [
+          4380,
+          3060
+        ],
+        "spent": [
+          5906,
+          5120
+        ],
+        "kills": [
+          10,
+          12
+        ],
+        "losses": [
+          12,
+          10
+        ],
+        "produced": [
+          14,
+          14
+        ],
+        "captures": [
+          1,
+          0
+        ],
+        "harvested": [
+          4140,
+          3060
+        ]
+      },
+      "entities": [
+        {
+          "id": 1,
+          "type": "hq",
+          "team": 0,
+          "x": 140,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 2,
+          "type": "power",
+          "team": 0,
+          "x": 100,
+          "y": 515,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 3,
+          "type": "refinery",
+          "team": 0,
+          "x": 290,
+          "y": 420,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 4,
+          "type": "factory",
+          "team": 0,
+          "x": 220,
+          "y": 530,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 5,
+          "type": "harvester",
+          "team": 0,
+          "x": 373.082569120668,
+          "y": 432.3660337336778,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 9,
+          "type": "hq",
+          "team": 1,
+          "x": 1050,
+          "y": 400,
+          "hp": 1800,
+          "goal": null
+        },
+        {
+          "id": 10,
+          "type": "factory",
+          "team": 1,
+          "x": 1100,
+          "y": 525,
+          "hp": 1000,
+          "goal": null
+        },
+        {
+          "id": 11,
+          "type": "power",
+          "team": 1,
+          "x": 930,
+          "y": 365,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 12,
+          "type": "power",
+          "team": 1,
+          "x": 1160,
+          "y": 355,
+          "hp": 550,
+          "goal": null
+        },
+        {
+          "id": 13,
+          "type": "refinery",
+          "team": 1,
+          "x": 1040,
+          "y": 715,
+          "hp": 850,
+          "goal": null
+        },
+        {
+          "id": 14,
+          "type": "harvester",
+          "team": 1,
+          "x": 928.8344951624828,
+          "y": 687.2086241410284,
+          "hp": 310,
+          "goal": null
+        },
+        {
+          "id": 15,
+          "type": "turret",
+          "team": 1,
+          "x": 935,
+          "y": 505,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 16,
+          "type": "turret",
+          "team": 1,
+          "x": 1080,
+          "y": 620,
+          "hp": 650,
+          "goal": null
+        },
+        {
+          "id": 23,
+          "type": "repair",
+          "team": 0,
+          "x": 570.4799741493908,
+          "y": 429.23972564697925,
+          "hp": 74.2779833609599,
+          "hold": false,
+          "goal": null
+        },
+        {
+          "id": 24,
+          "type": "artillery",
+          "team": 1,
+          "x": 808.2319760076275,
+          "y": 435.12839879345137,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 31,
+          "type": "tank",
+          "team": 0,
+          "x": 486.90154297836074,
+          "y": 496.92740335593004,
+          "hp": 230,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 33,
+          "type": "artillery",
+          "team": 1,
+          "x": 811.3809249287173,
+          "y": 525.1290944693961,
+          "hp": 130,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 36,
+          "type": "tank",
+          "team": 0,
+          "x": 575.638706966868,
+          "y": 498.41008064399443,
+          "hp": 31.212054550298546,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 39,
+          "type": "tank",
+          "team": 1,
+          "x": 710.7142354197022,
+          "y": 558.8186499745306,
+          "hp": 69,
+          "goal": {
+            "x": 600,
+            "y": 500
+          }
+        },
+        {
+          "id": 41,
+          "type": "repair",
+          "team": 1,
+          "x": 1012.7984000828096,
+          "y": 604.1263389862903,
+          "hp": 180,
+          "goal": null
+        },
+        {
+          "id": 42,
+          "type": "tank",
+          "team": 0,
+          "x": 528.9894701588884,
+          "y": 496.71889389903737,
+          "hp": 228.4063434825677,
+          "hold": true,
+          "goal": null
+        },
+        {
+          "id": 44,
+          "type": "tank",
+          "team": 1,
+          "x": 1050,
+          "y": 585,
+          "hp": 230,
+          "goal": null
+        },
+        {
+          "id": 45,
+          "type": "scout",
+          "team": 1,
+          "x": 1058.0011774714462,
+          "y": 558.9425824918354,
+          "hp": 105,
+          "goal": null
+        },
+        {
+          "id": 46,
+          "type": "tank",
+          "team": 0,
+          "x": 479.5497483368039,
+          "y": 468.87475436250384,
+          "hp": 230,
+          "goal": {
+            "x": 580,
+            "y": 548
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Whole source VM; normal select/change/start, map pointer selection, coordinate commands, arrival hold/rally hold, paid production. Fixed1/60 simulation steps. Read-only observations. No state/resource/entity injection or game-function commands."
+}

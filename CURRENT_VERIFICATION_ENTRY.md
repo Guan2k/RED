@@ -1,9 +1,9 @@
-# 稳定默认验证入口：v0.292
+# 稳定默认验证入口：v0.293
 
-运行 `node verify-current.cjs`；只核文件与身份使用 `node verify-current.cjs --check-only`。本版manifest固定v292源和 `verification/run-tests-v292.cjs`。原wrapper字节保持不变：白名单字节快照复制，临时副本复验，只在副本运行聚合并清理，原包不写回结果。不附加legacy或long。
+运行 `node verify-current.cjs`；只核文件与身份使用 `node verify-current.cjs --check-only`。manifest固定v293源和 `verification/run-tests-v293.cjs`。原wrapper字节不变：白名单快照复制，临时副本复验，只在副本运行聚合并清理，原包不写回结果。不附加legacy或long。
 
-独立门禁工具：`node tools/stable-verification/test-entry-v292.cjs`。它只运行真包check-only和受控synthetic stub，不启动真正游戏聚合；这些检查不计为游戏覆盖。
+独立门禁工具：`node tools/stable-verification/test-entry-v293.cjs`。仅真包check-only及synthetic stub，不计游戏覆盖。历史工具、脚本和结果原字节保留；v292文档归档于verification/release-v292-docs。
 
-当前实测结果见QA_STATUS.md。旧版本工具、测试、报告以及v291入口说明保留于verification/release-v291-docs，不冒充v292实测。v292版本化继承测试仅更新身份／恢复链及一项与本版规则明确冲突的重复保存期望，并增加首次重新按键仍有效的断言。
+只有两个指定历史DOM比较器及当前反馈比较器增加新任务按钮/说明的精确子树投影，七项介绍采用精确节点/全文文本规范化；独立负边界验证旧字段仍可检测。其他版本化继承只更新身份/恢复链。
 
-离线清单仅证明包内一致性，不能证明来源或远端最新；同时篡改入口、manifest和清单不在自检防护范围。SIGKILL或宿主中断可能留下临时目录。本轮不运行原生浏览器、存档／载入／导入导出或真实存储操作。旧v289玩家ZIP和builder保持历史严格门禁；v292精简玩家包另行打包与校验，不在本次游戏回归范围内。
+无原生浏览器、游戏存档/载入/导入导出或真实浏览器存储操作。自然路线VM初始化会读取空模拟存储。离线清单只证明包内一致性，不认证来源或远端最新；SIGKILL可能留下临时目录。历史玩家ZIP与当前版本的独立打包产物由各自打包验证负责，不属于游戏回归覆盖。

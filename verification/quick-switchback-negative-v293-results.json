@@ -1,0 +1,134 @@
+{
+  "passed": 25,
+  "failed": 0,
+  "positiveScenarios": 19,
+  "positiveAssertions": 530,
+  "results": [
+    {
+      "name": "wrong click wiring",
+      "passed": true,
+      "detectedBy": "switchback button exact selector values"
+    },
+    {
+      "name": "wrong preset map",
+      "passed": true,
+      "detectedBy": "switchback button exact selector values"
+    },
+    {
+      "name": "wrong preset objective",
+      "passed": true,
+      "detectedBy": "switchback button exact selector values"
+    },
+    {
+      "name": "wrong preset difficulty",
+      "passed": true,
+      "detectedBy": "switchback button exact selector values"
+    },
+    {
+      "name": "wrong preset challenge",
+      "passed": true,
+      "detectedBy": "switchback button exact selector values"
+    },
+    {
+      "name": "automatic start on preset click",
+      "passed": true,
+      "detectedBy": "switchback button never auto-starts"
+    },
+    {
+      "name": "preset mutates current economy",
+      "passed": true,
+      "detectedBy": "switchback menu button leaves whole world unchanged"
+    },
+    {
+      "name": "preset consumes random",
+      "passed": true,
+      "detectedBy": "switchback menu button consumes no RNG"
+    },
+    {
+      "name": "switchback preview not refreshed",
+      "passed": true,
+      "detectedBy": "switchback preview refreshes to target map and goal"
+    },
+    {
+      "name": "hidden overlay guard omitted",
+      "passed": true,
+      "detectedBy": "hidden overlay blocks pending selector changes"
+    },
+    {
+      "name": "live battle guard omitted",
+      "passed": true,
+      "detectedBy": "live non-restart guard independently blocks selector changes"
+    },
+    {
+      "name": "restart menu incorrectly blocked",
+      "passed": true,
+      "detectedBy": "restart menu accepts switchback pending configuration"
+    },
+    {
+      "name": "terminal menu incorrectly blocked",
+      "passed": true,
+      "detectedBy": "terminal menu accepts switchback pending configuration"
+    },
+    {
+      "name": "restart preset changes live battle",
+      "passed": true,
+      "detectedBy": "restart switchback button leaves whole world unchanged"
+    },
+    {
+      "name": "terminal preset changes result",
+      "passed": true,
+      "detectedBy": "terminal switchback button leaves whole world unchanged"
+    },
+    {
+      "name": "manual difficulty overwritten at start",
+      "passed": true,
+      "detectedBy": "start honors manual difficulty override"
+    },
+    {
+      "name": "restart cancellation discards pending map",
+      "passed": true,
+      "detectedBy": "restart cancellation retains next-battle configuration"
+    },
+    {
+      "name": "mutable new preset entry",
+      "passed": true,
+      "detectedBy": "preset table and every configuration remain frozen"
+    },
+    {
+      "name": "duplicate new preset button",
+      "passed": true,
+      "detectedBy": "exactly seven quick mission buttons"
+    },
+    {
+      "name": "brief hidden from players",
+      "passed": true,
+      "detectedBy": "brief has no hidden ancestor"
+    },
+    {
+      "name": "brief names wrong target",
+      "passed": true,
+      "detectedBy": "brief concept central target coordinate"
+    },
+    {
+      "name": "brief omits contest pause",
+      "passed": true,
+      "detectedBy": "brief concept contested hold pauses"
+    },
+    {
+      "name": "brief incorrectly counts support vehicles",
+      "passed": true,
+      "detectedBy": "brief concept noncombat vehicles excluded"
+    },
+    {
+      "name": "brief promises victory",
+      "passed": true,
+      "detectedBy": "brief concept advanced non-guaranteed challenge"
+    },
+    {
+      "name": "brief reverses HQ precedence",
+      "passed": true,
+      "detectedBy": "brief concept HQ destruction precedence"
+    }
+  ],
+  "scope": "Unmodified positive suite must pass first. Each exact temporary source or markup mutation must exit with its named semantic assertion; syntax, source hashes, generic exceptions, signal and timeout failures are rejected. Mutant fixtures and restored baselines stay outside the package. No native browser or persistence acceptance claim."
+}

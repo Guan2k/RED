@@ -1,0 +1,26 @@
+[
+  {
+    "before": "v0.292",
+    "after": "v0.293"
+  },
+  {
+    "before": "survival:Object.freeze({scenario:'classic',objective:'survival',difficulty:'normal',challenge:'standard'})",
+    "after": "survival:Object.freeze({scenario:'classic',objective:'survival',difficulty:'normal',challenge:'standard'}),switchback:Object.freeze({scenario:'switchback',objective:'stronghold',difficulty:'hard',challenge:'mobile'})"
+  },
+  {
+    "before": "<button type=\"button\" id=\"quickSurvival\">斜线守卫<small>斜线前哨 · 守卫 · 标准难度 · 标准规则</small></button>",
+    "after": "<button type=\"button\" id=\"quickSurvival\">斜线守卫<small>斜线前哨 · 守卫 · 标准难度 · 标准规则</small></button><button type=\"button\" id=\"quickSwitchback\">双闸突进<small>双闸回廊 · 要点驻守 · 老兵 · 机动作战</small></button>"
+  },
+  {
+    "before": "六项快速任务均有参考",
+    "after": "七项快速任务均有参考"
+  },
+  {
+    "before": "<h4>四丘争夺</h4>",
+    "after": "<section id=\"quickSwitchbackBrief\"><h4>双闸突进</h4><p>双闸回廊 · 要点驻守 · 老兵 · 机动作战；进阶挑战，不保证获胜。</p><ul><li>目标是中央据点（600,500）：战斗车辆进入65距离内，无敌车争夺时先占领8秒，再有效驻守90游戏秒。双方在圈内暂停累计；己方战斗车辆全部离开或失去归属会归零。矿车与维修车不计驻守。</li><li>可尝试让侦察车与坦克分散守住据点西侧，工厂向据点附近集结并开启抵达驻停；先补火炮、维修车、火炮，再用正常采矿收入持续补坦克。火炮分散在据点上下侧，避免贴身；维修车跟随前线受损车辆支援。</li><li>这条路线余量很小，增援未必都落在圈内；留意战斗车辆覆盖、维修与矿线。机动作战不能新建己方炮塔；指挥中心毁坏优先于驻守计时结算。更改配置后请重新调整战术。</li></ul></section><h4>四丘争夺</h4>"
+  },
+  {
+    "before": "$('quickSurvival').onclick=()=>applyQuickMission('survival');",
+    "after": "$('quickSurvival').onclick=()=>applyQuickMission('survival');$('quickSwitchback').onclick=()=>applyQuickMission('switchback');"
+  }
+]
