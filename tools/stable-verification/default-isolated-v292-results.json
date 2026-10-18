@@ -1,0 +1,55 @@
+{
+  "command": "node verify-current.cjs",
+  "startedAt": "2026-10-18T03:58:40.248517+00:00",
+  "finishedAt": "2026-10-18T04:02:50.327675+00:00",
+  "exitCode": 0,
+  "stderr": "",
+  "sourceSha256": "e5edd8f7384d37a356071c66c6788e681f3e45ad9ab224a52a783692b5ca0884",
+  "runnerSha256": "dd2be2f2b7a7b0ea8819f5937cb80f123c7b03a8a05c40728a1c783bb9bf8467",
+  "packageFilesChecked": 675,
+  "packageHashesUnchanged": true,
+  "leftoverNewTemporaryDirectories": [],
+  "postRunCheckOnly": {
+    "exitCode": 0,
+    "stdout": "Package declares v0.292; source SHA-256 e5edd8f7384d37a356071c66c6788e681f3e45ad9ab224a52a783692b5ca0884; runner verification/run-tests-v292.cjs; 674 listed files verified.\nPackage integrity passed; game verification was not executed. Offline consistency does not establish authenticity or remote latest version.\n",
+    "stderr": ""
+  },
+  "inheritedBehaviorAndMarkup": 959,
+  "inheritedSourceChecks": 10,
+  "historicalIdentity": 15,
+  "focusedResultEntries": 52,
+  "focused": [
+    {
+      "script": "control-group-repeat-v292.cjs",
+      "passed": 40,
+      "assertions": 257
+    },
+    {
+      "script": "control-group-repeat-negative-control-v292.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "parameterized-pilot/order-display-writes.cjs",
+      "passed": 8,
+      "assertions": 229
+    },
+    {
+      "script": "parameterized-pilot/selection-filter-writes.cjs",
+      "passed": 7,
+      "assertions": 110
+    },
+    {
+      "script": "parameterized-pilot/mutations.json#order-display-writes",
+      "passed": 10,
+      "assertions": null,
+      "classification": "DETECTED_BEHAVIOR"
+    },
+    {
+      "script": "parameterized-pilot/mutations.json#selection-filter-writes",
+      "passed": 8,
+      "assertions": null,
+      "classification": "DETECTED_BEHAVIOR"
+    }
+  ]
+}

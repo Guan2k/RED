@@ -1,0 +1,825 @@
+{
+  "source": "red-development/v292-key-repeat/RED/index.html",
+  "sha256": "e5edd8f7384d37a356071c66c6788e681f3e45ad9ab224a52a783692b5ca0884",
+  "passed": 204,
+  "failed": 0,
+  "scope": "Independent whole-source synthetic VM/DOM keyboard dispatch; no native browser claims. Explicit lifecycle/pending-mode fixtures. Persistence refresh suppressed before bootstrap; no storage/save/load/import/export operations.",
+  "results": [
+    {
+      "name": "repeat 0 none pause=false ",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=false placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=false attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=false ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=false appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=false drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=true ",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=true placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=true attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=true ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=true appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 none pause=true drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=false ",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=false placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=false attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=false ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=false appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=false drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=true ",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=true placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=true attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=true ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=true appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 ctrl pause=true drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=false ",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=false placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=false attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=false ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=false appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=false drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=true ",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=true placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=true attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=true ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=true appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 0 meta pause=true drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=false ",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=false placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=false attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=false ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=false appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=false drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=true ",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=true placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=true attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=true ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=true appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 none pause=true drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=false ",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=false placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=false attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=false ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=false appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=false drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=true ",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=true placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=true attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=true ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=true appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 ctrl pause=true drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=false ",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=false placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=false attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=false ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=false appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=false drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=true ",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=true placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=true attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=true ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=true appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 1 meta pause=true drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=false ",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=false placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=false attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=false ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=false appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=false drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=true ",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=true placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=true attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=true ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=true appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 none pause=true drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=false ",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=false placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=false attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=false ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=false appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=false drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=true ",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=true placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=true attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=true ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=true appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 ctrl pause=true drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=false ",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=false placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=false attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=false ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=false appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=false drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=true ",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=true placement='power'",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=true attackMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=true ordinaryCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=true appendCommandMode=true",
+      "pass": true
+    },
+    {
+      "name": "repeat 2 meta pause=true drag={pointerId:88,x:100,y:200}",
+      "pass": true
+    },
+    {
+      "name": "first press parity 0 none repeat=false",
+      "pass": true
+    },
+    {
+      "name": "first press parity 0 none repeat=undefined",
+      "pass": true
+    },
+    {
+      "name": "first press parity 0 ctrl repeat=false",
+      "pass": true
+    },
+    {
+      "name": "first press parity 0 ctrl repeat=undefined",
+      "pass": true
+    },
+    {
+      "name": "first press parity 0 meta repeat=false",
+      "pass": true
+    },
+    {
+      "name": "first press parity 0 meta repeat=undefined",
+      "pass": true
+    },
+    {
+      "name": "first press parity 1 none repeat=false",
+      "pass": true
+    },
+    {
+      "name": "first press parity 1 none repeat=undefined",
+      "pass": true
+    },
+    {
+      "name": "first press parity 1 ctrl repeat=false",
+      "pass": true
+    },
+    {
+      "name": "first press parity 1 ctrl repeat=undefined",
+      "pass": true
+    },
+    {
+      "name": "first press parity 1 meta repeat=false",
+      "pass": true
+    },
+    {
+      "name": "first press parity 1 meta repeat=undefined",
+      "pass": true
+    },
+    {
+      "name": "first press parity 2 none repeat=false",
+      "pass": true
+    },
+    {
+      "name": "first press parity 2 none repeat=undefined",
+      "pass": true
+    },
+    {
+      "name": "first press parity 2 ctrl repeat=false",
+      "pass": true
+    },
+    {
+      "name": "first press parity 2 ctrl repeat=undefined",
+      "pass": true
+    },
+    {
+      "name": "first press parity 2 meta repeat=false",
+      "pass": true
+    },
+    {
+      "name": "first press parity 2 meta repeat=undefined",
+      "pass": true
+    },
+    {
+      "name": "selection changes during hold and fresh press 0 none",
+      "pass": true
+    },
+    {
+      "name": "selection changes during hold and fresh press 0 ctrl",
+      "pass": true
+    },
+    {
+      "name": "selection changes during hold and fresh press 0 meta",
+      "pass": true
+    },
+    {
+      "name": "selection changes during hold and fresh press 1 none",
+      "pass": true
+    },
+    {
+      "name": "selection changes during hold and fresh press 1 ctrl",
+      "pass": true
+    },
+    {
+      "name": "selection changes during hold and fresh press 1 meta",
+      "pass": true
+    },
+    {
+      "name": "selection changes during hold and fresh press 2 none",
+      "pass": true
+    },
+    {
+      "name": "selection changes during hold and fresh press 2 ctrl",
+      "pass": true
+    },
+    {
+      "name": "selection changes during hold and fresh press 2 meta",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 none state.started=false repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 none state.started=false repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 none restartPrompt=true repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 none restartPrompt=true repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 none state.result='胜利' repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 none state.result='胜利' repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 ctrl state.started=false repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 ctrl state.started=false repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 ctrl restartPrompt=true repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 ctrl restartPrompt=true repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 ctrl state.result='胜利' repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 ctrl state.result='胜利' repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 meta state.started=false repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 meta state.started=false repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 meta restartPrompt=true repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 meta restartPrompt=true repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 meta state.result='胜利' repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 0 meta state.result='胜利' repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 none state.started=false repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 none state.started=false repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 none restartPrompt=true repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 none restartPrompt=true repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 none state.result='胜利' repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 none state.result='胜利' repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 ctrl state.started=false repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 ctrl state.started=false repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 ctrl restartPrompt=true repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 ctrl restartPrompt=true repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 ctrl state.result='胜利' repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 ctrl state.result='胜利' repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 meta state.started=false repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 meta state.started=false repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 meta restartPrompt=true repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 meta restartPrompt=true repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 meta state.result='胜利' repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 1 meta state.result='胜利' repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 none state.started=false repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 none state.started=false repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 none restartPrompt=true repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 none restartPrompt=true repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 none state.result='胜利' repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 none state.result='胜利' repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 ctrl state.started=false repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 ctrl state.started=false repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 ctrl restartPrompt=true repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 ctrl restartPrompt=true repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 ctrl state.result='胜利' repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 ctrl state.result='胜利' repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 meta state.started=false repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 meta state.started=false repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 meta restartPrompt=true repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 meta restartPrompt=true repeat=true",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 meta state.result='胜利' repeat=false",
+      "pass": true
+    },
+    {
+      "name": "blocked 2 meta state.result='胜利' repeat=true",
+      "pass": true
+    },
+    {
+      "name": "UI unaffected 0 recall",
+      "pass": true
+    },
+    {
+      "name": "UI unaffected 0 ctrlclick",
+      "pass": true
+    },
+    {
+      "name": "UI unaffected 0 visible",
+      "pass": true
+    },
+    {
+      "name": "UI unaffected 1 recall",
+      "pass": true
+    },
+    {
+      "name": "UI unaffected 1 ctrlclick",
+      "pass": true
+    },
+    {
+      "name": "UI unaffected 1 visible",
+      "pass": true
+    },
+    {
+      "name": "UI unaffected 2 recall",
+      "pass": true
+    },
+    {
+      "name": "UI unaffected 2 ctrlclick",
+      "pass": true
+    },
+    {
+      "name": "UI unaffected 2 visible",
+      "pass": true
+    },
+    {
+      "name": "editing focus INPUT false",
+      "pass": true
+    },
+    {
+      "name": "editing focus INPUT true",
+      "pass": true
+    },
+    {
+      "name": "editing focus SELECT false",
+      "pass": true
+    },
+    {
+      "name": "editing focus SELECT true",
+      "pass": true
+    },
+    {
+      "name": "editing focus TEXTAREA false",
+      "pass": true
+    },
+    {
+      "name": "editing focus TEXTAREA true",
+      "pass": true
+    }
+  ]
+}

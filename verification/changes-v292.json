@@ -1,0 +1,10 @@
+[
+  {
+    "before": "v0.291",
+    "after": "v0.292"
+  },
+  {
+    "before": "e.preventDefault();controlGroup(Number(e.key)-1,e.ctrlKey||e.metaKey);return",
+    "after": "e.preventDefault();if(!e.repeat)controlGroup(Number(e.key)-1,e.ctrlKey||e.metaKey);return"
+  }
+]
