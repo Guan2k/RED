@@ -1,0 +1,197 @@
+{
+  "passed": 450,
+  "failed": 0,
+  "assertions": 5607,
+  "checks": 5607,
+  "cases": 450,
+  "sourceSha256": "60bf7eaa9493f1e0fbec3467fb81a8ff25d5ea89f7143fb362adc76a15fe8fc0",
+  "baseSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "cache": {
+    "paths": 20,
+    "vertices": 84,
+    "circles": 9,
+    "constructors": 20,
+    "pathMethods": 104
+  },
+  "completedNoOrderMethodCounts": {
+    "hq": {
+      "old": 15,
+      "cached": 24,
+      "direct": 43
+    },
+    "power": {
+      "old": 24,
+      "cached": 19,
+      "direct": 51
+    },
+    "refinery": {
+      "old": 14,
+      "cached": 19,
+      "direct": 56
+    },
+    "factory": {
+      "old": 13,
+      "cached": 19,
+      "direct": 46
+    },
+    "turret": {
+      "old": 13,
+      "cached": 15,
+      "direct": 39
+    }
+  },
+  "constructionMethodCounts": {
+    "hq": {
+      "old": 17,
+      "cached": 26,
+      "direct": 45
+    },
+    "power": {
+      "old": 33,
+      "cached": 28,
+      "direct": 60
+    },
+    "refinery": {
+      "old": 23,
+      "cached": 28,
+      "direct": 65
+    },
+    "factory": {
+      "old": 22,
+      "cached": 28,
+      "direct": 55
+    },
+    "turret": {
+      "old": 22,
+      "cached": 24,
+      "direct": 48
+    }
+  },
+  "factoryStateMethodCounts": {
+    "production": {
+      "old": 22,
+      "cached": 29,
+      "direct": 51
+    },
+    "paused": {
+      "old": 22,
+      "cached": 29,
+      "direct": 51
+    },
+    "no-power": {
+      "old": 22,
+      "cached": 29,
+      "direct": 51
+    },
+    "waiting-exit": {
+      "old": 22,
+      "cached": 29,
+      "direct": 51
+    },
+    "terminal": {
+      "old": 22,
+      "cached": 29,
+      "direct": 51
+    }
+  },
+  "factoryStates": [
+    "production",
+    "paused",
+    "no-power",
+    "waiting-exit",
+    "terminal"
+  ],
+  "failures": [
+    {
+      "mode": "absent",
+      "passed": true,
+      "constructors": 0,
+      "pathMethods": 0
+    },
+    {
+      "mode": "nonfunction",
+      "passed": true,
+      "constructors": 0,
+      "pathMethods": 0
+    },
+    {
+      "mode": "construct-first",
+      "passed": true,
+      "constructors": 1,
+      "pathMethods": 0
+    },
+    {
+      "mode": "construct-partial",
+      "passed": true,
+      "constructors": 7,
+      "pathMethods": 26
+    },
+    {
+      "mode": "trace",
+      "passed": true,
+      "constructors": 1,
+      "pathMethods": 1
+    },
+    {
+      "mode": "arc",
+      "passed": true,
+      "constructors": 3,
+      "pathMethods": 23
+    },
+    {
+      "mode": "fill-first",
+      "passed": true,
+      "constructors": 20,
+      "pathMethods": 104
+    },
+    {
+      "mode": "fill-second",
+      "passed": true,
+      "constructors": 20,
+      "pathMethods": 104
+    }
+  ],
+  "parity": [
+    {
+      "map": "classic",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "frontier",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "canyon",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "ridge",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "crossroads",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "switchback",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "ring",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "meridian",
+      "seconds": 90,
+      "passed": true
+    }
+  ],
+  "limits": "Synthetic recording Path2D/Canvas, no native backend raster/FPS proof. Historical expected frames adapt low-ore labels before layout and omit only exact validated ore tails; expected paints adapt only exact helper rail/fill y offsets; strict v294 identity and interior historical whole-frame HP fixtures are asserted without health-Y adaptation. All path construction transforms, styles and clips remain checked. Persistence bootstrap refresh suppressed by existing no-persistence harness; all storage APIs throw."
+}

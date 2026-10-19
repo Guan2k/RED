@@ -1,0 +1,14 @@
+{
+  "stoppedBeforeGameTests": true,
+  "mismatchedEntries": [
+    {
+      "path": "verification/low-ore-labels-v311-evidence/low-ore-label-v311-details.json",
+      "sealedSha256": "7c95b0adf79d245b1aec82f6f6a48f2a6b95b757c98885acaff002e2a1101722",
+      "currentSha256": "04d6ad633885d3d3b91ed852eac574c0c810e901e47b41c5930fac144f667512"
+    }
+  ],
+  "sourceAndTestCodeUnchanged": true,
+  "cause": "First low-label success preceded final adapter dependency-metadata/probe edits. Its generated details were not refreshed before sealing. Independent rerun against final frozen code refreshed dependency list and adapter SHA after seal. Product and test code stayed unchanged.",
+  "reviewerConfirmedQuiescent": true,
+  "adapterAuthorConfirmedQuiescent": true
+}

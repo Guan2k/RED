@@ -1,0 +1,10 @@
+{
+  "started": "2026-10-19T09:59:29.874597+00:00",
+  "finished": "2026-10-19T09:59:34.039585+00:00",
+  "exitCode": 1,
+  "originalUnchanged": true,
+  "isolatedInputsUnchanged": true,
+  "inputFiles": 3657,
+  "stderrBytes": 187,
+  "scope": "One complete developer entry in an isolated copy; canonical verifier also seals its own snapshot. All original/copied inputs checked bytewise before/after."
+}

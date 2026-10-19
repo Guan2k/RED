@@ -1,0 +1,103 @@
+{
+  "source": "../../v310-work/RED/index.html",
+  "sourceSha256Before": "10061270b6f245d2980f5eb7f45bc6ad742500157ac7e7b16b929fcde0f9a7bd",
+  "sourceSha256After": "10061270b6f245d2980f5eb7f45bc6ad742500157ac7e7b16b929fcde0f9a7bd",
+  "sourceUnchanged": true,
+  "fixture": "state.mapChoice='canyon';state.ores[0].amount=.1;state.ores[3].x=480;state.ores[3].y=530;get(5).x=420;get(5).y=640;get(5).mine=.35;get(5).oreIndex=0;get(5).load=0;selection.clear();hoverActive=false;",
+  "rows": [
+    {
+      "name": "01-fractional",
+      "amount": 0.1,
+      "miner": {
+        "id": 5,
+        "type": "harvester",
+        "team": 0,
+        "x": 420,
+        "y": 640,
+        "hp": 310,
+        "max": 310,
+        "r": 16,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": null,
+        "attackMove": false,
+        "build": 0,
+        "load": 0,
+        "mine": 0.35,
+        "oreIndex": 0
+      },
+      "renderStateUnchanged": true,
+      "bedCount": 1,
+      "fractionLabelCount": 1,
+      "paintCount": 274
+    },
+    {
+      "name": "02-just-depleted",
+      "amount": 0,
+      "miner": {
+        "id": 5,
+        "type": "harvester",
+        "team": 0,
+        "x": 420,
+        "y": 640,
+        "hp": 310,
+        "max": 310,
+        "r": 16,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": null,
+        "attackMove": false,
+        "build": 0,
+        "load": 0.1,
+        "mine": 0,
+        "oreIndex": 0
+      },
+      "renderStateUnchanged": true,
+      "bedCount": 0,
+      "fractionLabelCount": 0,
+      "paintCount": 271
+    },
+    {
+      "name": "03-miner-clear",
+      "amount": 0,
+      "miner": {
+        "id": 5,
+        "type": "harvester",
+        "team": 0,
+        "x": 350,
+        "y": 660,
+        "hp": 310,
+        "max": 310,
+        "r": 16,
+        "angle": 0,
+        "cool": 0,
+        "target": null,
+        "goal": null,
+        "attackMove": false,
+        "build": 0,
+        "load": 0.1,
+        "mine": 0,
+        "oreIndex": 0
+      },
+      "renderStateUnchanged": true,
+      "bedCount": 0,
+      "fractionLabelCount": 0,
+      "paintCount": 271
+    }
+  ],
+  "hover": {
+    "same": true,
+    "lines": [
+      "矿点 · 剩余 0",
+      "已指定 1 辆 · 附近己方矿车 1 辆",
+      "精炼厂直线距离 130（地图单位）",
+      "矿点已耗尽，指定矿车将自动改选"
+    ]
+  },
+  "method": "Existing full-source render() captured by existing Canvas recorder. SVG converter adapted from existing verification; sharp rasterization. Not browser pixels.",
+  "actualHarvestCall": "harvest(get(5),.05)",
+  "proposal": "SVG-only flat footprint illustration inserted behind world entities. No source changes.",
+  "limits": "Synthetic canyon state; source ore 3 moved for nearby live-ore comparison. Native Canvas rasterization, font metrics, browser hitboxes, animation and gameplay playability not verified."
+}

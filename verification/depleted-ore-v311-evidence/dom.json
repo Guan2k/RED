@@ -1,0 +1,1016 @@
+{
+  "passed": 252,
+  "failed": 0,
+  "sourceSha256": "60bf7eaa9493f1e0fbec3467fb81a8ff25d5ea89f7143fb362adc76a15fe8fc0",
+  "results": [
+    {
+      "name": "repair-button-repeat.cjs physical subtree removal equals exact v309 projection",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs exact gallery descendants excluded",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains renamed root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains wrong root tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains detached root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains wrong parent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains nested rather than direct child",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains wrong parent tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains renamed parent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains detached parent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains duplicate exact root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains duplicate reference parent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains detached descendant",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old reference text",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old reference summary",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old reference hint",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old reference details attributes",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old purchase control",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains unrelated style",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs preserves exact v309 vehicle gallery projection",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs preserves v309 vehicle negative rename",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs preserves v309 vehicle negative wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs preserves v309 vehicle negative detach",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs preserves v309 vehicle negative wrong parent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs preserves v309 vehicle negative duplicate",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs preserves v309 vehicle negative detached descendant",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs preserves v309 vehicle negative attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs unrelated SVG remains observable",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 exact reason exclusion power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative rename power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative detach power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative wrong parent power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative descendant power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative sibling power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative wrong tag power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative old button power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 exact reason exclusion refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative rename refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative detach refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative wrong parent refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative descendant refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative sibling refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative wrong tag refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative old button refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 exact reason exclusion factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative rename factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative detach factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative wrong parent factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative descendant factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative sibling factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative wrong tag factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative old button factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 exact reason exclusion turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative rename turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative detach turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative wrong parent turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative descendant turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative sibling turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative wrong tag turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains v306 negative old button turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs physical subtree removal equals exact v309 projection",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact gallery descendants excluded",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains renamed root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains wrong root tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains detached root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains wrong parent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains nested rather than direct child",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains wrong parent tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains renamed parent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains detached parent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains duplicate exact root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains duplicate reference parent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains detached descendant",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old reference text",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old reference summary",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old reference hint",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old reference details attributes",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old purchase control",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains unrelated style",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs preserves exact v309 vehicle gallery projection",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs preserves v309 vehicle negative rename",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs preserves v309 vehicle negative wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs preserves v309 vehicle negative detach",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs preserves v309 vehicle negative wrong parent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs preserves v309 vehicle negative duplicate",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs preserves v309 vehicle negative detached descendant",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs preserves v309 vehicle negative attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs unrelated SVG remains observable",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 exact reason exclusion power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative rename power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative detach power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative wrong parent power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative descendant power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative sibling power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative wrong tag power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative old button power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 exact reason exclusion refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative rename refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative detach refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative wrong parent refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative descendant refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative sibling refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative wrong tag refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative old button refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 exact reason exclusion factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative rename factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative detach factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative wrong parent factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative descendant factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative sibling factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative wrong tag factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative old button factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 exact reason exclusion turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative rename turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative detach turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative wrong parent turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative descendant turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative sibling turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative wrong tag turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains v306 negative old button turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation physical subtree removal equals exact v309 projection",
+      "passed": true
+    },
+    {
+      "name": "command-allocation exact gallery descendants excluded",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains renamed root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains wrong root tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains detached root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains wrong parent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains nested rather than direct child",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains wrong parent tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains renamed parent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains detached parent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains duplicate exact root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains duplicate reference parent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains detached descendant",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old reference text",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old reference summary",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old reference hint",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old reference details attributes",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old purchase control",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains unrelated style",
+      "passed": true
+    },
+    {
+      "name": "command-allocation preserves exact v309 vehicle gallery projection",
+      "passed": true
+    },
+    {
+      "name": "command-allocation preserves v309 vehicle negative rename",
+      "passed": true
+    },
+    {
+      "name": "command-allocation preserves v309 vehicle negative wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation preserves v309 vehicle negative detach",
+      "passed": true
+    },
+    {
+      "name": "command-allocation preserves v309 vehicle negative wrong parent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation preserves v309 vehicle negative duplicate",
+      "passed": true
+    },
+    {
+      "name": "command-allocation preserves v309 vehicle negative detached descendant",
+      "passed": true
+    },
+    {
+      "name": "command-allocation preserves v309 vehicle negative attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation unrelated SVG remains observable",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 exact reason exclusion power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative rename power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative detach power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative wrong parent power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative descendant power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative sibling power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative wrong tag power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative old button power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 exact reason exclusion refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative rename refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative detach refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative wrong parent refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative descendant refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative sibling refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative wrong tag refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative old button refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 exact reason exclusion factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative rename factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative detach factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative wrong parent factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative descendant factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative sibling factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative wrong tag factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative old button factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 exact reason exclusion turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative rename turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative detach turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative wrong parent turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative descendant turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative sibling turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative wrong tag turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains v306 negative old button turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide physical subtree removal equals exact v309 projection",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide exact gallery descendants excluded",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains renamed root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains wrong root tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains detached root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains wrong parent",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains nested rather than direct child",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains wrong parent tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains renamed parent",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains detached parent",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains duplicate exact root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains duplicate reference parent",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains detached descendant",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old reference text",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old reference summary",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old reference hint",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old reference details attributes",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old purchase control",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains unrelated style",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide preserves exact v309 vehicle gallery projection",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide preserves v309 vehicle negative rename",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide preserves v309 vehicle negative wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide preserves v309 vehicle negative detach",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide preserves v309 vehicle negative wrong parent",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide preserves v309 vehicle negative duplicate",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide preserves v309 vehicle negative detached descendant",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide preserves v309 vehicle negative attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide unrelated SVG remains observable",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 exact reason exclusion power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative rename power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative detach power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative wrong parent power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative descendant power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative sibling power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative wrong tag power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative old button power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 exact reason exclusion refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative rename refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative detach refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative wrong parent refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative descendant refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative sibling refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative wrong tag refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative old button refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 exact reason exclusion factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative rename factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative detach factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative wrong parent factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative descendant factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative sibling factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative wrong tag factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative old button factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 exact reason exclusion turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative rename turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative detach turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative wrong parent turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative descendant turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative sibling turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative wrong tag turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains v306 negative old button turret",
+      "passed": true
+    },
+    {
+      "name": "beginner unprojected comparator exactly unchanged",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs historical original identity lock",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs historical original identity lock",
+      "passed": true
+    },
+    {
+      "name": "frozen product source untouched",
+      "passed": true
+    }
+  ],
+  "scope": "Exact attached DIV#buildingReferenceGallery under unique DETAILS#unitReference and its subtree only, verified against physical removal plus v309 projection. Invalid roots, detached descendants, old reference text/summary/controls and unrelated styles remain observable. v309 vehicle gallery projection and v306 reason projection, frozen historical identity locks, and unprojected beginner comparator retained. No CSS stripping."
+}

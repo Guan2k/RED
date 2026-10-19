@@ -1,0 +1,1 @@
+'use strict';const assert=require('node:assert/strict'),changes=require('./changes-v311.json');module.exports=html=>{for(const c of [...changes].reverse()){assert.equal(html.split(c.after).length-1,1,'unique exact v311 source delta');html=html.replace(c.after,c.before)}return html};
