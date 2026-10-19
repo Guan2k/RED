@@ -2,7 +2,7 @@
 
 ## Source of truth
 
-Edit `src/`, not `index.html`. The HTML is generated and remains the single-file offline player artifact. The v0.294 adoption initially reconstructed its published artifact exactly. The current game is v0.308. Its factory-requirement feedback change is generated through the same guarded authoritative-source workflow; the preceding v301 vehicle-data adoption retained its artifact exactly. Future approved source changes use the same guarded workflow.
+Edit `src/`, not `index.html`. The HTML is generated and remains the single-file offline player artifact. The v0.294 adoption initially reconstructed its published artifact exactly. The current game is v0.309. Its static vehicle-reference thumbnail change is generated through the same guarded authoritative-source workflow; the preceding v301 vehicle-data adoption retained its artifact exactly. Future approved source changes use the same guarded workflow.
 
 `src/index.template.html` owns markup; `src/styles.css` owns CSS. Four ordered `.jsfrag` files retain the existing single script's order and shared globals. They are **not ES modules**. The renderer fragment includes inspection/presentation helpers and art initialization, not a newly isolated renderer API. `src/geometry.mjs` alone is a real ES module with named exports, imported by its unit tests. The narrow assembler removes exactly its terminal export footer for the classic inline player script. It is not a general-purpose JavaScript bundler.
 

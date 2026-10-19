@@ -1,0 +1,425 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1230" viewBox="0 0 1000 1230"><style>text{font-family:'Noto Sans CJK SC',sans-serif}</style>
+<rect x="0" y="0" width="1000" height="1230" fill="#101b17"/>
+<text x="28" y="40" font-size="24" fill="#dbe7d5">RED · 兵种识别缩略图 / 设计证据</text>
+<text x="28" y="72" font-size="16" fill="#e1cc8d">当前完整 index VM 的实际 Canvas 指令重放；非浏览器截图</text>
+<text x="28" y="100" font-size="15" fill="#dbe7d5">己方 · 角度 0 · 履带相位 0 · 载矿 0；图形仅供识别</text>
+<text x="256" y="137" font-size="18" fill="#dbe7d5">默认外观</text>
+<text x="626" y="137" font-size="18" fill="#dbe7d5">可选预览外观</text>
+<rect x="20" y="157" width="960" height="186" fill="#1c2c23"/>
+<text x="36" y="200" font-size="19" fill="#dbe7d5">主战坦克</text>
+<text x="36" y="227" font-size="13" fill="#a8bbaa">tank</text>
+<rect x="236" y="170" width="96" height="64" fill="#354a37"/>
+<g transform="translate(268 202) scale(1.3333333333333333)"><rect x="-11" y="-9" width="26" height="26" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="8" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-8" width="26" height="16" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M9 0 A9 9 0 1 1 -9 0 A9 9 0 1 1 9 0" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-3" width="24" height="6" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="236" y="260" font-size="13" fill="#dbe7d5">96 × 64</text>
+<text x="236" y="282" font-size="13" fill="#dbe7d5">实际尺寸</text>
+<rect x="348" y="170" width="192" height="128" fill="#354a37"/>
+<g transform="translate(412 234) scale(2.6666666666666665)"><rect x="-11" y="-9" width="26" height="26" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="8" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-8" width="26" height="16" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M9 0 A9 9 0 1 1 -9 0 A9 9 0 1 1 9 0" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-3" width="24" height="6" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="348" y="321" font-size="13" fill="#dbe7d5">2× 检查：192 × 128</text>
+<rect x="606" y="170" width="96" height="64" fill="#354a37"/>
+<g transform="translate(638 202) scale(1.3333333333333333)"><rect x="-11" y="-9" width="26" height="26" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="8" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-13 -8 L7 -8 L13 -4 L13 4 L7 8 L-13 8 Z" fill="#17271e" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-12 -7 L7 -7 L12 -3 L12 3 L7 7 L-12 7 Z" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-7" width="14" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-6 -6 L4 -6 L8 -2 L8 3 L3 6 L-6 5 Z" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-4" y="-5" width="7" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="-2" width="21" height="4" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="20" y="-2.5" width="4" height="5" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-9" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-8" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-5.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="606" y="260" font-size="13" fill="#dbe7d5">96 × 64</text>
+<text x="606" y="282" font-size="13" fill="#dbe7d5">实际尺寸</text>
+<rect x="718" y="170" width="192" height="128" fill="#354a37"/>
+<g transform="translate(782 234) scale(2.6666666666666665)"><rect x="-11" y="-9" width="26" height="26" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="8" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-13 -8 L7 -8 L13 -4 L13 4 L7 8 L-13 8 Z" fill="#17271e" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-12 -7 L7 -7 L12 -3 L12 3 L7 7 L-12 7 Z" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-7" width="14" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-6 -6 L4 -6 L8 -2 L8 3 L3 6 L-6 5 Z" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-4" y="-5" width="7" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="-2" width="21" height="4" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="20" y="-2.5" width="4" height="5" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-9" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-8" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-5.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="718" y="321" font-size="13" fill="#dbe7d5">2× 检查：192 × 128</text>
+<rect x="20" y="355" width="960" height="186" fill="#1c2c23"/>
+<text x="36" y="398" font-size="19" fill="#dbe7d5">侦察战车</text>
+<text x="36" y="425" font-size="13" fill="#a8bbaa">scout</text>
+<rect x="236" y="368" width="96" height="64" fill="#354a37"/>
+<g transform="translate(268 400) scale(1.3333333333333333)"><rect x="-8" y="-6" width="20" height="20" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-10" width="20" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="5" width="20" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-5" width="20" height="10" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="6" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-3" y="-10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-3" y="6" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="4" y="-10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="4" y="6" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M6 0 A6 6 0 1 1 -6 0 A6 6 0 1 1 6 0" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-3" width="17" height="6" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="236" y="458" font-size="13" fill="#dbe7d5">96 × 64</text>
+<text x="236" y="480" font-size="13" fill="#dbe7d5">实际尺寸</text>
+<rect x="348" y="368" width="192" height="128" fill="#354a37"/>
+<g transform="translate(412 432) scale(2.6666666666666665)"><rect x="-8" y="-6" width="20" height="20" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-10" width="20" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="5" width="20" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-5" width="20" height="10" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="6" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-3" y="-10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-3" y="6" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="4" y="-10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="4" y="6" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M6 0 A6 6 0 1 1 -6 0 A6 6 0 1 1 6 0" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-3" width="17" height="6" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="348" y="519" font-size="13" fill="#dbe7d5">2× 检查：192 × 128</text>
+<rect x="606" y="368" width="96" height="64" fill="#354a37"/>
+<g transform="translate(638 400) scale(1.3333333333333333)"><rect x="-8" y="-6" width="20" height="20" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="-10" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="6" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="-10" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="6" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-9 -6 L4 -7 L10 -3 L10 3 L4 7 L-9 6 Z" fill="#17271e" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-8 -5 L4 -6 L9 -2 L9 2 L4 6 L-8 5 Z" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-5" width="7" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-3" y="-3" width="7" height="6" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="2" y="-1.5" width="15" height="3" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-6" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="-5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="-2.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="606" y="458" font-size="13" fill="#dbe7d5">96 × 64</text>
+<text x="606" y="480" font-size="13" fill="#dbe7d5">实际尺寸</text>
+<rect x="718" y="368" width="192" height="128" fill="#354a37"/>
+<g transform="translate(782 432) scale(2.6666666666666665)"><rect x="-8" y="-6" width="20" height="20" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="-10" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="6" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="-10" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="6" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-9 -6 L4 -7 L10 -3 L10 3 L4 7 L-9 6 Z" fill="#17271e" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-8 -5 L4 -6 L9 -2 L9 2 L4 6 L-8 5 Z" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-5" width="7" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-3" y="-3" width="7" height="6" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="2" y="-1.5" width="15" height="3" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-6" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="-5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="-2.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="718" y="519" font-size="13" fill="#dbe7d5">2× 检查：192 × 128</text>
+<rect x="20" y="553" width="960" height="186" fill="#1c2c23"/>
+<text x="36" y="596" font-size="19" fill="#dbe7d5">自行火炮</text>
+<text x="36" y="623" font-size="13" fill="#a8bbaa">artillery</text>
+<rect x="236" y="566" width="96" height="64" fill="#354a37"/>
+<g transform="translate(268 598) scale(1.3333333333333333)"><rect x="-12" y="-10" width="28" height="28" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-14" width="28" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="9" width="28" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-9" width="28" height="18" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-7" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-7" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M6 0 A6 6 0 1 1 -6 0 A6 6 0 1 1 6 0" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-3" width="34" height="6" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-7" width="14" height="14" fill="#bac4a0" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-12" width="4" height="24" fill="#263e2c" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="236" y="656" font-size="13" fill="#dbe7d5">96 × 64</text>
+<text x="236" y="678" font-size="13" fill="#dbe7d5">实际尺寸</text>
+<rect x="348" y="566" width="192" height="128" fill="#354a37"/>
+<g transform="translate(412 630) scale(2.6666666666666665)"><rect x="-12" y="-10" width="28" height="28" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-14" width="28" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="9" width="28" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-9" width="28" height="18" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-7" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-7" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M6 0 A6 6 0 1 1 -6 0 A6 6 0 1 1 6 0" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-3" width="34" height="6" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-7" width="14" height="14" fill="#bac4a0" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-12" width="4" height="24" fill="#263e2c" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="348" y="717" font-size="13" fill="#dbe7d5">2× 检查：192 × 128</text>
+<rect x="606" y="566" width="96" height="64" fill="#354a37"/>
+<g transform="translate(638 598) scale(1.3333333333333333)"><rect x="-12" y="-10" width="28" height="28" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-14" width="28" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="9" width="28" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-7" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-7" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-14 -9 L9 -9 L14 -5 L14 5 L9 9 L-14 9 Z" fill="#17271e" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-13 -8 L9 -8 L13 -4 L13 4 L9 8 L-13 8 Z" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-8" width="14" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-7" width="12" height="14" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-5" width="7" height="10" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="-2.5" width="36" height="5" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="29" y="-3.5" width="5" height="7" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-10" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-9" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-6.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="606" y="656" font-size="13" fill="#dbe7d5">96 × 64</text>
+<text x="606" y="678" font-size="13" fill="#dbe7d5">实际尺寸</text>
+<rect x="718" y="566" width="192" height="128" fill="#354a37"/>
+<g transform="translate(782 630) scale(2.6666666666666665)"><rect x="-12" y="-10" width="28" height="28" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-14" width="28" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="9" width="28" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-7" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-7" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="-14" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="10" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-14 -9 L9 -9 L14 -5 L14 5 L9 9 L-14 9 Z" fill="#17271e" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-13 -8 L9 -8 L13 -4 L13 4 L9 8 L-13 8 Z" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-8" width="14" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-7" width="12" height="14" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-5" width="7" height="10" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="-2.5" width="36" height="5" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="29" y="-3.5" width="5" height="7" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-10" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-9" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-6.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="718" y="717" font-size="13" fill="#dbe7d5">2× 检查：192 × 128</text>
+<rect x="20" y="751" width="960" height="186" fill="#1c2c23"/>
+<text x="36" y="794" font-size="19" fill="#dbe7d5">战地维修车</text>
+<text x="36" y="821" font-size="13" fill="#a8bbaa">repair</text>
+<rect x="236" y="764" width="96" height="64" fill="#354a37"/>
+<g transform="translate(268 796) scale(1.3333333333333333)"><rect x="-11" y="-9" width="26" height="26" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="8" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-8" width="26" height="16" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-8" width="18" height="16" fill="#bfd5b0" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="-6" width="4" height="12" fill="#2c7350" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-2" width="12" height="4" fill="#2c7350" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="236" y="854" font-size="13" fill="#dbe7d5">96 × 64</text>
+<text x="236" y="876" font-size="13" fill="#dbe7d5">实际尺寸</text>
+<rect x="348" y="764" width="192" height="128" fill="#354a37"/>
+<g transform="translate(412 828) scale(2.6666666666666665)"><rect x="-11" y="-9" width="26" height="26" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="8" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-8" width="26" height="16" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-8" width="18" height="16" fill="#bfd5b0" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="-6" width="4" height="12" fill="#2c7350" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-2" width="12" height="4" fill="#2c7350" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="348" y="915" font-size="13" fill="#dbe7d5">2× 检查：192 × 128</text>
+<rect x="606" y="764" width="96" height="64" fill="#354a37"/>
+<g transform="translate(638 796) scale(1.3333333333333333)"><rect x="-11" y="-9" width="26" height="26" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="8" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-13 -8 L5 -8 L13 -4 L13 5 L6 8 L-13 8 Z" fill="#17271e" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-12 -7 L5 -7 L12 -3 L12 4 L6 7 L-12 7 Z" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-7" width="15" height="14" fill="#b4c5ab" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="-3" width="4" height="6" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-1 -6 L1 -4 L4 -6 L5 -2 L2 1 L-2 6 L-5 4 L-1 0 L-3 -2 Z" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="8" width="13" height="2" fill="#d9bd77" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="6" width="3" height="4" fill="#d9bd77" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-9" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-8" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-5.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="606" y="854" font-size="13" fill="#dbe7d5">96 × 64</text>
+<text x="606" y="876" font-size="13" fill="#dbe7d5">实际尺寸</text>
+<rect x="718" y="764" width="192" height="128" fill="#354a37"/>
+<g transform="translate(782 828) scale(2.6666666666666665)"><rect x="-11" y="-9" width="26" height="26" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="8" width="26" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="1" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="-13" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="9" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-13 -8 L5 -8 L13 -4 L13 5 L6 8 L-13 8 Z" fill="#17271e" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-12 -7 L5 -7 L12 -3 L12 4 L6 7 L-12 7 Z" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-7" width="15" height="14" fill="#b4c5ab" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="-3" width="4" height="6" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-1 -6 L1 -4 L4 -6 L5 -2 L2 1 L-2 6 L-5 4 L-1 0 L-3 -2 Z" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="8" width="13" height="2" fill="#d9bd77" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="6" width="3" height="4" fill="#d9bd77" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-9" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-8" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-5.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="718" y="915" font-size="13" fill="#dbe7d5">2× 检查：192 × 128</text>
+<rect x="20" y="949" width="960" height="186" fill="#1c2c23"/>
+<text x="36" y="992" font-size="19" fill="#dbe7d5">采矿车</text>
+<text x="36" y="1019" font-size="13" fill="#a8bbaa">harvester</text>
+<rect x="236" y="962" width="96" height="64" fill="#354a37"/>
+<g transform="translate(268 994) scale(1.3333333333333333)"><rect x="-14" y="-12" width="32" height="32" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-16" width="32" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="11" width="32" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-11" width="32" height="22" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="5" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="5" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="12" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="12" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-8" width="13" height="16" fill="#b4b086" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="-10" width="9" height="20" fill="#dcbe70" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="8" width="1" height="3" fill="#e9c55f" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="236" y="1052" font-size="13" fill="#dbe7d5">96 × 64</text>
+<text x="236" y="1074" font-size="13" fill="#dbe7d5">实际尺寸</text>
+<rect x="348" y="962" width="192" height="128" fill="#354a37"/>
+<g transform="translate(412 1026) scale(2.6666666666666665)"><rect x="-14" y="-12" width="32" height="32" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-16" width="32" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="11" width="32" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-11" width="32" height="22" fill="#7da477" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="5" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="5" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="12" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="12" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="-8" width="13" height="16" fill="#b4b086" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="7" y="-10" width="9" height="20" fill="#dcbe70" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="8" width="1" height="3" fill="#e9c55f" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="348" y="1113" font-size="13" fill="#dbe7d5">2× 检查：192 × 128</text>
+<rect x="606" y="962" width="96" height="64" fill="#354a37"/>
+<g transform="translate(638 994) scale(1.3333333333333333)"><rect x="-14" y="-12" width="32" height="32" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-16" width="32" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="11" width="32" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="5" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="5" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="12" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="12" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-15" y="-10" width="23" height="20" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-8" width="17" height="16" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-7" width="15" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-3" width="5" height="6" fill="#b59b60" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-4" y="-5" width="6" height="9" fill="#d0b16f" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="-10" width="7" height="20" fill="#c6ab6b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="10" y="-10" width="1" height="20" fill="#524f38" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="13" y="-10" width="1" height="20" fill="#524f38" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="8" width="1" height="3" fill="#e9c55f" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-15" y="-12" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-11" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-8.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="606" y="1052" font-size="13" fill="#dbe7d5">96 × 64</text>
+<text x="606" y="1074" font-size="13" fill="#dbe7d5">实际尺寸</text>
+<rect x="718" y="962" width="192" height="128" fill="#354a37"/>
+<g transform="translate(782 1026) scale(2.6666666666666665)"><rect x="-14" y="-12" width="32" height="32" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-16" width="32" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="11" width="32" height="5" fill="#202c24" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-2" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="5" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="5" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="12" y="-16" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="12" y="12" width="2" height="4" fill="#687361" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-15" y="-10" width="23" height="20" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-8" width="17" height="16" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-12" y="-7" width="15" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-3" width="5" height="6" fill="#b59b60" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-4" y="-5" width="6" height="9" fill="#d0b16f" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="8" y="-10" width="7" height="20" fill="#c6ab6b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="10" y="-10" width="1" height="20" fill="#524f38" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="13" y="-10" width="1" height="20" fill="#524f38" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-11" y="8" width="1" height="3" fill="#e9c55f" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-15" y="-12" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-11" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-14" y="-8.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="718" y="1113" font-size="13" fill="#dbe7d5">2× 检查：192 × 128</text>
+<text x="28" y="1175" font-size="15" fill="#dbe7d5">图形为装饰；相邻名称为正文。共享视窗保留火炮长炮管及半透明投影。</text>
+<text x="28" y="1205" font-size="15" fill="#dbe7d5">仅展示车体；不含选框、生命条、战况、购买或选择行为。</text>
+</svg>

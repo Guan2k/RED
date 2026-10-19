@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-24 -24 72 48" width="96" height="64" aria-hidden="true" focusable="false">
+<rect x="-8" y="-6" width="20" height="20" fill="#0d2116" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="-10" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="6" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="-10" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="6" width="6" height="4" fill="#17231d" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-9 -6 L4 -7 L10 -3 L10 3 L4 7 L-9 6 Z" fill="#17271e" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-8 -5 L4 -6 L9 -2 L9 2 L4 6 L-8 5 Z" fill="#75977c" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-6" y="-5" width="7" height="2" fill="#a4b49a" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-3" y="-3" width="7" height="6" fill="#405c49" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="2" y="-1.5" width="15" height="3" fill="#c0c7a3" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-9" y="-6" width="8" height="6" fill="#14201b" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="-5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="-2.5" width="6" height="1.5" fill="#e7d9b4" transform="matrix(1 0 0 1 0 0)"/>
+</svg>

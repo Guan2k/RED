@@ -1,0 +1,106 @@
+{
+  "source": "v308-work/RED/index.html",
+  "sourceSha256": "12948c5d80dc8fd6d3fe8b892bde912fedf0849a8d85366ee0468b6e8b199e70",
+  "harnessSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+  "input": {
+    "team": 0,
+    "x": 0,
+    "y": 0,
+    "angle": 0,
+    "phase": 0,
+    "load": 0
+  },
+  "capture": "Full current index VM; original drawUnit/drawUnitPreview; cached paths unavailable in VM so current exact direct-command fallback used",
+  "snippets": [
+    {
+      "type": "tank",
+      "style": "default",
+      "name": "主战坦克",
+      "viewBox": "-24 -24 72 48",
+      "width": 96,
+      "height": 64,
+      "sha256": "5770bb126207a6eb92454fe4eb678c21f53a138c1e6b03b4e8cb5c92db5b06ee"
+    },
+    {
+      "type": "tank",
+      "style": "preview",
+      "name": "主战坦克",
+      "viewBox": "-24 -24 72 48",
+      "width": 96,
+      "height": 64,
+      "sha256": "4048365962965f2a43f7c2eee312ea64fdbe08047ba751379e440821b1730113"
+    },
+    {
+      "type": "scout",
+      "style": "default",
+      "name": "侦察战车",
+      "viewBox": "-24 -24 72 48",
+      "width": 96,
+      "height": 64,
+      "sha256": "1ce3657735493631c888c3c0618e8dd196be36e56063e4d5bf75159f4faa3830"
+    },
+    {
+      "type": "scout",
+      "style": "preview",
+      "name": "侦察战车",
+      "viewBox": "-24 -24 72 48",
+      "width": 96,
+      "height": 64,
+      "sha256": "233989f9fe55f5bac85ecb16a010da1f7829c1cf4d7961bab5230622a7b78dc8"
+    },
+    {
+      "type": "artillery",
+      "style": "default",
+      "name": "自行火炮",
+      "viewBox": "-24 -24 72 48",
+      "width": 96,
+      "height": 64,
+      "sha256": "f2444a0081bacfb179f9343a36224226ade47bfffa9493f8c4f499fc1767f728"
+    },
+    {
+      "type": "artillery",
+      "style": "preview",
+      "name": "自行火炮",
+      "viewBox": "-24 -24 72 48",
+      "width": 96,
+      "height": 64,
+      "sha256": "71a26415f72ee6a690af4365c2061eac20281296f1401382a767c69d32fb19b1"
+    },
+    {
+      "type": "repair",
+      "style": "default",
+      "name": "战地维修车",
+      "viewBox": "-24 -24 72 48",
+      "width": 96,
+      "height": 64,
+      "sha256": "56e219175bd18a733c21ed44e123a72db069686323fb2ef8266e31573af03486"
+    },
+    {
+      "type": "repair",
+      "style": "preview",
+      "name": "战地维修车",
+      "viewBox": "-24 -24 72 48",
+      "width": 96,
+      "height": 64,
+      "sha256": "c00894332c32ca896f0d4755b6630c80b840bf5dcb176c2c23fc43ee8c6b068e"
+    },
+    {
+      "type": "harvester",
+      "style": "default",
+      "name": "采矿车",
+      "viewBox": "-24 -24 72 48",
+      "width": 96,
+      "height": 64,
+      "sha256": "0418593873043a24aca21406954a2554fd63f9fa8ee8b06b00d6534a11ec840d"
+    },
+    {
+      "type": "harvester",
+      "style": "preview",
+      "name": "采矿车",
+      "viewBox": "-24 -24 72 48",
+      "width": 96,
+      "height": 64,
+      "sha256": "ffa06ac10f1cadbab4fd2ad1ad19dfb99c564aa4ab67c197b3c91894019ea5f9"
+    }
+  ]
+}

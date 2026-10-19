@@ -1,0 +1,6 @@
+{
+  "checks": 7719,
+  "paintCount": 175,
+  "failed": 0,
+  "scope": "Unchanged v308 harness and independent paint recorder; static SVG geometry/color and simulated DOM/lifecycle. No native browser layout, raster or accessibility acceptance."
+}

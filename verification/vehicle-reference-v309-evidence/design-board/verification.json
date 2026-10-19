@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "checks": [
+    "Source hash matches frozen full index",
+    "Ten SVGs match snippet JSON and manifest hashes",
+    "Exact requested dimensions and decorative attributes",
+    "Balanced Canvas save/restore and identity neutral transforms",
+    "All captured geometry bounds within shared viewBox"
+  ],
+  "bounds": {
+    "tank-default": {
+      "minX": -13,
+      "maxX": 24,
+      "minY": -13,
+      "maxY": 17
+    },
+    "tank-preview": {
+      "minX": -13,
+      "maxX": 24,
+      "minY": -13,
+      "maxY": 17
+    },
+    "scout-default": {
+      "minX": -10,
+      "maxX": 17,
+      "minY": -10,
+      "maxY": 14
+    },
+    "scout-preview": {
+      "minX": -9,
+      "maxX": 17,
+      "minY": -10,
+      "maxY": 14
+    },
+    "artillery-default": {
+      "minX": -14,
+      "maxX": 34,
+      "minY": -14,
+      "maxY": 18
+    },
+    "artillery-preview": {
+      "minX": -14,
+      "maxX": 34,
+      "minY": -14,
+      "maxY": 18
+    },
+    "repair-default": {
+      "minX": -13,
+      "maxX": 15,
+      "minY": -13,
+      "maxY": 17
+    },
+    "repair-preview": {
+      "minX": -13,
+      "maxX": 15,
+      "minY": -13,
+      "maxY": 17
+    },
+    "harvester-default": {
+      "minX": -16,
+      "maxX": 18,
+      "minY": -16,
+      "maxY": 20
+    },
+    "harvester-preview": {
+      "minX": -16,
+      "maxX": 18,
+      "minY": -16,
+      "maxY": 20
+    }
+  }
+}

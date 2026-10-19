@@ -1,0 +1,1 @@
+'use strict';const pairs=[["全局循环补单方式设为按空闲工厂并行；每个模拟步最多一单，正常扣款；本厂独立循环不受影响", "循环补单改为按空闲工厂并行；每个模拟步最多一单，正常扣款"], ["全局循环补单方式设为单订单；已有付费订单保留；本厂独立循环不受影响", "循环补单改为单订单；已有付费订单保留"]];function normalizeScript(s){for(const[a,b]of pairs)s=s.split(a).join(b);return s}module.exports={normalizeScript};
