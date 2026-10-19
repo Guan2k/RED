@@ -1,0 +1,30 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
++ actual - expected
+
++ 'matrix(1 0 0 1 -18 -5)'
+- 'matrix(1 0 0 1 0 0)'
+                  ^
+
+    at /workspace/scratch/e433d7540f34/red-development/v310-independent-review/review.cjs:11:110
+    at Array.map (<anonymous>)
+    at decode (/workspace/scratch/e433d7540f34/red-development/v310-independent-review/review.cjs:11:75)
+    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v310-independent-review/review.cjs:12:648)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 'matrix(1 0 0 1 -18 -5)',
+  expected: 'matrix(1 0 0 1 0 0)',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

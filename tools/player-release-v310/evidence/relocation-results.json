@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "relocatedToolsBuild": {
+    "archive": "relocated.zip",
+    "bytes": 592412,
+    "sha256": "95e7c4ea1c42f5dfc0feaf26369fa5a980d8d97461e2e3898703b009025c0762",
+    "files": {
+      "CURRENT_PLAYER_GUIDE.md": "f0a65777c3fcb241d7f3e83c01930e5b1edb51b651e79148b24216a7cb8778f7",
+      "QUICK_START.html": "cf8dba42d7ee3011aa60b43bcbb20bea2578eab43dde3a3f37c6baf59338c250",
+      "README.md": "3bd98a147891ca23d1498a1d23faad48fba19a276f35278168b9eea15f080aae",
+      "SHA256SUMS.txt": "66773ca011d1f4e45b903d0f7e3bb3ac0dbd16571f5a2e39743b8c7ce4c43a4b",
+      "index.html": "10061270b6f245d2980f5eb7f45bc6ad742500157ac7e7b16b929fcde0f9a7bd"
+    },
+    "validation": "static packaging only; no game/browser/storage execution"
+  },
+  "byteIdentical": true
+}

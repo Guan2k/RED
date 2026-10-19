@@ -1,0 +1,86 @@
+{
+  "passed": 13,
+  "failed": 0,
+  "mutations": 13,
+  "results": [
+    {
+      "name": "building geometry shifted",
+      "passed": true,
+      "target": "hq original exact current draw replay",
+      "detectedFailures": 1
+    },
+    {
+      "name": "building stroke omitted",
+      "passed": true,
+      "target": "hq original exact current draw replay",
+      "detectedFailures": 1
+    },
+    {
+      "name": "building mode stuck",
+      "passed": true,
+      "target": "readonly and immediate both-gallery mode sync initial",
+      "detectedFailures": 7
+    },
+    {
+      "name": "legacy vehicle mode stuck",
+      "passed": true,
+      "target": "readonly and immediate both-gallery mode sync initial",
+      "detectedFailures": 7
+    },
+    {
+      "name": "preview mutates world cash",
+      "passed": true,
+      "target": "readonly and immediate both-gallery mode sync running",
+      "detectedFailures": 6
+    },
+    {
+      "name": "reference defaults open",
+      "passed": true,
+      "target": "decorative subtree and preserved closed reference",
+      "detectedFailures": 1
+    },
+    {
+      "name": "building SVG accessibility exposed",
+      "passed": true,
+      "target": "decorative subtree and preserved closed reference",
+      "detectedFailures": 2
+    },
+    {
+      "name": "building graphic becomes focusable",
+      "passed": true,
+      "target": "decorative subtree and preserved closed reference",
+      "detectedFailures": 2
+    },
+    {
+      "name": "building style loses compact narrow constraint",
+      "passed": true,
+      "target": "scoped responsive CSS and noninteractive graphic contract",
+      "detectedFailures": 1
+    },
+    {
+      "name": "building CSS escapes subtree",
+      "passed": true,
+      "target": "scoped responsive CSS and noninteractive graphic contract",
+      "detectedFailures": 1
+    },
+    {
+      "name": "building initial preview incorrect",
+      "passed": true,
+      "target": "original default and session choice survive start and restart folded",
+      "detectedFailures": 1
+    },
+    {
+      "name": "stable update rewrites building dataset",
+      "passed": true,
+      "target": "stable refresh never rewrites either gallery mode",
+      "detectedFailures": 1
+    },
+    {
+      "name": "HQ new-building restriction omitted",
+      "passed": true,
+      "target": "hq original exact current draw replay",
+      "detectedFailures": 2
+    }
+  ],
+  "scope": "Thirteen targeted candidate mutations. Each requires its named behavioral assertion to fail, not merely checksum rejection or process failure. No historical suite edits."
+}

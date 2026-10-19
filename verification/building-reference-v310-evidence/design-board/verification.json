@@ -1,0 +1,177 @@
+{
+  "passed": true,
+  "checks": [
+    "Frozen source and entire v309 tree unchanged",
+    "Ten SVG snippet hashes / metadata / decorative attributes",
+    "Fresh full-source VM recapture equals saved commands and SVG body",
+    "Game state and entity unchanged by each render",
+    "Completed/idle progress functions naturally null",
+    "Balanced Canvas stack and explicit stroke defaults",
+    "HQ flagpole and power stroke widths preserved",
+    "Shared 1:1 world scale; all geometry and shadows in view",
+    "4x oversized raster alpha bounds and exact crop equality",
+    "PNG dimensions 1x / 2x"
+  ],
+  "results": {
+    "hq-default": {
+      "r": 40,
+      "conservativePaintedBounds": {
+        "minX": -41.5,
+        "maxX": 45,
+        "minY": -63,
+        "maxY": 49
+      },
+      "rasterPaintedBounds": {
+        "minX": -41.5,
+        "minY": -63,
+        "maxX": 45,
+        "maxY": 49
+      },
+      "noCrop": true
+    },
+    "hq-preview": {
+      "r": 40,
+      "conservativePaintedBounds": {
+        "minX": -40,
+        "maxX": 45,
+        "minY": -63,
+        "maxY": 49
+      },
+      "rasterPaintedBounds": {
+        "minX": -40,
+        "minY": -63,
+        "maxX": 45,
+        "maxY": 49
+      },
+      "noCrop": true
+    },
+    "power-default": {
+      "r": 26,
+      "conservativePaintedBounds": {
+        "minX": -27.5,
+        "maxX": 31,
+        "minY": -27.5,
+        "maxY": 35
+      },
+      "rasterPaintedBounds": {
+        "minX": -27.5,
+        "minY": -27.5,
+        "maxX": 31,
+        "maxY": 35
+      },
+      "noCrop": true
+    },
+    "power-preview": {
+      "r": 26,
+      "conservativePaintedBounds": {
+        "minX": -25,
+        "maxX": 31,
+        "minY": -25,
+        "maxY": 35
+      },
+      "rasterPaintedBounds": {
+        "minX": -25,
+        "minY": -25,
+        "maxX": 31,
+        "maxY": 35
+      },
+      "noCrop": true
+    },
+    "factory-default": {
+      "r": 36,
+      "conservativePaintedBounds": {
+        "minX": -37.5,
+        "maxX": 41,
+        "minY": -37.5,
+        "maxY": 45
+      },
+      "rasterPaintedBounds": {
+        "minX": -37.5,
+        "minY": -37.5,
+        "maxX": 41,
+        "maxY": 45
+      },
+      "noCrop": true
+    },
+    "factory-preview": {
+      "r": 36,
+      "conservativePaintedBounds": {
+        "minX": -35,
+        "maxX": 41,
+        "minY": -34,
+        "maxY": 45
+      },
+      "rasterPaintedBounds": {
+        "minX": -35,
+        "minY": -34,
+        "maxX": 41,
+        "maxY": 45
+      },
+      "noCrop": true
+    },
+    "refinery-default": {
+      "r": 33,
+      "conservativePaintedBounds": {
+        "minX": -34.5,
+        "maxX": 38,
+        "minY": -34.5,
+        "maxY": 42
+      },
+      "rasterPaintedBounds": {
+        "minX": -34.5,
+        "minY": -34.5,
+        "maxX": 38,
+        "maxY": 42
+      },
+      "noCrop": true
+    },
+    "refinery-preview": {
+      "r": 33,
+      "conservativePaintedBounds": {
+        "minX": -31,
+        "maxX": 38,
+        "minY": -30,
+        "maxY": 42
+      },
+      "rasterPaintedBounds": {
+        "minX": -31,
+        "minY": -30,
+        "maxX": 38,
+        "maxY": 42
+      },
+      "noCrop": true
+    },
+    "turret-default": {
+      "r": 22,
+      "conservativePaintedBounds": {
+        "minX": -23.5,
+        "maxX": 34,
+        "minY": -23.5,
+        "maxY": 31
+      },
+      "rasterPaintedBounds": {
+        "minX": -23.5,
+        "minY": -23.5,
+        "maxX": 34,
+        "maxY": 31
+      },
+      "noCrop": true
+    },
+    "turret-preview": {
+      "r": 22,
+      "conservativePaintedBounds": {
+        "minX": -22,
+        "maxX": 34,
+        "minY": -22,
+        "maxY": 31
+      },
+      "rasterPaintedBounds": {
+        "minX": -22,
+        "minY": -22,
+        "maxX": 34,
+        "maxY": 31
+      },
+      "noCrop": true
+    }
+  }
+}

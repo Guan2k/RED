@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "baseline": "v309-work/RED",
+  "checks": [
+    "README and guide retain all old paragraphs except current labels and one new release paragraph",
+    "QUICK_START only current version labels changed",
+    "All previous derived guide paragraphs retained except current labels",
+    "v309 tools and evidence remain byte-identical",
+    "12 quick-start content blocks and all source excerpts revalidated against current derived guide"
+  ],
+  "sourceParagraphs": 207,
+  "previousSourceParagraphs": 206,
+  "verbatimSaveRiskParagraphs": 15
+}

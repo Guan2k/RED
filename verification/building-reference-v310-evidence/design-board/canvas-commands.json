@@ -1,0 +1,3872 @@
+{
+  "hq-default": [
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -35,
+        -31,
+        80,
+        80
+      ],
+      "state": {
+        "fillStyle": "#16231c80",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -40,
+        -40,
+        80,
+        80
+      ],
+      "state": {
+        "fillStyle": "#293c31",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "strokeRect",
+      "args": [
+        -40,
+        -40,
+        80,
+        80
+      ],
+      "state": {
+        "fillStyle": "#293c31",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -34,
+        -34,
+        68,
+        68
+      ],
+      "state": {
+        "fillStyle": "#5c946b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -24,
+        -17,
+        48,
+        36
+      ],
+      "state": {
+        "fillStyle": "#263b36",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -17,
+        -11,
+        34,
+        10
+      ],
+      "state": {
+        "fillStyle": "#8ccebd",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -8,
+        10,
+        16,
+        28
+      ],
+      "state": {
+        "fillStyle": "#435545",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        0,
+        -40
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        0,
+        -63
+      ]
+    },
+    {
+      "op": "stroke",
+      "args": [],
+      "state": {
+        "fillStyle": "#435545",
+        "strokeStyle": "#cad0a0",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        -63,
+        20,
+        10
+      ],
+      "state": {
+        "fillStyle": "#c6dd8b",
+        "strokeStyle": "#cad0a0",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    }
+  ],
+  "hq-preview": [
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -35,
+        -31,
+        80,
+        80
+      ],
+      "state": {
+        "fillStyle": "#16231c80",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        -40,
+        -18
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -28,
+        -18
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -28,
+        -35
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        28,
+        -35
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        28,
+        -18
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        40,
+        -18
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        40,
+        27
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        23,
+        27
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        23,
+        38
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -23,
+        38
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -23,
+        27
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -40,
+        27
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -38,
+        -16,
+        76,
+        39
+      ],
+      "state": {
+        "fillStyle": "#75977c",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -26,
+        -33,
+        52,
+        53
+      ],
+      "state": {
+        "fillStyle": "#566a59",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -23,
+        -30,
+        46,
+        4
+      ],
+      "state": {
+        "fillStyle": "#84917a",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -20,
+        -19,
+        40,
+        30
+      ],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -17,
+        -15,
+        34,
+        6
+      ],
+      "state": {
+        "fillStyle": "#9ab9a5",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -8,
+        12,
+        16,
+        24
+      ],
+      "state": {
+        "fillStyle": "#566a59",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -8,
+        12,
+        16,
+        3
+      ],
+      "state": {
+        "fillStyle": "#84917a",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -34,
+        -9,
+        7,
+        17
+      ],
+      "state": {
+        "fillStyle": "#a4b49a",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        27,
+        -9,
+        7,
+        17
+      ],
+      "state": {
+        "fillStyle": "#a4b49a",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        -18,
+        -5
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -1,
+        -1,
+        8,
+        6
+      ],
+      "state": {
+        "fillStyle": "#14201b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        -18,
+        -5
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        0,
+        6,
+        1.5
+      ],
+      "state": {
+        "fillStyle": "#e7d9b4",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        -18,
+        -5
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        2.5,
+        6,
+        1.5
+      ],
+      "state": {
+        "fillStyle": "#e7d9b4",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        -18,
+        -5
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        0,
+        -40
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        0,
+        -63
+      ]
+    },
+    {
+      "op": "stroke",
+      "args": [],
+      "state": {
+        "fillStyle": "#a4b49a",
+        "strokeStyle": "#cad0a0",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        -63,
+        20,
+        10
+      ],
+      "state": {
+        "fillStyle": "#c6dd8b",
+        "strokeStyle": "#cad0a0",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    }
+  ],
+  "power-default": [
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -21,
+        -17,
+        52,
+        52
+      ],
+      "state": {
+        "fillStyle": "#16231c80",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -26,
+        -26,
+        52,
+        52
+      ],
+      "state": {
+        "fillStyle": "#293c31",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "strokeRect",
+      "args": [
+        -26,
+        -26,
+        52,
+        52
+      ],
+      "state": {
+        "fillStyle": "#293c31",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -20,
+        -20,
+        40,
+        40
+      ],
+      "state": {
+        "fillStyle": "#5c946b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        -9,
+        0,
+        12,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#b3b798",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        10,
+        0,
+        12,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#9ba789",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        -3,
+        -15
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        9,
+        -15
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        1,
+        -3
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        10,
+        -3
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -8,
+        16
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -2,
+        2
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -10,
+        2
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#fff0a4",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "stroke",
+      "args": [],
+      "state": {
+        "fillStyle": "#fff0a4",
+        "strokeStyle": "#5d6743",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    }
+  ],
+  "power-preview": [
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -21,
+        -17,
+        52,
+        52
+      ],
+      "state": {
+        "fillStyle": "#16231c80",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        -25,
+        -18
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -18,
+        -25
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        18,
+        -25
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        25,
+        -18
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        25,
+        21
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        19,
+        25
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -19,
+        25
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -25,
+        21
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -22,
+        -21,
+        44,
+        42
+      ],
+      "state": {
+        "fillStyle": "#75977c",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -21,
+        -20,
+        18,
+        34
+      ],
+      "state": {
+        "fillStyle": "#566a59",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        3,
+        -20,
+        18,
+        34
+      ],
+      "state": {
+        "fillStyle": "#566a59",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        -12,
+        -10,
+        8,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#84917a",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        12,
+        -10,
+        8,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#84917a",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        -12,
+        -10,
+        4,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        12,
+        -10,
+        4,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -20,
+        7,
+        40,
+        9
+      ],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        0,
+        -5
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        8,
+        -5
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        2,
+        3
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        8,
+        3
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -4,
+        17
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -1,
+        7
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -7,
+        7
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#d3bd7d",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        -17,
+        9
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -1,
+        -1,
+        8,
+        6
+      ],
+      "state": {
+        "fillStyle": "#14201b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        -17,
+        9
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        0,
+        6,
+        1.5
+      ],
+      "state": {
+        "fillStyle": "#e7d9b4",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        -17,
+        9
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        2.5,
+        6,
+        1.5
+      ],
+      "state": {
+        "fillStyle": "#e7d9b4",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        -17,
+        9
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    },
+    {
+      "op": "restore",
+      "args": []
+    }
+  ],
+  "factory-default": [
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -31,
+        -27,
+        72,
+        72
+      ],
+      "state": {
+        "fillStyle": "#16231c80",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -36,
+        -36,
+        72,
+        72
+      ],
+      "state": {
+        "fillStyle": "#293c31",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "strokeRect",
+      "args": [
+        -36,
+        -36,
+        72,
+        72
+      ],
+      "state": {
+        "fillStyle": "#293c31",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -30,
+        -30,
+        60,
+        60
+      ],
+      "state": {
+        "fillStyle": "#5c946b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -25,
+        -16,
+        50,
+        34
+      ],
+      "state": {
+        "fillStyle": "#293d32",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -22,
+        -12,
+        7,
+        22
+      ],
+      "state": {
+        "fillStyle": "#688879",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -10,
+        -12,
+        7,
+        22
+      ],
+      "state": {
+        "fillStyle": "#688879",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        2,
+        -12,
+        7,
+        22
+      ],
+      "state": {
+        "fillStyle": "#688879",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        14,
+        -12,
+        7,
+        22
+      ],
+      "state": {
+        "fillStyle": "#688879",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -15,
+        19,
+        30,
+        12
+      ],
+      "state": {
+        "fillStyle": "#15241d",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    }
+  ],
+  "factory-preview": [
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -31,
+        -27,
+        72,
+        72
+      ],
+      "state": {
+        "fillStyle": "#16231c80",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        -35,
+        -25
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -21,
+        -34
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -12,
+        -26
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        2,
+        -34
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        11,
+        -26
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        25,
+        -34
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        35,
+        -25
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        35,
+        31
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -35,
+        31
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -32,
+        -23,
+        64,
+        51
+      ],
+      "state": {
+        "fillStyle": "#75977c",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        -30,
+        -23
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -21,
+        -29
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -12,
+        -23
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        2,
+        -29
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        11,
+        -23
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        25,
+        -29
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        31,
+        -23
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        31,
+        10
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -30,
+        10
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#566a59",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -28,
+        -18,
+        56,
+        3
+      ],
+      "state": {
+        "fillStyle": "#84917a",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -27,
+        -10,
+        3,
+        19
+      ],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -7,
+        -10,
+        3,
+        19
+      ],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        13,
+        -10,
+        3,
+        19
+      ],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -24,
+        13,
+        48,
+        15
+      ],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -20,
+        16,
+        40,
+        3
+      ],
+      "state": {
+        "fillStyle": "#84917a",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -22,
+        25,
+        44,
+        4
+      ],
+      "state": {
+        "fillStyle": "#566a59",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        19,
+        1
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -1,
+        -1,
+        8,
+        6
+      ],
+      "state": {
+        "fillStyle": "#14201b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        19,
+        1
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        0,
+        6,
+        1.5
+      ],
+      "state": {
+        "fillStyle": "#e7d9b4",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        19,
+        1
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        2.5,
+        6,
+        1.5
+      ],
+      "state": {
+        "fillStyle": "#e7d9b4",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        19,
+        1
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    },
+    {
+      "op": "restore",
+      "args": []
+    }
+  ],
+  "refinery-default": [
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -28,
+        -24,
+        66,
+        66
+      ],
+      "state": {
+        "fillStyle": "#16231c80",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -33,
+        -33,
+        66,
+        66
+      ],
+      "state": {
+        "fillStyle": "#293c31",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "strokeRect",
+      "args": [
+        -33,
+        -33,
+        66,
+        66
+      ],
+      "state": {
+        "fillStyle": "#293c31",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -27,
+        -27,
+        54,
+        54
+      ],
+      "state": {
+        "fillStyle": "#5c946b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        -13,
+        -4,
+        14,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#b4ad78",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        13,
+        -4,
+        14,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#899a73",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -22,
+        12,
+        44,
+        10
+      ],
+      "state": {
+        "fillStyle": "#253c2b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    }
+  ],
+  "refinery-preview": [
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -28,
+        -24,
+        66,
+        66
+      ],
+      "state": {
+        "fillStyle": "#16231c80",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        -31,
+        -23
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -24,
+        -30
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        22,
+        -30
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        31,
+        -21
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        31,
+        25
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        15,
+        25
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        15,
+        32
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -20,
+        32
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -20,
+        25
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -31,
+        25
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -28,
+        -25,
+        56,
+        47
+      ],
+      "state": {
+        "fillStyle": "#75977c",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        -12,
+        -7,
+        15,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#566a59",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        -12,
+        -9,
+        12,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#84917a",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        -12,
+        -9,
+        5,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#566a59",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        7,
+        -20
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        26,
+        -20
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        26,
+        8
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        20,
+        15
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        7,
+        8
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        10,
+        -16,
+        13,
+        20
+      ],
+      "state": {
+        "fillStyle": "#b6a16d",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        11,
+        -14
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        18,
+        -14
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        21,
+        -8
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        15,
+        -5
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        11,
+        -9
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#d1bb7d",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -23,
+        17,
+        45,
+        5
+      ],
+      "state": {
+        "fillStyle": "#566a59",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -16,
+        23,
+        29,
+        7
+      ],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        -22,
+        9
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -1,
+        -1,
+        8,
+        6
+      ],
+      "state": {
+        "fillStyle": "#14201b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        -22,
+        9
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        0,
+        6,
+        1.5
+      ],
+      "state": {
+        "fillStyle": "#e7d9b4",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        -22,
+        9
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        2.5,
+        6,
+        1.5
+      ],
+      "state": {
+        "fillStyle": "#e7d9b4",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        -22,
+        9
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    },
+    {
+      "op": "restore",
+      "args": []
+    }
+  ],
+  "turret-default": [
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -17,
+        -13,
+        44,
+        44
+      ],
+      "state": {
+        "fillStyle": "#16231c80",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -22,
+        -22,
+        44,
+        44
+      ],
+      "state": {
+        "fillStyle": "#293c31",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "strokeRect",
+      "args": [
+        -22,
+        -22,
+        44,
+        44
+      ],
+      "state": {
+        "fillStyle": "#293c31",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -16,
+        -16,
+        32,
+        32
+      ],
+      "state": {
+        "fillStyle": "#5c946b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "rotate",
+      "args": [
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -13,
+        -11,
+        26,
+        22
+      ],
+      "state": {
+        "fillStyle": "#5c946b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        -4,
+        34,
+        8
+      ],
+      "state": {
+        "fillStyle": "#ced0ac",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        0,
+        0,
+        9,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#314d39",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    }
+  ],
+  "turret-preview": [
+    {
+      "op": "save",
+      "args": []
+    },
+    {
+      "op": "translate",
+      "args": [
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -17,
+        -13,
+        44,
+        44
+      ],
+      "state": {
+        "fillStyle": "#16231c80",
+        "strokeStyle": "#000000",
+        "globalAlpha": 1,
+        "lineWidth": 1,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        -22,
+        -12
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -12,
+        -22
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        12,
+        -22
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        22,
+        -12
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        22,
+        12
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        12,
+        22
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -12,
+        22
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -22,
+        12
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "moveTo",
+      "args": [
+        -19,
+        -10
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -10,
+        -19
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        10,
+        -19
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        19,
+        -10
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        19,
+        10
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        10,
+        19
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -10,
+        19
+      ]
+    },
+    {
+      "op": "lineTo",
+      "args": [
+        -19,
+        10
+      ]
+    },
+    {
+      "op": "closePath",
+      "args": []
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#75977c",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -10,
+        -17,
+        20,
+        3
+      ],
+      "state": {
+        "fillStyle": "#a4b49a",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        0,
+        0,
+        15,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#566a59",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        0,
+        0,
+        12,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#263a30",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "rotate",
+      "args": [
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        -13,
+        -11,
+        26,
+        22
+      ],
+      "state": {
+        "fillStyle": "#5c946b",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "fillRect",
+      "args": [
+        0,
+        -4,
+        34,
+        8
+      ],
+      "state": {
+        "fillStyle": "#ced0ac",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "beginPath",
+      "args": []
+    },
+    {
+      "op": "arc",
+      "args": [
+        0,
+        0,
+        9,
+        0,
+        6.283185307179586,
+        false
+      ]
+    },
+    {
+      "op": "fill",
+      "args": [],
+      "state": {
+        "fillStyle": "#314d39",
+        "strokeStyle": "#5c946b",
+        "globalAlpha": 1,
+        "lineWidth": 3,
+        "lineJoin": "miter",
+        "lineCap": "butt",
+        "miterLimit": 10
+      },
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "op": "restore",
+      "args": []
+    }
+  ]
+}

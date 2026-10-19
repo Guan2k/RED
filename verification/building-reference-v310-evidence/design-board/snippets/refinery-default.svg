@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-48 -68 96 120" width="96" height="120" aria-hidden="true" focusable="false">
+<rect x="-28" y="-24" width="66" height="66" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-33" y="-33" width="66" height="66" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-33" y="-33" width="66" height="66" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-27" y="-27" width="54" height="54" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M1 -4 A14 14 0 1 1 -27 -4 A14 14 0 1 1 1 -4" fill="#b4ad78" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M27 -4 A14 14 0 1 1 -1 -4 A14 14 0 1 1 27 -4" fill="#899a73" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="12" width="44" height="10" fill="#253c2b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+</svg>

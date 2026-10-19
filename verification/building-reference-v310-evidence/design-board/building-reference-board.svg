@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1690" viewBox="0 0 1100 1690"><style>text{font-family:'Noto Sans CJK SC',sans-serif}</style>
+<rect x="0" y="0" width="1100" height="1690" fill="#101b17"/>
+<text x="26" y="38" font-size="24" fill="#dbe7d5">RED · 五建筑识别缩略图 / 设计评审</text>
+<text x="26" y="67" font-size="16" fill="#e1cc8d">冻结 v309 完整源码 VM · 原始 Canvas 指令重放 · 非原生浏览器截图</text>
+<text x="26" y="94" font-size="16" fill="#dbe7d5">己方 · 已建成 / 闲置 · 炮塔角度 0 · 全部共用世界单位比例</text>
+<text x="260" y="128" font-size="19" fill="#dbe7d5">默认外观</text>
+<text x="675" y="128" font-size="19" fill="#dbe7d5">可选预览外观</text>
+<rect x="18" y="148" width="1064" height="280" fill="#1c2c23"/>
+<text x="32" y="180" font-size="19" fill="#dbe7d5">指挥中心</text>
+<text x="32" y="204" font-size="16" fill="#e1cc8d">（不可新建）</text>
+<text x="32" y="231" font-size="14" fill="#a8bbaa">hq · r=40</text>
+<rect x="250" y="160" width="96" height="120" fill="#354a37"/>
+<g transform="translate(298 228)"><rect x="-35" y="-31" width="80" height="80" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-40" y="-40" width="80" height="80" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-40" y="-40" width="80" height="80" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-34" y="-34" width="68" height="68" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-24" y="-17" width="48" height="36" fill="#263b36" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-17" y="-11" width="34" height="10" fill="#8ccebd" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="10" width="16" height="28" fill="#435545" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M0 -40 L0 -63" fill="none" stroke="#cad0a0" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-63" width="20" height="10" fill="#c6dd8b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="250" y="304" font-size="14" fill="#dbe7d5">96 × 120</text>
+<text x="250" y="326" font-size="14" fill="#dbe7d5">建议 UI 尺寸</text>
+<rect x="363" y="160" width="192" height="240" fill="#354a37"/>
+<g transform="translate(459 296) scale(2)"><rect x="-35" y="-31" width="80" height="80" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-40" y="-40" width="80" height="80" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-40" y="-40" width="80" height="80" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-34" y="-34" width="68" height="68" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-24" y="-17" width="48" height="36" fill="#263b36" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-17" y="-11" width="34" height="10" fill="#8ccebd" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="10" width="16" height="28" fill="#435545" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M0 -40 L0 -63" fill="none" stroke="#cad0a0" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-63" width="20" height="10" fill="#c6dd8b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="363" y="420" font-size="14" fill="#dbe7d5">2×：192 × 240</text>
+<rect x="665" y="160" width="96" height="120" fill="#354a37"/>
+<g transform="translate(713 228)"><rect x="-35" y="-31" width="80" height="80" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-40 -18 L-28 -18 L-28 -35 L28 -35 L28 -18 L40 -18 L40 27 L23 27 L23 38 L-23 38 L-23 27 L-40 27 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-38" y="-16" width="76" height="39" fill="#75977c" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-26" y="-33" width="52" height="53" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-23" y="-30" width="46" height="4" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-20" y="-19" width="40" height="30" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-17" y="-15" width="34" height="6" fill="#9ab9a5" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="12" width="16" height="24" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="12" width="16" height="3" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-34" y="-9" width="7" height="17" fill="#a4b49a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="27" y="-9" width="7" height="17" fill="#a4b49a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-1" y="-1" width="8" height="6" fill="#14201b" fill-opacity="1" transform="matrix(1 0 0 1 -18 -5)"/>
+<rect x="0" y="0" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -18 -5)"/>
+<rect x="0" y="2.5" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -18 -5)"/>
+<path d="M0 -40 L0 -63" fill="none" stroke="#cad0a0" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-63" width="20" height="10" fill="#c6dd8b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="665" y="304" font-size="14" fill="#dbe7d5">96 × 120</text>
+<text x="665" y="326" font-size="14" fill="#dbe7d5">建议 UI 尺寸</text>
+<rect x="778" y="160" width="192" height="240" fill="#354a37"/>
+<g transform="translate(874 296) scale(2)"><rect x="-35" y="-31" width="80" height="80" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-40 -18 L-28 -18 L-28 -35 L28 -35 L28 -18 L40 -18 L40 27 L23 27 L23 38 L-23 38 L-23 27 L-40 27 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-38" y="-16" width="76" height="39" fill="#75977c" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-26" y="-33" width="52" height="53" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-23" y="-30" width="46" height="4" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-20" y="-19" width="40" height="30" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-17" y="-15" width="34" height="6" fill="#9ab9a5" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="12" width="16" height="24" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="12" width="16" height="3" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-34" y="-9" width="7" height="17" fill="#a4b49a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="27" y="-9" width="7" height="17" fill="#a4b49a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-1" y="-1" width="8" height="6" fill="#14201b" fill-opacity="1" transform="matrix(1 0 0 1 -18 -5)"/>
+<rect x="0" y="0" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -18 -5)"/>
+<rect x="0" y="2.5" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -18 -5)"/>
+<path d="M0 -40 L0 -63" fill="none" stroke="#cad0a0" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-63" width="20" height="10" fill="#c6dd8b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="778" y="420" font-size="14" fill="#dbe7d5">2×：192 × 240</text>
+<rect x="18" y="440" width="1064" height="280" fill="#1c2c23"/>
+<text x="32" y="472" font-size="19" fill="#dbe7d5">发电站</text>
+<text x="32" y="523" font-size="14" fill="#a8bbaa">power · r=26</text>
+<rect x="250" y="452" width="96" height="120" fill="#354a37"/>
+<g transform="translate(298 520)"><rect x="-21" y="-17" width="52" height="52" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-26" y="-26" width="52" height="52" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-26" y="-26" width="52" height="52" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-20" y="-20" width="40" height="40" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M3 0 A12 12 0 1 1 -21 0 A12 12 0 1 1 3 0" fill="#b3b798" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M22 0 A12 12 0 1 1 -2 0 A12 12 0 1 1 22 0" fill="#9ba789" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-3 -15 L9 -15 L1 -3 L10 -3 L-8 16 L-2 2 L-10 2 Z" fill="#fff0a4" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-3 -15 L9 -15 L1 -3 L10 -3 L-8 16 L-2 2 L-10 2 Z" fill="none" stroke="#5d6743" stroke-opacity="1" stroke-width="1" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="250" y="596" font-size="14" fill="#dbe7d5">96 × 120</text>
+<text x="250" y="618" font-size="14" fill="#dbe7d5">建议 UI 尺寸</text>
+<rect x="363" y="452" width="192" height="240" fill="#354a37"/>
+<g transform="translate(459 588) scale(2)"><rect x="-21" y="-17" width="52" height="52" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-26" y="-26" width="52" height="52" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-26" y="-26" width="52" height="52" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-20" y="-20" width="40" height="40" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M3 0 A12 12 0 1 1 -21 0 A12 12 0 1 1 3 0" fill="#b3b798" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M22 0 A12 12 0 1 1 -2 0 A12 12 0 1 1 22 0" fill="#9ba789" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-3 -15 L9 -15 L1 -3 L10 -3 L-8 16 L-2 2 L-10 2 Z" fill="#fff0a4" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-3 -15 L9 -15 L1 -3 L10 -3 L-8 16 L-2 2 L-10 2 Z" fill="none" stroke="#5d6743" stroke-opacity="1" stroke-width="1" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="363" y="712" font-size="14" fill="#dbe7d5">2×：192 × 240</text>
+<rect x="665" y="452" width="96" height="120" fill="#354a37"/>
+<g transform="translate(713 520)"><rect x="-21" y="-17" width="52" height="52" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-25 -18 L-18 -25 L18 -25 L25 -18 L25 21 L19 25 L-19 25 L-25 21 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="-21" width="44" height="42" fill="#75977c" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-21" y="-20" width="18" height="34" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="-20" width="18" height="34" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-4 -10 A8 8 0 1 1 -20 -10 A8 8 0 1 1 -4 -10" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M20 -10 A8 8 0 1 1 4 -10 A8 8 0 1 1 20 -10" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-8 -10 A4 4 0 1 1 -16 -10 A4 4 0 1 1 -8 -10" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M16 -10 A4 4 0 1 1 8 -10 A4 4 0 1 1 16 -10" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-20" y="7" width="40" height="9" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M0 -5 L8 -5 L2 3 L8 3 L-4 17 L-1 7 L-7 7 Z" fill="#d3bd7d" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-1" y="-1" width="8" height="6" fill="#14201b" fill-opacity="1" transform="matrix(1 0 0 1 -17 9)"/>
+<rect x="0" y="0" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -17 9)"/>
+<rect x="0" y="2.5" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -17 9)"/></g>
+<text x="665" y="596" font-size="14" fill="#dbe7d5">96 × 120</text>
+<text x="665" y="618" font-size="14" fill="#dbe7d5">建议 UI 尺寸</text>
+<rect x="778" y="452" width="192" height="240" fill="#354a37"/>
+<g transform="translate(874 588) scale(2)"><rect x="-21" y="-17" width="52" height="52" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-25 -18 L-18 -25 L18 -25 L25 -18 L25 21 L19 25 L-19 25 L-25 21 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="-21" width="44" height="42" fill="#75977c" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-21" y="-20" width="18" height="34" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="3" y="-20" width="18" height="34" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-4 -10 A8 8 0 1 1 -20 -10 A8 8 0 1 1 -4 -10" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M20 -10 A8 8 0 1 1 4 -10 A8 8 0 1 1 20 -10" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-8 -10 A4 4 0 1 1 -16 -10 A4 4 0 1 1 -8 -10" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M16 -10 A4 4 0 1 1 8 -10 A4 4 0 1 1 16 -10" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-20" y="7" width="40" height="9" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M0 -5 L8 -5 L2 3 L8 3 L-4 17 L-1 7 L-7 7 Z" fill="#d3bd7d" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-1" y="-1" width="8" height="6" fill="#14201b" fill-opacity="1" transform="matrix(1 0 0 1 -17 9)"/>
+<rect x="0" y="0" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -17 9)"/>
+<rect x="0" y="2.5" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -17 9)"/></g>
+<text x="778" y="712" font-size="14" fill="#dbe7d5">2×：192 × 240</text>
+<rect x="18" y="732" width="1064" height="280" fill="#1c2c23"/>
+<text x="32" y="764" font-size="19" fill="#dbe7d5">战车工厂</text>
+<text x="32" y="815" font-size="14" fill="#a8bbaa">factory · r=36</text>
+<rect x="250" y="744" width="96" height="120" fill="#354a37"/>
+<g transform="translate(298 812)"><rect x="-31" y="-27" width="72" height="72" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-36" y="-36" width="72" height="72" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-36" y="-36" width="72" height="72" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-30" y="-30" width="60" height="60" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-25" y="-16" width="50" height="34" fill="#293d32" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="-12" width="7" height="22" fill="#688879" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-12" width="7" height="22" fill="#688879" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="2" y="-12" width="7" height="22" fill="#688879" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="14" y="-12" width="7" height="22" fill="#688879" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-15" y="19" width="30" height="12" fill="#15241d" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="250" y="888" font-size="14" fill="#dbe7d5">96 × 120</text>
+<text x="250" y="910" font-size="14" fill="#dbe7d5">建议 UI 尺寸</text>
+<rect x="363" y="744" width="192" height="240" fill="#354a37"/>
+<g transform="translate(459 880) scale(2)"><rect x="-31" y="-27" width="72" height="72" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-36" y="-36" width="72" height="72" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-36" y="-36" width="72" height="72" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-30" y="-30" width="60" height="60" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-25" y="-16" width="50" height="34" fill="#293d32" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="-12" width="7" height="22" fill="#688879" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-12" width="7" height="22" fill="#688879" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="2" y="-12" width="7" height="22" fill="#688879" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="14" y="-12" width="7" height="22" fill="#688879" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-15" y="19" width="30" height="12" fill="#15241d" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="363" y="1004" font-size="14" fill="#dbe7d5">2×：192 × 240</text>
+<rect x="665" y="744" width="96" height="120" fill="#354a37"/>
+<g transform="translate(713 812)"><rect x="-31" y="-27" width="72" height="72" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-35 -25 L-21 -34 L-12 -26 L2 -34 L11 -26 L25 -34 L35 -25 L35 31 L-35 31 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-32" y="-23" width="64" height="51" fill="#75977c" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-30 -23 L-21 -29 L-12 -23 L2 -29 L11 -23 L25 -29 L31 -23 L31 10 L-30 10 Z" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-28" y="-18" width="56" height="3" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-27" y="-10" width="3" height="19" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-7" y="-10" width="3" height="19" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="13" y="-10" width="3" height="19" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-24" y="13" width="48" height="15" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-20" y="16" width="40" height="3" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="25" width="44" height="4" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-1" y="-1" width="8" height="6" fill="#14201b" fill-opacity="1" transform="matrix(1 0 0 1 19 1)"/>
+<rect x="0" y="0" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 19 1)"/>
+<rect x="0" y="2.5" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 19 1)"/></g>
+<text x="665" y="888" font-size="14" fill="#dbe7d5">96 × 120</text>
+<text x="665" y="910" font-size="14" fill="#dbe7d5">建议 UI 尺寸</text>
+<rect x="778" y="744" width="192" height="240" fill="#354a37"/>
+<g transform="translate(874 880) scale(2)"><rect x="-31" y="-27" width="72" height="72" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-35 -25 L-21 -34 L-12 -26 L2 -34 L11 -26 L25 -34 L35 -25 L35 31 L-35 31 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-32" y="-23" width="64" height="51" fill="#75977c" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-30 -23 L-21 -29 L-12 -23 L2 -29 L11 -23 L25 -29 L31 -23 L31 10 L-30 10 Z" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-28" y="-18" width="56" height="3" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-27" y="-10" width="3" height="19" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-7" y="-10" width="3" height="19" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="13" y="-10" width="3" height="19" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-24" y="13" width="48" height="15" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-20" y="16" width="40" height="3" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="25" width="44" height="4" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-1" y="-1" width="8" height="6" fill="#14201b" fill-opacity="1" transform="matrix(1 0 0 1 19 1)"/>
+<rect x="0" y="0" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 19 1)"/>
+<rect x="0" y="2.5" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 19 1)"/></g>
+<text x="778" y="1004" font-size="14" fill="#dbe7d5">2×：192 × 240</text>
+<rect x="18" y="1024" width="1064" height="280" fill="#1c2c23"/>
+<text x="32" y="1056" font-size="19" fill="#dbe7d5">精炼厂</text>
+<text x="32" y="1107" font-size="14" fill="#a8bbaa">refinery · r=33</text>
+<rect x="250" y="1036" width="96" height="120" fill="#354a37"/>
+<g transform="translate(298 1104)"><rect x="-28" y="-24" width="66" height="66" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-33" y="-33" width="66" height="66" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-33" y="-33" width="66" height="66" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-27" y="-27" width="54" height="54" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M1 -4 A14 14 0 1 1 -27 -4 A14 14 0 1 1 1 -4" fill="#b4ad78" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M27 -4 A14 14 0 1 1 -1 -4 A14 14 0 1 1 27 -4" fill="#899a73" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="12" width="44" height="10" fill="#253c2b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="250" y="1180" font-size="14" fill="#dbe7d5">96 × 120</text>
+<text x="250" y="1202" font-size="14" fill="#dbe7d5">建议 UI 尺寸</text>
+<rect x="363" y="1036" width="192" height="240" fill="#354a37"/>
+<g transform="translate(459 1172) scale(2)"><rect x="-28" y="-24" width="66" height="66" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-33" y="-33" width="66" height="66" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-33" y="-33" width="66" height="66" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-27" y="-27" width="54" height="54" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M1 -4 A14 14 0 1 1 -27 -4 A14 14 0 1 1 1 -4" fill="#b4ad78" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M27 -4 A14 14 0 1 1 -1 -4 A14 14 0 1 1 27 -4" fill="#899a73" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="12" width="44" height="10" fill="#253c2b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="363" y="1296" font-size="14" fill="#dbe7d5">2×：192 × 240</text>
+<rect x="665" y="1036" width="96" height="120" fill="#354a37"/>
+<g transform="translate(713 1104)"><rect x="-28" y="-24" width="66" height="66" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-31 -23 L-24 -30 L22 -30 L31 -21 L31 25 L15 25 L15 32 L-20 32 L-20 25 L-31 25 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-28" y="-25" width="56" height="47" fill="#75977c" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M3 -7 A15 15 0 1 1 -27 -7 A15 15 0 1 1 3 -7" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M0 -9 A12 12 0 1 1 -24 -9 A12 12 0 1 1 0 -9" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-7 -9 A5 5 0 1 1 -17 -9 A5 5 0 1 1 -7 -9" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M7 -20 L26 -20 L26 8 L20 15 L7 8 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="10" y="-16" width="13" height="20" fill="#b6a16d" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M11 -14 L18 -14 L21 -8 L15 -5 L11 -9 Z" fill="#d1bb7d" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-23" y="17" width="45" height="5" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="23" width="29" height="7" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-1" y="-1" width="8" height="6" fill="#14201b" fill-opacity="1" transform="matrix(1 0 0 1 -22 9)"/>
+<rect x="0" y="0" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -22 9)"/>
+<rect x="0" y="2.5" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -22 9)"/></g>
+<text x="665" y="1180" font-size="14" fill="#dbe7d5">96 × 120</text>
+<text x="665" y="1202" font-size="14" fill="#dbe7d5">建议 UI 尺寸</text>
+<rect x="778" y="1036" width="192" height="240" fill="#354a37"/>
+<g transform="translate(874 1172) scale(2)"><rect x="-28" y="-24" width="66" height="66" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-31 -23 L-24 -30 L22 -30 L31 -21 L31 25 L15 25 L15 32 L-20 32 L-20 25 L-31 25 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-28" y="-25" width="56" height="47" fill="#75977c" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M3 -7 A15 15 0 1 1 -27 -7 A15 15 0 1 1 3 -7" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M0 -9 A12 12 0 1 1 -24 -9 A12 12 0 1 1 0 -9" fill="#84917a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-7 -9 A5 5 0 1 1 -17 -9 A5 5 0 1 1 -7 -9" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M7 -20 L26 -20 L26 8 L20 15 L7 8 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="10" y="-16" width="13" height="20" fill="#b6a16d" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M11 -14 L18 -14 L21 -8 L15 -5 L11 -9 Z" fill="#d1bb7d" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-23" y="17" width="45" height="5" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="23" width="29" height="7" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-1" y="-1" width="8" height="6" fill="#14201b" fill-opacity="1" transform="matrix(1 0 0 1 -22 9)"/>
+<rect x="0" y="0" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -22 9)"/>
+<rect x="0" y="2.5" width="6" height="1.5" fill="#e7d9b4" fill-opacity="1" transform="matrix(1 0 0 1 -22 9)"/></g>
+<text x="778" y="1296" font-size="14" fill="#dbe7d5">2×：192 × 240</text>
+<rect x="18" y="1316" width="1064" height="280" fill="#1c2c23"/>
+<text x="32" y="1348" font-size="19" fill="#dbe7d5">防御炮塔</text>
+<text x="32" y="1399" font-size="14" fill="#a8bbaa">turret · r=22</text>
+<rect x="250" y="1328" width="96" height="120" fill="#354a37"/>
+<g transform="translate(298 1396)"><rect x="-17" y="-13" width="44" height="44" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="-22" width="44" height="44" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="-22" width="44" height="44" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-16" width="32" height="32" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-11" width="26" height="22" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-4" width="34" height="8" fill="#ced0ac" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M9 0 A9 9 0 1 1 -9 0 A9 9 0 1 1 9 0" fill="#314d39" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="250" y="1472" font-size="14" fill="#dbe7d5">96 × 120</text>
+<text x="250" y="1494" font-size="14" fill="#dbe7d5">建议 UI 尺寸</text>
+<rect x="363" y="1328" width="192" height="240" fill="#354a37"/>
+<g transform="translate(459 1464) scale(2)"><rect x="-17" y="-13" width="44" height="44" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="-22" width="44" height="44" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-22" y="-22" width="44" height="44" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-16" y="-16" width="32" height="32" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-11" width="26" height="22" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-4" width="34" height="8" fill="#ced0ac" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M9 0 A9 9 0 1 1 -9 0 A9 9 0 1 1 9 0" fill="#314d39" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="363" y="1588" font-size="14" fill="#dbe7d5">2×：192 × 240</text>
+<rect x="665" y="1328" width="96" height="120" fill="#354a37"/>
+<g transform="translate(713 1396)"><rect x="-17" y="-13" width="44" height="44" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-22 -12 L-12 -22 L12 -22 L22 -12 L22 12 L12 22 L-12 22 L-22 12 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-19 -10 L-10 -19 L10 -19 L19 -10 L19 10 L10 19 L-10 19 L-19 10 Z" fill="#75977c" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-17" width="20" height="3" fill="#a4b49a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M15 0 A15 15 0 1 1 -15 0 A15 15 0 1 1 15 0" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M12 0 A12 12 0 1 1 -12 0 A12 12 0 1 1 12 0" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-11" width="26" height="22" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-4" width="34" height="8" fill="#ced0ac" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M9 0 A9 9 0 1 1 -9 0 A9 9 0 1 1 9 0" fill="#314d39" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="665" y="1472" font-size="14" fill="#dbe7d5">96 × 120</text>
+<text x="665" y="1494" font-size="14" fill="#dbe7d5">建议 UI 尺寸</text>
+<rect x="778" y="1328" width="192" height="240" fill="#354a37"/>
+<g transform="translate(874 1464) scale(2)"><rect x="-17" y="-13" width="44" height="44" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-22 -12 L-12 -22 L12 -22 L22 -12 L22 12 L12 22 L-12 22 L-22 12 Z" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M-19 -10 L-10 -19 L10 -19 L19 -10 L19 10 L10 19 L-10 19 L-19 10 Z" fill="#75977c" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-10" y="-17" width="20" height="3" fill="#a4b49a" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M15 0 A15 15 0 1 1 -15 0 A15 15 0 1 1 15 0" fill="#566a59" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M12 0 A12 12 0 1 1 -12 0 A12 12 0 1 1 12 0" fill="#263a30" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-13" y="-11" width="26" height="22" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-4" width="34" height="8" fill="#ced0ac" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M9 0 A9 9 0 1 1 -9 0 A9 9 0 1 1 9 0" fill="#314d39" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/></g>
+<text x="778" y="1588" font-size="14" fill="#dbe7d5">2×：192 × 240</text>
+<text x="26" y="1636" font-size="14" fill="#dbe7d5">共享视窗 -48 -68 96 120；保留旗杆、炮管、半透明阴影与描边。图形为装饰，相邻名称为正文。</text>
+<text x="26" y="1661" font-size="13" fill="#a8bbaa">源码 SHA256: ba5e8c88592018cd42c49843f3d9f49bc91ee298d1bece3050b34b9596be714b</text>
+</svg>

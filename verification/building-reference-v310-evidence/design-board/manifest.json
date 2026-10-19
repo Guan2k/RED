@@ -1,0 +1,246 @@
+{
+  "source": "v309-work/RED/index.html",
+  "sourceSha256": "ba5e8c88592018cd42c49843f3d9f49bc91ee298d1bece3050b34b9596be714b",
+  "harnessSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+  "input": {
+    "id": -100,
+    "team": 0,
+    "x": 0,
+    "y": 0,
+    "angle": 0,
+    "build": 0,
+    "hp": "defs[type].hp",
+    "max": "defs[type].hp"
+  },
+  "capture": "Complete frozen source VM; actual drawBuilding/drawBuildingPreview; direct Canvas fallback (Path2D unavailable); original progress functions retained and naturally return null",
+  "scale": {
+    "worldUnitsPerUIPixel": 1,
+    "viewBox": [
+      -48,
+      -68,
+      96,
+      120
+    ],
+    "ui": [
+      96,
+      120
+    ],
+    "inspection": [
+      192,
+      240
+    ]
+  },
+  "boundsMethod": "Painted geometry incl exact butt line/rect stroke extents and conservative miter envelope for polygon strokes; raster bounds independently checked",
+  "snippets": [
+    {
+      "type": "hq",
+      "style": "default",
+      "r": 40,
+      "name": "指挥中心（不可新建）",
+      "viewBox": [
+        -48,
+        -68,
+        96,
+        120
+      ],
+      "width": 96,
+      "height": 120,
+      "bounds": {
+        "minX": -41.5,
+        "maxX": 45,
+        "minY": -63,
+        "maxY": 49
+      },
+      "sha256": "7b1b0ed49655b8fba4385f530c9307392a38e649f2933f6899717b804e9f7b1b"
+    },
+    {
+      "type": "hq",
+      "style": "preview",
+      "r": 40,
+      "name": "指挥中心（不可新建）",
+      "viewBox": [
+        -48,
+        -68,
+        96,
+        120
+      ],
+      "width": 96,
+      "height": 120,
+      "bounds": {
+        "minX": -40,
+        "maxX": 45,
+        "minY": -63,
+        "maxY": 49
+      },
+      "sha256": "1da0bc5fc776d13bf8a4f2ea830808798b4a8a4fecf977f58a0c338d2919c97b"
+    },
+    {
+      "type": "power",
+      "style": "default",
+      "r": 26,
+      "name": "发电站",
+      "viewBox": [
+        -48,
+        -68,
+        96,
+        120
+      ],
+      "width": 96,
+      "height": 120,
+      "bounds": {
+        "minX": -27.5,
+        "maxX": 31,
+        "minY": -27.5,
+        "maxY": 35
+      },
+      "sha256": "bf2e6af1baee0ddc66d664c0b2240643b4738e1e842864bc8b500d102fb537f9"
+    },
+    {
+      "type": "power",
+      "style": "preview",
+      "r": 26,
+      "name": "发电站",
+      "viewBox": [
+        -48,
+        -68,
+        96,
+        120
+      ],
+      "width": 96,
+      "height": 120,
+      "bounds": {
+        "minX": -25,
+        "maxX": 31,
+        "minY": -25,
+        "maxY": 35
+      },
+      "sha256": "f1b3ace6694c69959ec68e528cf6158c3e9282eedf381a4cb7f9c1b432cdfd13"
+    },
+    {
+      "type": "factory",
+      "style": "default",
+      "r": 36,
+      "name": "战车工厂",
+      "viewBox": [
+        -48,
+        -68,
+        96,
+        120
+      ],
+      "width": 96,
+      "height": 120,
+      "bounds": {
+        "minX": -37.5,
+        "maxX": 41,
+        "minY": -37.5,
+        "maxY": 45
+      },
+      "sha256": "6272374146cac2a63228e555420d9eca2069bb5f19767358575a52ec2ed48778"
+    },
+    {
+      "type": "factory",
+      "style": "preview",
+      "r": 36,
+      "name": "战车工厂",
+      "viewBox": [
+        -48,
+        -68,
+        96,
+        120
+      ],
+      "width": 96,
+      "height": 120,
+      "bounds": {
+        "minX": -35,
+        "maxX": 41,
+        "minY": -34,
+        "maxY": 45
+      },
+      "sha256": "263c7382d55ed2b0ffcaf361f1968a9c3212ec65f7740d2c8c11072c4ca9f00e"
+    },
+    {
+      "type": "refinery",
+      "style": "default",
+      "r": 33,
+      "name": "精炼厂",
+      "viewBox": [
+        -48,
+        -68,
+        96,
+        120
+      ],
+      "width": 96,
+      "height": 120,
+      "bounds": {
+        "minX": -34.5,
+        "maxX": 38,
+        "minY": -34.5,
+        "maxY": 42
+      },
+      "sha256": "2d898e8f3ca75acfa0c362ac4481dba94e2fa82833359d13a943fb5ad4fc3504"
+    },
+    {
+      "type": "refinery",
+      "style": "preview",
+      "r": 33,
+      "name": "精炼厂",
+      "viewBox": [
+        -48,
+        -68,
+        96,
+        120
+      ],
+      "width": 96,
+      "height": 120,
+      "bounds": {
+        "minX": -31,
+        "maxX": 38,
+        "minY": -30,
+        "maxY": 42
+      },
+      "sha256": "52d5f804e27b6fe701c07e7201828e21e23a9818269150d94c791894bb276076"
+    },
+    {
+      "type": "turret",
+      "style": "default",
+      "r": 22,
+      "name": "防御炮塔",
+      "viewBox": [
+        -48,
+        -68,
+        96,
+        120
+      ],
+      "width": 96,
+      "height": 120,
+      "bounds": {
+        "minX": -23.5,
+        "maxX": 34,
+        "minY": -23.5,
+        "maxY": 31
+      },
+      "sha256": "590fd419975cbbb8c25f3a80fea699dcfe139b5f3844c9ab11dd3695121e0552"
+    },
+    {
+      "type": "turret",
+      "style": "preview",
+      "r": 22,
+      "name": "防御炮塔",
+      "viewBox": [
+        -48,
+        -68,
+        96,
+        120
+      ],
+      "width": 96,
+      "height": 120,
+      "bounds": {
+        "minX": -22,
+        "maxX": 34,
+        "minY": -22,
+        "maxY": 31
+      },
+      "sha256": "a9b03366462a0e7f630e5f32926f9a1cb387740fd84286c3a716fa5b6937f06c"
+    }
+  ]
+}

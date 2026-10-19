@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-48 -68 96 120" width="96" height="120" aria-hidden="true" focusable="false">
+<rect x="-35" y="-31" width="80" height="80" fill="#16231c" fill-opacity="0.5019607843137255" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-40" y="-40" width="80" height="80" fill="#293c31" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-40" y="-40" width="80" height="80" fill="none" stroke="#5c946b" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-34" y="-34" width="68" height="68" fill="#5c946b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-24" y="-17" width="48" height="36" fill="#263b36" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-17" y="-11" width="34" height="10" fill="#8ccebd" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="-8" y="10" width="16" height="28" fill="#435545" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+<path d="M0 -40 L0 -63" fill="none" stroke="#cad0a0" stroke-opacity="1" stroke-width="3" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/>
+<rect x="0" y="-63" width="20" height="10" fill="#c6dd8b" fill-opacity="1" transform="matrix(1 0 0 1 0 0)"/>
+</svg>

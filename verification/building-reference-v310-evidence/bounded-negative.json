@@ -1,0 +1,57 @@
+{
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "name": "unconditional report writes",
+      "passed": true,
+      "detectedBy": "stable bounded writes zero"
+    },
+    {
+      "name": "omit real terminal values",
+      "passed": true,
+      "detectedBy": "bounded display parity natural terminal"
+    },
+    {
+      "name": "skip hidden report reset",
+      "passed": true,
+      "detectedBy": "bounded display parity Again new game"
+    },
+    {
+      "name": "stale hold action",
+      "passed": true,
+      "detectedBy": "bounded display parity hold"
+    },
+    {
+      "name": "stale queue tail action",
+      "passed": true,
+      "detectedBy": "bounded display parity append one"
+    },
+    {
+      "name": "stale repair service action",
+      "passed": true,
+      "detectedBy": "actual action label changes repairService"
+    },
+    {
+      "name": "stale rally count action",
+      "passed": true,
+      "detectedBy": "bounded display parity set rally"
+    },
+    {
+      "name": "stale production card reason",
+      "passed": true,
+      "detectedBy": "bounded display parity queue cancel"
+    },
+    {
+      "name": "stale construction card reason",
+      "passed": true,
+      "detectedBy": "bounded display parity mobile new battle"
+    },
+    {
+      "name": "skip corrupt action display repair",
+      "passed": true,
+      "detectedBy": "bounded display parity wrong all fields repaired"
+    }
+  ],
+  "scope": "Actual temporary product source mutations; unmodified candidate must pass first. Semantic transitions and corruption recovery, not just no-write counts. No candidate source-hash gate."
+}
