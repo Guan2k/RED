@@ -1,0 +1,328 @@
+{
+  "passed": 80,
+  "failed": 0,
+  "assertions": 360,
+  "results": [
+    {
+      "name": "separate labeled native controls initially blank and readonly quote",
+      "passed": true
+    },
+    {
+      "name": "paid placement matches canvas power paused=false",
+      "passed": true
+    },
+    {
+      "name": "paid placement matches canvas power paused=true",
+      "passed": true
+    },
+    {
+      "name": "paid placement matches canvas refinery paused=false",
+      "passed": true
+    },
+    {
+      "name": "paid placement matches canvas refinery paused=true",
+      "passed": true
+    },
+    {
+      "name": "paid placement matches canvas factory paused=false",
+      "passed": true
+    },
+    {
+      "name": "paid placement matches canvas factory paused=true",
+      "passed": true
+    },
+    {
+      "name": "paid placement matches canvas turret paused=false",
+      "passed": true
+    },
+    {
+      "name": "paid placement matches canvas turret paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"\",\"\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\" \",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"80\",\" \"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\" 80\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"80 \",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"+80\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"-0\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"80.0\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"8e1\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"Infinity\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"NaN\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"1201\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"80\",\"801\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"-1\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"80\",\"-1\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"0x50\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"８０\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "invalid parser [\"9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "bounded integer parser [\"0\",\"0\"]",
+      "passed": true
+    },
+    {
+      "name": "bounded integer parser [\"1200\",\"800\"]",
+      "passed": true
+    },
+    {
+      "name": "bounded integer parser [\"00080\",\"00420\"]",
+      "passed": true
+    },
+    {
+      "name": "bounded integer parser [\"80\",\"420\"]",
+      "passed": true
+    },
+    {
+      "name": "fields and input Enter never build or activate shortcuts",
+      "passed": true
+    },
+    {
+      "name": "rejection uses original place edge",
+      "passed": true
+    },
+    {
+      "name": "rejection uses original place outside base",
+      "passed": true
+    },
+    {
+      "name": "rejection uses original place entity",
+      "passed": true
+    },
+    {
+      "name": "rejection uses original place ore",
+      "passed": true
+    },
+    {
+      "name": "rejection uses original place post",
+      "passed": true
+    },
+    {
+      "name": "rejection uses original place rock",
+      "passed": true
+    },
+    {
+      "name": "rejection uses original place funds",
+      "passed": true
+    },
+    {
+      "name": "rejection uses original place mobile turret",
+      "passed": true
+    },
+    {
+      "name": "gate not started",
+      "passed": true
+    },
+    {
+      "name": "gate restart",
+      "passed": true
+    },
+    {
+      "name": "gate terminal",
+      "passed": true
+    },
+    {
+      "name": "gate no placement",
+      "passed": true
+    },
+    {
+      "name": "late \"pointer\" cannot pay after same card",
+      "passed": true
+    },
+    {
+      "name": "late \"pointer\" cannot pay after type ABA",
+      "passed": true
+    },
+    {
+      "name": "late \"pointer\" cannot pay after field ABA",
+      "passed": true
+    },
+    {
+      "name": "late \"pointer\" cannot pay after cancel then same",
+      "passed": true
+    },
+    {
+      "name": "late \"pointer\" cannot pay after blur",
+      "passed": true
+    },
+    {
+      "name": "late \"pointer\" cannot pay after window blur",
+      "passed": true
+    },
+    {
+      "name": "late \"pointer\" cannot pay after visibility",
+      "passed": true
+    },
+    {
+      "name": "late \"pointer\" cannot pay after restart",
+      "passed": true
+    },
+    {
+      "name": "late \"pointer\" cannot pay after new battle",
+      "passed": true
+    },
+    {
+      "name": "late \"Enter\" cannot pay after same card",
+      "passed": true
+    },
+    {
+      "name": "late \"Enter\" cannot pay after type ABA",
+      "passed": true
+    },
+    {
+      "name": "late \"Enter\" cannot pay after field ABA",
+      "passed": true
+    },
+    {
+      "name": "late \"Enter\" cannot pay after cancel then same",
+      "passed": true
+    },
+    {
+      "name": "late \"Enter\" cannot pay after blur",
+      "passed": true
+    },
+    {
+      "name": "late \"Enter\" cannot pay after window blur",
+      "passed": true
+    },
+    {
+      "name": "late \"Enter\" cannot pay after visibility",
+      "passed": true
+    },
+    {
+      "name": "late \"Enter\" cannot pay after restart",
+      "passed": true
+    },
+    {
+      "name": "late \"Enter\" cannot pay after new battle",
+      "passed": true
+    },
+    {
+      "name": "late \" \" cannot pay after same card",
+      "passed": true
+    },
+    {
+      "name": "late \" \" cannot pay after type ABA",
+      "passed": true
+    },
+    {
+      "name": "late \" \" cannot pay after field ABA",
+      "passed": true
+    },
+    {
+      "name": "late \" \" cannot pay after cancel then same",
+      "passed": true
+    },
+    {
+      "name": "late \" \" cannot pay after blur",
+      "passed": true
+    },
+    {
+      "name": "late \" \" cannot pay after window blur",
+      "passed": true
+    },
+    {
+      "name": "late \" \" cannot pay after visibility",
+      "passed": true
+    },
+    {
+      "name": "late \" \" cannot pay after restart",
+      "passed": true
+    },
+    {
+      "name": "late \" \" cannot pay after new battle",
+      "passed": true
+    },
+    {
+      "name": "unannounced field or quote change rejects tracked payment x",
+      "passed": true
+    },
+    {
+      "name": "unannounced field or quote change rejects tracked payment y",
+      "passed": true
+    },
+    {
+      "name": "unannounced field or quote change rejects tracked payment type",
+      "passed": true
+    },
+    {
+      "name": "unannounced field or quote change rejects tracked payment cost",
+      "passed": true
+    },
+    {
+      "name": "funds spent between press and release are rechecked by original place",
+      "passed": true
+    },
+    {
+      "name": "blocker arriving after press is rechecked without prepayment",
+      "passed": true
+    },
+    {
+      "name": "unreleased Space and pointer cannot pay",
+      "passed": true
+    },
+    {
+      "name": "consumed held Enter cannot pay after deliberate building reselect",
+      "passed": true
+    },
+    {
+      "name": "normal cancel preserves coordinates new game clears and closes",
+      "passed": true
+    }
+  ],
+  "scope": "Full-source synthetic VM/DOM, explicit keyboard/pointer defaults, synthetic boundary/rejection fixtures. No native-browser or save/load/import/export actions. Paid game-resource effects compared with original canvas place path."
+}

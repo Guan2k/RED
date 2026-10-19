@@ -1,0 +1,9 @@
+{
+  "commit": "b6eb93c76695f75c6e65b62195e935d0bd9dcd04",
+  "sourceSha256": "6a7b87b2f75ff3af7ee57a74a4caeb5c029e2587a90ce0c3910067efaef3e183",
+  "files": 3110,
+  "checksumEntries": 3109,
+  "allGitBlobsMatch": true,
+  "allChecksumsMatch": true,
+  "source": "Authorized GitHub connector tree/blob GET; existing local blobs reused only on exact Git object SHA match. No Library file accessed."
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "before": "赤色前线 / ORIGINAL RTS / v0.307",
+    "after": "赤色前线 / ORIGINAL RTS / v0.308"
+  },
+  {
+    "before": "function productionPurchaseReason(type){",
+    "after": "function productionFactoryRequirementReason(){return structures(0,'factory').some(e=>e.build)?state.paused?'战车工厂施工中；当前暂停，请继续游戏以推进施工':'战车工厂施工中，完工后才能下新订单':'需要已建成的战车工厂'}\nfunction productionPurchaseReason(type){"
+  },
+  {
+    "before": "if(!structures(0,'factory').some(e=>!e.build))return '需要已建成的战车工厂';",
+    "after": "if(!structures(0,'factory').some(e=>!e.build))return productionFactoryRequirementReason();"
+  },
+  {
+    "before": "if(!structures(0,'factory').some(e=>!e.build))return tell('需要已建成的战车工厂');",
+    "after": "if(!structures(0,'factory').some(e=>!e.build))return tell(productionFactoryRequirementReason());"
+  }
+]

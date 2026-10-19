@@ -1,0 +1,17 @@
+{
+  "checks": 871,
+  "comparisons": 751,
+  "failed": 0,
+  "events": [
+    {
+      "kind": "naturally-completed",
+      "time": 12.000000000000176
+    },
+    {
+      "kind": "both-paid-orders-produced",
+      "time": 26.999999999999748
+    }
+  ],
+  "sourceSha256": "12948c5d80dc8fd6d3fe8b892bde912fedf0849a8d85366ee0468b6e8b199e70",
+  "scope": "Independent v307 unchanged VM harness, matrix uses explicit boundary fixtures; natural lifecycle uses registered inputs and simulation only. State comparison excludes only human-readable logs. No native browser claim."
+}

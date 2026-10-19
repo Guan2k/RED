@@ -1,0 +1,27 @@
+{
+  "passed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "name": "no construction distinction",
+      "passed": true,
+      "detectedFailures": 64
+    },
+    {
+      "name": "ignore pause",
+      "passed": true,
+      "detectedFailures": 32
+    },
+    {
+      "name": "count enemy factories",
+      "passed": true,
+      "detectedFailures": 84
+    },
+    {
+      "name": "missing factory misreported",
+      "passed": true,
+      "detectedFailures": 60
+    }
+  ],
+  "scope": "Four exact feedback-helper mutations detected by current whole-source boundary suite; product rules unchanged."
+}
