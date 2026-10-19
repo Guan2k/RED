@@ -1,0 +1,543 @@
+{
+  "passed": 134,
+  "failed": 0,
+  "results": [
+    {
+      "name": "repair-button-repeat.cjs physically remove exact four nodes equals previous projection",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs reason text excluded power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rename power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained detach power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained wrong parent power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained descendant power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained sibling power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained wrong tag power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs original button retained power",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs reason text excluded refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rename refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained detach refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained wrong parent refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained descendant refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained sibling refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained wrong tag refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs original button retained refinery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs reason text excluded factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rename factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained detach factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained wrong parent factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained descendant factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained sibling factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained wrong tag factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs original button retained factory",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs reason text excluded turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained rename turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained detach turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained wrong parent turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained descendant turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained sibling turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retained wrong tag turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs original button retained turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs physically remove exact four nodes equals previous projection",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs reason text excluded power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rename power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained detach power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained wrong parent power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained descendant power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained sibling power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained wrong tag power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs original button retained power",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs reason text excluded refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rename refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained detach refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained wrong parent refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained descendant refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained sibling refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained wrong tag refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs original button retained refinery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs reason text excluded factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rename factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained detach factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained wrong parent factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained descendant factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained sibling factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained wrong tag factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs original button retained factory",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs reason text excluded turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained rename turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained detach turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained wrong parent turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained descendant turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained sibling turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retained wrong tag turret",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs original button retained turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation physically remove exact four nodes equals previous projection",
+      "passed": true
+    },
+    {
+      "name": "command-allocation reason text excluded power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained rename power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained detach power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained wrong parent power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained descendant power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained sibling power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained wrong tag power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation original button retained power",
+      "passed": true
+    },
+    {
+      "name": "command-allocation reason text excluded refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained rename refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained detach refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained wrong parent refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained descendant refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained sibling refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained wrong tag refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation original button retained refinery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation reason text excluded factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained rename factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained detach factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained wrong parent factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained descendant factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained sibling factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained wrong tag factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation original button retained factory",
+      "passed": true
+    },
+    {
+      "name": "command-allocation reason text excluded turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained rename turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained detach turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained wrong parent turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained descendant turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained sibling turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retained wrong tag turret",
+      "passed": true
+    },
+    {
+      "name": "command-allocation original button retained turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide physically remove exact four nodes equals previous projection",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide reason text excluded power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained rename power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained detach power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained wrong parent power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained descendant power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained sibling power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained wrong tag power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide original button retained power",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide reason text excluded refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained rename refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained detach refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained wrong parent refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained descendant refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained sibling refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained wrong tag refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide original button retained refinery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide reason text excluded factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained rename factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained detach factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained wrong parent factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained descendant factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained sibling factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained wrong tag factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide original button retained factory",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide reason text excluded turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained rename turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained detach turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained wrong parent turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained descendant turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained sibling turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retained wrong tag turret",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide original button retained turret",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs original identity lock",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs original identity lock",
+      "passed": true
+    }
+  ],
+  "scope": "Only four correctly named SPAN nodes under their matching build-card parents excluded. Existing nodes, descendants, detached/renamed/wrong-parent/wrong-tag/similar siblings remain visible; frozen program identity retained."
+}

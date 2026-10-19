@@ -1,0 +1,996 @@
+{
+  "sourceSha256": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+  "passed": 247,
+  "failed": 0,
+  "results": [
+    {
+      "name": "matrix power cash=0 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=0 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=0 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=0 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=0 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=0 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=0 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=0 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=0 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=0 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=100 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=100 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=100 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=100 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=100 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=100 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=100 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=100 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=100 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=100 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299.9 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299.9 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299.9 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299.9 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299.9 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299.9 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299.9 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299.9 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299.9 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=299.9 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=300 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=300 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=300 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=300 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=300 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=300 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=300 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=300 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=300 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=300 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=301 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=301 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=301 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=301 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=301 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=301 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=301 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=301 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=301 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix power cash=301 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=0 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=0 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=0 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=0 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=0 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=0 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=0 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=0 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=0 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=0 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=450 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=450 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=450 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=450 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=450 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=450 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=450 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=450 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=450 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=450 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649.9 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649.9 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649.9 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649.9 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649.9 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649.9 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649.9 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649.9 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649.9 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=649.9 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=650 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=650 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=650 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=650 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=650 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=650 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=650 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=650 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=650 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=650 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=651 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=651 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=651 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=651 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=651 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=651 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=651 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=651 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=651 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix refinery cash=651 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=0 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=0 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=0 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=0 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=0 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=0 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=0 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=0 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=0 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=0 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=650 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=650 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=650 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=650 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=650 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=650 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=650 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=650 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=650 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=650 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849.9 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849.9 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849.9 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849.9 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849.9 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849.9 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849.9 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849.9 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849.9 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=849.9 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=850 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=850 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=850 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=850 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=850 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=850 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=850 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=850 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=850 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=850 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=851 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=851 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=851 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=851 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=851 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=851 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=851 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=851 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=851 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix factory cash=851 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=0 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=0 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=0 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=0 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=0 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=0 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=0 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=0 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=0 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=0 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=250 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=250 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=250 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=250 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=250 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=250 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=250 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=250 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=250 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=250 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449.9 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449.9 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449.9 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449.9 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449.9 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449.9 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449.9 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449.9 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449.9 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=449.9 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=450 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=450 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=450 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=450 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=450 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=450 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=450 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=450 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=450 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=450 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=451 prestart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=451 prestart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=451 running/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=451 running/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=451 paused/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=451 paused/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=451 restart/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=451 restart/mobile",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=451 terminal/standard",
+      "passed": true
+    },
+    {
+      "name": "matrix turret cash=451 terminal/mobile",
+      "passed": true
+    },
+    {
+      "name": "live money and mode transitions power",
+      "passed": true
+    },
+    {
+      "name": "live money and mode transitions refinery",
+      "passed": true
+    },
+    {
+      "name": "live money and mode transitions factory",
+      "passed": true
+    },
+    {
+      "name": "live money and mode transitions turret",
+      "passed": true
+    },
+    {
+      "name": "unchanged reason refresh writes none",
+      "passed": true
+    },
+    {
+      "name": "reason text cannot inject elements",
+      "passed": true
+    },
+    {
+      "name": "prestart outranks terminal and restart, terminal outranks restart",
+      "passed": true
+    }
+  ],
+  "scope": "Independent deterministic VM and static markup checks; explicit cash/mode/lifecycle fixtures. No raster/native-browser or screen-reader claim."
+}

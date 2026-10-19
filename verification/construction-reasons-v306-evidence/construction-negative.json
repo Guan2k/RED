@@ -1,0 +1,27 @@
+{
+  "passed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "name": "missing funding reason",
+      "passed": true,
+      "detectedFailures": 17
+    },
+    {
+      "name": "fraction rounded down",
+      "passed": true,
+      "detectedFailures": 4
+    },
+    {
+      "name": "terminal funding precedence",
+      "passed": true,
+      "detectedFailures": 8
+    },
+    {
+      "name": "available stale text",
+      "passed": true,
+      "detectedFailures": 18
+    }
+  ],
+  "scope": "Four exact reason-only mutations detected by focused current-source tests."
+}

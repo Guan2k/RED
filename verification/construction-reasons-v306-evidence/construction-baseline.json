@@ -1,0 +1,242 @@
+{
+  "passed": 1,
+  "failed": 46,
+  "sourceSha256": "eb77c035a87da9c884789f3908033b0b4f7bbf354ff5dcd39a2fc1df54754e3b",
+  "results": [
+    {
+      "name": "power affordability delta -1",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "power affordability delta -0.01",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "power affordability delta 0",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "power affordability delta 1",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "power availability clears stale reason and does not rewrite unchanged text",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "power precedence prestart",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "power precedence victory",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "power precedence defeat",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "power precedence restart",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "power paused reason and restart-reset transitions",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "power reason uses plain text without live announcements",
+      "passed": false,
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(n)\n"
+    },
+    {
+      "name": "refinery affordability delta -1",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refinery affordability delta -0.01",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refinery affordability delta 0",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refinery affordability delta 1",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refinery availability clears stale reason and does not rewrite unchanged text",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refinery precedence prestart",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refinery precedence victory",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refinery precedence defeat",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refinery precedence restart",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refinery paused reason and restart-reset transitions",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refinery reason uses plain text without live announcements",
+      "passed": false,
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(n)\n"
+    },
+    {
+      "name": "factory affordability delta -1",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "factory affordability delta -0.01",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "factory affordability delta 0",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "factory affordability delta 1",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "factory availability clears stale reason and does not rewrite unchanged text",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "factory precedence prestart",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "factory precedence victory",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "factory precedence defeat",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "factory precedence restart",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "factory paused reason and restart-reset transitions",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "factory reason uses plain text without live announcements",
+      "passed": false,
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(n)\n"
+    },
+    {
+      "name": "turret affordability delta -1",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "turret affordability delta -0.01",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "turret affordability delta 0",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "turret affordability delta 1",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "turret availability clears stale reason and does not rewrite unchanged text",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "turret precedence prestart",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "turret precedence victory",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "turret precedence defeat",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "turret precedence restart",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "turret paused reason and restart-reset transitions",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "turret reason uses plain text without live announcements",
+      "passed": false,
+      "error": "The expression evaluated to a falsy value:\n\n  assert.ok(n)\n"
+    },
+    {
+      "name": "mobile turret restriction precedes cash; ordinary buildings remain available",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "natural three tank purchases explain factory shortage",
+      "passed": false,
+      "error": "inline reason node exists"
+    },
+    {
+      "name": "refresh changes no world state",
+      "passed": true
+    }
+  ],
+  "scope": "Whole-source isolated VM/mock-DOM. Real purchase/restart UI plus explicit cash/lifecycle fixtures; disabled click and key callback paths only, no native keyboard default-action/browser rendering claim."
+}

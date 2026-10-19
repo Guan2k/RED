@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "305",
+  "version": "306",
   "source": "index.html",
-  "sourceSha256": "eb77c035a87da9c884789f3908033b0b4f7bbf354ff5dcd39a2fc1df54754e3b",
-  "runner": "verification/run-tests-v305.cjs",
-  "runnerSha256": "74e053023626fbab2b6ddc60da0bd5a8a34867421cc4b26bbe437906cd19d608"
+  "sourceSha256": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+  "runner": "verification/run-tests-v306.cjs",
+  "runnerSha256": "510b13275fae263019d9ecfe775648f33d35721b987d6539ba5ed8106b66bd43"
 }

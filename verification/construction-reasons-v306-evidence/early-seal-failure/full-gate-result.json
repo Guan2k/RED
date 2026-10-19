@@ -1,0 +1,10 @@
+{
+  "started": "2026-10-19T03:13:43.117900+00:00",
+  "finished": "2026-10-19T03:13:49.071392+00:00",
+  "exitCode": 1,
+  "originalUnchanged": true,
+  "isolatedInputsUnchanged": true,
+  "inputFiles": 2941,
+  "stderrBytes": 1068,
+  "scope": "One full developer entry in isolated copy; canonical game verifier also executes its own sealed snapshot. Original source/package untouched. Exact before/after inputs checked."
+}

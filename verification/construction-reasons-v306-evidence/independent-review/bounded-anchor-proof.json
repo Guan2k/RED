@@ -1,0 +1,7 @@
+{
+  "uniqueNewAnchor": true,
+  "onlyCurrentAnchorAndVersionNamesChanged": true,
+  "newInlineReasonUpdateRetainedInMutant": true,
+  "expectedFailureUnchanged": "bounded display parity mobile new battle",
+  "mutantLocalSource": "eason(b.dataset.build);b.disabled=commandBlocked()||!!reason||state.cash<defs[b.dataset.build].cost;if(b.title===undefined)setReadonlyPanelProperty(b,'title',reason||'');setReadonlyPanelProperty($('buildReason'+b.dataset.build),'textContent',constructionCardReason(b.dataset.build))});for(let id of ['attack','stop','selectArmy'])$(id).disabled=comm"
+}

@@ -1,0 +1,55 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "results": [
+    {
+      "name": "reviewed inverse is exact pinned v305",
+      "passed": true
+    },
+    {
+      "name": "changed reviewed boundary rejected 0",
+      "passed": true
+    },
+    {
+      "name": "changed reviewed boundary rejected 1",
+      "passed": true
+    },
+    {
+      "name": "changed reviewed boundary rejected 2",
+      "passed": true
+    },
+    {
+      "name": "changed reviewed boundary rejected 3",
+      "passed": true
+    },
+    {
+      "name": "changed reviewed boundary rejected 4",
+      "passed": true
+    },
+    {
+      "name": "changed reviewed boundary rejected 5",
+      "passed": true
+    },
+    {
+      "name": "changed reviewed boundary rejected 6",
+      "passed": true
+    },
+    {
+      "name": "unrelated mutation survives source inverse function repeatProductionParallel(){return state.repeatParallel===true}",
+      "passed": true
+    },
+    {
+      "name": "unrelated mutation survives source inverse <h1><b>RED</b> FRONT</h1>",
+      "passed": true
+    },
+    {
+      "name": "unrelated extra bytes retained, strict identity rejects",
+      "passed": true
+    },
+    {
+      "name": "duplicate reviewed code anchor rejected",
+      "passed": true
+    }
+  ],
+  "scope": "Source-only negative controls: precisely two reviewed inverse changes. Unrelated executable/markup mutations and extra bytes survive inverse and cannot be hidden by historical source comparison. Strict restore retains complete current/baseline identity locks."
+}

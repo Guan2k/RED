@@ -1,0 +1,3829 @@
+[
+  {
+    "name": "building-team-cue-v306.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "passed": 1,
+      "failed": 0,
+      "smoke": false,
+      "assertions": 10617,
+      "sourceSha256": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+      "baselineSha256": "87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e",
+      "productFiles": [
+        "index.html",
+        "source-build-receipt.json",
+        "src/art/buildings.mjs",
+        "src/script/03-renderer.jsfrag"
+      ],
+      "fixtureCases": 450,
+      "methodCounts": [
+        {
+          "type": "hq",
+          "team": 0,
+          "baselineCached": 19,
+          "cached": 25,
+          "cachedDelta": 6,
+          "baselineDirect": 33,
+          "direct": 39,
+          "directDelta": 6,
+          "baselinePaints": 13,
+          "paints": 16,
+          "cachedMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 14,
+            "fill": 1,
+            "restore": 2,
+            "beginPath": 1,
+            "moveTo": 1,
+            "lineTo": 1,
+            "stroke": 1
+          },
+          "directMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 14,
+            "beginPath": 2,
+            "moveTo": 2,
+            "lineTo": 12,
+            "closePath": 1,
+            "fill": 1,
+            "restore": 2,
+            "stroke": 1
+          }
+        },
+        {
+          "type": "hq",
+          "team": 1,
+          "baselineCached": 19,
+          "cached": 24,
+          "cachedDelta": 5,
+          "baselineDirect": 33,
+          "direct": 43,
+          "directDelta": 10,
+          "baselinePaints": 13,
+          "paints": 15,
+          "cachedMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 12,
+            "fill": 2,
+            "restore": 2,
+            "beginPath": 1,
+            "moveTo": 1,
+            "lineTo": 1,
+            "stroke": 1
+          },
+          "directMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 12,
+            "beginPath": 3,
+            "moveTo": 3,
+            "lineTo": 14,
+            "closePath": 2,
+            "fill": 2,
+            "restore": 2,
+            "stroke": 1
+          }
+        },
+        {
+          "type": "power",
+          "team": 0,
+          "baselineCached": 14,
+          "cached": 20,
+          "cachedDelta": 6,
+          "baselineDirect": 41,
+          "direct": 47,
+          "directDelta": 6,
+          "baselinePaints": 11,
+          "paints": 14,
+          "cachedMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 8,
+            "fill": 6,
+            "restore": 2
+          },
+          "directMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 8,
+            "beginPath": 6,
+            "moveTo": 2,
+            "lineTo": 13,
+            "closePath": 2,
+            "fill": 6,
+            "arc": 4,
+            "restore": 2
+          }
+        },
+        {
+          "type": "power",
+          "team": 1,
+          "baselineCached": 14,
+          "cached": 19,
+          "cachedDelta": 5,
+          "baselineDirect": 41,
+          "direct": 51,
+          "directDelta": 10,
+          "baselinePaints": 11,
+          "paints": 13,
+          "cachedMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 6,
+            "fill": 7,
+            "restore": 2
+          },
+          "directMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 6,
+            "beginPath": 7,
+            "moveTo": 3,
+            "lineTo": 15,
+            "closePath": 3,
+            "fill": 7,
+            "arc": 4,
+            "restore": 2
+          }
+        },
+        {
+          "type": "refinery",
+          "team": 0,
+          "baselineCached": 14,
+          "cached": 20,
+          "cachedDelta": 6,
+          "baselineDirect": 46,
+          "direct": 52,
+          "directDelta": 6,
+          "baselinePaints": 11,
+          "paints": 14,
+          "cachedMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 8,
+            "fill": 6,
+            "restore": 2
+          },
+          "directMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 8,
+            "beginPath": 6,
+            "moveTo": 3,
+            "lineTo": 17,
+            "closePath": 3,
+            "fill": 6,
+            "arc": 3,
+            "restore": 2
+          }
+        },
+        {
+          "type": "refinery",
+          "team": 1,
+          "baselineCached": 14,
+          "cached": 19,
+          "cachedDelta": 5,
+          "baselineDirect": 46,
+          "direct": 56,
+          "directDelta": 10,
+          "baselinePaints": 11,
+          "paints": 13,
+          "cachedMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 6,
+            "fill": 7,
+            "restore": 2
+          },
+          "directMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 6,
+            "beginPath": 7,
+            "moveTo": 4,
+            "lineTo": 19,
+            "closePath": 4,
+            "fill": 7,
+            "arc": 3,
+            "restore": 2
+          }
+        },
+        {
+          "type": "factory",
+          "team": 0,
+          "baselineCached": 14,
+          "cached": 20,
+          "cachedDelta": 6,
+          "baselineDirect": 36,
+          "direct": 42,
+          "directDelta": 6,
+          "baselinePaints": 11,
+          "paints": 14,
+          "cachedMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 12,
+            "fill": 2,
+            "restore": 2
+          },
+          "directMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 12,
+            "beginPath": 2,
+            "moveTo": 2,
+            "lineTo": 16,
+            "closePath": 2,
+            "fill": 2,
+            "restore": 2
+          }
+        },
+        {
+          "type": "factory",
+          "team": 1,
+          "baselineCached": 14,
+          "cached": 19,
+          "cachedDelta": 5,
+          "baselineDirect": 36,
+          "direct": 46,
+          "directDelta": 10,
+          "baselinePaints": 11,
+          "paints": 13,
+          "cachedMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 10,
+            "fill": 3,
+            "restore": 2
+          },
+          "directMethods": {
+            "save": 2,
+            "translate": 2,
+            "fillRect": 10,
+            "beginPath": 3,
+            "moveTo": 3,
+            "lineTo": 18,
+            "closePath": 3,
+            "fill": 3,
+            "restore": 2
+          }
+        },
+        {
+          "type": "turret",
+          "team": 0,
+          "baselineCached": 15,
+          "cached": 15,
+          "cachedDelta": 0,
+          "baselineDirect": 39,
+          "direct": 39,
+          "directDelta": 0,
+          "baselinePaints": 9,
+          "paints": 9,
+          "cachedMethods": {
+            "save": 1,
+            "translate": 1,
+            "fillRect": 4,
+            "fill": 5,
+            "rotate": 1,
+            "beginPath": 1,
+            "arc": 1,
+            "restore": 1
+          },
+          "directMethods": {
+            "save": 1,
+            "translate": 1,
+            "fillRect": 4,
+            "beginPath": 5,
+            "moveTo": 2,
+            "lineTo": 14,
+            "closePath": 2,
+            "fill": 5,
+            "arc": 3,
+            "rotate": 1,
+            "restore": 1
+          }
+        },
+        {
+          "type": "turret",
+          "team": 1,
+          "baselineCached": 15,
+          "cached": 15,
+          "cachedDelta": 0,
+          "baselineDirect": 39,
+          "direct": 39,
+          "directDelta": 0,
+          "baselinePaints": 9,
+          "paints": 9,
+          "cachedMethods": {
+            "save": 1,
+            "translate": 1,
+            "fillRect": 4,
+            "fill": 5,
+            "rotate": 1,
+            "beginPath": 1,
+            "arc": 1,
+            "restore": 1
+          },
+          "directMethods": {
+            "save": 1,
+            "translate": 1,
+            "fillRect": 4,
+            "beginPath": 5,
+            "moveTo": 2,
+            "lineTo": 14,
+            "closePath": 2,
+            "fill": 5,
+            "arc": 3,
+            "rotate": 1,
+            "restore": 1
+          }
+        }
+      ],
+      "production": [
+        {
+          "phase": "production",
+          "baselineMethods": 23,
+          "cachedMethods": 29,
+          "directMethods": 51
+        },
+        {
+          "phase": "paused",
+          "baselineMethods": 23,
+          "cachedMethods": 29,
+          "directMethods": 51
+        },
+        {
+          "phase": "no-power",
+          "baselineMethods": 23,
+          "cachedMethods": 29,
+          "directMethods": 51
+        },
+        {
+          "phase": "waiting-exit",
+          "baselineMethods": 23,
+          "cachedMethods": 29,
+          "directMethods": 51
+        },
+        {
+          "phase": "terminal",
+          "baselineMethods": 23,
+          "cachedMethods": 29,
+          "directMethods": 51
+        }
+      ],
+      "failures": [
+        {
+          "mode": "absent",
+          "initial": {
+            "constructors": 0,
+            "pathMethods": 0
+          },
+          "failures": 0,
+          "pathFills": 0,
+          "markerFills": 0
+        },
+        {
+          "mode": "nonfunction",
+          "initial": {
+            "constructors": 0,
+            "pathMethods": 0
+          },
+          "failures": 0,
+          "pathFills": 0,
+          "markerFills": 0
+        },
+        {
+          "mode": "construct-first",
+          "initial": {
+            "constructors": 1,
+            "pathMethods": 0
+          },
+          "failures": 0,
+          "pathFills": 0,
+          "markerFills": 0
+        },
+        {
+          "mode": "construct-partial",
+          "initial": {
+            "constructors": 7,
+            "pathMethods": 26
+          },
+          "failures": 0,
+          "pathFills": 0,
+          "markerFills": 0
+        },
+        {
+          "mode": "construct-marker",
+          "initial": {
+            "constructors": 20,
+            "pathMethods": 100
+          },
+          "failures": 0,
+          "pathFills": 0,
+          "markerFills": 0
+        },
+        {
+          "mode": "trace",
+          "initial": {
+            "constructors": 1,
+            "pathMethods": 1
+          },
+          "failures": 0,
+          "pathFills": 0,
+          "markerFills": 0
+        },
+        {
+          "mode": "arc",
+          "initial": {
+            "constructors": 3,
+            "pathMethods": 23
+          },
+          "failures": 0,
+          "pathFills": 0,
+          "markerFills": 0
+        },
+        {
+          "mode": "fill-first",
+          "initial": {
+            "constructors": 20,
+            "pathMethods": 104
+          },
+          "failures": 1,
+          "pathFills": 1,
+          "markerFills": 0
+        },
+        {
+          "mode": "fill-second",
+          "initial": {
+            "constructors": 20,
+            "pathMethods": 104
+          },
+          "failures": 1,
+          "pathFills": 2,
+          "markerFills": 0
+        },
+        {
+          "mode": "fill-marker-first",
+          "initial": {
+            "constructors": 20,
+            "pathMethods": 104
+          },
+          "failures": 1,
+          "pathFills": 7,
+          "markerFills": 1
+        }
+      ],
+      "failureCosts": [
+        {
+          "type": "hq",
+          "team": 0,
+          "mode": "body-first",
+          "frame": "firstFailure",
+          "baselineBackend": "direct",
+          "baselineCalls": 34,
+          "prototypeCalls": 40,
+          "delta": 6,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "hq",
+          "team": 0,
+          "mode": "body-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 33,
+          "prototypeCalls": 39,
+          "delta": 6,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "hq",
+          "team": 1,
+          "mode": "body-first",
+          "frame": "firstFailure",
+          "baselineBackend": "direct",
+          "baselineCalls": 34,
+          "prototypeCalls": 44,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "hq",
+          "team": 1,
+          "mode": "body-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 33,
+          "prototypeCalls": 43,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "hq",
+          "team": 1,
+          "mode": "marker-first",
+          "frame": "firstFailure",
+          "baselineBackend": "cached",
+          "baselineCalls": 19,
+          "prototypeCalls": 30,
+          "delta": 11,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 0
+        },
+        {
+          "type": "hq",
+          "team": 1,
+          "mode": "marker-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 33,
+          "prototypeCalls": 43,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 0
+        },
+        {
+          "type": "power",
+          "team": 0,
+          "mode": "body-first",
+          "frame": "firstFailure",
+          "baselineBackend": "direct",
+          "baselineCalls": 42,
+          "prototypeCalls": 48,
+          "delta": 6,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "power",
+          "team": 0,
+          "mode": "body-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 41,
+          "prototypeCalls": 47,
+          "delta": 6,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "power",
+          "team": 1,
+          "mode": "body-first",
+          "frame": "firstFailure",
+          "baselineBackend": "direct",
+          "baselineCalls": 42,
+          "prototypeCalls": 52,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "power",
+          "team": 1,
+          "mode": "body-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 41,
+          "prototypeCalls": 51,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "power",
+          "team": 1,
+          "mode": "marker-first",
+          "frame": "firstFailure",
+          "baselineBackend": "cached",
+          "baselineCalls": 14,
+          "prototypeCalls": 25,
+          "delta": 11,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 0
+        },
+        {
+          "type": "power",
+          "team": 1,
+          "mode": "marker-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 41,
+          "prototypeCalls": 51,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 0
+        },
+        {
+          "type": "refinery",
+          "team": 0,
+          "mode": "body-first",
+          "frame": "firstFailure",
+          "baselineBackend": "direct",
+          "baselineCalls": 47,
+          "prototypeCalls": 53,
+          "delta": 6,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "refinery",
+          "team": 0,
+          "mode": "body-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 46,
+          "prototypeCalls": 52,
+          "delta": 6,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "refinery",
+          "team": 1,
+          "mode": "body-first",
+          "frame": "firstFailure",
+          "baselineBackend": "direct",
+          "baselineCalls": 47,
+          "prototypeCalls": 57,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "refinery",
+          "team": 1,
+          "mode": "body-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 46,
+          "prototypeCalls": 56,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "refinery",
+          "team": 1,
+          "mode": "marker-first",
+          "frame": "firstFailure",
+          "baselineBackend": "cached",
+          "baselineCalls": 14,
+          "prototypeCalls": 25,
+          "delta": 11,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 0
+        },
+        {
+          "type": "refinery",
+          "team": 1,
+          "mode": "marker-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 46,
+          "prototypeCalls": 56,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 0
+        },
+        {
+          "type": "factory",
+          "team": 0,
+          "mode": "body-first",
+          "frame": "firstFailure",
+          "baselineBackend": "direct",
+          "baselineCalls": 37,
+          "prototypeCalls": 43,
+          "delta": 6,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "factory",
+          "team": 0,
+          "mode": "body-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 36,
+          "prototypeCalls": 42,
+          "delta": 6,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "factory",
+          "team": 1,
+          "mode": "body-first",
+          "frame": "firstFailure",
+          "baselineBackend": "direct",
+          "baselineCalls": 37,
+          "prototypeCalls": 47,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "factory",
+          "team": 1,
+          "mode": "body-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 36,
+          "prototypeCalls": 46,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 1
+        },
+        {
+          "type": "factory",
+          "team": 1,
+          "mode": "marker-first",
+          "frame": "firstFailure",
+          "baselineBackend": "cached",
+          "baselineCalls": 14,
+          "prototypeCalls": 25,
+          "delta": 11,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 0
+        },
+        {
+          "type": "factory",
+          "team": 1,
+          "mode": "marker-first",
+          "frame": "latchedNextDraw",
+          "baselineBackend": "direct",
+          "baselineCalls": 36,
+          "prototypeCalls": 46,
+          "delta": 10,
+          "prototypeFailedFillAttempts": 1,
+          "baselineFailedFillAttempts": 0
+        }
+      ],
+      "frames": [
+        {
+          "caching": true,
+          "preview": false,
+          "phase": "completed",
+          "baselineCalls": 673,
+          "calls": 655,
+          "rawDelta": -18,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 0,
+          "baselinePaints": 172,
+          "paints": 154,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": true,
+          "preview": false,
+          "phase": "construction",
+          "baselineCalls": 741,
+          "calls": 723,
+          "rawDelta": -18,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 0,
+          "baselinePaints": 203,
+          "paints": 185,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": true,
+          "preview": false,
+          "phase": "production",
+          "baselineCalls": 682,
+          "calls": 664,
+          "rawDelta": -18,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 0,
+          "baselinePaints": 176,
+          "paints": 158,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": true,
+          "preview": false,
+          "phase": "effects",
+          "baselineCalls": 727,
+          "calls": 709,
+          "rawDelta": -18,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 0,
+          "baselinePaints": 203,
+          "paints": 185,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": true,
+          "preview": true,
+          "phase": "completed",
+          "baselineCalls": 667,
+          "calls": 693,
+          "rawDelta": 26,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 44,
+          "baselinePaints": 200,
+          "paints": 202,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": true,
+          "preview": true,
+          "phase": "construction",
+          "baselineCalls": 735,
+          "calls": 761,
+          "rawDelta": 26,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 44,
+          "baselinePaints": 231,
+          "paints": 233,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": true,
+          "preview": true,
+          "phase": "production",
+          "baselineCalls": 676,
+          "calls": 702,
+          "rawDelta": 26,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 44,
+          "baselinePaints": 204,
+          "paints": 206,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": true,
+          "preview": true,
+          "phase": "effects",
+          "baselineCalls": 729,
+          "calls": 755,
+          "rawDelta": 26,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 44,
+          "baselinePaints": 238,
+          "paints": 240,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": false,
+          "preview": false,
+          "phase": "completed",
+          "baselineCalls": 673,
+          "calls": 655,
+          "rawDelta": -18,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 0,
+          "baselinePaints": 172,
+          "paints": 154,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": false,
+          "preview": false,
+          "phase": "construction",
+          "baselineCalls": 741,
+          "calls": 723,
+          "rawDelta": -18,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 0,
+          "baselinePaints": 203,
+          "paints": 185,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": false,
+          "preview": false,
+          "phase": "production",
+          "baselineCalls": 682,
+          "calls": 664,
+          "rawDelta": -18,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 0,
+          "baselinePaints": 176,
+          "paints": 158,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": false,
+          "preview": false,
+          "phase": "effects",
+          "baselineCalls": 727,
+          "calls": 709,
+          "rawDelta": -18,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 0,
+          "baselinePaints": 203,
+          "paints": 185,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": false,
+          "preview": true,
+          "phase": "completed",
+          "baselineCalls": 905,
+          "calls": 951,
+          "rawDelta": 46,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 64,
+          "baselinePaints": 200,
+          "paints": 202,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": false,
+          "preview": true,
+          "phase": "construction",
+          "baselineCalls": 973,
+          "calls": 1019,
+          "rawDelta": 46,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 64,
+          "baselinePaints": 231,
+          "paints": 233,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": false,
+          "preview": true,
+          "phase": "production",
+          "baselineCalls": 914,
+          "calls": 960,
+          "rawDelta": 46,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 64,
+          "baselinePaints": 204,
+          "paints": 206,
+          "measureTextCalls": 6
+        },
+        {
+          "caching": false,
+          "preview": true,
+          "phase": "effects",
+          "baselineCalls": 1007,
+          "calls": 1053,
+          "rawDelta": 46,
+          "oreCallsOmitted": 18,
+          "cueOnlyDelta": 64,
+          "baselinePaints": 238,
+          "paints": 240,
+          "measureTextCalls": 6
+        }
+      ],
+      "finalPathFrames": [
+        {
+          "caching": false,
+          "type": "hq",
+          "finalCurrentPathChanged": false,
+          "normalizedPaintsChangedOnlyByCue": true,
+          "nextFrameAlsoChecked": true
+        },
+        {
+          "caching": false,
+          "type": "power",
+          "finalCurrentPathChanged": true,
+          "normalizedPaintsChangedOnlyByCue": true,
+          "nextFrameAlsoChecked": true
+        },
+        {
+          "caching": false,
+          "type": "refinery",
+          "finalCurrentPathChanged": true,
+          "normalizedPaintsChangedOnlyByCue": true,
+          "nextFrameAlsoChecked": true
+        },
+        {
+          "caching": false,
+          "type": "factory",
+          "finalCurrentPathChanged": true,
+          "normalizedPaintsChangedOnlyByCue": true,
+          "nextFrameAlsoChecked": true
+        },
+        {
+          "caching": true,
+          "type": "hq",
+          "finalCurrentPathChanged": false,
+          "normalizedPaintsChangedOnlyByCue": true,
+          "nextFrameAlsoChecked": true
+        },
+        {
+          "caching": true,
+          "type": "power",
+          "finalCurrentPathChanged": false,
+          "normalizedPaintsChangedOnlyByCue": true,
+          "nextFrameAlsoChecked": true
+        },
+        {
+          "caching": true,
+          "type": "refinery",
+          "finalCurrentPathChanged": false,
+          "normalizedPaintsChangedOnlyByCue": true,
+          "nextFrameAlsoChecked": true
+        },
+        {
+          "caching": true,
+          "type": "factory",
+          "finalCurrentPathChanged": false,
+          "normalizedPaintsChangedOnlyByCue": true,
+          "nextFrameAlsoChecked": true
+        }
+      ],
+      "failureTailFrames": [
+        {
+          "mode": "construct-first-building",
+          "type": "hq",
+          "frames": 3,
+          "failedCachedFillCalls": 0,
+          "constructionAttempts": 11
+        },
+        {
+          "mode": "construct-first-building",
+          "type": "power",
+          "frames": 3,
+          "failedCachedFillCalls": 0,
+          "constructionAttempts": 11
+        },
+        {
+          "mode": "construct-first-building",
+          "type": "refinery",
+          "frames": 3,
+          "failedCachedFillCalls": 0,
+          "constructionAttempts": 11
+        },
+        {
+          "mode": "construct-first-building",
+          "type": "factory",
+          "frames": 3,
+          "failedCachedFillCalls": 0,
+          "constructionAttempts": 11
+        },
+        {
+          "mode": "construct-marker",
+          "type": "hq",
+          "frames": 3,
+          "failedCachedFillCalls": 0,
+          "constructionAttempts": 30
+        },
+        {
+          "mode": "construct-marker",
+          "type": "power",
+          "frames": 3,
+          "failedCachedFillCalls": 0,
+          "constructionAttempts": 30
+        },
+        {
+          "mode": "construct-marker",
+          "type": "refinery",
+          "frames": 3,
+          "failedCachedFillCalls": 0,
+          "constructionAttempts": 30
+        },
+        {
+          "mode": "construct-marker",
+          "type": "factory",
+          "frames": 3,
+          "failedCachedFillCalls": 0,
+          "constructionAttempts": 30
+        },
+        {
+          "mode": "fill-marker",
+          "type": "hq",
+          "frames": 3,
+          "failedCachedFillCalls": 1,
+          "constructionAttempts": 30
+        },
+        {
+          "mode": "fill-marker",
+          "type": "power",
+          "frames": 3,
+          "failedCachedFillCalls": 1,
+          "constructionAttempts": 30
+        },
+        {
+          "mode": "fill-marker",
+          "type": "refinery",
+          "frames": 3,
+          "failedCachedFillCalls": 1,
+          "constructionAttempts": 30
+        },
+        {
+          "mode": "fill-marker",
+          "type": "factory",
+          "frames": 3,
+          "failedCachedFillCalls": 1,
+          "constructionAttempts": 30
+        }
+      ],
+      "projectionChecks": [
+        {
+          "format": "commands",
+          "team": 0,
+          "rejectedMalformedCueCases": 21,
+          "nonCueChangesRetained": true
+        },
+        {
+          "format": "commands",
+          "team": 1,
+          "rejectedMalformedCueCases": 21,
+          "nonCueChangesRetained": true
+        },
+        {
+          "format": "world",
+          "team": 0,
+          "rejectedMalformedCueCases": 14,
+          "nonCueChangesRetained": true
+        },
+        {
+          "format": "world",
+          "team": 1,
+          "rejectedMalformedCueCases": 14,
+          "nonCueChangesRetained": true
+        },
+        {
+          "name": "missing entire cue call",
+          "rejectedBy": "independent exact cue backing count",
+          "passed": true
+        },
+        {
+          "name": "missing origin type",
+          "rejectedBy": "independent exact cue backing count",
+          "passed": true
+        },
+        {
+          "name": "canonical radius changed",
+          "rejectedBy": "independent exact cue backing count",
+          "passed": true
+        },
+        {
+          "name": "actual cue helper moved before static body",
+          "rejectedBy": "independent exact final static-body anchor",
+          "passed": true
+        }
+      ],
+      "parity": [
+        {
+          "map": "classic",
+          "seconds": 90,
+          "passed": true
+        },
+        {
+          "map": "frontier",
+          "seconds": 90,
+          "passed": true
+        },
+        {
+          "map": "canyon",
+          "seconds": 90,
+          "passed": true
+        },
+        {
+          "map": "ridge",
+          "seconds": 90,
+          "passed": true
+        },
+        {
+          "map": "crossroads",
+          "seconds": 90,
+          "passed": true
+        },
+        {
+          "map": "switchback",
+          "seconds": 90,
+          "passed": true
+        },
+        {
+          "map": "ring",
+          "seconds": 90,
+          "passed": true
+        },
+        {
+          "map": "meridian",
+          "seconds": 90,
+          "passed": true
+        }
+      ],
+      "pathSemantics": [
+        {
+          "type": "hq",
+          "team": 0,
+          "mode": "cached",
+          "currentPathChanged": false
+        },
+        {
+          "type": "hq",
+          "team": 1,
+          "mode": "cached",
+          "currentPathChanged": false
+        },
+        {
+          "type": "power",
+          "team": 0,
+          "mode": "cached",
+          "currentPathChanged": false
+        },
+        {
+          "type": "power",
+          "team": 1,
+          "mode": "cached",
+          "currentPathChanged": false
+        },
+        {
+          "type": "refinery",
+          "team": 0,
+          "mode": "cached",
+          "currentPathChanged": false
+        },
+        {
+          "type": "refinery",
+          "team": 1,
+          "mode": "cached",
+          "currentPathChanged": false
+        },
+        {
+          "type": "factory",
+          "team": 0,
+          "mode": "cached",
+          "currentPathChanged": false
+        },
+        {
+          "type": "factory",
+          "team": 1,
+          "mode": "cached",
+          "currentPathChanged": false
+        },
+        {
+          "type": "turret",
+          "team": 0,
+          "mode": "cached",
+          "currentPathChanged": false
+        },
+        {
+          "type": "turret",
+          "team": 1,
+          "mode": "cached",
+          "currentPathChanged": false
+        },
+        {
+          "type": "hq",
+          "team": 0,
+          "mode": "direct",
+          "currentPathChanged": false
+        },
+        {
+          "type": "hq",
+          "team": 1,
+          "mode": "direct",
+          "currentPathChanged": true
+        },
+        {
+          "type": "power",
+          "team": 0,
+          "mode": "direct",
+          "currentPathChanged": false
+        },
+        {
+          "type": "power",
+          "team": 1,
+          "mode": "direct",
+          "currentPathChanged": true
+        },
+        {
+          "type": "refinery",
+          "team": 0,
+          "mode": "direct",
+          "currentPathChanged": false
+        },
+        {
+          "type": "refinery",
+          "team": 1,
+          "mode": "direct",
+          "currentPathChanged": true
+        },
+        {
+          "type": "factory",
+          "team": 0,
+          "mode": "direct",
+          "currentPathChanged": false
+        },
+        {
+          "type": "factory",
+          "team": 1,
+          "mode": "direct",
+          "currentPathChanged": true
+        },
+        {
+          "type": "turret",
+          "team": 0,
+          "mode": "direct",
+          "currentPathChanged": false
+        },
+        {
+          "type": "turret",
+          "team": 1,
+          "mode": "direct",
+          "currentPathChanged": false
+        }
+      ],
+      "cacheCost": {
+        "baseline": {
+          "constructors": 19,
+          "pathMethods": 100
+        },
+        "prototype": {
+          "constructors": 20,
+          "pathMethods": 104
+        },
+        "delta": {
+          "constructors": 1,
+          "pathMethods": 4
+        }
+      },
+      "limits": [
+        "Synthetic Canvas/Path2D recorder, not native raster/FPS evidence. Historical expected whole frames adapt low-ore labels before layout and omit only exact validated ore tails; immutable v301 cue normalization remains separately exact.",
+        "All source ctx method calls are counted, including measureText; JavaScript helper calls and property assignments are not Canvas methods.",
+        "save/restore excludes the Canvas current path. Enemy direct fallback leaves its triangle path; cached and friendly cues do not. Whole-frame paints and next-frame paints are tested.",
+        "Persistence bootstrap probes are suppressed by the inherited no-persistence VM harness; all storage APIs throw."
+      ]
+    }
+  },
+  {
+    "name": "source-delta-v306-negative-control.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "passed": 12,
+      "failed": 0,
+      "results": [
+        {
+          "name": "reviewed inverse is exact pinned v305",
+          "passed": true
+        },
+        {
+          "name": "changed reviewed boundary rejected 0",
+          "passed": true
+        },
+        {
+          "name": "changed reviewed boundary rejected 1",
+          "passed": true
+        },
+        {
+          "name": "changed reviewed boundary rejected 2",
+          "passed": true
+        },
+        {
+          "name": "changed reviewed boundary rejected 3",
+          "passed": true
+        },
+        {
+          "name": "changed reviewed boundary rejected 4",
+          "passed": true
+        },
+        {
+          "name": "changed reviewed boundary rejected 5",
+          "passed": true
+        },
+        {
+          "name": "changed reviewed boundary rejected 6",
+          "passed": true
+        },
+        {
+          "name": "unrelated mutation survives source inverse function repeatProductionParallel(){return state.repeatParallel===true}",
+          "passed": true
+        },
+        {
+          "name": "unrelated mutation survives source inverse <h1><b>RED</b> FRONT</h1>",
+          "passed": true
+        },
+        {
+          "name": "unrelated extra bytes retained, strict identity rejects",
+          "passed": true
+        },
+        {
+          "name": "duplicate reviewed code anchor rejected",
+          "passed": true
+        }
+      ],
+      "scope": "Source-only negative controls: precisely seven reviewed inverse changes. Unrelated executable/markup mutations and extra bytes survive inverse and cannot be hidden by historical source comparison. Strict restore retains complete current/baseline identity locks."
+    }
+  },
+  {
+    "name": "construction-reasons-v306.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "passed": 47,
+      "failed": 0,
+      "sourceSha256": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+      "results": [
+        {
+          "name": "power affordability delta -1",
+          "passed": true
+        },
+        {
+          "name": "power affordability delta -0.01",
+          "passed": true
+        },
+        {
+          "name": "power affordability delta 0",
+          "passed": true
+        },
+        {
+          "name": "power affordability delta 1",
+          "passed": true
+        },
+        {
+          "name": "power availability clears stale reason and does not rewrite unchanged text",
+          "passed": true
+        },
+        {
+          "name": "power precedence prestart",
+          "passed": true
+        },
+        {
+          "name": "power precedence victory",
+          "passed": true
+        },
+        {
+          "name": "power precedence defeat",
+          "passed": true
+        },
+        {
+          "name": "power precedence restart",
+          "passed": true
+        },
+        {
+          "name": "power paused reason and restart-reset transitions",
+          "passed": true
+        },
+        {
+          "name": "power reason uses plain text without live announcements",
+          "passed": true
+        },
+        {
+          "name": "refinery affordability delta -1",
+          "passed": true
+        },
+        {
+          "name": "refinery affordability delta -0.01",
+          "passed": true
+        },
+        {
+          "name": "refinery affordability delta 0",
+          "passed": true
+        },
+        {
+          "name": "refinery affordability delta 1",
+          "passed": true
+        },
+        {
+          "name": "refinery availability clears stale reason and does not rewrite unchanged text",
+          "passed": true
+        },
+        {
+          "name": "refinery precedence prestart",
+          "passed": true
+        },
+        {
+          "name": "refinery precedence victory",
+          "passed": true
+        },
+        {
+          "name": "refinery precedence defeat",
+          "passed": true
+        },
+        {
+          "name": "refinery precedence restart",
+          "passed": true
+        },
+        {
+          "name": "refinery paused reason and restart-reset transitions",
+          "passed": true
+        },
+        {
+          "name": "refinery reason uses plain text without live announcements",
+          "passed": true
+        },
+        {
+          "name": "factory affordability delta -1",
+          "passed": true
+        },
+        {
+          "name": "factory affordability delta -0.01",
+          "passed": true
+        },
+        {
+          "name": "factory affordability delta 0",
+          "passed": true
+        },
+        {
+          "name": "factory affordability delta 1",
+          "passed": true
+        },
+        {
+          "name": "factory availability clears stale reason and does not rewrite unchanged text",
+          "passed": true
+        },
+        {
+          "name": "factory precedence prestart",
+          "passed": true
+        },
+        {
+          "name": "factory precedence victory",
+          "passed": true
+        },
+        {
+          "name": "factory precedence defeat",
+          "passed": true
+        },
+        {
+          "name": "factory precedence restart",
+          "passed": true
+        },
+        {
+          "name": "factory paused reason and restart-reset transitions",
+          "passed": true
+        },
+        {
+          "name": "factory reason uses plain text without live announcements",
+          "passed": true
+        },
+        {
+          "name": "turret affordability delta -1",
+          "passed": true
+        },
+        {
+          "name": "turret affordability delta -0.01",
+          "passed": true
+        },
+        {
+          "name": "turret affordability delta 0",
+          "passed": true
+        },
+        {
+          "name": "turret affordability delta 1",
+          "passed": true
+        },
+        {
+          "name": "turret availability clears stale reason and does not rewrite unchanged text",
+          "passed": true
+        },
+        {
+          "name": "turret precedence prestart",
+          "passed": true
+        },
+        {
+          "name": "turret precedence victory",
+          "passed": true
+        },
+        {
+          "name": "turret precedence defeat",
+          "passed": true
+        },
+        {
+          "name": "turret precedence restart",
+          "passed": true
+        },
+        {
+          "name": "turret paused reason and restart-reset transitions",
+          "passed": true
+        },
+        {
+          "name": "turret reason uses plain text without live announcements",
+          "passed": true
+        },
+        {
+          "name": "mobile turret restriction precedes cash; ordinary buildings remain available",
+          "passed": true
+        },
+        {
+          "name": "natural three tank purchases explain factory shortage",
+          "passed": true
+        },
+        {
+          "name": "refresh changes no world state",
+          "passed": true
+        }
+      ],
+      "scope": "Whole-source isolated VM/mock-DOM. Real purchase/restart UI plus explicit cash/lifecycle fixtures; disabled click and key callback paths only, no native keyboard default-action/browser rendering claim."
+    }
+  },
+  {
+    "name": "construction-reasons-negative-v306.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "passed": 4,
+      "failed": 0,
+      "results": [
+        {
+          "name": "missing funding reason",
+          "passed": true,
+          "detectedFailures": 17
+        },
+        {
+          "name": "fraction rounded down",
+          "passed": true,
+          "detectedFailures": 4
+        },
+        {
+          "name": "terminal funding precedence",
+          "passed": true,
+          "detectedFailures": 8
+        },
+        {
+          "name": "available stale text",
+          "passed": true,
+          "detectedFailures": 18
+        }
+      ],
+      "scope": "Four exact reason-only mutations detected by focused current-source tests."
+    }
+  },
+  {
+    "name": "factory-space-v306.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "sourceSha256": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+      "passed": 62,
+      "failed": 0,
+      "results": [
+        {
+          "name": "space release false/0",
+          "passed": true
+        },
+        {
+          "name": "space release false/1",
+          "passed": true
+        },
+        {
+          "name": "space release false/4",
+          "passed": true
+        },
+        {
+          "name": "space release false/20",
+          "passed": true
+        },
+        {
+          "name": "space release true/0",
+          "passed": true
+        },
+        {
+          "name": "space release true/1",
+          "passed": true
+        },
+        {
+          "name": "space release true/4",
+          "passed": true
+        },
+        {
+          "name": "space release true/20",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/0/button-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/0/focus-change",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/0/window-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/0/restart",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/0/pointercancel",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/0/lostcapture",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/0/disabled",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/1/button-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/1/focus-change",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/1/window-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/1/restart",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/1/pointercancel",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/1/lostcapture",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/1/disabled",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/4/button-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/4/focus-change",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/4/window-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/4/restart",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/4/pointercancel",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/4/lostcapture",
+          "passed": true
+        },
+        {
+          "name": "interrupted false/4/disabled",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/0/button-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/0/focus-change",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/0/window-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/0/restart",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/0/pointercancel",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/0/lostcapture",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/0/disabled",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/1/button-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/1/focus-change",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/1/window-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/1/restart",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/1/pointercancel",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/1/lostcapture",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/1/disabled",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/4/button-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/4/focus-change",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/4/window-blur",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/4/restart",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/4/pointercancel",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/4/lostcapture",
+          "passed": true
+        },
+        {
+          "name": "interrupted true/4/disabled",
+          "passed": true
+        },
+        {
+          "name": "Enter false/1",
+          "passed": true
+        },
+        {
+          "name": "Enter false/4",
+          "passed": true
+        },
+        {
+          "name": "Enter true/1",
+          "passed": true
+        },
+        {
+          "name": "Enter true/4",
+          "passed": true
+        },
+        {
+          "name": "pointer interrupted by repeat false/ ",
+          "passed": true
+        },
+        {
+          "name": "pointer interrupted by repeat false/Enter",
+          "passed": true
+        },
+        {
+          "name": "pointer interrupted by repeat true/ ",
+          "passed": true
+        },
+        {
+          "name": "pointer interrupted by repeat true/Enter",
+          "passed": true
+        },
+        {
+          "name": "composition false/{\"isComposing\":true}",
+          "passed": true
+        },
+        {
+          "name": "composition false/{\"keyCode\":229}",
+          "passed": true
+        },
+        {
+          "name": "composition true/{\"isComposing\":true}",
+          "passed": true
+        },
+        {
+          "name": "composition true/{\"keyCode\":229}",
+          "passed": true
+        }
+      ],
+      "scope": "Synthetic registered handlers, natural battle and UI controls; explicit DOM focus/disabled fixtures. No native-browser claim. Current source passed explicitly or defaults to index.html."
+    }
+  },
+  {
+    "name": "factory-space-negative-v306.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "passed": 4,
+      "failed": 0,
+      "results": [
+        {
+          "name": "original cancels Space",
+          "passed": true,
+          "detectedBy": "held Space releases one selection",
+          "failedCases": 6
+        },
+        {
+          "name": "preserve all repeat tokens",
+          "passed": true,
+          "detectedBy": "repeat does not preserve pointer token",
+          "failedCases": 10
+        },
+        {
+          "name": "omit repeated default suppression",
+          "passed": true,
+          "detectedBy": "repeat default suppressed",
+          "failedCases": 10
+        },
+        {
+          "name": "omit disabled boundary",
+          "passed": true,
+          "detectedBy": "canceled or disabled activation remains canceled",
+          "failedCases": 6
+        }
+      ]
+    }
+  },
+  {
+    "name": "selection-key-repeat-v306.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "passed": 93,
+      "failed": 0,
+      "sourceSha256": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+      "results": [
+        {
+          "name": "held f upper=false paused=false preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held f upper=false paused=true preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held f upper=true paused=false preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held f upper=true paused=true preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held i upper=false paused=false preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held i upper=false paused=true preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held i upper=true paused=false preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held i upper=true paused=true preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held m upper=false paused=false preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held m upper=false paused=true preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held m upper=true paused=false preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "held m upper=true paused=true preserves intervening attack",
+          "passed": true
+        },
+        {
+          "name": "f first repeat=false matches visible button",
+          "passed": true
+        },
+        {
+          "name": "f first repeat=undefined matches visible button",
+          "passed": true
+        },
+        {
+          "name": "i first repeat=false matches visible button",
+          "passed": true
+        },
+        {
+          "name": "i first repeat=undefined matches visible button",
+          "passed": true
+        },
+        {
+          "name": "m first repeat=false matches visible button",
+          "passed": true
+        },
+        {
+          "name": "m first repeat=undefined matches visible button",
+          "passed": true
+        },
+        {
+          "name": "f guard {\"ctrlKey\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f guard {\"ctrlKey\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f guard {\"metaKey\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f guard {\"metaKey\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f guard {\"altKey\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f guard {\"altKey\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f guard {\"isComposing\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f guard {\"isComposing\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f guard {\"keyCode\":229} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f guard {\"keyCode\":229} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i guard {\"ctrlKey\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i guard {\"ctrlKey\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i guard {\"metaKey\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i guard {\"metaKey\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i guard {\"altKey\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i guard {\"altKey\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i guard {\"isComposing\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i guard {\"isComposing\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i guard {\"keyCode\":229} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i guard {\"keyCode\":229} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m guard {\"ctrlKey\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m guard {\"ctrlKey\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m guard {\"metaKey\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m guard {\"metaKey\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m guard {\"altKey\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m guard {\"altKey\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m guard {\"isComposing\":true} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m guard {\"isComposing\":true} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m guard {\"keyCode\":229} repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m guard {\"keyCode\":229} repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f focus INPUT repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f focus INPUT repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f focus SELECT repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f focus SELECT repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f focus TEXTAREA repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f focus TEXTAREA repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f focus editable repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f focus editable repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i focus INPUT repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i focus INPUT repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i focus SELECT repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i focus SELECT repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i focus TEXTAREA repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i focus TEXTAREA repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i focus editable repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i focus editable repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m focus INPUT repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m focus INPUT repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m focus SELECT repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m focus SELECT repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m focus TEXTAREA repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m focus TEXTAREA repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m focus editable repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m focus editable repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f lifecycle prestart repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f lifecycle prestart repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f lifecycle restart repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f lifecycle restart repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f lifecycle terminal repeat=false",
+          "passed": true
+        },
+        {
+          "name": "f lifecycle terminal repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i lifecycle prestart repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i lifecycle prestart repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i lifecycle restart repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i lifecycle restart repeat=true",
+          "passed": true
+        },
+        {
+          "name": "i lifecycle terminal repeat=false",
+          "passed": true
+        },
+        {
+          "name": "i lifecycle terminal repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m lifecycle prestart repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m lifecycle prestart repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m lifecycle restart repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m lifecycle restart repeat=true",
+          "passed": true
+        },
+        {
+          "name": "m lifecycle terminal repeat=false",
+          "passed": true
+        },
+        {
+          "name": "m lifecycle terminal repeat=true",
+          "passed": true
+        },
+        {
+          "name": "f visible button remains repeatable",
+          "passed": true
+        },
+        {
+          "name": "i visible button remains repeatable",
+          "passed": true
+        },
+        {
+          "name": "m visible button remains repeatable",
+          "passed": true
+        }
+      ],
+      "scope": "Isolated VM registered-key dispatch and button callbacks. Natural initial battle plus explicit lifecycle/focus fixtures. No browser key timing, accessibility, persistence, or full release claim."
+    }
+  },
+  {
+    "name": "selection-key-repeat-negative-v306.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "passed": 5,
+      "failed": 0,
+      "results": [
+        {
+          "name": "restore repeat f",
+          "passed": true,
+          "detectedBy": "repeat preserves exact world and pending input",
+          "failedBehaviorCases": 4
+        },
+        {
+          "name": "restore repeat i",
+          "passed": true,
+          "detectedBy": "repeat preserves exact world and pending input",
+          "failedBehaviorCases": 4
+        },
+        {
+          "name": "restore repeat m",
+          "passed": true,
+          "detectedBy": "repeat preserves exact world and pending input",
+          "failedBehaviorCases": 4
+        },
+        {
+          "name": "block initial selection",
+          "passed": true,
+          "detectedBy": "initial selection works",
+          "failedBehaviorCases": 18
+        },
+        {
+          "name": "skip uppercase repeat",
+          "passed": true,
+          "detectedBy": "repeat preserves exact world and pending input",
+          "failedBehaviorCases": 6
+        }
+      ],
+      "scope": "Source mutations rejected by named behavioral assertions, not identity or syntax gates."
+    }
+  },
+  {
+    "name": "ore-density-v306.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "passed": 134,
+      "failed": 0,
+      "sourceSha256": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+      "baselineSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+      "results": [
+        {
+          "name": "source/exact-version-low-label-and-single-render-loop-deltas",
+          "passed": true,
+          "sourceSha256": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+          "baselineSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39"
+        },
+        {
+          "name": "threshold/-1/preview-false/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 741,
+          "candidateCalls": 741,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/-1/preview-false/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 741,
+          "candidateCalls": 741,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/-1/preview-true/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 1223,
+          "candidateCalls": 1223,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/-1/preview-true/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 821,
+          "candidateCalls": 821,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0/preview-false/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 741,
+          "candidateCalls": 741,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0/preview-false/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 741,
+          "candidateCalls": 741,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0/preview-true/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 1223,
+          "candidateCalls": 1223,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0/preview-true/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 821,
+          "candidateCalls": 821,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0.001/preview-false/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0.001/preview-false/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0.001/preview-true/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 1236,
+          "candidateCalls": 1229,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0.001/preview-true/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 834,
+          "candidateCalls": 827,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0.5/preview-false/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0.5/preview-false/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0.5/preview-true/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 1236,
+          "candidateCalls": 1229,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/0.5/preview-true/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 834,
+          "candidateCalls": 827,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1/preview-false/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1/preview-false/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1/preview-true/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 1236,
+          "candidateCalls": 1229,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1/preview-true/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 834,
+          "candidateCalls": 827,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/999/preview-false/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/999/preview-false/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/999/preview-true/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 1236,
+          "candidateCalls": 1229,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/999/preview-true/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 834,
+          "candidateCalls": 827,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/999.999/preview-false/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/999.999/preview-false/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/999.999/preview-true/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 1236,
+          "candidateCalls": 1229,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/999.999/preview-true/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 834,
+          "candidateCalls": 827,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000/preview-false/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000/preview-false/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000/preview-true/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 1236,
+          "candidateCalls": 1229,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000/preview-true/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 834,
+          "candidateCalls": 827,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000.001/preview-false/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000.001/preview-false/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000.001/preview-true/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 1236,
+          "candidateCalls": 1229,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000.001/preview-true/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 834,
+          "candidateCalls": 827,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1499/preview-false/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1499/preview-false/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1499/preview-true/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 1236,
+          "candidateCalls": 1229,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1499/preview-true/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 834,
+          "candidateCalls": 827,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1499.99/preview-false/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1499.99/preview-false/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1499.99/preview-true/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 1236,
+          "candidateCalls": 1229,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1499.99/preview-true/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 834,
+          "candidateCalls": 827,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1500/preview-false/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1500/preview-false/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 754,
+          "candidateCalls": 747,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1500/preview-true/cached-false",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 1236,
+          "candidateCalls": 1229,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1500/preview-true/cached-true",
+          "passed": true,
+          "omitted": 7,
+          "baselineCalls": 834,
+          "candidateCalls": 827,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1500.001/preview-false/cached-false",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 754,
+          "candidateCalls": 750,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1500.001/preview-false/cached-true",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 754,
+          "candidateCalls": 750,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1500.001/preview-true/cached-false",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 1236,
+          "candidateCalls": 1232,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1500.001/preview-true/cached-true",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 834,
+          "candidateCalls": 830,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1501/preview-false/cached-false",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 754,
+          "candidateCalls": 750,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1501/preview-false/cached-true",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 754,
+          "candidateCalls": 750,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1501/preview-true/cached-false",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 1236,
+          "candidateCalls": 1232,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1501/preview-true/cached-true",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 834,
+          "candidateCalls": 830,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4499.99/preview-false/cached-false",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 754,
+          "candidateCalls": 750,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4499.99/preview-false/cached-true",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 754,
+          "candidateCalls": 750,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4499.99/preview-true/cached-false",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 1236,
+          "candidateCalls": 1232,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4499.99/preview-true/cached-true",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 834,
+          "candidateCalls": 830,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4500/preview-false/cached-false",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 754,
+          "candidateCalls": 750,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4500/preview-false/cached-true",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 754,
+          "candidateCalls": 750,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4500/preview-true/cached-false",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 1236,
+          "candidateCalls": 1232,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4500/preview-true/cached-true",
+          "passed": true,
+          "omitted": 4,
+          "baselineCalls": 834,
+          "candidateCalls": 830,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4500.001/preview-false/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 754,
+          "candidateCalls": 754,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4500.001/preview-false/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 754,
+          "candidateCalls": 754,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4500.001/preview-true/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 1236,
+          "candidateCalls": 1236,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4500.001/preview-true/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 834,
+          "candidateCalls": 834,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4501/preview-false/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 754,
+          "candidateCalls": 754,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4501/preview-false/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 754,
+          "candidateCalls": 754,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4501/preview-true/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 1236,
+          "candidateCalls": 1236,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/4501/preview-true/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 834,
+          "candidateCalls": 834,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/12000/preview-false/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 754,
+          "candidateCalls": 754,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/12000/preview-false/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 754,
+          "candidateCalls": 754,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/12000/preview-true/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 1236,
+          "candidateCalls": 1236,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/12000/preview-true/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 834,
+          "candidateCalls": 834,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000000/preview-false/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 754,
+          "candidateCalls": 754,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000000/preview-false/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 754,
+          "candidateCalls": 754,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000000/preview-true/cached-false",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 1236,
+          "candidateCalls": 1236,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "threshold/1000000/preview-true/cached-true",
+          "passed": true,
+          "omitted": 0,
+          "baselineCalls": 834,
+          "candidateCalls": 834,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "map/classic/preview-false/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 813,
+          "candidateCalls": 795,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "map/classic/preview-false/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 813,
+          "candidateCalls": 795,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "map/classic/preview-true/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1295,
+          "candidateCalls": 1277,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "classic"
+        },
+        {
+          "name": "map/classic/preview-true/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 893,
+          "candidateCalls": 875,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "map/frontier/preview-false/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 815,
+          "candidateCalls": 797,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "frontier"
+        },
+        {
+          "name": "map/frontier/preview-false/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 815,
+          "candidateCalls": 797,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "frontier"
+        },
+        {
+          "name": "map/frontier/preview-true/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1297,
+          "candidateCalls": 1279,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "frontier"
+        },
+        {
+          "name": "map/frontier/preview-true/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 895,
+          "candidateCalls": 877,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "frontier"
+        },
+        {
+          "name": "map/canyon/preview-false/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 964,
+          "candidateCalls": 946,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "canyon"
+        },
+        {
+          "name": "map/canyon/preview-false/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 964,
+          "candidateCalls": 946,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "canyon"
+        },
+        {
+          "name": "map/canyon/preview-true/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1446,
+          "candidateCalls": 1428,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "canyon"
+        },
+        {
+          "name": "map/canyon/preview-true/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1044,
+          "candidateCalls": 1026,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "canyon"
+        },
+        {
+          "name": "map/ridge/preview-false/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 885,
+          "candidateCalls": 867,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "ridge"
+        },
+        {
+          "name": "map/ridge/preview-false/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 885,
+          "candidateCalls": 867,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "ridge"
+        },
+        {
+          "name": "map/ridge/preview-true/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1367,
+          "candidateCalls": 1349,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "ridge"
+        },
+        {
+          "name": "map/ridge/preview-true/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 965,
+          "candidateCalls": 947,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "ridge"
+        },
+        {
+          "name": "map/crossroads/preview-false/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 942,
+          "candidateCalls": 924,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "crossroads"
+        },
+        {
+          "name": "map/crossroads/preview-false/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 942,
+          "candidateCalls": 924,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "crossroads"
+        },
+        {
+          "name": "map/crossroads/preview-true/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1424,
+          "candidateCalls": 1406,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "crossroads"
+        },
+        {
+          "name": "map/crossroads/preview-true/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1022,
+          "candidateCalls": 1004,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "crossroads"
+        },
+        {
+          "name": "map/switchback/preview-false/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1107,
+          "candidateCalls": 1089,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "switchback"
+        },
+        {
+          "name": "map/switchback/preview-false/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1107,
+          "candidateCalls": 1089,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "switchback"
+        },
+        {
+          "name": "map/switchback/preview-true/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1589,
+          "candidateCalls": 1571,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "switchback"
+        },
+        {
+          "name": "map/switchback/preview-true/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1187,
+          "candidateCalls": 1169,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "switchback"
+        },
+        {
+          "name": "map/ring/preview-false/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 856,
+          "candidateCalls": 838,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "ring"
+        },
+        {
+          "name": "map/ring/preview-false/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 856,
+          "candidateCalls": 838,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "ring"
+        },
+        {
+          "name": "map/ring/preview-true/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1338,
+          "candidateCalls": 1320,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "ring"
+        },
+        {
+          "name": "map/ring/preview-true/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 936,
+          "candidateCalls": 918,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "ring"
+        },
+        {
+          "name": "map/meridian/preview-false/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 940,
+          "candidateCalls": 922,
+          "frames": 2,
+          "preview": false,
+          "caching": false,
+          "map": "meridian"
+        },
+        {
+          "name": "map/meridian/preview-false/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 940,
+          "candidateCalls": 922,
+          "frames": 2,
+          "preview": false,
+          "caching": true,
+          "map": "meridian"
+        },
+        {
+          "name": "map/meridian/preview-true/cached-false",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1422,
+          "candidateCalls": 1404,
+          "frames": 2,
+          "preview": true,
+          "caching": false,
+          "map": "meridian"
+        },
+        {
+          "name": "map/meridian/preview-true/cached-true",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 1020,
+          "candidateCalls": 1002,
+          "frames": 2,
+          "preview": true,
+          "caching": true,
+          "map": "meridian"
+        },
+        {
+          "name": "overlap/posts-hover-and-consecutive-frames",
+          "passed": true,
+          "omitted": 18,
+          "baselineCalls": 884,
+          "candidateCalls": 866,
+          "frames": 3,
+          "preview": true,
+          "caching": true,
+          "map": "classic"
+        },
+        {
+          "name": "projection/exact-omitted-tails-and-observable-unrelated-fields",
+          "passed": true,
+          "controls": [
+            {
+              "format": "commands",
+              "amount": 0.001,
+              "rejected": 26
+            },
+            {
+              "format": "commands",
+              "amount": 999.999,
+              "rejected": 26
+            },
+            {
+              "format": "commands",
+              "amount": 1000,
+              "rejected": 26
+            },
+            {
+              "format": "commands",
+              "amount": 1500,
+              "rejected": 26
+            },
+            {
+              "format": "commands",
+              "amount": 4500,
+              "rejected": 26
+            },
+            {
+              "format": "world",
+              "amount": 0.001,
+              "rejected": 20
+            },
+            {
+              "format": "world",
+              "amount": 999.999,
+              "rejected": 20
+            },
+            {
+              "format": "world",
+              "amount": 1000,
+              "rejected": 20
+            },
+            {
+              "format": "world",
+              "amount": 1500,
+              "rejected": 20
+            },
+            {
+              "format": "world",
+              "amount": 4500,
+              "rejected": 20
+            }
+          ]
+        },
+        {
+          "name": "negative/lower inclusive threshold",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/upper inclusive threshold",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/middle missing tail block",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/middle extra tail block",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/low retains wrong block",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/retained position",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/retained color",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/high missing last block",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/retained odd color",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/retained wrong method",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/missing label",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/base color",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/base position",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/label color",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/label position",
+          "passed": true,
+          "rejectedBy": "ore density complete paints"
+        },
+        {
+          "name": "negative/zero skip",
+          "passed": true,
+          "rejectedBy": "ore density layout labels positions and order"
+        },
+        {
+          "name": "negative/extra Canvas method",
+          "passed": true,
+          "rejectedBy": "ore density complete Canvas methods"
+        },
+        {
+          "name": "negative/world mutation",
+          "passed": true,
+          "rejectedBy": "ore density world unchanged"
+        },
+        {
+          "name": "negative/RNG consumption",
+          "passed": true,
+          "rejectedBy": "ore density render consumed RNG"
+        }
+      ],
+      "scope": "Complete real renderer with immutable v301 baseline plus explicit expected-side low-ore label adaptation; 20 integer/fraction boundary quantities, all eight maps, both preview states, cached/direct paths, zero/depleted skip, layout/base/style/method/order, world/input/RNG/current-path parity and behavior-only negatives. Only exact validated historical ore suffixes are omitted. Synthetic Canvas/Path2D recording, not native raster or FPS evidence."
+    }
+  },
+  {
+    "name": "low-ore-label-v306.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "passed": 52,
+      "failed": 0,
+      "assertions": 10457,
+      "frames": 360,
+      "sourceHashes": {
+        "baseline": "30a960f10a359ac13fb04b3f758529376956227bb3dce079c8be0028476594f4",
+        "candidate": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a"
+      },
+      "layoutChangeSamples": 36,
+      "negativeControls": 50,
+      "failures": []
+    }
+  },
+  {
+    "name": "run-pilot-release-v306.cjs",
+    "exitCode": 0,
+    "stderr": "",
+    "report": {
+      "sourceSha256": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+      "normal": [
+        {
+          "suiteId": "order-display-writes",
+          "passed": 8,
+          "assertions": 229
+        },
+        {
+          "suiteId": "selection-filter-writes",
+          "passed": 7,
+          "assertions": 110
+        }
+      ],
+      "negative": 18,
+      "failed": 0,
+      "historicalHostSha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+      "report": "parameterized-pilot/results-v306.json",
+      "scope": "Two stable selected-source suites and all 18 exact behavior mutations. The original v287 positive scripts execute only against the separate exact v287 host for semantic-result comparison. Historical identity and comparison are not current-v294 behavior counts."
+    }
+  }
+]

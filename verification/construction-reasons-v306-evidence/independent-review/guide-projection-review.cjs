@@ -1,0 +1,9 @@
+const fs=require('fs'),path=require('path'),assert=require('assert/strict');
+const root=path.resolve(__dirname,'../v306-work/RED'),v=root+'/verification',{loadGame}=require(v+'/vm-environment.cjs'),results=[];
+function projection(version){const s=fs.readFileSync(v+'/beginner-guide-'+version+'.cjs','utf8'),body=s.slice(s.indexOf('function retainedDom('),s.indexOf('const world ='));return Function('check','return ('+body+')')((x,m)=>assert.ok(x,m))}
+const old=projection('v305'),now=projection('v306'),fresh=()=>loadGame(root+'/index.html').start();
+function test(name,fn){fn();results.push({name,passed:true})}
+test('unprojected retains every candidate node and field exactly',()=>{const g=fresh();assert.deepEqual(now(g,false),old(g,false))});
+for(const type of ['power','refinery','factory','turret'])for(const field of ['title','disabled','priceTime','dataset','style'])test('original '+type+' '+field+' retained',()=>{const g=fresh(),before=now(g,true),b=g.element('buildReason'+type).parentNode;if(field==='title')b.title='WRONG';if(field==='disabled')b.disabled=!b.disabled;if(field==='priceTime')b.children.find(n=>n.tagName==='SPAN'&&n.id!=='buildReason'+type).textContent='WRONG PRICE / TIME';if(field==='dataset')b.dataset.unexpected='wrong';if(field==='style')b.style.background='wrong';assert.notDeepEqual(now(g,true),before)});
+test('reason-only nodes physically removed equals old projection',()=>{const g=fresh(),before=now(g,true),nodes=['power','refinery','factory','turret'].map(t=>g.element('buildReason'+t));for(const n of nodes)n.remove();g.elements.splice(0,g.elements.length,...g.elements.filter(n=>!nodes.includes(n)));assert.deepEqual(old(g,true),before)});
+fs.writeFileSync(__dirname+'/guide-projection-results.json',JSON.stringify({passed:results.length,failed:0,results},null,2)+'\n');console.log(results.length+'/ '+results.length+' passed');

@@ -1,0 +1,30 @@
+[
+  {
+    "before": "赤色前线 / ORIGINAL RTS / v0.305",
+    "after": "赤色前线 / ORIGINAL RTS / v0.306"
+  },
+  {
+    "before": "<button data-build=\"power\">发电站 <span>300 · 5s</span></button>",
+    "after": "<button data-build=\"power\">发电站 <span>300 · 5s</span><span id=\"buildReasonpower\" aria-live=\"off\" style=\"white-space:normal\"></span></button>"
+  },
+  {
+    "before": "<button data-build=\"refinery\">矿石精炼厂 <span>650 · 9s</span></button>",
+    "after": "<button data-build=\"refinery\">矿石精炼厂 <span>650 · 9s</span><span id=\"buildReasonrefinery\" aria-live=\"off\" style=\"white-space:normal\"></span></button>"
+  },
+  {
+    "before": "<button data-build=\"factory\">战车工厂 <span>850 · 12s</span></button>",
+    "after": "<button data-build=\"factory\">战车工厂 <span>850 · 12s</span><span id=\"buildReasonfactory\" aria-live=\"off\" style=\"white-space:normal\"></span></button>"
+  },
+  {
+    "before": "<button data-build=\"turret\">防御炮塔 <span>450 · 7s</span></button>",
+    "after": "<button data-build=\"turret\">防御炮塔 <span>450 · 7s</span><span id=\"buildReasonturret\" aria-live=\"off\" style=\"white-space:normal\"></span></button>"
+  },
+  {
+    "before": "function buildingRuleReason(type,team=0){return team===0&&type==='turret'&&challengeRule()==='mobile'?'机动作战挑战禁止新建己方炮塔':''}",
+    "after": "function buildingRuleReason(type,team=0){return team===0&&type==='turret'&&challengeRule()==='mobile'?'机动作战挑战禁止新建己方炮塔':''}\nfunction constructionCardReason(type){if(!state.started)return'尚未开始作战';if(state.result)return'战局已结束';if(restartPrompt)return'请先完成或取消重新部署确认';let restriction=buildingRuleReason(type);if(restriction)return restriction;return state.cash<defs[type].cost?'资金不足，还差 '+Math.ceil(defs[type].cost-state.cash)+'资金':''}"
+  },
+  {
+    "before": "setReadonlyPanelProperty(b,'title',reason||'')});for(let id of ['attack','stop','selectArmy'])",
+    "after": "setReadonlyPanelProperty(b,'title',reason||'');setReadonlyPanelProperty($('buildReason'+b.dataset.build),'textContent',constructionCardReason(b.dataset.build))});for(let id of ['attack','stop','selectArmy'])"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "passed": 22,
+  "failed": 0,
+  "results": [
+    {
+      "name": "unprojected retains every candidate node and field exactly",
+      "passed": true
+    },
+    {
+      "name": "original power title retained",
+      "passed": true
+    },
+    {
+      "name": "original power disabled retained",
+      "passed": true
+    },
+    {
+      "name": "original power priceTime retained",
+      "passed": true
+    },
+    {
+      "name": "original power dataset retained",
+      "passed": true
+    },
+    {
+      "name": "original power style retained",
+      "passed": true
+    },
+    {
+      "name": "original refinery title retained",
+      "passed": true
+    },
+    {
+      "name": "original refinery disabled retained",
+      "passed": true
+    },
+    {
+      "name": "original refinery priceTime retained",
+      "passed": true
+    },
+    {
+      "name": "original refinery dataset retained",
+      "passed": true
+    },
+    {
+      "name": "original refinery style retained",
+      "passed": true
+    },
+    {
+      "name": "original factory title retained",
+      "passed": true
+    },
+    {
+      "name": "original factory disabled retained",
+      "passed": true
+    },
+    {
+      "name": "original factory priceTime retained",
+      "passed": true
+    },
+    {
+      "name": "original factory dataset retained",
+      "passed": true
+    },
+    {
+      "name": "original factory style retained",
+      "passed": true
+    },
+    {
+      "name": "original turret title retained",
+      "passed": true
+    },
+    {
+      "name": "original turret disabled retained",
+      "passed": true
+    },
+    {
+      "name": "original turret priceTime retained",
+      "passed": true
+    },
+    {
+      "name": "original turret dataset retained",
+      "passed": true
+    },
+    {
+      "name": "original turret style retained",
+      "passed": true
+    },
+    {
+      "name": "reason-only nodes physically removed equals old projection",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "0.306",
+  "inputs": {
+    "index.html": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+    "README.md": "001449ec20d2da8fa80809a12a47f01f3fe26188c22fbacdb93c5953b8ef2160",
+    "CURRENT_PLAYER_GUIDE.md": "75d39b83a39c55a5ea5d2189d85f11c4fd20ef986d9001f8afbf5a8704c120c5",
+    "QUICK_START.html": "7016d7e54d340b136f97bc7362d83faf399439010c26387365d5c7702e27525e"
+  },
+  "templates": {
+    "README.player.md": "832c95a6e2c15b577a219dad7e98502677326bec0471af9244e7c132368446a9",
+    "derive-guide.py": "35002979f74ba9d68da81198175c57d0bb35b9b08c791afa553b6e566ebea57f",
+    "guide-map.json": "4aa8ed105dec6c6f7359598f2a986b0c208454afc4fcb68d08a6339693b90e4f"
+  },
+  "derivedGuideSha256": "73dc26dfa965940b5aeabc0cb762f0915e8dbf989111f68d03280c2c6ba19de4"
+}
