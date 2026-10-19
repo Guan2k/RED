@@ -1,0 +1,898 @@
+{
+  "passed": 70,
+  "failed": 122,
+  "sourceSha256": "1a9f77bd7329575c42415af5bf41dc1b0c9440227a119c7c582d395c3a57753a",
+  "results": [
+    {
+      "name": "tank shortfall=350 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 350资金'\n"
+    },
+    {
+      "name": "tank shortfall=350 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 350资金'\n"
+    },
+    {
+      "name": "tank shortfall=350 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 350资金'\n"
+    },
+    {
+      "name": "tank shortfall=350 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 350资金'\n"
+    },
+    {
+      "name": "tank shortfall=350 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 350资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=350 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 350资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=350 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 350资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=350 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 350资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=1 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "tank shortfall=1 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "tank shortfall=1 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "tank shortfall=1 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "tank shortfall=1 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=1 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=1 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=1 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=0.01 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "tank shortfall=0.01 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "tank shortfall=0.01 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "tank shortfall=0.01 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "tank shortfall=0.01 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=0.01 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=0.01 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=0.01 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "tank shortfall=0 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "tank shortfall=0 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "tank shortfall=0 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "tank shortfall=0 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "tank shortfall=0 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "tank shortfall=0 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "tank shortfall=0 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "tank shortfall=0 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "scout shortfall=180 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 180资金'\n"
+    },
+    {
+      "name": "scout shortfall=180 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 180资金'\n"
+    },
+    {
+      "name": "scout shortfall=180 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 180资金'\n"
+    },
+    {
+      "name": "scout shortfall=180 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 180资金'\n"
+    },
+    {
+      "name": "scout shortfall=180 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 180资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=180 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 180资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=180 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 180资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=180 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 180资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=1 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "scout shortfall=1 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "scout shortfall=1 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "scout shortfall=1 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "scout shortfall=1 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=1 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=1 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=1 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=0.01 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "scout shortfall=0.01 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "scout shortfall=0.01 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "scout shortfall=0.01 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "scout shortfall=0.01 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=0.01 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=0.01 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=0.01 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '侦察战车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "scout shortfall=0 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "scout shortfall=0 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "scout shortfall=0 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "scout shortfall=0 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "scout shortfall=0 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "scout shortfall=0 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "scout shortfall=0 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "scout shortfall=0 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "artillery shortfall=550 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 550资金'\n"
+    },
+    {
+      "name": "artillery shortfall=550 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 550资金'\n"
+    },
+    {
+      "name": "artillery shortfall=550 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 550资金'\n"
+    },
+    {
+      "name": "artillery shortfall=550 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 550资金'\n"
+    },
+    {
+      "name": "artillery shortfall=550 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 550资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=550 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 550资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=550 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 550资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=550 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 550资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=1 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "artillery shortfall=1 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "artillery shortfall=1 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "artillery shortfall=1 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "artillery shortfall=1 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=1 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=1 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=1 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=0.01 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "artillery shortfall=0.01 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "artillery shortfall=0.01 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "artillery shortfall=0.01 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "artillery shortfall=0.01 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=0.01 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=0.01 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=0.01 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '自行火炮新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "artillery shortfall=0 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "artillery shortfall=0 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "artillery shortfall=0 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "artillery shortfall=0 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "artillery shortfall=0 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "artillery shortfall=0 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "artillery shortfall=0 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "artillery shortfall=0 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "repair shortfall=500 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 500资金'\n"
+    },
+    {
+      "name": "repair shortfall=500 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 500资金'\n"
+    },
+    {
+      "name": "repair shortfall=500 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 500资金'\n"
+    },
+    {
+      "name": "repair shortfall=500 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 500资金'\n"
+    },
+    {
+      "name": "repair shortfall=500 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 500资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=500 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 500资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=500 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 500资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=500 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 500资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=1 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "repair shortfall=1 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "repair shortfall=1 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "repair shortfall=1 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "repair shortfall=1 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=1 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=1 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=1 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=0.01 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "repair shortfall=0.01 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "repair shortfall=0.01 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "repair shortfall=0.01 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "repair shortfall=0.01 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=0.01 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=0.01 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=0.01 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '战地维修车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "repair shortfall=0 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "repair shortfall=0 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "repair shortfall=0 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "repair shortfall=0 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "repair shortfall=0 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "repair shortfall=0 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "repair shortfall=0 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "repair shortfall=0 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "harvester shortfall=400 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 400资金'\n"
+    },
+    {
+      "name": "harvester shortfall=400 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 400资金'\n"
+    },
+    {
+      "name": "harvester shortfall=400 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 400资金'\n"
+    },
+    {
+      "name": "harvester shortfall=400 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 400资金'\n"
+    },
+    {
+      "name": "harvester shortfall=400 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 400资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=400 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 400资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=400 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 400资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=400 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 400资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=1 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "harvester shortfall=1 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "harvester shortfall=1 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "harvester shortfall=1 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "harvester shortfall=1 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=1 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=1 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=1 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=0.01 queued=false paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "harvester shortfall=0.01 queued=false paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "harvester shortfall=0.01 queued=false paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "harvester shortfall=0.01 queued=false paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金'\n"
+    },
+    {
+      "name": "harvester shortfall=0.01 queued=true paused=false parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=0.01 queued=true paused=false parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=0.01 queued=true paused=true parallel=false",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=0.01 queued=true paused=true parallel=true",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '采矿车新订单资金不足，还差 1资金；已付订单保留'\n"
+    },
+    {
+      "name": "harvester shortfall=0 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "harvester shortfall=0 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "harvester shortfall=0 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "harvester shortfall=0 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "harvester shortfall=0 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "harvester shortfall=0 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "harvester shortfall=0 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "harvester shortfall=0 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "tank prior guard full",
+      "passed": true
+    },
+    {
+      "name": "tank prior guard factory",
+      "passed": true
+    },
+    {
+      "name": "tank prior guard prestart",
+      "passed": true
+    },
+    {
+      "name": "tank prior guard terminal",
+      "passed": true
+    },
+    {
+      "name": "tank prior guard restart",
+      "passed": true
+    },
+    {
+      "name": "scout prior guard full",
+      "passed": true
+    },
+    {
+      "name": "scout prior guard factory",
+      "passed": true
+    },
+    {
+      "name": "scout prior guard prestart",
+      "passed": true
+    },
+    {
+      "name": "scout prior guard terminal",
+      "passed": true
+    },
+    {
+      "name": "scout prior guard restart",
+      "passed": true
+    },
+    {
+      "name": "artillery prior guard full",
+      "passed": true
+    },
+    {
+      "name": "artillery prior guard factory",
+      "passed": true
+    },
+    {
+      "name": "artillery prior guard prestart",
+      "passed": true
+    },
+    {
+      "name": "artillery prior guard terminal",
+      "passed": true
+    },
+    {
+      "name": "artillery prior guard restart",
+      "passed": true
+    },
+    {
+      "name": "repair prior guard full",
+      "passed": true
+    },
+    {
+      "name": "repair prior guard factory",
+      "passed": true
+    },
+    {
+      "name": "repair prior guard prestart",
+      "passed": true
+    },
+    {
+      "name": "repair prior guard terminal",
+      "passed": true
+    },
+    {
+      "name": "repair prior guard restart",
+      "passed": true
+    },
+    {
+      "name": "harvester prior guard full",
+      "passed": true
+    },
+    {
+      "name": "harvester prior guard factory",
+      "passed": true
+    },
+    {
+      "name": "harvester prior guard prestart",
+      "passed": true
+    },
+    {
+      "name": "harvester prior guard terminal",
+      "passed": true
+    },
+    {
+      "name": "harvester prior guard restart",
+      "passed": true
+    },
+    {
+      "name": "tank modifier/focus blocked keys remain silent",
+      "passed": true
+    },
+    {
+      "name": "scout modifier/focus blocked keys remain silent",
+      "passed": true
+    },
+    {
+      "name": "artillery modifier/focus blocked keys remain silent",
+      "passed": true
+    },
+    {
+      "name": "repair modifier/focus blocked keys remain silent",
+      "passed": true
+    },
+    {
+      "name": "harvester modifier/focus blocked keys remain silent",
+      "passed": true
+    },
+    {
+      "name": "natural four paid tanks running",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 50资金；已付订单保留'\n"
+    },
+    {
+      "name": "natural four paid tanks paused",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '资金不足'\n- '主战坦克新订单资金不足，还差 50资金；已付订单保留'\n"
+    }
+  ],
+  "scope": "Current whole-source VM registered hotkeys, purchases, pause/mode controls; explicit fractional-cash and lifecycle fixtures. Receipt and exact world/order identity assertions. No native keyboard timing/browser or real storage claim."
+}

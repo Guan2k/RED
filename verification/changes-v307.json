@@ -1,0 +1,10 @@
+[
+  {
+    "before": "赤色前线 / ORIGINAL RTS / v0.306",
+    "after": "赤色前线 / ORIGINAL RTS / v0.307"
+  },
+  {
+    "before": "if(state.cash<d.cost)return tell('资金不足');",
+    "after": "if(state.cash<d.cost)return tell(d.name+'新订单资金不足，还差 '+Math.ceil(d.cost-state.cash)+'资金'+(state.queue.length?'；已付订单保留':''));"
+  }
+]

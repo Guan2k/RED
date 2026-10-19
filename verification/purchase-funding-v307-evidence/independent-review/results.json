@@ -1,0 +1,760 @@
+{
+  "sourceSha256": "6a7b87b2f75ff3af7ee57a74a4caeb5c029e2587a90ce0c3910067efaef3e183",
+  "passed": 188,
+  "failed": 0,
+  "results": [
+    {
+      "name": "natural four tanks then failed fifth false/false",
+      "passed": true
+    },
+    {
+      "name": "natural four tanks then failed fifth false/true",
+      "passed": true
+    },
+    {
+      "name": "natural four tanks then failed fifth true/false",
+      "passed": true
+    },
+    {
+      "name": "natural four tanks then failed fifth true/true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.01 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.01 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.01 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.01 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.01 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.01 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.01 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.01 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.9 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.9 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.9 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.9 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.9 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.9 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.9 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 0.9 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 1 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 1 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 1 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 1 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 1 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 1 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 1 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 1 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 50 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 50 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 50 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 50 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 50 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 50 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 50 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall tank 50 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.01 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.01 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.01 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.01 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.01 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.01 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.01 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.01 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.9 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.9 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.9 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.9 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.9 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.9 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.9 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 0.9 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 1 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 1 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 1 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 1 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 1 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 1 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 1 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 1 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 50 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 50 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 50 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 50 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 50 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 50 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 50 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall scout 50 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.01 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.01 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.01 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.01 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.01 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.01 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.01 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.01 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.9 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.9 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.9 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.9 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.9 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.9 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.9 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 0.9 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 1 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 1 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 1 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 1 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 1 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 1 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 1 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 1 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 50 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 50 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 50 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 50 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 50 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 50 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 50 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall artillery 50 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.01 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.01 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.01 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.01 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.01 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.01 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.01 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.01 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.9 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.9 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.9 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.9 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.9 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.9 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.9 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 0.9 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 1 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 1 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 1 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 1 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 1 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 1 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 1 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 1 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 50 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 50 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 50 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 50 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 50 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 50 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 50 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall repair 50 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.01 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.01 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.01 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.01 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.01 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.01 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.01 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.01 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.9 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.9 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.9 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.9 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.9 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.9 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.9 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 0.9 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 1 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 1 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 1 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 1 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 1 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 1 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 1 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 1 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 50 queued=false paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 50 queued=false paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 50 queued=false paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 50 queued=false paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 50 queued=true paused=false parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 50 queued=true paused=false parallel=true",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 50 queued=true paused=true parallel=false",
+      "passed": true
+    },
+    {
+      "name": "shortfall harvester 50 queued=true paused=true parallel=true",
+      "passed": true
+    },
+    {
+      "name": "sufficient cash parity tank/350",
+      "passed": true
+    },
+    {
+      "name": "sufficient cash parity tank/351",
+      "passed": true
+    },
+    {
+      "name": "sufficient cash parity scout/180",
+      "passed": true
+    },
+    {
+      "name": "sufficient cash parity scout/181",
+      "passed": true
+    },
+    {
+      "name": "sufficient cash parity artillery/550",
+      "passed": true
+    },
+    {
+      "name": "sufficient cash parity artillery/551",
+      "passed": true
+    },
+    {
+      "name": "sufficient cash parity repair/500",
+      "passed": true
+    },
+    {
+      "name": "sufficient cash parity repair/501",
+      "passed": true
+    },
+    {
+      "name": "sufficient cash parity harvester/400",
+      "passed": true
+    },
+    {
+      "name": "sufficient cash parity harvester/401",
+      "passed": true
+    },
+    {
+      "name": "higher-priority guard full",
+      "passed": true
+    },
+    {
+      "name": "higher-priority guard no factory",
+      "passed": true
+    },
+    {
+      "name": "higher-priority guard unfinished factory",
+      "passed": true
+    },
+    {
+      "name": "higher-priority guard prestart",
+      "passed": true
+    },
+    {
+      "name": "higher-priority guard restart",
+      "passed": true
+    },
+    {
+      "name": "higher-priority guard terminal",
+      "passed": true
+    },
+    {
+      "name": "keyboard guard unchanged {\"repeat\":true}",
+      "passed": true
+    },
+    {
+      "name": "keyboard guard unchanged {\"ctrlKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "keyboard guard unchanged {\"metaKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "keyboard guard unchanged {\"altKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "keyboard guard unchanged {\"shiftKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "keyboard guard unchanged {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "keyboard guard unchanged {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "unit name receipt uses literal text only",
+      "passed": true
+    }
+  ],
+  "scope": "Independent registered-control VM tests with natural four-order scenarios plus explicit cash/lifecycle/factory/name fixtures. No native keyboard, browser or save claim."
+}

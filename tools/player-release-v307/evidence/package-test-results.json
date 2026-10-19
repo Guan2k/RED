@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "archiveSha256": "91d509b45ba64e42e6288f6c459ebd5bf703795ec3055c431cb60b37cd7189e0",
+  "archiveBytes": 552236,
+  "reproducibility": "two distinct temporary source/output paths, byte-identical ZIP_STORED",
+  "exactExtractedFiles": 5,
+  "protectedSourceFiles": 2996,
+  "negativeCases": [
+    {
+      "name": "existing output",
+      "rejectedBy": "existing output refused"
+    },
+    {
+      "name": "output in source",
+      "rejectedBy": "output must be outside"
+    },
+    {
+      "name": "wrong game bytes",
+      "rejectedBy": "input hash mismatch: index.html"
+    },
+    {
+      "name": "missing source guide paragraphs",
+      "rejectedBy": "input hash mismatch: CURRENT_PLAYER_GUIDE.md"
+    },
+    {
+      "name": "symlink input",
+      "rejectedBy": "symlink path refused"
+    },
+    {
+      "name": "symlink output parent",
+      "rejectedBy": "symlink path refused"
+    },
+    {
+      "name": "symlink before parent traversal",
+      "rejectedBy": "symlink path refused"
+    },
+    {
+      "name": "outside markdown link",
+      "rejectedBy": "outside package link"
+    },
+    {
+      "name": "missing save warning",
+      "rejectedBy": "required player safety reminder: 需要手动保存"
+    },
+    {
+      "name": "extra payload file",
+      "rejectedBy": "exact five-file whitelist"
+    },
+    {
+      "name": "source external asset",
+      "rejectedBy": "external asset tag"
+    },
+    {
+      "name": "broken guide anchor",
+      "rejectedBy": "missing anchor"
+    },
+    {
+      "name": "wrong checksum manifest",
+      "rejectedBy": "payload checksum manifest mismatch"
+    },
+    {
+      "name": "quick start script",
+      "rejectedBy": "quick start forbidden element"
+    },
+    {
+      "name": "quick start external URL",
+      "rejectedBy": "quick start external resource"
+    },
+    {
+      "name": "quick start traversal",
+      "rejectedBy": "quick start outside link"
+    },
+    {
+      "name": "quick start event handler",
+      "rejectedBy": "quick start active/resource attribute"
+    },
+    {
+      "name": "quick start remote css",
+      "rejectedBy": "quick start external resource"
+    },
+    {
+      "name": "quick start redirect",
+      "rejectedBy": "quick start meta redirect"
+    },
+    {
+      "name": "changed quick start input",
+      "rejectedBy": "input hash mismatch: QUICK_START.html"
+    },
+    {
+      "name": "path traversal",
+      "rejectedBy": "archive whitelist/order/duplicates"
+    },
+    {
+      "name": "absolute path",
+      "rejectedBy": "archive whitelist/order/duplicates"
+    },
+    {
+      "name": "duplicate entry",
+      "rejectedBy": "archive whitelist/order/duplicates"
+    },
+    {
+      "name": "symlink entry",
+      "rejectedBy": "archive file permissions"
+    },
+    {
+      "name": "changed player template",
+      "rejectedBy": "input hash mismatch: README.player.md"
+    },
+    {
+      "name": "validation prevents publication",
+      "rejectedBy": "injected archive validation failure"
+    },
+    {
+      "name": "destination race",
+      "rejectedBy": "FileExistsError; concurrent bytes preserved"
+    }
+  ],
+  "gameOrBrowserOrStorageRun": false
+}
