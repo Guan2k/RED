@@ -8,7 +8,7 @@ function run(args,{spawn=require('node:child_process').spawnSync,log=console.log
     ['current documentation contract',['tools/document-contract/check.cjs',__dirname]],
     ['documentation contract tests',['tools/document-contract/test.cjs']],
     ['editable source consistency',['tools/source-build.mjs','--check']],
-    ['source builder tests',['--test','tools/source-build-vehicle-art.test.mjs']],
+    ['source builder tests',['--test','tools/source-build-ore-density-v302.test.mjs']],
     ['trusted building data validation',['--test','tools/building-art-data.test.mjs']],
     ['trusted vehicle data validation',['--test','tools/vehicle-art-data.test.mjs']]
   ];

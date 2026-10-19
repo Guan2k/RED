@@ -1,0 +1,1654 @@
+{
+  "metricModel": {
+    "profile": "widePositiveExtents",
+    "synthetic": true,
+    "samples": [
+      {
+        "text": "矿 1k",
+        "raw": {
+          "width": 42,
+          "actualBoundingBoxLeft": 7,
+          "actualBoundingBoxRight": 53,
+          "actualBoundingBoxAscent": 19,
+          "actualBoundingBoxDescent": 8
+        },
+        "used": {
+          "left": 7,
+          "right": 53,
+          "up": 19,
+          "down": 8
+        }
+      },
+      {
+        "text": "矿 1",
+        "raw": {
+          "width": 34,
+          "actualBoundingBoxLeft": 7,
+          "actualBoundingBoxRight": 45,
+          "actualBoundingBoxAscent": 19,
+          "actualBoundingBoxDescent": 8
+        },
+        "used": {
+          "left": 7,
+          "right": 45,
+          "up": 19,
+          "down": 8
+        }
+      },
+      {
+        "text": "矿 180",
+        "raw": {
+          "width": 58,
+          "actualBoundingBoxLeft": 7,
+          "actualBoundingBoxRight": 69,
+          "actualBoundingBoxAscent": 19,
+          "actualBoundingBoxDescent": 8
+        },
+        "used": {
+          "left": 7,
+          "right": 69,
+          "up": 19,
+          "down": 8
+        }
+      },
+      {
+        "text": "矿 999",
+        "raw": {
+          "width": 66,
+          "actualBoundingBoxLeft": 7,
+          "actualBoundingBoxRight": 77,
+          "actualBoundingBoxAscent": 19,
+          "actualBoundingBoxDescent": 8
+        },
+        "used": {
+          "left": 7,
+          "right": 77,
+          "up": 19,
+          "down": 8
+        }
+      },
+      {
+        "text": "矿 1000",
+        "raw": {
+          "width": 70,
+          "actualBoundingBoxLeft": 7,
+          "actualBoundingBoxRight": 81,
+          "actualBoundingBoxAscent": 19,
+          "actualBoundingBoxDescent": 8
+        },
+        "used": {
+          "left": 7,
+          "right": 81,
+          "up": 19,
+          "down": 8
+        }
+      },
+      {
+        "text": "中立据点",
+        "raw": {
+          "width": 88,
+          "actualBoundingBoxLeft": 7,
+          "actualBoundingBoxRight": 99,
+          "actualBoundingBoxAscent": 19,
+          "actualBoundingBoxDescent": 8
+        },
+        "used": {
+          "left": 7,
+          "right": 99,
+          "up": 19,
+          "down": 8
+        }
+      },
+      {
+        "text": "据点控制65",
+        "raw": {
+          "width": 112,
+          "actualBoundingBoxLeft": 7,
+          "actualBoundingBoxRight": 123,
+          "actualBoundingBoxAscent": 19,
+          "actualBoundingBoxDescent": 8
+        },
+        "used": {
+          "left": 7,
+          "right": 123,
+          "up": 19,
+          "down": 8
+        }
+      }
+    ]
+  },
+  "indexMeaning": [
+    "0 下方",
+    "1 上方",
+    "2 右侧",
+    "3 左侧",
+    "4 更下方"
+  ],
+  "samples": [
+    {
+      "tag": "edge widePositiveExtents/0/0/999.5",
+      "explicitCaveat": "合成字体度量/合成数量或边缘摆位；非原生字体、截图、真实战局矿量或浏览器布局审批。",
+      "state": {
+        "ores": [
+          {
+            "x": 0,
+            "y": 0,
+            "amount": 999.5
+          }
+        ],
+        "posts": [],
+        "mapChoice": "classic",
+        "objective": "annihilation"
+      },
+      "baseline": [
+        {
+          "ore": {
+            "x": 0,
+            "y": 0,
+            "amount": 999.5
+          },
+          "label": "矿 1k",
+          "x": 11,
+          "y": 48
+        }
+      ],
+      "candidate": [
+        {
+          "ore": {
+            "x": 0,
+            "y": 0,
+            "amount": 999.5
+          },
+          "label": "矿 1000",
+          "x": 11,
+          "y": 48
+        }
+      ],
+      "metrics": [
+        {
+          "text": "矿 1000",
+          "left": 7,
+          "right": 81,
+          "up": 19,
+          "down": 8
+        }
+      ],
+      "candidateIndex": [
+        0
+      ],
+      "baselineCandidateIndex": null,
+      "fallback": [
+        false
+      ],
+      "reasons": [
+        [
+          {
+            "index": 0,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 1,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 2,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": true,
+            "reasons": []
+          }
+        ]
+      ]
+    },
+    {
+      "tag": "edge widePositiveExtents/1200/800/999.5",
+      "explicitCaveat": "合成字体度量/合成数量或边缘摆位；非原生字体、截图、真实战局矿量或浏览器布局审批。",
+      "state": {
+        "ores": [
+          {
+            "x": 1200,
+            "y": 800,
+            "amount": 999.5
+          }
+        ],
+        "posts": [],
+        "mapChoice": "classic",
+        "objective": "annihilation"
+      },
+      "baseline": [
+        {
+          "ore": {
+            "x": 1200,
+            "y": 800,
+            "amount": 999.5
+          },
+          "label": "矿 1k",
+          "x": 1143,
+          "y": 788
+        }
+      ],
+      "candidate": [
+        {
+          "ore": {
+            "x": 1200,
+            "y": 800,
+            "amount": 999.5
+          },
+          "label": "矿 1000",
+          "x": 1115,
+          "y": 788
+        }
+      ],
+      "metrics": [
+        {
+          "text": "矿 1000",
+          "left": 7,
+          "right": 81,
+          "up": 19,
+          "down": 8
+        }
+      ],
+      "candidateIndex": [
+        0
+      ],
+      "baselineCandidateIndex": [
+        0
+      ],
+      "fallback": [
+        false
+      ],
+      "reasons": [
+        [
+          {
+            "index": 0,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 1,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 2,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": true,
+            "reasons": []
+          }
+        ]
+      ]
+    },
+    {
+      "tag": "classic mixed widePositiveExtents",
+      "explicitCaveat": "合成字体度量/合成数量或边缘摆位；非原生字体、截图、真实战局矿量或浏览器布局审批。",
+      "state": {
+        "entities": [
+          {
+            "id": 1,
+            "type": "hq",
+            "team": 0,
+            "x": 140,
+            "y": 620,
+            "hp": 1800,
+            "max": 1800,
+            "r": 40,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 2,
+            "type": "power",
+            "team": 0,
+            "x": 100,
+            "y": 735,
+            "hp": 550,
+            "max": 550,
+            "r": 26,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 3,
+            "type": "refinery",
+            "team": 0,
+            "x": 290,
+            "y": 640,
+            "hp": 850,
+            "max": 850,
+            "r": 33,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 4,
+            "type": "factory",
+            "team": 0,
+            "x": 220,
+            "y": 750,
+            "hp": 1000,
+            "max": 1000,
+            "r": 36,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 5,
+            "type": "harvester",
+            "team": 0,
+            "x": 392.4763907653713,
+            "y": 650.4429521632693,
+            "hp": 310,
+            "max": 310,
+            "r": 16,
+            "angle": -0.3626383290247354,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 165,
+            "mine": 0.016666666666666666
+          },
+          {
+            "id": 6,
+            "type": "tank",
+            "team": 0,
+            "x": 320,
+            "y": 540,
+            "hp": 230,
+            "max": 230,
+            "r": 13,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 7,
+            "type": "tank",
+            "team": 0,
+            "x": 360,
+            "y": 580,
+            "hp": 230,
+            "max": 230,
+            "r": 13,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 8,
+            "type": "scout",
+            "team": 0,
+            "x": 265,
+            "y": 505,
+            "hp": 105,
+            "max": 105,
+            "r": 10,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 9,
+            "type": "hq",
+            "team": 1,
+            "x": 1050,
+            "y": 125,
+            "hp": 1800,
+            "max": 1800,
+            "r": 40,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 10,
+            "type": "factory",
+            "team": 1,
+            "x": 1100,
+            "y": 250,
+            "hp": 1000,
+            "max": 1000,
+            "r": 36,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 11,
+            "type": "power",
+            "team": 1,
+            "x": 930,
+            "y": 90,
+            "hp": 550,
+            "max": 550,
+            "r": 26,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 12,
+            "type": "power",
+            "team": 1,
+            "x": 1160,
+            "y": 80,
+            "hp": 550,
+            "max": 550,
+            "r": 26,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 13,
+            "type": "refinery",
+            "team": 1,
+            "x": 1040,
+            "y": 440,
+            "hp": 850,
+            "max": 850,
+            "r": 33,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 14,
+            "type": "harvester",
+            "team": 1,
+            "x": 789.1444267886372,
+            "y": 529.862474937179,
+            "hp": 310,
+            "max": 310,
+            "r": 16,
+            "angle": 2.9381657411656277,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 15,
+            "type": "turret",
+            "team": 1,
+            "x": 935,
+            "y": 230,
+            "hp": 650,
+            "max": 650,
+            "r": 22,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 16,
+            "type": "turret",
+            "team": 1,
+            "x": 1080,
+            "y": 345,
+            "hp": 650,
+            "max": 650,
+            "r": 22,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 17,
+            "type": "tank",
+            "team": 1,
+            "x": 930,
+            "y": 300,
+            "hp": 230,
+            "max": 230,
+            "r": 13,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          },
+          {
+            "id": 18,
+            "type": "tank",
+            "team": 1,
+            "x": 990,
+            "y": 310,
+            "hp": 230,
+            "max": 230,
+            "r": 13,
+            "angle": 0,
+            "cool": 0,
+            "target": null,
+            "goal": null,
+            "attackMove": false,
+            "build": 0,
+            "load": 0,
+            "mine": 0
+          }
+        ],
+        "shots": [],
+        "fx": [],
+        "ores": [
+          {
+            "x": 420,
+            "y": 640,
+            "amount": 1
+          },
+          {
+            "x": 190,
+            "y": 380,
+            "amount": 180
+          },
+          {
+            "x": 540,
+            "y": 360,
+            "amount": 999
+          },
+          {
+            "x": 740,
+            "y": 540,
+            "amount": 999.5
+          },
+          {
+            "x": 840,
+            "y": 130,
+            "amount": 1000
+          }
+        ],
+        "posts": [
+          {
+            "x": 450,
+            "y": 260,
+            "owner": -1,
+            "side": -1,
+            "progress": 0,
+            "pay": 0,
+            "contested": false,
+            "controlBlocked": false
+          },
+          {
+            "x": 600,
+            "y": 400,
+            "owner": -1,
+            "side": -1,
+            "progress": 0,
+            "pay": 0,
+            "contested": false,
+            "controlBlocked": false
+          },
+          {
+            "x": 750,
+            "y": 560,
+            "owner": -1,
+            "side": -1,
+            "progress": 0,
+            "pay": 0,
+            "contested": false,
+            "controlBlocked": false
+          }
+        ],
+        "cash": 1700,
+        "enemyCash": 1350,
+        "stats": {
+          "income": [
+            0,
+            0
+          ],
+          "spent": [
+            0,
+            350
+          ],
+          "kills": [
+            0,
+            0
+          ],
+          "losses": [
+            0,
+            0
+          ],
+          "produced": [
+            0,
+            0
+          ],
+          "captures": [
+            0,
+            0
+          ],
+          "harvested": [
+            0,
+            0
+          ]
+        },
+        "enemyQueue": {
+          "type": "tank",
+          "left": 3.0000000000000107
+        },
+        "enemyRebuildWait": 0,
+        "enemyRebuildSiteWaits": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "aiCount": 1,
+        "t": 4.999999999999988,
+        "formationSpacing": 36,
+        "gameSpeed": 1,
+        "paused": false,
+        "started": true,
+        "result": null,
+        "queue": [],
+        "logs": [
+          "左键选中部队，右键下达命令"
+        ],
+        "ai": 0.966666666666668,
+        "wave": 4.999999999999988,
+        "difficulty": "normal",
+        "challenge": "standard",
+        "mapChoice": "classic",
+        "objective": "annihilation",
+        "controlProgress": [
+          0,
+          0
+        ]
+      },
+      "baseline": [
+        {
+          "ore": {
+            "x": 420,
+            "y": 640,
+            "amount": 1
+          },
+          "label": "矿 1k",
+          "x": 395,
+          "y": 688
+        },
+        {
+          "ore": {
+            "x": 190,
+            "y": 380,
+            "amount": 180
+          },
+          "label": "矿 1k",
+          "x": 165,
+          "y": 428
+        },
+        {
+          "ore": {
+            "x": 540,
+            "y": 360,
+            "amount": 999
+          },
+          "label": "矿 1k",
+          "x": 397,
+          "y": 364
+        },
+        {
+          "ore": {
+            "x": 740,
+            "y": 540,
+            "amount": 999.5
+          },
+          "label": "矿 1k",
+          "x": 830,
+          "y": 544
+        },
+        {
+          "ore": {
+            "x": 840,
+            "y": 130,
+            "amount": 1000
+          },
+          "label": "矿 1k",
+          "x": 815,
+          "y": 178
+        }
+      ],
+      "candidate": [
+        {
+          "ore": {
+            "x": 420,
+            "y": 640,
+            "amount": 1
+          },
+          "label": "矿 1",
+          "x": 395,
+          "y": 688
+        },
+        {
+          "ore": {
+            "x": 190,
+            "y": 380,
+            "amount": 180
+          },
+          "label": "矿 180",
+          "x": 165,
+          "y": 428
+        },
+        {
+          "ore": {
+            "x": 540,
+            "y": 360,
+            "amount": 999
+          },
+          "label": "矿 999",
+          "x": 373,
+          "y": 364
+        },
+        {
+          "ore": {
+            "x": 740,
+            "y": 540,
+            "amount": 999.5
+          },
+          "label": "矿 1000",
+          "x": 830,
+          "y": 544
+        },
+        {
+          "ore": {
+            "x": 840,
+            "y": 130,
+            "amount": 1000
+          },
+          "label": "矿 1k",
+          "x": 815,
+          "y": 178
+        }
+      ],
+      "metrics": [
+        {
+          "text": "矿 1",
+          "left": 7,
+          "right": 45,
+          "up": 19,
+          "down": 8
+        },
+        {
+          "text": "矿 180",
+          "left": 7,
+          "right": 69,
+          "up": 19,
+          "down": 8
+        },
+        {
+          "text": "矿 999",
+          "left": 7,
+          "right": 77,
+          "up": 19,
+          "down": 8
+        },
+        {
+          "text": "矿 1000",
+          "left": 7,
+          "right": 81,
+          "up": 19,
+          "down": 8
+        },
+        {
+          "text": "矿 1k",
+          "left": 7,
+          "right": 53,
+          "up": 19,
+          "down": 8
+        }
+      ],
+      "candidateIndex": [
+        0,
+        0,
+        3,
+        2,
+        0
+      ],
+      "baselineCandidateIndex": [
+        0,
+        0,
+        3,
+        2,
+        0
+      ],
+      "fallback": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "reasons": [
+        [
+          {
+            "index": 0,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 1,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 2,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": true,
+            "reasons": []
+          }
+        ],
+        [
+          {
+            "index": 0,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 1,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 2,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": true,
+            "reasons": []
+          }
+        ],
+        [
+          {
+            "index": 0,
+            "safe": false,
+            "reasons": [
+              "circle:1"
+            ]
+          },
+          {
+            "index": 1,
+            "safe": false,
+            "reasons": [
+              "circle:0",
+              "post:0"
+            ]
+          },
+          {
+            "index": 2,
+            "safe": false,
+            "reasons": [
+              "circle:1"
+            ]
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": false,
+            "reasons": [
+              "circle:1",
+              "post:1"
+            ]
+          }
+        ],
+        [
+          {
+            "index": 0,
+            "safe": false,
+            "reasons": [
+              "circle:2",
+              "post:2"
+            ]
+          },
+          {
+            "index": 1,
+            "safe": false,
+            "reasons": [
+              "range:2"
+            ]
+          },
+          {
+            "index": 2,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": false,
+            "reasons": [
+              "circle:2"
+            ]
+          }
+        ],
+        [
+          {
+            "index": 0,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 1,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 2,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": true,
+            "reasons": []
+          }
+        ]
+      ]
+    },
+    {
+      "tag": "rectangle post/left/0.000001",
+      "explicitCaveat": "合成字体度量/合成数量或边缘摆位；非原生字体、截图、真实战局矿量或浏览器布局审批。",
+      "state": {
+        "ores": [
+          {
+            "x": 503.000001,
+            "y": 398,
+            "amount": 999.5
+          }
+        ],
+        "posts": [
+          {
+            "owner": 0,
+            "progress": 0,
+            "side": -1,
+            "x": 600,
+            "y": 400
+          }
+        ],
+        "mapChoice": "classic",
+        "objective": "control"
+      },
+      "baseline": [
+        {
+          "ore": {
+            "x": 503.000001,
+            "y": 398,
+            "amount": 999.5
+          },
+          "label": "矿 1k",
+          "x": 478.000001,
+          "y": 446
+        }
+      ],
+      "candidate": [
+        {
+          "ore": {
+            "x": 503.000001,
+            "y": 398,
+            "amount": 999.5
+          },
+          "label": "矿 1000",
+          "x": 332.000001,
+          "y": 402
+        }
+      ],
+      "metrics": [
+        {
+          "text": "矿 1000",
+          "left": 7,
+          "right": 81,
+          "up": 19,
+          "down": 8
+        }
+      ],
+      "candidateIndex": [
+        3
+      ],
+      "baselineCandidateIndex": [
+        0
+      ],
+      "fallback": [
+        false
+      ],
+      "reasons": [
+        [
+          {
+            "index": 0,
+            "safe": false,
+            "reasons": [
+              "post:0"
+            ]
+          },
+          {
+            "index": 1,
+            "safe": false,
+            "reasons": [
+              "range:0"
+            ]
+          },
+          {
+            "index": 2,
+            "safe": false,
+            "reasons": [
+              "circle:0"
+            ]
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": true,
+            "reasons": []
+          }
+        ]
+      ]
+    },
+    {
+      "tag": "rectangle range/left/0.000001",
+      "explicitCaveat": "合成字体度量/合成数量或边缘摆位；非原生字体、截图、真实战局矿量或浏览器布局审批。",
+      "state": {
+        "ores": [
+          {
+            "x": 499.000001,
+            "y": 403,
+            "amount": 999.5
+          }
+        ],
+        "posts": [
+          {
+            "owner": 0,
+            "progress": 0,
+            "side": -1,
+            "x": 600,
+            "y": 400
+          },
+          {
+            "owner": -1,
+            "progress": 0,
+            "side": -1,
+            "x": 511.000001,
+            "y": 451
+          }
+        ],
+        "mapChoice": "classic",
+        "objective": "control"
+      },
+      "baseline": [
+        {
+          "ore": {
+            "x": 499.000001,
+            "y": 403,
+            "amount": 999.5
+          },
+          "label": "矿 1k",
+          "x": 474.000001,
+          "y": 329
+        }
+      ],
+      "candidate": [
+        {
+          "ore": {
+            "x": 499.000001,
+            "y": 403,
+            "amount": 999.5
+          },
+          "label": "矿 1000",
+          "x": 328.000001,
+          "y": 407
+        }
+      ],
+      "metrics": [
+        {
+          "text": "矿 1000",
+          "left": 7,
+          "right": 81,
+          "up": 19,
+          "down": 8
+        }
+      ],
+      "candidateIndex": [
+        3
+      ],
+      "baselineCandidateIndex": [
+        1
+      ],
+      "fallback": [
+        false
+      ],
+      "reasons": [
+        [
+          {
+            "index": 0,
+            "safe": false,
+            "reasons": [
+              "circle:1"
+            ]
+          },
+          {
+            "index": 1,
+            "safe": false,
+            "reasons": [
+              "range:0"
+            ]
+          },
+          {
+            "index": 2,
+            "safe": false,
+            "reasons": [
+              "circle:0",
+              "range:1"
+            ]
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": false,
+            "reasons": [
+              "circle:1",
+              "post:1"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "tag": "rectangle markerTop/left/0.000001",
+      "explicitCaveat": "合成字体度量/合成数量或边缘摆位；非原生字体、截图、真实战局矿量或浏览器布局审批。",
+      "state": {
+        "ores": [
+          {
+            "x": 510.000001,
+            "y": 275.5,
+            "amount": 999.5
+          }
+        ],
+        "posts": [
+          {
+            "owner": 0,
+            "progress": 0,
+            "side": -1,
+            "x": 600,
+            "y": 400
+          }
+        ],
+        "mapChoice": "meridian",
+        "objective": "stronghold"
+      },
+      "baseline": [
+        {
+          "ore": {
+            "x": 510.000001,
+            "y": 275.5,
+            "amount": 999.5
+          },
+          "label": "矿 1k",
+          "x": 485.000001,
+          "y": 323.5
+        }
+      ],
+      "candidate": [
+        {
+          "ore": {
+            "x": 510.000001,
+            "y": 275.5,
+            "amount": 999.5
+          },
+          "label": "矿 1000",
+          "x": 485.000001,
+          "y": 201.5
+        }
+      ],
+      "metrics": [
+        {
+          "text": "矿 1000",
+          "left": 7,
+          "right": 81,
+          "up": 19,
+          "down": 8
+        }
+      ],
+      "candidateIndex": [
+        1
+      ],
+      "baselineCandidateIndex": [
+        0
+      ],
+      "fallback": [
+        false
+      ],
+      "reasons": [
+        [
+          {
+            "index": 0,
+            "safe": false,
+            "reasons": [
+              "markerTop:0"
+            ]
+          },
+          {
+            "index": 1,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 2,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": false,
+            "reasons": [
+              "circle:0"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "tag": "rectangle markerBottom/left/0.000001",
+      "explicitCaveat": "合成字体度量/合成数量或边缘摆位；非原生字体、截图、真实战局矿量或浏览器布局审批。",
+      "state": {
+        "ores": [
+          {
+            "x": 476.000001,
+            "y": 435.5,
+            "amount": 999.5
+          }
+        ],
+        "posts": [
+          {
+            "owner": 0,
+            "progress": 0,
+            "side": -1,
+            "x": 600,
+            "y": 400
+          }
+        ],
+        "mapChoice": "meridian",
+        "objective": "stronghold"
+      },
+      "baseline": [
+        {
+          "ore": {
+            "x": 476.000001,
+            "y": 435.5,
+            "amount": 999.5
+          },
+          "label": "矿 1k",
+          "x": 451.000001,
+          "y": 483.5
+        }
+      ],
+      "candidate": [
+        {
+          "ore": {
+            "x": 476.000001,
+            "y": 435.5,
+            "amount": 999.5
+          },
+          "label": "矿 1000",
+          "x": 451.000001,
+          "y": 361.5
+        }
+      ],
+      "metrics": [
+        {
+          "text": "矿 1000",
+          "left": 7,
+          "right": 81,
+          "up": 19,
+          "down": 8
+        }
+      ],
+      "candidateIndex": [
+        1
+      ],
+      "baselineCandidateIndex": [
+        0
+      ],
+      "fallback": [
+        false
+      ],
+      "reasons": [
+        [
+          {
+            "index": 0,
+            "safe": false,
+            "reasons": [
+              "markerBottom:0"
+            ]
+          },
+          {
+            "index": 1,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 2,
+            "safe": false,
+            "reasons": [
+              "circle:0",
+              "post:0"
+            ]
+          },
+          {
+            "index": 3,
+            "safe": true,
+            "reasons": []
+          },
+          {
+            "index": 4,
+            "safe": true,
+            "reasons": []
+          }
+        ]
+      ]
+    },
+    {
+      "tag": "candidate widePositiveExtents/fallback",
+      "explicitCaveat": "合成字体度量/合成数量或边缘摆位；非原生字体、截图、真实战局矿量或浏览器布局审批。",
+      "state": {
+        "ores": [
+          {
+            "x": 600,
+            "y": 400,
+            "amount": 999.5
+          }
+        ],
+        "posts": [
+          {
+            "owner": -1,
+            "progress": 0,
+            "side": -1,
+            "x": 730.5040728067979,
+            "y": 421.34291395545006
+          },
+          {
+            "owner": -1,
+            "progress": 0,
+            "side": -1,
+            "x": 599.3555372441188,
+            "y": 462.6064729690552
+          },
+          {
+            "owner": -1,
+            "progress": 0,
+            "side": -1,
+            "x": 669.0206033689901,
+            "y": 334.78670969605446
+          },
+          {
+            "owner": -1,
+            "progress": 0,
+            "side": -1,
+            "x": 508.09223738033324,
+            "y": 383.35398584604263
+          },
+          {
+            "owner": -1,
+            "progress": 0,
+            "side": -1,
+            "x": 683.759143888019,
+            "y": 305.7584147155285
+          }
+        ],
+        "mapChoice": "classic",
+        "objective": "annihilation"
+      },
+      "baseline": [
+        {
+          "ore": {
+            "x": 600,
+            "y": 400,
+            "amount": 999.5
+          },
+          "label": "矿 1k",
+          "x": 575,
+          "y": 448
+        }
+      ],
+      "candidate": [
+        {
+          "ore": {
+            "x": 600,
+            "y": 400,
+            "amount": 999.5
+          },
+          "label": "矿 1000",
+          "x": 575,
+          "y": 448
+        }
+      ],
+      "metrics": [
+        {
+          "text": "矿 1000",
+          "left": 7,
+          "right": 81,
+          "up": 19,
+          "down": 8
+        }
+      ],
+      "candidateIndex": [
+        0
+      ],
+      "baselineCandidateIndex": null,
+      "fallback": [
+        true
+      ],
+      "reasons": [
+        [
+          {
+            "index": 0,
+            "safe": false,
+            "reasons": [
+              "circle:1",
+              "post:3"
+            ]
+          },
+          {
+            "index": 1,
+            "safe": false,
+            "reasons": [
+              "circle:2",
+              "circle:4",
+              "post:4",
+              "range:3"
+            ]
+          },
+          {
+            "index": 2,
+            "safe": false,
+            "reasons": [
+              "circle:0",
+              "circle:2",
+              "post:2",
+              "range:1"
+            ]
+          },
+          {
+            "index": 3,
+            "safe": false,
+            "reasons": [
+              "circle:3",
+              "post:3"
+            ]
+          },
+          {
+            "index": 4,
+            "safe": false,
+            "reasons": [
+              "circle:1",
+              "post:1"
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "measureTextExample": {
+    "tag": "classic/legacy/mixed-post-hover",
+    "profile": "widthOnly",
+    "baselineTotalCanvasCalls": 827,
+    "candidateTotalCanvasCalls": 831,
+    "baselineTotalMeasureText": 11,
+    "candidateTotalMeasureText": 15,
+    "baselinePaints": 266,
+    "candidatePaints": 266,
+    "baselineFillRects": 185,
+    "candidateFillRects": 185,
+    "positiveOres": 5,
+    "changedLabels": 4,
+    "movedLabels": 0,
+    "measureTextBefore": [
+      "矿 1k"
+    ],
+    "measureTextAfter": [
+      "矿 1",
+      "矿 180",
+      "矿 999",
+      "矿 1000",
+      "矿 1k"
+    ],
+    "allOtherPaintsAndCallsIdentical": true,
+    "worldImmutable": true,
+    "renderRandomCalls": 0
+  }
+}

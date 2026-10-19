@@ -1,0 +1,31 @@
+{
+  "passed": 6,
+  "results": [
+    {
+      "name": "inherited stub rejected createLinearGradient",
+      "passed": true
+    },
+    {
+      "name": "inherited stub rejected createRadialGradient",
+      "passed": true
+    },
+    {
+      "name": "inherited stub rejected getLineDash",
+      "passed": true
+    },
+    {
+      "name": "old shared-reference snapshot demonstrably fails",
+      "passed": true
+    },
+    {
+      "name": "current primitive-value copy restores prior state",
+      "passed": true
+    },
+    {
+      "name": "Canvas current path is not restored by save/restore; explicit replay checkpoint cloned",
+      "passed": true
+    }
+  ],
+  "recorderSha": "8445340666c9aee8e29251dd261506741a3ff95defbe13e1633c05eee2d0ab5c",
+  "scope": "Private fixtures; track object current fields x/y/phase are primitive numbers, so object spread suffices. Not a general nested-object deep clone claim."
+}

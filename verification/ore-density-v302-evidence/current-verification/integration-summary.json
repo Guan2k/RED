@@ -1,0 +1,14 @@
+{
+  "sourceSha256": "30a960f10a359ac13fb04b3f758529376956227bb3dce079c8be0028476594f4",
+  "runnerSha256": "aee070e1579821f7fdf304f29bbaeaedf6cbfb0c500ee1b0753d8a29ccde36f4",
+  "oreHelperSha256": "2a1fda3fb1e0086b58cac1fbc72d46a459276c0d7e9bdf5536ffec55a9c639d2",
+  "historicalVerificationFilesUnchanged": 1596,
+  "focusedEntryCount": 74,
+  "aggregateExecuted": false,
+  "toolPassed": {
+    "builder": 101,
+    "wrapper": 171,
+    "vehicleData": 180
+  },
+  "stableEntrySyntheticPassed": 165
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "baseline": "v304-work/RED",
+  "checks": [
+    "README.md only current-version labels/current runner link and one new release paragraph",
+    "CURRENT_PLAYER_GUIDE.md only current-version labels/current runner link and one new release paragraph",
+    "QUICK_START only two current version labels",
+    "all previous derived-guide paragraphs retained except current labels",
+    "v304 package tools/evidence unchanged"
+  ],
+  "sourceParagraphs": 202,
+  "previousSourceParagraphs": 201,
+  "verbatimSaveRiskParagraphs": 15
+}

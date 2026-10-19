@@ -1,0 +1,19 @@
+{
+  "passed": 48,
+  "failed": 1,
+  "assertions": 9835,
+  "frames": 348,
+  "sourceHashes": {
+    "baseline": "30a960f10a359ac13fb04b3f758529376956227bb3dce079c8be0028476594f4",
+    "candidate": "8816d1df04b6bdb470a2ba64e790116c6f56eca12e3d98e5920c0cf226d51b36"
+  },
+  "layoutChangeSamples": 36,
+  "negativeControls": 36,
+  "failures": [
+    {
+      "name": "runtime mutation negatives reject text, threshold, metric, collision and fallback regressions",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: top clamp margin negative must fail narrow oracle\n    at ok (/workspace/scratch/e433d7540f34/red-development/v303-low-ore-labels/RED/verification/low-ore-label-v303.cjs:13:87)\n    at /workspace/scratch/e433d7540f34/red-development/v303-low-ore-labels/RED/verification/low-ore-label-v303.cjs:108:371\n    at test (/workspace/scratch/e433d7540f34/red-development/v303-low-ore-labels/RED/verification/low-ore-label-v303.cjs:13:137)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v303-low-ore-labels/RED/verification/low-ore-label-v303.cjs:106:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    }
+  ]
+}

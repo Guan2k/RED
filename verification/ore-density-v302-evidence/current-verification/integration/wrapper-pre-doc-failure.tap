@@ -1,0 +1,556 @@
+✔ exact ordered commands [] (3.039276ms)
+✔ exact ordered commands ["--check-only"] (0.210487ms)
+✔ reject unsupported ["--help"] (0.145049ms)
+✔ reject unsupported ["--write-generated"] (0.090807ms)
+✔ reject unsupported ["--recover-receipt"] (0.122265ms)
+✔ reject unsupported ["--legacy"] (0.115264ms)
+✔ reject unsupported ["--long"] (0.094833ms)
+✔ reject unsupported ["--check-only","extra"] (0.064498ms)
+✔ reject unsupported ["--check-only","--check-only"] (0.213563ms)
+✔ reject unsupported [""] (0.210998ms)
+✔ reject unsupported ["--CHECK-ONLY"] (0.078509ms)
+✔ short circuit full integrity 0 (0.326062ms)
+✔ short circuit full integrity 1 (0.097978ms)
+✔ short circuit full integrity 2 (0.062544ms)
+✔ short circuit full integrity 3 (1.272119ms)
+✔ short circuit full integrity 4 (0.234554ms)
+✔ short circuit full integrity 5 (0.055644ms)
+✔ short circuit full integrity 6 (0.075935ms)
+✔ short circuit full integrity 7 (0.105118ms)
+✔ short circuit full integrity 8 (0.373994ms)
+✔ short circuit full docs 0 (0.088754ms)
+✔ short circuit full docs 1 (0.041713ms)
+✔ short circuit full docs 2 (0.030166ms)
+✔ short circuit full docs 3 (0.043486ms)
+✔ short circuit full docs 4 (0.028784ms)
+✔ short circuit full docs 5 (0.025229ms)
+✔ short circuit full docs 6 (0.024587ms)
+✔ short circuit full docs 7 (0.024156ms)
+✔ short circuit full docs 8 (0.027201ms)
+✔ short circuit full docTests 0 (0.134093ms)
+✔ short circuit full docTests 1 (0.074853ms)
+✔ short circuit full docTests 2 (0.040531ms)
+✔ short circuit full docTests 3 (0.03364ms)
+✔ short circuit full docTests 4 (0.028684ms)
+✔ short circuit full docTests 5 (0.100812ms)
+✔ short circuit full docTests 6 (0.055023ms)
+✔ short circuit full docTests 7 (0.030836ms)
+✔ short circuit full docTests 8 (0.029896ms)
+✔ short circuit full source 0 (0.028042ms)
+✔ short circuit full source 1 (0.02693ms)
+✔ short circuit full source 2 (0.02647ms)
+✔ short circuit full source 3 (0.025068ms)
+✔ short circuit full source 4 (0.025519ms)
+✔ short circuit full source 5 (0.029735ms)
+✔ short circuit full source 6 (0.025999ms)
+✔ short circuit full source 7 (0.024307ms)
+✔ short circuit full source 8 (0.027973ms)
+✔ short circuit full builder 0 (1.538351ms)
+✔ short circuit full builder 1 (0.050255ms)
+✔ short circuit full builder 2 (0.035614ms)
+✔ short circuit full builder 3 (0.030616ms)
+✔ short circuit full builder 4 (0.029284ms)
+✔ short circuit full builder 5 (0.041263ms)
+✔ short circuit full builder 6 (0.052569ms)
+✔ short circuit full builder 7 (0.03337ms)
+✔ short circuit full builder 8 (0.032319ms)
+✔ short circuit full data 0 (0.030737ms)
+✔ short circuit full data 1 (0.030616ms)
+✔ short circuit full data 2 (0.02677ms)
+✔ short circuit full data 3 (0.028643ms)
+✔ short circuit full data 4 (0.0264ms)
+✔ short circuit full data 5 (0.02666ms)
+✔ short circuit full data 6 (0.027041ms)
+✔ short circuit full data 7 (0.074603ms)
+✔ short circuit full data 8 (0.037016ms)
+✔ short circuit full vehicle 0 (0.045489ms)
+✔ short circuit full vehicle 1 (0.028983ms)
+✔ short circuit full vehicle 2 (0.055894ms)
+✔ short circuit full vehicle 3 (0.075174ms)
+✔ short circuit full vehicle 4 (0.051297ms)
+✔ short circuit full vehicle 5 (0.028323ms)
+✔ short circuit full vehicle 6 (0.075875ms)
+✔ short circuit full vehicle 7 (0.034552ms)
+✔ short circuit full vehicle 8 (0.036124ms)
+✔ short circuit full game 0 (0.030697ms)
+✔ short circuit full game 1 (0.030025ms)
+✔ short circuit full game 2 (0.028312ms)
+✔ short circuit full game 3 (0.028192ms)
+✔ short circuit full game 4 (0.029394ms)
+✔ short circuit full game 5 (0.034542ms)
+✔ short circuit full game 6 (0.029344ms)
+✔ short circuit full game 7 (0.02681ms)
+✔ short circuit full game 8 (0.035133ms)
+✔ short circuit check integrity 0 (0.221204ms)
+✔ short circuit check integrity 1 (0.070396ms)
+✔ short circuit check integrity 2 (0.054712ms)
+✔ short circuit check integrity 3 (0.04656ms)
+✔ short circuit check integrity 4 (0.037086ms)
+✔ short circuit check integrity 5 (0.029184ms)
+✔ short circuit check integrity 6 (0.029254ms)
+✔ short circuit check integrity 7 (0.035634ms)
+✔ short circuit check integrity 8 (0.091749ms)
+✔ short circuit check docs 0 (0.040702ms)
+✔ short circuit check docs 1 (0.07918ms)
+✔ short circuit check docs 2 (0.037567ms)
+✔ short circuit check docs 3 (0.031066ms)
+✔ short circuit check docs 4 (0.027902ms)
+✔ short circuit check docs 5 (0.029244ms)
+✔ short circuit check docs 6 (0.028583ms)
+✔ short circuit check docs 7 (0.035103ms)
+✔ short circuit check docs 8 (0.04615ms)
+✔ short circuit check docTests 0 (0.05328ms)
+✔ short circuit check docTests 1 (0.033801ms)
+✔ short circuit check docTests 2 (0.029875ms)
+✔ short circuit check docTests 3 (0.061072ms)
+✔ short circuit check docTests 4 (0.030095ms)
+✔ short circuit check docTests 5 (0.029505ms)
+✔ short circuit check docTests 6 (0.030215ms)
+✔ short circuit check docTests 7 (0.029264ms)
+✔ short circuit check docTests 8 (0.030636ms)
+✔ short circuit check source 0 (0.069766ms)
+✔ short circuit check source 1 (0.103185ms)
+✔ short circuit check source 2 (0.038358ms)
+✔ short circuit check source 3 (0.057617ms)
+✔ short circuit check source 4 (0.065439ms)
+✔ short circuit check source 5 (0.031307ms)
+✔ short circuit check source 6 (0.070567ms)
+✔ short circuit check source 7 (0.037296ms)
+✔ short circuit check source 8 (0.054522ms)
+✔ short circuit check builder 0 (0.056095ms)
+✔ short circuit check builder 1 (0.03303ms)
+✔ short circuit check builder 2 (0.054052ms)
+✔ short circuit check builder 3 (0.035403ms)
+✔ short circuit check builder 4 (0.029664ms)
+✔ short circuit check builder 5 (0.029575ms)
+✔ short circuit check builder 6 (0.028773ms)
+✔ short circuit check builder 7 (0.053822ms)
+✔ short circuit check builder 8 (0.064818ms)
+✔ short circuit check data 0 (0.035093ms)
+✔ short circuit check data 1 (0.030747ms)
+✔ short circuit check data 2 (0.028984ms)
+✔ short circuit check data 3 (0.029654ms)
+✔ short circuit check data 4 (0.035564ms)
+✔ short circuit check data 5 (0.030416ms)
+✔ short circuit check data 6 (0.031217ms)
+✔ short circuit check data 7 (0.118759ms)
+✔ short circuit check data 8 (0.084187ms)
+✔ short circuit check vehicle 0 (0.045809ms)
+✔ short circuit check vehicle 1 (0.061052ms)
+✔ short circuit check vehicle 2 (0.037116ms)
+✔ short circuit check vehicle 3 (0.03311ms)
+✔ short circuit check vehicle 4 (0.055023ms)
+✔ short circuit check vehicle 5 (0.037276ms)
+✔ short circuit check vehicle 6 (0.031377ms)
+✔ short circuit check vehicle 7 (0.03957ms)
+✔ short circuit check vehicle 8 (0.036705ms)
+✔ real unrelated-cwd synthetic chain false none (775.106228ms)
+✔ real unrelated-cwd synthetic chain false integrity (113.28729ms)
+✔ real unrelated-cwd synthetic chain false docs (179.304879ms)
+✔ real unrelated-cwd synthetic chain false docTests (241.289839ms)
+✔ real unrelated-cwd synthetic chain false source (297.080217ms)
+✔ real unrelated-cwd synthetic chain false builder (459.553173ms)
+✔ real unrelated-cwd synthetic chain false data (621.616144ms)
+✔ real unrelated-cwd synthetic chain false vehicle (808.009925ms)
+✔ real unrelated-cwd synthetic chain false game (867.447788ms)
+✔ real unrelated-cwd synthetic chain true none (837.399151ms)
+✔ real unrelated-cwd synthetic chain true integrity (119.89477ms)
+✔ real unrelated-cwd synthetic chain true docs (204.156287ms)
+✔ real unrelated-cwd synthetic chain true docTests (237.886558ms)
+✔ real unrelated-cwd synthetic chain true source (311.651261ms)
+✔ real unrelated-cwd synthetic chain true builder (419.18152ms)
+✔ real unrelated-cwd synthetic chain true data (615.914994ms)
+✔ real unrelated-cwd synthetic chain true vehicle (775.689043ms)
+✔ wrapper module requires only path with injected spawn; no filesystem API available (1.784643ms)
+✖ actual documentation checker from unrelated cwd is read-only and does not import gameplay (171.520795ms)
+✖ actual checker permits only read-only fs APIs, path and crypto; gameplay cannot load (15.339666ms)
+✔ boundary negative control omit document contract (2.139158ms)
+✔ boundary negative control wrong document root (1.178578ms)
+✔ boundary negative control check-only runs game (0.990164ms)
+✔ boundary negative control ignore nonzero failure (0.809491ms)
+✔ real invalid vehicle geometry assembles but validator stops game; package remains unchanged (818.255051ms)
+ℹ tests 171
+ℹ suites 0
+ℹ pass 169
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9043.052033
+
+✖ failing tests:
+
+test at red-development/v302-ore-density/RED/tools/test-development-preflight-ore-density-v302.cjs:23:1
+✖ actual documentation checker from unrelated cwd is read-only and does not import gameplay (171.520795ms)
+  AssertionError [ERR_ASSERTION]: {
+    "schemaVersion": 1,
+    "root": "/workspace/scratch/e433d7540f34/red-development/v302-ore-density/RED",
+    "passed": 62,
+    "failed": 1,
+    "checks": [
+      {
+        "code": "manifest-json",
+        "passed": true,
+        "detail": "JSON object required"
+      },
+      {
+        "code": "manifest-schema",
+        "passed": true,
+        "detail": "expected current verification identity fields"
+      },
+      {
+        "code": "source-version-marker",
+        "passed": true,
+        "detail": "one displayed version marker"
+      },
+      {
+        "code": "manifest-source-hash",
+        "passed": true,
+        "detail": "source bytes agree with manifest"
+      },
+      {
+        "code": "manifest-runner-hash",
+        "passed": true,
+        "detail": "runner bytes agree with manifest"
+      },
+      {
+        "code": "manifest-version",
+        "passed": true,
+        "detail": "manifest and source version agree"
+      },
+      {
+        "code": "manifest-runner",
+        "passed": true,
+        "detail": "runner uses displayed version"
+      },
+      {
+        "code": "title:README.md",
+        "passed": true,
+        "detail": "current first heading version"
+      },
+      {
+        "code": "title:CURRENT_PLAYER_GUIDE.md",
+        "passed": true,
+        "detail": "current first heading version"
+      },
+      {
+        "code": "title:CURRENT_VERIFICATION_ENTRY.md",
+        "passed": true,
+        "detail": "current first heading version"
+      },
+      {
+        "code": "title:QA_STATUS.md",
+        "passed": true,
+        "detail": "current first heading version"
+      },
+      {
+        "code": "current-guide-identity",
+        "passed": true,
+        "detail": "one current general claim; historical heading scope inherited by descendants"
+      },
+      {
+        "code": "current-entry-command-present",
+        "passed": true,
+        "detail": "at least one real current entry command, including fenced commands"
+      },
+      {
+        "code": "current-entry-command:0",
+        "passed": true,
+        "detail": {
+          "command": "node verify-development.cjs",
+          "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+        }
+      },
+      {
+        "code": "current-entry-command:1",
+        "passed": true,
+        "detail": {
+          "command": "node verify-development.cjs --check-only",
+          "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+        }
+      },
+      {
+        "code": "current-entry-command:2",
+        "passed": true,
+        "detail": {
+          "command": "node verify-current.cjs",
+          "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+        }
+      },
+      {
+        "code": "current-readme-section",
+        "passed": true,
+        "detail": "one real explicit current testing section"
+      },
+      {
+        "code": "current-runner-line",
+        "passed": true,
+        "detail": "one real current command paragraph; historical descendants and comments excluded"
+      },
+      {
+        "code": "current-runner-command",
+        "passed": true,
+        "detail": "current command equals manifest"
+      },
+      {
+        "code": "current-runner-link",
+        "passed": true,
+        "detail": "current runner link equals manifest"
+      },
+      {
+        "code": "link:README.md:index.html",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#3-选择编队与地图命令",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#3-选择编队与地图命令",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#1-开局暂停与重新部署",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局暂停与重新部署",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#6-存档备份与恢复",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#6-存档备份与恢复",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:README.md:CURRENT_PLAYER_GUIDE.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#5-建造订单与出厂",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#5-建造订单与出厂",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:README.md:RELEASE_NOTES.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:README.md:verification/OPENING_PRACTICE_V289.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:README.md:verification/parameterized-pilot/README_V289.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:README.md:README_MIGRATION_V289.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:README.md:verification/run-tests-v302.cjs",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:README.md:CURRENT_VERIFICATION_ENTRY.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:README.md:QA_STATUS.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "read:verification/ORE_DENSITY_V302.md",
+        "passed": false,
+        "detail": "ENOENT"
+      },
+      {
+        "code": "link:README.md:SHA256SUMS.txt",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:README.md:verification/COMMAND_FEEDBACK_V291.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:README.md:QUICK_START.html",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:#1-开局暂停与重新部署",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:CURRENT_PLAYER_GUIDE.md:#1-开局暂停与重新部署",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:#2-五种胜利条件与据点",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:CURRENT_PLAYER_GUIDE.md:#2-五种胜利条件与据点",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:#3-选择编队与地图命令",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:CURRENT_PLAYER_GUIDE.md:#3-选择编队与地图命令",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:#4-矿车护航与维修",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:CURRENT_PLAYER_GUIDE.md:#4-矿车护航与维修",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:#5-建造订单与出厂",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:CURRENT_PLAYER_GUIDE.md:#5-建造订单与出厂",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:#6-存档备份与恢复",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:CURRENT_PLAYER_GUIDE.md:#6-存档备份与恢复",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:#7-必要限制与验证范围",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "anchor:CURRENT_PLAYER_GUIDE.md:#7-必要限制与验证范围",
+        "passed": true,
+        "detail": "Markdown heading anchor"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:RELEASE_NOTES.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:QA_STATUS.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:CURRENT_VERIFICATION_ENTRY.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:README.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:CURRENT_PLAYER_GUIDE.md:RELEASE_NOTES.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:CURRENT_VERIFICATION_ENTRY.md:DOCUMENT_CONTRACT_DEVELOPMENT.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:CURRENT_VERIFICATION_ENTRY.md:QA_STATUS.md",
+        "passed": true,
+        "detail": "local target readable"
+      },
+      {
+        "code": "link:CURRENT_VERIFICATION_ENTRY.md:VEHICLE_ART_DATA_DEVELOPMENT.md",
+        "passed": true,
+        "detail": "local target readable"
+      }
+    ],
+    "scope": "Read-only explicit current-document contract, no game execution or automatic repair. Historical versioned sections retain their version values. External links are not fetched."
+  }
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v302-ore-density/RED/tools/test-development-preflight-ore-density-v302.cjs:23:279)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at red-development/v302-ore-density/RED/tools/test-development-preflight-ore-density-v302.cjs:24:1
+✖ actual checker permits only read-only fs APIs, path and crypto; gameplay cannot load (15.339666ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v302-ore-density/RED/tools/test-development-preflight-ore-density-v302.cjs:24:714)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

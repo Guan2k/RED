@@ -1,0 +1,10 @@
+[
+  {
+    "before": "赤色前线 / ORIGINAL RTS / v0.302",
+    "after": "赤色前线 / ORIGINAL RTS / v0.303"
+  },
+  {
+    "before": "let label='矿 '+Math.ceil(o.amount/1000)+'k'",
+    "after": "let label='矿 '+(o.amount<1000?Math.ceil(o.amount):Math.ceil(o.amount/1000)+'k')"
+  }
+]

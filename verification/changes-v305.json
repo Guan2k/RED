@@ -1,0 +1,10 @@
+[
+  {
+    "before": "赤色前线 / ORIGINAL RTS / v0.304",
+    "after": "赤色前线 / ORIGINAL RTS / v0.305"
+  },
+  {
+    "before": "if(e.repeat){e.preventDefault();cancel();return}if(commandBlocked())return;token={kind:'key'",
+    "after": "if(e.repeat){e.preventDefault();if(e.key!==' '||token?.kind!=='key'||token.key!==' '||token.released||token.canceled||token.consumed||token.battle!==state||button.disabled||commandBlocked())cancel();return}if(commandBlocked())return;token={kind:'key'"
+  }
+]

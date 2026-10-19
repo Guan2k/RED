@@ -1,0 +1,1 @@
+Historical source-builder and wrapper test host. Files are preserved from the preceding v301 documentation-tools release. Run node --test tools/source-build.test.mjs and node --test tools/test-development-preflight-doc-contract-v301.cjs here. This bounded fixture is not a standalone game release.

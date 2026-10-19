@@ -1,0 +1,22 @@
+{
+  "passed": 4,
+  "results": [
+    {
+      "name": "inclusive threshold",
+      "rejected": true
+    },
+    {
+      "name": "floor fractional",
+      "rejected": true
+    },
+    {
+      "name": "coordinate nudge",
+      "rejected": true
+    },
+    {
+      "name": "left extent ignored",
+      "rejected": true
+    }
+  ],
+  "scope": "Behavioral oracle rejects independently; exact source guard bypassed."
+}

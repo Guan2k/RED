@@ -1,0 +1,134 @@
+{
+  "scope": "Static guide conversion only; no game, browser, save/load/import/export or network operations.",
+  "checks_passed": 26,
+  "checks": [
+    {
+      "name": "exact approved baseline renders the fixed reviewed OUTPUT_SHA256",
+      "result": "pass"
+    },
+    {
+      "name": "two derivations are byte-identical",
+      "result": "pass"
+    },
+    {
+      "name": "provided immutable mapping bytes cause no filesystem reads",
+      "result": "pass"
+    },
+    {
+      "name": "wrong version",
+      "result": "pass",
+      "rejection": "Unknown guide baseline SHA-256; additions, removals or edits require a new reviewed mapping"
+    },
+    {
+      "name": "unknown extra paragraph",
+      "result": "pass",
+      "rejection": "Unknown guide baseline SHA-256; additions, removals or edits require a new reviewed mapping"
+    },
+    {
+      "name": "missing source paragraph",
+      "result": "pass",
+      "rejection": "Unknown guide baseline SHA-256; additions, removals or edits require a new reviewed mapping"
+    },
+    {
+      "name": "source byte alteration",
+      "result": "pass",
+      "rejection": "Unknown guide baseline SHA-256; additions, removals or edits require a new reviewed mapping"
+    },
+    {
+      "name": "unexpected CRLF baseline",
+      "result": "pass",
+      "rejection": "Unknown guide baseline SHA-256; additions, removals or edits require a new reviewed mapping"
+    },
+    {
+      "name": "unreviewed mapping whitespace",
+      "result": "pass",
+      "rejection": "Unreviewed or modified guide mapping SHA-256"
+    },
+    {
+      "name": "mapping with external link",
+      "result": "pass",
+      "rejection": "Unreviewed or modified guide mapping SHA-256"
+    },
+    {
+      "name": "mapping missing mandatory save warning",
+      "result": "pass",
+      "rejection": "Unreviewed or modified guide mapping SHA-256"
+    },
+    {
+      "name": "mapping with an unclassified source paragraph",
+      "result": "pass",
+      "rejection": "Unreviewed or modified guide mapping SHA-256"
+    },
+    {
+      "name": "all 200 source paragraphs are classified",
+      "result": "pass"
+    },
+    {
+      "name": "seven original main chapter headings preserved",
+      "result": "pass"
+    },
+    {
+      "name": "all 15 original save chapter paragraphs preserved verbatim",
+      "result": "pass"
+    },
+    {
+      "name": "no historical release links, test commands or old current-version statement",
+      "result": "pass"
+    },
+    {
+      "name": "known local Markdown links only",
+      "result": "pass"
+    },
+    {
+      "name": "static layout-shift limitation preserved",
+      "result": "pass"
+    },
+    {
+      "name": "old delayed click and fresh-press rule preserved",
+      "result": "pass"
+    },
+    {
+      "name": "source byte hash unchanged after API checks",
+      "result": "pass"
+    },
+    {
+      "name": "CLI creates new exact output",
+      "result": "pass"
+    },
+    {
+      "name": "CLI refuses overwrite",
+      "result": "pass"
+    },
+    {
+      "name": "CLI verifies same output without replacing it",
+      "result": "pass"
+    },
+    {
+      "name": "CLI rejects altered output missing save warning",
+      "result": "pass"
+    },
+    {
+      "name": "CLI refuses source symlink",
+      "result": "pass"
+    },
+    {
+      "name": "source byte hash unchanged after CLI checks",
+      "result": "pass"
+    }
+  ],
+  "source_sha256": "c837c45bfb6d0728b54a553da46a17b75bf195cd85ee2fa818c34e0dd8c792b8",
+  "mapping_sha256": "853d38623c7d94772e5cae49d7fb85979c954cac45905b1052536ca8ed3f8b91",
+  "guide_sha256": "abdd2131923e508dcbd0bf4bed405cf4acacd7e31617d4d47bf367792d337562",
+  "source_paragraphs": 200,
+  "output_paragraphs": 203,
+  "disposition_counts": {
+    "keep_verbatim": 154,
+    "rewrite_and_move": 27,
+    "merge_duplicate_current_rule": 1,
+    "rewrite": 6,
+    "merge_player_rules_remove_development_history": 1,
+    "move_verbatim": 6,
+    "remove_development_history_preserve_limits": 4,
+    "remove_history_heading": 1
+  }
+}

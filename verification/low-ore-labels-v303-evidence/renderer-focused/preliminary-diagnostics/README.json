@@ -1,0 +1,60 @@
+{
+  "scope": "Earlier development runs of NEW v303 verification scripts only. No product changes resulted. These are preserved original stdout, not final acceptance reports. Earlier script/helper snapshots were not frozen, so the diagnostics do not claim earlier source hashes. Product was the same frozen v303 source throughout.",
+  "runs": [
+    {
+      "files": [
+        "low-label-first.json"
+      ],
+      "issue": "Expected historical replay reused post-render Canvas style state, so exact paints correctly rejected the initial harness. Fixed by snapshotting and rewinding the historical recorder context, current path and cloned track values before replay. Candidate was never normalized.",
+      "result": "Final 360 complete frames pass."
+    },
+    {
+      "files": [
+        "layout-first.json",
+        "layout-negative-first.json"
+      ],
+      "issue": "One-line function extractor truncated the newly injected multiline independent formatter. Fixed by emitting that formatter on one line in the NEW expected-side helper, retaining historical hash validation.",
+      "result": "Final 5528 layout cases and 19 behavioral negatives pass."
+    },
+    {
+      "files": [
+        "low-label-third.json"
+      ],
+      "issue": "Added top-clamp mutant survived the existing corpus because those scenes did not actually use the top clamp. Added an in-bounds ore origin (600,0), post (600,50) fixture that rejects candidate 0 and exercises a clamped expanded candidate. No assertion was relaxed.",
+      "result": "All four clamp-margin mutants now rejected."
+    },
+    {
+      "files": [
+        "low-label-second.json",
+        "low-label-fourth.json",
+        "layout-second.json",
+        "layout-negative-second.json",
+        "render-neg-first.json"
+      ],
+      "issue": "Successful intermediate verification outputs retained for sequence provenance; counts grew when movement and recorder fail-closed controls were added.",
+      "result": "Use final reports under renderer-focused."
+    }
+  ],
+  "reviewCorrections": [
+    {
+      "issue": "Existing unit-track WeakMap values are mutable; a reference snapshot does not prove rewind.",
+      "fix": "Deep JSON clone each old value while retaining entity identity, restore it and assert serialized exact pre-render track-state equality; cover moving units across consecutive frames. The final suite also uses a nested sentinel and rejects both aliased-object and shallow-copy mutations."
+    },
+    {
+      "issue": "Inherited VM Canvas stubs could be mistaken for recorded methods.",
+      "fix": "Explicit list of methods installed by the NEW recorder; mutations introducing gradient/getLineDash calls must fail with named unrecorded-method diagnostics."
+    }
+  ],
+  "stdoutSha256": {
+    "README.json": "a0a1579cf93e49ae947dbd4c0dab158f48cd8796f8a7600736de74827e518762",
+    "layout-first.json": "b65e320f0db84ae4df1611479b6b919e2621e247846a46e209e3a81b2f057907",
+    "layout-negative-first.json": "04887aa2321d35219d55ec6f253098a6dd0ef4a705c6c927384bf19a606aefd8",
+    "layout-negative-second.json": "22ecc99b343028efc86c92552f220b3872ae14438524c34886af0aca30548f4f",
+    "layout-second.json": "2b9b5a99853bf1edb58c6cf4adee20aae5a7ce69e0b2ecaa1f91af24ee0abbec",
+    "low-label-first.json": "497c8b52e068ad44a4c2493ee386bb7595d1d2faf2d04a854424383cb2e598c2",
+    "low-label-fourth.json": "acd03de01f851e482016a9bb13db3ec6f6b3313326b2932b828a99d8a6008c50",
+    "low-label-second.json": "64f714058e39022b7267a26c33bfbb5925d5a6db84ea927333939963cad3db6b",
+    "low-label-third.json": "f363543b2434c6a4ef5e4ef136be3167869d9a0853858ac3b56e4552988c652a",
+    "render-neg-first.json": "d592514b7eed17922a9ab6d0f85b98e4c15793c38c1dea4ce1ed8065b5748e7d"
+  }
+}

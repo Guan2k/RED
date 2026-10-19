@@ -1,0 +1,12 @@
+{
+  "passed": 0,
+  "failed": 1,
+  "results": [
+    {
+      "name": "ore-layout-suite-initialization",
+      "passed": false,
+      "check": "unexpected-exception",
+      "message": "Unexpected end of input"
+    }
+  ]
+}

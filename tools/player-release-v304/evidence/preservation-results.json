@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "baseline": "v303-low-ore-labels/RED",
+  "checks": [
+    "README.md only current version labels, current runner command/link v303→v304, and one new release paragraph",
+    "CURRENT_PLAYER_GUIDE.md only current version labels and one new release paragraph",
+    "QUICK_START only two version labels",
+    "all prior derived-guide paragraphs retained except current-version labels",
+    "v303 package tools and evidence unchanged"
+  ],
+  "sourceParagraphs": 201,
+  "previousSourceParagraphs": 200,
+  "verbatimSaveRiskParagraphs": 15
+}

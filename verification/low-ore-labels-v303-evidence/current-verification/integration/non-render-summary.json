@@ -1,0 +1,32 @@
+[
+  {
+    "script": "command-allocation-feedback-v303.cjs",
+    "exit": 0,
+    "passed": 104,
+    "failed": 0
+  },
+  {
+    "script": "run-pilot-release-v303.cjs",
+    "exit": 0,
+    "passed": null,
+    "failed": 0
+  },
+  {
+    "script": "coordinate-command-natural-v303.cjs",
+    "exit": 0,
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "inherit-dom-v303-negative-control.cjs",
+    "exit": 0,
+    "passed": 250,
+    "failed": 0
+  },
+  {
+    "script": "visual-preference-v303.cjs",
+    "exit": 0,
+    "passed": 10,
+    "failed": 0
+  }
+]

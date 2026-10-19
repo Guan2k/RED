@@ -1,0 +1,20 @@
+{
+  "sourceSha256": "8816d1df04b6bdb470a2ba64e790116c6f56eca12e3d98e5920c0cf226d51b36",
+  "normal": [
+    {
+      "suiteId": "order-display-writes",
+      "passed": 8,
+      "assertions": 229
+    },
+    {
+      "suiteId": "selection-filter-writes",
+      "passed": 7,
+      "assertions": 110
+    }
+  ],
+  "negative": 18,
+  "failed": 0,
+  "historicalHostSha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+  "report": "parameterized-pilot/results-v303.json",
+  "scope": "Two stable selected-source suites and all 18 exact behavior mutations. The original v287 positive scripts execute only against the separate exact v287 host for semantic-result comparison. Historical identity and comparison are not current-v294 behavior counts."
+}

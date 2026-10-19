@@ -1,0 +1,14 @@
+{
+  "sha": "66ded10bca768cc9a27c1ca4f3729490a2724148ddf6ce33919155a2d6c0aeed",
+  "cases": 68,
+  "checks": 398,
+  "layoutPositionChanges": 10,
+  "costs": {
+    "baselineMeasureText": 4,
+    "candidateMeasureText": 8,
+    "paintCount": 324,
+    "otherMethodCountsUnchanged": true
+  },
+  "passed": true,
+  "scope": "Independent baseline-layout oracle: only baseline metrics for its old label are remapped to proposed string metrics; no candidate stream filtering. Synthetic positive glyph extents, edge and meridian stronghold states. Source exact reverse establishes unchanged geometry/economy/input code. No native font/FPS claim."
+}

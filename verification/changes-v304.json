@@ -1,0 +1,10 @@
+[
+  {
+    "before": "赤色前线 / ORIGINAL RTS / v0.303",
+    "after": "赤色前线 / ORIGINAL RTS / v0.304"
+  },
+  {
+    "before": "e.repeat&&(['h','a','g','p','n','j','o','s'].includes(e.key.toLowerCase())",
+    "after": "e.repeat&&(['h','a','g','p','n','j','o','s','f','i','m'].includes(e.key.toLowerCase())"
+  }
+]

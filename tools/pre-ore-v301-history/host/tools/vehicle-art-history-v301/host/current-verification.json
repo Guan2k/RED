@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "version": "301",
+  "source": "index.html",
+  "sourceSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "runner": "verification/run-tests-v301.cjs",
+  "runnerSha256": "6629e5303485e3e52366b366bbcd2e0d294d8b56d1c418d3946b3bb01bd663c1"
+}

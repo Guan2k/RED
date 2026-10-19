@@ -1,0 +1,15 @@
+{
+  "node": "v24.19.0",
+  "secondRunPassed": true,
+  "resultsJsonIdenticalAcrossTwoConsecutiveRuns": true,
+  "runnerSha256": "5386f50839f8c9712360625bb4d9907d84128bdbfc1e69e8e7fcbcbd7f84837d",
+  "resultsSha256": "1b3f2a45884d909f20bce35e008a5dca02ffea2864c781778d46136ab1f8a037",
+  "artifacts": [
+    "INDEPENDENT_REVIEW.md",
+    "independent-ore-label-review.cjs",
+    "independent-ore-label-results.json",
+    "independent-ore-label-run.log",
+    "layout-samples-zh.json",
+    "preliminary-harness-diagnostics.json"
+  ]
+}

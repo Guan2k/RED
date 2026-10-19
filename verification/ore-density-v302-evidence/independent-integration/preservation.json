@@ -1,0 +1,22 @@
+{
+  "oldFiles": 2110,
+  "missing": [],
+  "changed": [
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "DEVELOPING.md",
+    "index.html",
+    "CURRENT_PLAYER_GUIDE.md",
+    "QA_STATUS.md",
+    "README.md",
+    "source-build-receipt.json",
+    "src/index.template.html",
+    "src/script/03-renderer.jsfrag"
+  ],
+  "historicalVerificationChanges": [],
+  "quickLinks": [
+    "index.html",
+    "CURRENT_PLAYER_GUIDE.md"
+  ],
+  "quickSha": "efcb60e585bd389bd81a23690ca1eb08afd50b5fca9522a72907424582197cbc",
+  "scope": "Preseal snapshot; maintenance files may still be in progress. Existing versioned verification paths remain exact."
+}

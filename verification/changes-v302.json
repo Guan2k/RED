@@ -1,0 +1,10 @@
+[
+  {
+    "before": "赤色前线 / ORIGINAL RTS / v0.301",
+    "after": "赤色前线 / ORIGINAL RTS / v0.302"
+  },
+  {
+    "before": "for(let i=0;i<8;i++){let a=i*2.4;",
+    "after": "for(let i=0,n=o.amount<=1500?1:o.amount<=4500?4:8;i<n;i++){let a=i*2.4;"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "passed": 24,
+  "checks": 30,
+  "results": [
+    "actual expected-only parity false",
+    "wrong retained geometry false",
+    "wrong removed geometry false",
+    "removed color false",
+    "wrong transform false",
+    "missing old block false",
+    "duplicate base false",
+    "nonadjacent label false",
+    "label text false",
+    "extra Canvas method rejected false",
+    "unrelated change preserved false",
+    "current stream cannot be normalized as historical false",
+    "actual expected-only parity true",
+    "wrong retained geometry true",
+    "wrong removed geometry true",
+    "removed color true",
+    "wrong transform true",
+    "missing old block true",
+    "duplicate base true",
+    "nonadjacent label true",
+    "label text true",
+    "extra Canvas method rejected true",
+    "unrelated change preserved true",
+    "current stream cannot be normalized as historical true"
+  ],
+  "scope": "Actual baseline expected stream only; retained and removed geometry/color/transform/order and method adversaries. No candidate filtering."
+}

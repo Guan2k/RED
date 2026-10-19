@@ -1,0 +1,166 @@
+{
+  "frozen": true,
+  "scope": "Only assigned NEW v302 renderer suites and new density projection helper; no old/product edits and no aggregate execution. All 11 targeted script entrypoints passed. Independent aggregate and release ownership remain with parent.",
+  "productHashes": {
+    "index.html": "30a960f10a359ac13fb04b3f758529376956227bb3dce079c8be0028476594f4",
+    "src/script/03-renderer.jsfrag": "4a8eefdda32a254dce30084b3edfe491d700e56be3da4e9667f53018a7963dcf",
+    "source-build-receipt.json": "922a8d257c802d36a3ebcfb701fb5c0daf6f135cd82a8aedb6dfccdb2634f80c"
+  },
+  "codeFiles": {
+    "verification/render-preview-v302.cjs": "1580e84e28c1b4c53b52e69193e18c685d28071289e823c297efb67ed6ec8eeb",
+    "verification/render-preview-negative-control-v302.cjs": "a863bef2161035c0578574d1f2450519149c46c18f90e677aa8854ee9d823713",
+    "verification/ore-layout-v302.cjs": "658924e3c89dc8ecc1049b612d159a09b2974e7e1e5b7f16a5d1e582274c7b71",
+    "verification/ore-layout-negative-control-v302.cjs": "09292a742e6dea460a7937da320acc8782f432a9ec87f509795357c913adf9d6",
+    "verification/health-edge-v302.cjs": "316ebec6ecc3d03b928f96759024d72877ccd0f31a8b5d746c3866a52cd72cb7",
+    "verification/health-edge-negative-control-v302.cjs": "becdbb6638c8f195b4f3252a87b82d8e7c31793e0e677656a3cf57ca51842252",
+    "verification/progress-rails-v302.cjs": "856bf36b9e961e13b7db208e091ee3c6ca46ac78683bae073e33ca07b46d1169",
+    "verification/progress-rails-negative-control-v302.cjs": "45fddd367118ed2ddab2ef35c16af98e25d694e01b52f82b7b378d3d883664a7",
+    "verification/building-preview-v302.cjs": "0a592e3b572f922341d7631e647a1f1be5a30e37d727c71d7556f876ecd509ae",
+    "verification/building-team-cue-v302.cjs": "552155c2e35694e800a3ddb0d8364bfcd0d7f1f7106a272b4d305e16d7284bcd",
+    "verification/ore-density-v302.cjs": "b0ea0b88c9ef473fa8bd98637bac553511bb550ee96ec2ca156692cd536650df",
+    "verification/ore-density-normalization-v302.cjs": "2a1fda3fb1e0086b58cac1fbc72d46a459276c0d7e9bdf5536ffec55a9c639d2"
+  },
+  "retainedV301Unchanged": {
+    "verification/render-preview-v301.cjs": "77fa98a8cf795d06bdb70d937d26d1c361380af072d7f44c9e3faa2d507df0bf",
+    "verification/render-preview-negative-control-v301.cjs": "bac398c3516bcce0e6528e81890f1e1b3dc0d98ddc6a32b2379d175d0cf0d47b",
+    "verification/ore-layout-v301.cjs": "58518458f8920654e2e319d3b7d109636700459687df7e9f2a2ecfc72b7ddd92",
+    "verification/ore-layout-negative-control-v301.cjs": "7c71189b6c8eb842856df2c14f5d7660045a497622ffb3e2c01bc9a10126b68d",
+    "verification/health-edge-v301.cjs": "60d4f4cd2153287c3ce7d989d6b5c94898295c6bac9c04a98d5109d7ce93f79b",
+    "verification/health-edge-negative-control-v301.cjs": "a662c56ac07451dbb5f1b7338c0d124a0290446e526333b853fd2fc989f4dca8",
+    "verification/progress-rails-v301.cjs": "a4029efa63072171849e5ac05fd2ede5decd373d089d42686ff998aa932bce2d",
+    "verification/progress-rails-negative-control-v301.cjs": "7c3b7b6d89197d38c8aca46728744bdfad8efc3552a4f9fe6a1ba50e5f4f7c4b",
+    "verification/building-preview-v301.cjs": "1900f1acd451472354b596e743199d9cccd1762a40b11f1b5e8fa7bacda448c4",
+    "verification/building-team-cue-v301.cjs": "2bedcbfb784e0dc9f9b3d25edc0ca64ec8d2785bf6bada69b88a4fa1b2fdc4d3",
+    "verification/building-cue-normalization-v301.cjs": "b962d7183c26b14e4206b8353d67498a4f9213b8d86b960105db18022c861eb4",
+    "verification/source-delta-v301.cjs": "7283e4046a146839fef008ebcbfa0c1a677110c4262f033bf3a16f0d1ae4292f",
+    "verification/building-team-cue-v301-support/recorder.cjs": "2d554062368ac1ccfa520507fe6c38aa5b0c0fda92dd1b970e594d643fdca65b",
+    "verification/building-team-cue-v301-support/projection-checks.cjs": "28e1d27551d17de26197282b15bb9adfebd7d49548b3f4418a51dde75a827249"
+  },
+  "results": [
+    {
+      "name": "render-preview",
+      "command": "node verification/render-preview-v302.cjs",
+      "exitCode": 0,
+      "passed": 78,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/render-preview-v302.json",
+      "reportSha256": "b8234f1984ffab1da7f4edafeda8783e538d75cde2ac805d699bba62cbe31497",
+      "assertions": 7281
+    },
+    {
+      "name": "render-preview-negative-control",
+      "command": "node verification/render-preview-negative-control-v302.cjs",
+      "exitCode": 0,
+      "passed": 27,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/render-preview-negative-control-v302.json",
+      "reportSha256": "ce13bf720c54287fac039f715ddd8ad705b2624fa254375af3ff7f8ee246ce8b",
+      "assertions": 239
+    },
+    {
+      "name": "ore-layout",
+      "command": "node verification/ore-layout-v302.cjs",
+      "exitCode": 0,
+      "passed": 5528,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/ore-layout-v302.json",
+      "reportSha256": "bfc293ab5cdedc0257efe73a2ee6fca7bddedc852811c1c4ed6ec2cabde66c0d"
+    },
+    {
+      "name": "ore-layout-negative-control",
+      "command": "node verification/ore-layout-negative-control-v302.cjs",
+      "exitCode": 0,
+      "passed": 19,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/ore-layout-negative-control-v302.json",
+      "reportSha256": "1754b9cc8c4b053726612fd0154170641f6041db9aeb849831165df64570f668"
+    },
+    {
+      "name": "health-edge",
+      "command": "node verification/health-edge-v302.cjs",
+      "exitCode": 0,
+      "passed": 2312,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/health-edge-v302.json",
+      "reportSha256": "5b779ec63f60d7b46a253e35d494a004345a1a11b85fb6415f19d44fba4b693d"
+    },
+    {
+      "name": "health-edge-negative-control",
+      "command": "node verification/health-edge-negative-control-v302.cjs",
+      "exitCode": 0,
+      "passed": 10,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/health-edge-negative-control-v302.json",
+      "reportSha256": "ef7d927763224036879d5d1390d344cdfdd5875ff0d16de474cb3edc66c52ca3"
+    },
+    {
+      "name": "progress-rails",
+      "command": "node verification/progress-rails-v302.cjs",
+      "exitCode": 0,
+      "passed": 202,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/progress-rails-v302.json",
+      "reportSha256": "e293144e4ef19d1128413b517a4fd15dcb5a8d5585f2de74c6bb5a8592a8c547"
+    },
+    {
+      "name": "progress-rails-negative-control",
+      "command": "node verification/progress-rails-negative-control-v302.cjs",
+      "exitCode": 0,
+      "passed": 9,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/progress-rails-negative-control-v302.json",
+      "reportSha256": "6e7fd283b69a956c07a4c21d81c0b3b8b2918b8bd13f7bad95099202b6c96671"
+    },
+    {
+      "name": "building-preview",
+      "command": "node verification/building-preview-v302.cjs",
+      "exitCode": 0,
+      "passed": 450,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/building-preview-v302.json",
+      "reportSha256": "80f117b81ee5ef8e659e1c7e2534b39f061a5174165f15d4ff3576f617dfd1e5",
+      "assertions": 5607
+    },
+    {
+      "name": "building-team-cue",
+      "command": "node verification/building-team-cue-v302.cjs",
+      "exitCode": 0,
+      "passed": 1,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/building-team-cue-v302.json",
+      "reportSha256": "b4218e0d6c2fa4ce43f8505a891a7824e3581c1afa32eddefb39b1b824ac5131",
+      "assertions": 10617,
+      "fixtureCases": 450,
+      "smoke": false
+    },
+    {
+      "name": "ore-density",
+      "command": "node verification/ore-density-v302.cjs",
+      "exitCode": 0,
+      "passed": 118,
+      "failed": 0,
+      "report": "verification/ore-density-v302-evidence/renderer-focused/ore-density-v302.json",
+      "reportSha256": "aba627e1d984901ad65eae6acaa06d01ac574b3d9a325f6c6cb5b38fde8df843"
+    }
+  ],
+  "projectionContract": "Validate complete historical base + eight ordered block paints + label and complete Canvas method sequence before omitting only the exact expected suffix. Candidate stream never projected; unrelated paint/method/field preserved. Existing immutable v301 cue projection stays unchanged.",
+  "densityCoverage": {
+    "cases": 118,
+    "productBehavioralNegatives": 19,
+    "thresholdQuantities": 16,
+    "maps": 8,
+    "previewStates": [
+      false,
+      true
+    ],
+    "backends": [
+      "cached",
+      "direct"
+    ],
+    "projectionNegativeCases": 92
+  },
+  "limitations": [
+    "Synthetic Canvas/Path2D recording, not native browser raster/FPS acceptance.",
+    "Focused target tests only; parent must run final aggregate on final artifact."
+  ]
+}

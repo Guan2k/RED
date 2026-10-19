@@ -1,0 +1,17 @@
+{
+  "base": "red-development/v301-vehicle-art-data/RED",
+  "baseSHA256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "baselineLedgerSHA256": "80a31be264572cb57a54394b3fc440a8155b6a9fde4d713c450e68fead500cfa",
+  "prototypeSHA256": "a254ae1b82185e9ca661d2c1af417a30c9bd806b72f4dd598942f580739f40d1",
+  "changedSourceFiles": [
+    "src/script/03-renderer.jsfrag"
+  ],
+  "sealedFilesVerified": 2109,
+  "baselineMismatches": [],
+  "thresholdsAbsolute": {
+    "positiveAtMost1500": 1,
+    "above1500AtMost4500": 4,
+    "above4500": 8
+  },
+  "noNewSettingsOrCacheOrWorldFields": true
+}

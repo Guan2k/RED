@@ -1,0 +1,5 @@
+# v302 ore-density evidence scope
+
+archived-prototype and archived-independent-review preserve the original reviewed prototype, scripts, generated proofs and reports unchanged. Their original workspace-relative paths and commands are historical provenance; they are not promised to run standalone from this archive. Current portable verification is registered in verification/run-tests-v302.cjs and described in verification/ORE_DENSITY_V302.md.
+
+The original 42-group/7449-assertion proof and independent 50-case/458-assertion plus five negative controls precede the versioned integration. Synthetic whole-frame draw-command replay images are not native browser screenshots; text metrics are VM approximations and manually supplied states are fixtures, not natural-playability evidence. A screen may obscure ore chunks under units/buildings/other layers; this is a coarse absolute-amount cue, not exact quantity or percentage. No native layout, accessibility or FPS guarantee follows from these proofs.

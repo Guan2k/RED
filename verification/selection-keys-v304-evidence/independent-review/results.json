@@ -1,0 +1,761 @@
+{
+  "scope": "Independent deterministic VM registered-key and actual button-callback tests; no real browser, native keyboard timing, accessibility, or real saves claimed.",
+  "sources": {
+    "baseline": {
+      "path": "/workspace/scratch/e433d7540f34/red-development/v303-low-ore-labels/RED/index.html",
+      "sha256": "8816d1df04b6bdb470a2ba64e790116c6f56eca12e3d98e5920c0cf226d51b36"
+    },
+    "candidate": {
+      "path": "/workspace/scratch/e433d7540f34/red-development/v304-work/RED/index.html",
+      "sha256": "b89d5197c8dcc4ec56b7c5a1bbf81fd0f43cb11710623d6b43520f80dd511baf"
+    }
+  },
+  "passed": 186,
+  "failed": 0,
+  "results": [
+    {
+      "name": "differential held f, paused=false, attack",
+      "passed": true
+    },
+    {
+      "name": "differential held f, paused=false, ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held f, paused=false, appendCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held f, paused=false, construction",
+      "passed": true
+    },
+    {
+      "name": "differential held f, paused=true, attack",
+      "passed": true
+    },
+    {
+      "name": "differential held f, paused=true, ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held f, paused=true, appendCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held f, paused=true, construction",
+      "passed": true
+    },
+    {
+      "name": "differential held i, paused=false, attack",
+      "passed": true
+    },
+    {
+      "name": "differential held i, paused=false, ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held i, paused=false, appendCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held i, paused=false, construction",
+      "passed": true
+    },
+    {
+      "name": "differential held i, paused=true, attack",
+      "passed": true
+    },
+    {
+      "name": "differential held i, paused=true, ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held i, paused=true, appendCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held i, paused=true, construction",
+      "passed": true
+    },
+    {
+      "name": "differential held m, paused=false, attack",
+      "passed": true
+    },
+    {
+      "name": "differential held m, paused=false, ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held m, paused=false, appendCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held m, paused=false, construction",
+      "passed": true
+    },
+    {
+      "name": "differential held m, paused=true, attack",
+      "passed": true
+    },
+    {
+      "name": "differential held m, paused=true, ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held m, paused=true, appendCommand",
+      "passed": true
+    },
+    {
+      "name": "differential held m, paused=true, construction",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence f paused=false repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence f paused=false repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence f paused=true repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence f paused=true repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence i paused=false repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence i paused=false repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence i paused=true repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence i paused=true repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence m paused=false repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence m paused=false repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence m paused=true repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence m paused=true repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence F paused=false repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence F paused=false repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence F paused=true repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence F paused=true repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence I paused=false repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence I paused=false repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence I paused=true repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence I paused=true repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence M paused=false repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence M paused=false repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence M paused=true repeat=false",
+      "passed": true
+    },
+    {
+      "name": "fresh equivalence M paused=true repeat=undefined",
+      "passed": true
+    },
+    {
+      "name": "modifier f {\"ctrlKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier f {\"ctrlKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier f {\"metaKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier f {\"metaKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier f {\"altKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier f {\"altKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier f {\"isComposing\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier f {\"isComposing\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier f {\"keyCode\":229} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier f {\"keyCode\":229} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier i {\"ctrlKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier i {\"ctrlKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier i {\"metaKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier i {\"metaKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier i {\"altKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier i {\"altKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier i {\"isComposing\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier i {\"isComposing\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier i {\"keyCode\":229} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier i {\"keyCode\":229} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier m {\"ctrlKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier m {\"ctrlKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier m {\"metaKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier m {\"metaKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier m {\"altKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier m {\"altKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier m {\"isComposing\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier m {\"isComposing\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier m {\"keyCode\":229} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier m {\"keyCode\":229} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier F {\"ctrlKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier F {\"ctrlKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier F {\"metaKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier F {\"metaKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier F {\"altKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier F {\"altKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier F {\"isComposing\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier F {\"isComposing\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier F {\"keyCode\":229} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier F {\"keyCode\":229} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier I {\"ctrlKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier I {\"ctrlKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier I {\"metaKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier I {\"metaKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier I {\"altKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier I {\"altKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier I {\"isComposing\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier I {\"isComposing\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier I {\"keyCode\":229} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier I {\"keyCode\":229} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier M {\"ctrlKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier M {\"ctrlKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier M {\"metaKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier M {\"metaKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier M {\"altKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier M {\"altKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier M {\"isComposing\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier M {\"isComposing\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier M {\"keyCode\":229} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier M {\"keyCode\":229} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus INPUT f repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus INPUT f repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus SELECT f repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus SELECT f repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus TEXTAREA f repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus TEXTAREA f repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus editable f repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus editable f repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus INPUT i repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus INPUT i repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus SELECT i repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus SELECT i repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus TEXTAREA i repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus TEXTAREA i repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus editable i repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus editable i repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus INPUT m repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus INPUT m repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus SELECT m repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus SELECT m repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus TEXTAREA m repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus TEXTAREA m repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus editable m repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus editable m repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity a repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity a repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity b repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity b repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity g repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity g repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity h repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity h repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity j repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity j repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity n repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity n repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity o repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity o repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity p repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity p repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity r repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity r repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity s repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity s repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 1 repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 1 repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 2 repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 2 repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 3 repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 3 repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 4 repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 4 repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 5 repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 5 repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 6 repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 6 repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 7 repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 7 repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 8 repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 8 repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 9 repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 9 repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 0 repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity 0 repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity Escape repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity Escape repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity   repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity   repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity x repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity x repeat=true",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity Enter repeat=false",
+      "passed": true
+    },
+    {
+      "name": "unrelated input baseline parity Enter repeat=true",
+      "passed": true
+    },
+    {
+      "name": "button focus first and repeat f focus=selectArmy",
+      "passed": true
+    },
+    {
+      "name": "button focus first and repeat f focus=attack",
+      "passed": true
+    },
+    {
+      "name": "button focus first and repeat i focus=selectArmy",
+      "passed": true
+    },
+    {
+      "name": "button focus first and repeat i focus=attack",
+      "passed": true
+    },
+    {
+      "name": "button focus first and repeat m focus=selectArmy",
+      "passed": true
+    },
+    {
+      "name": "button focus first and repeat m focus=attack",
+      "passed": true
+    }
+  ]
+}

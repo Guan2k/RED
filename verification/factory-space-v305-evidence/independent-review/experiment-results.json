@@ -1,0 +1,268 @@
+{
+  "sourceSha256": "0c240d954d7b2a9705f566baf0ca09991fc0a68b790e05ff1449279aa20cdda9",
+  "passed": 65,
+  "failed": 0,
+  "results": [
+    {
+      "name": "held Space differential paused=false n=1",
+      "passed": true
+    },
+    {
+      "name": "held Space differential paused=false n=2",
+      "passed": true
+    },
+    {
+      "name": "held Space differential paused=false n=30",
+      "passed": true
+    },
+    {
+      "name": "held Space differential paused=true n=1",
+      "passed": true
+    },
+    {
+      "name": "held Space differential paused=true n=2",
+      "passed": true
+    },
+    {
+      "name": "held Space differential paused=true n=30",
+      "passed": true
+    },
+    {
+      "name": "short first press parity   false {}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity   false {\"ctrlKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity   false {\"altKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity   false {\"metaKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity   false {\"shiftKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity Enter false {}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity Enter false {\"ctrlKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity Enter false {\"altKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity Enter false {\"metaKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity Enter false {\"shiftKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity   true {}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity   true {\"ctrlKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity   true {\"altKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity   true {\"metaKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity   true {\"shiftKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity Enter true {}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity Enter true {\"ctrlKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity Enter true {\"altKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity Enter true {\"metaKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "short first press parity Enter true {\"shiftKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "invalid token button-blur paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token window-blur paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token pointer-cancel paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token lost-capture paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token disabled-repeat paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token new-battle paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token blocked-repeat paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token repeat-Enter paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token released-repeat paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token consumed-repeat paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token pointer-token paused=false",
+      "passed": true
+    },
+    {
+      "name": "invalid token button-blur paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid token window-blur paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid token pointer-cancel paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid token lost-capture paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid token disabled-repeat paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid token new-battle paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid token blocked-repeat paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid token repeat-Enter paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid token released-repeat paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid token consumed-repeat paused=true",
+      "passed": true
+    },
+    {
+      "name": "invalid token pointer-token paused=true",
+      "passed": true
+    },
+    {
+      "name": "repeat cannot mint token Enter/ ",
+      "passed": true
+    },
+    {
+      "name": "repeat cannot mint token Enter/Enter",
+      "passed": true
+    },
+    {
+      "name": "repeat cannot mint token pointer/ ",
+      "passed": true
+    },
+    {
+      "name": "repeat cannot mint token pointer/Enter",
+      "passed": true
+    },
+    {
+      "name": "no-token repeat retains direct-click compatibility  ",
+      "passed": true
+    },
+    {
+      "name": "no-token repeat retains direct-click compatibility Enter",
+      "passed": true
+    },
+    {
+      "name": "held Space existing guard/modifier {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "held Space existing guard/modifier {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "held Space existing guard/modifier {\"ctrlKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "held Space existing guard/modifier {\"altKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "held Space existing guard/modifier {\"metaKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "held Space existing guard/modifier {\"shiftKey\":true}",
+      "passed": true
+    },
+    {
+      "name": "release activation sequencing before-keyup",
+      "passed": true
+    },
+    {
+      "name": "release activation sequencing after-keyup",
+      "passed": true
+    },
+    {
+      "name": "existing click callback compatibility direct-click",
+      "passed": true
+    },
+    {
+      "name": "existing click callback compatibility pointer",
+      "passed": true
+    },
+    {
+      "name": "existing click callback compatibility Enter",
+      "passed": true
+    }
+  ],
+  "scope": "Independent registered-handler VM evidence. Explicit keyboard, click, focus, disabled and restart fixtures; no browser event/default-click generation, physical input, accessibility or user storage claim."
+}

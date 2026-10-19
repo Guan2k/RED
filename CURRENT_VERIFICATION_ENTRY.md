@@ -1,11 +1,9 @@
-# 稳定默认验证入口：v0.301
+# 稳定默认验证入口：v0.305
 
-开发／发布运行 `node verify-development.cjs`。当前顺序为包完整性、当前文档契约、文档契约单测、权威 src 装配一致性、构建器测试、可信建筑数据验证、可信车辆数据验证，最后运行 current-verification.json 指定的游戏聚合。`node verify-development.cjs --check-only` 只执行前七阶段，不运行游戏。
+开发／发布运行 `node verify-development.cjs`。八阶段依次检查包完整性、当前文档契约、文档契约单测、权威src装配一致性、构建器测试、建筑数据、车辆数据和游戏聚合。`node verify-development.cjs --check-only` 只执行前七阶段，不运行游戏。
 
-当前 runner 为 verification/run-tests-v301.cjs，与 current-verification.json 及 README 一致。本次为 v301 的车辆静态数据与开发工具增补，游戏、README、当前玩家指南和玩家 ZIP 输入未变。旧的 `node verify-current.cjs` 仍是游戏验证入口，本身不检查文档契约。发布请使用开发入口。
+当前runner为verification/run-tests-v305.cjs，与current-verification.json及README一致。v305仅修复全工厂选择按钮长按空格后丢失释放激活的问题，并更新显示版本。`node verify-current.cjs` 是既有游戏入口，本身不检查当前文档或editable source。
 
-编辑循环、有限语法范围、历史 host 和工具测试见 [文档契约开发说明](DOCUMENT_CONTRACT_DEVELOPMENT.md)。完整性首先检查封包；编辑后直接检查源或文档，再经审查更新相应身份及根校验表，历史身份不能重钉。未刷新校验表时完整开发入口拒绝继续是预期行为。
+本轮唯一完整隔离gate已通过，2823个冻结输入在原包与隔离副本保持不变。当前结果为959继承行为／标记、10源码检查、15历史身份检查和79专项入口，含本轮62用例与4个精确变异负例。旧版在专项中准确复现6项长按失败。历史完整结果仍为各自原版本证据，不能代替当前完整验收。原生浏览器默认激活、物理按键时序与读屏尚未验收。
 
-原 v301 游戏发布的完整隔离证据见 [QA 状态](QA_STATUS.md)：67 构建器、56 建筑数据及 959/10/15/73 游戏检查，1953 个输入未变。本次维护增补的独立隔离结果另见 [工具验收](DOCUMENT_CONTRACT_DEVELOPMENT.md)。原生浏览器、无障碍及 FPS 验收仍未由这些 VM/合成检查证明。
-
-车辆源数据的新增校验、保守复杂度预算及本次同字节迁移证据见 [车辆数据开发说明](VEHICLE_ART_DATA_DEVELOPMENT.md)。旧文档契约增补记录属于此前阶段；当前完整入口为八阶段，check-only 为七阶段。
+编辑流程见DEVELOPING.md和DOCUMENT_CONTRACT_DEVELOPMENT.md。编辑后需经审查更新当前身份和根校验表，历史身份不得重钉。完整状态见[QA状态](QA_STATUS.md)。

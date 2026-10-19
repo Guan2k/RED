@@ -1,0 +1,19 @@
+{
+  "passed": 3,
+  "results": [
+    {
+      "mode": "deep",
+      "passed": true
+    },
+    {
+      "mode": "alias",
+      "passed": true
+    },
+    {
+      "mode": "shallow",
+      "passed": true
+    }
+  ],
+  "suiteSha": "95b4dc32842f83ff377dc17a1d7dcabd2f1138bf79913da1a3306dff565be4fa",
+  "scope": "Executed exact snapshotTracks/restoreTracks helper bodies extracted without running suite; nested array alias mutation plus previously absent entry recovery. Deep pass; reference and shallow negative controls fail."
+}

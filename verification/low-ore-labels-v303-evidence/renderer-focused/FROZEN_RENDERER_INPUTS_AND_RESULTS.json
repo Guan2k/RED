@@ -1,0 +1,208 @@
+{
+  "scope": "Frozen NEW v303 rendering/layout focused checks only; no aggregate, publication, native browser or product edits performed by this work unit.",
+  "productSha256": "8816d1df04b6bdb470a2ba64e790116c6f56eca12e3d98e5920c0cf226d51b36",
+  "baselineSha256": "30a960f10a359ac13fb04b3f758529376956227bb3dce079c8be0028476594f4",
+  "ownedSourceSha256": {
+    "render-preview-v303.cjs": "019428c8695b88e94a67a4c2fe2638c0daf2463ffc3ed4f55bdef418dd48ea32",
+    "render-preview-negative-control-v303.cjs": "2cf7a98a929b6f715c6e96c35e963183b094af1ae0da0e0093fd159cf0e49556",
+    "ore-layout-v303.cjs": "968777ed07951619850625ceb14864e4ea1c4148ecb6fd6bbe81b1c875052119",
+    "ore-layout-negative-control-v303.cjs": "e34de71485c15577d56f2c6e40c25d20373b4e01638b00187c6738f06f9a6b4b",
+    "health-edge-v303.cjs": "358f6b23a4b62c0ba7813e48ba074e2a886d42accabfac8b40a6c49ad0fd83d0",
+    "health-edge-negative-control-v303.cjs": "15e7e7fa90a9e8cae0d2dd5cf5a7186aeb3a4e7d26debcd3eac9aa743740ab99",
+    "progress-rails-v303.cjs": "c9f138aa374807f4624dfbe985fe68bd332f8c951b53248a5eeabccd449b783f",
+    "progress-rails-negative-control-v303.cjs": "dd18489dd621111bcb3b90b4e897f709eb401707b57d5abe3b5ab29286090687",
+    "building-preview-v303.cjs": "a6dd75eb5ca8309b77327869906467a1aa67d2532a44e6cf93c78effb02f3bb1",
+    "building-team-cue-v303.cjs": "4039f0c8710f28e428b28eebe39e5ccec8e4fe30e2dd233f3d0ecad3cb96a3c9",
+    "ore-density-v303.cjs": "5e2a9039f32a269be93ac9396103178dfb31df1b8694e8835a26194692cb5d10",
+    "low-ore-label-v303.cjs": "95b4dc32842f83ff377dc17a1d7dcabd2f1138bf79913da1a3306dff565be4fa",
+    "low-ore-label-oracle-v303.cjs": "7ef1c5ff6f48abca4115219b3e158c8b7eee1b98ad63b49e9dab515bb24c8b76",
+    "low-ore-label-recorder-v303.cjs": "8445340666c9aee8e29251dd261506741a3ff95defbe13e1633c05eee2d0ab5c",
+    "ore-density-normalization-v303.cjs": "b6257578d1d4ca804b905502e718f9679eb98dddbe8a147e192e5edebc7efd82"
+  },
+  "preservedHistoricalInputs": {
+    "render-preview-v302.cjs": {
+      "sha256": "1580e84e28c1b4c53b52e69193e18c685d28071289e823c297efb67ed6ec8eeb",
+      "baselineSha256": "1580e84e28c1b4c53b52e69193e18c685d28071289e823c297efb67ed6ec8eeb",
+      "matches": true
+    },
+    "render-preview-negative-control-v302.cjs": {
+      "sha256": "a863bef2161035c0578574d1f2450519149c46c18f90e677aa8854ee9d823713",
+      "baselineSha256": "a863bef2161035c0578574d1f2450519149c46c18f90e677aa8854ee9d823713",
+      "matches": true
+    },
+    "ore-layout-v302.cjs": {
+      "sha256": "658924e3c89dc8ecc1049b612d159a09b2974e7e1e5b7f16a5d1e582274c7b71",
+      "baselineSha256": "658924e3c89dc8ecc1049b612d159a09b2974e7e1e5b7f16a5d1e582274c7b71",
+      "matches": true
+    },
+    "ore-layout-negative-control-v302.cjs": {
+      "sha256": "09292a742e6dea460a7937da320acc8782f432a9ec87f509795357c913adf9d6",
+      "baselineSha256": "09292a742e6dea460a7937da320acc8782f432a9ec87f509795357c913adf9d6",
+      "matches": true
+    },
+    "health-edge-v302.cjs": {
+      "sha256": "316ebec6ecc3d03b928f96759024d72877ccd0f31a8b5d746c3866a52cd72cb7",
+      "baselineSha256": "316ebec6ecc3d03b928f96759024d72877ccd0f31a8b5d746c3866a52cd72cb7",
+      "matches": true
+    },
+    "health-edge-negative-control-v302.cjs": {
+      "sha256": "becdbb6638c8f195b4f3252a87b82d8e7c31793e0e677656a3cf57ca51842252",
+      "baselineSha256": "becdbb6638c8f195b4f3252a87b82d8e7c31793e0e677656a3cf57ca51842252",
+      "matches": true
+    },
+    "progress-rails-v302.cjs": {
+      "sha256": "856bf36b9e961e13b7db208e091ee3c6ca46ac78683bae073e33ca07b46d1169",
+      "baselineSha256": "856bf36b9e961e13b7db208e091ee3c6ca46ac78683bae073e33ca07b46d1169",
+      "matches": true
+    },
+    "progress-rails-negative-control-v302.cjs": {
+      "sha256": "45fddd367118ed2ddab2ef35c16af98e25d694e01b52f82b7b378d3d883664a7",
+      "baselineSha256": "45fddd367118ed2ddab2ef35c16af98e25d694e01b52f82b7b378d3d883664a7",
+      "matches": true
+    },
+    "building-preview-v302.cjs": {
+      "sha256": "0a592e3b572f922341d7631e647a1f1be5a30e37d727c71d7556f876ecd509ae",
+      "baselineSha256": "0a592e3b572f922341d7631e647a1f1be5a30e37d727c71d7556f876ecd509ae",
+      "matches": true
+    },
+    "building-team-cue-v302.cjs": {
+      "sha256": "552155c2e35694e800a3ddb0d8364bfcd0d7f1f7106a272b4d305e16d7284bcd",
+      "baselineSha256": "552155c2e35694e800a3ddb0d8364bfcd0d7f1f7106a272b4d305e16d7284bcd",
+      "matches": true
+    },
+    "ore-density-v302.cjs": {
+      "sha256": "b0ea0b88c9ef473fa8bd98637bac553511bb550ee96ec2ca156692cd536650df",
+      "baselineSha256": "b0ea0b88c9ef473fa8bd98637bac553511bb550ee96ec2ca156692cd536650df",
+      "matches": true
+    },
+    "ore-density-normalization-v302.cjs": {
+      "sha256": "2a1fda3fb1e0086b58cac1fbc72d46a459276c0d7e9bdf5536ffec55a9c639d2",
+      "baselineSha256": "2a1fda3fb1e0086b58cac1fbc72d46a459276c0d7e9bdf5536ffec55a9c639d2",
+      "matches": true
+    },
+    "vm-environment.cjs": {
+      "sha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+      "baselineSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+      "matches": true
+    },
+    "building-cue-normalization-v301.cjs": {
+      "sha256": "b962d7183c26b14e4206b8353d67498a4f9213b8d86b960105db18022c861eb4",
+      "baselineSha256": "b962d7183c26b14e4206b8353d67498a4f9213b8d86b960105db18022c861eb4",
+      "matches": true
+    },
+    "building-independent-v295/recorder.cjs": {
+      "sha256": "60915cdc7a9423b59b3ef8c535077190f128472fd2925df1e1f8c82e5dbd82e3",
+      "baselineSha256": "60915cdc7a9423b59b3ef8c535077190f128472fd2925df1e1f8c82e5dbd82e3",
+      "matches": true
+    },
+    "building-independent-v295/no-persistence-vm.cjs": {
+      "sha256": "478252a0790e4696f9b5225638842a1cad6056ed1c903fed17e9e38e2ef0b5ec",
+      "baselineSha256": "478252a0790e4696f9b5225638842a1cad6056ed1c903fed17e9e38e2ef0b5ec",
+      "matches": true
+    },
+    "building-team-cue-v301-support/recorder.cjs": {
+      "sha256": "2d554062368ac1ccfa520507fe6c38aa5b0c0fda92dd1b970e594d643fdca65b",
+      "baselineSha256": "2d554062368ac1ccfa520507fe6c38aa5b0c0fda92dd1b970e594d643fdca65b",
+      "matches": true
+    }
+  },
+  "reports": {
+    "low-ore-labels-v303-evidence/renderer-focused/render-preview-v303.cjs.json": {
+      "sha256": "3a6176d1f0a713736fe3be42be9c164fc490171a7dd2f7f17529f86f3e1a49ca",
+      "passed": 78,
+      "failed": 0,
+      "assertions": 7281
+    },
+    "low-ore-labels-v303-evidence/renderer-focused/render-preview-negative-control-v303.cjs.json": {
+      "sha256": "d592514b7eed17922a9ab6d0f85b98e4c15793c38c1dea4ce1ed8065b5748e7d",
+      "passed": 27,
+      "failed": 0,
+      "assertions": 239
+    },
+    "low-ore-labels-v303-evidence/renderer-focused/ore-layout-v303.cjs.json": {
+      "sha256": "2b9b5a99853bf1edb58c6cf4adee20aae5a7ce69e0b2ecaa1f91af24ee0abbec",
+      "passed": 5528,
+      "failed": 0,
+      "assertions": null
+    },
+    "low-ore-labels-v303-evidence/renderer-focused/ore-layout-negative-control-v303.cjs.json": {
+      "sha256": "22ecc99b343028efc86c92552f220b3872ae14438524c34886af0aca30548f4f",
+      "passed": 19,
+      "failed": 0,
+      "assertions": null
+    },
+    "low-ore-labels-v303-evidence/renderer-focused/low-ore-label-v303.cjs.json": {
+      "sha256": "bd87bd8e1a8781802956518c6e9b054493d06da241bd463e66603e3156604e6a",
+      "passed": 52,
+      "failed": 0,
+      "assertions": 10457
+    },
+    "low-ore-labels-v303-evidence/legacy-building-preview-results.json": {
+      "sha256": "c00c6ba37b349be79347422ff4d1215cf7c819ae06d358542464d21c50644bec",
+      "passed": 450,
+      "failed": 0,
+      "assertions": 5607
+    },
+    "low-ore-labels-v303-evidence/legacy-building-team-cue-results.json": {
+      "sha256": "b1c65e7971cf66ae06034f440521457b1d54cfd950b6d60cdeeaa15d6ad90093",
+      "passed": 1,
+      "failed": 0,
+      "assertions": 10617
+    },
+    "low-ore-labels-v303-evidence/legacy-health-edge-negative-control-results.json": {
+      "sha256": "ef7d927763224036879d5d1390d344cdfdd5875ff0d16de474cb3edc66c52ca3",
+      "passed": 10,
+      "failed": 0,
+      "assertions": null
+    },
+    "low-ore-labels-v303-evidence/legacy-health-edge-results.json": {
+      "sha256": "7070a21cf60ca128b8cb0b48d4af2957a8cd544fdb262475423afe5e0fde6ef0",
+      "passed": 2312,
+      "failed": 0,
+      "assertions": null
+    },
+    "low-ore-labels-v303-evidence/legacy-ore-density-results.json": {
+      "sha256": "da85944023a5cee0b1da900fcbf4b346ee2e2088b54c51ca018047abb19560f0",
+      "passed": 134,
+      "failed": 0,
+      "assertions": null
+    },
+    "low-ore-labels-v303-evidence/legacy-progress-rails-negative-control-results.json": {
+      "sha256": "6e7fd283b69a956c07a4c21d81c0b3b8b2918b8bd13f7bad95099202b6c96671",
+      "passed": 9,
+      "failed": 0,
+      "assertions": null
+    },
+    "low-ore-labels-v303-evidence/legacy-progress-rails-results.json": {
+      "sha256": "acc19832925b9faf405882a728d3cfc963f9a0aaf79d1599cd388286ae2a2794",
+      "passed": 202,
+      "failed": 0,
+      "assertions": null
+    }
+  },
+  "detailedLabelEvidence": {
+    "path": "low-ore-labels-v303-evidence/low-ore-label-v303-details.json",
+    "sha256": "8030f0eca421c6024edc13afcc34f6963e3992d20224e2273e2cc62445d57c3a"
+  },
+  "reproducibility": {
+    "summaryBytesIdentical": true,
+    "firstSummarySha256": "bd87bd8e1a8781802956518c6e9b054493d06da241bd463e66603e3156604e6a",
+    "secondSummarySha256": "bd87bd8e1a8781802956518c6e9b054493d06da241bd463e66603e3156604e6a",
+    "detailedJsonTwoRunsSha256": "8030f0eca421c6024edc13afcc34f6963e3992d20224e2273e2cc62445d57c3a"
+  },
+  "preliminaryDiagnostics": {
+    "path": "low-ore-labels-v303-evidence/renderer-focused/preliminary-diagnostics/README.json",
+    "sha256": "672dc69fb88d53cab79ad02e3901e3baacce4db0b892479f13b22f6a6b38e015"
+  },
+  "review": {
+    "path": "low-ore-labels-v303-evidence/renderer-focused/REVIEW.md",
+    "sha256": "1d7759a5e0be41f0c855c95e401cb1e3efe889a66b64bccfb915b0e331955e1d"
+  },
+  "focusedStderrBytes": {
+    "low-ore-labels-v303-evidence/renderer-focused/low-ore-label-v303.cjs.stderr": 0,
+    "low-ore-labels-v303-evidence/renderer-focused/ore-layout-negative-control-v303.cjs.stderr": 0,
+    "low-ore-labels-v303-evidence/renderer-focused/ore-layout-v303.cjs.stderr": 0,
+    "low-ore-labels-v303-evidence/renderer-focused/render-preview-negative-control-v303.cjs.stderr": 0,
+    "low-ore-labels-v303-evidence/renderer-focused/render-preview-v303.cjs.stderr": 0
+  }
+}

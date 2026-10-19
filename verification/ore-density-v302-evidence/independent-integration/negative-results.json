@@ -1,0 +1,26 @@
+{
+  "passed": 5,
+  "results": [
+    {
+      "name": "lower boundary",
+      "rejected": true
+    },
+    {
+      "name": "upper boundary",
+      "rejected": true
+    },
+    {
+      "name": "middle count",
+      "rejected": true
+    },
+    {
+      "name": "low geometry",
+      "rejected": true
+    },
+    {
+      "name": "retained color",
+      "rejected": true
+    }
+  ],
+  "scope": "Behavior-only negative controls bypass exact-source identity assertion so paint/threshold oracle itself must reject."
+}

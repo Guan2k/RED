@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "archiveSha256": "6e658db3cdae186f2eed4e3425558b9adbc5167b173bd0f7e7dfa698350b67c6",
+  "bytes": 547416,
+  "relocatedToolUsesExplicitSourceRoot": true,
+  "standardLibraryOnly": true,
+  "byteIdentical": true
+}

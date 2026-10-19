@@ -1,0 +1,14 @@
+{
+  "passed": 42,
+  "failed": 2,
+  "issues": [
+    {
+      "test": "frozen tree exact single expression and generated output",
+      "cause": "Prototype is intentionally a minimal source subset; full baseline tree contains 2388 product/publication/evidence files."
+    },
+    {
+      "test": "actual VM replays synthetic candidate and boundary fixtures in both preview modes",
+      "cause": "Fixture profile reset replaced the recorder measureText wrapper; production result was correct. Use a stable dispatch closure to retain method recording."
+    }
+  ]
+}

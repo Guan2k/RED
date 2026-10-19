@@ -1,0 +1,24 @@
+{
+  "passed": 17,
+  "checks": 25,
+  "helperSha": "7ef1c5ff6f48abca4115219b3e158c8b7eee1b98ad63b49e9dab515bb24c8b76",
+  "results": [
+    "format 0",
+    "format 0.01",
+    "format 180",
+    "format 999.5",
+    "format 1000",
+    "format 1001",
+    "format 4500",
+    "changed historical body x:o.x-25",
+    "changed historical body Math.ceil(o.amount/1000)",
+    "changed historical body expanded?68:36",
+    "changed historical body left:Math.max(0,m.actualBoundingBoxLeft||0)",
+    "changed historical body ||candidates[0]",
+    "current layout cannot enter historical adapter",
+    "duplicated layout rejected",
+    "unrelated changes survive source adapter",
+    "whole-frame expected-side only false",
+    "whole-frame expected-side only true"
+  ]
+}

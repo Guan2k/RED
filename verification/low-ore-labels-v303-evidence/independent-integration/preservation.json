@@ -1,0 +1,19 @@
+{
+  "oldFiles": 2389,
+  "missing": [],
+  "changed": [
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "DEVELOPING.md",
+    "QUICK_START.html",
+    "index.html",
+    "CURRENT_PLAYER_GUIDE.md",
+    "QA_STATUS.md",
+    "current-verification.json",
+    "README.md",
+    "source-build-receipt.json",
+    "src/index.template.html",
+    "src/script/03-renderer.jsfrag"
+  ],
+  "quickStartVersionOnly": true,
+  "historicalVerificationChanges": []
+}

@@ -1,0 +1,30 @@
+{
+  "passed": 6,
+  "results": [
+    {
+      "mode": "current",
+      "accepted": true
+    },
+    {
+      "mode": "prior-game-version",
+      "accepted": true
+    },
+    {
+      "mode": "bad-manifest",
+      "accepted": false
+    },
+    {
+      "mode": "bad-output-receipt",
+      "accepted": false
+    },
+    {
+      "mode": "bad-input-receipt",
+      "accepted": false
+    },
+    {
+      "mode": "manual-html",
+      "accepted": false
+    }
+  ],
+  "scope": "Current active identity test in private nine-input fixtures; prior game version accepted without reverse patches; four independent drift cases rejected. No game execution."
+}

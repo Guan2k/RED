@@ -1,0 +1,1 @@
+Historical pre-ore v301 test host. Run node --test tools/source-build-vehicle-art.test.mjs tools/test-development-preflight-vehicle-art-v301.cjs here. Retained source and tools are exact old bytes; this is a bounded test host, not a standalone game release.

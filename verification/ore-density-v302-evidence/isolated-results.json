@@ -1,0 +1,18 @@
+{
+  "command": "node verify-development.cjs",
+  "startedAt": "2026-10-18T12:52:43.358035+00:00",
+  "finishedAt": "2026-10-18T13:00:14.438689+00:00",
+  "exitCode": 0,
+  "stderr": "",
+  "sourceSha256": "30a960f10a359ac13fb04b3f758529376956227bb3dce079c8be0028476594f4",
+  "wrapperSha256": "52c2735239f450e1ffd03125bdd728bec201050dbef2eac71d1393867606a81f",
+  "builderSha256": "ae012e574d3789a868cb9d566fd0c5c229868d30f95b5872e3a10ffa5ff0fd02",
+  "packageFilesChecked": 2382,
+  "originalPackageUnchanged": true,
+  "isolatedSnapshotUnchanged": true,
+  "leftoverNewTemporaryDirectories": [],
+  "inheritedBehaviorAndMarkup": 959,
+  "inheritedSourceChecks": 10,
+  "historicalIdentity": 15,
+  "focusedResultEntries": 74
+}

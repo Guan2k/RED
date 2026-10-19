@@ -1,0 +1,181 @@
+{
+  "passed": 42,
+  "failed": 0,
+  "assertions": 483,
+  "pairedCheckpoints": 51,
+  "testedSourceSha256": "30a960f10a359ac13fb04b3f758529376956227bb3dce079c8be0028476594f4",
+  "packagedSourceSha256": "4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f",
+  "historicalProofSourceSha256": "7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b",
+  "referenceSourceSha256": "5d8e0f32d62179704ac98c14ab9229ba4725a5080c1379200ce35b99dd765e2d",
+  "results": [
+    {
+      "name": "source identity",
+      "passed": true
+    },
+    {
+      "name": "packaged exact three-boundary delta and restoration guards",
+      "passed": true
+    },
+    {
+      "name": "static attack button declares false before script execution",
+      "passed": true
+    },
+    {
+      "name": "initial menu false and disabled with stale handler no-op",
+      "passed": true
+    },
+    {
+      "name": "newly started game false and enabled",
+      "passed": true
+    },
+    {
+      "name": "click toggles true then false without changing world",
+      "passed": true
+    },
+    {
+      "name": "attack can remain armed without a selection",
+      "passed": true
+    },
+    {
+      "name": "A shortcut toggles true then false",
+      "passed": true
+    },
+    {
+      "name": "ignored A shortcut repeat",
+      "passed": true
+    },
+    {
+      "name": "ignored A shortcut control",
+      "passed": true
+    },
+    {
+      "name": "ignored A shortcut meta",
+      "passed": true
+    },
+    {
+      "name": "ignored A shortcut alt",
+      "passed": true
+    },
+    {
+      "name": "ignored A shortcut composing",
+      "passed": true
+    },
+    {
+      "name": "ignored A shortcut keyCode229",
+      "passed": true
+    },
+    {
+      "name": "attack activation replaces pending build",
+      "passed": true
+    },
+    {
+      "name": "attack activation replaces pending ordinary",
+      "passed": true
+    },
+    {
+      "name": "attack activation replaces pending append",
+      "passed": true
+    },
+    {
+      "name": "primary map handler issues ground attack then existing refresh reflects false",
+      "passed": true
+    },
+    {
+      "name": "primary map handler issues enemy target then refresh reflects false",
+      "passed": true
+    },
+    {
+      "name": "primary map handler with empty selection clears actual mode on refresh",
+      "passed": true
+    },
+    {
+      "name": "rock-blocked primary point preserves armed mode",
+      "passed": true
+    },
+    {
+      "name": "exit attack through Escape",
+      "passed": true
+    },
+    {
+      "name": "exit attack through cancelPending",
+      "passed": true
+    },
+    {
+      "name": "exit attack through build",
+      "passed": true
+    },
+    {
+      "name": "exit attack through ordinary",
+      "passed": true
+    },
+    {
+      "name": "exit attack through append",
+      "passed": true
+    },
+    {
+      "name": "exit attack through selection",
+      "passed": true
+    },
+    {
+      "name": "exit attack through stop",
+      "passed": true
+    },
+    {
+      "name": "pause and resume preserve actual armed mode",
+      "passed": true
+    },
+    {
+      "name": "restart dialog and cancel button retain true while disabled only in dialog",
+      "passed": true
+    },
+    {
+      "name": "Escape from restart dialog cancels dialog and clears attack",
+      "passed": true
+    },
+    {
+      "name": "new start after restart resets armed mode false",
+      "passed": true
+    },
+    {
+      "name": "synthetic direct reset clears armed mode false",
+      "passed": true
+    },
+    {
+      "name": "window blur preserves actual mode false",
+      "passed": true
+    },
+    {
+      "name": "window blur preserves actual mode true",
+      "passed": true
+    },
+    {
+      "name": "synthetic terminal keeps actual true while disabled",
+      "passed": true
+    },
+    {
+      "name": "synthetic not started keeps actual true while disabled",
+      "passed": true
+    },
+    {
+      "name": "focused button \"Enter\" native activation model toggles once",
+      "passed": true
+    },
+    {
+      "name": "focused button \" \" native activation model toggles once",
+      "passed": true
+    },
+    {
+      "name": "Escape cancels held Space activation model",
+      "passed": true
+    },
+    {
+      "name": "extra updateUI and canvas render preserve world orders economy and input false",
+      "passed": true
+    },
+    {
+      "name": "extra updateUI and canvas render preserve world orders economy and input true",
+      "passed": true
+    }
+  ],
+  "scope": "Whole-source Node VM / modeled DOM only. Exact restored v270 paired whole state/input/DOM checkpoints normalize only attack aria-pressed; historical v271 source proof permits only that attribute, its updateUI setter and version; current package is independently hash-pinned and strictly restored to v271. Pointer dispatch uses the actual registered handler. Existing pointer-to-UI-refresh delay is retained. Keyboard native activation is explicitly modeled, not browser or screen-reader fidelity. Terminal/not-started injections and direct reset are synthetic. No save/load/import/export actions, browser, network or Codex CLI."
+}

@@ -1,0 +1,380 @@
+{
+  "passed": 93,
+  "failed": 0,
+  "sourceSha256": "b89d5197c8dcc4ec56b7c5a1bbf81fd0f43cb11710623d6b43520f80dd511baf",
+  "results": [
+    {
+      "name": "held f upper=false paused=false preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held f upper=false paused=true preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held f upper=true paused=false preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held f upper=true paused=true preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held i upper=false paused=false preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held i upper=false paused=true preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held i upper=true paused=false preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held i upper=true paused=true preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held m upper=false paused=false preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held m upper=false paused=true preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held m upper=true paused=false preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "held m upper=true paused=true preserves intervening attack",
+      "passed": true
+    },
+    {
+      "name": "f first repeat=false matches visible button",
+      "passed": true
+    },
+    {
+      "name": "f first repeat=undefined matches visible button",
+      "passed": true
+    },
+    {
+      "name": "i first repeat=false matches visible button",
+      "passed": true
+    },
+    {
+      "name": "i first repeat=undefined matches visible button",
+      "passed": true
+    },
+    {
+      "name": "m first repeat=false matches visible button",
+      "passed": true
+    },
+    {
+      "name": "m first repeat=undefined matches visible button",
+      "passed": true
+    },
+    {
+      "name": "f guard {\"ctrlKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f guard {\"ctrlKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f guard {\"metaKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f guard {\"metaKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f guard {\"altKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f guard {\"altKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f guard {\"isComposing\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f guard {\"isComposing\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f guard {\"keyCode\":229} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f guard {\"keyCode\":229} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i guard {\"ctrlKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i guard {\"ctrlKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i guard {\"metaKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i guard {\"metaKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i guard {\"altKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i guard {\"altKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i guard {\"isComposing\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i guard {\"isComposing\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i guard {\"keyCode\":229} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i guard {\"keyCode\":229} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m guard {\"ctrlKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m guard {\"ctrlKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m guard {\"metaKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m guard {\"metaKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m guard {\"altKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m guard {\"altKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m guard {\"isComposing\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m guard {\"isComposing\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m guard {\"keyCode\":229} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m guard {\"keyCode\":229} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f focus INPUT repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f focus INPUT repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f focus SELECT repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f focus SELECT repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f focus TEXTAREA repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f focus TEXTAREA repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f focus editable repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f focus editable repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i focus INPUT repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i focus INPUT repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i focus SELECT repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i focus SELECT repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i focus TEXTAREA repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i focus TEXTAREA repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i focus editable repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i focus editable repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m focus INPUT repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m focus INPUT repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m focus SELECT repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m focus SELECT repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m focus TEXTAREA repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m focus TEXTAREA repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m focus editable repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m focus editable repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f lifecycle prestart repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f lifecycle prestart repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f lifecycle restart repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f lifecycle restart repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f lifecycle terminal repeat=false",
+      "passed": true
+    },
+    {
+      "name": "f lifecycle terminal repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i lifecycle prestart repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i lifecycle prestart repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i lifecycle restart repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i lifecycle restart repeat=true",
+      "passed": true
+    },
+    {
+      "name": "i lifecycle terminal repeat=false",
+      "passed": true
+    },
+    {
+      "name": "i lifecycle terminal repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m lifecycle prestart repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m lifecycle prestart repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m lifecycle restart repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m lifecycle restart repeat=true",
+      "passed": true
+    },
+    {
+      "name": "m lifecycle terminal repeat=false",
+      "passed": true
+    },
+    {
+      "name": "m lifecycle terminal repeat=true",
+      "passed": true
+    },
+    {
+      "name": "f visible button remains repeatable",
+      "passed": true
+    },
+    {
+      "name": "i visible button remains repeatable",
+      "passed": true
+    },
+    {
+      "name": "m visible button remains repeatable",
+      "passed": true
+    }
+  ],
+  "scope": "Isolated VM registered-key dispatch and button callbacks. Natural initial battle plus explicit lifecycle/focus fixtures. No browser key timing, accessibility, persistence, or full release claim."
+}

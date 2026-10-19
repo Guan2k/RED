@@ -1,0 +1,6 @@
+{
+  "exactGameplayDelta": "Adds f, i, m to existing e.repeat guard; no other script fragment change",
+  "baselineSha256": "9ef9cfd6340d2b0d376bccff95ccb2cca82e2d5974a5e5bf7caccefba2ed4d86",
+  "candidateSha256": "8cabf43c75eaecdefa6a9fdf9dace4ada191370b661fb607af09e620c76a9549",
+  "verified": true
+}

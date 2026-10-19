@@ -1,0 +1,262 @@
+{
+  "sourceSha256": "b89d5197c8dcc4ec56b7c5a1bbf81fd0f43cb11710623d6b43520f80dd511baf",
+  "passed": 56,
+  "failed": 6,
+  "results": [
+    {
+      "name": "space release false/0",
+      "passed": true
+    },
+    {
+      "name": "space release false/1",
+      "passed": false,
+      "error": "held Space releases one selection"
+    },
+    {
+      "name": "space release false/4",
+      "passed": false,
+      "error": "held Space releases one selection"
+    },
+    {
+      "name": "space release false/20",
+      "passed": false,
+      "error": "held Space releases one selection"
+    },
+    {
+      "name": "space release true/0",
+      "passed": true
+    },
+    {
+      "name": "space release true/1",
+      "passed": false,
+      "error": "held Space releases one selection"
+    },
+    {
+      "name": "space release true/4",
+      "passed": false,
+      "error": "held Space releases one selection"
+    },
+    {
+      "name": "space release true/20",
+      "passed": false,
+      "error": "held Space releases one selection"
+    },
+    {
+      "name": "interrupted false/0/button-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/0/focus-change",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/0/window-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/0/restart",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/0/pointercancel",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/0/lostcapture",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/0/disabled",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/1/button-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/1/focus-change",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/1/window-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/1/restart",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/1/pointercancel",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/1/lostcapture",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/1/disabled",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/4/button-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/4/focus-change",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/4/window-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/4/restart",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/4/pointercancel",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/4/lostcapture",
+      "passed": true
+    },
+    {
+      "name": "interrupted false/4/disabled",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/0/button-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/0/focus-change",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/0/window-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/0/restart",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/0/pointercancel",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/0/lostcapture",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/0/disabled",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/1/button-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/1/focus-change",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/1/window-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/1/restart",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/1/pointercancel",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/1/lostcapture",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/1/disabled",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/4/button-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/4/focus-change",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/4/window-blur",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/4/restart",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/4/pointercancel",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/4/lostcapture",
+      "passed": true
+    },
+    {
+      "name": "interrupted true/4/disabled",
+      "passed": true
+    },
+    {
+      "name": "Enter false/1",
+      "passed": true
+    },
+    {
+      "name": "Enter false/4",
+      "passed": true
+    },
+    {
+      "name": "Enter true/1",
+      "passed": true
+    },
+    {
+      "name": "Enter true/4",
+      "passed": true
+    },
+    {
+      "name": "pointer interrupted by repeat false/ ",
+      "passed": true
+    },
+    {
+      "name": "pointer interrupted by repeat false/Enter",
+      "passed": true
+    },
+    {
+      "name": "pointer interrupted by repeat true/ ",
+      "passed": true
+    },
+    {
+      "name": "pointer interrupted by repeat true/Enter",
+      "passed": true
+    },
+    {
+      "name": "composition false/{\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "composition false/{\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "composition true/{\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "composition true/{\"keyCode\":229}",
+      "passed": true
+    }
+  ],
+  "scope": "Synthetic registered handlers, natural battle and UI controls; explicit DOM focus/disabled fixtures. No native-browser claim. Current source passed explicitly or defaults to index.html."
+}

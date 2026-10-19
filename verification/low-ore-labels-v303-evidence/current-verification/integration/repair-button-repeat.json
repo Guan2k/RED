@@ -1,0 +1,315 @@
+{
+  "passed": 57,
+  "failed": 0,
+  "assertions": 439,
+  "pairedCheckpoints": 61,
+  "modeledDefaultClicks": 32,
+  "testedSourceSha256": "8816d1df04b6bdb470a2ba64e790116c6f56eca12e3d98e5920c0cf226d51b36",
+  "packagedSourceSha256": "4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f",
+  "referenceSourceSha256": "7d7e7e84d404be3af143e5c3c17527197e415e38192d1653543041f4e1e59b9b",
+  "results": [
+    {
+      "name": "source identity",
+      "passed": true
+    },
+    {
+      "name": "packaged exact two-boundary delta and restoration guards",
+      "passed": true
+    },
+    {
+      "name": "code gate repeated Enter",
+      "passed": true,
+      "evidence": {
+        "prevented": true,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate initial Enter",
+      "passed": true,
+      "evidence": {
+        "prevented": false,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate repeated Space",
+      "passed": true,
+      "evidence": {
+        "prevented": false,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate initial Space",
+      "passed": true,
+      "evidence": {
+        "prevented": false,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate composing repeated Enter",
+      "passed": true,
+      "evidence": {
+        "prevented": false,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate IME229 repeated Enter",
+      "passed": true,
+      "evidence": {
+        "prevented": false,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate composing IME229 Enter",
+      "passed": true,
+      "evidence": {
+        "prevented": false,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate repeated Escape",
+      "passed": true,
+      "evidence": {
+        "prevented": false,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate repeated R",
+      "passed": true,
+      "evidence": {
+        "prevented": false,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate repeated lowercase enter",
+      "passed": true,
+      "evidence": {
+        "prevented": false,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate Control repeated Enter",
+      "passed": true,
+      "evidence": {
+        "prevented": true,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate Meta repeated Enter",
+      "passed": true,
+      "evidence": {
+        "prevented": true,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate Alt repeated Enter",
+      "passed": true,
+      "evidence": {
+        "prevented": true,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate Shift repeated Enter",
+      "passed": true,
+      "evidence": {
+        "prevented": true,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "code gate all modifiers repeated Enter",
+      "passed": true,
+      "evidence": {
+        "prevented": true,
+        "nativeActivationExecuted": false
+      }
+    },
+    {
+      "name": "held Enter spends once running",
+      "passed": true,
+      "evidence": {
+        "damageFixture": "synthetic HQ damage",
+        "candidateEvents": 5,
+        "referenceIntendedActivations": 1,
+        "expectedHeal": 300,
+        "expectedCost": 100
+      }
+    },
+    {
+      "name": "held Enter spends once paused",
+      "passed": true,
+      "evidence": {
+        "damageFixture": "synthetic HQ damage",
+        "candidateEvents": 5,
+        "referenceIntendedActivations": 1,
+        "expectedHeal": 300,
+        "expectedCost": 100
+      }
+    },
+    {
+      "name": "repeated Enter keydown alone preserves pending commands orders and DOM",
+      "passed": true
+    },
+    {
+      "name": "fresh repeated mouse clicks retain exact capped repairs",
+      "passed": true
+    },
+    {
+      "name": "released and repressed Enter retains fresh repairs",
+      "passed": true
+    },
+    {
+      "name": "Space remains keyup activation without global pause",
+      "passed": true
+    },
+    {
+      "name": "focused composition does not enter global shortcuts",
+      "passed": true
+    },
+    {
+      "name": "focused IME229 does not enter global shortcuts",
+      "passed": true
+    },
+    {
+      "name": "existing repair quote damage 1000 cash 1",
+      "passed": true
+    },
+    {
+      "name": "existing repair quote damage 1000 cash 100.9",
+      "passed": true
+    },
+    {
+      "name": "existing repair quote damage 100 cash 1000",
+      "passed": true
+    },
+    {
+      "name": "existing repair quote damage 0.05 cash 1000",
+      "passed": true
+    },
+    {
+      "name": "ineligible healthy remains disabled",
+      "passed": true
+    },
+    {
+      "name": "ineligible no cash remains disabled",
+      "passed": true
+    },
+    {
+      "name": "ineligible enemy remains disabled",
+      "passed": true
+    },
+    {
+      "name": "ineligible unit remains disabled",
+      "passed": true
+    },
+    {
+      "name": "ineligible under construction remains disabled",
+      "passed": true
+    },
+    {
+      "name": "ineligible dead remains disabled",
+      "passed": true
+    },
+    {
+      "name": "ineligible no selection remains disabled",
+      "passed": true
+    },
+    {
+      "name": "mixed selection repairs existing first eligible target only",
+      "passed": true
+    },
+    {
+      "name": "lifecycle initial rejects stale click and key activation",
+      "passed": true
+    },
+    {
+      "name": "lifecycle restart rejects stale click and key activation",
+      "passed": true
+    },
+    {
+      "name": "lifecycle terminal rejects stale click and key activation",
+      "passed": true
+    },
+    {
+      "name": "restart cancel resumes allowed fresh repair",
+      "passed": true
+    },
+    {
+      "name": "old onclick reference after restart uses current selection safely",
+      "passed": true
+    },
+    {
+      "name": "R shortcut once and repeat ignored with map focus",
+      "passed": true
+    },
+    {
+      "name": "R shortcut once and repeat ignored with repair focus",
+      "passed": true
+    },
+    {
+      "name": "ignored global R Shift",
+      "passed": true
+    },
+    {
+      "name": "ignored global R Control",
+      "passed": true
+    },
+    {
+      "name": "ignored global R Meta",
+      "passed": true
+    },
+    {
+      "name": "ignored global R Alt",
+      "passed": true
+    },
+    {
+      "name": "ignored global R composition",
+      "passed": true
+    },
+    {
+      "name": "ignored global R IME229",
+      "passed": true
+    },
+    {
+      "name": "editable focus repairReserve keeps R and Space untouched",
+      "passed": true
+    },
+    {
+      "name": "editable focus scenario keeps R and Space untouched",
+      "passed": true
+    },
+    {
+      "name": "unfocused Space pause toggle and repeat policy unchanged",
+      "passed": true
+    },
+    {
+      "name": "unrelated pause button repeat behavior unchanged",
+      "passed": true
+    },
+    {
+      "name": "unrelated attack button repeat behavior unchanged",
+      "passed": true
+    },
+    {
+      "name": "purchase button retains own Enter repeat gate and paid queue behavior",
+      "passed": true
+    },
+    {
+      "name": "UI refresh preserves repair world input orders and identities",
+      "passed": true
+    }
+  ],
+  "scope": "Full-source Node VM / modeled DOM only. Exact restored v271 whole-state/input/order/DOM parity for legitimate activations and next simulation; held Enter compares candidate repeated events against v271 single intended activation. Explicit conditional Enter keydown and Space keyup default-click model; native keydown/default-click/focus behavior remains unverified. HQ damage, command sentinels and terminal injection are synthetic, not naturally observed. This is a purchase-button consistency enhancement, not an existing R-only contract violation. Exact two source boundaries only. No browser, network, Codex CLI, user computer, or save/load/import/export execution."
+}

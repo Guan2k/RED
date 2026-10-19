@@ -1,0 +1,180 @@
+{
+  "passed": true,
+  "productSha256": "8816d1df04b6bdb470a2ba64e790116c6f56eca12e3d98e5920c0cf226d51b36",
+  "focusedSuites": [
+    {
+      "name": "health-edge",
+      "command": "node verification/health-edge-v303.cjs",
+      "report": "verification/low-ore-labels-v303-evidence/legacy-health-edge-results.json",
+      "passed": 2312,
+      "failed": 0,
+      "exitCode": 0,
+      "stderrBytes": 0
+    },
+    {
+      "name": "health-edge-negative-control",
+      "command": "node verification/health-edge-negative-control-v303.cjs",
+      "report": "verification/low-ore-labels-v303-evidence/legacy-health-edge-negative-control-results.json",
+      "passed": 10,
+      "failed": 0,
+      "exitCode": 0,
+      "stderrBytes": 0
+    },
+    {
+      "name": "progress-rails",
+      "command": "node verification/progress-rails-v303.cjs",
+      "report": "verification/low-ore-labels-v303-evidence/legacy-progress-rails-results.json",
+      "passed": 202,
+      "failed": 0,
+      "exitCode": 0,
+      "stderrBytes": 0
+    },
+    {
+      "name": "progress-rails-negative-control",
+      "command": "node verification/progress-rails-negative-control-v303.cjs",
+      "report": "verification/low-ore-labels-v303-evidence/legacy-progress-rails-negative-control-results.json",
+      "passed": 9,
+      "failed": 0,
+      "exitCode": 0,
+      "stderrBytes": 0
+    },
+    {
+      "name": "building-preview",
+      "command": "node verification/building-preview-v303.cjs",
+      "report": "verification/low-ore-labels-v303-evidence/legacy-building-preview-results.json",
+      "passed": 450,
+      "failed": 0,
+      "exitCode": 0,
+      "stderrBytes": 0,
+      "assertions": 5607,
+      "cases": 450
+    },
+    {
+      "name": "building-team-cue",
+      "command": "node verification/building-team-cue-v303.cjs",
+      "report": "verification/low-ore-labels-v303-evidence/legacy-building-team-cue-results.json",
+      "passed": 1,
+      "failed": 0,
+      "exitCode": 0,
+      "stderrBytes": 0,
+      "assertions": 10617,
+      "fixtureCases": 450
+    },
+    {
+      "name": "ore-density",
+      "command": "node verification/ore-density-v303.cjs",
+      "report": "verification/low-ore-labels-v303-evidence/legacy-ore-density-results.json",
+      "passed": 134,
+      "failed": 0,
+      "exitCode": 0,
+      "stderrBytes": 0
+    }
+  ],
+  "verificationFiles": [
+    {
+      "path": "verification/health-edge-v303.cjs",
+      "sha256": "358f6b23a4b62c0ba7813e48ba074e2a886d42accabfac8b40a6c49ad0fd83d0"
+    },
+    {
+      "path": "verification/health-edge-negative-control-v303.cjs",
+      "sha256": "15e7e7fa90a9e8cae0d2dd5cf5a7186aeb3a4e7d26debcd3eac9aa743740ab99"
+    },
+    {
+      "path": "verification/progress-rails-v303.cjs",
+      "sha256": "c9f138aa374807f4624dfbe985fe68bd332f8c951b53248a5eeabccd449b783f"
+    },
+    {
+      "path": "verification/progress-rails-negative-control-v303.cjs",
+      "sha256": "dd18489dd621111bcb3b90b4e897f709eb401707b57d5abe3b5ab29286090687"
+    },
+    {
+      "path": "verification/building-preview-v303.cjs",
+      "sha256": "a6dd75eb5ca8309b77327869906467a1aa67d2532a44e6cf93c78effb02f3bb1"
+    },
+    {
+      "path": "verification/building-team-cue-v303.cjs",
+      "sha256": "4039f0c8710f28e428b28eebe39e5ccec8e4fe30e2dd233f3d0ecad3cb96a3c9"
+    },
+    {
+      "path": "verification/ore-density-v303.cjs",
+      "sha256": "5e2a9039f32a269be93ac9396103178dfb31df1b8694e8835a26194692cb5d10"
+    }
+  ],
+  "historicalPreservation": [
+    {
+      "path": "verification/health-edge-v302.cjs",
+      "sha256": "316ebec6ecc3d03b928f96759024d72877ccd0f31a8b5d746c3866a52cd72cb7",
+      "unchangedFromFinalV302": true
+    },
+    {
+      "path": "verification/health-edge-negative-control-v302.cjs",
+      "sha256": "becdbb6638c8f195b4f3252a87b82d8e7c31793e0e677656a3cf57ca51842252",
+      "unchangedFromFinalV302": true
+    },
+    {
+      "path": "verification/progress-rails-v302.cjs",
+      "sha256": "856bf36b9e961e13b7db208e091ee3c6ca46ac78683bae073e33ca07b46d1169",
+      "unchangedFromFinalV302": true
+    },
+    {
+      "path": "verification/progress-rails-negative-control-v302.cjs",
+      "sha256": "45fddd367118ed2ddab2ef35c16af98e25d694e01b52f82b7b378d3d883664a7",
+      "unchangedFromFinalV302": true
+    },
+    {
+      "path": "verification/building-preview-v302.cjs",
+      "sha256": "0a592e3b572f922341d7631e647a1f1be5a30e37d727c71d7556f876ecd509ae",
+      "unchangedFromFinalV302": true
+    },
+    {
+      "path": "verification/building-team-cue-v302.cjs",
+      "sha256": "552155c2e35694e800a3ddb0d8364bfcd0d7f1f7106a272b4d305e16d7284bcd",
+      "unchangedFromFinalV302": true
+    },
+    {
+      "path": "verification/ore-density-v302.cjs",
+      "sha256": "b0ea0b88c9ef473fa8bd98637bac553511bb550ee96ec2ca156692cd536650df",
+      "unchangedFromFinalV302": true
+    }
+  ],
+  "expectedSidePolicy": "Only explicitly historical games receive independent new label strings before the hash-locked historical layout performs text measurement, candidate choice, clamp and fallback. Fixed full-source baseline hashes are checked before installation. Candidate games and candidate ore paint streams are not adapted or filtered. Density normalization validates all eight historical blocks and the expected-new adjacent label before omitting only the previously reviewed historical suffix.",
+  "additionalDensityCoverage": {
+    "boundaryAmounts": [
+      999,
+      999.999,
+      1000,
+      1000.001
+    ],
+    "projectionAmounts": [
+      0.001,
+      999.999,
+      1000,
+      1500,
+      4500
+    ],
+    "projectionFormats": [
+      "commands",
+      "world"
+    ]
+  },
+  "limits": [
+    "Focused retained suites only; no aggregate or release gate run.",
+    "Synthetic Canvas/Path2D evidence, not native browser rasterization or FPS evidence.",
+    "No product, old verification files, GitHub, persistence, or storage changes."
+  ],
+  "helperDependencies": [
+    {
+      "path": "verification/low-ore-label-oracle-v303.cjs",
+      "sha256": "7ef1c5ff6f48abca4115219b3e158c8b7eee1b98ad63b49e9dab515bb24c8b76"
+    },
+    {
+      "path": "verification/ore-density-normalization-v303.cjs",
+      "sha256": "b6257578d1d4ca804b905502e718f9679eb98dddbe8a147e192e5edebc7efd82"
+    },
+    {
+      "path": "verification/render-preview-v303.cjs",
+      "sha256": "019428c8695b88e94a67a4c2fe2638c0daf2463ffc3ed4f55bdef418dd48ea32"
+    }
+  ],
+  "rerunReason": "Revalidated all seven focused suites after helper newline stripping preserved one-line historical function extraction."
+}

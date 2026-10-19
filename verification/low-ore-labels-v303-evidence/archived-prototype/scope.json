@@ -1,0 +1,13 @@
+{
+  "baseline": "red-development/v302-ore-density/RED",
+  "baseSHA256": "30a960f10a359ac13fb04b3f758529376956227bb3dce079c8be0028476594f4",
+  "prototypeSHA256": "66ded10bca768cc9a27c1ca4f3729490a2724148ddf6ce33919155a2d6c0aeed",
+  "changedSourceFiles": [
+    "src/script/03-renderer.jsfrag"
+  ],
+  "sealedFilesVerified": 2388,
+  "baselineMismatches": [],
+  "ledgerSHA256": "78dbf2835e23053d544598b394579a51d1d67cbd799ebdd625890880754aeb65",
+  "format": "0<amount<1000: ceil unit; >=1000 original ceil k; <=0 original skip",
+  "noVersionOrPublicationChange": true
+}
