@@ -1,0 +1,21 @@
+{
+  "baseFiles": 3938,
+  "baseUnchanged": true,
+  "frozenCandidateSha256": "49967ea573423c6d003f9a0a91a74a1cc9ca77978e9c66f9e1a94d5e627cac94",
+  "integratedSourceSha256": "1fa18e30606cecd2d237c74fe2056036adcb408c643fe601004de63b202d91fb",
+  "onlyCandidateDifference": "exact display version v0.312 to v0.313",
+  "currentChangedBaseFiles": [
+    "QA_STATUS.md",
+    "CURRENT_PLAYER_GUIDE.md",
+    "DEVELOPING.md",
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "source-build-receipt.json",
+    "index.html",
+    "QUICK_START.html",
+    "current-verification.json",
+    "README.md",
+    "src/index.template.html",
+    "src/script/04-interface-runtime.jsfrag"
+  ],
+  "historicalVerificationPreserved": true
+}

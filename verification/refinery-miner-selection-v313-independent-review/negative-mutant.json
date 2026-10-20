@@ -1,0 +1,347 @@
+{
+  "passed": 17,
+  "failed": 54,
+  "sourceSha256": "ec8f143c67a031bac50af2fa42f5543c95431e9f0dbd6daa1d76fc5d3182bad2",
+  "baselineSha256": "0f469ecb007cc489df4c012736366a393fa97403b94d5b18679c22b8a9830945",
+  "scope": "Independent full-source VM synthetic edge fixtures and baseline differential oracle. Direct handler calls deliberately test stale UI. No natural play, trusted native activation, layout, physical gestures or browser claim.",
+  "results": [
+    {
+      "name": "baseline economics and independent cohort oracle fixture 0",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 1",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 2",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 3",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 124,\n+   minerCount: 1,\n-   cargo: 129,\n-   minerCount: 2,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 4",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 5",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 6",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 7",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 124,\n+   minerCount: 1,\n-   cargo: 129,\n-   minerCount: 2,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 8",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 9",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 10",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 11",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 80,\n+   minerCount: 1,\n-   cargo: 173,\n-   minerCount: 2,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 12",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 13",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 14",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 15",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 129,\n+   minerCount: 2,\n-   cargo: 124,\n-   minerCount: 1,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 16",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 17",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 18",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 19",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 253,\n+   minerCount: 3,\n-   cargo: 0,\n-   minerCount: 0,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 20",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 21",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 22",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 23",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 173,\n+   minerCount: 2,\n-   cargo: 80,\n-   minerCount: 1,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 24",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 25",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 26",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 27",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 124,\n+   minerCount: 1,\n-   cargo: 129,\n-   minerCount: 2,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 28",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 29",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 30",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 31",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 80,\n+   minerCount: 1,\n-   cargo: 173,\n-   minerCount: 2,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 32",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 33",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 34",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 35",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 129,\n+   minerCount: 2,\n-   cargo: 124,\n-   minerCount: 1,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 36",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 37",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 38",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 0,\n+   minerCount: 0,\n-   cargo: 253,\n-   minerCount: 3,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 39",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   cargo: 253,\n+   minerCount: 3,\n-   cargo: 0,\n-   minerCount: 0,\n    oreAmount: 36000,\n    oreCount: 3\n  }\n\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:492\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:12:22)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "stale rendered anchor guards a.hp=0",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards a.build=1",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards a.team=1",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards selection=new Set([a.id,b.id])",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards selection=new Set([a.id,m.id])",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards selection=new Set([m.id])",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards selection=new Set([999999])",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards selection.clear()",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards state.entities=state.entities.filter(e=>e!==a)",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards m.hp=0;t.hp=0",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '{\"selection\":[20],\"placement\":null,\"attackMode\":false,\"drag\":null,\"ordinaryCommandMode\":false,\"appendCommandMode\":false,\"ordinaryCommandGesture\":null,\"selectionClickCandidate\":null,\"lastSelectionClick\":0,\"doubleClickSelection\":false}'\n- '{\"selection\":[3],\"placement\":\"power\",\"attackMode\":true,\"drag\":{\"x\":2},\"ordinaryCommandMode\":true,\"appendCommandMode\":true,\"ordinaryCommandGesture\":{\"x\":3},\"selectionClickCandidate\":null,\"lastSelectionClick\":0,\"doubleClickSelection\":false}'\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:346)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:13:458\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:13:260)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "recompute membership after render m.x=599;t.x=600",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ '{\"selection\":[5,20,21],\"placement\":null,\"attackMode\":false,\"drag\":null,\"ordinaryCommandMode\":false,\"appendCommandMode\":false,\"ordinaryCommandGesture\":null,\"selectionClickCandidate\":null,\"lastSelectionClick\":0,\"doubleClickSelection\":false}'\n- '{\"selection\":[3],\"placement\":null,\"attackMode\":false,\"drag\":null,\"ordinaryCommandMode\":false,\"appendCommandMode\":false,\"ordinaryCommandGesture\":null,\"selectionClickCandidate\":null,\"lastSelectionClick\":0,\"doubleClickSelection\":false}'\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:346)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:233\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:155)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "recompute membership after render n.x=201",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   3\n-   5,\n-   20,\n-   21\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:233\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:155)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "recompute membership after render b.hp=0",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   3\n-   5,\n-   20,\n-   21\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:233\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:155)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "recompute membership after render b.team=1",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   3\n-   5,\n-   20,\n-   21\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:233\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:155)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "recompute membership after render b.build=10",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   3\n-   5,\n-   20,\n-   21\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:233\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:155)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "recompute membership after render m.hp=0",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   20\n-   21\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:233\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:155)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "recompute membership after render t.team=1",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   20\n-   5\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:233\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:155)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "recompute membership after render state.entities.reverse()",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   21,\n+   20\n-   5\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:233\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:155)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "recompute membership after render selection=new Set([b.id])",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   5,\n+   21\n-   20\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:233\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:14:155)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "exact ties follow array order, not ID",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   21,\n+   20\n-   5\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:15:205\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:15:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "dead/foreign miners excluded and unfinished miner follows historical ownHarvesters membership",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   20\n-   22\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:16:261\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:16:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "blocked handler preserves full state state.started=false",
+      "passed": true
+    },
+    {
+      "name": "blocked handler preserves full state restartPrompt=true",
+      "passed": true
+    },
+    {
+      "name": "blocked handler preserves full state state.result=\"test terminal\"",
+      "passed": true
+    },
+    {
+      "name": "paused selection preserves orders/economy/time and clears gestures",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   20\n-   5,\n-   21\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:18:319\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:18:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "selection only anchor removal makes repeated click inert",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  [\n+   20\n-   5,\n-   21\n  ]\n\n    at act (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:11:150)\n    at /workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:19:84\n    at test (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:5:28)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v313-independent-review/review.cjs:19:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "native control stable through repeated refresh",
+      "passed": true
+    },
+    {
+      "name": "modeled repeated Enter suppression {}",
+      "passed": true
+    },
+    {
+      "name": "modeled repeated Enter suppression {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "modeled repeated Enter suppression {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "source hash remained unchanged",
+      "passed": true
+    }
+  ]
+}

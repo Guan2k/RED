@@ -1,0 +1,792 @@
+{
+  "passed": 196,
+  "failed": 0,
+  "sourceSha256": "1fa18e30606cecd2d237c74fe2056036adcb408c643fe601004de63b202d91fb",
+  "results": [
+    {
+      "name": "repair-button-repeat.cjs physical removal exactly equals v312 comparator",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excludes only valid selectRefineryMiners subtree",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners renamed root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners incorrect root tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners detached root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners wrong parent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners nested non-direct root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners duplicate root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners detached duplicate root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners detached descendant",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners detached grandchild",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners moved descendant",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains selectRefineryMiners inconsistent descendant attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs excludes only valid refineryMinerSelectionHelp subtree",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp renamed root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp incorrect root tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp detached root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp wrong parent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp nested non-direct root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp duplicate root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp detached duplicate root",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp detached descendant",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp detached grandchild",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp moved descendant",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains refineryMinerSelectionHelp inconsistent descendant attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains wrong overview tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains renamed overview",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains detached overview",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains duplicate overview",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains inconsistent overview attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old overview attributes",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old overview style",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old work text",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old work phase control",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old phase selection control",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains old mining help",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains unrelated button",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs keeps prior exact gallery vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs keeps prior detached gallery descendant vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs keeps prior exact gallery buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs keeps prior detached gallery descendant buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs keeps old purchase control observable",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs physical removal exactly equals v312 comparator",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excludes only valid selectRefineryMiners subtree",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners renamed root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners incorrect root tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners detached root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners wrong parent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners nested non-direct root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners duplicate root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners detached duplicate root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners detached descendant",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners detached grandchild",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners moved descendant",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains selectRefineryMiners inconsistent descendant attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs excludes only valid refineryMinerSelectionHelp subtree",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp renamed root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp incorrect root tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp detached root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp wrong parent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp nested non-direct root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp duplicate root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp detached duplicate root",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp detached descendant",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp detached grandchild",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp moved descendant",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains refineryMinerSelectionHelp inconsistent descendant attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains wrong overview tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains renamed overview",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains detached overview",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains duplicate overview",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains inconsistent overview attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old overview attributes",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old overview style",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old work text",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old work phase control",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old phase selection control",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains old mining help",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains unrelated button",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs keeps prior exact gallery vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs keeps prior detached gallery descendant vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs keeps prior exact gallery buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs keeps prior detached gallery descendant buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs keeps old purchase control observable",
+      "passed": true
+    },
+    {
+      "name": "command-allocation physical removal exactly equals v312 comparator",
+      "passed": true
+    },
+    {
+      "name": "command-allocation excludes only valid selectRefineryMiners subtree",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners renamed root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners incorrect root tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners detached root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners wrong parent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners nested non-direct root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners duplicate root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners detached duplicate root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners detached descendant",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners detached grandchild",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners moved descendant",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains selectRefineryMiners inconsistent descendant attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation excludes only valid refineryMinerSelectionHelp subtree",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp renamed root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp incorrect root tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp detached root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp wrong parent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp nested non-direct root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp duplicate root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp detached duplicate root",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp detached descendant",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp detached grandchild",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp moved descendant",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains refineryMinerSelectionHelp inconsistent descendant attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains wrong overview tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains renamed overview",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains detached overview",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains duplicate overview",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains inconsistent overview attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old overview attributes",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old overview style",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old work text",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old work phase control",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old phase selection control",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains old mining help",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains unrelated button",
+      "passed": true
+    },
+    {
+      "name": "command-allocation keeps prior exact gallery vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation keeps prior detached gallery descendant vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation keeps prior exact gallery buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation keeps prior detached gallery descendant buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation keeps old purchase control observable",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide physical removal exactly equals v312 comparator",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide excludes only valid selectRefineryMiners subtree",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners renamed root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners incorrect root tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners detached root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners wrong parent",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners nested non-direct root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners duplicate root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners detached duplicate root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners detached descendant",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners detached grandchild",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners moved descendant",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains selectRefineryMiners inconsistent descendant attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide excludes only valid refineryMinerSelectionHelp subtree",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp renamed root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp incorrect root tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp detached root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp wrong parent",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp nested non-direct root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp duplicate root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp detached duplicate root",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp inconsistent root attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp similarly named sibling",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp detached descendant",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp detached grandchild",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp moved descendant",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains refineryMinerSelectionHelp inconsistent descendant attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains wrong overview tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains renamed overview",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains detached overview",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains duplicate overview",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains inconsistent overview attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old overview attributes",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old overview style",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old work text",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old work phase control",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old phase selection control",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains old mining help",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains unrelated button",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide keeps prior exact gallery vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide keeps prior detached gallery descendant vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide keeps prior exact gallery buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide keeps prior detached gallery descendant buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide keeps old purchase control observable",
+      "passed": true
+    },
+    {
+      "name": "beginner unprojected comparator remains exact v312",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs frozen identity and rejection",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs frozen identity and rejection",
+      "passed": true
+    },
+    {
+      "name": "runtime source identity unchanged",
+      "passed": true
+    }
+  ],
+  "scope": "Exact unique attached BUTTON#selectRefineryMiners and P#refineryMinerSelectionHelp subtrees under unique DETAILS#harvesterFleetOverview only. Independent malformed-root, parent, attachment and detached-descendant boundaries; physical deletion equivalence against all four frozen v312 comparators; unprojected beginner comparator and existing gallery boundaries preserved."
+}

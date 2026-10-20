@@ -1,0 +1,22 @@
+[
+  {
+    "before": "ll>赤色前线 / ORIGINAL RTS / v0.312</small></div><div class=\"stat",
+    "after": "ll>赤色前线 / ORIGINAL RTS / v0.313</small></div><div class=\"stat"
+  },
+  {
+    "before": "disabled>选择此阶段矿车 · 0</button><p id=\"harvesterWorkSelectionSt",
+    "after": "disabled>选择此阶段矿车 · 0</button><button id=\"selectRefineryMiners\" type=\"button\" aria-describedby=\"refineryMinerSelectionHelp\" disabled>选择最近本厂矿车 · 0</button><p id=\"refineryMinerSelectionHelp\" class=\"hint\">单选已完工的己方精炼厂后，选择以本厂为最近精炼厂的全部己方矿车。按当前直线距离；不是绑定任务、固定配送范围或路径保证。只选择，不改变原命令。</p><p id=\"harvesterWorkSelectionSt"
+  },
+  {
+    "before": "function refineryEconomyInfo(ref){let ores=state.ores.filter(o=>o.amount>0&&dist(o,ref)<=400),refs=structures(0,'refinery').filter(e=>!e.build),miners=ref.team===0&&!ref.build&&refs.includes(ref)?ownHarvesters().filter(e=>nearest(e,refs)===ref):[];return{oreCount:ores.length,o",
+    "after": "// Share the exact current nearest-refinery population with the displayed count; ties retain entity order.\nfunction refineryMinerCohort(ref){let refs=structures(0,'refinery').filter(e=>!e.build);return ref&&ref.team===0&&!ref.build&&refs.includes(ref)?ownHarvesters().filter(e=>nearest(e,refs)===ref):[]}\nfunction selectedMinerRefinery(){if(selection.size!==1)return null;let ref=get(selection.values().next().value);return ref&&ref.team===0&&ref.type==='refinery'&&!ref.build?ref:null}\nfunction selectRefineryMiners(){if(commandBlocked())return;let miners=refineryMinerCohort(selectedMinerRefinery());if(!miners.length)return;resetSelectionClicks();selection=new Set(miners.map(e=>e.id));placement=null;attackMode=false;drag=null;clearOrdinaryCommand();updateUI()}\nfunction updateRefineryMinerSelection(){let ref=selectedMinerRefinery(),count=refineryMinerCohort(ref).length,button=$('selectRefineryMiners');setReadonlyPanelProperty(button,'textContent','选择最近本厂矿车 · '+count);setReadonlyPanelProperty(button,'disabled',commandBlocked()||!count);setReadonlyPanelProperty(button,'title',commandBlocked()?'当前不能选择：尚未开战、重新部署确认或战局结束':!ref?'先单选一座存活的己方已完工精炼厂':!count?'当前没有最近本厂矿车；保留原选区和待点选操作':'按点击时当前直线距离重新筛选；只选择，原命令保持，暂停可用')}\nfunction refineryEconomyInfo(ref){let ores=state.ores.filter(o=>o.amount>0&&dist(o,ref)<=400),miners=refineryMinerCohort(ref);return{oreCount:ores.length,o"
+  },
+  {
+    "before": "function updateUI(){updateVisualPreviewControl();updateO",
+    "after": "function updateUI(){updateRefineryMinerSelection();updateVisualPreviewControl();updateO"
+  },
+  {
+    "before": "onclick=selectMiners;$('selectMinerFollowers').onclick=selec",
+    "after": "onclick=selectMiners;$('selectRefineryMiners').onclick=selectRefineryMiners;$('selectRefineryMiners').onkeydown=e=>{if(e.key==='Enter'&&e.repeat&&!e.isComposing&&e.keyCode!==229)e.preventDefault()};$('selectMinerFollowers').onclick=selec"
+  }
+]

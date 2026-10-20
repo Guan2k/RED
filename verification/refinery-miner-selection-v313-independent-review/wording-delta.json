@@ -1,0 +1,7 @@
+{
+  "onlyHelpWordingChanged": true,
+  "old": "单选已完工的己方精炼厂后可选最近本厂矿车。",
+  "new": "单选已完工的己方精炼厂后，选择以本厂为最近精炼厂的全部己方矿车。",
+  "oldOccurrenceCount": 1,
+  "newOccurrenceCount": 1
+}

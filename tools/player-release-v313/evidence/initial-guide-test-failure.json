@@ -1,0 +1,6 @@
+{
+  "scope": "Migration test-tool defect, not product failure",
+  "failure": "wrong version incorrectly accepted: replacement became source.replace(b'v0.313', b'v0.313', 1)",
+  "repair": "New v313 test now changes version313 to314; historical v312 test unchanged.",
+  "finalResult": "All guide tests pass."
+}

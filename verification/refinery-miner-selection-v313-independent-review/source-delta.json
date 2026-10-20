@@ -1,0 +1,26 @@
+[
+  {
+    "path": "source-build-receipt.json",
+    "status": "changed"
+  },
+  {
+    "path": "index.html",
+    "status": "changed"
+  },
+  {
+    "path": "src/index.template.html",
+    "status": "changed"
+  },
+  {
+    "path": "verification/refinery-miner-selection-v313.cjs",
+    "status": "new"
+  },
+  {
+    "path": "verification/refinery-miner-selection-natural-v313.cjs",
+    "status": "new"
+  },
+  {
+    "path": "src/script/04-interface-runtime.jsfrag",
+    "status": "changed"
+  }
+]

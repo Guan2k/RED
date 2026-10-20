@@ -1,0 +1,1 @@
+Independent evidence archive. review.cjs records reviewer methodology but retains workspace-relative paths; it is not advertised as a portable release runner. The product focused and natural suites remain the portable current entries. Reports establish source/VM scope only, not browser/native-event/storage acceptance.

@@ -1,0 +1,293 @@
+{
+  "passed": 71,
+  "failed": 0,
+  "sourceSha256": "1fa18e30606cecd2d237c74fe2056036adcb408c643fe601004de63b202d91fb",
+  "baselineSha256": "0f469ecb007cc489df4c012736366a393fa97403b94d5b18679c22b8a9830945",
+  "scope": "Independent full-source VM synthetic edge fixtures and baseline differential oracle. Direct handler calls deliberately test stale UI. No natural play, trusted native activation, layout, physical gestures or browser claim.",
+  "results": [
+    {
+      "name": "baseline economics and independent cohort oracle fixture 0",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 1",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 2",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 3",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 4",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 5",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 6",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 7",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 8",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 9",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 10",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 11",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 12",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 13",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 14",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 15",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 16",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 17",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 18",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 19",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 20",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 21",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 22",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 23",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 24",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 25",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 26",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 27",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 28",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 29",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 30",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 31",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 32",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 33",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 34",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 35",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 36",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 37",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 38",
+      "passed": true
+    },
+    {
+      "name": "baseline economics and independent cohort oracle fixture 39",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards a.hp=0",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards a.build=1",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards a.team=1",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards selection=new Set([a.id,b.id])",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards selection=new Set([a.id,m.id])",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards selection=new Set([m.id])",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards selection=new Set([999999])",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards selection.clear()",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards state.entities=state.entities.filter(e=>e!==a)",
+      "passed": true
+    },
+    {
+      "name": "stale rendered anchor guards m.hp=0;t.hp=0",
+      "passed": true
+    },
+    {
+      "name": "recompute membership after render m.x=599;t.x=600",
+      "passed": true
+    },
+    {
+      "name": "recompute membership after render n.x=201",
+      "passed": true
+    },
+    {
+      "name": "recompute membership after render b.hp=0",
+      "passed": true
+    },
+    {
+      "name": "recompute membership after render b.team=1",
+      "passed": true
+    },
+    {
+      "name": "recompute membership after render b.build=10",
+      "passed": true
+    },
+    {
+      "name": "recompute membership after render m.hp=0",
+      "passed": true
+    },
+    {
+      "name": "recompute membership after render t.team=1",
+      "passed": true
+    },
+    {
+      "name": "recompute membership after render state.entities.reverse()",
+      "passed": true
+    },
+    {
+      "name": "recompute membership after render selection=new Set([b.id])",
+      "passed": true
+    },
+    {
+      "name": "exact ties follow array order, not ID",
+      "passed": true
+    },
+    {
+      "name": "dead/foreign miners excluded and unfinished miner follows historical ownHarvesters membership",
+      "passed": true
+    },
+    {
+      "name": "blocked handler preserves full state state.started=false",
+      "passed": true
+    },
+    {
+      "name": "blocked handler preserves full state restartPrompt=true",
+      "passed": true
+    },
+    {
+      "name": "blocked handler preserves full state state.result=\"test terminal\"",
+      "passed": true
+    },
+    {
+      "name": "paused selection preserves orders/economy/time and clears gestures",
+      "passed": true
+    },
+    {
+      "name": "selection only anchor removal makes repeated click inert",
+      "passed": true
+    },
+    {
+      "name": "native control stable through repeated refresh",
+      "passed": true
+    },
+    {
+      "name": "modeled repeated Enter suppression {}",
+      "passed": true
+    },
+    {
+      "name": "modeled repeated Enter suppression {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "modeled repeated Enter suppression {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "source hash remained unchanged",
+      "passed": true
+    }
+  ]
+}
