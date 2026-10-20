@@ -1,0 +1,27 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "name": "approved inverse reaches retained historical script golden",
+      "passed": true
+    },
+    {
+      "name": "unrelated simulation mutation still rejected by retained historical hash",
+      "passed": true
+    },
+    {
+      "name": "selection negative suite preserves all old mutation targets and assertions",
+      "passed": true
+    },
+    {
+      "name": "all historical verification inputs byte preserved",
+      "passed": true
+    },
+    {
+      "name": "product remains approved final hash",
+      "passed": true
+    }
+  ],
+  "scope": "Bounded current-adapter and historical-preservation review, not full gate."
+}

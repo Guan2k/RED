@@ -1,0 +1,8 @@
+{
+  "finalSha256": "0f469ecb007cc489df4c012736366a393fa97403b94d5b18679c22b8a9830945",
+  "changedSinceProductReview": [
+    "src/index.template.html"
+  ],
+  "identityOnlyTemplateChange": true,
+  "runtimeMatchesApprovedGuard": true
+}

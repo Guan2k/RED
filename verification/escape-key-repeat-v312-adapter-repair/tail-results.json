@@ -1,0 +1,107 @@
+[
+  {
+    "script": "vehicle-reference-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 19,
+    "failed": 0
+  },
+  {
+    "script": "vehicle-reference-negative-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 6,
+    "failed": 0
+  },
+  {
+    "script": "factory-requirement-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 164,
+    "failed": 0
+  },
+  {
+    "script": "factory-requirement-negative-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "purchase-funding-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 192,
+    "failed": 0
+  },
+  {
+    "script": "purchase-funding-negative-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "construction-reasons-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 47,
+    "failed": 0
+  },
+  {
+    "script": "construction-reasons-negative-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "factory-space-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 62,
+    "failed": 0
+  },
+  {
+    "script": "factory-space-negative-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "selection-key-repeat-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 93,
+    "failed": 0
+  },
+  {
+    "script": "selection-key-repeat-negative-v312.cjs",
+    "exitCode": 1,
+    "stderrBytes": 868,
+    "passed": null,
+    "failed": null
+  },
+  {
+    "script": "ore-density-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 135,
+    "failed": 0
+  },
+  {
+    "script": "low-ore-label-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 52,
+    "failed": 0
+  },
+  {
+    "script": "run-pilot-release-v312.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": null,
+    "failed": 0
+  }
+]

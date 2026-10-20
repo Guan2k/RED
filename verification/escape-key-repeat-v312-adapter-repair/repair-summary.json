@@ -1,0 +1,16 @@
+{
+  "status": "passed_after_bounded_adapter_repairs",
+  "productSourceSha256": "0f469ecb007cc489df4c012736366a393fa97403b94d5b18679c22b8a9830945",
+  "buildingPositive": 21,
+  "buildingNegative": 13,
+  "selectionPositive": 93,
+  "selectionNegativeAfterAnchorRepair": 5,
+  "tailOtherEntriesPassed": 14,
+  "initialTailFailureRetained": "tail-results.json and selection-key-repeat-negative-v312.cjs.stderr",
+  "repairs": [
+    "Compose reviewed v312 then v311 inverse before unchanged building script hash.",
+    "Match current Escape-inclusive global guard when constructing original five selection negative controls."
+  ],
+  "historicalFilesUnchanged": 3028,
+  "scope": "Focused tail checks and static migration audit only; not complete aggregate gate."
+}

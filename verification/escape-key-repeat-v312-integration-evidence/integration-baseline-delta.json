@@ -1,0 +1,16 @@
+{
+  "changedExistingFiles": [
+    "CURRENT_PLAYER_GUIDE.md",
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "DEVELOPING.md",
+    "QA_STATUS.md",
+    "QUICK_START.html",
+    "README.md",
+    "RELEASE_NOTES.md",
+    "current-verification.json",
+    "index.html",
+    "source-build-receipt.json",
+    "src/index.template.html",
+    "src/script/04-interface-runtime.jsfrag"
+  ]
+}

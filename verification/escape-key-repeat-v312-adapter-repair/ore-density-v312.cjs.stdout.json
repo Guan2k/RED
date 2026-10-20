@@ -1,0 +1,1425 @@
+{
+  "passed": 135,
+  "failed": 0,
+  "sourceSha256": "0f469ecb007cc489df4c012736366a393fa97403b94d5b18679c22b8a9830945",
+  "baselineSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39",
+  "results": [
+    {
+      "name": "source/exact-version-low-label-and-single-render-loop-deltas",
+      "passed": true,
+      "sourceSha256": "0f469ecb007cc489df4c012736366a393fa97403b94d5b18679c22b8a9830945",
+      "baselineSha256": "75c75c7a25af246d366770809853f2fab440cd734c11d9fbe6acfe840a0efd39"
+    },
+    {
+      "name": "threshold/-1/preview-false/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 759,
+      "candidateCalls": 759,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/-1/preview-false/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 759,
+      "candidateCalls": 759,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/-1/preview-true/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 1241,
+      "candidateCalls": 1241,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/-1/preview-true/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 839,
+      "candidateCalls": 839,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0/preview-false/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 759,
+      "candidateCalls": 759,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0/preview-false/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 759,
+      "candidateCalls": 759,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0/preview-true/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 1241,
+      "candidateCalls": 1241,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0/preview-true/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 839,
+      "candidateCalls": 839,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0.001/preview-false/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0.001/preview-false/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0.001/preview-true/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 1236,
+      "candidateCalls": 1229,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0.001/preview-true/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 834,
+      "candidateCalls": 827,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0.5/preview-false/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0.5/preview-false/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0.5/preview-true/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 1236,
+      "candidateCalls": 1229,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/0.5/preview-true/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 834,
+      "candidateCalls": 827,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1/preview-false/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1/preview-false/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1/preview-true/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 1236,
+      "candidateCalls": 1229,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1/preview-true/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 834,
+      "candidateCalls": 827,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/999/preview-false/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/999/preview-false/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/999/preview-true/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 1236,
+      "candidateCalls": 1229,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/999/preview-true/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 834,
+      "candidateCalls": 827,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/999.999/preview-false/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/999.999/preview-false/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/999.999/preview-true/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 1236,
+      "candidateCalls": 1229,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/999.999/preview-true/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 834,
+      "candidateCalls": 827,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000/preview-false/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000/preview-false/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000/preview-true/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 1236,
+      "candidateCalls": 1229,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000/preview-true/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 834,
+      "candidateCalls": 827,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000.001/preview-false/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000.001/preview-false/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000.001/preview-true/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 1236,
+      "candidateCalls": 1229,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000.001/preview-true/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 834,
+      "candidateCalls": 827,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1499/preview-false/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1499/preview-false/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1499/preview-true/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 1236,
+      "candidateCalls": 1229,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1499/preview-true/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 834,
+      "candidateCalls": 827,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1499.99/preview-false/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1499.99/preview-false/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1499.99/preview-true/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 1236,
+      "candidateCalls": 1229,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1499.99/preview-true/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 834,
+      "candidateCalls": 827,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1500/preview-false/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1500/preview-false/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 754,
+      "candidateCalls": 747,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1500/preview-true/cached-false",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 1236,
+      "candidateCalls": 1229,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1500/preview-true/cached-true",
+      "passed": true,
+      "omitted": 7,
+      "baselineCalls": 834,
+      "candidateCalls": 827,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1500.001/preview-false/cached-false",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 754,
+      "candidateCalls": 750,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1500.001/preview-false/cached-true",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 754,
+      "candidateCalls": 750,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1500.001/preview-true/cached-false",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 1236,
+      "candidateCalls": 1232,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1500.001/preview-true/cached-true",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 834,
+      "candidateCalls": 830,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1501/preview-false/cached-false",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 754,
+      "candidateCalls": 750,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1501/preview-false/cached-true",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 754,
+      "candidateCalls": 750,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1501/preview-true/cached-false",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 1236,
+      "candidateCalls": 1232,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1501/preview-true/cached-true",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 834,
+      "candidateCalls": 830,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4499.99/preview-false/cached-false",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 754,
+      "candidateCalls": 750,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4499.99/preview-false/cached-true",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 754,
+      "candidateCalls": 750,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4499.99/preview-true/cached-false",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 1236,
+      "candidateCalls": 1232,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4499.99/preview-true/cached-true",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 834,
+      "candidateCalls": 830,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4500/preview-false/cached-false",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 754,
+      "candidateCalls": 750,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4500/preview-false/cached-true",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 754,
+      "candidateCalls": 750,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4500/preview-true/cached-false",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 1236,
+      "candidateCalls": 1232,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4500/preview-true/cached-true",
+      "passed": true,
+      "omitted": 4,
+      "baselineCalls": 834,
+      "candidateCalls": 830,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4500.001/preview-false/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 754,
+      "candidateCalls": 754,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4500.001/preview-false/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 754,
+      "candidateCalls": 754,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4500.001/preview-true/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 1236,
+      "candidateCalls": 1236,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4500.001/preview-true/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 834,
+      "candidateCalls": 834,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4501/preview-false/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 754,
+      "candidateCalls": 754,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4501/preview-false/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 754,
+      "candidateCalls": 754,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4501/preview-true/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 1236,
+      "candidateCalls": 1236,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/4501/preview-true/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 834,
+      "candidateCalls": 834,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/12000/preview-false/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 754,
+      "candidateCalls": 754,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/12000/preview-false/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 754,
+      "candidateCalls": 754,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/12000/preview-true/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 1236,
+      "candidateCalls": 1236,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/12000/preview-true/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 834,
+      "candidateCalls": 834,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000000/preview-false/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 754,
+      "candidateCalls": 754,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000000/preview-false/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 754,
+      "candidateCalls": 754,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000000/preview-true/cached-false",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 1236,
+      "candidateCalls": 1236,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "threshold/1000000/preview-true/cached-true",
+      "passed": true,
+      "omitted": 0,
+      "baselineCalls": 834,
+      "candidateCalls": 834,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "map/classic/preview-false/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 831,
+      "candidateCalls": 813,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "map/classic/preview-false/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 831,
+      "candidateCalls": 813,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "map/classic/preview-true/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1313,
+      "candidateCalls": 1295,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "classic"
+    },
+    {
+      "name": "map/classic/preview-true/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 911,
+      "candidateCalls": 893,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "map/frontier/preview-false/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 833,
+      "candidateCalls": 815,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "frontier"
+    },
+    {
+      "name": "map/frontier/preview-false/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 833,
+      "candidateCalls": 815,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "frontier"
+    },
+    {
+      "name": "map/frontier/preview-true/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1315,
+      "candidateCalls": 1297,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "frontier"
+    },
+    {
+      "name": "map/frontier/preview-true/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 913,
+      "candidateCalls": 895,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "frontier"
+    },
+    {
+      "name": "map/canyon/preview-false/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 982,
+      "candidateCalls": 964,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "canyon"
+    },
+    {
+      "name": "map/canyon/preview-false/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 982,
+      "candidateCalls": 964,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "canyon"
+    },
+    {
+      "name": "map/canyon/preview-true/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1464,
+      "candidateCalls": 1446,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "canyon"
+    },
+    {
+      "name": "map/canyon/preview-true/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1062,
+      "candidateCalls": 1044,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "canyon"
+    },
+    {
+      "name": "map/ridge/preview-false/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 903,
+      "candidateCalls": 885,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "ridge"
+    },
+    {
+      "name": "map/ridge/preview-false/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 903,
+      "candidateCalls": 885,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "ridge"
+    },
+    {
+      "name": "map/ridge/preview-true/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1385,
+      "candidateCalls": 1367,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "ridge"
+    },
+    {
+      "name": "map/ridge/preview-true/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 983,
+      "candidateCalls": 965,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "ridge"
+    },
+    {
+      "name": "map/crossroads/preview-false/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 960,
+      "candidateCalls": 942,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "crossroads"
+    },
+    {
+      "name": "map/crossroads/preview-false/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 960,
+      "candidateCalls": 942,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "crossroads"
+    },
+    {
+      "name": "map/crossroads/preview-true/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1442,
+      "candidateCalls": 1424,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "crossroads"
+    },
+    {
+      "name": "map/crossroads/preview-true/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1040,
+      "candidateCalls": 1022,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "crossroads"
+    },
+    {
+      "name": "map/switchback/preview-false/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1125,
+      "candidateCalls": 1107,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "switchback"
+    },
+    {
+      "name": "map/switchback/preview-false/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1125,
+      "candidateCalls": 1107,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "switchback"
+    },
+    {
+      "name": "map/switchback/preview-true/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1607,
+      "candidateCalls": 1589,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "switchback"
+    },
+    {
+      "name": "map/switchback/preview-true/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1205,
+      "candidateCalls": 1187,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "switchback"
+    },
+    {
+      "name": "map/ring/preview-false/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 874,
+      "candidateCalls": 856,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "ring"
+    },
+    {
+      "name": "map/ring/preview-false/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 874,
+      "candidateCalls": 856,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "ring"
+    },
+    {
+      "name": "map/ring/preview-true/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1356,
+      "candidateCalls": 1338,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "ring"
+    },
+    {
+      "name": "map/ring/preview-true/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 954,
+      "candidateCalls": 936,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "ring"
+    },
+    {
+      "name": "map/meridian/preview-false/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 958,
+      "candidateCalls": 940,
+      "frames": 2,
+      "preview": false,
+      "caching": false,
+      "map": "meridian"
+    },
+    {
+      "name": "map/meridian/preview-false/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 958,
+      "candidateCalls": 940,
+      "frames": 2,
+      "preview": false,
+      "caching": true,
+      "map": "meridian"
+    },
+    {
+      "name": "map/meridian/preview-true/cached-false",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1440,
+      "candidateCalls": 1422,
+      "frames": 2,
+      "preview": true,
+      "caching": false,
+      "map": "meridian"
+    },
+    {
+      "name": "map/meridian/preview-true/cached-true",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 1038,
+      "candidateCalls": 1020,
+      "frames": 2,
+      "preview": true,
+      "caching": true,
+      "map": "meridian"
+    },
+    {
+      "name": "overlap/posts-hover-and-consecutive-frames",
+      "passed": true,
+      "omitted": 18,
+      "baselineCalls": 884,
+      "candidateCalls": 866,
+      "frames": 3,
+      "preview": true,
+      "caching": true,
+      "map": "classic"
+    },
+    {
+      "name": "expected-depleted/protected-historical-adapter-boundaries",
+      "passed": true,
+      "rejected": [
+        "current renderer",
+        "double adaptation",
+        "layer reordered",
+        "layer duplicated",
+        "unrelated command",
+        "modified historical rocks",
+        "current VM without writes",
+        "already adapted VM without writes"
+      ],
+      "unchangedHistoricalBytes": true,
+      "soleInsertionAfterGridBeforeRocks": true
+    },
+    {
+      "name": "projection/exact-omitted-tails-and-observable-unrelated-fields",
+      "passed": true,
+      "controls": [
+        {
+          "format": "commands",
+          "amount": 0.001,
+          "rejected": 26
+        },
+        {
+          "format": "commands",
+          "amount": 999.999,
+          "rejected": 26
+        },
+        {
+          "format": "commands",
+          "amount": 1000,
+          "rejected": 26
+        },
+        {
+          "format": "commands",
+          "amount": 1500,
+          "rejected": 26
+        },
+        {
+          "format": "commands",
+          "amount": 4500,
+          "rejected": 26
+        },
+        {
+          "format": "world",
+          "amount": 0.001,
+          "rejected": 20
+        },
+        {
+          "format": "world",
+          "amount": 999.999,
+          "rejected": 20
+        },
+        {
+          "format": "world",
+          "amount": 1000,
+          "rejected": 20
+        },
+        {
+          "format": "world",
+          "amount": 1500,
+          "rejected": 20
+        },
+        {
+          "format": "world",
+          "amount": 4500,
+          "rejected": 20
+        }
+      ]
+    },
+    {
+      "name": "negative/lower inclusive threshold",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/upper inclusive threshold",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/middle missing tail block",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/middle extra tail block",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/low retains wrong block",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/retained position",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/retained color",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/high missing last block",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/retained odd color",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/retained wrong method",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/missing label",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/base color",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/base position",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/label color",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/label position",
+      "passed": true,
+      "rejectedBy": "ore density complete paints"
+    },
+    {
+      "name": "negative/zero skip",
+      "passed": true,
+      "rejectedBy": "ore density layout labels positions and order"
+    },
+    {
+      "name": "negative/extra Canvas method",
+      "passed": true,
+      "rejectedBy": "ore density complete Canvas methods"
+    },
+    {
+      "name": "negative/world mutation",
+      "passed": true,
+      "rejectedBy": "ore density world unchanged"
+    },
+    {
+      "name": "negative/RNG consumption",
+      "passed": true,
+      "rejectedBy": "ore density render consumed RNG"
+    }
+  ],
+  "scope": "Complete real renderer with immutable v301 baseline plus explicit expected-side low-ore labels and independently specified depleted ground insertion at the hash-locked historical layer slot; 20 integer/fraction boundary quantities, all eight maps, both preview states, cached/direct paths, zero/depleted skip, layout/base/style/method/order, world/input/RNG/current-path parity and behavior-only negatives. Only exact validated historical ore suffixes are omitted. Synthetic Canvas/Path2D recording, not native raster or FPS evidence."
+}

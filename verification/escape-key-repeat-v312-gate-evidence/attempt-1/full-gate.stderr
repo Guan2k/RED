@@ -1,0 +1,119 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: {
+  "passed": 20,
+  "failed": 1,
+  "sourceSha256": "0f469ecb007cc489df4c012736366a393fa97403b94d5b18679c22b8a9830945",
+  "results": [
+    {
+      "name": "source readable",
+      "passed": true
+    },
+    {
+      "name": "hq original exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "hq preview exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "power original exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "power preview exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "factory original exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "factory preview exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "refinery original exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "refinery preview exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "turret original exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "turret preview exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "decorative subtree and preserved closed reference",
+      "passed": true
+    },
+    {
+      "name": "readonly and immediate both-gallery mode sync initial",
+      "passed": true
+    },
+    {
+      "name": "readonly and immediate both-gallery mode sync running",
+      "passed": true
+    },
+    {
+      "name": "readonly and immediate both-gallery mode sync paused",
+      "passed": true
+    },
+    {
+      "name": "readonly and immediate both-gallery mode sync restart",
+      "passed": true
+    },
+    {
+      "name": "readonly and immediate both-gallery mode sync terminal",
+      "passed": true
+    },
+    {
+      "name": "stable refresh never rewrites either gallery mode",
+      "passed": true
+    },
+    {
+      "name": "original default and session choice survive start and restart folded",
+      "passed": true
+    },
+    {
+      "name": "scoped responsive CSS and noninteractive graphic contract",
+      "passed": true
+    },
+    {
+      "name": "frozen gameplay and renderer script unchanged outside gallery synchronization",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '354f29d59e815219e9044f78a405dddfb32eb7a4bda6860f8d7de5dd36513cf3'\n- 'ddc97779dd1501b51e998f00e901daf1d5797605aaae136eb7f8d28eed303251'\n"
+    }
+  ],
+  "scope": "Actual full-source VM, pure-Node Canvas capture, exact SVG replay and scoped CSS assertions. Shared 96x96 frame and conservative bounds. No native raster/layout, keyboard navigation or screen-reader acceptance."
+}
+
+
+1 !== 0
+
+    at Object.<anonymous> (/tmp/red-current-verification-WJltkt/verification/run-tests-v312.cjs:91:141)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+Developer preflight failed at unchanged canonical game verification (exit 1)

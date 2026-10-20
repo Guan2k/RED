@@ -1,0 +1,59 @@
+{
+  "exactSingleGuardEdit": true,
+  "inputs": [
+    {
+      "path": "src/art/buildings.mjs",
+      "same": true,
+      "baselineSha256": "91bbb7781700bd9098fe5091757d150be4b4b463d8f545c6f625260ba3ad0e6c",
+      "candidateSha256": "91bbb7781700bd9098fe5091757d150be4b4b463d8f545c6f625260ba3ad0e6c"
+    },
+    {
+      "path": "src/art/vehicles.mjs",
+      "same": true,
+      "baselineSha256": "15371928e96f38702d23ef12983d0dd89a3c65bee84f9abbed524d17ad107112",
+      "candidateSha256": "15371928e96f38702d23ef12983d0dd89a3c65bee84f9abbed524d17ad107112"
+    },
+    {
+      "path": "src/geometry.mjs",
+      "same": true,
+      "baselineSha256": "ec617ada5a5c3466a4c326d2c3a3f3d968946a10c619f5c48b49c172f14ba76f",
+      "candidateSha256": "ec617ada5a5c3466a4c326d2c3a3f3d968946a10c619f5c48b49c172f14ba76f"
+    },
+    {
+      "path": "src/index.template.html",
+      "same": true,
+      "baselineSha256": "03066ccba47df4c1911fb2b3ab17cf8c9f46b367328f42fec321e27690681ec1",
+      "candidateSha256": "03066ccba47df4c1911fb2b3ab17cf8c9f46b367328f42fec321e27690681ec1"
+    },
+    {
+      "path": "src/script/01-bootstrap.jsfrag",
+      "same": true,
+      "baselineSha256": "94d62eaf3a24e5de5bda7c81689b224a3230672966aa206d43c779d252c9b8aa",
+      "candidateSha256": "94d62eaf3a24e5de5bda7c81689b224a3230672966aa206d43c779d252c9b8aa"
+    },
+    {
+      "path": "src/script/02-gameplay.jsfrag",
+      "same": true,
+      "baselineSha256": "196c0a62953d2697bfb434e1d0e3fdb2c6be31a04c19638e689a1c4b2db20b5c",
+      "candidateSha256": "196c0a62953d2697bfb434e1d0e3fdb2c6be31a04c19638e689a1c4b2db20b5c"
+    },
+    {
+      "path": "src/script/03-renderer.jsfrag",
+      "same": true,
+      "baselineSha256": "3c51341496f570fb352b1ae7c1eb63447980e4a16cc4cd67915964c6219777c8",
+      "candidateSha256": "3c51341496f570fb352b1ae7c1eb63447980e4a16cc4cd67915964c6219777c8"
+    },
+    {
+      "path": "src/script/04-interface-runtime.jsfrag",
+      "same": false,
+      "baselineSha256": "851c2135bcc549bc5517f5cb4fb4c48b3e312584cc9bf2b02ee2306a808e1283",
+      "candidateSha256": "db73497f0895b9e9304245c10bd4226ecab06f24c09c92441f1a98e3aa313b81"
+    },
+    {
+      "path": "src/styles.css",
+      "same": true,
+      "baselineSha256": "da802314d38697550413a8e6d3c08d1f7d73e7feb92d8f252d3c90a080c203cc",
+      "candidateSha256": "da802314d38697550413a8e6d3c08d1f7d73e7feb92d8f252d3c90a080c203cc"
+    }
+  ]
+}

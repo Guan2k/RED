@@ -1,0 +1,10 @@
+[
+  {
+    "before": "v0.311",
+    "after": "v0.312"
+  },
+  {
+    "before": "||e.code==='Space')){if(e.code==='Space')e.preventDefault();return}",
+    "after": "||e.code==='Space'||e.key==='Escape')){if(e.code==='Space')e.preventDefault();return}"
+  }
+]

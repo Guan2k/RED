@@ -1,0 +1,19 @@
+{
+  "reviewedCurrentFiles": 98,
+  "historicalFilesUnchanged": 3028,
+  "oldDirectInverseUses": [
+    "source-delta-history-v311.cjs",
+    "source-delta-to-v302-v311.cjs",
+    "source-delta-v311-negative-control.cjs",
+    "building-reference-v311.cjs"
+  ],
+  "currentDirectInverseUses": [
+    "source-delta-to-v302-v312.cjs",
+    "depleted-ore-v312-support.cjs",
+    "source-delta-v312-negative-control.cjs",
+    "building-reference-v312.cjs",
+    "source-delta-history-v312.cjs"
+  ],
+  "finding": "Only building-reference focused suite directly used the prior single-release inverse; migration must compose, not replace. History/to-v302 wrappers already compose. Depleted support already adds current inverse before literal old inverse. Other exact baseline suites use composed restoration/history adapters or ordered changes arrays. The unchanged golden script hash is retained.",
+  "literalGuardAudit": "Current selection-key-repeat-negative-v312 was the sole current file using the old full repeat-guard anchor. Updated only its literal anchor to include Escape; all five original mutants and named behavior checks remain intact. Focused rerun passed 5/5."
+}

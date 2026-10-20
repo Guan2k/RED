@@ -1,0 +1,197 @@
+{
+  "passed": 47,
+  "failed": 0,
+  "source": "index.html (final v312)",
+  "sourceSha256": "0f469ecb007cc489df4c012736366a393fa97403b94d5b18679c22b8a9830945",
+  "scope": "Independent full-source VM registered event handlers and explicit synthetic lifecycle/focus fixtures. No browser, native activation, physical key timing or real storage acceptance. No full gate.",
+  "results": [
+    {
+      "name": "repeat Escape preserves newly armed attack, paused=false",
+      "passed": true
+    },
+    {
+      "name": "repeat Escape preserves newly armed ordinary, paused=false",
+      "passed": true
+    },
+    {
+      "name": "repeat Escape preserves newly armed append, paused=false",
+      "passed": true
+    },
+    {
+      "name": "repeat Escape preserves newly armed placement, paused=false",
+      "passed": true
+    },
+    {
+      "name": "repeat Escape preserves newly armed attack, paused=true",
+      "passed": true
+    },
+    {
+      "name": "repeat Escape preserves newly armed ordinary, paused=true",
+      "passed": true
+    },
+    {
+      "name": "repeat Escape preserves newly armed append, paused=true",
+      "passed": true
+    },
+    {
+      "name": "repeat Escape preserves newly armed placement, paused=true",
+      "passed": true
+    },
+    {
+      "name": "first Escape repeat=false cancels attack",
+      "passed": true
+    },
+    {
+      "name": "first Escape repeat=false cancels ordinary",
+      "passed": true
+    },
+    {
+      "name": "first Escape repeat=false cancels append",
+      "passed": true
+    },
+    {
+      "name": "first Escape repeat=false cancels placement",
+      "passed": true
+    },
+    {
+      "name": "first Escape repeat=undefined cancels attack",
+      "passed": true
+    },
+    {
+      "name": "first Escape repeat=undefined cancels ordinary",
+      "passed": true
+    },
+    {
+      "name": "first Escape repeat=undefined cancels append",
+      "passed": true
+    },
+    {
+      "name": "first Escape repeat=undefined cancels placement",
+      "passed": true
+    },
+    {
+      "name": "repeated Escape preserves intervening restart prompt; fresh Escape returns paused=false",
+      "passed": true
+    },
+    {
+      "name": "repeated Escape preserves intervening restart prompt; fresh Escape returns paused=true",
+      "passed": true
+    },
+    {
+      "name": "editable focus INPUT repeat=false",
+      "passed": true
+    },
+    {
+      "name": "editable focus INPUT repeat=true",
+      "passed": true
+    },
+    {
+      "name": "editable focus SELECT repeat=false",
+      "passed": true
+    },
+    {
+      "name": "editable focus SELECT repeat=true",
+      "passed": true
+    },
+    {
+      "name": "editable focus TEXTAREA repeat=false",
+      "passed": true
+    },
+    {
+      "name": "editable focus TEXTAREA repeat=true",
+      "passed": true
+    },
+    {
+      "name": "editable focus editable repeat=false",
+      "passed": true
+    },
+    {
+      "name": "editable focus editable repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier/composition {\"ctrlKey\":true}, repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier/composition {\"ctrlKey\":true}, repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier/composition {\"metaKey\":true}, repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier/composition {\"metaKey\":true}, repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier/composition {\"altKey\":true}, repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier/composition {\"altKey\":true}, repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier/composition {\"isComposing\":true}, repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier/composition {\"isComposing\":true}, repeat=true",
+      "passed": true
+    },
+    {
+      "name": "modifier/composition {\"keyCode\":229}, repeat=false",
+      "passed": true
+    },
+    {
+      "name": "modifier/composition {\"keyCode\":229}, repeat=true",
+      "passed": true
+    },
+    {
+      "name": "repeat after focus transition from input to body",
+      "passed": true
+    },
+    {
+      "name": "repeat after focus transition from input to attack",
+      "passed": true
+    },
+    {
+      "name": "repeat after focus transition from input to summary",
+      "passed": true
+    },
+    {
+      "name": "blur then fresh Escape remains usable, without keyup tracking",
+      "passed": true
+    },
+    {
+      "name": "repeat after blur preserves subsequently armed action",
+      "passed": true
+    },
+    {
+      "name": "first Escape still cancels held Space activation; repeat does not cancel a new token",
+      "passed": true
+    },
+    {
+      "name": "result inspection Escape repeat=true",
+      "passed": true
+    },
+    {
+      "name": "result inspection Escape repeat=false",
+      "passed": true
+    },
+    {
+      "name": "prestart repeat Escape is inert",
+      "passed": true
+    },
+    {
+      "name": "repeated Escape preserves intervening live pointer drag; fresh Escape cancels it",
+      "passed": true
+    },
+    {
+      "name": "source bytes unchanged",
+      "passed": true
+    }
+  ]
+}
