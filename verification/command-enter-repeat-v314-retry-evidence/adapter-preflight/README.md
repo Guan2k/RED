@@ -1,0 +1,7 @@
+# v314 retry: exact inherited behavior-contract adaptation
+
+Attempt 1's complete gate failed in repair-button-repeat.cjs because its historical unrelated-attack case expected Enter repeat to toggle the command off. This is exactly the behavior this release deliberately corrects. The only unexpected differing field was attackMode. All 4310 original/isolated attempt-1 inputs stayed unchanged; its full logs and snapshot remain preserved in ../v314-integration.
+
+The product source is unchanged. The retry adds an exact file/anchor/hash-locked current-only replacement for that same named case. It leaves pause behavior and all repair assertions intact. Current attack first Enter arms, repeats are prevented with the entire snapshot unchanged, and a fresh press toggles normally. Full world/input/DOM/storage comparisons are made against historical equivalent intended activations rather than historical repeated activations. No input field is filtered, no case deleted, no historical expected hash repinned. Exact historical v272 continues executing the original case. All other adapters are byte-identical to the prior projection.
+
+New negative controls check both complete current/historical suites, original-file mutations, unchanged unrelated adapter outputs, and five source mutants including cash/input side effects during repeat. A separate independent review is required before the new fullgate. No native-browser acceptance or external publication is claimed.

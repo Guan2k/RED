@@ -1,0 +1,11 @@
+{
+  "index.html": {
+    "uniqueGuard": true,
+    "onlyDeltaIsGuard": true
+  },
+  "src/script/04-interface-runtime.jsfrag": {
+    "uniqueGuard": true,
+    "onlyDeltaIsGuard": true
+  },
+  "indexReceiptMatches": true
+}

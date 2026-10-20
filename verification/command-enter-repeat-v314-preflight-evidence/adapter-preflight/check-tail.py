@@ -1,0 +1,8 @@
+from pathlib import Path
+import subprocess,json,concurrent.futures,time
+w=Path(__file__).resolve().parents[1];v=w/'RED/verification';out=w/'adapter-preflight'
+names=['source-delta-v314-negative-control.cjs','escape-key-repeat-v314.cjs','escape-key-repeat-negative-v314.cjs','depleted-ore-v314.cjs','depleted-ore-negative-v314.cjs','building-reference-v314.cjs','building-reference-negative-v314.cjs','refinery-miner-selection-v314.cjs','refinery-miner-selection-natural-v314.cjs','vehicle-reference-v314.cjs','vehicle-reference-negative-v314.cjs','factory-requirement-v314.cjs','factory-requirement-negative-v314.cjs','purchase-funding-v314.cjs','purchase-funding-negative-v314.cjs','construction-reasons-v314.cjs','construction-reasons-negative-v314.cjs','factory-space-v314.cjs','factory-space-negative-v314.cjs','selection-key-repeat-v314.cjs','selection-key-repeat-negative-v314.cjs','ore-density-v314.cjs','low-ore-label-v314.cjs','run-pilot-release-v314.cjs']
+def run(n):
+ p=subprocess.run(['node',str(v/n)],capture_output=True,text=True);(out/(n+'.stdout.json')).write_text(p.stdout);(out/(n+'.stderr')).write_text(p.stderr);d=json.loads(p.stdout) if p.returncode==0 else {};r={'script':n,'exitCode':p.returncode,'stderrBytes':len(p.stderr.encode()),'passed':d.get('passed'),'failed':d.get('failed',0 if d.get('passed') is True else None)};print(json.dumps(r),flush=True);return r
+with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:results=list(pool.map(run,names))
+(out/'tail-results.json').write_text(json.dumps(results,indent=2)+'\n');assert all(x['exitCode']==0 and x['stderrBytes']==0 and x['failed']==0 for x in results)

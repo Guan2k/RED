@@ -1,0 +1,37 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "name": "restore repeat f",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input",
+      "failedBehaviorCases": 4
+    },
+    {
+      "name": "restore repeat i",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input",
+      "failedBehaviorCases": 4
+    },
+    {
+      "name": "restore repeat m",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input",
+      "failedBehaviorCases": 4
+    },
+    {
+      "name": "block initial selection",
+      "passed": true,
+      "detectedBy": "initial selection works",
+      "failedBehaviorCases": 18
+    },
+    {
+      "name": "skip uppercase repeat",
+      "passed": true,
+      "detectedBy": "repeat preserves exact world and pending input",
+      "failedBehaviorCases": 6
+    }
+  ],
+  "scope": "Source mutations rejected by named behavioral assertions, not identity or syntax gates."
+}

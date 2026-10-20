@@ -1,0 +1,170 @@
+[
+  {
+    "script": "source-delta-v314-negative-control.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 7,
+    "failed": 0
+  },
+  {
+    "script": "escape-key-repeat-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 47,
+    "failed": 0
+  },
+  {
+    "script": "escape-key-repeat-negative-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "depleted-ore-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 69,
+    "failed": 0
+  },
+  {
+    "script": "depleted-ore-negative-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 23,
+    "failed": 0
+  },
+  {
+    "script": "building-reference-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 21,
+    "failed": 0
+  },
+  {
+    "script": "building-reference-negative-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 13,
+    "failed": 0
+  },
+  {
+    "script": "refinery-miner-selection-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 22,
+    "failed": 0
+  },
+  {
+    "script": "refinery-miner-selection-natural-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": true,
+    "failed": 0
+  },
+  {
+    "script": "vehicle-reference-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 19,
+    "failed": 0
+  },
+  {
+    "script": "vehicle-reference-negative-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 6,
+    "failed": 0
+  },
+  {
+    "script": "factory-requirement-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 164,
+    "failed": 0
+  },
+  {
+    "script": "factory-requirement-negative-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "purchase-funding-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 192,
+    "failed": 0
+  },
+  {
+    "script": "purchase-funding-negative-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "construction-reasons-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 47,
+    "failed": 0
+  },
+  {
+    "script": "construction-reasons-negative-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "factory-space-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 62,
+    "failed": 0
+  },
+  {
+    "script": "factory-space-negative-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 4,
+    "failed": 0
+  },
+  {
+    "script": "selection-key-repeat-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 93,
+    "failed": 0
+  },
+  {
+    "script": "selection-key-repeat-negative-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 5,
+    "failed": 0
+  },
+  {
+    "script": "ore-density-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 135,
+    "failed": 0
+  },
+  {
+    "script": "low-ore-label-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 52,
+    "failed": 0
+  },
+  {
+    "script": "run-pilot-release-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": null,
+    "failed": 0
+  }
+]

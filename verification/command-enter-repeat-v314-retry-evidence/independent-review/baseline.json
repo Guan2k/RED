@@ -1,0 +1,263 @@
+{
+  "passed": 30,
+  "failed": 27,
+  "sourceSha256": "1fa18e30606cecd2d237c74fe2056036adcb408c643fe601004de63b202d91fb",
+  "scope": "Independent full-source VM with focus-selected synthetic default-click adapter; no native keyboard/browser timing or accessibility delivery claim",
+  "results": [
+    {
+      "name": "attack repeated Enter after escape cannot reopen",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "attack focus leaves then returns while held",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "attack fresh Enter missing repeat flag",
+      "passed": true
+    },
+    {
+      "name": "attack disabled to enabled cannot resurrect held Enter",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "attack input focus Enter repeat unrelated",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "attack mouse and detail zero click not sticky blocked",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "attack IME untouched {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "attack IME untouched {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "attack Space token unchanged by Enter and repeat Esc",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "attack keyup Enter alone not suppressed",
+      "passed": true
+    },
+    {
+      "name": "attack local unrelated key and repeat Space retain handler behavior",
+      "passed": true
+    },
+    {
+      "name": "power repeated Enter after escape cannot reopen",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "power focus leaves then returns while held",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "power fresh Enter missing repeat flag",
+      "passed": true
+    },
+    {
+      "name": "power disabled to enabled cannot resurrect held Enter",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "power input focus Enter repeat unrelated",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "power mouse and detail zero click not sticky blocked",
+      "passed": true
+    },
+    {
+      "name": "power IME untouched {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "power IME untouched {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "power Space token unchanged by Enter and repeat Esc",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "power keyup Enter alone not suppressed",
+      "passed": true
+    },
+    {
+      "name": "power local unrelated key and repeat Space retain handler behavior",
+      "passed": true
+    },
+    {
+      "name": "refinery repeated Enter after escape cannot reopen",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "refinery focus leaves then returns while held",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "refinery fresh Enter missing repeat flag",
+      "passed": true
+    },
+    {
+      "name": "refinery disabled to enabled cannot resurrect held Enter",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "refinery input focus Enter repeat unrelated",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "refinery mouse and detail zero click not sticky blocked",
+      "passed": true
+    },
+    {
+      "name": "refinery IME untouched {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "refinery IME untouched {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "refinery Space token unchanged by Enter and repeat Esc",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "refinery keyup Enter alone not suppressed",
+      "passed": true
+    },
+    {
+      "name": "refinery local unrelated key and repeat Space retain handler behavior",
+      "passed": true
+    },
+    {
+      "name": "factory repeated Enter after escape cannot reopen",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "factory focus leaves then returns while held",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "factory fresh Enter missing repeat flag",
+      "passed": true
+    },
+    {
+      "name": "factory disabled to enabled cannot resurrect held Enter",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "factory input focus Enter repeat unrelated",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "factory mouse and detail zero click not sticky blocked",
+      "passed": true
+    },
+    {
+      "name": "factory IME untouched {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "factory IME untouched {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "factory Space token unchanged by Enter and repeat Esc",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "factory keyup Enter alone not suppressed",
+      "passed": true
+    },
+    {
+      "name": "factory local unrelated key and repeat Space retain handler behavior",
+      "passed": true
+    },
+    {
+      "name": "turret repeated Enter after escape cannot reopen",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "turret focus leaves then returns while held",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "turret fresh Enter missing repeat flag",
+      "passed": true
+    },
+    {
+      "name": "turret disabled to enabled cannot resurrect held Enter",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "turret input focus Enter repeat unrelated",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\nfalse !== true\n"
+    },
+    {
+      "name": "turret mouse and detail zero click not sticky blocked",
+      "passed": true
+    },
+    {
+      "name": "turret IME untouched {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "turret IME untouched {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "turret Space token unchanged by Enter and repeat Esc",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "turret keyup Enter alone not suppressed",
+      "passed": true
+    },
+    {
+      "name": "turret local unrelated key and repeat Space retain handler behavior",
+      "passed": true
+    },
+    {
+      "name": "focus transferred from attack to build suppresses held key until fresh press",
+      "passed": false,
+      "error": "Expected values to be strictly equal:\n\ntrue !== false\n"
+    },
+    {
+      "name": "new handler does not install on child span",
+      "passed": true
+    }
+  ]
+}

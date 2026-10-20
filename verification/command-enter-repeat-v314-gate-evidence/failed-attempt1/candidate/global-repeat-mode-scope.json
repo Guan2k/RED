@@ -1,0 +1,26 @@
+{
+  "passed": 1,
+  "failed": 1,
+  "sourceSha256": "c87b96bda80287417710da0fe70ff9e944dbfe1f057e4644953672eb3e35ff38",
+  "baselineSourceSha256": null,
+  "assertions": 1,
+  "worldComparisons": 0,
+  "longRunComparisons": 0,
+  "scenarios": [],
+  "globalModes": [],
+  "events": [],
+  "negativeControls": [],
+  "results": [
+    {
+      "name": "exact current source and strict local v298 restoration",
+      "passed": false,
+      "code": "ERR_ASSERTION",
+      "error": "AssertionError [ERR_ASSERTION]: exact current v313 source\n+ actual - expected\n\n+ 'c87b96bda80287417710da0fe70ff9e944dbfe1f057e4644953672eb3e35ff38'\n- '1fa18e30606cecd2d237c74fe2056036adcb408c643fe601004de63b202d91fb'\n\n    at equal (/workspace/scratch/e433d7540f34/red-development/v314-work/RED/verification/global-repeat-mode-scope-v313.cjs:23:52)\n    at /workspace/scratch/e433d7540f34/red-development/v314-work/RED/verification/global-repeat-mode-scope-v313.cjs:90:3\n    at test (/workspace/scratch/e433d7540f34/red-development/v314-work/RED/verification/global-repeat-mode-scope-v313.cjs:25:9)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v314-work/RED/verification/global-repeat-mode-scope-v313.cjs:89:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    },
+    {
+      "name": "current source remains unchanged after every positive and negative control",
+      "passed": true
+    }
+  ],
+  "scope": "Current-source natural Start/build-card/map-pointer construction and normal payment. 200 completed-production comparisons plus six 81-comparison scenario pairs. Full state, every log, selection, pending modes, durable state and RNG retained; only exact equality to two approved receipt strings is reversed inside state.logs. Strict local v298 restoration, complete executable identity, accessibility wording controls and diagnostic-specific executable/log controls. Bundled no-persistence seeded synthetic DOM/VM; no save/load/import/export actions and no native browser layout claim."
+}

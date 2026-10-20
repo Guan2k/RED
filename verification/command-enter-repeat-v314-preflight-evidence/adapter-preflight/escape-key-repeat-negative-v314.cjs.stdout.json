@@ -1,0 +1,31 @@
+{
+  "passed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "name": "restore old repeated Escape cancellation",
+      "passed": true,
+      "rejectedBy": "held Escape preserves new attack, paused=false",
+      "failedCases": 14
+    },
+    {
+      "name": "block first Escape too",
+      "passed": true,
+      "rejectedBy": "first Escape false cancels attack",
+      "failedCases": 24
+    },
+    {
+      "name": "stop canceling pending attack",
+      "passed": true,
+      "rejectedBy": "first Escape false cancels attack",
+      "failedCases": 5
+    },
+    {
+      "name": "stop returning from restart on first Escape",
+      "passed": true,
+      "rejectedBy": "held Escape preserves newly opened restart, paused=false",
+      "failedCases": 2
+    }
+  ],
+  "scope": "Four precise source mutations, rejected by designated behavioral cases. Not additional gameplay scenarios or native browser coverage."
+}

@@ -1,0 +1,92 @@
+{
+  "sourceSha256": "d0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d",
+  "passed": true,
+  "events": [
+    {
+      "action": "paid refinery build",
+      "cash": 1050,
+      "t": 0
+    },
+    {
+      "action": "legal simulation completion",
+      "t": 9.000000000000027,
+      "miners": [
+        {
+          "id": 5,
+          "x": 390.9876741997316,
+          "y": 645.2344979413061
+        },
+        {
+          "id": 20,
+          "x": 343.4268585294443,
+          "y": 702.2463544417287
+        }
+      ]
+    },
+    {
+      "action": "selected live nearest cohort without changing either fleet orders",
+      "refinery": 3,
+      "selected": [
+        20
+      ],
+      "orders": [
+        {
+          "id": 5,
+          "goal": {
+            "x": 230.00000000000003,
+            "y": 640
+          },
+          "manual": 10,
+          "returnCargo": false,
+          "oreIndex": null,
+          "load": 105
+        },
+        {
+          "id": 20,
+          "goal": {
+            "x": 500,
+            "y": 694
+          },
+          "manual": 10,
+          "returnCargo": false,
+          "oreIndex": null,
+          "load": 0
+        }
+      ],
+      "t": 9.05000000000003
+    },
+    {
+      "action": "selected live nearest cohort without changing either fleet orders",
+      "refinery": 19,
+      "selected": [
+        5
+      ],
+      "orders": [
+        {
+          "id": 5,
+          "goal": {
+            "x": 230.00000000000003,
+            "y": 640
+          },
+          "manual": 10,
+          "returnCargo": false,
+          "oreIndex": null,
+          "load": 105
+        },
+        {
+          "id": 20,
+          "goal": {
+            "x": 500,
+            "y": 694
+          },
+          "manual": 10,
+          "returnCargo": false,
+          "oreIndex": null,
+          "load": 0
+        }
+      ],
+      "t": 9.05000000000003
+    }
+  ],
+  "scope": "One legal full-source VM gameplay witness. Paid build and production, simulated completion/movement, map selection and ordinary commands use registered UI. No gameplay injection, persistence, native browser or release claim."
+}

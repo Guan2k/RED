@@ -1,0 +1,13 @@
+{
+  "changed": [
+    "verification/run-tests-v314.cjs"
+  ],
+  "added": [
+    "verification/inherit-dom-v314.cjs",
+    "verification/repair-repeat-case-v314.json",
+    "verification/inherit-dom-v314-negative-control.cjs"
+  ],
+  "sourceSha256": "d0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d",
+  "attempt1Preserved": true,
+  "scope": "Only new current adapter, one retained behavior case contract, new negatives and runner entries. Original products and frozen historical tests unchanged."
+}

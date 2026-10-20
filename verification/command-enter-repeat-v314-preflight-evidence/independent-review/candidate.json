@@ -1,0 +1,236 @@
+{
+  "passed": 57,
+  "failed": 0,
+  "sourceSha256": "c87b96bda80287417710da0fe70ff9e944dbfe1f057e4644953672eb3e35ff38",
+  "scope": "Independent full-source VM with focus-selected synthetic default-click adapter; no native keyboard/browser timing or accessibility delivery claim",
+  "results": [
+    {
+      "name": "attack repeated Enter after escape cannot reopen",
+      "passed": true
+    },
+    {
+      "name": "attack focus leaves then returns while held",
+      "passed": true
+    },
+    {
+      "name": "attack fresh Enter missing repeat flag",
+      "passed": true
+    },
+    {
+      "name": "attack disabled to enabled cannot resurrect held Enter",
+      "passed": true
+    },
+    {
+      "name": "attack input focus Enter repeat unrelated",
+      "passed": true
+    },
+    {
+      "name": "attack mouse and detail zero click not sticky blocked",
+      "passed": true
+    },
+    {
+      "name": "attack IME untouched {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "attack IME untouched {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "attack Space token unchanged by Enter and repeat Esc",
+      "passed": true
+    },
+    {
+      "name": "attack keyup Enter alone not suppressed",
+      "passed": true
+    },
+    {
+      "name": "attack local unrelated key and repeat Space retain handler behavior",
+      "passed": true
+    },
+    {
+      "name": "power repeated Enter after escape cannot reopen",
+      "passed": true
+    },
+    {
+      "name": "power focus leaves then returns while held",
+      "passed": true
+    },
+    {
+      "name": "power fresh Enter missing repeat flag",
+      "passed": true
+    },
+    {
+      "name": "power disabled to enabled cannot resurrect held Enter",
+      "passed": true
+    },
+    {
+      "name": "power input focus Enter repeat unrelated",
+      "passed": true
+    },
+    {
+      "name": "power mouse and detail zero click not sticky blocked",
+      "passed": true
+    },
+    {
+      "name": "power IME untouched {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "power IME untouched {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "power Space token unchanged by Enter and repeat Esc",
+      "passed": true
+    },
+    {
+      "name": "power keyup Enter alone not suppressed",
+      "passed": true
+    },
+    {
+      "name": "power local unrelated key and repeat Space retain handler behavior",
+      "passed": true
+    },
+    {
+      "name": "refinery repeated Enter after escape cannot reopen",
+      "passed": true
+    },
+    {
+      "name": "refinery focus leaves then returns while held",
+      "passed": true
+    },
+    {
+      "name": "refinery fresh Enter missing repeat flag",
+      "passed": true
+    },
+    {
+      "name": "refinery disabled to enabled cannot resurrect held Enter",
+      "passed": true
+    },
+    {
+      "name": "refinery input focus Enter repeat unrelated",
+      "passed": true
+    },
+    {
+      "name": "refinery mouse and detail zero click not sticky blocked",
+      "passed": true
+    },
+    {
+      "name": "refinery IME untouched {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "refinery IME untouched {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "refinery Space token unchanged by Enter and repeat Esc",
+      "passed": true
+    },
+    {
+      "name": "refinery keyup Enter alone not suppressed",
+      "passed": true
+    },
+    {
+      "name": "refinery local unrelated key and repeat Space retain handler behavior",
+      "passed": true
+    },
+    {
+      "name": "factory repeated Enter after escape cannot reopen",
+      "passed": true
+    },
+    {
+      "name": "factory focus leaves then returns while held",
+      "passed": true
+    },
+    {
+      "name": "factory fresh Enter missing repeat flag",
+      "passed": true
+    },
+    {
+      "name": "factory disabled to enabled cannot resurrect held Enter",
+      "passed": true
+    },
+    {
+      "name": "factory input focus Enter repeat unrelated",
+      "passed": true
+    },
+    {
+      "name": "factory mouse and detail zero click not sticky blocked",
+      "passed": true
+    },
+    {
+      "name": "factory IME untouched {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "factory IME untouched {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "factory Space token unchanged by Enter and repeat Esc",
+      "passed": true
+    },
+    {
+      "name": "factory keyup Enter alone not suppressed",
+      "passed": true
+    },
+    {
+      "name": "factory local unrelated key and repeat Space retain handler behavior",
+      "passed": true
+    },
+    {
+      "name": "turret repeated Enter after escape cannot reopen",
+      "passed": true
+    },
+    {
+      "name": "turret focus leaves then returns while held",
+      "passed": true
+    },
+    {
+      "name": "turret fresh Enter missing repeat flag",
+      "passed": true
+    },
+    {
+      "name": "turret disabled to enabled cannot resurrect held Enter",
+      "passed": true
+    },
+    {
+      "name": "turret input focus Enter repeat unrelated",
+      "passed": true
+    },
+    {
+      "name": "turret mouse and detail zero click not sticky blocked",
+      "passed": true
+    },
+    {
+      "name": "turret IME untouched {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "turret IME untouched {\"keyCode\":229}",
+      "passed": true
+    },
+    {
+      "name": "turret Space token unchanged by Enter and repeat Esc",
+      "passed": true
+    },
+    {
+      "name": "turret keyup Enter alone not suppressed",
+      "passed": true
+    },
+    {
+      "name": "turret local unrelated key and repeat Space retain handler behavior",
+      "passed": true
+    },
+    {
+      "name": "focus transferred from attack to build suppresses held key until fresh press",
+      "passed": true
+    },
+    {
+      "name": "new handler does not install on child span",
+      "passed": true
+    }
+  ]
+}

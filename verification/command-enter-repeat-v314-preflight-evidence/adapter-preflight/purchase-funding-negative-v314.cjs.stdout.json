@@ -1,0 +1,27 @@
+{
+  "passed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "name": "fraction floor",
+      "passed": true,
+      "detectedFailures": 40
+    },
+    {
+      "name": "missing unit",
+      "passed": true,
+      "detectedFailures": 122
+    },
+    {
+      "name": "empty queue suffix",
+      "passed": true,
+      "detectedFailures": 60
+    },
+    {
+      "name": "lost paid preservation",
+      "passed": true,
+      "detectedFailures": 62
+    }
+  ],
+  "scope": "Four exact receipt-only mutations detected against complete current-source behavior suite."
+}

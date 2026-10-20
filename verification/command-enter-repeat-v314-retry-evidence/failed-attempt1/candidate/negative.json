@@ -1,0 +1,43 @@
+{
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "name": "remove repeat protection",
+      "detected": true,
+      "failed": 22,
+      "expected": "attack: behavioral Escape cancellation survives held Enter"
+    },
+    {
+      "name": "block fresh Enter",
+      "detected": true,
+      "failed": 15,
+      "expected": "power: first Enter, repeats, Escape, repeats, fresh Enter"
+    },
+    {
+      "name": "block composing Enter",
+      "detected": true,
+      "failed": 5,
+      "expected": "attack: IME {\"isComposing\":true} Enter repeat untouched"
+    },
+    {
+      "name": "block legacy composing Enter",
+      "detected": true,
+      "failed": 5,
+      "expected": "power: IME {\"keyCode\":229} Enter repeat untouched"
+    },
+    {
+      "name": "block all repeated keys",
+      "detected": true,
+      "failed": 5,
+      "expected": "factory: unrelated key repeat untouched by local handler"
+    },
+    {
+      "name": "return without canceling native default",
+      "detected": true,
+      "failed": 22,
+      "expected": "attack: behavioral held Enter preserves armed mode"
+    }
+  ],
+  "scope": "Synthetic VM mutation sensitivity only; no native browser or release acceptance."
+}

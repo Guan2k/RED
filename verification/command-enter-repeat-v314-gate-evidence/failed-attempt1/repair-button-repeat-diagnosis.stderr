@@ -1,0 +1,28 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: exact v272 source hash
++ actual - expected
+
++ 'd0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d'
+- '4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f'
+
+    at module.exports (/workspace/scratch/e433d7540f34/red-development/v314-integration/RED/verification/restore-v271.cjs:5:38)
+    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v314-integration/RED/verification/repair-button-repeat.cjs:10:95)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 'd0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d',
+  expected: '4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,44 @@
+[
+  {
+    "script": "progress-rails-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 202,
+    "failed": 0
+  },
+  {
+    "script": "beginner-guide-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 41,
+    "failed": 0
+  },
+  {
+    "script": "hold-guidance-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 16,
+    "failed": 0
+  },
+  {
+    "script": "building-team-cue-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 1,
+    "failed": 0
+  },
+  {
+    "script": "render-preview-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 78,
+    "failed": 0
+  },
+  {
+    "script": "command-allocation-feedback-v314.cjs",
+    "exitCode": 0,
+    "stderrBytes": 0,
+    "passed": 104,
+    "failed": 0
+  }
+]

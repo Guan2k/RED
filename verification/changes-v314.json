@@ -1,0 +1,10 @@
+[
+  {
+    "before": "><small>赤色前线 / ORIGINAL RTS / v0.313</small></div><div class=\"stats\"><d",
+    "after": "><small>赤色前线 / ORIGINAL RTS / v0.314</small></div><div class=\"stats\"><d"
+  },
+  {
+    "before": " b.onkeydown=e=>{if(e.target!==b||e.key!==' '||e.repeat||",
+    "after": " b.onkeydown=e=>{if(e.key==='Enter'&&e.repeat&&!e.isComposing&&e.keyCode!==229){e.preventDefault();return}if(e.target!==b||e.key!==' '||e.repeat||"
+  }
+]

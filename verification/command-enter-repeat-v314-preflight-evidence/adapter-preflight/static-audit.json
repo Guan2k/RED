@@ -1,0 +1,17 @@
+{
+  "changedExisting": [
+    "QA_STATUS.md",
+    "CURRENT_PLAYER_GUIDE.md",
+    "DEVELOPING.md",
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "source-build-receipt.json",
+    "index.html",
+    "QUICK_START.html",
+    "current-verification.json",
+    "README.md",
+    "src/index.template.html",
+    "src/script/04-interface-runtime.jsfrag"
+  ],
+  "historicalVerificationUnchanged": true,
+  "sourceSha256": "d0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d"
+}

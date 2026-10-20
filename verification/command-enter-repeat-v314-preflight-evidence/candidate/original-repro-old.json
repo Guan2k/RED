@@ -1,0 +1,62 @@
+{
+  "kind": "attack",
+  "rows": [
+    {
+      "label": "initial",
+      "attack": false,
+      "placement": null
+    },
+    {
+      "label": "Enter initial native-default model",
+      "attack": true,
+      "placement": null
+    },
+    {
+      "label": "Enter repeat native-default model",
+      "attack": false,
+      "placement": null
+    },
+    {
+      "label": "Escape while Enter held",
+      "attack": false,
+      "placement": null
+    },
+    {
+      "label": "Enter repeat after Escape",
+      "attack": true,
+      "placement": null
+    }
+  ],
+  "scope": "Synthetic event model of browser Enter keydown default click, not native browser verification"
+}
+{
+  "kind": "power",
+  "rows": [
+    {
+      "label": "initial",
+      "attack": false,
+      "placement": null
+    },
+    {
+      "label": "Enter initial native-default model",
+      "attack": false,
+      "placement": "power"
+    },
+    {
+      "label": "Enter repeat native-default model",
+      "attack": false,
+      "placement": "power"
+    },
+    {
+      "label": "Escape while Enter held",
+      "attack": false,
+      "placement": null
+    },
+    {
+      "label": "Enter repeat after Escape",
+      "attack": false,
+      "placement": "power"
+    }
+  ],
+  "scope": "Synthetic event model of browser Enter keydown default click, not native browser verification"
+}

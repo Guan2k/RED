@@ -1,0 +1,5 @@
+Files red-development/v313-integration/RED/index.html and red-development/v314-work/RED/index.html differ
+Files red-development/v313-integration/RED/source-build-receipt.json and red-development/v314-work/RED/source-build-receipt.json differ
+Files red-development/v313-integration/RED/src/script/04-interface-runtime.jsfrag and red-development/v314-work/RED/src/script/04-interface-runtime.jsfrag differ
+Only in red-development/v314-work/RED/verification: command-enter-repeat-candidate.cjs
+Only in red-development/v314-work/RED/verification: command-enter-repeat-negative-candidate.cjs

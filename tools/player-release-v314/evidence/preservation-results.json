@@ -1,0 +1,24 @@
+{
+  "sourceParagraphs": 208,
+  "outputParagraphs": 211,
+  "changedParagraphs": [
+    "p001",
+    "p065",
+    "p191"
+  ],
+  "unchangedParagraphs": 205,
+  "changedOutputParagraphs": [
+    "o_p001",
+    "o_p065",
+    "o_p191"
+  ],
+  "unchangedOutputParagraphs": 208,
+  "saveRiskParagraphs": 15,
+  "saveRiskParagraphsPreserved": true,
+  "scope": "Current title, current scope label and existing keyboard explanation only. No unrelated player guide instructions changed.",
+  "inheritedTemplateCorrections": [
+    "Derived current-scope label corrected from v0.307 to v0.314.",
+    "Player README checksum description corrected from three to four non-manifest files."
+  ],
+  "negativeVersionMutation": "v0.314 -> v0.315"
+}
