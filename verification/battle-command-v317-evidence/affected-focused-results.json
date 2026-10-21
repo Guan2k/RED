@@ -1,0 +1,135 @@
+[
+  {
+    "script": "render-preview-v317.cjs",
+    "exitCode": 0,
+    "passed": 79,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "ore-layout-v317.cjs",
+    "exitCode": 0,
+    "passed": 5528,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "ore-layout-negative-control-v317.cjs",
+    "exitCode": 0,
+    "passed": 19,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "building-preview-v317.cjs",
+    "exitCode": 0,
+    "passed": 450,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "progress-rails-v317.cjs",
+    "exitCode": 0,
+    "passed": 202,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "progress-rails-negative-control-v317.cjs",
+    "exitCode": 0,
+    "passed": 9,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "health-edge-v317.cjs",
+    "exitCode": 0,
+    "passed": 2952,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "health-edge-negative-control-v317.cjs",
+    "exitCode": 0,
+    "passed": 50,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "hold-guidance-v317.cjs",
+    "exitCode": 0,
+    "passed": 16,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "global-repeat-mode-scope-v317.cjs",
+    "exitCode": 0,
+    "passed": 31,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "building-team-cue-v317.cjs",
+    "exitCode": 0,
+    "passed": 1,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "depleted-ore-v317.cjs",
+    "exitCode": 0,
+    "passed": 69,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "depleted-ore-negative-v317.cjs",
+    "exitCode": 0,
+    "passed": 23,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "building-reference-v317.cjs",
+    "exitCode": 0,
+    "passed": 21,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "building-reference-negative-v317.cjs",
+    "exitCode": 0,
+    "passed": 13,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "ore-density-v317.cjs",
+    "exitCode": 0,
+    "passed": 135,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "low-ore-label-v317.cjs",
+    "exitCode": 0,
+    "passed": 52,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "stable-suites/run-quick.cjs",
+    "exitCode": 0,
+    "passed": 3,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "run-pilot-release-v317.cjs",
+    "exitCode": 0,
+    "passed": null,
+    "failed": 0,
+    "stderrBytes": 0
+  }
+]

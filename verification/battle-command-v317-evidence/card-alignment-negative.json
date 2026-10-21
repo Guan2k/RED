@@ -1,0 +1,71 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "results": [
+    {
+      "name": "exact inventory and actual live identities retained",
+      "passed": true
+    },
+    {
+      "name": "wrong card title is observable",
+      "passed": true
+    },
+    {
+      "name": "wrong disabled state is observable",
+      "passed": true
+    },
+    {
+      "name": "wrong hidden state is observable",
+      "passed": true
+    },
+    {
+      "name": "wrong display state is observable",
+      "passed": true
+    },
+    {
+      "name": "wrong original data attribute is observable",
+      "passed": true
+    },
+    {
+      "name": "extra card attribute is observable",
+      "passed": true
+    },
+    {
+      "name": "missing card rejected before field comparison",
+      "passed": true
+    },
+    {
+      "name": "duplicate card rejected before field comparison",
+      "passed": true
+    },
+    {
+      "name": "duplicate semantic key rejected before field comparison",
+      "passed": true
+    },
+    {
+      "name": "unknown semantic key rejected before field comparison",
+      "passed": true
+    },
+    {
+      "name": "both card kinds rejected before field comparison",
+      "passed": true
+    },
+    {
+      "name": "within-group order changed rejected before field comparison",
+      "passed": true
+    },
+    {
+      "name": "detached card rejected before field comparison",
+      "passed": true
+    },
+    {
+      "name": "wrong card parent rejected before field comparison",
+      "passed": true
+    },
+    {
+      "name": "wrong tag rejected before field comparison",
+      "passed": true
+    }
+  ],
+  "scope": "Strict nine-card keyed field alignment only. Live nodes are retained for write spies; exact within-group order/attachment and full compared fields remain checked. Full tree layout remains covered separately by product and projection tests."
+}

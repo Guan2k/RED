@@ -1,0 +1,783 @@
+{
+  "passed": 113,
+  "failed": 0,
+  "results": [
+    {
+      "name": "valid current and explicit history",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "missing current-verification.json",
+      "passed": true,
+      "failuresDetected": [
+        "read:current-verification.json"
+      ]
+    },
+    {
+      "name": "missing README.md",
+      "passed": true,
+      "failuresDetected": [
+        "read:README.md"
+      ]
+    },
+    {
+      "name": "missing CURRENT_PLAYER_GUIDE.md",
+      "passed": true,
+      "failuresDetected": [
+        "read:CURRENT_PLAYER_GUIDE.md"
+      ]
+    },
+    {
+      "name": "missing CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "failuresDetected": [
+        "read:CURRENT_VERIFICATION_ENTRY.md"
+      ]
+    },
+    {
+      "name": "missing QA_STATUS.md",
+      "passed": true,
+      "failuresDetected": [
+        "read:QA_STATUS.md"
+      ]
+    },
+    {
+      "name": "missing index.html",
+      "passed": true,
+      "failuresDetected": [
+        "read:index.html"
+      ]
+    },
+    {
+      "name": "missing verification/run-tests-v301.cjs",
+      "passed": true,
+      "failuresDetected": [
+        "read:verification/run-tests-v301.cjs"
+      ]
+    },
+    {
+      "name": "invalid JSON/schema {",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-json"
+      ]
+    },
+    {
+      "name": "invalid JSON/schema null",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-json"
+      ]
+    },
+    {
+      "name": "invalid JSON/schema []",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-json"
+      ]
+    },
+    {
+      "name": "invalid JSON/schema \"text\"",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-json"
+      ]
+    },
+    {
+      "name": "invalid JSON/schema {}",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "current command mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-command"
+      ]
+    },
+    {
+      "name": "current link mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-link"
+      ]
+    },
+    {
+      "name": "guide mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "header prefix mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "title:QA_STATUS.md"
+      ]
+    },
+    {
+      "name": "only historical command cannot pass",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "only historical nested subsection cannot pass",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "only fenced command cannot pass",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "missing current section cannot use history",
+      "passed": true,
+      "failuresDetected": [
+        "current-readme-section"
+      ]
+    },
+    {
+      "name": "duplicate current section rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-readme-section"
+      ]
+    },
+    {
+      "name": "duplicate current command rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "missing current guide cannot use historical claim",
+      "passed": true,
+      "failuresDetected": [
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "missing target",
+      "passed": true,
+      "failuresDetected": [
+        "read:missing.md"
+      ]
+    },
+    {
+      "name": "missing anchor",
+      "passed": true,
+      "failuresDetected": [
+        "anchor:README.md:CURRENT_PLAYER_GUIDE.md#missing"
+      ]
+    },
+    {
+      "name": "source bytes mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-source-hash"
+      ]
+    },
+    {
+      "name": "runner bytes mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-runner-hash"
+      ]
+    },
+    {
+      "name": "source version mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-source-hash",
+        "manifest-version",
+        "manifest-runner",
+        "title:README.md",
+        "title:CURRENT_PLAYER_GUIDE.md",
+        "title:CURRENT_VERIFICATION_ENTRY.md",
+        "title:QA_STATUS.md",
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "manifest unsafe source blocked",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "link escape blocked",
+      "passed": true,
+      "failuresDetected": [
+        "path:../../outside"
+      ]
+    },
+    {
+      "name": "symlink escape blocked",
+      "passed": true,
+      "failuresDetected": [
+        "read:QA_STATUS.md"
+      ]
+    },
+    {
+      "name": "external link is not fetched",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "historical H3 inherited through H4",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "historical guide H2 inherited through H3",
+      "passed": true,
+      "failuresDetected": [
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "comment-only current command excluded",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "inline commented command excluded",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-command"
+      ]
+    },
+    {
+      "name": "fake fenced anchor excluded",
+      "passed": true,
+      "failuresDetected": [
+        "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局"
+      ]
+    },
+    {
+      "name": "fake commented anchor excluded",
+      "passed": true,
+      "failuresDetected": [
+        "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局"
+      ]
+    },
+    {
+      "name": "shorter closing fence not accepted",
+      "passed": true,
+      "failuresDetected": [
+        "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局"
+      ]
+    },
+    {
+      "name": "wrong closing fence type not accepted",
+      "passed": true,
+      "failuresDetected": [
+        "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局"
+      ]
+    },
+    {
+      "name": "real fenced current command supported",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "same-level heading exits historical subtree",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "commented fake history cannot hide valid command",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "current entry old runner rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "current entry unsupported option rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "current entry positional argument rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "current entry unknown command extension rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "current entry fenced supported option",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "current entry only comment rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command-present"
+      ]
+    },
+    {
+      "name": "current entry only history rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command-present"
+      ]
+    },
+    {
+      "name": "current entry history old command allowed",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "entry quoted unsupported option rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "entry single-quoted unsupported option rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "entry quoted supported option accepted",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "entry unterminated quote rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "entry inline unsupported quoted tail rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "entry mixed appended argument rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "entry shell suffix rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "README runner quoted tail rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-command"
+      ]
+    },
+    {
+      "name": "relocated tool arbitrary cwd /tmp/red-doc-contract-qkehAm/0/package",
+      "passed": true
+    },
+    {
+      "name": "relocated tool arbitrary cwd ../0/package",
+      "passed": true
+    },
+    {
+      "name": "reject CLI []",
+      "passed": true
+    },
+    {
+      "name": "reject CLI [\"--fix\"]",
+      "passed": true
+    },
+    {
+      "name": "reject CLI [\"/tmp/red-doc-contract-qkehAm/0/package\",\"extra\"]",
+      "passed": true
+    },
+    {
+      "name": "missing package CLI explicit failure",
+      "passed": true
+    },
+    {
+      "name": "schema2 valid stable entry",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "schema2 direct current entry",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "schema2 fenced README command",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "schema2 unknown manifest schema 0",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "schema2 unknown manifest schema 3",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "schema2 unknown manifest schema 2",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "schema2 unknown manifest schema null",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "schema2 wrong entry verification/run-tests-v301.cjs",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "schema2 wrong entry verification/stable-suites/run-quick.cjs",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "schema2 wrong entry verification/stable-suites/../stable-suites/release-runner.cjs",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "schema2 manifest source identity mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-identity",
+        "stable-contract-dependencies",
+        "manifest-version"
+      ]
+    },
+    {
+      "name": "schema2 historical identity mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-identity"
+      ]
+    },
+    {
+      "name": "schema2 missing contract",
+      "passed": true,
+      "failuresDetected": [
+        "read:verification/stable-suites/release-contract.json",
+        "stable-contract-schema"
+      ]
+    },
+    {
+      "name": "schema2 invalid contract {",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-json",
+        "stable-contract-schema"
+      ]
+    },
+    {
+      "name": "schema2 invalid contract null",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-schema"
+      ]
+    },
+    {
+      "name": "schema2 invalid contract []",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-schema"
+      ]
+    },
+    {
+      "name": "schema2 invalid contract {}",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-schema",
+        "stable-contract-identity",
+        "stable-contract-dispatch",
+        "stable-contract-dependencies"
+      ]
+    },
+    {
+      "name": "schema2 invalid contract {\"schema\":2}",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-schema",
+        "stable-contract-identity",
+        "stable-contract-dispatch",
+        "stable-contract-dependencies"
+      ]
+    },
+    {
+      "name": "schema2 missing dispatch",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-dispatch"
+      ]
+    },
+    {
+      "name": "schema2 wrong dispatch target",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-dispatch"
+      ]
+    },
+    {
+      "name": "schema2 missing dependency inventory",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-dependencies"
+      ]
+    },
+    {
+      "name": "schema2 invalid dependency inventory",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-dependencies"
+      ]
+    },
+    {
+      "name": "schema2 dependency omitted",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-dependencies"
+      ]
+    },
+    {
+      "name": "schema2 missing dependency verification/stable-suites/release-runner.cjs",
+      "passed": true,
+      "failuresDetected": [
+        "read:verification/stable-suites/release-runner.cjs"
+      ]
+    },
+    {
+      "name": "schema2 missing dependency verification/run-tests-v301.cjs",
+      "passed": true,
+      "failuresDetected": [
+        "read:verification/run-tests-v301.cjs"
+      ]
+    },
+    {
+      "name": "schema2 missing dependency verification/parameterized-pilot/vm-environment-provenance.cjs",
+      "passed": true,
+      "failuresDetected": [
+        "read:verification/parameterized-pilot/vm-environment-provenance.cjs"
+      ]
+    },
+    {
+      "name": "schema2 missing dependency verification/stable-suites/provenance-loader.cjs",
+      "passed": true,
+      "failuresDetected": [
+        "read:verification/stable-suites/provenance-loader.cjs"
+      ]
+    },
+    {
+      "name": "schema2 missing dependency verification/stable-suites/purchase-funding.cjs",
+      "passed": true,
+      "failuresDetected": [
+        "read:verification/stable-suites/purchase-funding.cjs"
+      ]
+    },
+    {
+      "name": "schema2 dependency bytes mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "stable-dependency-hash:verification/stable-suites/purchase-funding.cjs"
+      ]
+    },
+    {
+      "name": "schema2 invalid dependency digest",
+      "passed": true,
+      "failuresDetected": [
+        "stable-dependency-schema:verification/stable-suites/release-runner.cjs",
+        "stable-dependency-hash:verification/stable-suites/release-runner.cjs"
+      ]
+    },
+    {
+      "name": "schema2 unsafe dependency path",
+      "passed": true,
+      "failuresDetected": [
+        "stable-dependency-schema:../outside"
+      ]
+    },
+    {
+      "name": "schema2 old README command",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-command"
+      ]
+    },
+    {
+      "name": "schema2 old README link",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-link"
+      ]
+    },
+    {
+      "name": "schema2 extra stable README link",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-link"
+      ]
+    },
+    {
+      "name": "schema2 old current entry rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "schema2 stable runner options rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "schema1 fixed stable runner rejected",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "schema2 independent source bytes still checked",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-source-hash"
+      ]
+    },
+    {
+      "name": "schema2 independent runner bytes still checked",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-runner-hash",
+        "stable-dependency-hash:verification/stable-suites/release-runner.cjs"
+      ]
+    },
+    {
+      "name": "schema2 independent manifest runner hash still checked",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-runner-hash"
+      ]
+    },
+    {
+      "name": "schema2 independent duplicate dispatch rejected",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-dispatch"
+      ]
+    },
+    {
+      "name": "schema2 independent missing negative dispatch rejected",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-dispatch"
+      ]
+    },
+    {
+      "name": "schema2 independent negative identity omitted",
+      "passed": true,
+      "failuresDetected": [
+        "stable-contract-dependencies"
+      ]
+    },
+    {
+      "name": "schema2 independent old and stable README link cannot coexist",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-link"
+      ]
+    },
+    {
+      "name": "schema2 independent README shell suffix rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-command"
+      ]
+    },
+    {
+      "name": "schema2 independent source version still checked",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-source-hash",
+        "manifest-version",
+        "title:README.md",
+        "title:CURRENT_PLAYER_GUIDE.md",
+        "title:CURRENT_VERIFICATION_ENTRY.md",
+        "title:QA_STATUS.md",
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "schema2 independent malformed path rejected",
+      "passed": true,
+      "failuresDetected": [
+        "stable-dependency-schema:verification//x"
+      ]
+    }
+  ],
+  "scope": "Private temporary fixtures and relocated CLI; every inspected package remains byte-identical; runner fixtures intentionally throw if executed."
+}

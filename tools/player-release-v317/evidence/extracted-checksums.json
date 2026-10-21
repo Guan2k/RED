@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "717548a2bf62bde9595b2ee19ab2082e548d4281093bc41f7573bdfe173c8cdd",
+  "files": [
+    "CURRENT_PLAYER_GUIDE.md",
+    "QUICK_START.html",
+    "README.md",
+    "SHA256SUMS.txt",
+    "index.html"
+  ],
+  "command": "sha256sum -c SHA256SUMS.txt",
+  "exit_code": 0,
+  "stdout": "CURRENT_PLAYER_GUIDE.md: OK\nQUICK_START.html: OK\nREADME.md: OK\nindex.html: OK\n",
+  "checks_passed": 4,
+  "index_sha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d"
+}

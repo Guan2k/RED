@@ -1,0 +1,10 @@
+{
+  "started": "2026-10-21T03:39:54.623896+00:00",
+  "finished": "2026-10-21T03:47:03.225993+00:00",
+  "exitCode": 1,
+  "originalUnchanged": true,
+  "isolatedInputsUnchanged": true,
+  "inputFiles": 5058,
+  "stderrBytes": 16899,
+  "scope": "Complete v317 developer entry in an isolated copy; canonical verifier seals its own snapshot. All original/copied inputs checked bytewise before/after. No earlier release result reused. VM/mock-DOM only."
+}

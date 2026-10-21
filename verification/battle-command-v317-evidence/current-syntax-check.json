@@ -1,0 +1,391 @@
+{
+  "passed": 77,
+  "failed": 0,
+  "results": [
+    {
+      "file": "battle-command-independent-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "beginner-guide-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "bounded-ui-writes-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "bounded-ui-writes-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "building-preview-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "building-reference-negative-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "building-reference-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "building-team-cue-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "command-allocation-feedback-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "command-allocation-feedback-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "control-group-protection-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "control-group-repeat-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "coordinate-command-natural-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "depleted-ore-negative-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "depleted-ore-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "global-repeat-mode-scope-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "global-repeat-scope-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "global-repeat-scope-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "health-edge-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "health-edge-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "hold-guidance-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "inherit-dom-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "low-ore-label-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "opening-practice-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "opening-practice-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "order-waiting-reuse-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "order-waiting-reuse-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "ore-density-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "ore-layout-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "ore-layout-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "patrol-action-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "patrol-action-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "power-read-reuse-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "power-read-reuse-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "presentation-expected-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "presentation-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "presentation-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "progress-rails-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "progress-rails-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "quick-switchback-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "quick-switchback-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "render-preview-negative-control-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "render-preview-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "repair-repeat-inheritance-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v288-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v289-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v290-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v291-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v292-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v293-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v294-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v295-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v296-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v297-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v298-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v299-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v300-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v301-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v302-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v303-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v304-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v305-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v306-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v307-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v308-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v309-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v310-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v311-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v312-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v313-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v314-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "restore-v315-from-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "run-pilot-release-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "run-tests-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "source-delta-history-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "source-delta-to-v302-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "source-delta-v317.cjs",
+      "exitCode": 0,
+      "stderr": ""
+    }
+  ]
+}

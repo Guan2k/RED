@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "families": [
+    "purchase-funding",
+    "selection-key-repeat",
+    "escape-key-repeat"
+  ],
+  "recipes": [
+    {
+      "historical": "../purchase-funding-v315.cjs",
+      "module": "purchase-funding.cjs",
+      "historicalSha256": "213b93bb26d66be90289e1f237a8fc5217a121f2b9aea72eff2e4f0ff60ed2d8",
+      "changes": [
+        {
+          "before": "path.join(__dirname,'../index.html')",
+          "after": "path.join(__dirname,'../../index.html')",
+          "occurrences": 1
+        },
+        {
+          "before": "require('./vm-environment.cjs')",
+          "after": "require('./provenance-loader.cjs')",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "historical": "../purchase-funding-negative-v315.cjs",
+      "module": "purchase-funding-negative.cjs",
+      "historicalSha256": "33f4cc1a968126d439b8f1b4563e1a8a68fd5b2ac1aace549139ce93988e80b6",
+      "changes": [
+        {
+          "before": "path.join(__dirname,'../index.html')",
+          "after": "path.join(__dirname,'../../index.html')",
+          "occurrences": 1
+        },
+        {
+          "before": "'purchase-funding-v315.cjs'",
+          "after": "'purchase-funding.cjs'",
+          "occurrences": 1
+        },
+        {
+          "before": "require('./changes-v307.json')",
+          "after": "require('../changes-v307.json')",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "historical": "../selection-key-repeat-v315.cjs",
+      "module": "selection-key-repeat.cjs",
+      "historicalSha256": "ca01366a45e587f3f2614428a3ed318d45024cf7660c39563d27281a01f2ab7a",
+      "changes": [
+        {
+          "before": "path.join(__dirname,'../index.html')",
+          "after": "path.join(__dirname,'../../index.html')",
+          "occurrences": 1
+        },
+        {
+          "before": "require('./vm-environment.cjs')",
+          "after": "require('./provenance-loader.cjs')",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "historical": "../selection-key-repeat-negative-v315.cjs",
+      "module": "selection-key-repeat-negative.cjs",
+      "historicalSha256": "8f059979d5310eec8f9df48c825138dcde01a2b6ac13cebaf605b3b314652616",
+      "changes": [
+        {
+          "before": "path.join(__dirname,'../index.html')",
+          "after": "path.join(__dirname,'../../index.html')",
+          "occurrences": 1
+        },
+        {
+          "before": "'selection-key-repeat-v315.cjs'",
+          "after": "'selection-key-repeat.cjs'",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "historical": "../escape-key-repeat-v315.cjs",
+      "module": "escape-key-repeat.cjs",
+      "historicalSha256": "31be012e621609c85aa0f4d29766ffac5dc9469f7eaeab5c9833fd6a94e8f23a",
+      "changes": [
+        {
+          "before": "path.join(__dirname,'../index.html')",
+          "after": "path.join(__dirname,'../../index.html')",
+          "occurrences": 1
+        },
+        {
+          "before": "require('./vm-environment.cjs')",
+          "after": "require('./provenance-loader.cjs')",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "historical": "../escape-key-repeat-negative-v315.cjs",
+      "module": "escape-key-repeat-negative.cjs",
+      "historicalSha256": "bde77302a5470864caff210a089cd648c0a70b8423344e383753153274fa9276",
+      "changes": [
+        {
+          "before": "path.join(__dirname,'../index.html')",
+          "after": "path.join(__dirname,'../../index.html')",
+          "occurrences": 1
+        },
+        {
+          "before": "'escape-key-repeat-v315.cjs'",
+          "after": "'escape-key-repeat.cjs'",
+          "occurrences": 1
+        }
+      ]
+    }
+  ]
+}

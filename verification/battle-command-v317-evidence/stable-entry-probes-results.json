@@ -1,0 +1,24 @@
+{
+  "passed": 3,
+  "failed": 0,
+  "results": [
+    {
+      "name": "arbitrary runner denied",
+      "passed": true,
+      "reason": "Current verification refused: runner does not match declared contract",
+      "elapsedSeconds": 0.20732158899772912
+    },
+    {
+      "name": "missing negative dispatch denied",
+      "passed": true,
+      "reason": "Current verification refused: stable dispatch inventory mismatch",
+      "elapsedSeconds": 8.08791458899941
+    },
+    {
+      "name": "missing loader identity denied",
+      "passed": true,
+      "reason": "Current verification refused: stable dependency inventory incomplete",
+      "elapsedSeconds": 10.848516644000483
+    }
+  ]
+}

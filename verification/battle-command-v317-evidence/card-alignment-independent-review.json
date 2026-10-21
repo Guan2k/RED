@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "changedLines": [
+    2,
+    3
+  ],
+  "checks": [
+    "Only targets and view adapt relative to prior v316 entry plus required restore path bump",
+    "Exact 9 known unique keys required; dual-kind, unknown, duplicate and missing rejected",
+    "Each group validates BUTTON tag, immediate parent membership and exact group child order",
+    "All original comparison fields retained; identity and full card attributes added",
+    "Spy still receives exact original live nodes; pureRefresh same-instance identity and 660 baseline assertions unchanged",
+    "Independent non-VM synthetic two-block reorder resolves to same original node identities"
+  ],
+  "limits": "Immediate card-group attachment only; full ancestor/layout validation remains in separately reviewed DOM/product suites. Did not run VM negatives or full gate.",
+  "hashes": {
+    "card-field-targets-v317.cjs": "11546d190df069de68b08e8dd12f628c6795e02b88532174b1a46bb63a9e7230",
+    "card-field-targets-negative-v317.cjs": "1fab6ccc7fa949518d860995193ad99825e6c474d6d87e231d7af71cc14b3ae9",
+    "bounded-ui-writes-v317.cjs": "5cfb2c55142ec027f1c12f72f146ed8d1a3f8126a8ac8dfd1b88deca067d3327"
+  }
+}

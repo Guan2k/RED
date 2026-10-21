@@ -1,0 +1,13 @@
+{
+  "passed": 52,
+  "failed": 0,
+  "assertions": 10457,
+  "frames": 360,
+  "sourceHashes": {
+    "baseline": "30a960f10a359ac13fb04b3f758529376956227bb3dce079c8be0028476594f4",
+    "candidate": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d"
+  },
+  "layoutChangeSamples": 36,
+  "negativeControls": 50,
+  "failures": []
+}

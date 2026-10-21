@@ -1,0 +1,137 @@
+{
+  "passed": 25,
+  "failed": 0,
+  "results": [
+    {
+      "name": "route geometry",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "route width",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "old entity-interleaved route layer",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "terrain base palette",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "terrain road width",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "building foundation light",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "unit highlight color",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "selection frame outline",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "health separator width",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "critical threshold",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "order receipt marker",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "unrelated world mutation",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "unrelated input mutation",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "unexpected RNG",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "Error"
+    },
+    {
+      "name": "unrelated shot color",
+      "passed": true,
+      "target": "render/classic/off",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "expected adapter rejects double transform drawBuilding",
+      "passed": true
+    },
+    {
+      "name": "expected adapter preserves unrelated bytes drawBuilding",
+      "passed": true
+    },
+    {
+      "name": "expected adapter rejects double transform drawBuildingPreview",
+      "passed": true
+    },
+    {
+      "name": "expected adapter preserves unrelated bytes drawBuildingPreview",
+      "passed": true
+    },
+    {
+      "name": "expected adapter rejects double transform drawUnit",
+      "passed": true
+    },
+    {
+      "name": "expected adapter preserves unrelated bytes drawUnit",
+      "passed": true
+    },
+    {
+      "name": "expected adapter rejects double transform drawTerrain",
+      "passed": true
+    },
+    {
+      "name": "expected adapter preserves unrelated bytes drawTerrain",
+      "passed": true
+    },
+    {
+      "name": "expected adapter rejects double transform render",
+      "passed": true
+    },
+    {
+      "name": "expected adapter preserves unrelated bytes render",
+      "passed": true
+    }
+  ],
+  "scope": "Named full-render behavioral detections without candidate identity gate. Expected host and all comparison assertions unchanged. Includes unrelated paint, world, input and RNG mutations."
+}

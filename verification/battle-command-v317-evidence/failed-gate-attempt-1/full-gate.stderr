@@ -1,0 +1,604 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: bounded display parity stable initial
++ actual - expected
+... Skipped lines
+
+  {
+    fields: [
+      {
+        disabled: false,
+        hidden: false,
+...
+        kind: 'card',
++       value: '主战坦克 | 快捷生产 4（单次按下下单，长按不连购） | 生命 230 | 速度 48 | 伤害 23 / 1.05秒 | 射程 135 | 装甲主力；对侦察车直击伤害 ×1.2'
+-       value: ''
+      },
+      {
+        disabled: false,
+        hidden: false,
+        key: 'title',
+        kind: 'card',
++       value: '侦察战车 | 快捷生产 5（单次按下下单，长按不连购） | 生命 105 | 速度 82 | 伤害 10 / 0.55秒 | 射程 105 | 高速机动夺点；血量较低，注意保护'
+-       value: ''
+      },
+      {
+        disabled: false,
+        hidden: false,
+        key: 'title',
+        kind: 'card',
++       value: '自行火炮 | 快捷生产 6（单次按下下单，长按不连购） | 生命 130 | 速度 30 | 伤害 48 / 2.8秒 | 射程 225 | 最小射程 65 | 对敌车溅射半径50，中心最多12，随距离递减 | 远程攻坚；对建筑直击 ×1.25，近身有盲区'
+-       value: ''
+      },
+      {
+        disabled: false,
+        hidden: false,
+        key: 'title',
+        kind: 'card',
++       value: '战地维修车 | 快捷生产 7（单次按下下单，长按不连购） | 生命 180 | 速度 38 | 维修范围 100 | 每秒最多恢复 6 | 每1资金最多3生命 | 付费修复非维修载具；不能修理建筑'
+-       value: ''
+      },
+      {
+        disabled: false,
+        hidden: false,
+        key: 'title',
+        kind: 'card',
++       value: '采矿车 | 快捷生产 8（单次按下下单，长按不连购） | 生命 310 | 速度 39 | 运载 180 | 开采后运回精炼厂；不能占领据点'
+-       value: '主战坦克 | 快捷生产 4（单次按下下单，长按不连购） | 生命 230 | 速度 48 | 伤害 23 / 1.05秒 | 射程 135 | 装甲主力；对侦察车直击伤害 ×1.2'
+      },
+      {
+        disabled: false,
+        hidden: false,
+        key: 'title',
+        kind: 'card',
++       value: ''
+-       value: '侦察战车 | 快捷生产 5（单次按下下单，长按不连购） | 生命 105 | 速度 82 | 伤害 10 / 0.55秒 | 射程 105 | 高速机动夺点；血量较低，注意保护'
+      },
+      {
+        disabled: false,
+        hidden: false,
+        key: 'title',
+        kind: 'card',
++       value: ''
+-       value: '自行火炮 | 快捷生产 6（单次按下下单，长按不连购） | 生命 130 | 速度 30 | 伤害 48 / 2.8秒 | 射程 225 | 最小射程 65 | 对敌车溅射半径50，中心最多12，随距离递减 | 远程攻坚；对建筑直击 ×1.25，近身有盲区'
+      },
+      {
+        disabled: false,
+        hidden: false,
+        key: 'title',
+        kind: 'card',
++       value: ''
+-       value: '战地维修车 | 快捷生产 7（单次按下下单，长按不连购） | 生命 180 | 速度 38 | 维修范围 100 | 每秒最多恢复 6 | 每1资金最多3生命 | 付费修复非维修载具；不能修理建筑'
+      },
+      {
+        disabled: false,
+        hidden: false,
+        key: 'title',
+        kind: 'card',
++       value: ''
+-       value: '采矿车 | 快捷生产 8（单次按下下单，长按不连购） | 生命 310 | 速度 39 | 运载 180 | 开采后运回精炼厂；不能占领据点'
+      }
+    ],
+    report: {
+      hidden: true,
+      open: false
+
+    at eq (/tmp/red-current-verification-B1gXJn/verification/bounded-ui-writes-v317.cjs:1:823)
+    at pair (/tmp/red-current-verification-B1gXJn/verification/bounded-ui-writes-v317.cjs:3:543)
+    at /tmp/red-current-verification-B1gXJn/verification/bounded-ui-writes-v317.cjs:13:185
+    at test (/tmp/red-current-verification-B1gXJn/verification/bounded-ui-writes-v317.cjs:1:934)
+    at Object.<anonymous> (/tmp/red-current-verification-B1gXJn/verification/bounded-ui-writes-v317.cjs:13:2)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: {
+    fields: [
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '自动选敌：改为重伤优先',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '清除集结点',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '新战车：改为坚守',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '开启自动维修',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '改为重伤优先',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '坚守阵地 [H]',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '驻点警戒 [O]',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '撤销队尾',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '清除后续队列 · 0辆',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '抵达后坚守',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '主战坦克 | 快捷生产 4（单次按下下单，长按不连购） | 生命 230 | 速度 48 | 伤害 23 / 1.05秒 | 射程 135 | 装甲主力；对侦察车直击伤害 ×1.2',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '侦察战车 | 快捷生产 5（单次按下下单，长按不连购） | 生命 105 | 速度 82 | 伤害 10 / 0.55秒 | 射程 105 | 高速机动夺点；血量较低，注意保护',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '自行火炮 | 快捷生产 6（单次按下下单，长按不连购） | 生命 130 | 速度 30 | 伤害 48 / 2.8秒 | 射程 225 | 最小射程 65 | 对敌车溅射半径50，中心最多12，随距离递减 | 远程攻坚；对建筑直击 ×1.25，近身有盲区',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '战地维修车 | 快捷生产 7（单次按下下单，长按不连购） | 生命 180 | 速度 38 | 维修范围 100 | 每秒最多恢复 6 | 每1资金最多3生命 | 付费修复非维修载具；不能修理建筑',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '采矿车 | 快捷生产 8（单次按下下单，长按不连购） | 生命 310 | 速度 39 | 运载 180 | 开采后运回精炼厂；不能占领据点',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '',
+        disabled: false,
+        hidden: false
+      }
+    ],
+    report: { hidden: true, open: false }
+  },
+  expected: {
+    fields: [
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'report',
+        key: 'textContent',
+        value: '—',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '自动选敌：改为重伤优先',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '清除集结点',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '新战车：改为坚守',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '开启自动维修',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '改为重伤优先',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '坚守阵地 [H]',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '驻点警戒 [O]',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '撤销队尾',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '清除后续队列 · 0辆',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'action',
+        key: 'textContent',
+        value: '抵达后坚守',
+        disabled: true,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '主战坦克 | 快捷生产 4（单次按下下单，长按不连购） | 生命 230 | 速度 48 | 伤害 23 / 1.05秒 | 射程 135 | 装甲主力；对侦察车直击伤害 ×1.2',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '侦察战车 | 快捷生产 5（单次按下下单，长按不连购） | 生命 105 | 速度 82 | 伤害 10 / 0.55秒 | 射程 105 | 高速机动夺点；血量较低，注意保护',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '自行火炮 | 快捷生产 6（单次按下下单，长按不连购） | 生命 130 | 速度 30 | 伤害 48 / 2.8秒 | 射程 225 | 最小射程 65 | 对敌车溅射半径50，中心最多12，随距离递减 | 远程攻坚；对建筑直击 ×1.25，近身有盲区',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '战地维修车 | 快捷生产 7（单次按下下单，长按不连购） | 生命 180 | 速度 38 | 维修范围 100 | 每秒最多恢复 6 | 每1资金最多3生命 | 付费修复非维修载具；不能修理建筑',
+        disabled: false,
+        hidden: false
+      },
+      {
+        kind: 'card',
+        key: 'title',
+        value: '采矿车 | 快捷生产 8（单次按下下单，长按不连购） | 生命 310 | 速度 39 | 运载 180 | 开采后运回精炼厂；不能占领据点',
+        disabled: false,
+        hidden: false
+      }
+    ],
+    report: { hidden: true, open: false }
+  },
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+
+
+1 !== 0
+
+    at Object.<anonymous> (/tmp/red-current-verification-B1gXJn/verification/run-tests-v317.cjs:99:141)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object.<anonymous> (/tmp/red-current-verification-B1gXJn/verification/stable-suites/release-runner.cjs:22:169)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+Developer preflight failed at unchanged canonical game verification (exit 1)

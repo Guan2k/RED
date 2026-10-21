@@ -1,0 +1,805 @@
+{
+  "scope": "Read-only static inventory, no VM/gate execution; includes current 102 direct entries, all 25 dynamic inherited scripts, stable pilot suites and literal local require closure. Historical-only dependencies included conservatively. Dynamic manifest files inspected via current runner wiring, not treated as current behavior.",
+  "focusedCount": 102,
+  "inheritedCount": 25,
+  "literalClosureCount": 576,
+  "focused": [
+    "map-pointer-geometry.cjs",
+    "map-pointer-geometry-negative-control.cjs",
+    "coordinate-command.cjs",
+    "coordinate-command-negative-control.cjs",
+    "coordinate-command-natural-v317.cjs",
+    "selection-removal.cjs",
+    "selection-removal-negative-control.cjs",
+    "selection-removal-natural.cjs",
+    "inherit-dom-v277-negative-control.cjs",
+    "post-selection.cjs",
+    "post-selection-negative-control.cjs",
+    "post-selection-natural.cjs",
+    "coordinate-construction.cjs",
+    "coordinate-construction-negative-control.cjs",
+    "coordinate-construction-natural.cjs",
+    "coordinate-append.cjs",
+    "coordinate-append-negative-control.cjs",
+    "coordinate-append-natural.cjs",
+    "selection-only.cjs",
+    "selection-only-negative-control.cjs",
+    "selection-only-natural.cjs",
+    "coordinate-attack.cjs",
+    "coordinate-attack-negative-control.cjs",
+    "coordinate-attack-natural.cjs",
+    "patrol-action-v317.cjs",
+    "patrol-action-negative-control-v317.cjs",
+    "inherit-dom-v281-negative-control.cjs",
+    "global-repeat-scope-v317.cjs",
+    "global-repeat-scope-negative-control-v317.cjs",
+    "inherit-dom-v282-negative-control.cjs",
+    "all-factories.cjs",
+    "all-factories-negative-control.cjs",
+    "inherit-dom-v283-negative-control.cjs",
+    "order-waiting-reuse-v317.cjs",
+    "order-waiting-reuse-negative-control-v317.cjs",
+    "bounded-ui-writes-v317.cjs",
+    "bounded-ui-writes-negative-control-v317.cjs",
+    "power-read-reuse-v317.cjs",
+    "power-read-reuse-negative-control-v317.cjs",
+    "inherit-dom-v289-negative-control.cjs",
+    "opening-practice-v317.cjs",
+    "opening-practice-negative-control-v317.cjs",
+    "control-group-protection-v315.cjs",
+    "control-group-protection-negative-control-v317.cjs",
+    "command-allocation-feedback-v317.cjs",
+    "command-allocation-feedback-negative-control-v317.cjs",
+    "control-group-repeat-v315.cjs",
+    "control-group-repeat-negative-control-v317.cjs",
+    "inherit-dom-v293-negative-control.cjs",
+    "quick-switchback-v317.cjs",
+    "quick-switchback-negative-control-v317.cjs",
+    "quick-switchback-route-v315.cjs",
+    "inherit-dom-v312-negative-control.cjs",
+    "inherit-dom-v313-negative-control.cjs",
+    "visual-preference-v315.cjs",
+    "visual-preference-negative-control-v315.cjs",
+    "render-preview-v317.cjs",
+    "render-preview-negative-control-v317.cjs",
+    "ore-layout-v317.cjs",
+    "ore-layout-negative-control-v317.cjs",
+    "building-preview-v317.cjs",
+    "progress-rails-v317.cjs",
+    "progress-rails-negative-control-v317.cjs",
+    "health-edge-v317.cjs",
+    "health-edge-negative-control-v317.cjs",
+    "hold-guidance-v317.cjs",
+    "global-repeat-mode-scope-v317.cjs",
+    "beginner-guide-v317.cjs",
+    "building-team-cue-v317.cjs",
+    "source-delta-v317-negative-control.cjs",
+    "presentation-v317.cjs",
+    "presentation-negative-control-v317.cjs",
+    "inherit-dom-v317-negative-control.cjs",
+    "repair-repeat-inheritance-v317.cjs",
+    "command-enter-repeat-v315.cjs",
+    "command-enter-repeat-negative-v315.cjs",
+    "refinery-miner-selection-v315.cjs",
+    "refinery-miner-selection-natural-v315.cjs",
+    "escape-key-repeat-v315.cjs",
+    "escape-key-repeat-negative-v315.cjs",
+    "depleted-ore-v317.cjs",
+    "depleted-ore-negative-v317.cjs",
+    "building-reference-v317.cjs",
+    "building-reference-negative-v317.cjs",
+    "vehicle-reference-v315.cjs",
+    "vehicle-reference-negative-v315.cjs",
+    "factory-requirement-v315.cjs",
+    "factory-requirement-negative-v315.cjs",
+    "purchase-funding-v315.cjs",
+    "purchase-funding-negative-v315.cjs",
+    "construction-reasons-v315.cjs",
+    "construction-reasons-negative-v315.cjs",
+    "factory-space-v315.cjs",
+    "factory-space-negative-v315.cjs",
+    "selection-key-repeat-v315.cjs",
+    "selection-key-repeat-negative-v315.cjs",
+    "ore-density-v317.cjs",
+    "low-ore-label-v317.cjs",
+    "production-card-reasons-v316.cjs",
+    "production-card-reasons-negative-v316.cjs",
+    "battle-command-workspace.cjs",
+    "battle-command-independent-v317.cjs"
+  ],
+  "inherited": [
+    "repair-button-repeat.cjs",
+    "attack-pressed.cjs",
+    "same-repeat-factories.cjs",
+    "control-group-add.cjs",
+    "attack-tail-help.cjs",
+    "delivery-refinery-selection.cjs",
+    "retired-input-references.cjs",
+    "queue-remainder.cjs",
+    "queued-point.cjs",
+    "production-gesture-natural.cjs",
+    "production-mode-natural.cjs",
+    "attack-tail.cjs",
+    "route-cancel.cjs",
+    "escort-target.cjs",
+    "factory-spawn-check.cjs",
+    "ground-destination.cjs",
+    "mining-arrangement.cjs",
+    "ground-orders.cjs",
+    "post-capture.cjs",
+    "production-waiting.cjs",
+    "weakest-selection.cjs",
+    "selection-health.cjs",
+    "all-damaged.cjs",
+    "pause-ui.cjs",
+    "repair-paused.cjs"
+  ],
+  "orderSensitiveComparators": [
+    {
+      "files": [
+        "repair-button-repeat.cjs",
+        "attack-pressed.cjs"
+      ],
+      "status": "Current paths use inherit-dom-v317 exact cloned-layout projection; historical paths remain unmodified."
+    },
+    {
+      "files": [
+        "command-allocation-feedback-v317.cjs",
+        "beginner-guide-v317.cjs"
+      ],
+      "status": "Both prepend exact battleCommandProjection for historical comparison; raw current DOM comparisons remain raw."
+    },
+    {
+      "files": [
+        "bounded-ui-writes-v317.cjs"
+      ],
+      "status": "Confirmed known positional mismatch: combined data-unit/data-build list changes from build-first to unit-first; integrator owns strict keyed alignment fix. pureRefresh index comparison is same-instance node identity and should remain exact."
+    },
+    {
+      "files": [
+        "parameterized-pilot/order-display-writes.cjs",
+        "parameterized-pilot/selection-filter-writes.cjs",
+        "order-waiting-reuse-v317.cjs"
+      ],
+      "status": "Display fields selected by fixed explicit IDs, not live DOM order."
+    },
+    {
+      "files": [
+        "factory-requirement-v315.cjs"
+      ],
+      "status": "Indexed data-unit[0] remains tank; relative order inside five production cards unchanged."
+    },
+    {
+      "files": [
+        "selection-removal.cjs",
+        "quick-switchback-v317.cjs",
+        "building-reference-v317.cjs"
+      ],
+      "status": "Ordered option/mission/reference subtrees remain unchanged by command/production relocation."
+    }
+  ],
+  "additionalOrderBlockers": [],
+  "additionalFinding": "run-tests-v317 summary version and current-source scope still mention v316; reported to integrator for truthful final metadata. Historical references should remain untouched.",
+  "sourceRouting": "Focused runtime entry defaults target actual package index. Inherited 25 pass [source,digest]; only two frozen comparator programs are text-adapted in temporary verification directory. Restored v272 host used separately for identity checks. Pilot manifest replaces only candidate path and verifies exact hash. No new candidate-source substitution found.",
+  "inventoryHits": [
+    {
+      "file": "attack-pressed.cjs",
+      "line": 25,
+      "snippet": "function dom(g){const index=new Map(g.elements.map((e,i)=>[e,i]));return{active:index.get(g.document.activeElement),hidden:g.document.hidden,elements:g.elements.map(e=>{let attrs={...e.attributes};if(e.id==='attack')delete attrs['aria-pressed'];const fields={};for(const [k,v]of Object.entries(e))if(v===null||['string','number','boolean'].includes(typeof v))fields[k]=v;return{fields,attributes:attrs,dataset:{...e.dataset},style:{...e.style},classes:classNames.filter(c=>e.classList.contains(c)),parent:index.get(e.parentNode)??null,children:e.children.map(n=>index.get(n))}})}}"
+    },
+    {
+      "file": "attack-pressed.cjs",
+      "line": 35,
+      "snippet": "function build(g){g.document.querySelectorAll('[data-build]').find(b=>b.dataset.build==='power').click()}"
+    },
+    {
+      "file": "attack-pressed.cjs",
+      "line": 74,
+      "snippet": "for(const mode of [false,true])test('extra updateUI and canvas render preserve world orders economy and input '+mode,()=>{const p=pair();both(p,g=>g.document.querySelectorAll('[data-unit]').find(b=>b.dataset.unit==='tank').click());if(mode)armed(p);const before={world:world(p.now),input:input(p.now)};both(p,g=>g.run('globalThis.attackPressedRefs={state,entities:state.entities,queue:state.queue,order:state.queue[0],groups,selection};updateUI();updateUI();render();updateUI()'));eq('render','world_orders_economy_unchanged',world(p.now),before.world);eq('render','input_unchanged',input(p.now),before.input);eq('render','world_references_preserved',p.now.run('state===attackPressedRefs.state&&state.entities===attackPressedRefs.entities&&state.queue===attackPressedRefs.queue&&state.queue[0]===attackPressedRefs.order&&groups===attackPressedRefs.groups&&selection===attackPressedRefs.selection'),true);checkpoint(p,mode,'render');eq('render','paid_order_fixture_present',p.now.state.queue.length,1);both(p,g=>g.step(.25));match(p,'same_next_simulation')});"
+    },
+    {
+      "file": "vm-environment.cjs",
+      "line": 29,
+      "snippet": "  document={body:elements.find(x=>x.tagName==='BODY'),hidden:false,getElementById:id=>ids.get(id)||null,createElement:t=>new Element(t),querySelectorAll:s=>{const m=s.match(/^\\[([^=\\]]+)(?:=['\"]?([^'\"\\]]+)['\"]?)?\\]$/);if(!m)throw Error('Unsupported selector '+s);return elements.filter(n=>m[1]in n.attributes&&(m[2]===undefined||n.attributes[m[1]]===m[2]))},addEventListener:(k,f)=>{(listeners.get('document:'+k)||listeners.set('document:'+k,[]).get('document:'+k)).push(f)}};document.activeElement=document.body;"
+    },
+    {
+      "file": "opening-practice-v317.cjs",
+      "line": 8,
+      "snippet": " test('markup menu read-only and existing summary keyboard boundary',()=>{const gs=games(),g=gs[0],d=g.element('openingPractice');ok(d&&d.tagName==='DETAILS','native optional details');eq(d.getAttribute('class'),'controls-help','existing wrapping help style');eq(d.getAttribute('aria-describedby'),'openingPracticeNote','visible note description linkage');eq(d.getAttribute('open'),null,'not automatically expanded');eq(d.attributes,{id:'openingPractice',class:'controls-help','aria-describedby':'openingPracticeNote'},'exact details attributes');for(const id of ids){const n=g.element(id);eq(n.tagName,id===ids[0]?'SUMMARY':'P','practice semantic tag '+id);eq(n.attributes,id===ids[0]?{id}:{id,class:'hint','aria-live':'off'},'practice exact attributes '+id)}eq(g.element('openingPracticeNote').attributes,{id:'openingPracticeNote',class:'hint'},'exact visible note attributes');for(const id of ['openingPractice','openingPracticeNote',...ids]){const n=g.element(id);eq(n.hidden,false,'practice no hidden property '+id);eq(n.disabled,false,'practice no disabled property '+id);ok(!n.style.display&&!n.onclick&&!n.onchange&&!n.ontoggle,'practice no hidden style or control handlers '+id)}eq(d.children.map(n=>n.id),['openingPracticeSummary','openingPracticeNote',...ids.slice(1)],'exact optional subtree');for(const id of [...ids,'openingPracticeNote','openingPractice'])eq(g.elements.filter(n=>n.id===id).length,1,'unique practice id '+id);for(const id of ids.slice(1))eq(g.element(id).getAttribute("
+    },
+    {
+      "file": "building-independent-v295/no-persistence-vm.cjs",
+      "line": 29,
+      "snippet": "  document={body:elements.find(x=>x.tagName==='BODY'),hidden:false,getElementById:id=>ids.get(id)||null,createElement:t=>new Element(t),querySelectorAll:s=>{const m=s.match(/^\\[([^=\\]]+)(?:=['\"]?([^'\"\\]]+)['\"]?)?\\]$/);if(!m)throw Error('Unsupported selector '+s);return elements.filter(n=>m[1]in n.attributes&&(m[2]===undefined||n.attributes[m[1]]===m[2]))},addEventListener:(k,f)=>{(listeners.get('document:'+k)||listeners.set('document:'+k,[]).get('document:'+k)).push(f)}};document.activeElement=document.body;"
+    },
+    {
+      "file": "control-group-protection-v315.cjs",
+      "line": 8,
+      "snippet": "function route(g,i,kind){if(kind==='ctrl')return key(g,i);if(kind==='meta')return key(g,i,{ctrlKey:false,metaKey:true});if(kind==='ctrl-click')return g.document.querySelectorAll('[data-group]').find(b=>Number(b.dataset.group)===i).click({ctrlKey:true});if(kind==='button')return g.click('saveControlGroup'+i);throw Error(kind)}"
+    },
+    {
+      "file": "coordinate-construction-natural.cjs",
+      "line": 4,
+      "snippet": "const a=loadGame(source,{seed:7277}),b=loadGame(source,{seed:7277});for(let g of[a,b]){g.click('quickHarvest');g.start();g.document.querySelectorAll('[data-build]').find(n=>n.dataset.build==='refinery').click();for(let[id,v]of[['coordinateConstructionX',430],['coordinateConstructionY',500]]){g.element(id).value=String(v);g.element(id).dispatchEvent({type:'input'})}}"
+    },
+    {
+      "file": "render-preview-v317.cjs",
+      "line": 266,
+      "snippet": "    for(const{g}of all){const factory=g.state.entities.find(e=>e.team===0&&e.type==='factory');point(g,factory);eq(g.run('[...selection]'),[factory.id]);coordinate(g,{x:340,y:600});eq(plain(factory.rally),{x:340,y:600});const button=g.document.querySelectorAll('[data-unit]').find(e=>e.dataset.unit==='scout');eq(button.disabled,false);button.click();eq(g.state.cash,1520,'180 paid from natural starting cash');eq(g.state.queue.length,1);g.run('render()')}"
+    },
+    {
+      "file": "parameterized-pilot/vm-environment-provenance.cjs",
+      "line": 30,
+      "snippet": "  document={body:elements.find(x=>x.tagName==='BODY'),hidden:false,getElementById:id=>ids.get(id)||null,createElement:t=>new Element(t),querySelectorAll:s=>{const m=s.match(/^\\[([^=\\]]+)(?:=['\"]?([^'\"\\]]+)['\"]?)?\\]$/);if(!m)throw Error('Unsupported selector '+s);return elements.filter(n=>m[1]in n.attributes&&(m[2]===undefined||n.attributes[m[1]]===m[2]))},addEventListener:(k,f)=>{(listeners.get('document:'+k)||listeners.set('document:'+k,[]).get('document:'+k)).push(f)}};document.activeElement=document.body;"
+    },
+    {
+      "file": "inherit-dom-v281-negative-control.cjs",
+      "line": 4,
+      "snippet": " const dom=Function('assert','classNames','return ('+entry.after+')')(assert,['hidden','active']);"
+    },
+    {
+      "file": "inherit-dom-v277.cjs",
+      "line": 5,
+      "snippet": "const programs={\"repair-button-repeat.cjs\":{\"originalSha256\":\"d986a5331fab751b0a5e2f70d9a49dd5b7d753149558e9f9f39055a7f3adfbce\",\"adaptedSha256\":\"c0a1a1cd6c87cc0817219ca1d0bc4c4c6d78b387cd09890ed9ca15827ef9d67e\",\"before\":\"function dom(g){const indexes=new Map(g.elements.map((e,i)=>[e,i]));return{active:indexes.get(g.document.activeElement),hidden:g.document.hidden,elements:g.elements.map(e=>{const fields={};for(const[k,v]of Object.entries(e))if(v===null||['string','number','boolean'].includes(typeof v))fields[k]=v;return{fields,attributes:{...e.attributes},dataset:{...e.dataset},style:{...e.style},classes:classNames.filter(c=>e.classList.contains(c)),parent:indexes.get(e.parentNode)??null,children:e.children.map(n=>indexes.get(n))}})}}\",\"after\":\"function dom(g){const panels=g.elements.filter(e=>['coordinateCommandPanel','selectionRemovePanel','postSelectionPanel','coordinateConstructionPanel'].includes(e.id));for(const id of ['coordinateCommandPanel','selectionRemovePanel','postSelectionPanel','coordinateConstructionPanel'])assert.ok(panels.filter(e=>e.id===id).length<=1,'unique added panel');const inPanel=e=>{for(let n=e;n;n=n.parentNode)if(panels.includes(n))return true;return e.tagName==='OPTION'&&e.parentNode===null&&e.getAttribute('data-selection-remove-option')==='true'},elements=g.elements.filter(e=>!inPanel(e)),indexes=new Map(elements.map((e,i)=>[e,i]));return{active:indexes.get(g.document.activeElement),hidden:g.document.hidden,elements:elements.map(e=>{const fields="
+    },
+    {
+      "file": "beginner-guide-v317.cjs",
+      "line": 76,
+      "snippet": "  const roots = game.elements.filter(element => element.id === 'beginnerSurvivalGuide');"
+    },
+    {
+      "file": "beginner-guide-v317.cjs",
+      "line": 93,
+      "snippet": "  const roots = game.elements.filter(element => element.id === 'beginnerSurvivalGuide');"
+    },
+    {
+      "file": "beginner-guide-v317.cjs",
+      "line": 100,
+      "snippet": "  const inRefineryMiner = (function refineryMinerProjection(g){  const parents=g.elements.filter(e=>e.id==='harvesterFleetOverview');  const parent=parents.length===1?parents[0]:null;  const attached=node=>{const seen=new Set();for(let n=node;n!==g.document.body;n=n.parentNode){if(!n||seen.has(n)||!n.parentNode||n.parentNode.children.filter(c=>c===n).length!==1)return false;seen.add(n)}return true};  const roots=[];  if(parent&&parent.tagName==='DETAILS'&&attached(parent))for(const[id,tag]of [['selectRefineryMiners','BUTTON'],['refineryMinerSelectionHelp','P']]){   const matches=g.elements.filter(e=>e.id===id),root=matches.length===1?matches[0]:null;   if(root&&root.tagName===tag&&root.parentNode===parent&&attached(root))roots.push(root);  }  return element=>{const seen=new Set();for(let n=element;n;n=n.parentNode){if(roots.includes(n))return true;if(seen.has(n)||!n.parentNode||n.parentNode.children.filter(c=>c===n).length!==1)return false;seen.add(n)}return false}; })(game);"
+    },
+    {
+      "file": "beginner-guide-v317.cjs",
+      "line": 101,
+      "snippet": "  const inBuildingGallery = (function buildingGalleryProjection(g){  const roots=g.elements.filter(e=>e.id==='buildingReferenceGallery'),parents=g.elements.filter(e=>e.id==='unitReference');  const root=roots.length===1?roots[0]:null,parent=parents.length===1?parents[0]:null;  let valid=!!(root&&parent&&root.tagName==='DIV'&&parent.tagName==='DETAILS'&&root.parentNode===parent);  if(valid){const seen=new Set();let n=root;while(n!==g.document.body){if(seen.has(n)||!n.parentNode||!n.parentNode.children.includes(n)){valid=false;break}seen.add(n);n=n.parentNode}}  return element=>{if(!valid)return false;const seen=new Set();for(let n=element;n;n=n.parentNode){if(n===root)return true;if(seen.has(n)||!n.parentNode?.children.includes(n))return false;seen.add(n)}return false}; })(game);"
+    },
+    {
+      "file": "beginner-guide-v317.cjs",
+      "line": 102,
+      "snippet": "  const inGallery = (function galleryProjection(g){ const roots=g.elements.filter(e=>e.id==='vehicleReferenceGallery'),parents=g.elements.filter(e=>e.id==='unitReference'); const root=roots.length===1?roots[0]:null,parent=parents.length===1?parents[0]:null; let valid=!!(root&&parent&&root.tagName==='DIV'&&parent.tagName==='DETAILS'&&root.parentNode===parent); if(valid){const seen=new Set();let n=root;while(n!==g.document.body){if(seen.has(n)||!n.parentNode||!n.parentNode.children.includes(n)){valid=false;break}seen.add(n);n=n.parentNode}} return element=>{if(!valid)return false;const seen=new Set();for(let n=element;n;n=n.parentNode){if(n===root)return true;if(seen.has(n)||!n.parentNode?.children.includes(n))return false;seen.add(n)}return false};})(game);"
+    },
+    {
+      "file": "beginner-guide-v317.cjs",
+      "line": 104,
+      "snippet": "  const elements = project ? game.elements.filter(element => !inProductionReason(element)&&!inRefineryMiner(element)&&!inBuildingGallery(element)&&!inGallery(element)&&!inGuide(element)&&!constructionReason(element)) : game.elements;"
+    },
+    {
+      "file": "inherit-dom-v317.cjs",
+      "line": 8,
+      "snippet": " const roots=g.elements.filter(n=>n.id==='battleCommandPanel');"
+    },
+    {
+      "file": "inherit-dom-v317.cjs",
+      "line": 11,
+      "snippet": " const get=id=>{const a=g.elements.filter(n=>n.id===id);assert.equal(a.length,1,'unique '+id);return a[0]};"
+    },
+    {
+      "file": "inherit-dom-v317.cjs",
+      "line": 14,
+      "snippet": " const rows=rowIds.map(ids=>{const row=get(ids[0]).parentNode;assert.equal(row.tagName,'DIV');assert.deepEqual(row.children.map(n=>n.id),ids,'exact original row children/order');for(const id of ids)assert.ok(get(id).parentNode===row);return row});"
+    },
+    {
+      "file": "inherit-dom-v317.cjs",
+      "line": 20,
+      "snippet": " sameNodes(base.children.slice(0,4),[get('returnResult'),panel,productionHeading,cards],'exact leading base children');assert.equal(productionHeading.tagName,'H2');assert.equal(cards.tagName,'DIV');assert.deepEqual(cards.children.map(n=>n.dataset.unit),['tank','scout','artillery','repair','harvester']);for(const n of cards.children)assert.ok(n.parentNode===cards);"
+    },
+    {
+      "file": "inherit-dom-v317.cjs",
+      "line": 22,
+      "snippet": " const clones=new Map(g.elements.map(n=>[n,Object.assign(Object.create(Object.getPrototypeOf(n)),n)]));"
+    },
+    {
+      "file": "inherit-dom-v317.cjs",
+      "line": 23,
+      "snippet": " for(const [n,c]of clones){c.children=n.children.map(x=>clones.get(x)||x);c.parentNode=clones.get(n.parentNode)||n.parentNode;}"
+    },
+    {
+      "file": "inherit-dom-v317.cjs",
+      "line": 24,
+      "snippet": " const view=Object.assign(Object.create(Object.getPrototypeOf(g)),g,{elements:g.elements.map(n=>clones.get(n)),document:{...g.document,body:clones.get(g.document.body)||g.document.body,activeElement:clones.get(g.document.activeElement)||g.document.activeElement}});"
+    },
+    {
+      "file": "inherit-dom-v317.cjs",
+      "line": 37,
+      "snippet": " const before='function dom(g){',after='function dom(g){g=('+battleCommandProjection.toString()+')(g);';"
+    },
+    {
+      "file": "inherit-dom-v316.cjs",
+      "line": 10,
+      "snippet": "  const matches=g.elements.filter(e=>e.id==='productionReason'+type),cards=g.elements.filter(e=>e.dataset.unit===type);"
+    },
+    {
+      "file": "inherit-dom-v316.cjs",
+      "line": 17,
+      "snippet": " const edits=[['function dom(g){','function dom(g){const inProductionReason=('+productionReasonProjection.toString()+')(g);'],['elements=g.elements.filter(e=>!inRefineryMiner(e)','elements=g.elements.filter(e=>!inProductionReason(e)&&!inRefineryMiner(e)'],['e.children.filter(n=>!inRefineryMiner(n)','e.children.filter(n=>!inProductionReason(n)&&!inRefineryMiner(n)']];"
+    },
+    {
+      "file": "inherit-dom-v313.cjs",
+      "line": 7,
+      "snippet": " const parents=g.elements.filter(e=>e.id==='harvesterFleetOverview');"
+    },
+    {
+      "file": "inherit-dom-v313.cjs",
+      "line": 12,
+      "snippet": "  const matches=g.elements.filter(e=>e.id===id),root=matches.length===1?matches[0]:null;"
+    },
+    {
+      "file": "inherit-dom-v313.cjs",
+      "line": 18,
+      "snippet": " const edits=[['function dom(g){','function dom(g){const inRefineryMiner=('+refineryMinerProjection.toString()+')(g);'],['elements=g.elements.filter(e=>!inBuildingGallery(e)','elements=g.elements.filter(e=>!inRefineryMiner(e)&&!inBuildingGallery(e)'],['e.children.filter(n=>!inBuildingGallery(n)','e.children.filter(n=>!inRefineryMiner(n)&&!inBuildingGallery(n)']];"
+    },
+    {
+      "file": "inherit-dom-v310.cjs",
+      "line": 7,
+      "snippet": " const roots=g.elements.filter(e=>e.id==='buildingReferenceGallery'),parents=g.elements.filter(e=>e.id==='unitReference');"
+    },
+    {
+      "file": "inherit-dom-v310.cjs",
+      "line": 14,
+      "snippet": " const edits=[['function dom(g){','function dom(g){const inBuildingGallery=('+buildingGalleryProjection.toString()+')(g);'],['elements=g.elements.filter(e=>!inGallery(e)','elements=g.elements.filter(e=>!inBuildingGallery(e)&&!inGallery(e)'],['e.children.filter(n=>!inGallery(n)','e.children.filter(n=>!inBuildingGallery(n)&&!inGallery(n)']];"
+    },
+    {
+      "file": "inherit-dom-v309.cjs",
+      "line": 7,
+      "snippet": " const roots=g.elements.filter(e=>e.id==='vehicleReferenceGallery'),parents=g.elements.filter(e=>e.id==='unitReference');"
+    },
+    {
+      "file": "inherit-dom-v309.cjs",
+      "line": 14,
+      "snippet": " const edits=[['function dom(g){','function dom(g){const inGallery=('+galleryProjection.toString()+')(g);'],['elements=g.elements.filter(e=>!inPanel(e)','elements=g.elements.filter(e=>!inGallery(e)&&!inPanel(e)'],['e.children.filter(n=>!inPanel(n)','e.children.filter(n=>!inGallery(n)&&!inPanel(n)']];"
+    },
+    {
+      "file": "inherit-dom-v306.cjs",
+      "line": 6,
+      "snippet": " const before='elements=g.elements.filter(e=>!inPanel(e))',after='elements=g.elements.filter(e=>!inPanel(e)&&!('+predicate+')(e))';"
+    },
+    {
+      "file": "delivery-refinery-selection.cjs",
+      "line": 268,
+      "snippet": "  else if(kind==='placement') g.document.querySelectorAll('[data-build]').find(b=>b.dataset.build==='power').click();"
+    },
+    {
+      "file": "bounded-ui-writes-v317.cjs",
+      "line": 2,
+      "snippet": "function targets(g){return [...g.elements.filter(n=>n.dataset.report).map(n=>({n,key:'textContent',kind:'report'})),...actions.map(id=>({n:g.element(id),key:'textContent',kind:'action'})),...require('./card-field-targets-v317.cjs').cards(g)]}"
+    },
+    {
+      "file": "bounded-ui-writes-v317.cjs",
+      "line": 18,
+      "snippet": " test('natural terminal report values and Again placeholder reset',()=>{const gs=games();for(const g of gs){g.start();while(!g.state.result&&g.state.t<700)g.step(.5);ok(g.state.result,'real natural terminal reached');g.run('updateUI()')}pair(gs,'natural terminal');const g=gs[0],cells=g.elements.filter(n=>n.dataset.report);ok(!g.element('battleReport').hidden,'terminal report shown');for(const n of cells){const value=g.state.stats[n.dataset.report][Number(n.dataset.team)];eq(n.textContent,String(Math.round(value*10)/10),'actual terminal statistic '+n.dataset.report+' '+n.dataset.team)}ok(cells.some(n=>Number(n.textContent)>0),'real terminal has nonzero statistics');const terminalSeconds=g.state.t,ending=g.state.result,s=spy(g);pureRefresh(g,s);for(const x of gs)press(x,'start');pair(gs,'Again new game');ok(g.element('battleReport').hidden,'new battle report hidden');ok(cells.every(n=>n.textContent==='—'),'all old terminal stats cleared while hidden');measurements.push({naturalTerminalSeconds:terminalSeconds,ending,reportFields:cells.length});});"
+    },
+    {
+      "file": "bounded-ui-writes-v317.cjs",
+      "line": 19,
+      "snippet": " test('synthetic presentation corruption restored including hidden report',()=>{const gs=games();for(const g of gs){g.start();press(g,'pause');press(g,'selectArmy')}const g=gs[0],s=spy(g);for(const {n,key}of s.list)n[key]='wrong';pureRefresh(g,s,true);pair(gs,'wrong all fields repaired');ok(g.element('battleReport').hidden,'report remains hidden');ok(g.elements.filter(n=>n.dataset.report).every(n=>n.textContent==='—'),'hidden report still recomputed');for(const {n,key}of s.list)n[key]=undefined;pureRefresh(g,s,true);pair(gs,'missing all fields repaired');pureRefresh(g,s)});"
+    },
+    {
+      "file": "card-field-targets-v317.cjs",
+      "line": 5,
+      "snippet": " const nodes=g.elements.filter(n=>n.dataset.unit||n.dataset.build);assert.equal(nodes.length,9,'exact nine live cards');const byKey=new Map();"
+    },
+    {
+      "file": "building-reference-v317.cjs",
+      "line": 19,
+      "snippet": " const g=loadGame(source),root=g.element('buildingReferenceGallery'),ref=g.element('unitReference');assert.ok(root&&ref.contains(root));assert.ok(ref.contains(g.element('vehicleReferenceGallery')));assert.ok(!Object.hasOwn(ref.attributes,'open'));assert.deepEqual(rows().map(r=>r[1]),types);assert.equal(g.document.querySelectorAll('[data-reference-building]').length,5);"
+    },
+    {
+      "file": "visual-independent-v294/no-persistence-vm.cjs",
+      "line": 29,
+      "snippet": "  document={body:elements.find(x=>x.tagName==='BODY'),hidden:false,getElementById:id=>ids.get(id)||null,createElement:t=>new Element(t),querySelectorAll:s=>{const m=s.match(/^\\[([^=\\]]+)(?:=['\"]?([^'\"\\]]+)['\"]?)?\\]$/);if(!m)throw Error('Unsupported selector '+s);return elements.filter(n=>m[1]in n.attributes&&(m[2]===undefined||n.attributes[m[1]]===m[2]))},addEventListener:(k,f)=>{(listeners.get('document:'+k)||listeners.set('document:'+k,[]).get('document:'+k)).push(f)}};document.activeElement=document.body;"
+    },
+    {
+      "file": "production-card-reasons-v316.cjs",
+      "line": 7,
+      "snippet": "function card(g,type){return g.document.querySelectorAll('[data-unit]').find(n=>n.dataset.unit===type)}"
+    },
+    {
+      "file": "refinery-miner-selection-natural-v315.cjs",
+      "line": 11,
+      "snippet": "g.document.querySelectorAll('[data-build]').find(b=>b.dataset.build==='refinery').click();select(p);"
+    },
+    {
+      "file": "refinery-miner-selection-natural-v315.cjs",
+      "line": 13,
+      "snippet": "g.document.querySelectorAll('[data-unit]').find(b=>b.dataset.unit==='harvester').click();assert.equal(g.run('state.queue.some(q=>q.type===\"harvester\")'),true);"
+    },
+    {
+      "file": "control-group-repeat-v315.cjs",
+      "line": 9,
+      "snippet": "test('visible group control callbacks unchanged',()=>{const g=fresh();g.click('saveControlGroup0');eq(g.run('JSON.stringify(groups[0])'),'[5]','visible save works');g.run('selection=new Set([6])');g.document.querySelectorAll('[data-group]').find(b=>b.dataset.group==='0').click({ctrlKey:true});eq(g.run('JSON.stringify(groups[0])'),'[6]','ctrl click works');});"
+    },
+    {
+      "file": "quick-switchback-v317.cjs",
+      "line": 72,
+      "snippet": "    const buttons = g.elements.filter(node => /^quick(?:Assault|Harvest|Stronghold|Meridian|Control|Survival|Switchback)$/.test(node.id));"
+    },
+    {
+      "file": "quick-switchback-v317.cjs",
+      "line": 75,
+      "snippet": "      eq(g.elements.filter(node => node.id === id).length, 1, 'unique preset button ' + id);"
+    },
+    {
+      "file": "quick-switchback-v317.cjs",
+      "line": 86,
+      "snippet": "    eq(g.elements.filter(node => node.id === 'quickSwitchbackBrief').length, 1, 'unique switchback briefing');"
+    },
+    {
+      "file": "quick-switchback-v317.cjs",
+      "line": 91,
+      "snippet": "    eq(brief.children.map(node => node.tagName), ['H4', 'P', 'UL'], 'brief has heading configuration and instructions');"
+    },
+    {
+      "file": "quick-switchback-v317.cjs",
+      "line": 202,
+      "snippet": "      press(g, g.document.querySelectorAll('[data-unit]').find(node => node.dataset.unit === 'scout'));"
+    },
+    {
+      "file": "order-waiting-reuse-v317.cjs",
+      "line": 5,
+      "snippet": "function build(g,type,x,y){const cash=g.state.cash,cost=g.run('defs['+JSON.stringify(type)+'].cost');press(g,g.document.querySelectorAll('[data-build]').find(n=>n.dataset.build===type));map(g,x,y);eq(g.state.cash,cash-cost,'actual paid build '+type)}"
+    },
+    {
+      "file": "order-waiting-reuse-v317.cjs",
+      "line": 6,
+      "snippet": "function buy(g,n){const b=g.document.querySelectorAll('[data-unit]').find(n=>n.dataset.unit==='scout');for(let i=0;i<n;i++)press(g,b)}"
+    },
+    {
+      "file": "parameterized-pilot/order-display-writes.cjs",
+      "line": 12,
+      "snippet": "function buy(g,type,n){const b=g.document.querySelectorAll('[data-unit]').find(e=>e.dataset.unit===type);for(let i=0;i<n;i++)press(g,b)}"
+    },
+    {
+      "file": "vehicle-reference-v315.cjs",
+      "line": 6,
+      "snippet": "for(const type of types)for(const preview of [false,true])test(type+' '+(preview?'preview':'original')+' exact current draw replay',()=>{const g=loadGame(source),body=capture(g,type,preview).body,expected=`<svg class=\"${preview?'reference-preview':'reference-original'}\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-24 -24 72 48\" width=\"96\" height=\"64\" aria-hidden=\"true\" focusable=\"false\">\\n${body}\\n</svg>`;assert.ok(html.includes(expected));assert.equal(html.split(expected).length-1,1);const row=g.document.querySelectorAll('[data-reference-vehicle]').find(n=>n.dataset.referenceVehicle===type);assert.ok(row);assert.ok(html.includes('<span>'+g.run(`defs.${type}.name`)+'</span>'))});"
+    },
+    {
+      "file": "vehicle-reference-v315.cjs",
+      "line": 7,
+      "snippet": "test('decorative subtree and preserved closed reference',()=>{const g=loadGame(source),root=g.element('vehicleReferenceGallery'),ref=g.element('unitReference');assert.ok(root&&ref.contains(root));assert.ok(!Object.hasOwn(ref.attributes,'open'));assert.equal(g.document.querySelectorAll('[data-reference-vehicle]').length,5);const walk=n=>{assert.ok(!['BUTTON','A','INPUT','SELECT','TEXTAREA','SCRIPT','IMAGE','USE','FOREIGNOBJECT'].includes(n.tagName));for(const k of Object.keys(n.attributes)){assert.ok(!/^on/i.test(k));assert.notEqual(k,'tabindex');assert.notEqual(k,'href')}assert.equal(Object.keys(n.listeners).length,0);for(const x of n.children)walk(x)};walk(root);assert.ok(g.element('unitReferenceText').textContent.includes('主战坦克'));assert.ok(g.element('unitReferenceText').textContent.includes('指挥中心'));assert.ok(html.includes('不表示实时载量或当前战况'))});"
+    },
+    {
+      "file": "inherit-dom-v313-negative-control.cjs",
+      "line": 10,
+      "snippet": "function allocation(version){const text=fs.readFileSync(path.join(__dirname,'command-allocation-feedback-'+version+'.cjs'),'utf8');return plain(Function('normalizeHoldAttributes','return ('+text.match(/const dom=(g=>[^\\n]+);/)[1]+')')(require('./hold-dom-normalization-v312.cjs')))}"
+    },
+    {
+      "file": "inherit-dom-v313-negative-control.cjs",
+      "line": 16,
+      "snippet": "function removeNewRoots(g){const removed=new Set();function collect(n){removed.add(n);for(const child of n.children)collect(child)}for(const id of ['selectRefineryMiners','refineryMinerSelectionHelp']){const root=g.element(id);collect(root);root.remove()}g.elements.splice(0,g.elements.length,...g.elements.filter(n=>!removed.has(n)));assert.equal(removed.size,6)}"
+    },
+    {
+      "file": "all-factories.cjs",
+      "line": 8,
+      "snippet": "function build(g,type,x,y){const cash=g.state.cash,cost=g.run('defs['+JSON.stringify(type)+'].cost');press(g,g.document.querySelectorAll('[data-build]').find(e=>e.dataset.build===type));field(g,'coordinateConstructionX',x);field(g,'coordinateConstructionY',y);press(g,'coordinateConstructionExecute');eq(g.state.cash,cash-cost,'paid construction')}"
+    },
+    {
+      "file": "all-factories.cjs",
+      "line": 14,
+      "snippet": "for(const mode of ['attack','appendCommand','construction'])test('legal pending mode '+mode,()=>{const g=loadGame(source).start();select(g,6);if(mode==='construction')press(g,g.document.querySelectorAll('[data-build]').find(e=>e.dataset.build==='power'));else press(g,mode);ok(g.run('!!(placement||attackMode||appendCommandMode)'),'pending input is armed');success(g,[4])});"
+    },
+    {
+      "file": "battle-command-independent-v317.cjs",
+      "line": 7,
+      "snippet": "let points=0;for(let id of steps){for(let g of [a,z])g.click(id);assert.equal(snap(a),snap(z),id);for(let e of z.elements.filter(e=>e.id)){let n=a.element(e.id);for(let k of ['disabled','hidden','value','textContent'])assert.equal(n[k],e[k],id+':'+e.id+':'+k);assert.deepEqual(n.attributes,e.attributes,id+':'+e.id)}points++}"
+    },
+    {
+      "file": "global-repeat-scope-v317.cjs",
+      "line": 16,
+      "snippet": "function build(g,type,x,y){const before=g.state.cash,cost=g.run('defs['+JSON.stringify(type)+'].cost');press(g,g.document.querySelectorAll('[data-build]').find(e=>e.dataset.build===type));field(g,'coordinateConstructionX',x);field(g,'coordinateConstructionY',y);press(g,'coordinateConstructionExecute');eq(g.state.cash,before-cost,'paid actual construction '+type)}"
+    },
+    {
+      "file": "selection-removal.cjs",
+      "line": 16,
+      "snippet": "test('only currently selected live own entities listed including buildings',()=>{let g=setup();g.run('selection=new Set([1,5,6,7,9]);get(7).hp=0;updateUI()');eq(g.element('selectionRemoveTarget').children.map(x=>x.value).sort(),['','1','5','6']);for(let n of g.element('selectionRemoveTarget').children.slice(1)){ok(/#\\d+ · X \\d+ · Y \\d+/.test(n.textContent));eq(n.getAttribute('data-selection-remove-option'),'true')}eq(ids(g),'[1,5,6,7,9]')});"
+    },
+    {
+      "file": "selection-removal.cjs",
+      "line": 27,
+      "snippet": "test('options retain identity while moving and never default to first survivor',()=>{let g=setup();choose(g,7);let select=g.element('selectionRemoveTarget'),nodes=select.children.slice(),active=select;active.focus();g.run('get(7).x+=10;updateUI();updateUI()');eq(select.children,nodes);eq(select.value,'7');eq(g.document.activeElement,active);ok(select.children.find(n=>n.value==='7').textContent.includes('X 370'));g.run('selection.delete(7);updateUI()');eq(select.value,'');eq(select.children.map(n=>n.value),['','6','8']);ok(g.element('selectionRemoveExecute').disabled)});"
+    },
+    {
+      "file": "construction-reasons-v315.cjs",
+      "line": 6,
+      "snippet": "function card(g,t){return g.document.querySelectorAll('[data-build]').find(x=>x.dataset.build===t)}"
+    },
+    {
+      "file": "construction-reasons-v315.cjs",
+      "line": 17,
+      "snippet": "test('natural three tank purchases explain factory shortage',()=>{const g=fresh(),tank=g.document.querySelectorAll('[data-unit]').find(b=>b.dataset.unit==='tank');for(let i=0;i<3;i++)tank.click();assert.equal(g.state.cash,650);assert.equal(reason(g,'factory'),'资金不足，还差 200资金');assert.equal(reason(g,'refinery'),'');assert.equal(g.state.queue.length,3)});"
+    },
+    {
+      "file": "inherit-dom-v277-negative-control.cjs",
+      "line": 4,
+      "snippet": " const original=fs.readFileSync(path.join(__dirname,name));const adapted=adapter.adapt(name,original);assert.ok(adapted.includes(entry.after));const dom=vm.runInNewContext('('+entry.after+')',{assert,classNames});const stringify=g=>JSON.stringify(dom(g));let a=loadGame(source),b=loadGame(source);a.start();b.start();for(let g of [a,b])g.run('selection=new Set([6,7]);updateUI()');assert.equal(stringify(a),stringify(b));"
+    },
+    {
+      "file": "command-allocation-feedback-v317.cjs",
+      "line": 8,
+      "snippet": "const dom=g=>{g=require('./inherit-dom-v317.cjs').battleCommandProjection(g);const inProductionReason=require('./inherit-dom-v317.cjs').productionReasonProjection(g);return g.elements.filter(n=>{if(inProductionReason(n))return false;if((function refineryMinerProjection(g){  const parents=g.elements.filter(e=>e.id==='harvesterFleetOverview');  const parent=parents.length===1?parents[0]:null;  const attached=node=>{const seen=new Set();for(let n=node;n!==g.document.body;n=n.parentNode){if(!n||seen.has(n)||!n.parentNode||n.parentNode.children.filter(c=>c===n).length!==1)return false;seen.add(n)}return true};  const roots=[];  if(parent&&parent.tagName==='DETAILS'&&attached(parent))for(const[id,tag]of [['selectRefineryMiners','BUTTON'],['refineryMinerSelectionHelp','P']]){   const matches=g.elements.filter(e=>e.id===id),root=matches.length===1?matches[0]:null;   if(root&&root.tagName===tag&&root.parentNode===parent&&attached(root))roots.push(root);  }  return element=>{const seen=new Set();for(let n=element;n;n=n.parentNode){if(roots.includes(n))return true;if(seen.has(n)||!n.parentNode||n.parentNode.children.filter(c=>c===n).length!==1)return false;seen.add(n)}return false}; })(g)(n))return false;if((function buildingGalleryProjection(g){  const roots=g.elements.filter(e=>e.id==='buildingReferenceGallery'),parents=g.elements.filter(e=>e.id==='unitReference');  const root=roots.length===1?roots[0]:null,parent=parents.length===1?parents[0]:null;  let valid=!!(root&&parent&&root.ta"
+    },
+    {
+      "file": "inherit-dom-v283-negative-control.cjs",
+      "line": 13,
+      "snippet": "  for(const id of ['selectIdleFactories','repeatProduction','factoryRepeat','factoryRepeatTarget','patrol','stop'])equal(projected.elements.filter(x=>x.fields.id===id).length,1,'existing control remains '+id);"
+    },
+    {
+      "file": "inherit-dom-v283-negative-control.cjs",
+      "line": 15,
+      "snippet": "  button.remove();g.elements.splice(0,g.elements.length,...elements.filter(e=>!excluded.includes(e)));"
+    },
+    {
+      "file": "inherit-dom-v289-negative-control.cjs",
+      "line": 13,
+      "snippet": "  const projected=dom(g),old=oldDom(g),excluded=g.elements.filter(e=>within(e,panel));"
+    },
+    {
+      "file": "inherit-dom-v289-negative-control.cjs",
+      "line": 16,
+      "snippet": "  for(const id of ['guide','selectIdleFactories','repeatProduction','factoryRepeat','factoryRepeatTarget','patrol','stop','battleReport'])equal(projected.elements.filter(x=>x.fields.id===id).length,1,'existing node remains '+id);"
+    },
+    {
+      "file": "inherit-dom-v289-negative-control.cjs",
+      "line": 18,
+      "snippet": "  panel.remove();g.elements.splice(0,g.elements.length,...elements.filter(e=>!excluded.includes(e)));"
+    },
+    {
+      "file": "coordinate-construction.cjs",
+      "line": 4,
+      "snippet": "function card(g,type){g.document.querySelectorAll('[data-build]').find(n=>n.dataset.build===type).click()}"
+    },
+    {
+      "file": "coordinate-construction.cjs",
+      "line": 23,
+      "snippet": "test('funds spent between press and release are rechecked by original place',()=>{let g=setup('refinery');begin(g);for(let i=0;i<4;i++)g.document.querySelectorAll('[data-unit]').find(n=>n.dataset.unit==='tank').click();eq(g.state.cash,300);ok(g.element('coordinateConstructionExecute').disabled);let n=g.state.entities.length;finish(g,'pointer',true);eq(g.state.cash,300);eq(g.state.entities.length,n);eq(g.run('placement'),'refinery');ok(g.state.logs.some(x=>String(x.text??x).includes('资金不足'))||g.element('coordinateConstructionStatus').textContent.includes('资金不足'))});"
+    },
+    {
+      "file": "purchase-funding-v315.cjs",
+      "line": 15,
+      "snippet": "for(const paused of [false,true])test('natural four paid tanks '+(paused?'paused':'running'),()=>{const g=fresh();const b=g.document.querySelectorAll('[data-unit]').find(b=>b.dataset.unit==='tank');for(let i=0;i<4;i++)b.click();if(paused)g.click('pause');const paid=g.state.queue.slice(),before=snap(g);key(g,'4');assert.equal(g.state.logs[0],'主战坦克新订单资金不足，还差 50资金；已付订单保留');assert.equal(snap(g),before);const left=paid[0].left;g.step(.25);assert.equal(paid[0].left<left,!paused)});"
+    },
+    {
+      "file": "inherit-dom-v310-negative-control.cjs",
+      "line": 5,
+      "snippet": "const extract=s=>Function('normalizeHoldAttributes','return ('+s.match(/const dom=(g=>[^\\n]+);/)[1]+')')(normalize),plain=f=>g=>JSON.parse(JSON.stringify(f(g)));"
+    },
+    {
+      "file": "inherit-dom-v310-negative-control.cjs",
+      "line": 10,
+      "snippet": "function removeGallery(g){const root=g.element('buildingReferenceGallery'),removed=new Set();const visit=n=>{removed.add(n);n.children.forEach(visit)};visit(root);root.remove();g.elements.splice(0,g.elements.length,...g.elements.filter(n=>!removed.has(n)));return removed}"
+    },
+    {
+      "file": "coordinate-command-natural-v317.cjs",
+      "line": 20,
+      "snippet": " let paid=null;if(scenario.produce){for(const g of[a,b]){const btn=g.document.querySelectorAll('[data-unit]').find(e=>e.dataset.unit==='scout');assert.equal(btn.disabled,false);btn.click()}assert.equal(world(a),world(b));paid=1700-a.state.cash;assert.equal(paid,180);assert.equal(a.state.queue.length,1)}"
+    },
+    {
+      "file": "factory-requirement-v315.cjs",
+      "line": 12,
+      "snippet": " const g=fresh();g.run(fixture+`;state.cash=${cash};updateUI()`);if(paused)g.click('pause');const b=g.document.querySelectorAll('[data-unit]').find(b=>b.dataset.unit===type),before=snapshot(g),queued=g.state.queue.length;const building=['unfinished','twoUnfinished','deadAndUnfinished'].includes(mode),complete=mode==='mixedComplete';const expected=complete?(cash?'':'资金不足，还差 '+g.run(`defs.${type}.cost`)+'资金'):building?(paused?'战车工厂施工中；当前暂停，请继续游戏以推进施工':'战车工厂施工中，完工后才能下新订单'):'需要已建成的战车工厂';"
+    },
+    {
+      "file": "factory-requirement-v315.cjs",
+      "line": 17,
+      "snippet": "for(const paused of [false,true])test('natural salvage replacement and completion paused='+paused,()=>{const g=fresh();g.click('pause');point(g,g.state.entities.find(e=>e.id===4));g.click('salvage');g.document.querySelectorAll('[data-build]').find(b=>b.dataset.build==='factory').click();point(g,g.run(\"(()=>{for(let y=60;y<760;y+=20)for(let x=60;x<1160;x+=20)if(canPlace('factory',{x,y}))return{x,y}})()\"));if(!paused)g.click('pause');const before=snapshot(g);key(g,'4');assert.equal(g.state.logs[0],paused?'战车工厂施工中；当前暂停，请继续游戏以推进施工':'战车工厂施工中，完工后才能下新订单');assert.equal(snapshot(g),before);if(paused)g.click('pause');g.step(12.1);g.run('updateUI()');assert.ok(g.run(\"structures(0,'factory').some(e=>!e.build)\"));assert.equal(g.run(\"productionPurchaseReason('tank')\"),'');const q=g.state.queue.length;key(g,'4');assert.equal(g.state.queue.length,q+1)});"
+    },
+    {
+      "file": "factory-requirement-v315.cjs",
+      "line": 18,
+      "snippet": "test('paused construction tooltip updates immediately on resume',()=>{const g=fresh();g.run('get(4).build=12;updateUI()');const b=g.document.querySelectorAll('[data-unit]')[0];assert.ok(b.title.includes('完工后才能下新订单'));g.click('pause');assert.ok(b.title.includes('当前暂停，请继续游戏'));g.click('pause');assert.ok(b.title.includes('完工后才能下新订单'));assert.ok(!b.title.includes('当前暂停'))});"
+    },
+    {
+      "file": "coordinate-append.cjs",
+      "line": 13,
+      "snippet": "for(let k of ['pointer','Enter',' '])for(let cancel of ['input ABA','ordinary execute','Escape','blur','window blur','restart','new battle','construction'])test('late '+k+' rejected after '+cancel,()=>{let g=setup();begin(g,k);if(cancel==='input ABA'){fill(g,'540','650');fill(g)}if(cancel==='ordinary execute')act(g,'pointer','coordinateCommandExecute');if(cancel==='Escape')g.dispatch('keydown',event('keydown','Escape'));if(cancel==='blur')g.element('coordinateAppendExecute').dispatchEvent({type:'blur'});if(cancel==='window blur')g.dispatch('blur');if(cancel==='restart'){g.click('restart');g.click('cancelRestart')}if(cancel==='new battle'){g.click('restart');g.click('start');g.run('selection=new Set([6]);updateUI()');fill(g)}if(cancel==='construction')g.document.querySelectorAll('[data-build]').find(n=>n.dataset.build==='power').click();let w=world(g);finish(g,k);eq(world(g),w)});"
+    },
+    {
+      "file": "inherit-dom-v293-negative-control.cjs",
+      "line": 9,
+      "snippet": "const extract=s=>Function('return ('+s.match(/const dom=(g=>[^\\n]+);/)[1]+')')();const frozen=f=>g=>JSON.parse(JSON.stringify(f(g)));programs.push({name:'command-allocation-feedback',dom:frozen(extract(current)),old:frozen(extract(prior))});"
+    },
+    {
+      "file": "inherit-dom-v293-negative-control.cjs",
+      "line": 11,
+      "snippet": " test(name+' physical removal and exact count reversal',()=>{const g=loadGame(source).start(),expected=dom(g),panels=roots.map(id=>g.element(id)),excluded=g.elements.filter(e=>panels.some(p=>within(e,p)));assert.ok(excluded.length>5);assertions++;if(intro(g).textContent===newText)intro(g).textContent=oldText;for(const p of panels)p.remove();g.elements.splice(0,g.elements.length,...g.elements.filter(e=>!excluded.includes(e)));eq(old(g),expected,'only added roots and exact count differ')});"
+    },
+    {
+      "file": "coordinate-attack.cjs",
+      "line": 5,
+      "snippet": "for(let k of ['pointer','Enter',' '])for(let reason of ['field ABA','blur','window blur','Escape','hidden','restart','new battle','build'])test('late '+k+' rejected after '+reason,()=>{let g=setup();begin(g,k);if(reason==='field ABA'){fill(g,'940','400');fill(g)}if(reason==='blur')g.element('coordinateAttackExecute').dispatchEvent({type:'blur'});if(reason==='window blur')g.dispatch('blur');if(reason==='Escape')g.dispatch('keydown',ev('keydown','Escape'));if(reason==='hidden'){g.document.hidden=true;g.dispatch('document:visibilitychange')}if(reason==='restart'){g.click('restart');g.click('cancelRestart')}if(reason==='new battle'){g.click('restart');g.click('start');g.run('selection=new Set([6]);updateUI()');fill(g)}if(reason==='build')g.document.querySelectorAll('[data-build]').find(n=>n.dataset.build==='power').click();let w=world(g);finish(g,k);eq(world(g),w)});"
+    },
+    {
+      "file": "inherit-dom-v282-negative-control.cjs",
+      "line": 4,
+      "snippet": " const dom=Function('assert','classNames','return ('+entry.after+')')(assert,['hidden','active']);"
+    },
+    {
+      "file": "inherit-dom-v317-negative-control.cjs",
+      "line": 7,
+      "snippet": "function allocation(version){const text=fs.readFileSync(path.join(__dirname,'command-allocation-feedback-'+version+'.cjs'),'utf8');const fn=Function('require','normalizeHoldAttributes','return ('+text.match(/const dom=(g=>[^\\n]+);/)[1]+')')(require,require('./hold-dom-normalization-v315.cjs'));return g=>JSON.parse(JSON.stringify(fn(g)))}"
+    },
+    {
+      "file": "inherit-dom-v317-negative-control.cjs",
+      "line": 13,
+      "snippet": "const graph=g=>g.elements.map(n=>({fields:Object.fromEntries(Object.entries(n).filter(([k,v])=>v===null||['number','string','boolean'].includes(typeof v))),attributes:{...n.attributes},style:{...n.style},dataset:{...n.dataset},parent:g.elements.indexOf(n.parentNode),children:n.children.map(x=>g.elements.indexOf(x))}));"
+    },
+    {
+      "file": "repair-button-repeat.cjs",
+      "line": 22,
+      "snippet": "function dom(g){const indexes=new Map(g.elements.map((e,i)=>[e,i]));return{active:indexes.get(g.document.activeElement),hidden:g.document.hidden,elements:g.elements.map(e=>{const fields={};for(const[k,v]of Object.entries(e))if(v===null||['string','number','boolean'].includes(typeof v))fields[k]=v;return{fields,attributes:{...e.attributes},dataset:{...e.dataset},style:{...e.style},classes:classNames.filter(c=>e.classList.contains(c)),parent:indexes.get(e.parentNode)??null,children:e.children.map(n=>indexes.get(n))}})}}"
+    },
+    {
+      "file": "repair-button-repeat.cjs",
+      "line": 26,
+      "snippet": "function pair({start=true,damage=1000,cash=2000,paidOrder=true}={}){const p={now:loadGame(source,{seed:272}),old:loadGame(reference,{seed:272})};both(p,g=>{if(start)g.start();if(start&&paidOrder)g.document.querySelectorAll('[data-unit]').find(b=>b.dataset.unit==='tank').click();g.run(`globalThis.repairFixtureTarget=state.entities.find(e=>e.team===0&&e.type==='hq');repairFixtureTarget.hp=repairFixtureTarget.max-${damage};selection=new Set([repairFixtureTarget.id]);state.cash=${cash};updateUI()`)});return p}"
+    },
+    {
+      "file": "repair-button-repeat.cjs",
+      "line": 49,
+      "snippet": "for(const[name,config,prevented]of GATES)test('code gate '+name,()=>{const p=pair();both(p,g=>g.element('repair').focus());const before=snapshot(p.now),{key,...extra}=config,r=buttonKey(p.now,key,extra,'repair',{bubble:false});eq('gate','default_prevention_matches_contract',r.prevented,prevented);eq('gate','keydown_only_has_no_side_effects',snapshot(p.now),before);const purchase=p.now.document.querySelectorAll('[data-unit]').find(b=>b.dataset.unit==='tank'),purchaseEvent=event(key,extra);purchase.dispatchEvent(purchaseEvent);eq('gate','matches_existing_purchase_button_pattern',r.prevented,purchaseEvent.defaultPrevented);return{prevented,nativeActivationExecuted:false}});"
+    },
+    {
+      "file": "repair-button-repeat.cjs",
+      "line": 67,
+      "snippet": "test('purchase button retains own Enter repeat gate and paid queue behavior',()=>{const p=pair({paidOrder:false});both(p,g=>{const b=g.document.querySelectorAll('[data-unit]').find(b=>b.dataset.unit==='tank');b.focus();for(const repeat of [false,true,true]){const e=event('Enter',{repeat,target:b});b.dispatchEvent(e);g.dispatch('keydown',e);if(!e.defaultPrevented&&!b.disabled){b.click({detail:0});modeledDefaultClicks++}}});eq('purchase','exactly_one_paid_order',p.now.state.queue.length,1);eq('purchase','existing_tank_price',p.now.state.cash,1650);match(p,'purchase');advancePair(p,'purchase_next_simulation')});"
+    },
+    {
+      "file": "battle-command-workspace.cjs",
+      "line": 12,
+      "snippet": "test('Original controls exist once, with identical attributes and handlers',()=>{let a=fresh(candidate),b=fresh(baseline);for(const id of ids){assert.equal(a.elements.filter(e=>e.id===id).length,1,id);assert.deepEqual(a.element(id).attributes,b.element(id).attributes,id);assert.equal(String(a.element(id).onclick),String(b.element(id).onclick),id);assert.ok(a.element('battleCommandPanel').contains(a.element(id)),id)}for(const e of b.elements.filter(e=>e.id))assert.equal(a.elements.filter(n=>n.id===e.id).length,1,e.id);for(const e of a.elements)for(const id of (e.getAttribute('aria-describedby')||'').split(/\\s+/).filter(Boolean))assert.ok(a.element(id),id)});"
+    },
+    {
+      "file": "power-read-reuse-v317.cjs",
+      "line": 10,
+      "snippet": " test('legal natural refinery destruction refreshes immediate demand',()=>{const gs=games();let observed=false,elapsed=0;const targets=gs.map(g=>g.state.entities.find(e=>e.id===3));for(const g of gs)eq(g.run('power(0)'),{supply:120,demand:80},'before natural destruction');while(elapsed<160&&!gs[0].state.result){for(const g of gs)g.step(.25);elapsed+=.25;pair(gs,'natural destruction step '+elapsed);if(targets[0].hp<=0||!gs[0].state.entities.includes(targets[0])){observed=true;break}}ok(observed,'natural combat actually destroys initial refinery');for(const g of gs){eq(g.run('power(0)'),{supply:120,demand:50},'immediate natural destruction demand');ok(!g.state.entities.some(e=>e.id===3&&e.hp>0),'destroyed refinery excluded')}pair(gs,'natural destruction final');measurements.push({naturalRefineryDestroyedAt:gs[0].state.t,observationStep:.25})});"
+    },
+    {
+      "file": "visual-preference-v315.cjs",
+      "line": 5,
+      "snippet": "test('closed accessible experimental setting and zero default allocation',()=>{const g=fresh(),p=g.element('displayPreview'),c=g.element('vehicleArtPreview');eq(p.tagName,'DETAILS','display panel is native details');eq(p.getAttribute('open'),null,'display panel initially closed');eq(c.tagName,'INPUT','preview native input');eq(c.getAttribute('type'),'checkbox','preview is checkbox');eq(c.getAttribute('autocomplete'),'off','form restoration discouraged by explicit browser hint');eq(c.getAttribute('checked'),null,'markup default unchecked');eq(g.run('vehicleArtPreview'),false,'fresh renderer default legacy');eq(c.checked,false,'fresh control unchecked');eq(g.run('unitArtPathCache'),undefined,'off bootstrap does not allocate paths');eq(g.run('buildingArtPathCache'),undefined,'off bootstrap does not allocate building paths');eq(c.getAttribute('aria-describedby'),'vehicleArtPreviewHelp','accessible help linkage');eq(g.elements.filter(n=>n.tagName==='LABEL'&&n.getAttribute('for')==='vehicleArtPreview').length,1,'one explicit accessible label');ok(html.includes('实验性车辆与建筑外观预览（各5种）'),'experimental combined vehicle/building label');ok(html.includes('新外观绘制开销可能更高'),'cost warning visible');ok(html.includes('仅本页面会话保留，新局沿用，重新打开页面恢复关闭'),'session-only lifecycle explicit');ok(html.includes('未验证原生浏览器效果与帧率'),'browser and FPS limitation visible')});"
+    }
+  ],
+  "reviewedHashes": {
+    "post-selection.cjs": "5015ce4af539b2211b4ff6e9047323c527235e15260decd3d974746fdbb36c20",
+    "control-group-protection-negative-control-v317.cjs": "732444d96581775f449a7afffa48d9256a9e5dae3cc6070d05b610b23e24a847",
+    "factory-space-negative-v315.cjs": "95c32172f228e19a0171c2725774cafccb21ba52f89c66a6505750ae374ea6d1",
+    "production-card-reasons-negative-v316.cjs": "8dd4dbd2b4ec2827ebce181c76de7cfdfc7747389f6eaab0dbc049cbfef7dc6f",
+    "low-ore-label-v317.cjs": "178960c38378f2b00979de532d54fdd1fa2546e12d480b4f80b0284c79fe0e8d",
+    "coordinate-command.cjs": "10dd2d14516598712894db0f1562c600cc9d20cc35aa474325b4b7ad74a487c4",
+    "visual-preference-v315.cjs": "ee7336988bcae77c2086883d493db49a3a2f2df1fc8c049f164257e610ec43df",
+    "global-repeat-scope-negative-control-v317.cjs": "c4e6404b62929b9ac21850e3649a274cc322c14cc2f6c18040624193acf3b646",
+    "escort-target.cjs": "570124ccd6da92cbb396514a60e6a2d1836db03944801595479801d7d0f554c1",
+    "power-read-reuse-v317.cjs": "77afc89d736b3f7a5660eb221f4af26e419dc6c2ae209f0420e4f4af82e5fd81",
+    "power-read-reuse-negative-control-v317.cjs": "bd538a71167feefe010e51e5e757ce693f6f5d0b2e626cd8b586cfec7e89c48f",
+    "ore-layout-v317.cjs": "8db0d345540b8547ea33588bcba786c79033d7778a777d43372a22e2d61211f6",
+    "coordinate-attack-natural.cjs": "fbafd5c2a5064a2de59515dbed7a029717f9d8f060e36193682490cb7e4848bd",
+    "battle-command-workspace.cjs": "b4f797100ea5c9bba6924482ce71db87f4dc5fc9f0ca662cda55802ddc6b081e",
+    "repair-button-repeat.cjs": "d986a5331fab751b0a5e2f70d9a49dd5b7d753149558e9f9f39055a7f3adfbce",
+    "inherit-dom-v317-negative-control.cjs": "0a14c085a64792189d7b7731b02d241360263a81aac57071abeecd4b2d88eb3d",
+    "coordinate-append-natural.cjs": "e1ef03a3100baea01c88142f9f344c96077fe0ed13b01f9ae69b968dc5500fd4",
+    "selection-key-repeat-negative-v315.cjs": "8f059979d5310eec8f9df48c825138dcde01a2b6ac13cebaf605b3b314652616",
+    "construction-reasons-negative-v315.cjs": "a0cc4f71cc63550c4fcacffc135073ffa0763ded13d24cf97093b817a87ab2a0",
+    "selection-key-repeat-v315.cjs": "ca01366a45e587f3f2614428a3ed318d45024cf7660c39563d27281a01f2ab7a",
+    "ore-density-v317.cjs": "b981810532d5694cfa43fac93c2e156fb83aae5278367f1ec478dfe8fdcfde1a",
+    "pause-ui.cjs": "0f1a55c3a2b4f5a71d5e16d48b730dc78370ac77103fdea3f311c8c697afb702",
+    "inherit-dom-v282-negative-control.cjs": "4a1a676bd60f842024340b81683dc08ea8745f4aa90e506ef0449001a63aabdc",
+    "coordinate-attack.cjs": "929dd448c68c92d57e856d549507ffacc1b5c41f9c2ddc8a045c2396987a768b",
+    "quick-switchback-route-v315.cjs": "2b743b498a685c46013177ed29e4c72953b93cd08ef66f856506671815fc060b",
+    "ground-destination.cjs": "63e05e9616064014f423438c646f0528cbb2c2c6fb6b1793e877de257b8668aa",
+    "health-edge-negative-control-v317.cjs": "7f3e3d950d91027b0c64c68d6f8b5dbc54b5b57896fcd76460fea7db84f42465",
+    "inherit-dom-v293-negative-control.cjs": "052c1fc36e544281cb84da59dbc1306bba0120ffd3b4c3486f6e70669d161b92",
+    "patrol-action-negative-control-v317.cjs": "f21156bff17f4a2fbace047525ddc13b508dbff7f853da9c1523f67515e53b65",
+    "building-team-cue-v317.cjs": "6db4d85e520f1c6398edbf4452207b190cc1aae3cd6ba038c904efa7b871357e",
+    "attack-tail.cjs": "b19e012c1cedbf50ef98ef6e18961a064157620ce4d52e4572a87f67edbf4102",
+    "coordinate-append.cjs": "fb617dc56331cc36561b208295e0b134c0ed9d7143e50488791dbc160c951d0a",
+    "factory-requirement-v315.cjs": "d4104a06a2ed10b01be45858b51721c35f2417925ee87156243d8b256bb2da15",
+    "coordinate-command-natural-v317.cjs": "266baa62e6d4c75ca651ea5c7385d8e35faf649d2af41e32143b58d9c9d2c97e",
+    "factory-requirement-negative-v315.cjs": "4c31c2a36304d56f02de35f03eb90501e56b2beefaf9fa31b5e0bdeb309f3d68",
+    "source-delta-v317-negative-control.cjs": "8f8bfb8aed85babe39593918dd65c720622239d2a6ed3a92e2fa4ea9ee417674",
+    "queue-remainder.cjs": "c26f4afb568b89e66232f2a9ac9a09aa2d4eeea9adeffd00ca3c378f9ce0bed0",
+    "control-group-repeat-negative-control-v317.cjs": "7b93cac139da75dd3cb219eb1dbe7bb680df33582a0ed25a3527ecdb69660022",
+    "coordinate-attack-negative-control.cjs": "0a95642ccfbe507206e4f8a37ba1a1ec0fc4c0d4e807eeb8b6d0ce254494f1e2",
+    "inherit-dom-v312-negative-control.cjs": "c7c4d5f0a7be2405f81260b94110f0b0319a3a13cb26a8c1fdce6c26efbc6eea",
+    "map-pointer-geometry.cjs": "82604ea0042ccaccd9d3433d1a1db0c276b36ef924902ae56d2ae18bea2fb23e",
+    "building-preview-v317.cjs": "4732a233c80af2ab908dca828a52cbd82f040664ef4d02d9615eefb83f9b8784",
+    "purchase-funding-v315.cjs": "213b93bb26d66be90289e1f237a8fc5217a121f2b9aea72eff2e4f0ff60ed2d8",
+    "visual-preference-negative-control-v315.cjs": "63c2d806287da4f6562c93fbaf0d9dd8f44991bed32b17c2ba6feaa5f29235f3",
+    "control-group-add.cjs": "fe6ab9ce15bbe78fa5ea321d02213ed18f226370d2cde8ae049e2c98ab010d5a",
+    "presentation-negative-control-v317.cjs": "d78436ed9bd142644756407823df74e04294e26989b578097cd701997a050182",
+    "coordinate-construction.cjs": "7e6fc7446f39bd66d8056724baf58c18b385de07bd04a2a06c0d5a891ed6961c",
+    "purchase-funding-negative-v315.cjs": "33f4cc1a968126d439b8f1b4563e1a8a68fd5b2ac1aace549139ce93988e80b6",
+    "inherit-dom-v289-negative-control.cjs": "f6d9449540781c797dec4446fb2f179418f8abca9e9b754af92ed10fa80a3644",
+    "inherit-dom-v283-negative-control.cjs": "a1c2355c4e059847d75f1e58f9d8da2fb73a184a291e22665c145020a32fe9e2",
+    "escape-key-repeat-v315.cjs": "31be012e621609c85aa0f4d29766ffac5dc9469f7eaeab5c9833fd6a94e8f23a",
+    "run-tests-v317.cjs": "241483ca54d8a33f260aa3b52a6d98124f05c435238f6b7c6d2ddbac8aa4f8de",
+    "command-allocation-feedback-v317.cjs": "25df42ad63d3976b44d7535187796f5650dabb0004f98eb58d83103ff2727250",
+    "quick-switchback-negative-control-v317.cjs": "2bfec1a3a146bb487f62b4de8bdc32b149da5820009d69503b61c940e6b10580",
+    "production-mode-natural.cjs": "b2403c883389147e78509f6058230970d4458d69d7dbb9d4c546359104d22904",
+    "factory-spawn-check.cjs": "d9e0f698c3260cf5133e00c5bf232354806a87b37a3316655746bb89c62d7f08",
+    "inherit-dom-v277-negative-control.cjs": "bdf771eb67383044c1b7652a65620107c18f8325914a69e8b15549f3936298ea",
+    "queued-point.cjs": "cf6aa893f7f08990deaba21f9a3a9a84537cd9e9e5ea62617b928fd153fa9099",
+    "post-capture.cjs": "717aa2d86c7ebcc3adff662a8bec2862beeef459d89b62a7d8e1f94699b1faaa",
+    "coordinate-construction-negative-control.cjs": "c6b0833f6f6c244bd25027d3b0a266f3ab4fab90818b792ac0ae8f77d3bfd24b",
+    "construction-reasons-v315.cjs": "612365e1231cce1bdad5eeeae53b21ac3aff32eba295762c7eb948089fa502c3",
+    "order-waiting-reuse-negative-control-v317.cjs": "d3dc5fe3319580e0f37408762f656c5b8544d0838d16b9e1ca7d58bca525090f",
+    "selection-removal.cjs": "f9f007c357d279c800feb2ef0234fd7b0d055683f1d7fd216eb800e9355bff1e",
+    "escape-key-repeat-negative-v315.cjs": "bde77302a5470864caff210a089cd648c0a70b8423344e383753153274fa9276",
+    "render-preview-v317.cjs": "f97d4316b938072a527c5f6a2ff82441c2fbe7f35fc6bc71d5aad314cb9f2d8d",
+    "selection-removal-negative-control.cjs": "9524eabd240704312f53baf2570bc965e7073406640ab855befca04122a4db28",
+    "post-selection-negative-control.cjs": "a87864462c465053c84fd05783c3dd5bfe0d7a1e270267af78c739e3bdf27a8a",
+    "repair-paused.cjs": "0ad11568607dcd3954b096358643e8bc431df81598abd5d363834e28042e04fa",
+    "retired-input-references.cjs": "152055ea8165f54d7196ca0f251ac5739f34154593054eaf9ace9b9de44d5b06",
+    "global-repeat-scope-v317.cjs": "b472755a9247ab74e11366ea9acbbaab75e63cc80f246fa6917bd4decbde2bb0",
+    "selection-only.cjs": "dbd5e03fdd420d85fb41fe505d9c4d15a126b40c86ae7e78024d8ae97e36ed16",
+    "bounded-ui-writes-negative-control-v317.cjs": "a2fff1213cc1884984342cf3146e1790dce4e1588bfd42b4db9b908d97103c43",
+    "battle-command-independent-v317.cjs": "d97b1cebe86a227e887d9a5623c43becd6b88dd67d9381d498d1ff48b6559b1d",
+    "coordinate-command-negative-control.cjs": "47b74f1684dbcd88fb0147c4dbe578b72458d5cdde5397aea86ca647c2a89423",
+    "production-waiting.cjs": "b44221733defe0fd24f159e64832c70717cb8d699dc1e5df917f211d9b06c567",
+    "attack-tail-help.cjs": "720532b99cdbde2aa3d7854be9b4b4c05255858b4f6fe506688da220fc395b05",
+    "depleted-ore-negative-v317.cjs": "54f96ab06bc59899bfb207bb49aca29602a86e895114d80ae25f4e63b2b641a2",
+    "progress-rails-v317.cjs": "2c688cf972b19616cc19b7e409416e799b0bf945fd9817ed0ce83476013f8a7d",
+    "weakest-selection.cjs": "b912c56db1044317e9732d2db4dde6c2505a67387be53b29d9f336d26c914004",
+    "all-factories.cjs": "54e4bb47fad8bdefd693d62ed3dbf161b6036768910c64e141eeaacb3e91987d",
+    "inherit-dom-v313-negative-control.cjs": "0cd8c61470e27de79d0d21839527d2ea9891c18989f1882289a71f324002b92e",
+    "vehicle-reference-v315.cjs": "90b91e598d98bf473fd58c6cea01efabc58ac3588e94b757e8c4c7a9d51192d4",
+    "parameterized-pilot/order-display-writes.cjs": "aa0b0b9723b41245e64a66dffb3e2a50947222cfd441fb69e08a7c9fbc3e85be",
+    "building-reference-negative-v317.cjs": "27f1719a5efe42103a39f4caca3b3c800218f62f0101105e28c6bef0811dacda",
+    "selection-only-natural.cjs": "699211352246ce2f2eba3f15041f19964f77681cd08ea10ce9c89e67dc9b0687",
+    "order-waiting-reuse-v317.cjs": "61afc1d6fd128ac3aaab1ca89e0e3000bd5303730d6f776b503711af39496741",
+    "render-preview-negative-control-v317.cjs": "587285fa9aecac812757a7f3d2cc9e74aa0e1a28a9dc3d4492e931ca6d05de89",
+    "mining-arrangement.cjs": "13f91e559fe43758030e7ac080b0b2ec01ba7083782b7cc779b40ad745eeb055",
+    "opening-practice-negative-control-v317.cjs": "25c78c5d176fe01fd88c46088f4d02bee2c64d3e90417fcef7c0dd6f70ba4e7d",
+    "quick-switchback-v317.cjs": "b4bfaaddefa7b43a9156ff85a02d8af4a66582fd917b42efe589d2a3ab0e6e7b",
+    "control-group-repeat-v315.cjs": "3441b2a1a1c56cf21fcc9e070f76f7711f91afddfee3f40da18ea94cb75d8b47",
+    "ground-orders.cjs": "75a8f98707379e549ed6dccc0055b1b5fdcd960fe8f4927e02d366202a64fc79",
+    "refinery-miner-selection-natural-v315.cjs": "151f811141f87527324496ffac0cf2ddf87e668ad65d0a9e8285d44e227477e0",
+    "progress-rails-negative-control-v317.cjs": "f339ce63128657ec4a7730171e50d57457d8580fbff8145f5eb2d679c399a86b",
+    "production-card-reasons-v316.cjs": "d7ac64317a9f7cc337ba435720899e232d36defc0f04a19857eecf47088b6028",
+    "presentation-v317.cjs": "e73176191302184ff1ebfd0d3bc9ed3418488ace33ee50ed3a941cf9f4c6ecfd",
+    "command-enter-repeat-negative-v315.cjs": "c9c858421bd9b26016c22a15e7f709362c6638d59f0fa6b9dbe590abdb7693de",
+    "repair-repeat-inheritance-v317.cjs": "f9f70b6eae7a48b0fb9db70db00de6e508db0e00f3a8236cf24661d85404a289",
+    "command-enter-repeat-v315.cjs": "545d688922145672faf90dd58535e6e68d61dd25a1224728143e7143c5e5e4c6",
+    "selection-only-negative-control.cjs": "40491dde17764f01cd91d3661fe4ec1a73bf7a59798f5aadd82836763ca26881",
+    "depleted-ore-v317.cjs": "bec9128cc59cb5b625122ded9284f09e5040f7a8f082e470f1e73b766e390b92",
+    "building-reference-v317.cjs": "244a65fe8e7410caac808ffcf8da89fae1c047dd81cd2e4fcc8221fcc61e520a",
+    "bounded-ui-writes-v317.cjs": "5cfb2c55142ec027f1c12f72f146ed8d1a3f8126a8ac8dfd1b88deca067d3327",
+    "patrol-action-v317.cjs": "e5ea17c6141bb1ad078816c7a9dbf814a8f85a00e58710141d9f461cd7e85275",
+    "factory-space-v315.cjs": "9fe862ec3cd5dc72f1b908d20cd6d3863d8c7e6fb3f90627500818ee58d677d9",
+    "delivery-refinery-selection.cjs": "0a363359d8dc5942c85be01063696df79e5476fc37a070dac7593bc95ee693c7",
+    "vehicle-reference-negative-v315.cjs": "af257f510f6e042e96b5c239c093db58829dbeb32e2ebdd21d498c8c8595b958",
+    "beginner-guide-v317.cjs": "0a155dbfd4124fee7dafb195612bfeb614019a584b75dc85bb3b10960a78d2e3",
+    "inherit-dom-v281-negative-control.cjs": "0fa123c7b91cda9418a64ff2f4f235f2e89957a14ac6360a96c42400f622a10b",
+    "parameterized-pilot/selection-filter-writes.cjs": "2c6028ba092156df5681f3b5098ec2751e812fde294c66671a73339e2eb74364",
+    "command-allocation-feedback-negative-control-v317.cjs": "0fdda732daf533ad75247e5547329e61743800e11620f9ddc503fa9af04552ef",
+    "refinery-miner-selection-v315.cjs": "30b5218d50acb104155862cc9a8ea9601b7fd4d321818928ca310556f9fed463",
+    "global-repeat-mode-scope-v317.cjs": "683a40b99c22a350482a3adf1d966bed824d7fb21a213e70db9e4ef138677f79",
+    "selection-health.cjs": "3f82bd6034d4367dad8f9007d26bed1d66af51b385eb09910c093e369dc7049c",
+    "coordinate-append-negative-control.cjs": "f60068fe5f2f4892f5257c7c38802a9abbeaf61d15b2c76baee6e414b3e01eed",
+    "selection-removal-natural.cjs": "6c5c9d2ae7f5992b2ec32bd57aa0ca7cd350ca123dffb7a68755ce76434a9f34",
+    "ore-layout-negative-control-v317.cjs": "5ed1ab14dab133f6928266d802774af4cd4ff253e3820836f5f06464fa52e818",
+    "health-edge-v317.cjs": "65a4abfe80c128ecf17d296eddf26fbf07f5ad9d699a7dd957a68532bf27d4e5",
+    "parameterized-pilot/run-current-suites.cjs": "718ca10aeda2c4e22632022ef8485b82bb083e1fbed0ca6a2320ecf2bfbf9cea",
+    "coordinate-construction-natural.cjs": "6f334d09fb4bc7bb0341a036963aa99fab9c016f678b846f1a7114693468aecf",
+    "map-pointer-geometry-negative-control.cjs": "3ed32491d8097fea9ce4536a99240d123b46ade0b51271265aa7607fb0227ee1",
+    "control-group-protection-v315.cjs": "90d326ce1de41ac83a82b2b401d06627b00c046964892d836da6403cc192fe8b",
+    "run-pilot-release-v317.cjs": "c2a08cbec5f35a3a980acb711040e142986df05f226e809f05408167eb9edd11",
+    "same-repeat-factories.cjs": "9a7ccc375c95c2e6a304ef283d7421f9fc1282813421ab40c24578f8f568a5f5",
+    "hold-guidance-v317.cjs": "eee1e0db0743f4390c11dc74b4bcf3c46790745fe63c74fb6650cd0b66f3d070",
+    "production-gesture-natural.cjs": "81eeac37ec8a7df7f6fb7c846e0ea333d0fea4b14300c6c8eded0acc4b8081f0",
+    "post-selection-natural.cjs": "d96b14e0f2274a96580b52103530c90753c634640d1f8e940fadd8ea010969c4",
+    "all-damaged.cjs": "4080450b0c76a926ea23f30310c5edeab95fa76f0be0f17aaca90b7ff93e9a7f",
+    "route-cancel.cjs": "93e1d9c8de8a2ec5851e3cf288c3db9c6e901e5e95b22b05946f0e347a6c7b0f",
+    "all-factories-negative-control.cjs": "659f6ba56f48ba2c7153cdd36d3367af77dbc9f2890f218c3e54c828924623a3",
+    "opening-practice-v317.cjs": "a80a0c2dfcf83c6fe59299fa556ee0c183df23217035b489db2ad6eb31e6f458",
+    "attack-pressed.cjs": "861f2eb41e65fc9b8f96af4182bd1cf60e4ccf651fa8fad1a918e4746b1b5957"
+  }
+}

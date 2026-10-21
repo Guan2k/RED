@@ -1,0 +1,121 @@
+{
+  "passed": 28,
+  "failed": 0,
+  "candidate": "/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/index.html",
+  "baseline": "/workspace/scratch/e433d7540f34/red-development/v316-integration/RED/index.html",
+  "results": [
+    {
+      "name": "Original controls exist once, with identical attributes and handlers",
+      "passed": true
+    },
+    {
+      "name": "Command panel then original five production cards precede construction; no sticky overlay",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: selectArmy",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: selectAllDamagedCombat",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: selectDamaged",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: returnBase",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: appendCommand",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: attack",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: stop",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: cancelPending",
+      "passed": true
+    },
+    {
+      "name": "Keyboard activation preserves original behavior: a",
+      "passed": true
+    },
+    {
+      "name": "Keyboard activation preserves original behavior: s",
+      "passed": true
+    },
+    {
+      "name": "Keyboard activation preserves original behavior: j",
+      "passed": true
+    },
+    {
+      "name": "Keyboard activation preserves original behavior: f",
+      "passed": true
+    },
+    {
+      "name": "Keyboard activation preserves original behavior: Escape",
+      "passed": true
+    },
+    {
+      "name": "Phase enablement unchanged: state.paused=true",
+      "passed": true
+    },
+    {
+      "name": "Phase enablement unchanged: state.result=\"end\"",
+      "passed": true
+    },
+    {
+      "name": "Phase enablement unchanged: restartPrompt=true",
+      "passed": true
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 1, preview false",
+      "passed": true
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 1, preview true",
+      "passed": true
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 6, preview false",
+      "passed": true
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 6, preview true",
+      "passed": true
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 7, preview false",
+      "passed": true
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 7, preview true",
+      "passed": true
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 40, preview false",
+      "passed": true
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 40, preview true",
+      "passed": true
+    },
+    {
+      "name": "Renderer exact delta: only current route pass moved; simulation and input sources byte-identical",
+      "passed": true
+    }
+  ],
+  "scope": "Whole-source VM/mock DOM and recorded Canvas call counts only. No native browser, layout, actual input timing, frame-time, screen-reader or storage acceptance."
+}

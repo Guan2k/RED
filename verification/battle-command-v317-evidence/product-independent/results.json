@@ -1,0 +1,42 @@
+{
+  "pairedBehaviorCheckpoints": 26,
+  "controls": [
+    {
+      "name": "healthy",
+      "passed": 28,
+      "failed": 0,
+      "failedTests": []
+    },
+    {
+      "name": "omitted-route-pass",
+      "passed": 20,
+      "failed": 8,
+      "failedTests": [
+        "Route layer and unchanged Canvas/path budgets 1, preview false",
+        "Route layer and unchanged Canvas/path budgets 1, preview true",
+        "Route layer and unchanged Canvas/path budgets 6, preview false",
+        "Route layer and unchanged Canvas/path budgets 6, preview true",
+        "Route layer and unchanged Canvas/path budgets 7, preview false",
+        "Route layer and unchanged Canvas/path budgets 7, preview true",
+        "Route layer and unchanged Canvas/path budgets 40, preview false",
+        "Route layer and unchanged Canvas/path budgets 40, preview true"
+      ]
+    },
+    {
+      "name": "duplicate-selection",
+      "passed": 27,
+      "failed": 1,
+      "failedTests": [
+        "Original controls exist once, with identical attributes and handlers"
+      ]
+    },
+    {
+      "name": "changed-control-attribute",
+      "passed": 27,
+      "failed": 1,
+      "failedTests": [
+        "Original controls exist once, with identical attributes and handlers"
+      ]
+    }
+  ]
+}

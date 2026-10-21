@@ -1,0 +1,32 @@
+[
+  {
+    "file": "index.html",
+    "sha256": "688bff25f268c064b943ee60363b2268c6fc0f6c201fbcbb2f8195d85a3d6215",
+    "kind": "modified"
+  },
+  {
+    "file": "source-build-receipt.json",
+    "sha256": "1707575b6be8e4e55689ac9f78c29e2192e2379c6c7af482d702a55d35130b99",
+    "kind": "modified"
+  },
+  {
+    "file": "verification/battle-command-workspace.cjs",
+    "sha256": "ab872e6973c54a47f485ee8f0d4b1ce62c75df16dcffddd368a6e1d774512789",
+    "kind": "added"
+  },
+  {
+    "file": "src/styles.css",
+    "sha256": "f30b8137fab76d06c3612ce96da2a662e4d05d9785dec29172e3d8855ecd0f7e",
+    "kind": "modified"
+  },
+  {
+    "file": "src/index.template.html",
+    "sha256": "de2dce1e3e2a76e26e7a4a1db96e960721ee507c52dcfe237d5dcfc0f42aee23",
+    "kind": "modified"
+  },
+  {
+    "file": "src/script/03-renderer.jsfrag",
+    "sha256": "5db971e9421385474dfbfc6a638ab747f7377673c58fc49dbcc1d39d08f5ba6f",
+    "kind": "modified"
+  }
+]

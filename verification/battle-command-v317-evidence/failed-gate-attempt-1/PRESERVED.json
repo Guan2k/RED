@@ -1,0 +1,14 @@
+{
+  "reason": "First complete-gate attempt exposed historical card DOM-order alignment in bounded-ui-writes; exit1 retained unchanged. Product not modified.",
+  "files": {
+    "full-gate-inputs.json": "7a361d84756a15998738970c90387c63ad01692b637ffc838cbc9ca54dd68d1e",
+    "full-gate.stderr": "8853d232748497093eb4583f3425f472868e36c017a0b360ac93303d315f4229",
+    "gate-supervisor.stdout": "b8702e3a63dead9fff062c46e01461fc18bec4e29f2a50ee90d97573c652d92e",
+    "full-gate-running.json": "ee6fb4eb09ef317cf4c16e1bfc17969efdceab9309a31b8ad293849f5bd5caec",
+    "gate-supervisor.exit": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+    "gate-supervisor.stderr": "f1e37e6f00bc1ace72c1d04e7bab864cd8b169663643558ac629ecc07861b98a",
+    "full-gate.exit": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+    "full-gate-result.json": "9502e5b93dbebc28312078809ea297edd3801faa4033e764fb7abd6a6e9ed526",
+    "full-gate.stdout": "368035087f0cbd19334533b13b134b9fe7e1019700b3aad719a5e90b36df59d6"
+  }
+}

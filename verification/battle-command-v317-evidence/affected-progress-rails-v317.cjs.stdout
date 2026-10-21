@@ -1,0 +1,953 @@
+{
+  "sourceSha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d",
+  "baselineSha256": "6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa",
+  "passed": 202,
+  "failed": 0,
+  "scope": "Whole-source no-persistence VM; mixed ore densities with explicit expected-side low-ore labels and exact historical suffix projection; rectangle/clip intersections and recorded command parity, not browser rasterization. Synthetic fixtures; zero-width progress has no painted area.",
+  "proof": [
+    {
+      "kind": "factory",
+      "before": [
+        {
+          "command": [
+            360,
+            307,
+            62,
+            5
+          ],
+          "intersection": {
+            "x": 360,
+            "y": 307,
+            "width": 62,
+            "height": 2,
+            "clipBottom": 309
+          }
+        },
+        {
+          "command": [
+            361,
+            308,
+            30,
+            3
+          ],
+          "intersection": {
+            "x": 361,
+            "y": 308,
+            "width": 30,
+            "height": 1,
+            "clipBottom": 309
+          }
+        }
+      ],
+      "after": [
+        {
+          "command": [
+            360,
+            304,
+            62,
+            5
+          ],
+          "intersection": {
+            "x": 360,
+            "y": 304,
+            "width": 62,
+            "height": 5,
+            "clipBottom": 309
+          }
+        },
+        {
+          "command": [
+            361,
+            305,
+            30,
+            3
+          ],
+          "intersection": {
+            "x": 361,
+            "y": 305,
+            "width": 30,
+            "height": 3,
+            "clipBottom": 309
+          }
+        }
+      ]
+    },
+    {
+      "kind": "construction",
+      "before": [
+        {
+          "command": [
+            370,
+            296,
+            42,
+            5
+          ],
+          "intersection": {
+            "x": 370,
+            "y": 296,
+            "width": 42,
+            "height": 3,
+            "clipBottom": 299
+          }
+        },
+        {
+          "command": [
+            371,
+            297,
+            20,
+            3
+          ],
+          "intersection": {
+            "x": 371,
+            "y": 297,
+            "width": 20,
+            "height": 2,
+            "clipBottom": 299
+          }
+        }
+      ],
+      "after": [
+        {
+          "command": [
+            370,
+            294,
+            42,
+            5
+          ],
+          "intersection": {
+            "x": 370,
+            "y": 294,
+            "width": 42,
+            "height": 5,
+            "clipBottom": 299
+          }
+        },
+        {
+          "command": [
+            371,
+            295,
+            20,
+            3
+          ],
+          "intersection": {
+            "x": 371,
+            "y": 295,
+            "width": 20,
+            "height": 3,
+            "clipBottom": 299
+          }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "name": "source diff is exactly four shared-helper y literals",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,8,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,8,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,8,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,8,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,8.01,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,8.01,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,8.01,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,8.01,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,9,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,9,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,9,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,9,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,22,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,22,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,22,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,22,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,26,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,26,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,26,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,26,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,33,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,33,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,33,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,33,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,36,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,36,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,36,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,36,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,40,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,40,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,40,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry factory,40,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,8,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,8,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,8,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,8,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,8.01,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,8.01,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,8.01,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,8.01,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,9,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,9,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,9,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,9,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,22,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,22,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,22,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,22,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,26,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,26,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,26,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,26,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,33,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,33,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,33,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,33,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,36,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,36,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,36,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,36,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,40,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,40,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,40,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry power,40,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,8,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,8,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,8,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,8,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,8.01,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,8.01,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,8.01,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,8.01,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,9,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,9,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,9,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,9,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,22,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,22,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,22,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,22,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,26,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,26,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,26,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,26,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,33,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,33,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,33,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,33,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,36,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,36,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,36,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,36,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,40,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,40,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,40,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry refinery,40,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,8,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,8,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,8,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,8,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,8.01,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,8.01,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,8.01,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,8.01,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,9,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,9,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,9,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,9,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,22,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,22,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,22,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,22,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,26,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,26,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,26,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,26,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,33,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,33,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,33,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,33,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,36,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,36,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,36,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,36,1",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,40,0",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,40,0.25",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,40,0.5",
+      "pass": true
+    },
+    {
+      "name": "helper geometry turret,40,1",
+      "pass": true
+    },
+    {
+      "name": "factory status normal/0",
+      "pass": true
+    },
+    {
+      "name": "factory status normal/0.5",
+      "pass": true
+    },
+    {
+      "name": "factory status normal/1",
+      "pass": true
+    },
+    {
+      "name": "factory status paused/0",
+      "pass": true
+    },
+    {
+      "name": "factory status paused/0.5",
+      "pass": true
+    },
+    {
+      "name": "factory status paused/1",
+      "pass": true
+    },
+    {
+      "name": "factory status powerless/0",
+      "pass": true
+    },
+    {
+      "name": "factory status powerless/0.5",
+      "pass": true
+    },
+    {
+      "name": "factory status powerless/1",
+      "pass": true
+    },
+    {
+      "name": "factory status exit/0",
+      "pass": true
+    },
+    {
+      "name": "factory status exit/0.5",
+      "pass": true
+    },
+    {
+      "name": "factory status exit/1",
+      "pass": true
+    },
+    {
+      "name": "factory status terminal/0",
+      "pass": true
+    },
+    {
+      "name": "factory status terminal/0.5",
+      "pass": true
+    },
+    {
+      "name": "factory status terminal/1",
+      "pass": true
+    },
+    {
+      "name": "enemy predicate factory",
+      "pass": true
+    },
+    {
+      "name": "enemy predicate power",
+      "pass": true
+    },
+    {
+      "name": "enemy predicate refinery",
+      "pass": true
+    },
+    {
+      "name": "enemy predicate turret",
+      "pass": true
+    },
+    {
+      "name": "negative predicate factory/dead",
+      "pass": true
+    },
+    {
+      "name": "negative predicate factory/small",
+      "pass": true
+    },
+    {
+      "name": "negative predicate factory/wrongtype",
+      "pass": true
+    },
+    {
+      "name": "negative predicate factory/notbuilding",
+      "pass": true
+    },
+    {
+      "name": "negative predicate factory/invalidprogress",
+      "pass": true
+    },
+    {
+      "name": "negative predicate factory/absentqueue",
+      "pass": true
+    },
+    {
+      "name": "negative predicate factory/otherfactory",
+      "pass": true
+    },
+    {
+      "name": "negative predicate construction/dead",
+      "pass": true
+    },
+    {
+      "name": "negative predicate construction/small",
+      "pass": true
+    },
+    {
+      "name": "negative predicate construction/wrongtype",
+      "pass": true
+    },
+    {
+      "name": "negative predicate construction/notbuilding",
+      "pass": true
+    },
+    {
+      "name": "negative predicate construction/invalidprogress",
+      "pass": true
+    },
+    {
+      "name": "negative predicate construction/absentqueue",
+      "pass": true
+    },
+    {
+      "name": "negative predicate construction/otherfactory",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw legacy,factory,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw legacy,factory,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw legacy,power,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw legacy,power,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw legacy,refinery,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw legacy,refinery,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw legacy,turret,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw legacy,turret,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-direct,factory,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-direct,factory,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-direct,power,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-direct,power,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-direct,refinery,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-direct,refinery,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-direct,turret,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-direct,turret,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-cached,factory,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-cached,factory,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-cached,power,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-cached,power,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-cached,refinery,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-cached,refinery,1",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-cached,turret,0",
+      "pass": true
+    },
+    {
+      "name": "shared helper through actual building draw preview-cached,turret,1",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state classic/false",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state classic/true",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state frontier/false",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state frontier/true",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state canyon/false",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state canyon/true",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state ridge/false",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state ridge/true",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state crossroads/false",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state crossroads/true",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state switchback/false",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state switchback/true",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state ring/false",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state ring/true",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state meridian/false",
+      "pass": true
+    },
+    {
+      "name": "whole render order/state meridian/true",
+      "pass": true
+    }
+  ]
+}

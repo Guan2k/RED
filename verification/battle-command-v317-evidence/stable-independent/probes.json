@@ -1,0 +1,49 @@
+{
+  "passed": 9,
+  "results": [
+    {
+      "name": "path traversal runner",
+      "passed": true,
+      "reason": "Current verification refused: runner does not match declared contract"
+    },
+    {
+      "name": "wrong declared candidate",
+      "passed": true,
+      "reason": "Current verification refused: stable historical runner mismatch"
+    },
+    {
+      "name": "missing family",
+      "passed": true,
+      "reason": "Current verification refused: stable dispatch inventory mismatch"
+    },
+    {
+      "name": "duplicate family coverage",
+      "passed": true,
+      "reason": "Current verification refused: stable dispatch inventory mismatch"
+    },
+    {
+      "name": "negative changed to positive",
+      "passed": true,
+      "reason": "Current verification refused: stable dispatch inventory mismatch"
+    },
+    {
+      "name": "missing negative module identity",
+      "passed": true,
+      "reason": "Current verification refused: stable dependency inventory incomplete"
+    },
+    {
+      "name": "wrong dependency digest",
+      "passed": true,
+      "reason": "Current verification refused: stable dependency missing or mismatched: verification/stable-suites/escape-key-repeat.cjs"
+    },
+    {
+      "name": "same-byte external symlink",
+      "passed": true,
+      "reason": "Current verification refused: symlink refused: verification/stable-suites/escape-key-repeat.cjs"
+    },
+    {
+      "name": "v1 compatibility identity-only labeled",
+      "passed": true
+    }
+  ]
+}

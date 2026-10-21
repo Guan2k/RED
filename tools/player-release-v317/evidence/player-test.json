@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "archiveSha256": "717548a2bf62bde9595b2ee19ab2082e548d4281093bc41f7573bdfe173c8cdd",
+  "archiveBytes": 623527,
+  "reproducibility": "two distinct temporary source/output paths, byte-identical ZIP_STORED",
+  "exactExtractedFiles": 5,
+  "protectedSourceFiles": 5042,
+  "negativeCases": [
+    {
+      "name": "existing output",
+      "rejectedBy": "existing output refused"
+    },
+    {
+      "name": "output in source",
+      "rejectedBy": "output must be outside"
+    },
+    {
+      "name": "wrong game bytes",
+      "rejectedBy": "input hash mismatch: index.html"
+    },
+    {
+      "name": "missing source guide paragraphs",
+      "rejectedBy": "input hash mismatch: CURRENT_PLAYER_GUIDE.md"
+    },
+    {
+      "name": "symlink input",
+      "rejectedBy": "symlink path refused"
+    },
+    {
+      "name": "symlink output parent",
+      "rejectedBy": "symlink path refused"
+    },
+    {
+      "name": "symlink before parent traversal",
+      "rejectedBy": "symlink path refused"
+    },
+    {
+      "name": "outside markdown link",
+      "rejectedBy": "outside package link"
+    },
+    {
+      "name": "missing save warning",
+      "rejectedBy": "required player safety reminder: 需要手动保存"
+    },
+    {
+      "name": "extra payload file",
+      "rejectedBy": "exact five-file whitelist"
+    },
+    {
+      "name": "source external SVG namespace",
+      "rejectedBy": "external asset/network pattern"
+    },
+    {
+      "name": "source external asset",
+      "rejectedBy": "external asset tag"
+    },
+    {
+      "name": "broken guide anchor",
+      "rejectedBy": "missing anchor"
+    },
+    {
+      "name": "wrong checksum manifest",
+      "rejectedBy": "payload checksum manifest mismatch"
+    },
+    {
+      "name": "quick start script",
+      "rejectedBy": "quick start forbidden element"
+    },
+    {
+      "name": "quick start external URL",
+      "rejectedBy": "quick start external resource"
+    },
+    {
+      "name": "quick start traversal",
+      "rejectedBy": "quick start outside link"
+    },
+    {
+      "name": "quick start event handler",
+      "rejectedBy": "quick start active/resource attribute"
+    },
+    {
+      "name": "quick start remote css",
+      "rejectedBy": "quick start external resource"
+    },
+    {
+      "name": "quick start redirect",
+      "rejectedBy": "quick start meta redirect"
+    },
+    {
+      "name": "quick start stale visible version",
+      "rejectedBy": "quick start version/LF"
+    },
+    {
+      "name": "changed quick start input",
+      "rejectedBy": "input hash mismatch: QUICK_START.html"
+    },
+    {
+      "name": "path traversal",
+      "rejectedBy": "archive whitelist/order/duplicates"
+    },
+    {
+      "name": "absolute path",
+      "rejectedBy": "archive whitelist/order/duplicates"
+    },
+    {
+      "name": "duplicate entry",
+      "rejectedBy": "archive whitelist/order/duplicates"
+    },
+    {
+      "name": "symlink entry",
+      "rejectedBy": "archive file permissions"
+    },
+    {
+      "name": "changed player template",
+      "rejectedBy": "input hash mismatch: README.player.md"
+    },
+    {
+      "name": "validation prevents publication",
+      "rejectedBy": "injected archive validation failure"
+    },
+    {
+      "name": "destination race",
+      "rejectedBy": "FileExistsError; concurrent bytes preserved"
+    }
+  ],
+  "gameOrBrowserOrStorageRun": false,
+  "execution_note": "Executed against first complete independent source/tool copy; no live source writes during test.",
+  "fixed_input_hashes": {
+    "index.html": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d",
+    "README.md": "c9dbb21713af7bd95cac2001330bb1e8d3950ff954ebbcf92d99902d998c5dbf",
+    "CURRENT_PLAYER_GUIDE.md": "ef8ae07cccf75bd101aa6314c93d9779e8e01eb6b24d5af8c17c936e4ce27cae",
+    "QUICK_START.html": "ac9f1a8a5d30f42a65990ddc3feda0d3288dd98dcccc4781878b3870c00acc04"
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "passed": 78,
+  "failed": 0,
+  "sourceSha256": "688bff25f268c064b943ee60363b2268c6fc0f6c201fbcbb2f8195d85a3d6215",
+  "results": [
+    {
+      "name": "tank affordability -350",
+      "passed": true
+    },
+    {
+      "name": "tank affordability -1",
+      "passed": true
+    },
+    {
+      "name": "tank affordability -0.01",
+      "passed": true
+    },
+    {
+      "name": "tank affordability 0",
+      "passed": true
+    },
+    {
+      "name": "tank affordability 1",
+      "passed": true
+    },
+    {
+      "name": "tank prior reason prestart",
+      "passed": true
+    },
+    {
+      "name": "tank prior reason terminal",
+      "passed": true
+    },
+    {
+      "name": "tank prior reason restart",
+      "passed": true
+    },
+    {
+      "name": "tank prior reason full",
+      "passed": true
+    },
+    {
+      "name": "tank prior reason missing",
+      "passed": true
+    },
+    {
+      "name": "tank prior reason construction",
+      "passed": true
+    },
+    {
+      "name": "tank prior reason paused construction",
+      "passed": true
+    },
+    {
+      "name": "tank reason transitions and recovery",
+      "passed": true
+    },
+    {
+      "name": "tank paused and unpowered can still purchase",
+      "passed": true
+    },
+    {
+      "name": "tank text-only, no live announcements, unchanged-write suppression",
+      "passed": true
+    },
+    {
+      "name": "scout affordability -180",
+      "passed": true
+    },
+    {
+      "name": "scout affordability -1",
+      "passed": true
+    },
+    {
+      "name": "scout affordability -0.01",
+      "passed": true
+    },
+    {
+      "name": "scout affordability 0",
+      "passed": true
+    },
+    {
+      "name": "scout affordability 1",
+      "passed": true
+    },
+    {
+      "name": "scout prior reason prestart",
+      "passed": true
+    },
+    {
+      "name": "scout prior reason terminal",
+      "passed": true
+    },
+    {
+      "name": "scout prior reason restart",
+      "passed": true
+    },
+    {
+      "name": "scout prior reason full",
+      "passed": true
+    },
+    {
+      "name": "scout prior reason missing",
+      "passed": true
+    },
+    {
+      "name": "scout prior reason construction",
+      "passed": true
+    },
+    {
+      "name": "scout prior reason paused construction",
+      "passed": true
+    },
+    {
+      "name": "scout reason transitions and recovery",
+      "passed": true
+    },
+    {
+      "name": "scout paused and unpowered can still purchase",
+      "passed": true
+    },
+    {
+      "name": "scout text-only, no live announcements, unchanged-write suppression",
+      "passed": true
+    },
+    {
+      "name": "artillery affordability -550",
+      "passed": true
+    },
+    {
+      "name": "artillery affordability -1",
+      "passed": true
+    },
+    {
+      "name": "artillery affordability -0.01",
+      "passed": true
+    },
+    {
+      "name": "artillery affordability 0",
+      "passed": true
+    },
+    {
+      "name": "artillery affordability 1",
+      "passed": true
+    },
+    {
+      "name": "artillery prior reason prestart",
+      "passed": true
+    },
+    {
+      "name": "artillery prior reason terminal",
+      "passed": true
+    },
+    {
+      "name": "artillery prior reason restart",
+      "passed": true
+    },
+    {
+      "name": "artillery prior reason full",
+      "passed": true
+    },
+    {
+      "name": "artillery prior reason missing",
+      "passed": true
+    },
+    {
+      "name": "artillery prior reason construction",
+      "passed": true
+    },
+    {
+      "name": "artillery prior reason paused construction",
+      "passed": true
+    },
+    {
+      "name": "artillery reason transitions and recovery",
+      "passed": true
+    },
+    {
+      "name": "artillery paused and unpowered can still purchase",
+      "passed": true
+    },
+    {
+      "name": "artillery text-only, no live announcements, unchanged-write suppression",
+      "passed": true
+    },
+    {
+      "name": "repair affordability -500",
+      "passed": true
+    },
+    {
+      "name": "repair affordability -1",
+      "passed": true
+    },
+    {
+      "name": "repair affordability -0.01",
+      "passed": true
+    },
+    {
+      "name": "repair affordability 0",
+      "passed": true
+    },
+    {
+      "name": "repair affordability 1",
+      "passed": true
+    },
+    {
+      "name": "repair prior reason prestart",
+      "passed": true
+    },
+    {
+      "name": "repair prior reason terminal",
+      "passed": true
+    },
+    {
+      "name": "repair prior reason restart",
+      "passed": true
+    },
+    {
+      "name": "repair prior reason full",
+      "passed": true
+    },
+    {
+      "name": "repair prior reason missing",
+      "passed": true
+    },
+    {
+      "name": "repair prior reason construction",
+      "passed": true
+    },
+    {
+      "name": "repair prior reason paused construction",
+      "passed": true
+    },
+    {
+      "name": "repair reason transitions and recovery",
+      "passed": true
+    },
+    {
+      "name": "repair paused and unpowered can still purchase",
+      "passed": true
+    },
+    {
+      "name": "repair text-only, no live announcements, unchanged-write suppression",
+      "passed": true
+    },
+    {
+      "name": "harvester affordability -400",
+      "passed": true
+    },
+    {
+      "name": "harvester affordability -1",
+      "passed": true
+    },
+    {
+      "name": "harvester affordability -0.01",
+      "passed": true
+    },
+    {
+      "name": "harvester affordability 0",
+      "passed": true
+    },
+    {
+      "name": "harvester affordability 1",
+      "passed": true
+    },
+    {
+      "name": "harvester prior reason prestart",
+      "passed": true
+    },
+    {
+      "name": "harvester prior reason terminal",
+      "passed": true
+    },
+    {
+      "name": "harvester prior reason restart",
+      "passed": true
+    },
+    {
+      "name": "harvester prior reason full",
+      "passed": true
+    },
+    {
+      "name": "harvester prior reason missing",
+      "passed": true
+    },
+    {
+      "name": "harvester prior reason construction",
+      "passed": true
+    },
+    {
+      "name": "harvester prior reason paused construction",
+      "passed": true
+    },
+    {
+      "name": "harvester reason transitions and recovery",
+      "passed": true
+    },
+    {
+      "name": "harvester paused and unpowered can still purchase",
+      "passed": true
+    },
+    {
+      "name": "harvester text-only, no live announcements, unchanged-write suppression",
+      "passed": true
+    },
+    {
+      "name": "natural purchases produce shortage then cancellation restores eligibility",
+      "passed": true
+    },
+    {
+      "name": "refresh preserves pending commands and complete world state",
+      "passed": true
+    },
+    {
+      "name": "CSS contract wraps visible secondary text without replacing price layout",
+      "passed": true
+    }
+  ],
+  "scope": "Whole-source VM/mock DOM and CSS source contract. No native browser layout, input timing, touch, screen-reader or storage validation."
+}

@@ -1,0 +1,44 @@
+{
+  "passed": 3,
+  "results": [
+    {
+      "name": "wrong same-byte path and post-bootstrap byte change refused",
+      "passed": true
+    },
+    {
+      "name": "changed-byte valid candidate behavior executes, no hash veto",
+      "passed": true,
+      "cases": 47
+    },
+    {
+      "name": "four mutants rejected by named behavior, not identity",
+      "passed": true,
+      "results": [
+        {
+          "name": "restore old repeated Escape cancellation",
+          "passed": true,
+          "rejectedBy": "held Escape preserves new attack, paused=false",
+          "failedCases": 14
+        },
+        {
+          "name": "block first Escape too",
+          "passed": true,
+          "rejectedBy": "first Escape false cancels attack",
+          "failedCases": 24
+        },
+        {
+          "name": "stop canceling pending attack",
+          "passed": true,
+          "rejectedBy": "first Escape false cancels attack",
+          "failedCases": 5
+        },
+        {
+          "name": "stop returning from restart on first Escape",
+          "passed": true,
+          "rejectedBy": "held Escape preserves newly opened restart, paused=false",
+          "failedCases": 2
+        }
+      ]
+    }
+  ]
+}

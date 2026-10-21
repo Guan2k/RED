@@ -1,0 +1,26 @@
+{
+  "passed": 1,
+  "failed": 0,
+  "assertions": 36,
+  "sourceSha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d",
+  "baselineSha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+  "harnessSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+  "results": [
+    {
+      "name": "trajectory/world-rng-track-parity-ridge",
+      "passed": true,
+      "map": "ridge",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    }
+  ],
+  "scope": "Whole-source VM, real change-handler and complete render paint recorder. Historical layout replays independent v315 strings through its original measurements/candidates/clamp/fallback; independently specified depleted ground commands are inserted only at a hash-locked historical layer slot; candidate paints are unmodified. Historical expected paints omit only fully validated old ore suffixes and adapt only exact helper rail/fill y offsets, retaining strict restored v293/v295/v296 identities. Every historical full-frame comparison asserts interior HP fixtures and applies no health-Y adapter. Records transformed geometry, paint order, alpha/composite, styles, clipping, current-path residue and consecutive frames. Synthetic scene/failure fixtures, a separate natural UI command/production trajectory, plus 90-second deterministic trajectories on all eight maps. Only mock bootstrap storage reads; no save/load/import/export or real storage. Not native browser, rasterization, GPU, context-loss, visual usability or FPS acceptance.",
+  "sourceUnchanged": true
+}

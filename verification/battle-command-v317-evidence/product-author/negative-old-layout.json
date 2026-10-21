@@ -1,0 +1,132 @@
+{
+  "passed": 17,
+  "failed": 11,
+  "candidate": "/workspace/scratch/e433d7540f34/red-development/v316-integration/RED/index.html",
+  "baseline": "/workspace/scratch/e433d7540f34/red-development/v316-integration/RED/index.html",
+  "results": [
+    {
+      "name": "Original controls exist once, with identical attributes and handlers",
+      "passed": false,
+      "error": "TypeError: Cannot read properties of null (reading 'contains')\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:11:391\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:11:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "Command panel then original five production cards precede construction; no sticky overlay",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(position('returnBase')<position('productionReasontank'))\n\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:12:236\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:12:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "Mouse activation preserves original behavior: selectArmy",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: selectAllDamagedCombat",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: selectDamaged",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: returnBase",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: appendCommand",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: attack",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: stop",
+      "passed": true
+    },
+    {
+      "name": "Mouse activation preserves original behavior: cancelPending",
+      "passed": true
+    },
+    {
+      "name": "Keyboard activation preserves original behavior: a",
+      "passed": true
+    },
+    {
+      "name": "Keyboard activation preserves original behavior: s",
+      "passed": true
+    },
+    {
+      "name": "Keyboard activation preserves original behavior: j",
+      "passed": true
+    },
+    {
+      "name": "Keyboard activation preserves original behavior: f",
+      "passed": true
+    },
+    {
+      "name": "Keyboard activation preserves original behavior: Escape",
+      "passed": true
+    },
+    {
+      "name": "Phase enablement unchanged: state.paused=true",
+      "passed": true
+    },
+    {
+      "name": "Phase enablement unchanged: state.result=\"end\"",
+      "passed": true
+    },
+    {
+      "name": "Phase enablement unchanged: restartPrompt=true",
+      "passed": true
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 1, preview false",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: all paths precede every body\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:590\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:57)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 1, preview true",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: all paths precede every body\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:590\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:57)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 6, preview false",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: all paths precede every body\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:590\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:57)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 6, preview true",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: all paths precede every body\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:590\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:57)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 7, preview false",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: all paths precede every body\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:590\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:57)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 7, preview true",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: all paths precede every body\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:590\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:57)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 40, preview false",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: all paths precede every body\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:590\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:57)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "Route layer and unchanged Canvas/path budgets 40, preview true",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: all paths precede every body\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:590\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:19:57)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    },
+    {
+      "name": "Renderer exact delta: only current route pass moved; simulation and input sources byte-identical",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(p>=0)\n\n    at /workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:20:827\n    at test (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:7:44)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v317-battle-command-candidate/RED/verification/battle-command-workspace.cjs:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    }
+  ],
+  "scope": "Whole-source VM/mock DOM and recorded Canvas call counts only. No native browser, layout, actual input timing, frame-time, screen-reader or storage acceptance."
+}

@@ -1,0 +1,2 @@
+d69689aa7a22f83f88d586d619dd7e60d96d29bc0b5bf2234400cfa696fcee33  red-development/v317-integration/RED/tools/document-contract/check.cjs
+9a43e11a35f5e5587b1793acdf081acd2b45e4c56439d68931ebd4bcf6deba5f  red-development/v317-integration/RED/tools/document-contract/test.cjs

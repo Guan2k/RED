@@ -266,3 +266,8 @@ footer { color: #91a78f; font-size: 11px; line-height: 1.8; padding-bottom: 20px
 /* Production availability: visible without hover; preserve cost/time layout. */
 .cards button > span[id^="productionReason"] { display: block; float: none; color: #c6b28a; font-size: 11px; line-height: 1.6; font-weight: 400; white-space: normal; overflow-wrap: anywhere; }
 .cards button > span[id^="productionReason"]:not(:empty) { margin-top: 5px; }
+
+/* The command work area stays in normal flow; no map overlay or duplicate controls. */
+#battleCommandPanel{padding-bottom:12px;border-bottom:1px solid #3d5140}
+#battleCommandPanel .mini{flex-wrap:wrap}
+#battleCommandPanel .mini button{flex:1 1 96px;min-width:0;white-space:normal;overflow-wrap:anywhere}

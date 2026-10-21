@@ -1,0 +1,26 @@
+{
+  "sourceSha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d",
+  "results": {
+    "bounded-aligned": {
+      "passed": 7,
+      "assertions": 232,
+      "exitCode": 0,
+      "stderrBytes": 0
+    },
+    "bounded-aligned-negative": {
+      "passed": 10,
+      "assertions": null,
+      "exitCode": 0,
+      "stderrBytes": 0
+    },
+    "card-alignment-negative": {
+      "passed": 16,
+      "assertions": null,
+      "exitCode": 0,
+      "stderrBytes": 0
+    }
+  },
+  "independentSourceReview": "card-alignment-independent-review.json",
+  "allEntryOrderAudit": "order-alignment-audit.json",
+  "scope": "Only current inherited card field comparator adapted; unchanged product/live nodes and all original behavioral/write-count assertions retained."
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "before": "v0.316",
+    "after": "v0.317"
+  },
+  {
+    "before": "v><div><h2>战术指令</h2><div class=\"selection\" id=\"selection\">尚未选择单位</div>",
+    "after": "v><div><h2>战术指令</h2>"
+  },
+  {
+    "before": "ton></div></details><div class=\"mini\"><button id=\"selectArmy\" title=\"选择全部己方战斗车辆和维修车\">作战车辆 [F]</button><button id=\"selectMiners\" title=\"选择全部己方采矿车，不改变采矿安排\">矿车 [M]</button></div>",
+    "after": "ton></div></details>"
+  },
+  {
+    "before": "4</option></select></div><div class=\"mini\"><button id=\"ordinaryCommand\" type=\"button\" aria-pressed=\"false\" disabled>普通指令点选</button><button id=\"appendCommand\" type=\"button\" aria-pressed=\"false\" disabled>追加队列点选</button></div>",
+    "after": "4</option></select></div>"
+  },
+  {
+    "before": "4</option></select></div><div class=\"mini\"><button id=\"attack\" aria-pressed=\"false\">攻击移动 [A]</button><button id=\"cancelPending\" type=\"button\" disabled>取消待点选操作</button><button id=\"stop\" title=\"取消所选车辆当前命令；战斗车仍可自动交战，矿车恢复自动采矿规则。已有坚守、维修设置、工厂生产与集结保留；建造待放置用Esc取消。这不是冻结或停火。\">停止 [S]</button></div>",
+    "after": "4</option></select></div>"
+  },
+  {
+    "before": "择受袭矿车</button></div><div class=\"mini\"><button id=\"selectAllDamagedCombat\" title=\"从全图选择所有受损的存活、已完工己方坦克、侦察车和火炮，含轻伤；只选择，不撤退、不修理，原命令保留。\">选择全部受损战斗车</button></div>",
+    "after": "择受袭矿车</button></div>"
+  },
+  {
+    "before": "择受袭矿车</button></div><div class=\"mini\"><button id=\"selectIdle\">闲置战斗部队 [I]</button><button id=\"selectDamaged\" title=\"选择生命不超过50%的己方坦克、侦察车和火炮；只选择，不自动撤退或取消原命令。\">重伤战车 [J]</button><button id=\"returnBase\" title=\"所选战斗车和维修车普通移动到己方指挥中心240以内的落点，替换旧命令；矿车和工厂不受影响。不保证路线安全，不自动坚守或治疗。\">返回基地</button></div>",
+    "after": "择受袭矿车</button></div>"
+  },
+  {
+    "before": "择待放置建筑</p></details><h2>生产部队</h2><div class=\"cards\"><button data-unit=\"tank\" data-hotkey=\"4\" aria-keyshortcuts=\"4\">主战坦克 [4] <span>350 · 6s</span><span id=\"productionReasontank\" aria-live=\"off\"></span></button><button data-unit=\"scout\" data-hotkey=\"5\" aria-keyshortcuts=\"5\">侦察战车 [5] <span>180 · 4s</span><span id=\"productionReasonscout\" aria-live=\"off\"></span></button><button data-unit=\"artillery\" data-hotkey=\"6\" aria-keyshortcuts=\"6\">自行火炮 [6] <span>550 · 10s</span><span id=\"productionReasonartillery\" aria-live=\"off\"></span></button><button data-unit=\"repair\" data-hotkey=\"7\" aria-keyshortcuts=\"7\">战地维修车 [7] <span>500 · 9s</span><span id=\"productionReasonrepair\" aria-live=\"off\"></span></button><button data-unit=\"harvester\" data-hotkey=\"8\" aria-keyshortcuts=\"8\">采矿车 [8] <span>400 · 7s</span><span id=\"productionReasonharvester\" aria-live=\"off\"></span></button></div>",
+    "after": "择待放置建筑</p></details>"
+  },
+  {
+    "before": "<h2>基地建设</h2>",
+    "after": "<section id=\"battleCommandPanel\" aria-labelledby=\"battleCommandHeading\"><h2 id=\"battleCommandHeading\">战斗指挥</h2><div class=\"selection\" id=\"selection\">尚未选择单位</div><div class=\"mini\"><button id=\"selectArmy\" title=\"选择全部己方战斗车辆和维修车\">作战车辆 [F]</button><button id=\"selectMiners\" title=\"选择全部己方采矿车，不改变采矿安排\">矿车 [M]</button></div><div class=\"mini\"><button id=\"ordinaryCommand\" type=\"button\" aria-pressed=\"false\" disabled>普通指令点选</button><button id=\"appendCommand\" type=\"button\" aria-pressed=\"false\" disabled>追加队列点选</button></div><div class=\"mini\"><button id=\"attack\" aria-pressed=\"false\">攻击移动 [A]</button><button id=\"cancelPending\" type=\"button\" disabled>取消待点选操作</button><button id=\"stop\" title=\"取消所选车辆当前命令；战斗车仍可自动交战，矿车恢复自动采矿规则。已有坚守、维修设置、工厂生产与集结保留；建造待放置用Esc取消。这不是冻结或停火。\">停止 [S]</button></div><div class=\"mini\"><button id=\"selectAllDamagedCombat\" title=\"从全图选择所有受损的存活、已完工己方坦克、侦察车和火炮，含轻伤；只选择，不撤退、不修理，原命令保留。\">选择全部受损战斗车</button></div><div class=\"mini\"><button id=\"selectIdle\">闲置战斗部队 [I]</button><button id=\"selectDamaged\" title=\"选择生命不超过50%的己方坦克、侦察车和火炮；只选择，不自动撤退或取消原命令。\">重伤战车 [J]</button><button id=\"returnBase\" title=\"所选战斗车和维修车普通移动到己方指挥中心240以内的落点，替换旧命令；矿车和工厂不受影响。不保证路线安全，不自动坚守或治疗。\">返回基地</button></div></section><h2>生产部队</h2><div class=\"cards\"><button data-unit=\"tank\" data-hotkey=\"4\" aria-keyshortcuts=\"4\">主战坦克 [4] <span>350 · 6s</span><span id=\"productionReasontank\" aria-live=\"off\"></span></button><button data-unit=\"scout\" data-hotkey=\"5\" aria-keyshortcuts=\"5\">侦察战车 [5] <span>180 · 4s</span><span id=\"productionReasonscout\" aria-live=\"off\"></span></button><button data-unit=\"artillery\" data-hotkey=\"6\" aria-keyshortcuts=\"6\">自行火炮 [6] <span>550 · 10s</span><span id=\"productionReasonartillery\" aria-live=\"off\"></span></button><button data-unit=\"repair\" data-hotkey=\"7\" aria-keyshortcuts=\"7\">战地维修车 [7] <span>500 · 9s</span><span id=\"productionReasonrepair\" aria-live=\"off\"></span></button><button data-unit=\"harvester\" data-hotkey=\"8\" aria-keyshortcuts=\"8\">采矿车 [8] <span>400 · 7s</span><span id=\"productionReasonharvester\" aria-live=\"off\"></span></button></div><h2>基地建设</h2>"
+  },
+  {
+    "before": "<h2>战术指令</h2>",
+    "after": "<h2>战术详情与设置</h2>"
+  },
+  {
+    "before": "<div class=\"mini\"><select id=\"repeatProduction\"",
+    "after": "<h2>生产排程与订单</h2><div class=\"mini\"><select id=\"repeatProduction\""
+  },
+  {
+    "before": "low-wrap: anywhere; }\n.cards button > span[id^=\"productionReason\"]:not(:empty) { margin-top: 5px; }\n</style>",
+    "after": "low-wrap: anywhere; }\n.cards button > span[id^=\"productionReason\"]:not(:empty) { margin-top: 5px; }\n\n/* The command work area stays in normal flow; no map overlay or duplicate controls. */\n#battleCommandPanel{padding-bottom:12px;border-bottom:1px solid #3d5140}\n#battleCommandPanel .mini{flex-wrap:wrap}\n#battleCommandPanel .mini button{flex:1 1 96px;min-width:0;white-space:normal;overflow-wrap:anywhere}\n</style>"
+  },
+  {
+    "before": "function render(){",
+    "after": "// Draw existing current routes before any entity body or health bar. Geometry and selection budgets are unchanged.\nfunction drawCurrentOrderPaths(){for(let e of state.entities){if(selection.has(e.id)&&e.goal){let path=orderPath(e);ctx.save();ctx.setLineDash([5,7]);ctx.strokeStyle=path.length>1?'#80d4e0':e.attackMove?'#e9be72':'#aee099';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(e.x,e.y);for(let p of path)ctx.lineTo(p.x,p.y);ctx.stroke();ctx.setLineDash([]);if(path.length>1){ctx.fillStyle='#80d4e0';for(let p of path.slice(0,-1))ctx.fillRect(p.x-3,p.y-3,6,6)}ctx.strokeRect(e.goal.x-4,e.goal.y-4,8,8);ctx.restore()}}}\nfunction render(){"
+  },
+  {
+    "before": "drawHoverRange(hoveredEntity);for(let e of state.entities){if(selection.has(e.id)&&e.goal){let path=orderPath(e);ctx.save();ctx.setLineDash([5,7]);ctx.strokeStyle=path.length>1?'#80d4e0':e.attackMove?'#e9be72':'#aee099';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(e.x,e.y);for(let p of path)ctx.lineTo(p.x,p.y);ctx.stroke();ctx.setLineDash([]);if(path.length>1){ctx.fillStyle='#80d4e0';for(let p of path.slice(0,-1))ctx.fillRect(p.x-3,p.y-3,6,6)}ctx.strokeRect(e.goal.x-4,e.goal.y-4,8,8);ctx.restore()}",
+    "after": "drawHoverRange(hoveredEntity);drawCurrentOrderPaths();for(let e of state.entities){"
+  }
+]

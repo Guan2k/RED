@@ -1,0 +1,44 @@
+--- red-development/v316-integration/RED/tools/document-contract/test.cjs	2026-10-20 15:19:24.867685890 -0700
++++ red-development/v317-integration/RED/tools/document-contract/test.cjs	2026-10-20 20:21:21.514562489 -0700
+@@ -59,5 +59,41 @@
+ test('entry shell suffix rejected',edit('CURRENT_VERIFICATION_ENTRY.md','node verify-development.cjs','node verify-development.cjs && echo nope'),'current-entry-command:');
+ test('README runner quoted tail rejected',edit('README.md','node verification/run-tests-v301.cjs','node verification/run-tests-v301.cjs \"--wrong\"'),'current-runner-command');
+ const tool=path.join(temp,'relocated','check.cjs');fs.mkdirSync(path.dirname(tool));fs.copyFileSync(path.join(__dirname,'check.cjs'),tool);const before=snapshot(valid),cwd=path.join(temp,'othercwd');fs.mkdirSync(cwd);for(const args of [[valid],[path.relative(cwd,valid)]]){const p=spawnSync(process.execPath,[tool,...args],{cwd,encoding:'utf8'});assert.equal(p.status,0,p.stderr+p.stdout);assert.equal(JSON.parse(p.stdout).failed,0);results.push({name:'relocated tool arbitrary cwd '+args[0],passed:true})}for(const args of [[],['--fix'],[valid,'extra']]){const p=spawnSync(process.execPath,[tool,...args],{cwd,encoding:'utf8'});assert.equal(p.status,2);results.push({name:'reject CLI '+JSON.stringify(args),passed:true})}const bad=spawnSync(process.execPath,[tool,path.join(temp,'absent')],{cwd,encoding:'utf8'});assert.equal(bad.status,1);assert.ok(JSON.parse(bad.stdout).failed);results.push({name:'missing package CLI explicit failure',passed:true});assert.deepEqual(snapshot(valid),before);
++// Schema 2 keeps the same document grammar, but pins the stable entry and its dependency contract.
++const stable='verification/stable-suites/release-runner.cjs',contractPath='verification/stable-suites/release-contract.json';
++function jsonEdit(root,file,change){const p=path.join(root,file),v=JSON.parse(fs.readFileSync(p,'utf8'));change(v);fs.writeFileSync(p,JSON.stringify(v))}
++function schema2(root){
++ const put=(n,s)=>{fs.mkdirSync(path.dirname(path.join(root,n)),{recursive:true});fs.writeFileSync(path.join(root,n),s)};
++ const dispatch=['purchase-funding','selection-key-repeat','escape-key-repeat'].flatMap(f=>[f,f+'-negative']).map(f=>[f+'-v315.cjs','stable-suites/'+f+'.cjs']);
++ const files={};for(const n of [stable,'verification/run-tests-v301.cjs','verification/parameterized-pilot/vm-environment-provenance.cjs','verification/stable-suites/provenance-loader.cjs',...dispatch.map(x=>'verification/'+x[1])]){if(n!=='verification/run-tests-v301.cjs')put(n,'throw Error("DO NOT EXECUTE STABLE DEPENDENCY");');files[n]=hash(fs.readFileSync(path.join(root,n)))}
++ put(contractPath,JSON.stringify({schema:1,historicalRunner:'verification/run-tests-v301.cjs',dispatch,files}));
++ jsonEdit(root,'current-verification.json',m=>{m.schemaVersion=2;m.runner=stable;m.runnerSha256=files[stable]});
++ edit('README.md','node verification/run-tests-v301.cjs','node '+stable)(root);edit('README.md','](verification/run-tests-v301.cjs)',']('+stable+')')(root);
++}
++function test2(name,change,expected){return test('schema2 '+name,r=>{schema2(r);change?.(r)},expected)}
++test2('valid stable entry',null,null);
++test2('direct current entry',edit('CURRENT_VERIFICATION_ENTRY.md','node verify-development.cjs','node '+stable),null);
++test2('fenced README command',edit('README.md','本版命令为 `node '+stable+'`，见[本版]('+stable+')。','本版底层命令：\n\n```sh\nnode '+stable+'\n```\n\n见[本版]('+stable+')。'),null);
++for(const v of [0,3,'2',null])test2('unknown manifest schema '+v,r=>jsonEdit(r,'current-verification.json',m=>m.schemaVersion=v),'manifest-schema');
++for(const runner of ['verification/run-tests-v301.cjs','verification/stable-suites/run-quick.cjs','verification/stable-suites/../stable-suites/release-runner.cjs'])test2('wrong entry '+runner,r=>jsonEdit(r,'current-verification.json',m=>m.runner=runner),'manifest-schema');
++test2('manifest source identity mismatch',r=>jsonEdit(r,'current-verification.json',m=>m.version='302'),'manifest-version');
++test2('historical identity mismatch',r=>jsonEdit(r,contractPath,c=>c.historicalRunner='verification/run-tests-v278.cjs'),'stable-contract-identity');
++test2('missing contract',rm(contractPath),'read:'+contractPath);
++for(const raw of ['{','null','[]','{}','{"schema":2}'])test2('invalid contract '+raw,r=>fs.writeFileSync(path.join(r,contractPath),raw),raw==='{'?'stable-contract-json':'stable-contract-schema');
++test2('missing dispatch',r=>jsonEdit(r,contractPath,c=>delete c.dispatch),'stable-contract-dispatch');
++test2('wrong dispatch target',r=>jsonEdit(r,contractPath,c=>c.dispatch[0][1]='stable-suites/run-quick.cjs'),'stable-contract-dispatch');
++test2('missing dependency inventory',r=>jsonEdit(r,contractPath,c=>delete c.files),'stable-contract-dependencies');
++test2('invalid dependency inventory',r=>jsonEdit(r,contractPath,c=>c.files=[]),'stable-contract-dependencies');
++test2('dependency omitted',r=>jsonEdit(r,contractPath,c=>delete c.files['verification/stable-suites/provenance-loader.cjs']),'stable-contract-dependencies');
++for(const f of [stable,'verification/run-tests-v301.cjs','verification/parameterized-pilot/vm-environment-provenance.cjs','verification/stable-suites/provenance-loader.cjs','verification/stable-suites/purchase-funding.cjs'])test2('missing dependency '+f,rm(f),'read:'+f);
++test2('dependency bytes mismatch',edit('verification/stable-suites/purchase-funding.cjs','DO NOT','NEVER'),'stable-dependency-hash:');
++test2('invalid dependency digest',r=>jsonEdit(r,contractPath,c=>c.files[stable]='invalid'),'stable-dependency-schema:');
++test2('unsafe dependency path',r=>jsonEdit(r,contractPath,c=>c.files['../outside']=hash('outside')),'stable-dependency-schema:');
++test2('old README command',edit('README.md','node '+stable,'node verification/run-tests-v301.cjs'),'current-runner-command');
++test2('old README link',edit('README.md',']('+stable+')','](verification/run-tests-v301.cjs)'),'current-runner-link');
++test2('extra stable README link',edit('README.md','见[本版]('+stable+')','见[本版]('+stable+') [duplicate]('+stable+')'),'current-runner-link');
++test2('old current entry rejected',edit('CURRENT_VERIFICATION_ENTRY.md','node verify-development.cjs','node verification/run-tests-v301.cjs'),'current-entry-command:');
++test2('stable runner options rejected',edit('CURRENT_VERIFICATION_ENTRY.md','node verify-development.cjs','node '+stable+' --check-only'),'current-entry-command:');
++test('schema1 fixed stable runner rejected',r=>jsonEdit(r,'current-verification.json',m=>m.runner=stable),'manifest-schema');
+ console.log(JSON.stringify({passed:results.length,failed:0,results,scope:'Private temporary fixtures and relocated CLI; every inspected package remains byte-identical; runner fixtures intentionally throw if executed.'},null,2));
+ }finally{fs.rmSync(temp,{recursive:true,force:true})}

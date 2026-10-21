@@ -1,0 +1,7 @@
+{
+  "index.html": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+  "src/script/01-bootstrap.jsfrag": "94d62eaf3a24e5de5bda7c81689b224a3230672966aa206d43c779d252c9b8aa",
+  "src/script/02-gameplay.jsfrag": "196c0a62953d2697bfb434e1d0e3fdb2c6be31a04c19638e689a1c4b2db20b5c",
+  "src/script/03-renderer.jsfrag": "4b7bbffb5651bfab0cd5e98ce9964014ca5aff350bf184e08999402e6d10976b",
+  "src/script/04-interface-runtime.jsfrag": "b6a52b721e61841bd02c435b1d358332e4894aa67244f090d4b6d441941db143"
+}

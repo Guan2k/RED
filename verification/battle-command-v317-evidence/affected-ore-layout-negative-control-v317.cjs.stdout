@@ -1,0 +1,161 @@
+{
+  "sourceSha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d",
+  "baselineSha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+  "passed": 19,
+  "failed": 0,
+  "results": [
+    {
+      "name": "negative/eager-empty-allocation",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/empty",
+      "expectedCheck": "empty-depleted-zero-concat",
+      "observedCheck": "empty-depleted-zero-concat"
+    },
+    {
+      "name": "negative/eager-depleted-allocation",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/depleted",
+      "expectedCheck": "empty-depleted-zero-concat",
+      "observedCheck": "empty-depleted-zero-concat"
+    },
+    {
+      "name": "negative/per-ore-cache-reset",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/normal-only-many",
+      "expectedCheck": "at-most-two-concat-per-call",
+      "observedCheck": "at-most-two-concat-per-call"
+    },
+    {
+      "name": "negative/restore-repeated-baseline-concat",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/expanded-full-overlap",
+      "expectedCheck": "at-most-two-concat-per-call",
+      "observedCheck": "at-most-two-concat-per-call"
+    },
+    {
+      "name": "negative/leak-obstacles-across-calls",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/sequential-replacements-and-metrics",
+      "expectedCheck": "coordinates-labels-and-order",
+      "observedCheck": "coordinates-labels-and-order"
+    },
+    {
+      "name": "negative/persist-text-metrics-across-calls",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/sequential-replacements-and-metrics",
+      "expectedCheck": "identical-measurement-and-context-order",
+      "observedCheck": "identical-measurement-and-context-order"
+    },
+    {
+      "name": "negative/normal-uses-expanded-range-boxes",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/near-post-candidate-sweep",
+      "expectedCheck": "coordinates-labels-and-order",
+      "observedCheck": "coordinates-labels-and-order"
+    },
+    {
+      "name": "negative/expanded-omits-range-boxes",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/near-post-candidate-sweep",
+      "expectedCheck": "coordinates-labels-and-order",
+      "observedCheck": "coordinates-labels-and-order"
+    },
+    {
+      "name": "negative/omit-normal-marker-boxes",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/near-post-candidate-sweep",
+      "expectedCheck": "coordinates-labels-and-order",
+      "observedCheck": "coordinates-labels-and-order"
+    },
+    {
+      "name": "negative/omit-expanded-marker-boxes",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/near-post-candidate-sweep",
+      "expectedCheck": "coordinates-labels-and-order",
+      "observedCheck": "coordinates-labels-and-order"
+    },
+    {
+      "name": "negative/wrong-normal-collision-radius",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/near-post-candidate-sweep",
+      "expectedCheck": "coordinates-labels-and-order",
+      "observedCheck": "coordinates-labels-and-order"
+    },
+    {
+      "name": "negative/wrong-expanded-collision-radius",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/near-post-candidate-sweep",
+      "expectedCheck": "coordinates-labels-and-order",
+      "observedCheck": "coordinates-labels-and-order"
+    },
+    {
+      "name": "negative/wrong-first-candidate-position",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/normal-only-many",
+      "expectedCheck": "coordinates-labels-and-order",
+      "observedCheck": "coordinates-labels-and-order"
+    },
+    {
+      "name": "negative/clone-returned-ore",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/current-ore-reference",
+      "expectedCheck": "current-ore-object-reference",
+      "observedCheck": "current-ore-object-reference"
+    },
+    {
+      "name": "negative/wrong-ore-label-rounding",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/current-ore-reference",
+      "expectedCheck": "coordinates-labels-and-order",
+      "observedCheck": "coordinates-labels-and-order"
+    },
+    {
+      "name": "negative/extra-text-measurement",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/measurement-context-rng",
+      "expectedCheck": "identical-measurement-and-context-order",
+      "observedCheck": "identical-measurement-and-context-order"
+    },
+    {
+      "name": "negative/skip-context-restore",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/measurement-context-rng",
+      "expectedCheck": "context-restored",
+      "observedCheck": "context-restored"
+    },
+    {
+      "name": "negative/consume-layout-rng",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/measurement-context-rng",
+      "expectedCheck": "layout-consumes-no-rng",
+      "observedCheck": "layout-consumes-no-rng"
+    },
+    {
+      "name": "negative/mutate-frozen-ore-input",
+      "passed": true,
+      "detected": true,
+      "test": "sentinel/frozen-input",
+      "expectedCheck": "function-returns-frozen-input",
+      "observedCheck": "function-returns-frozen-input"
+    }
+  ],
+  "scope": "In-memory mutations of the exact current oreLabelLayout function. Each runs only its named behavioral test against the immutable v293 baseline, with a fresh unmodified-candidate control. Static approval/source-identity gates are deliberately not run. No source files modified, browser, real storage, save/load/import/export or FPS measurement."
+}

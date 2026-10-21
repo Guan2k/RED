@@ -1,0 +1,31 @@
+--- red-development/v316-integration/RED/verify-current.cjs	2026-10-20 15:19:26.441583059 -0700
++++ red-development/v316-stable-suites/RED/verify-current.cjs	2026-10-20 20:13:27.802805909 -0700
+@@ -41,14 +41,26 @@
+   need(Object.keys(m).length===keys.length&&keys.every(k=>Object.hasOwn(m,k)),'manifest missing/unknown fields');
+   const encodedKeys=[...raw.matchAll(/"((?:\\.|[^"\\])*)"\s*:/g)].map(x=>JSON.parse('"'+x[1]+'"'));
+   need(encodedKeys.length===keys.length&&new Set(encodedKeys).size===keys.length,'manifest duplicate or nested keys');
+-  need(m.schemaVersion===1&&typeof m.version==='string'&&/^[1-9][0-9]*$/.test(m.version),'invalid declared version/schema');
++  need((m.schemaVersion===1||m.schemaVersion===2)&&typeof m.version==='string'&&/^[1-9][0-9]*$/.test(m.version),'invalid declared version/schema');
+   need(m.source==='index.html','source must be index.html');
+-  need(m.runner===`verification/run-tests-v${m.version}.cjs`,'runner does not match declared version');
++  need(m.runner===(m.schemaVersion===1?`verification/run-tests-v${m.version}.cjs`:'verification/stable-suites/release-runner.cjs'),'runner does not match declared contract');
+   need(typeof m.sourceSha256==='string'&&/^[a-f0-9]{64}$/.test(m.sourceSha256)&&typeof m.runnerSha256==='string'&&/^[a-f0-9]{64}$/.test(m.runnerSha256),'invalid source/runner SHA');
+   for(const n of ['index.html',m.runner,'verify-current.cjs','current-verification.json','README.md'])need(sums.has(n),'required checksum entry missing: '+n);
+   const files=new Map();
+   for(const[n,sha]of sums){const bytes=n==='current-verification.json'?manifestBytes:read(n,base);need(hash(bytes)===sha,'checksum mismatch: '+n);files.set(n,bytes)}
+   need(sums.get(m.source)===m.sourceSha256&&sums.get(m.runner)===m.runnerSha256,'manifest/source/runner checksum disagreement');
++  if(m.schemaVersion===2){
++    const contractName='verification/stable-suites/release-contract.json';
++    need(files.has(contractName),'stable release contract missing from checksums');
++    const contract=JSON.parse(files.get(contractName).toString('utf8'));
++    need(contract.schema===1&&contract.historicalRunner===`verification/run-tests-v${m.version}.cjs`,'stable historical runner mismatch');
++    const families=['purchase-funding','selection-key-repeat','escape-key-repeat'];
++    const expected=families.flatMap(f=>[f,f+'-negative']).map(f=>[f+'-v315.cjs','stable-suites/'+f+'.cjs']);
++    need(JSON.stringify(contract.dispatch)===JSON.stringify(expected),'stable dispatch inventory mismatch');
++    const required=[m.runner,contract.historicalRunner,'verification/parameterized-pilot/vm-environment-provenance.cjs','verification/stable-suites/provenance-loader.cjs',...expected.map(x=>'verification/'+x[1])];
++    need(contract.files&&required.every(n=>Object.hasOwn(contract.files,n)),'stable dependency inventory incomplete');
++    for(const[n,digest]of Object.entries(contract.files))need(files.has(n)&&hash(files.get(n))===digest,'stable dependency missing or mismatched: '+n);
++  }
+   const versions=[...files.get(m.source).toString('utf8').matchAll(/<small>赤色前线 \/ ORIGINAL RTS \/ v0\.([1-9][0-9]*)<\/small>/g)];
+   need(versions.length===1&&versions[0][1]===m.version,'source display version disagrees with manifest');
+   const block='<!-- current-verification-default -->\n```sh\nnode verify-current.cjs\n```\n<!-- /current-verification-default -->';

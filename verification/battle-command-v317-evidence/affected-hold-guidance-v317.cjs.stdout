@@ -1,0 +1,6 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "sourceSha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d",
+  "scope": "Exact executable identity, visible/accessibility guidance with six negative controls, complete normal-start eight-map UI/world trace parity. Seeded VM; no persistence actions or native-browser claim."
+}

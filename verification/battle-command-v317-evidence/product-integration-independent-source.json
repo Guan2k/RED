@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "sourceSha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d",
+  "actualV316Sha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+  "checks": [
+    {
+      "i": 0,
+      "beforeBytes": 6,
+      "afterBytes": 6,
+      "unique": true
+    },
+    {
+      "i": 1,
+      "beforeBytes": 70,
+      "afterBytes": 20,
+      "unique": true
+    },
+    {
+      "i": 2,
+      "beforeBytes": 175,
+      "afterBytes": 20,
+      "unique": true
+    },
+    {
+      "i": 3,
+      "beforeBytes": 223,
+      "afterBytes": 25,
+      "unique": true
+    },
+    {
+      "i": 4,
+      "beforeBytes": 288,
+      "afterBytes": 25,
+      "unique": true
+    },
+    {
+      "i": 5,
+      "beforeBytes": 157,
+      "afterBytes": 20,
+      "unique": true
+    },
+    {
+      "i": 6,
+      "beforeBytes": 287,
+      "afterBytes": 20,
+      "unique": true
+    },
+    {
+      "i": 7,
+      "beforeBytes": 870,
+      "afterBytes": 20,
+      "unique": true
+    },
+    {
+      "i": 8,
+      "beforeBytes": 13,
+      "afterBytes": 2054,
+      "unique": true
+    },
+    {
+      "i": 9,
+      "beforeBytes": 13,
+      "afterBytes": 16,
+      "unique": true
+    },
+    {
+      "i": 10,
+      "beforeBytes": 47,
+      "afterBytes": 63,
+      "unique": true
+    },
+    {
+      "i": 11,
+      "beforeBytes": 108,
+      "afterBytes": 414,
+      "unique": true
+    },
+    {
+      "i": 12,
+      "beforeBytes": 18,
+      "afterBytes": 643,
+      "unique": true
+    },
+    {
+      "i": 13,
+      "beforeBytes": 503,
+      "afterBytes": 83,
+      "unique": true
+    }
+  ],
+  "scope": "Independent static forward/reverse application against actual v316 file; integrated product equals reviewed candidate except exact identity bump. No VM/browser execution."
+}

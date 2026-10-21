@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "programs": [
+    "repair-button-repeat.cjs",
+    "attack-pressed.cjs"
+  ],
+  "checks": [
+    "Expected-side route relocation equals actual v316-to-v317 render function delta",
+    "Expected helper exactly matches reviewed helper",
+    "Double route adaptation rejected",
+    "Unrelated render sentinel retained",
+    "Old comparator bytes unchanged except exact projection prefix"
+  ],
+  "staticReview": "Projection clones only parent/children/flat arrays, preserves original fields and activeElement identity mapping; exact moved subtree guards remain; no candidate renderer/paint normalization. Historical allocation comparator lacks parent pointer observation, explicitly preserved limitation.",
+  "files": {
+    "inherit-dom-v317.cjs": "289231035a84e773aa448925e929a27a19d0f2f36cbce86ff2ac7a5cd1f14570",
+    "inherit-dom-v317-negative-control.cjs": "0a14c085a64792189d7b7731b02d241360263a81aac57071abeecd4b2d88eb3d",
+    "presentation-expected-v317.cjs": "ea91094c4f1f82cb29bc6c9b28908cc1d60ca8469674d038d1c9942c0285aef3",
+    "presentation-v317.cjs": "e73176191302184ff1ebfd0d3bc9ed3418488ace33ee50ed3a941cf9f4c6ecfd",
+    "presentation-negative-control-v317.cjs": "d78436ed9bd142644756407823df74e04294e26989b578097cd701997a050182",
+    "render-preview-v317.cjs": "f97d4316b938072a527c5f6a2ff82441c2fbe7f35fc6bc71d5aad314cb9f2d8d",
+    "render-preview-negative-control-v317.cjs": "587285fa9aecac812757a7f3d2cc9e74aa0e1a28a9dc3d4492e931ca6d05de89",
+    "command-allocation-feedback-v317.cjs": "25df42ad63d3976b44d7535187796f5650dabb0004f98eb58d83103ff2727250",
+    "beginner-guide-v317.cjs": "0a155dbfd4124fee7dafb195612bfeb614019a584b75dc85bb3b10960a78d2e3"
+  },
+  "scope": "Read-only static validation, no heavy VM or browser run"
+}

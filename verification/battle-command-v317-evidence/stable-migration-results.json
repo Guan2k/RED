@@ -1,0 +1,1503 @@
+{
+  "passed": 6,
+  "failed": 0,
+  "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+  "results": [
+    {
+      "name": "purchase-funding.cjs",
+      "passed": true,
+      "cases": 192,
+      "historicalMs": 11076.521939,
+      "stableMs": 9506.036435999999,
+      "compiledLoads": 192,
+      "report": {
+        "passed": 192,
+        "failed": 0,
+        "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+        "results": [
+          {
+            "name": "tank shortfall=350 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=350 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=350 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=350 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=350 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=350 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=350 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=350 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=1 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=1 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=1 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=1 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=1 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=1 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=1 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=1 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0.01 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0.01 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0.01 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0.01 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0.01 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0.01 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0.01 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0.01 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "tank shortfall=0 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=180 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=180 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=180 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=180 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=180 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=180 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=180 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=180 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=1 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=1 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=1 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=1 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=1 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=1 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=1 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=1 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0.01 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0.01 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0.01 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0.01 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0.01 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0.01 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0.01 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0.01 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "scout shortfall=0 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=550 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=550 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=550 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=550 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=550 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=550 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=550 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=550 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=1 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=1 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=1 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=1 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=1 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=1 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=1 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=1 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0.01 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0.01 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0.01 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0.01 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0.01 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0.01 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0.01 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0.01 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "artillery shortfall=0 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=500 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=500 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=500 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=500 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=500 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=500 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=500 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=500 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=1 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=1 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=1 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=1 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=1 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=1 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=1 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=1 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0.01 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0.01 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0.01 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0.01 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0.01 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0.01 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0.01 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0.01 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "repair shortfall=0 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=400 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=400 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=400 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=400 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=400 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=400 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=400 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=400 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=1 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=1 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=1 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=1 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=1 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=1 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=1 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=1 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0.01 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0.01 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0.01 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0.01 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0.01 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0.01 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0.01 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0.01 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0 queued=false paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0 queued=false paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0 queued=false paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0 queued=false paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0 queued=true paused=false parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0 queued=true paused=false parallel=true",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0 queued=true paused=true parallel=false",
+            "passed": true
+          },
+          {
+            "name": "harvester shortfall=0 queued=true paused=true parallel=true",
+            "passed": true
+          },
+          {
+            "name": "tank prior guard full",
+            "passed": true
+          },
+          {
+            "name": "tank prior guard factory",
+            "passed": true
+          },
+          {
+            "name": "tank prior guard prestart",
+            "passed": true
+          },
+          {
+            "name": "tank prior guard terminal",
+            "passed": true
+          },
+          {
+            "name": "tank prior guard restart",
+            "passed": true
+          },
+          {
+            "name": "scout prior guard full",
+            "passed": true
+          },
+          {
+            "name": "scout prior guard factory",
+            "passed": true
+          },
+          {
+            "name": "scout prior guard prestart",
+            "passed": true
+          },
+          {
+            "name": "scout prior guard terminal",
+            "passed": true
+          },
+          {
+            "name": "scout prior guard restart",
+            "passed": true
+          },
+          {
+            "name": "artillery prior guard full",
+            "passed": true
+          },
+          {
+            "name": "artillery prior guard factory",
+            "passed": true
+          },
+          {
+            "name": "artillery prior guard prestart",
+            "passed": true
+          },
+          {
+            "name": "artillery prior guard terminal",
+            "passed": true
+          },
+          {
+            "name": "artillery prior guard restart",
+            "passed": true
+          },
+          {
+            "name": "repair prior guard full",
+            "passed": true
+          },
+          {
+            "name": "repair prior guard factory",
+            "passed": true
+          },
+          {
+            "name": "repair prior guard prestart",
+            "passed": true
+          },
+          {
+            "name": "repair prior guard terminal",
+            "passed": true
+          },
+          {
+            "name": "repair prior guard restart",
+            "passed": true
+          },
+          {
+            "name": "harvester prior guard full",
+            "passed": true
+          },
+          {
+            "name": "harvester prior guard factory",
+            "passed": true
+          },
+          {
+            "name": "harvester prior guard prestart",
+            "passed": true
+          },
+          {
+            "name": "harvester prior guard terminal",
+            "passed": true
+          },
+          {
+            "name": "harvester prior guard restart",
+            "passed": true
+          },
+          {
+            "name": "tank modifier/focus blocked keys remain silent",
+            "passed": true
+          },
+          {
+            "name": "scout modifier/focus blocked keys remain silent",
+            "passed": true
+          },
+          {
+            "name": "artillery modifier/focus blocked keys remain silent",
+            "passed": true
+          },
+          {
+            "name": "repair modifier/focus blocked keys remain silent",
+            "passed": true
+          },
+          {
+            "name": "harvester modifier/focus blocked keys remain silent",
+            "passed": true
+          },
+          {
+            "name": "natural four paid tanks running",
+            "passed": true
+          },
+          {
+            "name": "natural four paid tanks paused",
+            "passed": true
+          }
+        ],
+        "scope": "Current whole-source VM registered hotkeys, purchases, pause/mode controls; explicit fractional-cash and lifecycle fixtures. Receipt and exact world/order identity assertions. No native keyboard timing/browser or real storage claim."
+      }
+    },
+    {
+      "name": "purchase-funding-negative.cjs",
+      "passed": true,
+      "cases": 4,
+      "historicalMs": 30949.888457999998,
+      "stableMs": 22411.028514999998,
+      "compiledLoads": 192,
+      "report": {
+        "passed": 4,
+        "failed": 0,
+        "results": [
+          {
+            "name": "fraction floor",
+            "passed": true,
+            "detectedFailures": 40
+          },
+          {
+            "name": "missing unit",
+            "passed": true,
+            "detectedFailures": 122
+          },
+          {
+            "name": "empty queue suffix",
+            "passed": true,
+            "detectedFailures": 60
+          },
+          {
+            "name": "lost paid preservation",
+            "passed": true,
+            "detectedFailures": 62
+          }
+        ],
+        "scope": "Four exact receipt-only mutations detected against complete current-source behavior suite."
+      }
+    },
+    {
+      "name": "selection-key-repeat.cjs",
+      "passed": true,
+      "cases": 93,
+      "historicalMs": 4206.981639000005,
+      "stableMs": 3454.5539489999937,
+      "compiledLoads": 111,
+      "report": {
+        "passed": 93,
+        "failed": 0,
+        "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+        "results": [
+          {
+            "name": "held f upper=false paused=false preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held f upper=false paused=true preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held f upper=true paused=false preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held f upper=true paused=true preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held i upper=false paused=false preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held i upper=false paused=true preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held i upper=true paused=false preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held i upper=true paused=true preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held m upper=false paused=false preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held m upper=false paused=true preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held m upper=true paused=false preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "held m upper=true paused=true preserves intervening attack",
+            "passed": true
+          },
+          {
+            "name": "f first repeat=false matches visible button",
+            "passed": true
+          },
+          {
+            "name": "f first repeat=undefined matches visible button",
+            "passed": true
+          },
+          {
+            "name": "i first repeat=false matches visible button",
+            "passed": true
+          },
+          {
+            "name": "i first repeat=undefined matches visible button",
+            "passed": true
+          },
+          {
+            "name": "m first repeat=false matches visible button",
+            "passed": true
+          },
+          {
+            "name": "m first repeat=undefined matches visible button",
+            "passed": true
+          },
+          {
+            "name": "f guard {\"ctrlKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f guard {\"ctrlKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f guard {\"metaKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f guard {\"metaKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f guard {\"altKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f guard {\"altKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f guard {\"isComposing\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f guard {\"isComposing\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f guard {\"keyCode\":229} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f guard {\"keyCode\":229} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i guard {\"ctrlKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i guard {\"ctrlKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i guard {\"metaKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i guard {\"metaKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i guard {\"altKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i guard {\"altKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i guard {\"isComposing\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i guard {\"isComposing\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i guard {\"keyCode\":229} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i guard {\"keyCode\":229} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m guard {\"ctrlKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m guard {\"ctrlKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m guard {\"metaKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m guard {\"metaKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m guard {\"altKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m guard {\"altKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m guard {\"isComposing\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m guard {\"isComposing\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m guard {\"keyCode\":229} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m guard {\"keyCode\":229} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f focus INPUT repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f focus INPUT repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f focus SELECT repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f focus SELECT repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f focus TEXTAREA repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f focus TEXTAREA repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f focus editable repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f focus editable repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i focus INPUT repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i focus INPUT repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i focus SELECT repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i focus SELECT repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i focus TEXTAREA repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i focus TEXTAREA repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i focus editable repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i focus editable repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m focus INPUT repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m focus INPUT repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m focus SELECT repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m focus SELECT repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m focus TEXTAREA repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m focus TEXTAREA repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m focus editable repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m focus editable repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f lifecycle prestart repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f lifecycle prestart repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f lifecycle restart repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f lifecycle restart repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f lifecycle terminal repeat=false",
+            "passed": true
+          },
+          {
+            "name": "f lifecycle terminal repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i lifecycle prestart repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i lifecycle prestart repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i lifecycle restart repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i lifecycle restart repeat=true",
+            "passed": true
+          },
+          {
+            "name": "i lifecycle terminal repeat=false",
+            "passed": true
+          },
+          {
+            "name": "i lifecycle terminal repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m lifecycle prestart repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m lifecycle prestart repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m lifecycle restart repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m lifecycle restart repeat=true",
+            "passed": true
+          },
+          {
+            "name": "m lifecycle terminal repeat=false",
+            "passed": true
+          },
+          {
+            "name": "m lifecycle terminal repeat=true",
+            "passed": true
+          },
+          {
+            "name": "f visible button remains repeatable",
+            "passed": true
+          },
+          {
+            "name": "i visible button remains repeatable",
+            "passed": true
+          },
+          {
+            "name": "m visible button remains repeatable",
+            "passed": true
+          }
+        ],
+        "scope": "Isolated VM registered-key dispatch and button callbacks. Natural initial battle plus explicit lifecycle/focus fixtures. No browser key timing, accessibility, persistence, or full release claim."
+      }
+    },
+    {
+      "name": "selection-key-repeat-negative.cjs",
+      "passed": true,
+      "cases": 5,
+      "historicalMs": 15626.33068900001,
+      "stableMs": 15384.604720000003,
+      "compiledLoads": 105,
+      "report": {
+        "passed": 5,
+        "failed": 0,
+        "results": [
+          {
+            "name": "restore repeat f",
+            "passed": true,
+            "detectedBy": "repeat preserves exact world and pending input",
+            "failedBehaviorCases": 4
+          },
+          {
+            "name": "restore repeat i",
+            "passed": true,
+            "detectedBy": "repeat preserves exact world and pending input",
+            "failedBehaviorCases": 4
+          },
+          {
+            "name": "restore repeat m",
+            "passed": true,
+            "detectedBy": "repeat preserves exact world and pending input",
+            "failedBehaviorCases": 4
+          },
+          {
+            "name": "block initial selection",
+            "passed": true,
+            "detectedBy": "initial selection works",
+            "failedBehaviorCases": 18
+          },
+          {
+            "name": "skip uppercase repeat",
+            "passed": true,
+            "detectedBy": "repeat preserves exact world and pending input",
+            "failedBehaviorCases": 6
+          }
+        ],
+        "scope": "Source mutations rejected by named behavioral assertions, not identity or syntax gates."
+      }
+    },
+    {
+      "name": "escape-key-repeat.cjs",
+      "passed": true,
+      "cases": 47,
+      "historicalMs": 1603.6112659999926,
+      "stableMs": 1645.0676720000047,
+      "compiledLoads": 47,
+      "report": {
+        "passed": 47,
+        "failed": 0,
+        "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+        "results": [
+          {
+            "name": "held Escape preserves new attack, paused=false",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves new attack, paused=true",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves new placement, paused=false",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves new placement, paused=true",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves new ordinary, paused=false",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves new ordinary, paused=true",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves new append, paused=false",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves new append, paused=true",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves new drag, paused=false",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves new drag, paused=true",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves newly opened restart, paused=false",
+            "passed": true
+          },
+          {
+            "name": "held Escape preserves newly opened restart, paused=true",
+            "passed": true
+          },
+          {
+            "name": "first Escape false cancels attack",
+            "passed": true
+          },
+          {
+            "name": "first Escape false cancels placement",
+            "passed": true
+          },
+          {
+            "name": "first Escape false cancels ordinary",
+            "passed": true
+          },
+          {
+            "name": "first Escape false cancels append",
+            "passed": true
+          },
+          {
+            "name": "first Escape false cancels drag",
+            "passed": true
+          },
+          {
+            "name": "first Escape undefined cancels attack",
+            "passed": true
+          },
+          {
+            "name": "first Escape undefined cancels placement",
+            "passed": true
+          },
+          {
+            "name": "first Escape undefined cancels ordinary",
+            "passed": true
+          },
+          {
+            "name": "first Escape undefined cancels append",
+            "passed": true
+          },
+          {
+            "name": "first Escape undefined cancels drag",
+            "passed": true
+          },
+          {
+            "name": "Shift Escape retains existing cancellation semantics",
+            "passed": true
+          },
+          {
+            "name": "guard {\"ctrlKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "guard {\"ctrlKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "guard {\"metaKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "guard {\"metaKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "guard {\"altKey\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "guard {\"altKey\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "guard {\"isComposing\":true} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "guard {\"isComposing\":true} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "guard {\"keyCode\":229} repeat=false",
+            "passed": true
+          },
+          {
+            "name": "guard {\"keyCode\":229} repeat=true",
+            "passed": true
+          },
+          {
+            "name": "focus INPUT repeat=false",
+            "passed": true
+          },
+          {
+            "name": "focus INPUT repeat=true",
+            "passed": true
+          },
+          {
+            "name": "focus SELECT repeat=false",
+            "passed": true
+          },
+          {
+            "name": "focus SELECT repeat=true",
+            "passed": true
+          },
+          {
+            "name": "focus TEXTAREA repeat=false",
+            "passed": true
+          },
+          {
+            "name": "focus TEXTAREA repeat=true",
+            "passed": true
+          },
+          {
+            "name": "focus editable repeat=false",
+            "passed": true
+          },
+          {
+            "name": "focus editable repeat=true",
+            "passed": true
+          },
+          {
+            "name": "repeat retains initial",
+            "passed": true
+          },
+          {
+            "name": "repeat retains resultOverlay",
+            "passed": true
+          },
+          {
+            "name": "repeat retains resultBattle",
+            "passed": true
+          },
+          {
+            "name": "first Escape still returns from finished battlefield",
+            "passed": true
+          },
+          {
+            "name": "repeat does not poison a newly pressed command Space activation",
+            "passed": true
+          },
+          {
+            "name": "explicit cancel button remains usable while Escape is held",
+            "passed": true
+          }
+        ],
+        "scope": "Full inline-source VM with registered input callbacks. Natural initial battle and explicit lifecycle/focus fixtures. No native key timing/default events, browser, persistence, or full release claim."
+      }
+    },
+    {
+      "name": "escape-key-repeat-negative.cjs",
+      "passed": true,
+      "cases": 4,
+      "historicalMs": 11316.146408,
+      "stableMs": 9607.862645000001,
+      "compiledLoads": 47,
+      "report": {
+        "passed": 4,
+        "failed": 0,
+        "results": [
+          {
+            "name": "restore old repeated Escape cancellation",
+            "passed": true,
+            "rejectedBy": "held Escape preserves new attack, paused=false",
+            "failedCases": 14
+          },
+          {
+            "name": "block first Escape too",
+            "passed": true,
+            "rejectedBy": "first Escape false cancels attack",
+            "failedCases": 24
+          },
+          {
+            "name": "stop canceling pending attack",
+            "passed": true,
+            "rejectedBy": "first Escape false cancels attack",
+            "failedCases": 5
+          },
+          {
+            "name": "stop returning from restart on first Escape",
+            "passed": true,
+            "rejectedBy": "held Escape preserves newly opened restart, paused=false",
+            "failedCases": 2
+          }
+        ],
+        "scope": "Four precise source mutations, rejected by designated behavioral cases. Not additional gameplay scenarios or native browser coverage."
+      }
+    }
+  ],
+  "scope": "One-time migration proof, not repeated in normal quick/release runs. Exact positive and original negative-control reports matched, including mutation failure counts and named detections; bootstrap-only transformation checked."
+}

@@ -1,0 +1,216 @@
+{
+  "passed": 27,
+  "failed": 0,
+  "sourceSha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d",
+  "baselineSha256": "d0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d",
+  "results": [
+    {
+      "name": "source/exact-reviewed-presentation-functions",
+      "passed": true,
+      "baselineSha256": "d0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d",
+      "sourceSha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d"
+    },
+    {
+      "name": "css/scoped-presentation-accessibility-contract",
+      "passed": true,
+      "nativeLayoutClaim": false
+    },
+    {
+      "name": "render/classic/off",
+      "passed": true,
+      "map": "classic",
+      "mode": "off",
+      "frames": 3,
+      "paints": 1275
+    },
+    {
+      "name": "render/classic/direct",
+      "passed": true,
+      "map": "classic",
+      "mode": "direct",
+      "frames": 3,
+      "paints": 1452
+    },
+    {
+      "name": "render/classic/cached",
+      "passed": true,
+      "map": "classic",
+      "mode": "cached",
+      "frames": 3,
+      "paints": 1452
+    },
+    {
+      "name": "render/frontier/off",
+      "passed": true,
+      "map": "frontier",
+      "mode": "off",
+      "frames": 3,
+      "paints": 1275
+    },
+    {
+      "name": "render/frontier/direct",
+      "passed": true,
+      "map": "frontier",
+      "mode": "direct",
+      "frames": 3,
+      "paints": 1452
+    },
+    {
+      "name": "render/frontier/cached",
+      "passed": true,
+      "map": "frontier",
+      "mode": "cached",
+      "frames": 3,
+      "paints": 1452
+    },
+    {
+      "name": "render/canyon/off",
+      "passed": true,
+      "map": "canyon",
+      "mode": "off",
+      "frames": 3,
+      "paints": 1365
+    },
+    {
+      "name": "render/canyon/direct",
+      "passed": true,
+      "map": "canyon",
+      "mode": "direct",
+      "frames": 3,
+      "paints": 1542
+    },
+    {
+      "name": "render/canyon/cached",
+      "passed": true,
+      "map": "canyon",
+      "mode": "cached",
+      "frames": 3,
+      "paints": 1542
+    },
+    {
+      "name": "render/ridge/off",
+      "passed": true,
+      "map": "ridge",
+      "mode": "off",
+      "frames": 3,
+      "paints": 1329
+    },
+    {
+      "name": "render/ridge/direct",
+      "passed": true,
+      "map": "ridge",
+      "mode": "direct",
+      "frames": 3,
+      "paints": 1506
+    },
+    {
+      "name": "render/ridge/cached",
+      "passed": true,
+      "map": "ridge",
+      "mode": "cached",
+      "frames": 3,
+      "paints": 1506
+    },
+    {
+      "name": "render/crossroads/off",
+      "passed": true,
+      "map": "crossroads",
+      "mode": "off",
+      "frames": 3,
+      "paints": 1353
+    },
+    {
+      "name": "render/crossroads/direct",
+      "passed": true,
+      "map": "crossroads",
+      "mode": "direct",
+      "frames": 3,
+      "paints": 1530
+    },
+    {
+      "name": "render/crossroads/cached",
+      "passed": true,
+      "map": "crossroads",
+      "mode": "cached",
+      "frames": 3,
+      "paints": 1530
+    },
+    {
+      "name": "render/switchback/off",
+      "passed": true,
+      "map": "switchback",
+      "mode": "off",
+      "frames": 3,
+      "paints": 1425
+    },
+    {
+      "name": "render/switchback/direct",
+      "passed": true,
+      "map": "switchback",
+      "mode": "direct",
+      "frames": 3,
+      "paints": 1602
+    },
+    {
+      "name": "render/switchback/cached",
+      "passed": true,
+      "map": "switchback",
+      "mode": "cached",
+      "frames": 3,
+      "paints": 1602
+    },
+    {
+      "name": "render/ring/off",
+      "passed": true,
+      "map": "ring",
+      "mode": "off",
+      "frames": 3,
+      "paints": 1317
+    },
+    {
+      "name": "render/ring/direct",
+      "passed": true,
+      "map": "ring",
+      "mode": "direct",
+      "frames": 3,
+      "paints": 1494
+    },
+    {
+      "name": "render/ring/cached",
+      "passed": true,
+      "map": "ring",
+      "mode": "cached",
+      "frames": 3,
+      "paints": 1494
+    },
+    {
+      "name": "render/meridian/off",
+      "passed": true,
+      "map": "meridian",
+      "mode": "off",
+      "frames": 3,
+      "paints": 1353
+    },
+    {
+      "name": "render/meridian/direct",
+      "passed": true,
+      "map": "meridian",
+      "mode": "direct",
+      "frames": 3,
+      "paints": 1530
+    },
+    {
+      "name": "render/meridian/cached",
+      "passed": true,
+      "map": "meridian",
+      "mode": "cached",
+      "frames": 3,
+      "paints": 1530
+    },
+    {
+      "name": "adapter/reject-current-and-duplicate-expected-host",
+      "passed": true
+    }
+  ],
+  "scope": "Actual candidate untouched. Exact reviewed expected-side presentation replay on hash-locked v314; complete paint/state/input/track/context/RNG/storage comparisons. Pure Node synthetic Canvas, not native layout/raster/FPS acceptance."
+}

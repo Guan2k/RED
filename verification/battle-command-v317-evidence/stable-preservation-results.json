@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "changedExistingFiles": [
+    "SHA256SUMS.txt",
+    "verify-current.cjs",
+    "current-verification.json"
+  ],
+  "historicalVerificationFilesUnchanged": true,
+  "productSourceUnchanged": true
+}

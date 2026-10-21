@@ -1,0 +1,28 @@
+{
+  "passed": 3,
+  "failed": 0,
+  "results": [
+    {
+      "name": "purchase-funding",
+      "passed": true,
+      "cases": 192,
+      "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+      "elapsedMs": 9782.185664
+    },
+    {
+      "name": "selection-key-repeat",
+      "passed": true,
+      "cases": 93,
+      "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+      "elapsedMs": 2946.4151170000005
+    },
+    {
+      "name": "escape-key-repeat",
+      "passed": true,
+      "cases": 47,
+      "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+      "elapsedMs": 1832.255568999999
+    }
+  ],
+  "scope": "Three stable behavior suites only; no release or native browser claim."
+}
