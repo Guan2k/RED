@@ -1,0 +1,178 @@
+{
+  "scope": "Static guide conversion only; no game, browser, save/load/import/export or network operations.",
+  "checks_passed": 37,
+  "checks": [
+    {
+      "name": "exact approved baseline renders the fixed reviewed OUTPUT_SHA256",
+      "result": "pass"
+    },
+    {
+      "name": "two derivations are byte-identical",
+      "result": "pass"
+    },
+    {
+      "name": "provided immutable mapping bytes cause no filesystem reads",
+      "result": "pass"
+    },
+    {
+      "name": "version negative changes v0.318 to v0.319 exactly once",
+      "result": "pass"
+    },
+    {
+      "name": "wrong version",
+      "result": "pass",
+      "rejection": "Unknown guide baseline SHA-256; additions, removals or edits require a new reviewed mapping"
+    },
+    {
+      "name": "unknown extra paragraph",
+      "result": "pass",
+      "rejection": "Unknown guide baseline SHA-256; additions, removals or edits require a new reviewed mapping"
+    },
+    {
+      "name": "missing source paragraph",
+      "result": "pass",
+      "rejection": "Unknown guide baseline SHA-256; additions, removals or edits require a new reviewed mapping"
+    },
+    {
+      "name": "source byte alteration",
+      "result": "pass",
+      "rejection": "Unknown guide baseline SHA-256; additions, removals or edits require a new reviewed mapping"
+    },
+    {
+      "name": "unexpected CRLF baseline",
+      "result": "pass",
+      "rejection": "Unknown guide baseline SHA-256; additions, removals or edits require a new reviewed mapping"
+    },
+    {
+      "name": "unreviewed mapping whitespace",
+      "result": "pass",
+      "rejection": "Unreviewed or modified guide mapping SHA-256"
+    },
+    {
+      "name": "mapping with external link",
+      "result": "pass",
+      "rejection": "Unreviewed or modified guide mapping SHA-256"
+    },
+    {
+      "name": "mapping missing mandatory save warning",
+      "result": "pass",
+      "rejection": "Unreviewed or modified guide mapping SHA-256"
+    },
+    {
+      "name": "mapping with an unclassified source paragraph",
+      "result": "pass",
+      "rejection": "Unreviewed or modified guide mapping SHA-256"
+    },
+    {
+      "name": "all 220 source paragraphs are classified",
+      "result": "pass"
+    },
+    {
+      "name": "seven original main chapter headings preserved",
+      "result": "pass"
+    },
+    {
+      "name": "all 15 original save chapter paragraphs preserved verbatim",
+      "result": "pass"
+    },
+    {
+      "name": "no historical release links, test commands or old current-version statement",
+      "result": "pass"
+    },
+    {
+      "name": "known local Markdown links only",
+      "result": "pass"
+    },
+    {
+      "name": "static layout-shift limitation preserved",
+      "result": "pass"
+    },
+    {
+      "name": "old delayed click and fresh-press rule preserved",
+      "result": "pass"
+    },
+    {
+      "name": "visual/UI scope and opt-in boundary preserved",
+      "result": "pass"
+    },
+    {
+      "name": "critical-health cue is not faction and does not promise arrival",
+      "result": "pass"
+    },
+    {
+      "name": "native/FPS limits and historical color qualification retained",
+      "result": "pass"
+    },
+    {
+      "name": "current scope identifies v0.318, not v0.317",
+      "result": "pass"
+    },
+    {
+      "name": "production reasons, restoration, pause and unchanged rules retained",
+      "result": "pass"
+    },
+    {
+      "name": "v317 command arrangement, route order and VM limits retained",
+      "result": "pass"
+    },
+    {
+      "name": "v318 static guidance and no gameplay changes retained",
+      "result": "pass"
+    },
+    {
+      "name": "v318 repeat funding scope and explicit follow retained",
+      "result": "pass"
+    },
+    {
+      "name": "v318 reinforcement selection and evidence limits retained",
+      "result": "pass"
+    },
+    {
+      "name": "v318 subsection label does not capture unrelated later opening guidance",
+      "result": "pass"
+    },
+    {
+      "name": "source byte hash unchanged after API checks",
+      "result": "pass"
+    },
+    {
+      "name": "CLI creates new exact output",
+      "result": "pass"
+    },
+    {
+      "name": "CLI refuses overwrite",
+      "result": "pass"
+    },
+    {
+      "name": "CLI verifies same output without replacing it",
+      "result": "pass"
+    },
+    {
+      "name": "CLI rejects altered output missing save warning",
+      "result": "pass"
+    },
+    {
+      "name": "CLI refuses source symlink",
+      "result": "pass"
+    },
+    {
+      "name": "source byte hash unchanged after CLI checks",
+      "result": "pass"
+    }
+  ],
+  "source_sha256": "b8645b70000af6056a6c89a018964fb3e0d395c7226d37189f4439ff692b9198",
+  "mapping_sha256": "8b0ff06f0c8daf9a382791dd552642b67ffaa0ed63e12e9394483fde5d110dfd",
+  "guide_sha256": "a17f8f677c20686ce0be9e159aa600f2fca72acf9dfc59325e2dcfe57f6770b2",
+  "source_paragraphs": 220,
+  "output_paragraphs": 223,
+  "disposition_counts": {
+    "keep_verbatim": 157,
+    "rewrite_and_move": 44,
+    "merge_duplicate_current_rule": 1,
+    "rewrite": 6,
+    "merge_player_rules_remove_development_history": 1,
+    "move_verbatim": 6,
+    "remove_development_history_preserve_limits": 4,
+    "remove_history_heading": 1
+  }
+}

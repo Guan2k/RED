@@ -1,0 +1,355 @@
+{
+  "passed": 31,
+  "failed": 0,
+  "sourceSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "baselineSourceSha256": "d03faa6beca0518edea4d5b07fbf8f6940ae2faba257af9b65d81690be998107",
+  "assertions": 979,
+  "worldComparisons": 690,
+  "longRunComparisons": 200,
+  "scenarios": [
+    {
+      "scope": "off",
+      "mode": "single",
+      "cash": 1090,
+      "queue": 0,
+      "produced": 0,
+      "comparisons": 81
+    },
+    {
+      "scope": "off",
+      "mode": "parallel",
+      "cash": 1090,
+      "queue": 0,
+      "produced": 0,
+      "comparisons": 81
+    },
+    {
+      "scope": "factory",
+      "mode": "single",
+      "cash": 730,
+      "queue": 2,
+      "produced": 0,
+      "comparisons": 81
+    },
+    {
+      "scope": "factory",
+      "mode": "parallel",
+      "cash": 730,
+      "queue": 2,
+      "produced": 0,
+      "comparisons": 81
+    },
+    {
+      "scope": "global",
+      "mode": "single",
+      "cash": 910,
+      "queue": 1,
+      "produced": 0,
+      "comparisons": 81
+    },
+    {
+      "scope": "global",
+      "mode": "parallel",
+      "cash": 730,
+      "queue": 2,
+      "produced": 0,
+      "comparisons": 81
+    }
+  ],
+  "globalModes": [
+    {
+      "mode": "single",
+      "orders": 1,
+      "cash": 730
+    },
+    {
+      "mode": "parallel",
+      "orders": 2,
+      "cash": 550
+    }
+  ],
+  "events": [
+    {
+      "mode": "parallel",
+      "receipt": "全局循环补单方式设为按空闲工厂并行；每个模拟步最多一单，正常扣款；本厂独立循环不受影响",
+      "status": "本厂独立循环：2 厂 · 共用保留资金 0 / 全局每车型目标 不限（仍受本厂目标限制）；全局循环关闭。待模拟步检查 2厂；每步最多补一单，先分配已有订单，不保证下步购买"
+    },
+    {
+      "mode": "single",
+      "receipt": "全局循环补单方式设为单订单；已有付费订单保留；本厂独立循环不受影响",
+      "status": "本厂独立循环：2 厂 · 共用保留资金 0 / 全局每车型目标 不限（仍受本厂目标限制）；全局循环关闭。待模拟步检查 2厂；每步最多补一单，先分配已有订单，不保证下步购买"
+    },
+    {
+      "mode": "parallel",
+      "receipt": "全局循环补单方式设为按空闲工厂并行；每个模拟步最多一单，正常扣款；本厂独立循环不受影响",
+      "status": "本厂独立循环：2 厂 · 共用保留资金 0 / 全局每车型目标 不限（仍受本厂目标限制）；全局循环关闭。待模拟步检查 2厂；每步最多补一单，先分配已有订单，不保证下步购买"
+    }
+  ],
+  "negativeControls": [
+    {
+      "name": "accessible global name",
+      "rejected": true,
+      "code": "SCOPE_ACCESSIBLE_NAME",
+      "diagnostic": "Global repeat mode must have the exact accessible name"
+    },
+    {
+      "name": "hint association",
+      "rejected": true,
+      "code": "SCOPE_HINT_ASSOCIATION",
+      "diagnostic": "Global repeat mode must reference its visible scope hint"
+    },
+    {
+      "name": "title global scope",
+      "rejected": true,
+      "code": "SCOPE_TITLE",
+      "diagnostic": "Title must retain global-only scope, preset behavior, payment, reserve and target wording"
+    },
+    {
+      "name": "title off-state preset",
+      "rejected": true,
+      "code": "SCOPE_TITLE",
+      "diagnostic": "Title must retain global-only scope, preset behavior, payment, reserve and target wording"
+    },
+    {
+      "name": "single option scope",
+      "rejected": true,
+      "code": "SCOPE_SINGLE_OPTION",
+      "diagnostic": "Single-order option must identify global scope"
+    },
+    {
+      "name": "parallel option scope",
+      "rejected": true,
+      "code": "SCOPE_PARALLEL_OPTION",
+      "diagnostic": "Parallel option must identify global scope"
+    },
+    {
+      "name": "visible scope explanation",
+      "rejected": true,
+      "code": "SCOPE_VISIBLE_HINT",
+      "diagnostic": "Visible hint must state global-only scope and off-state preset behavior"
+    },
+    {
+      "name": "hidden scope explanation",
+      "rejected": true,
+      "code": "SCOPE_HINT_VISIBLE",
+      "diagnostic": "Scope hint must not be hidden"
+    },
+    {
+      "name": "accessibility-hidden scope explanation",
+      "rejected": true,
+      "code": "SCOPE_HINT_VISIBLE",
+      "diagnostic": "Scope hint must not be hidden"
+    },
+    {
+      "name": "parallel receipt scope",
+      "rejected": true,
+      "code": "SCOPE_PARALLEL_RECEIPT",
+      "diagnostic": "Exactly one approved parallel receipt must remain"
+    },
+    {
+      "name": "single receipt scope",
+      "rejected": true,
+      "code": "SCOPE_SINGLE_RECEIPT",
+      "diagnostic": "Exactly one approved single receipt must remain"
+    },
+    {
+      "name": "duplicate scope hint",
+      "rejected": true,
+      "code": "SCOPE_HINT_UNIQUE",
+      "diagnostic": "Exactly one scope description must exist"
+    },
+    {
+      "name": "global scheduler forced parallel",
+      "rejected": true,
+      "code": "SCOPE_EXECUTABLE_DELTA",
+      "diagnostic": "After reversing only two receipt literals, the entire v298 executable must be byte-identical"
+    },
+    {
+      "name": "unapproved executable bytes",
+      "rejected": true,
+      "code": "SCOPE_EXECUTABLE_DELTA",
+      "diagnostic": "After reversing only two receipt literals, the entire v298 executable must be byte-identical"
+    },
+    {
+      "name": "unexpected ordinary log text",
+      "rejected": true,
+      "code": "SCOPE_FULL_STATE_PARITY",
+      "diagnostic": "Expected values to be strictly deep-equal:"
+    },
+    {
+      "name": "extra ordinary log",
+      "rejected": true,
+      "code": "SCOPE_FULL_STATE_PARITY",
+      "diagnostic": "Expected values to be strictly deep-equal:"
+    },
+    {
+      "name": "missing ordinary log",
+      "rejected": true,
+      "code": "SCOPE_FULL_STATE_PARITY",
+      "diagnostic": "Expected values to be strictly deep-equal:"
+    },
+    {
+      "name": "changed log ordering",
+      "rejected": true,
+      "code": "SCOPE_FULL_STATE_PARITY",
+      "diagnostic": "Expected values to be strictly deep-equal:"
+    },
+    {
+      "name": "receipt suffix over-normalization",
+      "rejected": true,
+      "code": "SCOPE_FULL_STATE_PARITY",
+      "diagnostic": "Expected values to be strictly deep-equal:"
+    },
+    {
+      "name": "receipt prefix over-normalization",
+      "rejected": true,
+      "code": "SCOPE_FULL_STATE_PARITY",
+      "diagnostic": "Expected values to be strictly deep-equal:"
+    },
+    {
+      "name": "non-log state field",
+      "rejected": true,
+      "code": "SCOPE_FULL_STATE_PARITY",
+      "diagnostic": "Expected values to be strictly deep-equal:"
+    },
+    {
+      "name": "pending selection field",
+      "rejected": true,
+      "code": "SCOPE_FULL_STATE_PARITY",
+      "diagnostic": "Expected values to be strictly deep-equal:"
+    },
+    {
+      "name": "omitted log array",
+      "rejected": true,
+      "code": "SCOPE_LOGS_REQUIRED",
+      "diagnostic": "Full-state comparison requires every log entry"
+    }
+  ],
+  "results": [
+    {
+      "name": "exact current source and strict local v298 restoration",
+      "passed": true
+    },
+    {
+      "name": "global-only wording, accessible relationship and visible wrapping hint",
+      "passed": true
+    },
+    {
+      "name": "entire executable script restores after exact v315 art plus two exact receipt reversals",
+      "passed": true
+    },
+    {
+      "name": "shared reserve and quantity/type selectors remain byte-identical",
+      "passed": true
+    },
+    {
+      "name": "both mode transitions and 200 full-state completed-production comparisons",
+      "passed": true
+    },
+    {
+      "name": "complete paired natural UI state: off / single",
+      "passed": true
+    },
+    {
+      "name": "complete paired natural UI state: off / parallel",
+      "passed": true
+    },
+    {
+      "name": "complete paired natural UI state: factory / single",
+      "passed": true
+    },
+    {
+      "name": "complete paired natural UI state: factory / parallel",
+      "passed": true
+    },
+    {
+      "name": "complete paired natural UI state: global / single",
+      "passed": true
+    },
+    {
+      "name": "complete paired natural UI state: global / parallel",
+      "passed": true
+    },
+    {
+      "name": "global-off preset and actual paid global single scheduling",
+      "passed": true
+    },
+    {
+      "name": "global-off preset and actual paid global parallel scheduling",
+      "passed": true
+    },
+    {
+      "name": "independent-factory cash and orders agree across single and parallel presets",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: accessible global name",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: hint association",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: title global scope",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: title off-state preset",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: single option scope",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: parallel option scope",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: visible scope explanation",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: hidden scope explanation",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: accessibility-hidden scope explanation",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: parallel receipt scope",
+      "passed": true
+    },
+    {
+      "name": "diagnostic-specific wording control: single receipt scope",
+      "passed": true
+    },
+    {
+      "name": "duplicate scope description is rejected for uniqueness",
+      "passed": true
+    },
+    {
+      "name": "scheduler mutation is rejected by exact executable restoration",
+      "passed": true
+    },
+    {
+      "name": "unrelated script change is rejected by exact executable restoration",
+      "passed": true
+    },
+    {
+      "name": "log normalization preserves all unrelated, malformed and reordered log content",
+      "passed": true
+    },
+    {
+      "name": "comparison coverage and both actual global order modes are complete",
+      "passed": true
+    },
+    {
+      "name": "current source remains unchanged after every positive and negative control",
+      "passed": true
+    }
+  ],
+  "scope": "Current-source natural Start/build-card/map-pointer construction and normal payment. 200 completed-production comparisons plus six 81-comparison scenario pairs. Full state, every log, selection, pending modes, durable state and RNG retained; only exact equality to two approved receipt strings is reversed inside state.logs. Strict local v298 restoration, complete executable identity, accessibility wording controls and diagnostic-specific executable/log controls. Bundled no-persistence seeded synthetic DOM/VM; no save/load/import/export actions and no native browser layout claim."
+}

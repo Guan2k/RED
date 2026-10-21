@@ -1,0 +1,75 @@
+[
+  {
+    "command": [
+      "node",
+      "verification/beginner-guide-v318.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "dom-affected-00.stdout",
+    "stderr": "dom-affected-00.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/inherit-dom-v318-negative-control.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "dom-affected-01.stdout",
+    "stderr": "dom-affected-01.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/global-repeat-mode-scope-v318.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "dom-affected-02.stdout",
+    "stderr": "dom-affected-02.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/hold-guidance-v318.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "dom-affected-03.stdout",
+    "stderr": "dom-affected-03.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/building-reference-v318.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "dom-affected-04.stdout",
+    "stderr": "dom-affected-04.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/mission-guidance-v318.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "dom-affected-05.stdout",
+    "stderr": "dom-affected-05.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/source-delta-v318-negative-control.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "dom-affected-06.stdout",
+    "stderr": "dom-affected-06.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verify-development.cjs",
+      "--check-only"
+    ],
+    "exitCode": 0,
+    "stdout": "dom-affected-07.stdout",
+    "stderr": "dom-affected-07.stderr"
+  }
+]

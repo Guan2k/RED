@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "historicalRunner": "verification/run-tests-v317.cjs",
+  "historicalRunner": "verification/run-tests-v318.cjs",
   "dispatch": [
     [
       "purchase-funding-v315.cjs",
@@ -40,6 +40,6 @@
     "verification/stable-suites/selection-key-repeat-negative.cjs": "99f80687bf4b7d3aab7ab830a7934d7f27ed23062d4ce04fdf8d1a383f4528c1",
     "verification/stable-suites/escape-key-repeat-negative.cjs": "1a6b5168db5c99859a4ed9c79d726f9e8b4f114ec24e252d2481f97b1202a5db",
     "verification/stable-suites/migration-contract.json": "d72ddb9b41ee08093612e9877fb1adb8c693e92a4e8555991fdb0860a8f9f684",
-    "verification/run-tests-v317.cjs": "ac8775411feac57a6b1891cd19ad897afd01d53e76d9c172079e335daaa91f36"
+    "verification/run-tests-v318.cjs": "0ca884ea708318eaa8820782936c090451f6264d514a9a75d44c9239b7031678"
   }
 }

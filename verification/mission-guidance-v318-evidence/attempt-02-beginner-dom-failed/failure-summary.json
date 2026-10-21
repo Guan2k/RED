@@ -1,0 +1,47 @@
+{
+  "passed": 31,
+  "failed": 10,
+  "assertions": 445,
+  "failedTests": [
+    {
+      "name": "sidebar placement, native closed semantics and all retained menu DOM",
+      "firstError": "AssertionError [ERR_ASSERTION]: all existing DOM fields/order preserved"
+    },
+    {
+      "name": "classic: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "firstError": "AssertionError [ERR_ASSERTION]: all prior markup and control state equal"
+    },
+    {
+      "name": "frontier: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "firstError": "AssertionError [ERR_ASSERTION]: all prior markup and control state equal"
+    },
+    {
+      "name": "canyon: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "firstError": "AssertionError [ERR_ASSERTION]: all prior markup and control state equal"
+    },
+    {
+      "name": "ridge: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "firstError": "AssertionError [ERR_ASSERTION]: all prior markup and control state equal"
+    },
+    {
+      "name": "crossroads: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "firstError": "AssertionError [ERR_ASSERTION]: all prior markup and control state equal"
+    },
+    {
+      "name": "switchback: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "firstError": "AssertionError [ERR_ASSERTION]: all prior markup and control state equal"
+    },
+    {
+      "name": "ring: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "firstError": "AssertionError [ERR_ASSERTION]: all prior markup and control state equal"
+    },
+    {
+      "name": "meridian: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "firstError": "AssertionError [ERR_ASSERTION]: all prior markup and control state equal"
+    },
+    {
+      "name": "negative exact delta: display version not bumped",
+      "firstError": "AssertionError [ERR_ASSERTION]: mutation took effect"
+    }
+  ]
+}

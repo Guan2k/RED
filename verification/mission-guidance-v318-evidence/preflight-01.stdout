@@ -1,0 +1,37 @@
+{
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "name": "purchase-funding-v315.cjs",
+      "passed": true,
+      "stable": "stable-suites/purchase-funding.cjs"
+    },
+    {
+      "name": "purchase-funding-negative-v315.cjs",
+      "passed": true,
+      "stable": "stable-suites/purchase-funding-negative.cjs"
+    },
+    {
+      "name": "selection-key-repeat-v315.cjs",
+      "passed": true,
+      "stable": "stable-suites/selection-key-repeat.cjs"
+    },
+    {
+      "name": "selection-key-repeat-negative-v315.cjs",
+      "passed": true,
+      "stable": "stable-suites/selection-key-repeat-negative.cjs"
+    },
+    {
+      "name": "escape-key-repeat-v315.cjs",
+      "passed": true,
+      "stable": "stable-suites/escape-key-repeat.cjs"
+    },
+    {
+      "name": "escape-key-repeat-negative-v315.cjs",
+      "passed": true,
+      "stable": "stable-suites/escape-key-repeat-negative.cjs"
+    }
+  ],
+  "scope": "Dispatch structure and dependency integrity only; no behavioral gate executed."
+}

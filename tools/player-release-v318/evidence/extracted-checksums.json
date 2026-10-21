@@ -1,0 +1,8 @@
+{
+  "exitCode": 0,
+  "stdout": "CURRENT_PLAYER_GUIDE.md: OK\nQUICK_START.html: OK\nREADME.md: OK\nindex.html: OK\n",
+  "stderr": "",
+  "exactFiveFiles": true,
+  "sameIndexAsFrozenSource": true,
+  "sameGuideAsReviewedDerivation": true
+}

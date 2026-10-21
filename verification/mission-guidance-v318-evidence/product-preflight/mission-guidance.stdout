@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": 31,
+  "negativeControls": 6,
+  "sourceSha256": "2dd187413072387be74374055d898fa5a3c853c68f57ad483079880198ee8345",
+  "baselineSha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d",
+  "scope": "exact static markup fence plus whole-source VM read-only and state parity; no native-browser, timing, touch, FPS or balance claim"
+}

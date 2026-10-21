@@ -1,0 +1,25 @@
+{
+  "runs": [
+    {
+      "directory": "one",
+      "cwd": "common-root",
+      "sourceMtime": 1640995200,
+      "exitCode": 0,
+      "sha256": "6bf583e4247cba1bbfda1b425fccc662f23366212d35ff1b5129610b0412b5dc",
+      "bytes": 629031,
+      "wholeSourceAndToolCopy": true,
+      "sameAsDelivered": true
+    },
+    {
+      "directory": "two",
+      "cwd": "separate-parent",
+      "sourceMtime": 1641081600,
+      "exitCode": 0,
+      "sha256": "6bf583e4247cba1bbfda1b425fccc662f23366212d35ff1b5129610b0412b5dc",
+      "bytes": 629031,
+      "wholeSourceAndToolCopy": true,
+      "sameAsDelivered": true
+    }
+  ],
+  "scope": "Independent directories and processes, not independent human review; static package reproduction only."
+}

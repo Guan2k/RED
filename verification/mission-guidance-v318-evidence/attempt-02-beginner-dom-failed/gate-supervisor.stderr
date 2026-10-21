@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/e433d7540f34/red-development/v318-integration/run-isolated-gate.py", line 14, in <module>
+    assert result.returncode==0 and report['originalUnchanged'] and report['isolatedInputsUnchanged'] and report['stderrBytes']==0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

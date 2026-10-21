@@ -1,0 +1,124 @@
+{
+  "passed": 29,
+  "failed": 0,
+  "sourceSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "results": [
+    {
+      "name": "exact ten-node omission equals physical source removal and prior comparator",
+      "passed": true
+    },
+    {
+      "name": "projection leaves live graph, selection and active element unchanged",
+      "passed": true
+    },
+    {
+      "name": "unprojected current comparator retains every added and old field",
+      "passed": true
+    },
+    {
+      "name": "missing note rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "duplicate note ID rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "unexpected note attribute rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "unexpected note field rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "changed note text field rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "changed note visibility rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "changed note styling rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "new note listener rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "changed label attribute rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "changed label text field rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "extra nested child rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "wrong note parent rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "wrong label parent rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "reordered notes rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "duplicate flat note identity rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "wrong flat note order rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "detached briefing rejected before exclusion",
+      "passed": true
+    },
+    {
+      "name": "original rule text remains observable",
+      "passed": true
+    },
+    {
+      "name": "original rule attributes remains observable",
+      "passed": true
+    },
+    {
+      "name": "original rule order remains observable",
+      "passed": true
+    },
+    {
+      "name": "original list attributes remains observable",
+      "passed": true
+    },
+    {
+      "name": "original briefing attribute remains observable",
+      "passed": true
+    },
+    {
+      "name": "old control attribute remains observable",
+      "passed": true
+    },
+    {
+      "name": "old cash text remains observable",
+      "passed": true
+    },
+    {
+      "name": "lookalike unrelated ID remains observable",
+      "passed": true
+    },
+    {
+      "name": "source artifact unchanged",
+      "passed": true
+    }
+  ],
+  "scope": "Exact five reviewed LI/STRONG pairs only; physical-removal equivalence, no live/source mutation, malformed additions rejected and original fields remain observable. Mock DOM only."
+}

@@ -1,0 +1,10 @@
+{
+  "type": "ERR_SCRIPT_EXECUTION_TIMEOUT",
+  "test": "render-preview-v318.cjs",
+  "case": "trajectory/world-rng-track-parity-crossroads",
+  "timeoutMs": 10000,
+  "passed": 78,
+  "failed": 1,
+  "assertions": 7256,
+  "action": "Retry original untouched specific suite then unchanged complete gate; no timeout relaxation."
+}

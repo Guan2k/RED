@@ -1,0 +1,7 @@
+{
+  "sourceSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "baselineSha256": "b256810fe285c02bedf0ec252e223c0e67d727912cb5721d07dbae24424c4c9d",
+  "deltaCount": 2,
+  "forwardReconstructionExact": true,
+  "scope": "Display version plus five text-only list items inside unchanged optional mission briefing. Full script/style unchanged."
+}

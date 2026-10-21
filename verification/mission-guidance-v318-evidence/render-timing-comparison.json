@@ -1,0 +1,36 @@
+{
+  "317": {
+    "process": {
+      "exitCode": 0,
+      "elapsedSeconds": 106.7856330871582,
+      "observer": "Only runInContext outer wall-clock measurement; all original code/context/options forwarded unchanged."
+    },
+    "suite": {
+      "passed": 79,
+      "failed": 0,
+      "assertions": 7284
+    },
+    "calls": 120,
+    "crossroadsMinMs": 337.60337699999945,
+    "crossroadsMaxMs": 937.8234059999959,
+    "crossroadsMedianMs": 704.8359939999937,
+    "allMaxMs": 1430.1024099999922
+  },
+  "318": {
+    "process": {
+      "exitCode": 0,
+      "elapsedSeconds": 160.6343379020691,
+      "observer": "Only runInContext outer wall-clock measurement; all original code/context/options forwarded unchanged."
+    },
+    "suite": {
+      "passed": 79,
+      "failed": 0,
+      "assertions": 7284
+    },
+    "calls": 120,
+    "crossroadsMinMs": 513.6955850000086,
+    "crossroadsMaxMs": 2716.251476000005,
+    "crossroadsMedianMs": 677.1957299999922,
+    "allMaxMs": 3588.8246110000036
+  }
+}

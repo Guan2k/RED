@@ -1,0 +1,739 @@
+{
+  "passed": 79,
+  "failed": 0,
+  "assertions": 7284,
+  "sourceSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "baselineSha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+  "harnessSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
+  "results": [
+    {
+      "name": "source/legacy-draw-byte-identical-and-v293-restoration",
+      "passed": true,
+      "baselineSha256": "1fa70b3756630fe26de2c76f89045239a46126c479f1cbb22b42bc9baf3b9eca",
+      "harnessSha256": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f"
+    },
+    {
+      "name": "adapter/only-known-helper-y-offsets-preserve-all-other-fields",
+      "passed": true,
+      "knownRectangles": 4,
+      "allowedYDeltas": [
+        2,
+        3
+      ],
+      "malformedAnchorsRejected": 12,
+      "unapprovedDifferencesPreserved": 4
+    },
+    {
+      "name": "lifecycle/default-off-lazy-cache-real-change-handler",
+      "passed": true,
+      "bootstrapMockReads": 1,
+      "cachePaths": 30
+    },
+    {
+      "name": "lifecycle/new-round-retains-choice-fresh-page-starts-off",
+      "passed": true
+    },
+    {
+      "name": "off-render/v293-full-frame-classic",
+      "passed": true,
+      "frames": 3,
+      "paints": 1242
+    },
+    {
+      "name": "off-render/v293-full-frame-frontier",
+      "passed": true,
+      "frames": 3,
+      "paints": 1242
+    },
+    {
+      "name": "off-render/v293-full-frame-canyon",
+      "passed": true,
+      "frames": 3,
+      "paints": 1311
+    },
+    {
+      "name": "off-render/v293-full-frame-ridge",
+      "passed": true,
+      "frames": 3,
+      "paints": 1275
+    },
+    {
+      "name": "off-render/v293-full-frame-crossroads",
+      "passed": true,
+      "frames": 3,
+      "paints": 1299
+    },
+    {
+      "name": "off-render/v293-full-frame-switchback",
+      "passed": true,
+      "frames": 3,
+      "paints": 1371
+    },
+    {
+      "name": "off-render/v293-full-frame-ring",
+      "passed": true,
+      "frames": 3,
+      "paints": 1263
+    },
+    {
+      "name": "off-render/v293-full-frame-meridian",
+      "passed": true,
+      "frames": 3,
+      "paints": 1299
+    },
+    {
+      "name": "cached-render/full-frame-all-units-hp-shots-effects",
+      "passed": true,
+      "frames": 3,
+      "paints": 1546,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-no-effects",
+      "passed": true,
+      "frames": 3,
+      "paints": 1501,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-following-friendly-unit-path",
+      "passed": true,
+      "frames": 3,
+      "paints": 482,
+      "pathFills": 15
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-order",
+      "passed": true,
+      "frames": 3,
+      "paints": 1510,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-blast",
+      "passed": true,
+      "frames": 3,
+      "paints": 1504,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-repair",
+      "passed": true,
+      "frames": 3,
+      "paints": 1507,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-cash",
+      "passed": true,
+      "frames": 3,
+      "paints": 1504,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-boom",
+      "passed": true,
+      "frames": 3,
+      "paints": 1507,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-hit",
+      "passed": true,
+      "frames": 3,
+      "paints": 1507,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-polygon-tail-first-effect-unknown",
+      "passed": true,
+      "frames": 3,
+      "paints": 1507,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-pause-drag-overlays",
+      "passed": true,
+      "frames": 3,
+      "paints": 1558,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-hover-entity",
+      "passed": true,
+      "frames": 3,
+      "paints": 1567,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-hover-ore",
+      "passed": true,
+      "frames": 3,
+      "paints": 1570,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-hover-post",
+      "passed": true,
+      "frames": 3,
+      "paints": 1582,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-hover-rock",
+      "passed": true,
+      "frames": 3,
+      "paints": 1585,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-construction-valid",
+      "passed": true,
+      "frames": 3,
+      "paints": 1576,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-construction-blocked",
+      "passed": true,
+      "frames": 3,
+      "paints": 1597,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-terminal-inspection",
+      "passed": true,
+      "frames": 3,
+      "paints": 1558,
+      "pathFills": 123
+    },
+    {
+      "name": "cached-render/full-frame-empty-entities-consecutive-frames",
+      "passed": true,
+      "frames": 3,
+      "paints": 354,
+      "pathFills": 0
+    },
+    {
+      "name": "cached-render/all-eight-maps-full-frame",
+      "passed": true,
+      "maps": [
+        "classic",
+        "frontier",
+        "canyon",
+        "ridge",
+        "crossroads",
+        "switchback",
+        "ring",
+        "meridian"
+      ],
+      "frames": 16,
+      "paints": 7860
+    },
+    {
+      "name": "cached-render/off-on-off-restores-legacy-next-frame-and-track-phase",
+      "passed": true,
+      "cycles": 5,
+      "legacyPaints": 4542
+    },
+    {
+      "name": "track-phase/visible-unit-phase-and-one-call-per-frame-across-toggles",
+      "passed": true,
+      "frames": 6,
+      "vehiclesPerFrame": 10
+    },
+    {
+      "name": "recorder/current-path-is-not-saved-or-changed-by-fill-path",
+      "passed": true
+    },
+    {
+      "name": "finite-cache/frozen-ten-paths-all-roles-team-phase-radius-type-fallback",
+      "passed": true,
+      "specimens": 832,
+      "phaseSamples": 13,
+      "cachePaths": 10,
+      "vertices": 63
+    },
+    {
+      "name": "failure/cache-latches-absent",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 0,
+        "traces": 0,
+        "moveTo": 0,
+        "lineTo": 0,
+        "closePath": 0,
+        "arc": 0
+      }
+    },
+    {
+      "name": "failure/cache-latches-nonfunction",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 0,
+        "traces": 0,
+        "moveTo": 0,
+        "lineTo": 0,
+        "closePath": 0,
+        "arc": 0
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:1",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 21,
+        "traces": 104,
+        "moveTo": 11,
+        "lineTo": 73,
+        "closePath": 11,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:2",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 22,
+        "traces": 111,
+        "moveTo": 12,
+        "lineTo": 78,
+        "closePath": 12,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:3",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 23,
+        "traces": 118,
+        "moveTo": 13,
+        "lineTo": 83,
+        "closePath": 13,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:4",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 24,
+        "traces": 125,
+        "moveTo": 14,
+        "lineTo": 88,
+        "closePath": 14,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:5",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 25,
+        "traces": 132,
+        "moveTo": 15,
+        "lineTo": 93,
+        "closePath": 15,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:6",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 26,
+        "traces": 139,
+        "moveTo": 16,
+        "lineTo": 98,
+        "closePath": 16,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:7",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 27,
+        "traces": 146,
+        "moveTo": 17,
+        "lineTo": 103,
+        "closePath": 17,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:8",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 28,
+        "traces": 153,
+        "moveTo": 18,
+        "lineTo": 108,
+        "closePath": 18,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:9",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 29,
+        "traces": 160,
+        "moveTo": 19,
+        "lineTo": 113,
+        "closePath": 19,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-constructor:10",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 30,
+        "traces": 167,
+        "moveTo": 20,
+        "lineTo": 118,
+        "closePath": 20,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-moveTo:1",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 21,
+        "traces": 105,
+        "moveTo": 12,
+        "lineTo": 73,
+        "closePath": 11,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-moveTo:10",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 30,
+        "traces": 168,
+        "moveTo": 21,
+        "lineTo": 118,
+        "closePath": 20,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-lineTo:1",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 21,
+        "traces": 106,
+        "moveTo": 12,
+        "lineTo": 74,
+        "closePath": 11,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-lineTo:53",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 30,
+        "traces": 176,
+        "moveTo": 21,
+        "lineTo": 126,
+        "closePath": 20,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-closePath:1",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 21,
+        "traces": 111,
+        "moveTo": 12,
+        "lineTo": 78,
+        "closePath": 12,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-closePath:10",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 30,
+        "traces": 177,
+        "moveTo": 21,
+        "lineTo": 126,
+        "closePath": 21,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/cache-latches-trace:37",
+      "passed": true,
+      "paints": 944,
+      "initialization": {
+        "constructors": 26,
+        "traces": 141,
+        "moveTo": 17,
+        "lineTo": 99,
+        "closePath": 16,
+        "arc": 9
+      }
+    },
+    {
+      "name": "failure/fill-path-latches-at-1",
+      "passed": true,
+      "paints": 1417,
+      "failedFillOrdinal": 1
+    },
+    {
+      "name": "failure/fill-path-latches-at-2",
+      "passed": true,
+      "paints": 1417,
+      "failedFillOrdinal": 2
+    },
+    {
+      "name": "failure/fill-path-latches-at-3",
+      "passed": true,
+      "paints": 1417,
+      "failedFillOrdinal": 3
+    },
+    {
+      "name": "failure/fill-path-latches-at-4",
+      "passed": true,
+      "paints": 1417,
+      "failedFillOrdinal": 4
+    },
+    {
+      "name": "failure/fill-path-latches-at-5",
+      "passed": true,
+      "paints": 1417,
+      "failedFillOrdinal": 5
+    },
+    {
+      "name": "failure/fill-path-latches-at-9",
+      "passed": true,
+      "paints": 1417,
+      "failedFillOrdinal": 9
+    },
+    {
+      "name": "failure/fill-path-latches-at-10",
+      "passed": true,
+      "paints": 1417,
+      "failedFillOrdinal": 10
+    },
+    {
+      "name": "failure/fill-path-latches-at-13",
+      "passed": true,
+      "paints": 1417,
+      "failedFillOrdinal": 13
+    },
+    {
+      "name": "failure/fill-path-latches-at-20",
+      "passed": true,
+      "paints": 1417,
+      "failedFillOrdinal": 20
+    },
+    {
+      "name": "natural-ui/preview-on-off-command-rally-production-movement-parity",
+      "passed": true,
+      "map": "ring",
+      "seconds": 60,
+      "checkpoints": 63,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "paid": 180,
+      "producedId": 19,
+      "atRally": {
+        "x": 338.21403128802484,
+        "y": 596.2173904489424
+      },
+      "afterMap": {
+        "x": 223.95158270448388,
+        "y": 657.8679158979471
+      },
+      "final": {
+        "x": 153.3970480919861,
+        "y": 621.7395047779122
+      },
+      "fixtureKind": "Natural legal UI start, pointer selection, coordinate rally, production button, ordinary map movement and coordinate movement. No world/funds/health/position injection; synthetic VM DOM events."
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-classic",
+      "passed": true,
+      "map": "classic",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-frontier",
+      "passed": true,
+      "map": "frontier",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-canyon",
+      "passed": true,
+      "map": "canyon",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-ridge",
+      "passed": true,
+      "map": "ridge",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-crossroads",
+      "passed": true,
+      "map": "crossroads",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-switchback",
+      "passed": true,
+      "map": "switchback",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-ring",
+      "passed": true,
+      "map": "ring",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "trajectory/world-rng-track-parity-meridian",
+      "passed": true,
+      "map": "meridian",
+      "seconds": 90,
+      "configurations": [
+        "v293",
+        "off",
+        "cached",
+        "fallback",
+        "toggled"
+      ],
+      "checkpoints": 3
+    },
+    {
+      "name": "building-dynamics/hq",
+      "passed": true,
+      "type": "hq",
+      "tailCount": 2
+    },
+    {
+      "name": "building-dynamics/power",
+      "passed": true,
+      "type": "power",
+      "tailCount": 4
+    },
+    {
+      "name": "building-dynamics/factory",
+      "passed": true,
+      "type": "factory",
+      "tailCount": 4
+    },
+    {
+      "name": "building-dynamics/turret",
+      "passed": true,
+      "type": "turret",
+      "tailCount": 7
+    },
+    {
+      "name": "building-failure/cache-construction-latch",
+      "passed": true
+    },
+    {
+      "name": "scope/no-persistence-writes-and-no-real-storage",
+      "passed": true,
+      "mockReadCount": 1,
+      "readKeys": [
+        "red-front-save-v1"
+      ],
+      "note": "Reads return null in memory. No save/load/import/export invoked."
+    }
+  ],
+  "scope": "Whole-source VM, real change-handler and complete render paint recorder. Historical layout replays independent v315 strings through its original measurements/candidates/clamp/fallback; independently specified depleted ground commands are inserted only at a hash-locked historical layer slot; candidate paints are unmodified. Historical expected paints omit only fully validated old ore suffixes and adapt only exact helper rail/fill y offsets, retaining strict restored v293/v295/v296 identities. Every historical full-frame comparison asserts interior HP fixtures and applies no health-Y adapter. Records transformed geometry, paint order, alpha/composite, styles, clipping, current-path residue and consecutive frames. Synthetic scene/failure fixtures, a separate natural UI command/production trajectory, plus 90-second deterministic trajectories on all eight maps. Only mock bootstrap storage reads; no save/load/import/export or real storage. Not native browser, rasterization, GPU, context-loss, visual usability or FPS acceptance.",
+  "sourceUnchanged": true
+}

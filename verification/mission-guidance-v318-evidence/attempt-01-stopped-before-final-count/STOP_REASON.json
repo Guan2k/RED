@@ -1,0 +1,5 @@
+{
+  "time": "2026-10-21T08:44:33.305498+00:00",
+  "reason": "Independent review found retained aggregate expected focused count107 despite new additional direct suite (requires108). Stopped original session with Ctrl-C, returned130, no passing result claimed. Also correct new summary version metadata.",
+  "toolExitCode": 130
+}

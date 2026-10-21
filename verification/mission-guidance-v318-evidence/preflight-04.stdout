@@ -1,0 +1,97 @@
+{
+  "passed": 19,
+  "failed": 0,
+  "assertions": 530,
+  "measurements": [
+    {
+      "switchbackParitySeconds": 5.999999999999984,
+      "randomDraws": 0,
+      "comparedSources": 3
+    },
+    {
+      "wholeSourceInstances": 36,
+      "legacyPresets": 6,
+      "manualOverrideFields": 4,
+      "terminalFixtureKinds": 3
+    }
+  ],
+  "results": [
+    {
+      "name": "seven distinct menu buttons and a readable accurate optional briefing",
+      "passed": true
+    },
+    {
+      "name": "unchanged legacy preset assault",
+      "passed": true
+    },
+    {
+      "name": "unchanged legacy preset harvest",
+      "passed": true
+    },
+    {
+      "name": "unchanged legacy preset stronghold",
+      "passed": true
+    },
+    {
+      "name": "unchanged legacy preset meridian",
+      "passed": true
+    },
+    {
+      "name": "unchanged legacy preset control",
+      "passed": true
+    },
+    {
+      "name": "unchanged legacy preset survival",
+      "passed": true
+    },
+    {
+      "name": "switchback click matches manual selectors in both versions without a special game mode",
+      "passed": true
+    },
+    {
+      "name": "manual override remains authoritative for scenario",
+      "passed": true
+    },
+    {
+      "name": "manual override remains authoritative for objective",
+      "passed": true
+    },
+    {
+      "name": "manual override remains authoritative for difficulty",
+      "passed": true
+    },
+    {
+      "name": "manual override remains authoritative for challenge",
+      "passed": true
+    },
+    {
+      "name": "hidden overlay and running battle independently block preset changes",
+      "passed": true
+    },
+    {
+      "name": "restart cancel and explicit replacement from running battle",
+      "passed": true
+    },
+    {
+      "name": "restart cancel and explicit replacement from paused battle",
+      "passed": true
+    },
+    {
+      "name": "terminal read-only preset and next battle for true",
+      "passed": true
+    },
+    {
+      "name": "terminal read-only preset and next battle for false",
+      "passed": true
+    },
+    {
+      "name": "terminal read-only preset and next battle for null",
+      "passed": true
+    },
+    {
+      "name": "preset table immutability and no persistence writes across tested interactions",
+      "passed": true
+    }
+  ],
+  "scope": "Whole product source executed in the existing deterministic VM. Six v292 presets unchanged; new menu-only Switchback selection, runtime/manual/baseline whole-state and RNG parity, all four manual overrides, independent hidden/live guards, running/paused restart cancellation and replacement, synthetic win/loss/draw terminal boundaries, readable briefing and no persistence writes. No native browser, layout, screen-reader, save lifecycle, or natural winning-strategy acceptance claim."
+}

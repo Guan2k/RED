@@ -1,0 +1,86 @@
+[
+  {
+    "command": [
+      "node",
+      "tools/document-contract/check.cjs",
+      "."
+    ],
+    "exitCode": 0,
+    "stdout": "preflight-00.stdout",
+    "stderr": "preflight-00.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/stable-suites/release-runner.cjs",
+      "--dispatch-check"
+    ],
+    "exitCode": 0,
+    "stdout": "preflight-01.stdout",
+    "stderr": "preflight-01.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/source-delta-v318-negative-control.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "preflight-02.stdout",
+    "stderr": "preflight-02.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/mission-guidance-v318.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "preflight-03.stdout",
+    "stderr": "preflight-03.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/quick-switchback-v318.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "preflight-04.stdout",
+    "stderr": "preflight-04.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/quick-switchback-negative-control-v318.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "preflight-05.stdout",
+    "stderr": "preflight-05.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/progress-rails-v318.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "preflight-06.stdout",
+    "stderr": "preflight-06.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verification/presentation-v318.cjs"
+    ],
+    "exitCode": 0,
+    "stdout": "preflight-07.stdout",
+    "stderr": "preflight-07.stderr"
+  },
+  {
+    "command": [
+      "node",
+      "verify-development.cjs",
+      "--check-only"
+    ],
+    "exitCode": 0,
+    "stdout": "preflight-08.stdout",
+    "stderr": "preflight-08.stderr"
+  }
+]

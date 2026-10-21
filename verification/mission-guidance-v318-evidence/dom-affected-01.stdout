@@ -1,0 +1,452 @@
+{
+  "passed": 111,
+  "failed": 0,
+  "sourceSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "results": [
+    {
+      "name": "repair-button-repeat.cjs exact frozen old ordered graph equivalence",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs comparison does not mutate live graph",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects duplicate panel",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects detached panel",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects wrong panel parent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects panel unexpected field",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects heading unexpected child",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects row reordered",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects rows reordered",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects nested unexpected child",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects wrong child parent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects duplicate flat node",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects wrong flat order",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects production reordered",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects old unrelated value",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects old unrelated parent",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains old fields selection",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains old fields selectArmy",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains old fields ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains old fields attack",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains old fields selectAllDamagedCombat",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains old fields selectIdle",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains production tank",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains production scout",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains production artillery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains production repair",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs rejects retains production harvester",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact frozen old ordered graph equivalence",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs comparison does not mutate live graph",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects duplicate panel",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects detached panel",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects wrong panel parent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects panel unexpected field",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects heading unexpected child",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects row reordered",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects rows reordered",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects nested unexpected child",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects wrong child parent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects duplicate flat node",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects wrong flat order",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects production reordered",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects old unrelated value",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects old unrelated parent",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains old fields selection",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains old fields selectArmy",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains old fields ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains old fields attack",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains old fields selectAllDamagedCombat",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains old fields selectIdle",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains production tank",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains production scout",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains production artillery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains production repair",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs rejects retains production harvester",
+      "passed": true
+    },
+    {
+      "name": "command-allocation exact frozen old ordered graph equivalence",
+      "passed": true
+    },
+    {
+      "name": "command-allocation comparison does not mutate live graph",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects duplicate panel",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects detached panel",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects wrong panel parent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects panel unexpected field",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects heading unexpected child",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects row reordered",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects rows reordered",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects nested unexpected child",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects wrong child parent",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects duplicate flat node",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects wrong flat order",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects production reordered",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects old unrelated value",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains old fields selection",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains old fields selectArmy",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains old fields ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains old fields attack",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains old fields selectAllDamagedCombat",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains old fields selectIdle",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains production tank",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains production scout",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains production artillery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains production repair",
+      "passed": true
+    },
+    {
+      "name": "command-allocation rejects retains production harvester",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide exact frozen old ordered graph equivalence",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide comparison does not mutate live graph",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects duplicate panel",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects detached panel",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects wrong panel parent",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects panel unexpected field",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects heading unexpected child",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects row reordered",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects rows reordered",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects nested unexpected child",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects wrong child parent",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects duplicate flat node",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects wrong flat order",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects production reordered",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects old unrelated value",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects old unrelated parent",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains old fields selection",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains old fields selectArmy",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains old fields ordinaryCommand",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains old fields attack",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains old fields selectAllDamagedCombat",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains old fields selectIdle",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains production tank",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains production scout",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains production artillery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains production repair",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide rejects retains production harvester",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs exact prior comparator bytes except projection",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact prior comparator bytes except projection",
+      "passed": true
+    },
+    {
+      "name": "unprojected beginner preserves live current DOM",
+      "passed": true
+    },
+    {
+      "name": "product source unchanged",
+      "passed": true
+    }
+  ],
+  "scope": "Four actual DOM comparators. Exact ordered cloned-graph relocation only; all original fields and subtrees retained. No runtime/source rewrite. Separate product layout acceptance remains required."
+}
