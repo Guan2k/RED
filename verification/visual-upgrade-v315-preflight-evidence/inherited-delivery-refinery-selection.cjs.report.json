@@ -1,0 +1,302 @@
+{
+  "suite": "delivery-refinery-selection",
+  "total": 72,
+  "passed": 72,
+  "failed": 0,
+  "assertions": 578,
+  "frozenSourceHash": "4a7bd31abc7c433f5de2637677cb8d11d5fa4ec75094ac5e8c7d9d9fdb0fb05f",
+  "expectedHash": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "sourceHashBefore": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "sourceHashAfter": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "tests": [
+    {
+      "name": "strict_source_hash",
+      "passed": true
+    },
+    {
+      "name": "hidden_row_has_scoped_css_and_honest_tooltip",
+      "passed": true
+    },
+    {
+      "name": "full_load_returning_exposes_current_identity",
+      "passed": true
+    },
+    {
+      "name": "full_load_delivery_selects_current_refinery",
+      "passed": true
+    },
+    {
+      "name": "exact_delivery_boundary_selects_current_refinery",
+      "passed": true
+    },
+    {
+      "name": "partial_forced_return_selects_current_refinery",
+      "passed": true
+    },
+    {
+      "name": "partial_forced_delivery_selects_current_refinery",
+      "passed": true
+    },
+    {
+      "name": "partial_global_ore_exhaustion_selects_current_refinery",
+      "passed": true
+    },
+    {
+      "name": "partial_no_ore_entries_selects_current_refinery",
+      "passed": true
+    },
+    {
+      "name": "over_capacity_return_selects_current_refinery",
+      "passed": true
+    },
+    {
+      "name": "gathering_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "assigned_travel_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "automatic_travel_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "empty_forced_return_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "partial_without_forced_return_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "assigned_ore_only_exhausted_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "empty_global_exhaustion_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "manual_move_override_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "manual_end_override_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "unfinished_miner_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "no_refinery_hides_and_rejects_stale_action",
+      "passed": true
+    },
+    {
+      "name": "empty_selection_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "multiple_miners_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "mixed_selection_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "ghost_additional_selection_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "missing_selected_id_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "enemy_miner_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "dead_miner_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "removed_miner_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "building_selection_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "combat_selection_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "repair_selection_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "dead_refinery_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "enemy_refinery_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "unfinished_refinery_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "removed_refinery_revalidated_at_click",
+      "passed": true
+    },
+    {
+      "name": "dead_nearer_refinery_is_excluded",
+      "passed": true
+    },
+    {
+      "name": "enemy_nearer_refinery_is_excluded",
+      "passed": true
+    },
+    {
+      "name": "unfinished_nearer_refinery_is_excluded",
+      "passed": true
+    },
+    {
+      "name": "nearest_refinery_beats_first_array_entry",
+      "passed": true
+    },
+    {
+      "name": "nearest_equal_distance_tie_uses_simulation_array_order",
+      "passed": true
+    },
+    {
+      "name": "label_uses_current_rounded_coordinates",
+      "passed": true
+    },
+    {
+      "name": "new_nearer_refinery_between_render_and_click_revalidated",
+      "passed": true
+    },
+    {
+      "name": "destroyed_rendered_refinery_falls_back_to_live_current_one",
+      "passed": true
+    },
+    {
+      "name": "unfinished_refinery_completed_between_render_and_click",
+      "passed": true
+    },
+    {
+      "name": "refinery_ownership_change_uses_friendly_fallback",
+      "passed": true
+    },
+    {
+      "name": "miner_position_change_recomputes_current_nearest",
+      "passed": true
+    },
+    {
+      "name": "selection_change_to_other_returning_miner_uses_new_owner",
+      "passed": true
+    },
+    {
+      "name": "phase_change_to_empty_between_render_and_click_rejected",
+      "passed": true
+    },
+    {
+      "name": "phase_change_to_manual_between_render_and_click_rejected",
+      "passed": true
+    },
+    {
+      "name": "unstarted_blocks_direct_action",
+      "passed": true
+    },
+    {
+      "name": "restart_prompt_blocks_direct_action",
+      "passed": true
+    },
+    {
+      "name": "terminal_blocks_direct_action",
+      "passed": true
+    },
+    {
+      "name": "pause_allows_selection_without_advancing_time",
+      "passed": true
+    },
+    {
+      "name": "restart_cancel_restores_availability",
+      "passed": true
+    },
+    {
+      "name": "terminal_lifecycle_hides_and_blocks",
+      "passed": true
+    },
+    {
+      "name": "new_battle_does_not_reuse_prior_destination",
+      "passed": true
+    },
+    {
+      "name": "repeated_render_and_helper_queries_are_world_input_rng_readonly",
+      "passed": true
+    },
+    {
+      "name": "selection_only_preserves_all_commands_cargo_economy_and_world",
+      "passed": true
+    },
+    {
+      "name": "repeated_clicks_cannot_issue_or_bind_commands",
+      "passed": true
+    },
+    {
+      "name": "pending_ordinary_clearing_matches_existing_selection_action",
+      "passed": true
+    },
+    {
+      "name": "pending_append_clearing_matches_existing_selection_action",
+      "passed": true
+    },
+    {
+      "name": "pending_ordinary_activation_clearing_matches_existing_selection_action",
+      "passed": true
+    },
+    {
+      "name": "pending_append_activation_clearing_matches_existing_selection_action",
+      "passed": true
+    },
+    {
+      "name": "pending_ordinary_pointer_gesture_clearing_matches_existing_selection_action",
+      "passed": true
+    },
+    {
+      "name": "pending_attack_clearing_matches_existing_selection_action",
+      "passed": true
+    },
+    {
+      "name": "pending_placement_clearing_matches_existing_selection_action",
+      "passed": true
+    },
+    {
+      "name": "pending_drag_clearing_matches_existing_selection_action",
+      "passed": true
+    },
+    {
+      "name": "invalid_stale_click_preserves_pending_input",
+      "passed": true
+    },
+    {
+      "name": "enter_repeat_prevents_accidental_reactivation",
+      "passed": true
+    },
+    {
+      "name": "composing_enter_is_not_intercepted",
+      "passed": true
+    },
+    {
+      "name": "source_bytes_unchanged_after_all_cases",
+      "passed": true
+    }
+  ],
+  "scope": "Full-source Node VM with simulated DOM; all fixtures synthetic. Scoped hidden CSS checked statically only. No native layout/keyboard fidelity, navigation reachability, save/load/import/export, natural gameplay or win-rate claim."
+}

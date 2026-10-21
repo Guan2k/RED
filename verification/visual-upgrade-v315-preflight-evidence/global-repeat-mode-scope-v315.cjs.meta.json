@@ -1,0 +1,16 @@
+{
+  "command": [
+    "node",
+    "verification/global-repeat-mode-scope-v315.cjs"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 23.9,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "sourceUnchanged": true,
+  "stderrBytes": 0,
+  "suiteSha256": "50beb39d627d7ac6d52f0452984f2d0ae719dc8d9a82a8d8e1fe80a55477b561",
+  "suiteUnchanged": true,
+  "passed": 31,
+  "failed": 0,
+  "failures": []
+}

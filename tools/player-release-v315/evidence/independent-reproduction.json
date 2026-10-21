@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "method": "Fresh recovery run: two distinct complete immutable source/tool copies, separate Python CLI processes and separate output paths; bytewise comparison with each other and newly built delivered ZIP. The fresh negative suite additionally builds two distinct source/output paths.",
+  "independentBuilds": [
+    {
+      "archive": "RED-v0.315-player.zip",
+      "bytes": 619722,
+      "sha256": "066e39e76c0ea5acfb329942e25dfd7092ec8279ea0849633386eb14672aec6d",
+      "files": {
+        "CURRENT_PLAYER_GUIDE.md": "29e1856dbe8b622912f419c1d4e054c7b9985c427a553fa7e58368e82418ebba",
+        "QUICK_START.html": "68942475cb1473dab7eebf7910d481798243005d8ccf4ce32d6ab41841964b72",
+        "README.md": "8160c3c6f9e2a16f39b94207485f81a4aad4e48210a286fd7c37d556c3091f6a",
+        "SHA256SUMS.txt": "ec23ef554769a47837804bf54cebd25c0b5dd001d7fe2a21f845010a3fa1eed7",
+        "index.html": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6"
+      },
+      "validation": "static packaging only; no game/browser/storage execution"
+    },
+    {
+      "archive": "RED-v0.315-player.zip",
+      "bytes": 619722,
+      "sha256": "066e39e76c0ea5acfb329942e25dfd7092ec8279ea0849633386eb14672aec6d",
+      "files": {
+        "CURRENT_PLAYER_GUIDE.md": "29e1856dbe8b622912f419c1d4e054c7b9985c427a553fa7e58368e82418ebba",
+        "QUICK_START.html": "68942475cb1473dab7eebf7910d481798243005d8ccf4ce32d6ab41841964b72",
+        "README.md": "8160c3c6f9e2a16f39b94207485f81a4aad4e48210a286fd7c37d556c3091f6a",
+        "SHA256SUMS.txt": "ec23ef554769a47837804bf54cebd25c0b5dd001d7fe2a21f845010a3fa1eed7",
+        "index.html": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6"
+      },
+      "validation": "static packaging only; no game/browser/storage execution"
+    }
+  ],
+  "deliveredArchiveSha256": "066e39e76c0ea5acfb329942e25dfd7092ec8279ea0849633386eb14672aec6d",
+  "deliveredArchiveBytes": 619722,
+  "bytewiseEqual": true,
+  "pythonVersion": "3.12.14",
+  "gameOrBrowserOrStorageRun": false
+}

@@ -1,0 +1,20 @@
+{
+  "baseline": "fixed commit add24f6949c58980f5944f9faf6782b1851aea16",
+  "baselineFiles": 4387,
+  "changedExistingFiles": [
+    "RELEASE_NOTES.md",
+    "QUICK_START.html",
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "QA_STATUS.md",
+    "index.html",
+    "CURRENT_PLAYER_GUIDE.md",
+    "README.md",
+    "source-build-receipt.json",
+    "current-verification.json",
+    "src/styles.css",
+    "src/index.template.html",
+    "src/script/03-renderer.jsfrag"
+  ],
+  "missingExistingFiles": [],
+  "historicalVerificationFilesUnchanged": true
+}

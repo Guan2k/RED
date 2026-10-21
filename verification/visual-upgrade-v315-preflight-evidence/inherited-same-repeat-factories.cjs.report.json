@@ -1,0 +1,236 @@
+{
+  "passed": 57,
+  "failed": 0,
+  "assertions": 168,
+  "results": [
+    {
+      "name": "source identity",
+      "passed": true
+    },
+    {
+      "name": "active local type tank",
+      "passed": true
+    },
+    {
+      "name": "active local type scout",
+      "passed": true
+    },
+    {
+      "name": "active local type artillery",
+      "passed": true
+    },
+    {
+      "name": "active local type repair",
+      "passed": true
+    },
+    {
+      "name": "active local type harvester",
+      "passed": true
+    },
+    {
+      "name": "invalid seed selection.clear()",
+      "passed": true
+    },
+    {
+      "name": "invalid seed selection=new Set([4,peer.id])",
+      "passed": true
+    },
+    {
+      "name": "invalid seed selection=new Set([4,999])",
+      "passed": true
+    },
+    {
+      "name": "invalid seed selection=new Set([999])",
+      "passed": true
+    },
+    {
+      "name": "invalid seed selection=new Set([6])",
+      "passed": true
+    },
+    {
+      "name": "invalid seed selection=new Set([10])",
+      "passed": true
+    },
+    {
+      "name": "invalid seed seed.hp=0",
+      "passed": true
+    },
+    {
+      "name": "invalid seed seed.team=1",
+      "passed": true
+    },
+    {
+      "name": "invalid seed seed.build=1",
+      "passed": true
+    },
+    {
+      "name": "invalid seed seed.factoryRepeatType=\"off\"",
+      "passed": true
+    },
+    {
+      "name": "invalid seed delete seed.factoryRepeatType",
+      "passed": true
+    },
+    {
+      "name": "invalid seed seed.factoryRepeatType=\"invalid\"",
+      "passed": true
+    },
+    {
+      "name": "only seed after peer exclusion peer.hp=0",
+      "passed": true
+    },
+    {
+      "name": "only seed after peer exclusion peer.team=1",
+      "passed": true
+    },
+    {
+      "name": "only seed after peer exclusion peer.build=1",
+      "passed": true
+    },
+    {
+      "name": "only seed after peer exclusion peer.type=\"refinery\"",
+      "passed": true
+    },
+    {
+      "name": "only seed after peer exclusion peer.factoryRepeatType=\"scout\"",
+      "passed": true
+    },
+    {
+      "name": "only seed after peer exclusion delete peer.factoryRepeatType",
+      "passed": true
+    },
+    {
+      "name": "only seed after peer exclusion state.entities=state.entities.filter(e=>e!==peer)",
+      "passed": true
+    },
+    {
+      "name": "stable current entity order includes seed",
+      "passed": true
+    },
+    {
+      "name": "current configuration ignores paid order type origin and occupancy",
+      "passed": true
+    },
+    {
+      "name": "global repeat without local active type is not a cohort",
+      "passed": true
+    },
+    {
+      "name": "blocked lifecycle state.started=false",
+      "passed": true
+    },
+    {
+      "name": "blocked lifecycle state.result=\"测试结束\"",
+      "passed": true
+    },
+    {
+      "name": "blocked lifecycle restartPrompt=true",
+      "passed": true
+    },
+    {
+      "name": "paused selection allowed",
+      "passed": true
+    },
+    {
+      "name": "stale rendered enabled button peer.hp=0",
+      "passed": true
+    },
+    {
+      "name": "stale rendered enabled button seed.hp=0",
+      "passed": true
+    },
+    {
+      "name": "stale rendered enabled button seed.factoryRepeatType=\"off\"",
+      "passed": true
+    },
+    {
+      "name": "stale rendered enabled button peer.factoryRepeatType=\"scout\"",
+      "passed": true
+    },
+    {
+      "name": "stale rendered enabled button selection=new Set([4,peer.id])",
+      "passed": true
+    },
+    {
+      "name": "setting changed after render selects current cohort",
+      "passed": true
+    },
+    {
+      "name": "newly completed matching factory participates at click",
+      "passed": true
+    },
+    {
+      "name": "successful selection clears pending input armOrdinaryCommand()",
+      "passed": true
+    },
+    {
+      "name": "successful selection clears pending input placement=\"power\"",
+      "passed": true
+    },
+    {
+      "name": "successful selection clears pending input attackMode=true",
+      "passed": true
+    },
+    {
+      "name": "successful selection clears pending input drag={start:{x:100,y:100},end:{x:120,y:120}}",
+      "passed": true
+    },
+    {
+      "name": "successful selection clears pending input ordinaryCommandMode=true;appendCommandMode=true;ordinaryCommandGesture={pointerId:55,battle:state,start:{x:1,y:2},moved:false};ordinaryCommandActivation={battle:state,kind:\"pointer\",pointerId:55,canceled:false};appendCommandActivation={battle:state,kind:\"key\",key:\"Enter\",canceled:false};factoryExitActivation={battle:state,canceled:false};selectionClickCandidate={id:4};lastSelectionClick=4;doubleClickSelection=true",
+      "passed": true
+    },
+    {
+      "name": "one match preserves pending input",
+      "passed": true
+    },
+    {
+      "name": "render and query are read only",
+      "passed": true
+    },
+    {
+      "name": "existing idle factory selection remains occupancy-based",
+      "passed": true
+    },
+    {
+      "name": "restart removes old factory cohort",
+      "passed": true
+    },
+    {
+      "name": "keyboard \"Enter\" repeat false",
+      "passed": true
+    },
+    {
+      "name": "keyboard \"Enter\" repeat true",
+      "passed": true
+    },
+    {
+      "name": "keyboard \" \" repeat false",
+      "passed": true
+    },
+    {
+      "name": "keyboard \" \" repeat true",
+      "passed": true
+    },
+    {
+      "name": "off seed cannot borrow global or peer settings",
+      "passed": true
+    },
+    {
+      "name": "selected anchor changes after render",
+      "passed": true
+    },
+    {
+      "name": "global mode switch disables local selection at click",
+      "passed": true
+    },
+    {
+      "name": "IME repeat not consumed {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "IME repeat not consumed {\"keyCode\":229}",
+      "passed": true
+    }
+  ],
+  "scope": "Explicitly synthetic whole-source VM fixtures. Keyboard is handler/native-activation model only; no native browser, persistence or natural construction execution."
+}

@@ -1,0 +1,141 @@
+{
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "passed": 32,
+  "failed": 1,
+  "scope": "Full-source Node VM / simulated DOM only; no native browser validation.",
+  "results": [
+    {
+      "name": "mixed selection reports combat-only injury counts and minimum",
+      "status": "pass"
+    },
+    {
+      "name": "pure combat multi-selection also shows injury distribution",
+      "status": "pass"
+    },
+    {
+      "name": "single vehicle exact threshold and downward percentage 1",
+      "status": "pass"
+    },
+    {
+      "name": "single vehicle exact threshold and downward percentage 0.999999",
+      "status": "pass"
+    },
+    {
+      "name": "single vehicle exact threshold and downward percentage 0.500001",
+      "status": "pass"
+    },
+    {
+      "name": "single vehicle exact threshold and downward percentage 0.5",
+      "status": "pass"
+    },
+    {
+      "name": "single vehicle exact threshold and downward percentage 0.499999",
+      "status": "pass"
+    },
+    {
+      "name": "single vehicle exact threshold and downward percentage 0.001",
+      "status": "pass"
+    },
+    {
+      "name": "single vehicle exact threshold and downward percentage 0.000999",
+      "status": "pass"
+    },
+    {
+      "name": "single vehicle exact threshold and downward percentage 0.000001",
+      "status": "pass"
+    },
+    {
+      "name": "ineligible selected tank e.team=1 does not change combat summary",
+      "status": "pass"
+    },
+    {
+      "name": "ineligible selected tank e.hp=0 does not change combat summary",
+      "status": "pass"
+    },
+    {
+      "name": "ineligible selected tank e.hp=-1 does not change combat summary",
+      "status": "pass"
+    },
+    {
+      "name": "ineligible selected tank e.build=1 does not change combat summary",
+      "status": "pass"
+    },
+    {
+      "name": "ineligible selected harvester  does not change combat summary",
+      "status": "pass"
+    },
+    {
+      "name": "ineligible selected repair  does not change combat summary",
+      "status": "pass"
+    },
+    {
+      "name": "ineligible selected turret  does not change combat summary",
+      "status": "pass"
+    },
+    {
+      "name": "ineligible selected hq  does not change combat summary",
+      "status": "pass"
+    },
+    {
+      "name": "no eligible combat selection has no misleading health line selection=new Set()",
+      "status": "pass"
+    },
+    {
+      "name": "no eligible combat selection has no misleading health line selection=new Set([service.id])",
+      "status": "pass"
+    },
+    {
+      "name": "no eligible combat selection has no misleading health line selection=new Set([structures(0,\"hq\")[0].id])",
+      "status": "pass"
+    },
+    {
+      "name": "read-only phase retains current selected health state.paused=true",
+      "status": "pass"
+    },
+    {
+      "name": "read-only phase retains current selected health restartPrompt=true",
+      "status": "pass"
+    },
+    {
+      "name": "read-only phase retains current selected health state.result='胜利'",
+      "status": "pass"
+    },
+    {
+      "name": "repeated summary and UI refresh preserve simulation commands modes groups and storage",
+      "status": "pass"
+    },
+    {
+      "name": "unselected severely wounded vehicle is not included",
+      "status": "pass"
+    },
+    {
+      "name": "all-damaged selection button updates health immediately",
+      "status": "pass"
+    },
+    {
+      "name": "J and current-selection filter keep health scope aligned",
+      "status": "pass"
+    },
+    {
+      "name": "healing and death are recomputed on UI refresh",
+      "status": "pass"
+    },
+    {
+      "name": "minimum is per-vehicle ratio rather than total or lowest raw HP",
+      "status": "pass"
+    },
+    {
+      "name": "new battle does not leave old health text",
+      "status": "pass"
+    },
+    {
+      "name": "normal simulation and injury text coexist without nonfinite state",
+      "status": "pass"
+    },
+    {
+      "name": "strict restore returns frozen v252 and rejects unrelated change",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: exact v253 selection-health boundary\n\n0 !== 1\n\n    at module.exports (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/restore-v252.cjs:2:222)\n    at /tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/selection-health.cjs:23:1946\n    at test (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/selection-health.cjs:5:70)\n    at Object.<anonymous> (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/selection-health.cjs:23:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    }
+  ]
+}

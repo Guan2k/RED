@@ -1,0 +1,333 @@
+diff --git a/src/script/03-renderer.jsfrag b/src/script/03-renderer.jsfrag
+index ec28148..5799ee5 100644
+--- a/src/script/03-renderer.jsfrag
++++ b/src/script/03-renderer.jsfrag
+@@ -10,7 +10,26 @@ function constructionProgressView(e){if(!e||e.hp<=0||!['power','refinery','facto
+ function drawConstructionProgress(e){let view=constructionProgressView(e);if(!view||e.r<=8)return;let x=e.x-e.r+6,w=e.r*2-12;ctx.save();ctx.beginPath();ctx.rect(e.x-e.r+4,e.y-e.r+4,e.r*2-8,e.r*2-8);ctx.clip();rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,'#e9c579');ctx.restore()}
+ function factoryProductionView(e){if(!e||e.team!==0||e.type!=='factory'||e.hp<=0||e.build)return null;let q=state.queue.find(q=>q.factoryId===e.id);if(!q||activeProductionFactory(q)!==e||!Number.isFinite(q.total)||q.total<=0||!Number.isFinite(q.left))return null;let progress=clamp(1-q.left/q.total,0,1),status=productionStateLabel(q),color=status==='已结束'?'#a3aba8':status==='等待出口'?'#ed987f':['游戏暂停','缺电暂停'].includes(status)?'#ebc877':'#8fd6bd',short=status==='已结束'?'已结束':status==='等待出口'?'待出口':status==='游戏暂停'?'暂停':status==='缺电暂停'?'缺电':Math.round(progress*100)+'%';return{order:q,progress,status,color,short}}
+ function drawFactoryProgress(e){let view=factoryProductionView(e);if(!view||e.r<=8)return;let x=e.x-e.r+6,w=e.r*2-12;ctx.save();ctx.beginPath();ctx.rect(e.x-e.r+4,e.y-e.r+4,e.r*2-8,e.r*2-8);ctx.clip();rect(x,e.y-e.r+5,w,13,'#102019ee');text(view.short,x+3,e.y-e.r+15,view.color,10);rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,view.color);ctx.restore()}
+-function drawBuilding(e){let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);rect(-r+5,-r+9,r*2,r*2,'#16231c80');rect(-r,-r,r*2,r*2,'#293c31');ctx.strokeStyle=color;ctx.lineWidth=3;ctx.strokeRect(-r,-r,r*2,r*2);rect(-r+6,-r+6,r*2-12,r*2-12,color);if(e.type==='hq'){rect(-24,-17,48,36,'#263b36');rect(-17,-11,34,10,'#8ccebd');rect(-8,10,16,28,'#435545');ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}if(e.type==='power'){circle(-9,0,12,'#b3b798');circle(10,0,12,'#9ba789');ctx.beginPath();ctx.moveTo(-3,-15);ctx.lineTo(9,-15);ctx.lineTo(1,-3);ctx.lineTo(10,-3);ctx.lineTo(-8,16);ctx.lineTo(-2,2);ctx.lineTo(-10,2);ctx.closePath();ctx.fillStyle='#fff0a4';ctx.fill();ctx.strokeStyle='#5d6743';ctx.lineWidth=1;ctx.stroke()}if(e.type==='factory'){rect(-25,-16,50,34,'#293d32');for(let i=0;i<4;i++)rect(-22+i*12,-12,7,22,'#688879');rect(-15,19,30,12,'#15241d')}if(e.type==='refinery'){circle(-13,-4,14,'#b4ad78');circle(13,-4,14,'#899a73');rect(-22,12,44,10,'#253c2b')}if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}ctx.restore();drawConstructionProgress(e);drawFactoryProgress(e)}
++// Presentation only: fixed north-west light, no filters, gradients or simulation writes.
++function drawBuildingFoundation(r){
++  rect(-r+5,-r+9,r*2,r*2,'#0d171dcc');
++  rect(-r-3,-r-3,r*2+6,r*2+6,'#1b2928');
++  rect(-r-3,-r-3,r*2+6,2,'#82958a');
++  rect(-r-3,-r+1,2,r*2+2,'#61766c');
++}
++function drawSelectionFrame(e){
++  const x=e.x-e.r-5,y=e.y-e.r-5,w=e.r*2+10,k=Math.min(10,w/3);
++  ctx.save();ctx.setLineDash([]);
++  ctx.strokeStyle='#10221f';ctx.lineWidth=4;ctx.strokeRect(x,y,w,w);
++  ctx.strokeStyle='#b9f5d2';ctx.lineWidth=1;ctx.strokeRect(x,y,w,w);
++  // Equivalent square corner bars in one fill; fewer path calls for mass selection.
++  ctx.beginPath();ctx.rect(x-1.5,y-1.5,k+1.5,3);ctx.rect(x-1.5,y-1.5,3,k+1.5);
++  ctx.rect(x+w-k,y-1.5,k+1.5,3);ctx.rect(x+w-1.5,y-1.5,3,k+1.5);
++  ctx.rect(x+w-1.5,y+w-k,3,k+1.5);ctx.rect(x+w-k,y+w-1.5,k+1.5,3);
++  ctx.rect(x-1.5,y+w-1.5,k+1.5,3);ctx.rect(x-1.5,y+w-k,3,k+1.5);
++  ctx.fillStyle='#b9f5d2';ctx.fill();ctx.restore();
++}
++function drawBuilding(e){let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);drawBuildingFoundation(r);rect(-r,-r,r*2,r*2,'#293c31');ctx.strokeStyle=color;ctx.lineWidth=3;ctx.strokeRect(-r,-r,r*2,r*2);rect(-r+6,-r+6,r*2-12,r*2-12,color);rect(-r+6,-r+6,r*2-12,2,e.team?'#d99278':'#a8c4ae');rect(-r+6,r-8,r*2-12,2,'#142c2980');if(e.type==='hq'){rect(-24,-17,48,36,'#263b36');rect(-17,-11,34,10,'#8ccebd');rect(-8,10,16,28,'#435545');ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}if(e.type==='power'){circle(-9,0,12,'#b3b798');circle(10,0,12,'#9ba789');ctx.beginPath();ctx.moveTo(-3,-15);ctx.lineTo(9,-15);ctx.lineTo(1,-3);ctx.lineTo(10,-3);ctx.lineTo(-8,16);ctx.lineTo(-2,2);ctx.lineTo(-10,2);ctx.closePath();ctx.fillStyle='#fff0a4';ctx.fill();ctx.strokeStyle='#5d6743';ctx.lineWidth=1;ctx.stroke()}if(e.type==='factory'){rect(-25,-16,50,34,'#293d32');for(let i=0;i<4;i++)rect(-22+i*12,-12,7,22,'#688879');rect(-15,19,30,12,'#15241d')}if(e.type==='refinery'){circle(-13,-4,14,'#b4ad78');circle(13,-4,14,'#899a73');rect(-22,12,44,10,'#253c2b')}if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}ctx.restore();drawConstructionProgress(e);drawFactoryProgress(e)}
+ // Building art preview: finite static recipes only; original dynamic layers remain below.
+ @@RED_BUILDING_ART@@
+ function buildingArtTrace(target,shape){let [kind,p]=shape;if(kind==='circle'){target.arc(p[0],p[1],p[2],0,Math.PI*2)}else{target.moveTo(p[0],p[1]);for(let i=2;i<p.length;i+=2)target.lineTo(p[i],p[i+1]);target.closePath()}}
+@@ -33,7 +52,7 @@ function drawBuildingTeamCue(type,team){
+ function drawBuildingPreview(e){
+   if(!Object.hasOwn(buildingArtCanonicalRadius,e.type)||e.r!==buildingArtCanonicalRadius[e.type])return drawBuilding(e);
+   let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);
+-  rect(-r+5,-r+9,r*2,r*2,'#16231c80');ctx.strokeStyle=color;ctx.lineWidth=3;
++  drawBuildingFoundation(r);ctx.strokeStyle=color;ctx.lineWidth=3;
+   drawBuildingStaticBody(e.type,e.team);
+   drawBuildingTeamCue(e.type,e.team);
+   if(e.type==='hq'){ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}
+@@ -43,8 +62,8 @@ function drawBuildingPreview(e){
+ }
+ const unitTrackMemory=new WeakMap();
+ function unitTrackPhase(e){let v=unitTrackMemory.get(e);if(!v){v={x:e.x,y:e.y,phase:0};unitTrackMemory.set(e,v)}else{v.phase=(v.phase+Math.hypot(e.x-v.x,e.y-v.y))%7;v.x=e.x;v.y=e.y}return v.phase}
+-function drawUnit(e){let phase=unitTrackPhase(e),d=defs[e.type],color=e.team?'#b35d49':'#7da477';ctx.save();ctx.translate(e.x,e.y);ctx.rotate(e.angle);rect(-e.r+2,-e.r+4,e.r*2,e.r*2,'#0d211680');rect(-e.r,-e.r,e.r*2,5,'#202c24');rect(-e.r,e.r-5,e.r*2,5,'#202c24');rect(-e.r,-e.r+5,e.r*2,e.r*2-10,color);for(let x=-e.r-7+phase;x<e.r;x+=7){let left=Math.max(-e.r,x),right=Math.min(e.r,x+2);if(right>left){rect(left,-e.r,right-left,4,'#687361');rect(left,e.r-4,right-left,4,'#687361')}}if(e.type==='harvester'){rect(-11,-8,13,16,'#b4b086');rect(7,-10,9,20,'#dcbe70');rect(-11,8,Math.max(1,e.load/180*20),3,'#e9c55f')}else if(e.type==='repair'){rect(-9,-8,18,16,'#bfd5b0');rect(-2,-6,4,12,'#2c7350');rect(-6,-2,12,4,'#2c7350')}else{circle(0,0,e.type==='tank'?9:6,color);rect(0,-3,e.type==='artillery'?34:e.type==='tank'?24:17,6,'#c0c7a3');if(e.type==='artillery'){rect(-11,-7,14,14,'#bac4a0');rect(-13,-12,4,24,'#263e2c')}}ctx.restore()}
+-const terrainAccentTiles=[];for(let y=0;y<HEIGHT;y+=40)for(let x=0;x<WIDTH;x+=40)if(Math.sin(x*13+y*27)>.2)terrainAccentTiles.push([x,y]);
++function drawUnit(e){let phase=unitTrackPhase(e),d=defs[e.type],color=e.team?'#b35d49':'#7da477';ctx.save();ctx.translate(e.x,e.y);ctx.rotate(e.angle);rect(-e.r+2,-e.r+4,e.r*2,e.r*2,'#0d211680');rect(-e.r,-e.r,e.r*2,5,'#202c24');rect(-e.r,e.r-5,e.r*2,5,'#202c24');rect(-e.r,-e.r+5,e.r*2,e.r*2-10,color);rect(-e.r+1,-e.r+5,e.r*2-2,2,e.team?'#d58a71':'#adc5ad');for(let x=-e.r-7+phase;x<e.r;x+=7){let left=Math.max(-e.r,x),right=Math.min(e.r,x+2);if(right>left){rect(left,-e.r,right-left,4,'#687361');rect(left,e.r-4,right-left,4,'#687361')}}if(e.type==='harvester'){rect(-11,-8,13,16,'#b4b086');rect(7,-10,9,20,'#dcbe70');rect(-11,8,Math.max(1,e.load/180*20),3,'#e9c55f')}else if(e.type==='repair'){rect(-9,-8,18,16,'#bfd5b0');rect(-2,-6,4,12,'#2c7350');rect(-6,-2,12,4,'#2c7350')}else{circle(0,0,e.type==='tank'?9:6,color);rect(0,-3,e.type==='artillery'?34:e.type==='tank'?24:17,6,'#c0c7a3');if(e.type==='artillery'){rect(-11,-7,14,14,'#bac4a0');rect(-13,-12,4,24,'#263e2c')}}ctx.restore()}
++const terrainAccentTiles=[];for(let y=0;y<HEIGHT;y+=80)for(let x=0;x<WIDTH;x+=80)if(Math.sin(x*13+y*27)>.55)terrainAccentTiles.push([x,y]);
+ let vehicleArtPreview=false;
+ // Draw-only art pilot: immutable polygon paths, exact direct-command fallback.
+ // No simulation fields, RNG, raster caches or separate turret rotation are introduced.
+@@ -97,7 +116,7 @@ function drawUnitPreview(e){
+   ctx.restore();
+ }
+ 
+-function drawTerrain(){let meridian=state.mapChoice==='meridian',ring=state.mapChoice==='ring',frontier=state.mapChoice==='frontier',canyon=state.mapChoice==='canyon',ridge=state.mapChoice==='ridge',crossroads=state.mapChoice==='crossroads',switchback=state.mapChoice==='switchback';rect(0,0,WIDTH,HEIGHT,meridian?'#3b454a':ring?'#3c4541':switchback?'#48463c':crossroads?'#3c4745':ridge?'#35483f':canyon?'#494b41':frontier?'#5b553c':'#354a37');ctx.fillStyle=meridian?'#424d51':ring?'#424c46':switchback?'#504d42':crossroads?'#414e4b':ridge?'#3b4f44':canyon?'#505247':frontier?'#625a40':'#394d3a';ctx.beginPath();for(let [x,y] of terrainAccentTiles)ctx.rect(x,y,40,40);ctx.fill();ctx.strokeStyle='#9aba7810';ctx.lineWidth=1;ctx.setLineDash([]);ctx.beginPath();for(let x=0;x<=WIDTH;x+=40){ctx.moveTo(x,0);ctx.lineTo(x,HEIGHT)}for(let y=0;y<=HEIGHT;y+=40){ctx.moveTo(0,y);ctx.lineTo(WIDTH,y)}ctx.stroke();ctx.strokeStyle='#596446';ctx.lineWidth=70;ctx.beginPath();if(meridian){for(let x of[60,600,1140]){ctx.moveTo(600,0);ctx.bezierCurveTo(600,130,x,180,x,400);ctx.bezierCurveTo(x,620,600,670,600,800)}}else if(ring){for(let y of[180,630]){ctx.moveTo(0,400);ctx.bezierCurveTo(290,400,350,y,600,y);ctx.bezierCurveTo(850,y,910,400,1200,400)}}else if(switchback){ctx.moveTo(0,400);ctx.bezierCurveTo(250,400,350,470,470,470);ctx.bezierCurveTo(580,470,630,570,730,570);ctx.bezierCurveTo(870,570,930,400,1200,400);for(let y of [70,755]){ctx.moveTo(0,400);ctx.bezierCurveTo(260,400,330,y,470,y);ctx.lineTo(730,y);ctx.bezierCurveTo(870,y,960,400,1200,400)}ctx.moveTo(600,180);ctx.lineTo(600,660)}else if(crossroads){for(let y of [120,400,680]){ctx.moveTo(0,400);ctx.bezierCurveTo(280,400,350,y,600,y);ctx.bezierCurveTo(850,y,920,400,1200,400)}ctx.moveTo(600,40);ctx.lineTo(600,760)}else if(ridge){ctx.moveTo(0,400);ctx.lineTo(1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(300,400,370,60,600,60);ctx.bezierCurveTo(830,60,900,400,1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(300,400,370,740,600,740);ctx.bezierCurveTo(830,740,900,400,1200,400)}else if(canyon){ctx.moveTo(0,400);ctx.bezierCurveTo(400,400,450,300,600,300);ctx.bezierCurveTo(750,300,850,400,1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(400,400,450,500,600,500);ctx.bezierCurveTo(750,500,850,400,1200,400)}else if(frontier){ctx.moveTo(0,400);ctx.bezierCurveTo(400,100,800,150,1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(400,700,800,650,1200,400)}else{ctx.moveTo(0,770);ctx.bezierCurveTo(400,600,710,300,1200,90)}ctx.stroke()}
++function drawTerrain(){let meridian=state.mapChoice==='meridian',ring=state.mapChoice==='ring',frontier=state.mapChoice==='frontier',canyon=state.mapChoice==='canyon',ridge=state.mapChoice==='ridge',crossroads=state.mapChoice==='crossroads',switchback=state.mapChoice==='switchback';rect(0,0,WIDTH,HEIGHT,meridian?'#3b454a':ring?'#3c4541':switchback?'#48463c':crossroads?'#3c4745':ridge?'#35483f':canyon?'#494b41':frontier?'#5b553c':'#30423b');ctx.fillStyle=meridian?'#424d51':ring?'#424c46':switchback?'#504d42':crossroads?'#414e4b':ridge?'#3b4f44':canyon?'#505247':frontier?'#625a40':'#32443d';ctx.beginPath();for(let [x,y] of terrainAccentTiles){ctx.moveTo(x,y+7);ctx.lineTo(x+31,y);ctx.lineTo(x+40,y+23);ctx.lineTo(x+8,y+35);ctx.closePath();}ctx.fill();ctx.strokeStyle='#a8c6b009';ctx.lineWidth=1;ctx.setLineDash([]);ctx.beginPath();for(let x=0;x<=WIDTH;x+=40){ctx.moveTo(x,0);ctx.lineTo(x,HEIGHT)}for(let y=0;y<=HEIGHT;y+=40){ctx.moveTo(0,y);ctx.lineTo(WIDTH,y)}ctx.stroke();ctx.strokeStyle='#24332b';ctx.lineWidth=76;ctx.beginPath();if(meridian){for(let x of[60,600,1140]){ctx.moveTo(600,0);ctx.bezierCurveTo(600,130,x,180,x,400);ctx.bezierCurveTo(x,620,600,670,600,800)}}else if(ring){for(let y of[180,630]){ctx.moveTo(0,400);ctx.bezierCurveTo(290,400,350,y,600,y);ctx.bezierCurveTo(850,y,910,400,1200,400)}}else if(switchback){ctx.moveTo(0,400);ctx.bezierCurveTo(250,400,350,470,470,470);ctx.bezierCurveTo(580,470,630,570,730,570);ctx.bezierCurveTo(870,570,930,400,1200,400);for(let y of [70,755]){ctx.moveTo(0,400);ctx.bezierCurveTo(260,400,330,y,470,y);ctx.lineTo(730,y);ctx.bezierCurveTo(870,y,960,400,1200,400)}ctx.moveTo(600,180);ctx.lineTo(600,660)}else if(crossroads){for(let y of [120,400,680]){ctx.moveTo(0,400);ctx.bezierCurveTo(280,400,350,y,600,y);ctx.bezierCurveTo(850,y,920,400,1200,400)}ctx.moveTo(600,40);ctx.lineTo(600,760)}else if(ridge){ctx.moveTo(0,400);ctx.lineTo(1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(300,400,370,60,600,60);ctx.bezierCurveTo(830,60,900,400,1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(300,400,370,740,600,740);ctx.bezierCurveTo(830,740,900,400,1200,400)}else if(canyon){ctx.moveTo(0,400);ctx.bezierCurveTo(400,400,450,300,600,300);ctx.bezierCurveTo(750,300,850,400,1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(400,400,450,500,600,500);ctx.bezierCurveTo(750,500,850,400,1200,400)}else if(frontier){ctx.moveTo(0,400);ctx.bezierCurveTo(400,100,800,150,1200,400);ctx.moveTo(0,400);ctx.bezierCurveTo(400,700,800,650,1200,400)}else{ctx.moveTo(0,770);ctx.bezierCurveTo(400,600,710,300,1200,90)}ctx.stroke();ctx.strokeStyle='#56604a';ctx.lineWidth=70;ctx.stroke();ctx.strokeStyle='#626b512e';ctx.lineWidth=54;ctx.stroke()}
+ function orderPath(e){let nav=navigationMemory.get(e);return e.goal&&selection.size<=6&&nav?.route?.length>1&&dist(nav.goal,e.goal)<=8?nav.route:e.goal?[e.goal]:[]}
+ function viewingFinishedBattle(){return !!(state.started&&state.result&&$('overlay').classList.contains('hidden'))}
+ function inspectionBlocked(){return viewingFinishedBattle()?!!drag:commandBlocked()||!!placement||!!drag}
+@@ -153,4 +172,4 @@ function postCaption(p){return p.contested?'争夺中':p.controlBlocked?'抢占
+ function oreLabelLayout(){ctx.save();ctx.font='11px system-ui';const measured=new Map(),metrics=s=>{if(measured.has(s))return measured.get(s);let m=ctx.measureText(s),b={left:Math.max(0,m.actualBoundingBoxLeft||0),right:Math.max(m.width,m.actualBoundingBoxRight||0),up:Math.max(11,m.actualBoundingBoxAscent||0),down:Math.max(3,m.actualBoundingBoxDescent||0)};measured.set(s,b);return b},box=(p,m)=>({left:p.x-m.left-2,right:p.x+m.right+2,top:p.y-m.up-2,bottom:p.y+m.down+2});const postBoxes=state.posts.map(p=>box({x:p.x-30,y:p.y+46},metrics(postCaption(p)))),rangeMetrics=metrics('据点控制65'),rangeBoxes=state.posts.map(p=>box({x:clamp(p.x-34,8,WIDTH-80),y:Math.max(14,p.y-71)},rangeMetrics)),labels=[],marker=state.mapChoice==='meridian'&&state.objective==='stronghold'?strongholdPost():null,markerBoxes=marker?[{left:marker.x-32,right:marker.x+40,top:marker.y-94,bottom:marker.y-70},{left:marker.x-66,right:marker.x+78,top:marker.y+66,bottom:marker.y+90}]:[];let normalBoxes,expandedBoxes;for(let o of state.ores){if(o.amount<=0)continue;let label='矿 '+(o.amount<1000?Math.ceil(o.amount):Math.ceil(o.amount/1000)+'k'),m=metrics(label),candidates=[{x:o.x-25,y:o.y+48},{x:o.x-25,y:o.y-74},{x:o.x+90,y:o.y+4},{x:o.x-m.right-90,y:o.y+4},{x:o.x-25,y:o.y+100}].map(p=>({x:clamp(p.x,4+m.left,WIDTH-4-m.right),y:clamp(p.y,4+m.up,HEIGHT-4-m.down)}));let safe=(p,expanded)=>{let b=box(p,m),radius=expanded?68:36,boxes=expanded?(expandedBoxes??=postBoxes.concat(rangeBoxes,markerBoxes)):(normalBoxes??=postBoxes.concat(markerBoxes));return !state.posts.some(q=>{let dx=q.x-clamp(q.x,b.left,b.right),dy=q.y-clamp(q.y,b.top,b.bottom);return dx*dx+dy*dy<=radius*radius})&&!boxes.some(q=>b.left<q.right&&b.right>q.left&&b.top<q.bottom&&b.bottom>q.top)};let p=safe(candidates[0],false)?candidates[0]:candidates.slice(1).find(p=>safe(p,true))||candidates[0];labels.push({ore:o,label,x:p.x,y:p.y})}ctx.restore();return labels}
+ function drawDepletedOreBeds(){for(let o of state.ores){if(o.amount<=0){ctx.save();ctx.globalAlpha=.38;circle(o.x,o.y,32,'#62685a');ctx.globalAlpha=.62;ctx.strokeStyle='#8a8e78';ctx.lineWidth=1;ctx.setLineDash([8,10]);ctx.beginPath();ctx.arc(o.x,o.y,31.5,0,Math.PI*2);ctx.stroke();ctx.setLineDash([]);ctx.globalAlpha=.65;ctx.strokeStyle='#939580';ctx.lineWidth=1.3;ctx.beginPath();for(let [x,y] of [[-15,1],[-7,9],[1,17]]){ctx.moveTo(o.x+x,o.y+y);ctx.lineTo(o.x+x+12,o.y+y-9)}ctx.stroke();ctx.restore()}}}
+ function drawStrongholdMarker(){if(state.objective!=='stronghold')return;let p=strongholdPost();if(!p)return;ctx.save();ctx.fillStyle='#e4c7830a';ctx.strokeStyle='#e4c783';ctx.lineWidth=2;ctx.setLineDash([8,5]);ctx.beginPath();ctx.arc(p.x,p.y,65,0,Math.PI*2);ctx.fill();ctx.stroke();ctx.setLineDash([]);text('驻守目标',p.x-28,p.y-76,'#f5d997',13);text('我 '+Math.floor(state.controlProgress[0])+'/90 · 敌 '+Math.floor(state.controlProgress[1])+'/90',p.x-61,p.y+83,'#f5d997',12);ctx.restore()}
+-function render(){let buildPreview=placement&&hoverActive&&!drag&&!commandBlocked()&&mouse.x>=0&&mouse.x<=WIDTH&&mouse.y>=0&&mouse.y<=HEIGHT?constructionPreview(placement,mouse):null,hoveredEntity=hoverEntity(),hoveredOre=hoverOre(hoveredEntity),postPreview=hoverPost(hoveredEntity,hoveredOre),hoveredRock=hoverRock(hoveredEntity,hoveredOre,postPreview);drawTerrain();drawCoordinateGrid();drawDepletedOreBeds();drawRocks();drawStrongholdMarker();for(let {ore:o,label,x,y} of oreLabelLayout()){circle(o.x,o.y,33,'#746544');for(let i=0,n=o.amount<=1500?1:o.amount<=4500?4:8;i<n;i++){let a=i*2.4;rect(o.x+Math.cos(a)*22-4,o.y+Math.sin(a)*21-5,9,12,i%2?'#c6b96d':'#e5d183')}text(label,x,y,'#e2d692',11)}for(let p of state.posts){let color=p.owner===0?'#9ddd8a':p.owner===1?'#df8a70':'#bfc39b';circle(p.x,p.y,27,'#233d2d');ctx.strokeStyle=color;ctx.lineWidth=2;ctx.beginPath();ctx.arc(p.x,p.y,28,0,Math.PI*2);ctx.stroke();rect(p.x-1,p.y-20,3,36,color);rect(p.x+2,p.y-20,19,12,color);if(p.progress>0){ctx.strokeStyle=p.side===0?'#a1ed84':'#f69872';ctx.lineWidth=4;ctx.beginPath();ctx.arc(p.x,p.y,33,-Math.PI/2,-Math.PI/2+Math.PI*2*p.progress/8);ctx.stroke()}text(postCaption(p),p.x-30,p.y+46,color,11)}drawConstructionRange(buildPreview);drawMiningOrders();drawEscortOrders();drawAttackOrders();drawQueuedAttackOrders();drawFactoryRallies();drawGuardAreas();drawPatrolOrders();drawQueuedOrders();drawSelectionRanges();drawPostCaptureRange(postPreview);drawHoverRange(hoveredEntity);for(let e of state.entities){if(selection.has(e.id)&&e.goal){let path=orderPath(e);ctx.save();ctx.setLineDash([5,7]);ctx.strokeStyle=path.length>1?'#80d4e0':e.attackMove?'#e9be72':'#aee099';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(e.x,e.y);for(let p of path)ctx.lineTo(p.x,p.y);ctx.stroke();ctx.setLineDash([]);if(path.length>1){ctx.fillStyle='#80d4e0';for(let p of path.slice(0,-1))ctx.fillRect(p.x-3,p.y-3,6,6)}ctx.strokeRect(e.goal.x-4,e.goal.y-4,8,8);ctx.restore()}if(e.hp/e.max<.3){ctx.strokeStyle='#ed9870';ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(e.x,e.y,e.r+8,0,Math.PI*2);ctx.stroke()}if(selection.has(e.id)){ctx.strokeStyle='#b6ee95';ctx.lineWidth=2;ctx.strokeRect(e.x-e.r-5,e.y-e.r-5,e.r*2+10,e.r*2+10)}defs[e.type].speed?(vehicleArtPreview?drawUnitPreview(e):drawUnit(e)):(vehicleArtPreview?drawBuildingPreview(e):drawBuilding(e));if(e.hp<e.max||selection.has(e.id)){let healthY=Math.max(0,e.y-e.r-12);rect(e.x-e.r,healthY,e.r*2,4,'#16231b');rect(e.x-e.r,healthY,e.r*2*Math.max(0,e.hp/e.max),4,e.team?'#e78f6a':'#a3db81')}}for(let s of state.shots)circle(s.x,s.y,3,'#ffedac');for(let f of state.fx){let p=1-f.t/f.max;ctx.globalAlpha=f.t/f.max;if(f.type==='order'){ctx.strokeStyle='#c9f59d';ctx.lineWidth=2;ctx.beginPath();ctx.arc(f.x,f.y,8+p*25,0,Math.PI*2);ctx.stroke()}else if(f.type==='blast'){ctx.strokeStyle='#efbc78';ctx.lineWidth=2;ctx.beginPath();ctx.arc(f.x,f.y,f.radius*(.3+.7*p),0,Math.PI*2);ctx.stroke()}else if(f.type==='repair'){ctx.strokeStyle='#b2ebbb';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(f.x,f.y);ctx.lineTo(f.x2,f.y2);ctx.stroke();circle(f.x2,f.y2,4,'#c7f0be')}else if(f.type==='cash')text('+'+(f.amount||0),f.x,f.y-p*30,'#e9d98c',15);else{circle(f.x,f.y,(f.type==='boom'?40:15)*p+4,'#e69e4c');circle(f.x,f.y,(f.type==='boom'?22:8)*p+2,'#ffe0a0')}ctx.globalAlpha=1}drawConstructionGhost(buildPreview);if(drag&&dist(drag,mouse)>5){ctx.strokeStyle='#b5e997';ctx.fillStyle='#ade78b22';ctx.fillRect(drag.x,drag.y,mouse.x-drag.x,mouse.y-drag.y);ctx.strokeRect(drag.x,drag.y,mouse.x-drag.x,mouse.y-drag.y)}if(state.paused&&state.started&&!state.result){rect(0,0,WIDTH,HEIGHT,'#10231a88');text('战场已暂停',470,400,'#e5e8bd',32)}drawBattleAlert();drawHoverInspection(postPreview,hoveredEntity,hoveredOre,hoveredRock);drawConstructionBlocker(buildPreview);drawConstructionPanel(buildPreview);updateCoordinateAid()}
++function render(){let buildPreview=placement&&hoverActive&&!drag&&!commandBlocked()&&mouse.x>=0&&mouse.x<=WIDTH&&mouse.y>=0&&mouse.y<=HEIGHT?constructionPreview(placement,mouse):null,hoveredEntity=hoverEntity(),hoveredOre=hoverOre(hoveredEntity),postPreview=hoverPost(hoveredEntity,hoveredOre),hoveredRock=hoverRock(hoveredEntity,hoveredOre,postPreview);drawTerrain();drawCoordinateGrid();drawDepletedOreBeds();drawRocks();drawStrongholdMarker();for(let {ore:o,label,x,y} of oreLabelLayout()){circle(o.x,o.y,33,'#746544');for(let i=0,n=o.amount<=1500?1:o.amount<=4500?4:8;i<n;i++){let a=i*2.4;rect(o.x+Math.cos(a)*22-4,o.y+Math.sin(a)*21-5,9,12,i%2?'#c6b96d':'#e5d183')}text(label,x,y,'#e2d692',11)}for(let p of state.posts){let color=p.owner===0?'#9ddd8a':p.owner===1?'#df8a70':'#bfc39b';circle(p.x,p.y,27,'#233d2d');ctx.strokeStyle=color;ctx.lineWidth=2;ctx.beginPath();ctx.arc(p.x,p.y,28,0,Math.PI*2);ctx.stroke();rect(p.x-1,p.y-20,3,36,color);rect(p.x+2,p.y-20,19,12,color);if(p.progress>0){ctx.strokeStyle=p.side===0?'#a1ed84':'#f69872';ctx.lineWidth=4;ctx.beginPath();ctx.arc(p.x,p.y,33,-Math.PI/2,-Math.PI/2+Math.PI*2*p.progress/8);ctx.stroke()}text(postCaption(p),p.x-30,p.y+46,color,11)}drawConstructionRange(buildPreview);drawMiningOrders();drawEscortOrders();drawAttackOrders();drawQueuedAttackOrders();drawFactoryRallies();drawGuardAreas();drawPatrolOrders();drawQueuedOrders();drawSelectionRanges();drawPostCaptureRange(postPreview);drawHoverRange(hoveredEntity);for(let e of state.entities){if(selection.has(e.id)&&e.goal){let path=orderPath(e);ctx.save();ctx.setLineDash([5,7]);ctx.strokeStyle=path.length>1?'#80d4e0':e.attackMove?'#e9be72':'#aee099';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(e.x,e.y);for(let p of path)ctx.lineTo(p.x,p.y);ctx.stroke();ctx.setLineDash([]);if(path.length>1){ctx.fillStyle='#80d4e0';for(let p of path.slice(0,-1))ctx.fillRect(p.x-3,p.y-3,6,6)}ctx.strokeRect(e.goal.x-4,e.goal.y-4,8,8);ctx.restore()}if(e.hp/e.max<.3){ctx.strokeStyle='#ed9870';ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(e.x,e.y,e.r+8,0,Math.PI*2);ctx.stroke()}if(selection.has(e.id))drawSelectionFrame(e);defs[e.type].speed?(vehicleArtPreview?drawUnitPreview(e):drawUnit(e)):(vehicleArtPreview?drawBuildingPreview(e):drawBuilding(e));if(e.hp<e.max||selection.has(e.id)){let healthY=Math.max(0,e.y-e.r-12);rect(e.x-e.r-1,healthY-1,e.r*2+2,6,'#0b171c');rect(e.x-e.r,healthY,e.r*2,4,'#34433e');rect(e.x-e.r,healthY,e.r*2*Math.max(0,e.hp/e.max),4,e.hp/e.max<.3?'#ffbc78':e.team?'#e78f6a':'#a3db81')}}for(let s of state.shots)circle(s.x,s.y,3,'#ffedac');for(let f of state.fx){let p=1-f.t/f.max;ctx.globalAlpha=f.t/f.max;if(f.type==='order'){ctx.strokeStyle='#b9f5d2';ctx.lineWidth=2;ctx.beginPath();ctx.arc(f.x,f.y,8+p*25,0,Math.PI*2);ctx.stroke();rect(f.x-2,f.y-2,4,4,'#e3ffea');ctx.beginPath();ctx.moveTo(f.x-7,f.y);ctx.lineTo(f.x-4,f.y);ctx.moveTo(f.x+4,f.y);ctx.lineTo(f.x+7,f.y);ctx.moveTo(f.x,f.y-7);ctx.lineTo(f.x,f.y-4);ctx.moveTo(f.x,f.y+4);ctx.lineTo(f.x,f.y+7);ctx.stroke()}else if(f.type==='blast'){ctx.strokeStyle='#efbc78';ctx.lineWidth=2;ctx.beginPath();ctx.arc(f.x,f.y,f.radius*(.3+.7*p),0,Math.PI*2);ctx.stroke()}else if(f.type==='repair'){ctx.strokeStyle='#b2ebbb';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(f.x,f.y);ctx.lineTo(f.x2,f.y2);ctx.stroke();circle(f.x2,f.y2,4,'#c7f0be')}else if(f.type==='cash')text('+'+(f.amount||0),f.x,f.y-p*30,'#e9d98c',15);else{circle(f.x,f.y,(f.type==='boom'?40:15)*p+4,'#e69e4c');circle(f.x,f.y,(f.type==='boom'?22:8)*p+2,'#ffe0a0')}ctx.globalAlpha=1}drawConstructionGhost(buildPreview);if(drag&&dist(drag,mouse)>5){ctx.strokeStyle='#b5e997';ctx.fillStyle='#ade78b22';ctx.fillRect(drag.x,drag.y,mouse.x-drag.x,mouse.y-drag.y);ctx.strokeRect(drag.x,drag.y,mouse.x-drag.x,mouse.y-drag.y)}if(state.paused&&state.started&&!state.result){rect(0,0,WIDTH,HEIGHT,'#10231a88');text('战场已暂停',470,400,'#e5e8bd',32)}drawBattleAlert();drawHoverInspection(postPreview,hoveredEntity,hoveredOre,hoveredRock);drawConstructionBlocker(buildPreview);drawConstructionPanel(buildPreview);updateCoordinateAid()}
+diff --git a/src/styles.css b/src/styles.css
+index 5b16961..3771fe2 100644
+--- a/src/styles.css
++++ b/src/styles.css
+@@ -4,3 +4,261 @@
+ .vehicle-reference-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;list-style:none;margin:8px 0 12px;padding:0}.vehicle-reference-grid li{min-width:0;padding:6px;border:1px solid #3d5140;border-radius:4px;background:#1c2c23;text-align:center}.vehicle-reference-grid svg{display:block;width:96px;max-width:100%;height:auto;margin:0 auto 4px;background:#354a37}.vehicle-reference-grid span{display:block;font-size:12px;line-height:1.5;overflow-wrap:anywhere}.vehicle-reference-grid .reference-preview{display:none}#vehicleReferenceGallery[data-preview="true"] .reference-original{display:none}#vehicleReferenceGallery[data-preview="true"] .reference-preview{display:block}
+ 
+ .building-reference-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;list-style:none;margin:8px 0 12px;padding:0}.building-reference-grid li{min-width:0;padding:6px;border:1px solid #3d5140;border-radius:4px;background:#1c2c23;text-align:center}.building-reference-grid svg{display:block;width:96px;max-width:100%;height:auto;margin:0 auto 4px;background:#354a37}.building-reference-grid span{display:block;font-size:12px;line-height:1.5;overflow-wrap:anywhere}.building-reference-grid .reference-preview{display:none}#buildingReferenceGallery[data-preview="true"] .reference-original{display:none}#buildingReferenceGallery[data-preview="true"] .reference-preview{display:block}
++
++/* Command desk presentation. Runtime text, DOM order and visibility stay authoritative. */
++:root {
++  --green: #95dbba;
++  --gold: #e7c58a;
++  --ui-bg: #101817;
++  --ui-panel: #182420;
++  --ui-raised: #22332d;
++  --ui-border: #3b5148;
++  --ui-text: #dce8df;
++  --ui-muted: #a6bcb0;
++  --ui-focus: #f2d18d;
++}
++body {
++  background: radial-gradient(ellipse at 18% 0, #22352d 0, #121d19 42%, #0d1413 100%);
++  color: var(--ui-text);
++  line-height: 1.5;
++}
++header {
++  padding: 15px 24px;
++  background: linear-gradient(110deg, #1b2924, #15211e);
++  border-bottom-color: #3b5146;
++  box-shadow: 0 4px 20px #0003;
++}
++h1 { font-size: 23px; letter-spacing: 3.5px; line-height: 1.25; }
++h1 b { color: #e98268; }
++header small { display: block; margin-top: 5px; color: #a3b6a8; letter-spacing: 1.8px; }
++.stats { gap: 8px; align-items: stretch; flex-wrap: wrap; font-size: 12px; font-variant-numeric: tabular-nums; }
++.stats > div {
++  min-width: 76px;
++  padding: 7px 12px;
++  border: 1px solid #34483e;
++  border-radius: 6px;
++  background: #101b18;
++  color: var(--ui-muted);
++  white-space: nowrap;
++}
++.stats b { margin-left: 5px; color: var(--gold); font-size: 15px; font-weight: 650; }
++.stats #timer { display: flex; align-items: center; justify-content: center; color: #c9d7cc; letter-spacing: 1px; }
++main { max-width: 1760px; padding: 18px; gap: 18px; grid-template-columns: minmax(0, 1fr) 318px; }
++.field { border-color: #50665a; border-radius: 10px; box-shadow: 0 12px 36px #0004, 0 0 0 1px #0a110d; }
++.ribbon { padding: 11px 14px; background: linear-gradient(90deg, #25392e, #1a2922); border-bottom-color: #536648; color: #c5d4c4; line-height: 1.6; }
++#mission { color: #e7ead5; font-weight: 600; }
++#battleIdentity { color: #a8c7b6; }
++#challengeStatus { color: var(--gold); font-weight: 500; }
++aside {
++  min-width: 0;
++  padding: 16px;
++  border-color: #40574a;
++  border-radius: 10px;
++  background: linear-gradient(135deg, #1d2c24, #17231e);
++  box-shadow: 0 10px 28px #0003;
++  max-height: calc(100vh - 122px);
++  max-height: calc(100dvh - 122px);
++  scrollbar-width: thin;
++  scrollbar-color: #607c68 #15211b;
++  scroll-padding-block: 16px;
++}
++aside > div { min-width: 0; }
++aside > div + div { border-top: 1px solid #47604f; margin-top: 20px; padding-top: 18px; }
++aside h2 {
++  display: flex;
++  align-items: center;
++  gap: 9px;
++  margin: 22px 0 11px;
++  color: #b5d0b7;
++  font-size: 12px;
++  font-weight: 650;
++  letter-spacing: 2px;
++}
++aside h2::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, #4a6350, transparent); }
++aside > div > h2:first-of-type { margin-top: 0; }
++.cards { gap: 8px; }
++button {
++  min-height: 40px;
++  border-color: #4a6153;
++  border-radius: 6px;
++  padding: 10px 12px;
++  background: linear-gradient(180deg, #304638, #263a2f);
++  color: #e2eadd;
++  line-height: 1.45;
++  box-shadow: inset 0 1px #ffffff08, 0 2px 4px #0002;
++  transition: background-color 120ms ease, border-color 120ms ease, box-shadow 120ms ease;
++  overflow-wrap: anywhere;
++  -webkit-tap-highlight-color: #a5d2b433;
++}
++button:hover:not(:disabled) {
++  border-color: #9bc6a4;
++  background: #3b5846;
++  box-shadow: inset 0 1px #ffffff10, 0 0 0 1px #9bc6a426;
++}
++button:active:not(:disabled) { background: #213b2e; box-shadow: inset 0 2px 5px #0005; }
++button:disabled, button:disabled:hover {
++  opacity: 1;
++  color: #899c8f;
++  border-color: #34483b;
++  background: #1d2d24;
++  box-shadow: none;
++  cursor: not-allowed;
++}
++button span { color: var(--gold); font-variant-numeric: tabular-nums; }
++button:disabled span { color: #9b9c80; }
++.cards button { min-height: 46px; font-weight: 550; padding: 12px; }
++.cards button > span:first-of-type { margin-left: 8px; font-weight: 400; }
++.cards button > span[id^="buildReason"] { display: block; float: none; color: #c6b28a; font-size: 11px; line-height: 1.6; font-weight: 400; }
++.cards button > span[id^="buildReason"]:not(:empty) { margin-top: 5px; }
++.cards button[data-unit] { border-left: 3px solid #6e9b7b; }
++.cards button[data-build] { border-left: 3px solid #a39467; }
++.cards button:disabled { border-left-color: #495b49; }
++.mini { gap: 7px; margin-top: 9px; align-items: stretch; }
++.mini button { min-width: 0; min-height: 40px; padding: 9px 7px; line-height: 1.55; white-space: normal; }
++#ordinaryCommand, #appendCommand, #attack { border-color: #7e8055; background: linear-gradient(180deg, #3d4932, #303d2c); }
++#ordinaryCommand:hover:not(:disabled), #appendCommand:hover:not(:disabled), #attack:hover:not(:disabled) { border-color: var(--gold); background: #505a39; }
++button[aria-pressed="true"] {
++  border-color: var(--gold);
++  background: #544a2e;
++  color: #fff0c7;
++  box-shadow: inset 3px 0 var(--gold), inset 0 1px #fff3bd17;
++}
++#ordinaryCommand[aria-pressed="true"], #appendCommand[aria-pressed="true"], #attack[aria-pressed="true"] { background: #544a2e; }
++#ordinaryCommand:disabled, #appendCommand:disabled, #attack:disabled { background: #242e22; border-color: #424b36; color: #929d88; }
++#start, #cancelRestart { border-color: #d8bc7e; background: linear-gradient(180deg, #dbc18b, #b89b61); color: #20271a; font-weight: 700; }
++#start:hover:not(:disabled), #cancelRestart:hover:not(:disabled) { background: #ebd4a3; border-color: #f8e4b8; }
++#start:disabled, #cancelRestart:disabled { background: #3b402e; color: #a2a78c; border-color: #62664c; }
++#salvage, #restart { border-color: #755347; background: #352d24; color: #e3c0a6; }
++#salvage:hover:not(:disabled), #restart:hover:not(:disabled) { border-color: #bd8a69; background: #4b382c; }
++#salvage:disabled, #restart:disabled { color: #a28e7c; border-color: #4d4337; background: #292a21; }
++button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible {
++  outline: 3px solid var(--ui-focus);
++  outline-offset: 3px;
++  box-shadow: 0 0 0 5px #111c16;
++}
++#map:focus-visible { outline: 3px solid var(--ui-focus); outline-offset: -4px; }
++select, input[type="text"], input[type="number"] {
++  min-height: 38px;
++  min-width: 0;
++  max-width: 100%;
++  border: 1px solid #526d59;
++  border-radius: 5px;
++  padding: 8px 10px;
++  background: #12251b;
++  color: #e2ebdc;
++  font: inherit;
++  font-size: 13px;
++  line-height: 1.5;
++  font-variant-numeric: tabular-nums;
++}
++select:disabled, input:disabled { color: #94a38e; border-color: #3c4e3e; background: #1a291f; opacity: 1; }
++input[type="checkbox"] { accent-color: #95dbba; width: 16px; height: 16px; vertical-align: middle; }
++label { color: #bdcfb8; }
++.hint, .small { color: #afc2ac; font-size: 12px; line-height: 1.8; overflow-wrap: anywhere; }
++aside .hint { margin-top: 8px; }
++.selection {
++  min-height: 72px;
++  padding: 12px 13px;
++  border: 1px solid #4c6b57;
++  border-left: 3px solid #8ed6b4;
++  border-radius: 6px;
++  background: linear-gradient(120deg, #1c3729, #172b20);
++  color: #d7ecda;
++  font-size: 13px;
++  line-height: 1.8;
++  overflow-wrap: anywhere;
++  box-shadow: inset 0 1px #a4edc108;
++}
++aside details { margin-top: 12px; padding: 9px 10px; border: 1px solid #3b5342; border-radius: 6px; background: #14251b; }
++aside details > summary { padding: 3px 0; color: #c3d6b8; font-size: 12px; letter-spacing: .4px; line-height: 1.7; cursor: pointer; }
++aside details[open] > summary { margin-bottom: 10px; color: #e1d3a5; }
++aside details details { background: #182c1f; }
++aside details p { margin-block: 8px; }
++summary::marker { color: #bfa976; }
++#productionOrders button { font-size: 12px; line-height: 1.65; }
++#queue, #productionCapacity, #repeatProductionStatus { font-variant-numeric: tabular-nums; }
++.bar { height: 6px; margin-top: 9px; background: #0d1911; box-shadow: inset 0 1px 3px #0008; }
++.bar i { background: linear-gradient(90deg, #a79254, #dfc582); }
++#battleStats, #objectiveStatus, #guide, #log { padding: 10px 11px; border: 1px solid #3e5340; border-radius: 6px; background: #142219; }
++#objectiveStatus { border-left: 3px solid #b7a56e; color: #d7d4b0; }
++#log { min-height: 72px; color: #c4d2b5; font-size: 12px; line-height: 1.85; overflow-wrap: anywhere; }
++#battleSaveProgress[data-save-state="changed"], #battleSaveProgress[data-save-state="unsaved"],
++#menuBattleSaveProgress[data-save-state="changed"], #menuBattleSaveProgress[data-save-state="unsaved"] { color: #e9c48b; }
++#mapCommandReceipt {
++  margin: 0;
++  padding: 11px 14px;
++  border-top: 1px solid #53624b;
++  border-left: 3px solid #c2b077;
++  background: linear-gradient(90deg, #293529, #1d2b22);
++  color: #e2e7cd;
++  font-size: 13px;
++  line-height: 1.75;
++  font-variant-numeric: tabular-nums;
++}
++.coordinate-aid-bar { padding: 9px 12px; gap: 8px 14px; background: #17251d; border-top-color: #405b46; color: #c0d0b7; }
++.coordinate-aid-bar button { min-height: 34px; padding: 6px 10px; }
++#coordinateCommandPanel { border-top: 1px solid #405b46; margin-top: 2px; padding-top: 10px; }
++#coordinateCommandPanel > summary { color: #cadabc; line-height: 1.8; cursor: pointer; }
++#coordinateCommandPanel[open] > summary { color: var(--gold); }
++#coordinateCommandExecute, #coordinateConstructionExecute { border-color: #8c8252; }
++#coordinateCommandExecute:disabled, #coordinateConstructionExecute:disabled { border-color: #464c35; }
++.battle-alert-text { padding: 10px 14px; border-top-color: #caaa68; border-left: 3px solid #e2ba73; background: #3c321d; color: #f6e7c2; line-height: 1.75; }
++.battle-alert-text[data-level="2"] { border-color: #d77f65; background: #462c24; color: #ffe0cb; }
++#overlay { background: #0b1714df; backdrop-filter: blur(4px); }
++.modal { max-width: 590px; padding: 30px 28px; scrollbar-width: thin; scrollbar-color: #718063 #18271c; }
++.modal h2 { margin-top: 4px; margin-bottom: 16px; color: #f1e5b9; text-shadow: 0 3px 18px #d7b96524; }
++.modal p { color: #bfd0b5; }
++.modal > select { display: block; width: 100%; margin-block: 9px; min-height: 42px; }
++.modal > button { min-height: 44px; margin: 7px 4px; padding: 10px 18px; }
++.modal .quick-missions { padding: 15px; border: 1px solid #476046; border-radius: 8px; background: #172b1e; }
++.quick-missions h3 { color: #d3dfc1; }
++.quick-missions small { color: #b6c8a9; line-height: 1.55; }
++.modal .quick-missions button { margin-top: 8px; padding: 11px 13px; }
++.quick-tips, .save-overview, #battleReport { padding: 12px; border-color: #476046; border-radius: 6px; background: #14251a; }
++.quick-tips summary, .save-overview summary, #mapPreviewDetails summary { line-height: 1.8; cursor: pointer; }
++#mapPreview { cursor: default; }
++#battleReport th, #battleReport td { border-bottom-color: #3b513d; padding: 8px 6px; }
++.vehicle-reference-grid li, .building-reference-grid li { border-color: #476046; background: #1b2f20; padding: 8px; }
++.vehicle-reference-grid svg, .building-reference-grid svg { border-radius: 4px; }
++footer { color: #91a78f; font-size: 11px; line-height: 1.8; padding-bottom: 20px; }
++@media (max-width: 1100px) and (min-width: 851px) {
++  main { grid-template-columns: minmax(0, 1fr) 290px; padding: 12px; gap: 12px; }
++  aside { padding: 12px; }
++  header { padding: 13px 16px; }
++  .stats { gap: 6px; }
++  .stats > div { min-width: 64px; padding-inline: 8px; }
++}
++@media (max-width: 850px) {
++  main { grid-template-columns: minmax(0, 1fr); padding: 10px; gap: 12px; }
++  aside { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 20px; padding: 14px; max-height: none; overflow: visible; }
++  aside > div + div { margin-top: 0; padding-top: 0; border-top: 0; }
++  header { gap: 12px; padding: 12px 14px; }
++  h1 { font-size: 21px; }
++  .stats { flex: 1 1 100%; gap: 6px; }
++  .stats > div { flex: 1 1 auto; min-width: 58px; padding: 6px 9px; }
++  .stats b { font-size: 14px; }
++  .modal { padding: 20px; }
++  .modal h2 { font-size: 28px; }
++  .hint { font-size: 12px; }
++}
++@media (max-width: 560px) {
++  main { padding: 7px; gap: 10px; }
++  header { padding: 12px; }
++  .stats { font-size: 11px; }
++  .stats > div { padding: 6px 7px; }
++  .stats b { font-size: 13px; margin-left: 3px; }
++  aside { display: block; padding: 14px; }
++  aside > div + div { margin-top: 22px; padding-top: 20px; border-top: 1px solid #47604f; }
++  .ribbon { padding: 9px 11px; font-size: 11px; }
++  .modal { padding: 16px; }
++  .modal .quick-missions { padding: 11px; }
++  input[type="text"], input[type="number"], select { font-size: 16px; }
++  .coordinate-aid-bar { padding: 10px; }
++  .coordinate-aid-bar button { white-space: normal; }
++  #mapCommandReceipt { padding: 10px 11px; font-size: 12px; }
++}
++@media (pointer: coarse) {
++  button, .mini button, .coordinate-aid-bar button, select, input[type="text"], input[type="number"] { min-height: 44px; }
++  aside details > summary { padding-block: 7px; }
++}
++@media (prefers-reduced-motion: reduce) { button { transition: none; } }

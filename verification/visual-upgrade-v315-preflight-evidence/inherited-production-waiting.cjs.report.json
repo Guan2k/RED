@@ -1,0 +1,105 @@
+{
+  "passed": 23,
+  "failed": 1,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "scope": "Full-source VM / simulated DOM. Explicit isolated fixtures may set construction, HP, order work, menu and terminal fields; these are unit tests, not natural gameplay.",
+  "results": [
+    {
+      "name": "busy factory explains pending paid order",
+      "status": "pass"
+    },
+    {
+      "name": "existing remaining production seconds remain",
+      "status": "pass"
+    },
+    {
+      "name": "no surviving factory asks to build",
+      "status": "pass"
+    },
+    {
+      "name": "unfinished factory explains completion wait",
+      "status": "pass"
+    },
+    {
+      "name": "dead factory is not construction evidence",
+      "status": "pass"
+    },
+    {
+      "name": "enemy factory cannot satisfy own factory wait",
+      "status": "pass"
+    },
+    {
+      "name": "unfinished extra factory does not hide completed busy factory",
+      "status": "pass"
+    },
+    {
+      "name": "idle completed factory uses pending assignment not busy claim",
+      "status": "pass"
+    },
+    {
+      "name": "partially worked order retains accurate seconds",
+      "status": "pass"
+    },
+    {
+      "name": "completed unassigned order still explains preserved paid work",
+      "status": "pass"
+    },
+    {
+      "name": "assigned production has no waiting explanation",
+      "status": "pass"
+    },
+    {
+      "name": "assigned exit-blocked order keeps exit status only",
+      "status": "pass"
+    },
+    {
+      "name": "paused pending row still explains factual queue reason",
+      "status": "pass"
+    },
+    {
+      "name": "low power does not replace pending factory reason",
+      "status": "pass"
+    },
+    {
+      "name": "restart menu retains read-only pending explanation",
+      "status": "pass"
+    },
+    {
+      "name": "terminal suppresses current waiting claims",
+      "status": "pass"
+    },
+    {
+      "name": "prestart suppresses paid-order claims",
+      "status": "pass"
+    },
+    {
+      "name": "foreign nonqueued object cannot be called paid",
+      "status": "pass"
+    },
+    {
+      "name": "cancelled reference has no stale paid claim",
+      "status": "pass"
+    },
+    {
+      "name": "assignment removes explanation immediately",
+      "status": "pass"
+    },
+    {
+      "name": "readonly helper and repeated UI preserve game and inputs",
+      "status": "pass"
+    },
+    {
+      "name": "status uses displayed current order identity",
+      "status": "pass"
+    },
+    {
+      "name": "victory suppresses waiting claims too",
+      "status": "pass"
+    },
+    {
+      "name": "strict v254 restoration rejects unrelated source change",
+      "status": "fail",
+      "error": "exact v255 waiting explanation boundary\n\n0 !== 1\n"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "render-preview": {
+    "historicalSnapshotExpressions": 3,
+    "allRetained": true
+  },
+  "building-preview": {
+    "historicalSnapshotExpressions": 1,
+    "allRetained": true
+  },
+  "building-team-cue": {
+    "historicalSnapshotExpressions": 1,
+    "allRetained": true
+  },
+  "ore-density": {
+    "historicalSnapshotExpressions": 1,
+    "allRetained": true
+  },
+  "progress-rails": {
+    "historicalSnapshotExpressions": 0,
+    "allRetained": true
+  }
+}

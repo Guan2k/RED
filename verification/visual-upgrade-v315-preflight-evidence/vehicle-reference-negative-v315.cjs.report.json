@@ -1,0 +1,37 @@
+{
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "name": "wrong thumbnail color",
+      "passed": true,
+      "detectedFailures": 1
+    },
+    {
+      "name": "preview mode stuck",
+      "passed": true,
+      "detectedFailures": 7
+    },
+    {
+      "name": "preview changes cash",
+      "passed": true,
+      "detectedFailures": 5
+    },
+    {
+      "name": "decorative SVG exposed",
+      "passed": true,
+      "detectedFailures": 2
+    },
+    {
+      "name": "reference defaults open",
+      "passed": true,
+      "detectedFailures": 1
+    },
+    {
+      "name": "missing narrow image constraint",
+      "passed": true,
+      "detectedFailures": 1
+    }
+  ],
+  "scope": "Six exact candidate mutations detected by current reference test; no historical assertion changes."
+}

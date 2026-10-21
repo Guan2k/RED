@@ -1,0 +1,14 @@
+{
+  "baselineCommit": "add24f6949c58980f5944f9faf6782b1851aea16",
+  "unchangedFiles": 4383,
+  "changedOrMissing": [
+    "index.html",
+    "source-build-receipt.json",
+    "src/styles.css",
+    "src/script/03-renderer.jsfrag"
+  ],
+  "sha256": {
+    "red-development/v314-recovery/repo/index.html": "d0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d",
+    "red-development/v315-recovery-visual/RED/index.html": "dfc6a5f2aebdc57aa370df3c64b47be16fb99e6757277723db3475fcafac03ef"
+  }
+}

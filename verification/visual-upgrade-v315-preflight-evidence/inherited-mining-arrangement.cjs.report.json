@@ -1,0 +1,89 @@
+{
+  "passed": 19,
+  "failed": 1,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "results": [
+    {
+      "name": "automatic arrangement explicit",
+      "status": "pass"
+    },
+    {
+      "name": "specified ore retains remaining and stop help",
+      "status": "pass"
+    },
+    {
+      "name": "manual ground move discloses automatic continuation",
+      "status": "pass"
+    },
+    {
+      "name": "manual ending branch still describes arrangement",
+      "status": "pass"
+    },
+    {
+      "name": "empty G preserves explicit assignment",
+      "status": "pass"
+    },
+    {
+      "name": "loaded G preserves assignment and real work phase",
+      "status": "pass"
+    },
+    {
+      "name": "S clears assignment and exposes automatic arrangement",
+      "status": "pass"
+    },
+    {
+      "name": "no refinery preserves work status without execution promise",
+      "status": "pass"
+    },
+    {
+      "name": "exhausted preserves work status without execution promise",
+      "status": "pass"
+    },
+    {
+      "name": "paused preserves work status without execution promise",
+      "status": "pass"
+    },
+    {
+      "name": "terminal preserves work status without execution promise",
+      "status": "pass"
+    },
+    {
+      "name": "multi-selection receives no single-unit arrangement line",
+      "status": "pass"
+    },
+    {
+      "name": "other single unit unchanged",
+      "status": "pass"
+    },
+    {
+      "name": "repeated rendering is readonly including logs and command fields",
+      "status": "pass"
+    },
+    {
+      "name": "enemy receives no automatic arrangement line",
+      "status": "pass"
+    },
+    {
+      "name": "dead receives no automatic arrangement line",
+      "status": "pass"
+    },
+    {
+      "name": "unfinished receives no automatic arrangement line",
+      "status": "pass"
+    },
+    {
+      "name": "exhausted assigned mine reports automatic arrangement without changing assignment",
+      "status": "pass"
+    },
+    {
+      "name": "terminal manual arrangement omits impossible future continuation",
+      "status": "pass"
+    },
+    {
+      "name": "exact source restoration preserves every gameplay function",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: exact v258 mining-arrangement boundary\n\n0 !== 1\n\n    at module.exports (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/restore-v257.cjs:2:1220)\n    at restore (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/mining-arrangement.cjs:19:1052)\n    at /tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/mining-arrangement.cjs:19:1362\n    at test (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/mining-arrangement.cjs:3:27)\n    at Object.<anonymous> (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/mining-arrangement.cjs:19:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+    }
+  ],
+  "scope": "Node full-source VM simulated DOM. Explicit boundary fixtures in unit cases; natural command matrix is separate."
+}

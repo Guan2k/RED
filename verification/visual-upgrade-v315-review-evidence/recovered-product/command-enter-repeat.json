@@ -1,0 +1,212 @@
+{
+  "passed": 51,
+  "failed": 0,
+  "sourceSha256": "dfc6a5f2aebdc57aa370df3c64b47be16fb99e6757277723db3475fcafac03ef",
+  "results": [
+    {
+      "name": "attack: first Enter, repeats, Escape, repeats, fresh Enter",
+      "passed": true
+    },
+    {
+      "name": "attack: behavioral Escape cancellation survives held Enter",
+      "passed": true
+    },
+    {
+      "name": "attack: behavioral held Enter preserves armed mode",
+      "passed": true
+    },
+    {
+      "name": "attack: repeat without initial key does not arm",
+      "passed": true
+    },
+    {
+      "name": "attack: mouse and assistive click remain valid after blocked repeat",
+      "passed": true
+    },
+    {
+      "name": "attack: Space release arms, Escape cancels held Space, next Space works",
+      "passed": true
+    },
+    {
+      "name": "attack: IME {\"isComposing\":true} Enter repeat untouched",
+      "passed": true
+    },
+    {
+      "name": "attack: IME {\"keyCode\":229} Enter repeat untouched",
+      "passed": true
+    },
+    {
+      "name": "attack: unrelated key repeat untouched by local handler",
+      "passed": true
+    },
+    {
+      "name": "attack: Enter repeat leaves existing Space cancellation token intact",
+      "passed": true
+    },
+    {
+      "name": "power: first Enter, repeats, Escape, repeats, fresh Enter",
+      "passed": true
+    },
+    {
+      "name": "power: behavioral Escape cancellation survives held Enter",
+      "passed": true
+    },
+    {
+      "name": "power: behavioral held Enter preserves armed mode",
+      "passed": true
+    },
+    {
+      "name": "power: repeat without initial key does not arm",
+      "passed": true
+    },
+    {
+      "name": "power: mouse and assistive click remain valid after blocked repeat",
+      "passed": true
+    },
+    {
+      "name": "power: Space release arms, Escape cancels held Space, next Space works",
+      "passed": true
+    },
+    {
+      "name": "power: IME {\"isComposing\":true} Enter repeat untouched",
+      "passed": true
+    },
+    {
+      "name": "power: IME {\"keyCode\":229} Enter repeat untouched",
+      "passed": true
+    },
+    {
+      "name": "power: unrelated key repeat untouched by local handler",
+      "passed": true
+    },
+    {
+      "name": "power: Enter repeat leaves existing Space cancellation token intact",
+      "passed": true
+    },
+    {
+      "name": "refinery: first Enter, repeats, Escape, repeats, fresh Enter",
+      "passed": true
+    },
+    {
+      "name": "refinery: behavioral Escape cancellation survives held Enter",
+      "passed": true
+    },
+    {
+      "name": "refinery: behavioral held Enter preserves armed mode",
+      "passed": true
+    },
+    {
+      "name": "refinery: repeat without initial key does not arm",
+      "passed": true
+    },
+    {
+      "name": "refinery: mouse and assistive click remain valid after blocked repeat",
+      "passed": true
+    },
+    {
+      "name": "refinery: Space release arms, Escape cancels held Space, next Space works",
+      "passed": true
+    },
+    {
+      "name": "refinery: IME {\"isComposing\":true} Enter repeat untouched",
+      "passed": true
+    },
+    {
+      "name": "refinery: IME {\"keyCode\":229} Enter repeat untouched",
+      "passed": true
+    },
+    {
+      "name": "refinery: unrelated key repeat untouched by local handler",
+      "passed": true
+    },
+    {
+      "name": "refinery: Enter repeat leaves existing Space cancellation token intact",
+      "passed": true
+    },
+    {
+      "name": "factory: first Enter, repeats, Escape, repeats, fresh Enter",
+      "passed": true
+    },
+    {
+      "name": "factory: behavioral Escape cancellation survives held Enter",
+      "passed": true
+    },
+    {
+      "name": "factory: behavioral held Enter preserves armed mode",
+      "passed": true
+    },
+    {
+      "name": "factory: repeat without initial key does not arm",
+      "passed": true
+    },
+    {
+      "name": "factory: mouse and assistive click remain valid after blocked repeat",
+      "passed": true
+    },
+    {
+      "name": "factory: Space release arms, Escape cancels held Space, next Space works",
+      "passed": true
+    },
+    {
+      "name": "factory: IME {\"isComposing\":true} Enter repeat untouched",
+      "passed": true
+    },
+    {
+      "name": "factory: IME {\"keyCode\":229} Enter repeat untouched",
+      "passed": true
+    },
+    {
+      "name": "factory: unrelated key repeat untouched by local handler",
+      "passed": true
+    },
+    {
+      "name": "factory: Enter repeat leaves existing Space cancellation token intact",
+      "passed": true
+    },
+    {
+      "name": "turret: first Enter, repeats, Escape, repeats, fresh Enter",
+      "passed": true
+    },
+    {
+      "name": "turret: behavioral Escape cancellation survives held Enter",
+      "passed": true
+    },
+    {
+      "name": "turret: behavioral held Enter preserves armed mode",
+      "passed": true
+    },
+    {
+      "name": "turret: repeat without initial key does not arm",
+      "passed": true
+    },
+    {
+      "name": "turret: mouse and assistive click remain valid after blocked repeat",
+      "passed": true
+    },
+    {
+      "name": "turret: Space release arms, Escape cancels held Space, next Space works",
+      "passed": true
+    },
+    {
+      "name": "turret: IME {\"isComposing\":true} Enter repeat untouched",
+      "passed": true
+    },
+    {
+      "name": "turret: IME {\"keyCode\":229} Enter repeat untouched",
+      "passed": true
+    },
+    {
+      "name": "turret: unrelated key repeat untouched by local handler",
+      "passed": true
+    },
+    {
+      "name": "turret: Enter repeat leaves existing Space cancellation token intact",
+      "passed": true
+    },
+    {
+      "name": "unrelated button Enter repeat default remains available",
+      "passed": true
+    }
+  ],
+  "scope": "Full inline-source VM and explicit Enter-keydown/Space-keyup default-click model. Not native browser timing, accessibility, persistence, aggregate gate or release acceptance."
+}

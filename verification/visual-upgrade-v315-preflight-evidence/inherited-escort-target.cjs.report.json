@@ -1,0 +1,112 @@
+{
+  "passed": 25,
+  "failed": 1,
+  "results": [
+    {
+      "name": "active escort exposes exact current target identity",
+      "status": "pass"
+    },
+    {
+      "name": "selection changes only selection and pending input context",
+      "status": "pass"
+    },
+    {
+      "name": "render and repeated clicks are world and RNG read only",
+      "status": "pass"
+    },
+    {
+      "name": "pause permits selection without time advancement",
+      "status": "pass"
+    },
+    {
+      "name": "no selection blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "multiple selection blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "enemy owner blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "dead owner blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "unfinished owner blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "dead target blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "enemy target blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "unfinished target blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "missing target blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "self target blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "invalid combat target blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "no relationship blocks stale activation",
+      "status": "pass"
+    },
+    {
+      "name": "unstarted blocks action and disables button",
+      "status": "pass"
+    },
+    {
+      "name": "restart blocks action and disables button",
+      "status": "pass"
+    },
+    {
+      "name": "terminal blocks action and disables button",
+      "status": "pass"
+    },
+    {
+      "name": "reassignment between render and click selects actual new target",
+      "status": "pass"
+    },
+    {
+      "name": "owner selection change between render and click revalidates",
+      "status": "pass"
+    },
+    {
+      "name": "restart cancel preserves current relationship",
+      "status": "pass"
+    },
+    {
+      "name": "new battle cannot activate old relationship",
+      "status": "pass"
+    },
+    {
+      "name": "repair follows supported friendly target including combat escort",
+      "status": "pass"
+    },
+    {
+      "name": "Enter repeat prevents accidental follow-chain activation",
+      "status": "pass"
+    },
+    {
+      "name": "restoration rejects unrelated mutation",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: exact v261 escort-target boundary\n\n0 !== 1\n\n    at module.exports (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/restore-v260.cjs:2:965)\n    at restore (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/escort-target.cjs:18:909)\n    at /tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/escort-target.cjs:18:1235\n    at test (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/escort-target.cjs:3:28)\n    at Object.<anonymous> (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/escort-target.cjs:18:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+    }
+  ],
+  "scope": "Node VM simulated DOM; synthetic invalidation fixtures are explicit. No save/import/export or native browser tests."
+}

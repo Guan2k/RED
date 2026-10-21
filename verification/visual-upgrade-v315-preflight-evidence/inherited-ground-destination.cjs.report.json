@@ -1,0 +1,148 @@
+{
+  "passed": 34,
+  "failed": 1,
+  "results": [
+    {
+      "name": "ordinary legal order exposes actual goal",
+      "status": "pass"
+    },
+    {
+      "name": "attack move exposes actual goal",
+      "status": "pass"
+    },
+    {
+      "name": "fractional coordinates follow map rounding",
+      "status": "pass"
+    },
+    {
+      "name": "unstarted suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "terminal suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "multi suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "none suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "arrived suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "enemy suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "dead suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "construction suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "harvester suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "repair suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "building suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "target suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "escort suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "patrol suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "guard suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "hold suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "attack queue suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "unknown attackMove suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "nan suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "infinite suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "missing coordinate suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "negative x suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "negative y suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "outside x suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "outside y suppresses destination",
+      "status": "pass"
+    },
+    {
+      "name": "paused explicit snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "restart explicit snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "map boundary coordinates valid",
+      "status": "pass"
+    },
+    {
+      "name": "route shows current goal and not future queue endpoint",
+      "status": "pass"
+    },
+    {
+      "name": "replacement stop and reselection cannot keep stale line",
+      "status": "pass"
+    },
+    {
+      "name": "repeated UI updates preserve full game state and commands",
+      "status": "pass"
+    },
+    {
+      "name": "restores byte-exact v258 and detects unrelated gameplay change",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: exact v259 destination boundary\n\n0 !== 1\n\n    at module.exports (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/restore-v258.cjs:2:1137)\n    at restore (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/ground-destination.cjs:16:1015)\n    at /tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/ground-destination.cjs:16:1341\n    at test (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/ground-destination.cjs:4:28)\n    at Object.<anonymous> (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/ground-destination.cjs:16:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+    }
+  ],
+  "scope": "Node VM / simulated DOM; boundary fixtures explicitly mutate independent unit state, not natural gameplay."
+}

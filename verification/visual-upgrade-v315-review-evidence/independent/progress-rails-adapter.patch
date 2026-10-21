@@ -1,0 +1,32 @@
+--- 
+
++++ 
+
+@@ -1,3 +1,6 @@
+
++'use strict';
++// v315 expected-side presentation adaptation; no candidate stream changes.
++const {installExpectedPresentation,expectedFunctionSource}=require('./presentation-expected-v315.cjs');
+ 'use strict';
+ const {installExpectedDepletedOreBeds}=require('./depleted-ore-expected-v315.cjs');
+ const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto'),os=require('node:os');
+@@ -15,7 +18,7 @@
+
+ const results=[],proof=[];function test(name,fn){if(only&&name!==only)return;try{fn();results.push({name,pass:true})}catch(e){results.push({name,pass:false,error:e.stack,errorName:e.name,errorCode:e.code})}}
+ const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+ assert.equal(hash(base),'6e59483fa674381da5ebf5e476cb1bd9cc6e65c20679b8803b18b5827b0ff7aa','strict historical v295 identity before expected-label adaptation');
+-function fresh(file,P,scenario='classic',expectedLabels=false){const g=loadGame(file,{seed:29601,path2D:P});if(expectedLabels){installExpectedOreLabels(g);installExpectedDepletedOreBeds(g);}g.element('scenario').value=scenario;g.start();assert.equal(g.run('state.mapChoice'),scenario);return g}
++function fresh(file,P,scenario='classic',expectedLabels=false){const g=loadGame(file,{seed:29601,path2D:P});if(expectedLabels){installExpectedOreLabels(g);installExpectedDepletedOreBeds(g);installExpectedPresentation(g);}g.element('scenario').value=scenario;g.start();assert.equal(g.run('state.mapChoice'),scenario);return g}
+ function fixture(g,type,progress=.5,team=0,r=36,status='normal'){
+  g.run(`globalThis.e={id:901,type:${JSON.stringify(type)},team:${team},x:391,y:277,r:${r},hp:100,max:500,build:0,angle:1.3};state.entities.push(e);state.queue=[];`);
+  if(type==='factory')g.run(`state.queue=[{type:'tank',factoryId:e.id,total:10,left:${10*(1-progress)}}];`);
+@@ -30,7 +33,7 @@
+
+  const copy=JSON.parse(JSON.stringify(a));copy.args[1]+=expectedDelta;assert.deepEqual(b,copy,'only intended y offset changes');assert.equal(vertical(b).height,b.args[3]);assert.ok(vertical(b).width>=0);count++;
+  }return count}
+ function helperPair(type,progress,r,status,team=0){let a=fresh(base,undefined,'classic',true),b=fresh(source);for(const g of[a,b])fixture(g,type,progress,team,r,status);let ar=record(a),br=record(b),oldcore=core(a),newcore=core(b);for(const g of[a,b])g.run('Math.random=()=>{throw Error("unexpected draw RNG")};'+(type==='factory'?'drawFactoryProgress(e)':'drawConstructionProgress(e)'));assert.equal(core(a),oldcore);assert.equal(core(b),newcore);assert.equal(ar.stack.length,0);assert.equal(br.stack.length,0);let n=compare(ar.paints,br.paints,type==='factory'?'factory':'construction');if(r<=8||type!=='factory'&&progress===1||type==='factory'&&team===1)assert.equal(n,0);else assert.equal(n,2,'both rail and fill corrected');return{a:ar.paints,b:br.paints}}
+-test('source diff is exactly four shared-helper y literals',()=>{let a=fs.readFileSync(base,'utf8'),b=fs.readFileSync(source,'utf8');for(const [from,to]of[["rect(x-1,e.y+e.r-7,w+2,5,'#102019');rect(x,e.y+e.r-6,w*view.progress,3,'#e9c579')","rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,'#e9c579')"],["rect(x-1,e.y+e.r-6,w+2,5,'#102019');rect(x,e.y+e.r-5,w*view.progress,3,view.color)","rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,view.color)"]]){assert.equal(a.split(from).length,2);a=a.replace(from,to)}a=a.replace('v0.295','v0.296');for(const c of [...require('./changes-v297.json'),...require('./changes-v298.json'),...require('./changes-v299.json'),...require('./changes-v300.json'),...require('./changes-v301.json'),...require('./changes-v302.json'),...require('./changes-v303.json'),...require('./changes-v304.json'),...require('./changes-v305.json'),...require('./changes-v306.json'),...require('./changes-v307.json'),...require('./changes-v308.json'),...require('./changes-v309.json'),...require('./changes-v310.json'),...require('./changes-v311.json'),...require('./changes-v312.json'),...require('./changes-v313.json'),...require('./changes-v315.json')].reverse()){assert.equal(b.split(c.after).length-1,1,'exact v297 health, v298 hold and v315 scope source anchor');b=b.replace(c.after,c.before)}assert.equal(a,b)});
++test('source diff is exactly four shared-helper y literals',()=>{let a=fs.readFileSync(base,'utf8'),b=fs.readFileSync(source,'utf8');for(const [from,to]of[["rect(x-1,e.y+e.r-7,w+2,5,'#102019');rect(x,e.y+e.r-6,w*view.progress,3,'#e9c579')","rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,'#e9c579')"],["rect(x-1,e.y+e.r-6,w+2,5,'#102019');rect(x,e.y+e.r-5,w*view.progress,3,view.color)","rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,view.color)"]]){assert.equal(a.split(from).length,2);a=a.replace(from,to)}a=a.replace('v0.295','v0.296');for(const c of [...require('./changes-v297.json'),...require('./changes-v298.json'),...require('./changes-v299.json'),...require('./changes-v300.json'),...require('./changes-v301.json'),...require('./changes-v302.json'),...require('./changes-v303.json'),...require('./changes-v304.json'),...require('./changes-v305.json'),...require('./changes-v306.json'),...require('./changes-v307.json'),...require('./changes-v308.json'),...require('./changes-v309.json'),...require('./changes-v310.json'),...require('./changes-v311.json'),...require('./changes-v312.json'),...require('./changes-v313.json'),...require('./changes-v314.json'),...require('./changes-v315.json')].reverse()){assert.equal(b.split(c.after).length-1,1,'exact v297 health, v298 hold and v315 scope source anchor');b=b.replace(c.after,c.before)}assert.equal(a,b)});
+ for(const type of['factory','power','refinery','turret'])for(const r of[8,8.01,9,22,26,33,36,40])for(const p of[0,.25,.5,1])test('helper geometry '+[type,r,p],()=>helperPair(type,p,r,'normal'));
+ for(const status of['normal','paused','powerless','exit','terminal'])for(const p of[0,.5,1])test('factory status '+status+'/'+p,()=>helperPair('factory',p,36,status));
+ for(const type of['factory','power','refinery','turret'])test('enemy predicate '+type,()=>helperPair(type,.5,36,'normal',1));

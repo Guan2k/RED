@@ -1,0 +1,197 @@
+{
+  "passed": 450,
+  "failed": 0,
+  "assertions": 5607,
+  "checks": 5607,
+  "cases": 450,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "baseSha256": "740f0f6155e2c316992ec7cbd9d9dbd92395810454e904baeddc376d7ff5bc3d",
+  "cache": {
+    "paths": 20,
+    "vertices": 84,
+    "circles": 9,
+    "constructors": 20,
+    "pathMethods": 104
+  },
+  "completedNoOrderMethodCounts": {
+    "hq": {
+      "old": 20,
+      "cached": 27,
+      "direct": 46
+    },
+    "power": {
+      "old": 29,
+      "cached": 22,
+      "direct": 54
+    },
+    "refinery": {
+      "old": 19,
+      "cached": 22,
+      "direct": 59
+    },
+    "factory": {
+      "old": 18,
+      "cached": 22,
+      "direct": 49
+    },
+    "turret": {
+      "old": 18,
+      "cached": 18,
+      "direct": 42
+    }
+  },
+  "constructionMethodCounts": {
+    "hq": {
+      "old": 22,
+      "cached": 29,
+      "direct": 48
+    },
+    "power": {
+      "old": 38,
+      "cached": 31,
+      "direct": 63
+    },
+    "refinery": {
+      "old": 28,
+      "cached": 31,
+      "direct": 68
+    },
+    "factory": {
+      "old": 27,
+      "cached": 31,
+      "direct": 58
+    },
+    "turret": {
+      "old": 27,
+      "cached": 27,
+      "direct": 51
+    }
+  },
+  "factoryStateMethodCounts": {
+    "production": {
+      "old": 27,
+      "cached": 32,
+      "direct": 54
+    },
+    "paused": {
+      "old": 27,
+      "cached": 32,
+      "direct": 54
+    },
+    "no-power": {
+      "old": 27,
+      "cached": 32,
+      "direct": 54
+    },
+    "waiting-exit": {
+      "old": 27,
+      "cached": 32,
+      "direct": 54
+    },
+    "terminal": {
+      "old": 27,
+      "cached": 32,
+      "direct": 54
+    }
+  },
+  "factoryStates": [
+    "production",
+    "paused",
+    "no-power",
+    "waiting-exit",
+    "terminal"
+  ],
+  "failures": [
+    {
+      "mode": "absent",
+      "passed": true,
+      "constructors": 0,
+      "pathMethods": 0
+    },
+    {
+      "mode": "nonfunction",
+      "passed": true,
+      "constructors": 0,
+      "pathMethods": 0
+    },
+    {
+      "mode": "construct-first",
+      "passed": true,
+      "constructors": 1,
+      "pathMethods": 0
+    },
+    {
+      "mode": "construct-partial",
+      "passed": true,
+      "constructors": 7,
+      "pathMethods": 26
+    },
+    {
+      "mode": "trace",
+      "passed": true,
+      "constructors": 1,
+      "pathMethods": 1
+    },
+    {
+      "mode": "arc",
+      "passed": true,
+      "constructors": 3,
+      "pathMethods": 23
+    },
+    {
+      "mode": "fill-first",
+      "passed": true,
+      "constructors": 20,
+      "pathMethods": 104
+    },
+    {
+      "mode": "fill-second",
+      "passed": true,
+      "constructors": 20,
+      "pathMethods": 104
+    }
+  ],
+  "parity": [
+    {
+      "map": "classic",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "frontier",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "canyon",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "ridge",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "crossroads",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "switchback",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "ring",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "meridian",
+      "seconds": 90,
+      "passed": true
+    }
+  ],
+  "limits": "Synthetic recording Path2D/Canvas, no native backend raster/FPS proof. Historical expected frames insert independently specified depleted ground commands at a hash-locked layer slot, adapt low-ore labels before layout and omit only exact validated ore tails; expected paints adapt only exact helper rail/fill y offsets; strict v294 identity and interior historical whole-frame HP fixtures are asserted without health-Y adaptation. All path construction transforms, styles and clips remain checked. Persistence bootstrap refresh suppressed by existing no-persistence harness; all storage APIs throw."
+}

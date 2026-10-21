@@ -1,0 +1,24 @@
+{
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "changedSourceFiles": [
+    "index.template.html",
+    "script/03-renderer.jsfrag",
+    "styles.css"
+  ],
+  "templateDeltaOnlyVersionAndStaticSVG": true,
+  "historicalGameplayGeometryBootstrapAndInterfaceUntouched": true,
+  "sourceDiffs": {
+    "index.template.html": {
+      "baseline": "f9dc5809dba0af2d20d6233ad702e5a92a14ff9dd664254eb4c0d0f0084011a2",
+      "candidate": "f9e8a298ed1561fda5fbc0e20007d3c2e929b839f105a70acecec94ba4bbbbf6"
+    },
+    "script/03-renderer.jsfrag": {
+      "baseline": "3c51341496f570fb352b1ae7c1eb63447980e4a16cc4cd67915964c6219777c8",
+      "candidate": "4b7bbffb5651bfab0cd5e98ce9964014ca5aff350bf184e08999402e6d10976b"
+    },
+    "styles.css": {
+      "baseline": "da802314d38697550413a8e6d3c08d1f7d73e7feb92d8f252d3c90a080c203cc",
+      "candidate": "d49789c3cd30daa11b20a657104f13b3e8d9fcbccd22de67339a34001494d78e"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "passed": 23,
+  "failed": 0,
+  "mutations": 23,
+  "results": [
+    {
+      "name": "positive ore incorrectly marked",
+      "passed": true,
+      "target": "helper/positive-never-marked",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted Canvas command sequence"
+    },
+    {
+      "name": "zero ore omitted",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted Canvas command sequence"
+    },
+    {
+      "name": "negative ore omitted",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted Canvas command sequence"
+    },
+    {
+      "name": "fill radius wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted Canvas command sequence"
+    },
+    {
+      "name": "outline radius wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted Canvas command sequence"
+    },
+    {
+      "name": "fill color wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted geometry alpha dash and styles"
+    },
+    {
+      "name": "fill alpha wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted geometry alpha dash and styles"
+    },
+    {
+      "name": "outline alpha wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted geometry alpha dash and styles"
+    },
+    {
+      "name": "outline color wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted geometry alpha dash and styles"
+    },
+    {
+      "name": "outline dash wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted Canvas command sequence"
+    },
+    {
+      "name": "outline width wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted geometry alpha dash and styles"
+    },
+    {
+      "name": "hatch geometry wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted Canvas command sequence"
+    },
+    {
+      "name": "hatch width wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted geometry alpha dash and styles"
+    },
+    {
+      "name": "hatch alpha wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted geometry alpha dash and styles"
+    },
+    {
+      "name": "hatch color wrong",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted geometry alpha dash and styles"
+    },
+    {
+      "name": "hatches retain dash",
+      "passed": true,
+      "target": "helper/exact-zero-negative-geometry",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: exact depleted Canvas command sequence"
+    },
+    {
+      "name": "context style leak",
+      "passed": true,
+      "target": "helper/nondefault-context-restored",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: depleted drawing restores nondefault context"
+    },
+    {
+      "name": "world cash mutation",
+      "passed": true,
+      "target": "helper/full-state-command-purity",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: depleted drawing preserves full state and commands"
+    },
+    {
+      "name": "ore amount mutation",
+      "passed": true,
+      "target": "helper/full-state-command-purity",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: depleted drawing preserves full state and commands"
+    },
+    {
+      "name": "command selection mutation",
+      "passed": true,
+      "target": "helper/full-state-command-purity",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: depleted drawing preserves full state and commands"
+    },
+    {
+      "name": "missing ground invocation",
+      "passed": true,
+      "target": "render/ground-layer-invocation",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: complete Canvas sequence including ground-layer insertion"
+    },
+    {
+      "name": "wrong ground order",
+      "passed": true,
+      "target": "render/ground-layer-invocation",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: complete Canvas sequence including ground-layer insertion"
+    },
+    {
+      "name": "positive mine changed",
+      "passed": true,
+      "target": "render/ground-layer-invocation",
+      "detectedAssertion": "AssertionError [ERR_ASSERTION]: complete Canvas sequence including ground-layer insertion"
+    }
+  ],
+  "scope": "Targeted behavioral mutation controls. All run solely against temporary candidate copies; no historical suite/source edits or real storage."
+}

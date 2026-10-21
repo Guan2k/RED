@@ -1,0 +1,1349 @@
+{
+  "passed": 1,
+  "failed": 0,
+  "smoke": false,
+  "assertions": 10617,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "baselineSha256": "87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e",
+  "productFiles": [
+    "index.html",
+    "source-build-receipt.json",
+    "src/art/buildings.mjs",
+    "src/script/03-renderer.jsfrag"
+  ],
+  "fixtureCases": 450,
+  "methodCounts": [
+    {
+      "type": "hq",
+      "team": 0,
+      "baselineCached": 22,
+      "cached": 28,
+      "cachedDelta": 6,
+      "baselineDirect": 36,
+      "direct": 42,
+      "directDelta": 6,
+      "baselinePaints": 16,
+      "paints": 19,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 17,
+        "fill": 1,
+        "restore": 2,
+        "beginPath": 1,
+        "moveTo": 1,
+        "lineTo": 1,
+        "stroke": 1
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 17,
+        "beginPath": 2,
+        "moveTo": 2,
+        "lineTo": 12,
+        "closePath": 1,
+        "fill": 1,
+        "restore": 2,
+        "stroke": 1
+      }
+    },
+    {
+      "type": "hq",
+      "team": 1,
+      "baselineCached": 22,
+      "cached": 27,
+      "cachedDelta": 5,
+      "baselineDirect": 36,
+      "direct": 46,
+      "directDelta": 10,
+      "baselinePaints": 16,
+      "paints": 18,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 15,
+        "fill": 2,
+        "restore": 2,
+        "beginPath": 1,
+        "moveTo": 1,
+        "lineTo": 1,
+        "stroke": 1
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 15,
+        "beginPath": 3,
+        "moveTo": 3,
+        "lineTo": 14,
+        "closePath": 2,
+        "fill": 2,
+        "restore": 2,
+        "stroke": 1
+      }
+    },
+    {
+      "type": "power",
+      "team": 0,
+      "baselineCached": 17,
+      "cached": 23,
+      "cachedDelta": 6,
+      "baselineDirect": 44,
+      "direct": 50,
+      "directDelta": 6,
+      "baselinePaints": 14,
+      "paints": 17,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 11,
+        "fill": 6,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 11,
+        "beginPath": 6,
+        "moveTo": 2,
+        "lineTo": 13,
+        "closePath": 2,
+        "fill": 6,
+        "arc": 4,
+        "restore": 2
+      }
+    },
+    {
+      "type": "power",
+      "team": 1,
+      "baselineCached": 17,
+      "cached": 22,
+      "cachedDelta": 5,
+      "baselineDirect": 44,
+      "direct": 54,
+      "directDelta": 10,
+      "baselinePaints": 14,
+      "paints": 16,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 9,
+        "fill": 7,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 9,
+        "beginPath": 7,
+        "moveTo": 3,
+        "lineTo": 15,
+        "closePath": 3,
+        "fill": 7,
+        "arc": 4,
+        "restore": 2
+      }
+    },
+    {
+      "type": "refinery",
+      "team": 0,
+      "baselineCached": 17,
+      "cached": 23,
+      "cachedDelta": 6,
+      "baselineDirect": 49,
+      "direct": 55,
+      "directDelta": 6,
+      "baselinePaints": 14,
+      "paints": 17,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 11,
+        "fill": 6,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 11,
+        "beginPath": 6,
+        "moveTo": 3,
+        "lineTo": 17,
+        "closePath": 3,
+        "fill": 6,
+        "arc": 3,
+        "restore": 2
+      }
+    },
+    {
+      "type": "refinery",
+      "team": 1,
+      "baselineCached": 17,
+      "cached": 22,
+      "cachedDelta": 5,
+      "baselineDirect": 49,
+      "direct": 59,
+      "directDelta": 10,
+      "baselinePaints": 14,
+      "paints": 16,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 9,
+        "fill": 7,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 9,
+        "beginPath": 7,
+        "moveTo": 4,
+        "lineTo": 19,
+        "closePath": 4,
+        "fill": 7,
+        "arc": 3,
+        "restore": 2
+      }
+    },
+    {
+      "type": "factory",
+      "team": 0,
+      "baselineCached": 17,
+      "cached": 23,
+      "cachedDelta": 6,
+      "baselineDirect": 39,
+      "direct": 45,
+      "directDelta": 6,
+      "baselinePaints": 14,
+      "paints": 17,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 15,
+        "fill": 2,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 15,
+        "beginPath": 2,
+        "moveTo": 2,
+        "lineTo": 16,
+        "closePath": 2,
+        "fill": 2,
+        "restore": 2
+      }
+    },
+    {
+      "type": "factory",
+      "team": 1,
+      "baselineCached": 17,
+      "cached": 22,
+      "cachedDelta": 5,
+      "baselineDirect": 39,
+      "direct": 49,
+      "directDelta": 10,
+      "baselinePaints": 14,
+      "paints": 16,
+      "cachedMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 13,
+        "fill": 3,
+        "restore": 2
+      },
+      "directMethods": {
+        "save": 2,
+        "translate": 2,
+        "fillRect": 13,
+        "beginPath": 3,
+        "moveTo": 3,
+        "lineTo": 18,
+        "closePath": 3,
+        "fill": 3,
+        "restore": 2
+      }
+    },
+    {
+      "type": "turret",
+      "team": 0,
+      "baselineCached": 18,
+      "cached": 18,
+      "cachedDelta": 0,
+      "baselineDirect": 42,
+      "direct": 42,
+      "directDelta": 0,
+      "baselinePaints": 12,
+      "paints": 12,
+      "cachedMethods": {
+        "save": 1,
+        "translate": 1,
+        "fillRect": 7,
+        "fill": 5,
+        "rotate": 1,
+        "beginPath": 1,
+        "arc": 1,
+        "restore": 1
+      },
+      "directMethods": {
+        "save": 1,
+        "translate": 1,
+        "fillRect": 7,
+        "beginPath": 5,
+        "moveTo": 2,
+        "lineTo": 14,
+        "closePath": 2,
+        "fill": 5,
+        "arc": 3,
+        "rotate": 1,
+        "restore": 1
+      }
+    },
+    {
+      "type": "turret",
+      "team": 1,
+      "baselineCached": 18,
+      "cached": 18,
+      "cachedDelta": 0,
+      "baselineDirect": 42,
+      "direct": 42,
+      "directDelta": 0,
+      "baselinePaints": 12,
+      "paints": 12,
+      "cachedMethods": {
+        "save": 1,
+        "translate": 1,
+        "fillRect": 7,
+        "fill": 5,
+        "rotate": 1,
+        "beginPath": 1,
+        "arc": 1,
+        "restore": 1
+      },
+      "directMethods": {
+        "save": 1,
+        "translate": 1,
+        "fillRect": 7,
+        "beginPath": 5,
+        "moveTo": 2,
+        "lineTo": 14,
+        "closePath": 2,
+        "fill": 5,
+        "arc": 3,
+        "rotate": 1,
+        "restore": 1
+      }
+    }
+  ],
+  "production": [
+    {
+      "phase": "production",
+      "baselineMethods": 26,
+      "cachedMethods": 32,
+      "directMethods": 54
+    },
+    {
+      "phase": "paused",
+      "baselineMethods": 26,
+      "cachedMethods": 32,
+      "directMethods": 54
+    },
+    {
+      "phase": "no-power",
+      "baselineMethods": 26,
+      "cachedMethods": 32,
+      "directMethods": 54
+    },
+    {
+      "phase": "waiting-exit",
+      "baselineMethods": 26,
+      "cachedMethods": 32,
+      "directMethods": 54
+    },
+    {
+      "phase": "terminal",
+      "baselineMethods": 26,
+      "cachedMethods": 32,
+      "directMethods": 54
+    }
+  ],
+  "failures": [
+    {
+      "mode": "absent",
+      "initial": {
+        "constructors": 0,
+        "pathMethods": 0
+      },
+      "failures": 0,
+      "pathFills": 0,
+      "markerFills": 0
+    },
+    {
+      "mode": "nonfunction",
+      "initial": {
+        "constructors": 0,
+        "pathMethods": 0
+      },
+      "failures": 0,
+      "pathFills": 0,
+      "markerFills": 0
+    },
+    {
+      "mode": "construct-first",
+      "initial": {
+        "constructors": 1,
+        "pathMethods": 0
+      },
+      "failures": 0,
+      "pathFills": 0,
+      "markerFills": 0
+    },
+    {
+      "mode": "construct-partial",
+      "initial": {
+        "constructors": 7,
+        "pathMethods": 26
+      },
+      "failures": 0,
+      "pathFills": 0,
+      "markerFills": 0
+    },
+    {
+      "mode": "construct-marker",
+      "initial": {
+        "constructors": 20,
+        "pathMethods": 100
+      },
+      "failures": 0,
+      "pathFills": 0,
+      "markerFills": 0
+    },
+    {
+      "mode": "trace",
+      "initial": {
+        "constructors": 1,
+        "pathMethods": 1
+      },
+      "failures": 0,
+      "pathFills": 0,
+      "markerFills": 0
+    },
+    {
+      "mode": "arc",
+      "initial": {
+        "constructors": 3,
+        "pathMethods": 23
+      },
+      "failures": 0,
+      "pathFills": 0,
+      "markerFills": 0
+    },
+    {
+      "mode": "fill-first",
+      "initial": {
+        "constructors": 20,
+        "pathMethods": 104
+      },
+      "failures": 1,
+      "pathFills": 1,
+      "markerFills": 0
+    },
+    {
+      "mode": "fill-second",
+      "initial": {
+        "constructors": 20,
+        "pathMethods": 104
+      },
+      "failures": 1,
+      "pathFills": 2,
+      "markerFills": 0
+    },
+    {
+      "mode": "fill-marker-first",
+      "initial": {
+        "constructors": 20,
+        "pathMethods": 104
+      },
+      "failures": 1,
+      "pathFills": 7,
+      "markerFills": 1
+    }
+  ],
+  "failureCosts": [
+    {
+      "type": "hq",
+      "team": 0,
+      "mode": "body-first",
+      "frame": "firstFailure",
+      "baselineBackend": "direct",
+      "baselineCalls": 37,
+      "prototypeCalls": 43,
+      "delta": 6,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "hq",
+      "team": 0,
+      "mode": "body-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 36,
+      "prototypeCalls": 42,
+      "delta": 6,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "hq",
+      "team": 1,
+      "mode": "body-first",
+      "frame": "firstFailure",
+      "baselineBackend": "direct",
+      "baselineCalls": 37,
+      "prototypeCalls": 47,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "hq",
+      "team": 1,
+      "mode": "body-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 36,
+      "prototypeCalls": 46,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "hq",
+      "team": 1,
+      "mode": "marker-first",
+      "frame": "firstFailure",
+      "baselineBackend": "cached",
+      "baselineCalls": 22,
+      "prototypeCalls": 33,
+      "delta": 11,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 0
+    },
+    {
+      "type": "hq",
+      "team": 1,
+      "mode": "marker-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 36,
+      "prototypeCalls": 46,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 0
+    },
+    {
+      "type": "power",
+      "team": 0,
+      "mode": "body-first",
+      "frame": "firstFailure",
+      "baselineBackend": "direct",
+      "baselineCalls": 45,
+      "prototypeCalls": 51,
+      "delta": 6,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "power",
+      "team": 0,
+      "mode": "body-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 44,
+      "prototypeCalls": 50,
+      "delta": 6,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "power",
+      "team": 1,
+      "mode": "body-first",
+      "frame": "firstFailure",
+      "baselineBackend": "direct",
+      "baselineCalls": 45,
+      "prototypeCalls": 55,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "power",
+      "team": 1,
+      "mode": "body-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 44,
+      "prototypeCalls": 54,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "power",
+      "team": 1,
+      "mode": "marker-first",
+      "frame": "firstFailure",
+      "baselineBackend": "cached",
+      "baselineCalls": 17,
+      "prototypeCalls": 28,
+      "delta": 11,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 0
+    },
+    {
+      "type": "power",
+      "team": 1,
+      "mode": "marker-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 44,
+      "prototypeCalls": 54,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 0
+    },
+    {
+      "type": "refinery",
+      "team": 0,
+      "mode": "body-first",
+      "frame": "firstFailure",
+      "baselineBackend": "direct",
+      "baselineCalls": 50,
+      "prototypeCalls": 56,
+      "delta": 6,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "refinery",
+      "team": 0,
+      "mode": "body-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 49,
+      "prototypeCalls": 55,
+      "delta": 6,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "refinery",
+      "team": 1,
+      "mode": "body-first",
+      "frame": "firstFailure",
+      "baselineBackend": "direct",
+      "baselineCalls": 50,
+      "prototypeCalls": 60,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "refinery",
+      "team": 1,
+      "mode": "body-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 49,
+      "prototypeCalls": 59,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "refinery",
+      "team": 1,
+      "mode": "marker-first",
+      "frame": "firstFailure",
+      "baselineBackend": "cached",
+      "baselineCalls": 17,
+      "prototypeCalls": 28,
+      "delta": 11,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 0
+    },
+    {
+      "type": "refinery",
+      "team": 1,
+      "mode": "marker-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 49,
+      "prototypeCalls": 59,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 0
+    },
+    {
+      "type": "factory",
+      "team": 0,
+      "mode": "body-first",
+      "frame": "firstFailure",
+      "baselineBackend": "direct",
+      "baselineCalls": 40,
+      "prototypeCalls": 46,
+      "delta": 6,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "factory",
+      "team": 0,
+      "mode": "body-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 39,
+      "prototypeCalls": 45,
+      "delta": 6,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "factory",
+      "team": 1,
+      "mode": "body-first",
+      "frame": "firstFailure",
+      "baselineBackend": "direct",
+      "baselineCalls": 40,
+      "prototypeCalls": 50,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "factory",
+      "team": 1,
+      "mode": "body-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 39,
+      "prototypeCalls": 49,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 1
+    },
+    {
+      "type": "factory",
+      "team": 1,
+      "mode": "marker-first",
+      "frame": "firstFailure",
+      "baselineBackend": "cached",
+      "baselineCalls": 17,
+      "prototypeCalls": 28,
+      "delta": 11,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 0
+    },
+    {
+      "type": "factory",
+      "team": 1,
+      "mode": "marker-first",
+      "frame": "latchedNextDraw",
+      "baselineBackend": "direct",
+      "baselineCalls": 39,
+      "prototypeCalls": 49,
+      "delta": 10,
+      "prototypeFailedFillAttempts": 1,
+      "baselineFailedFillAttempts": 0
+    }
+  ],
+  "frames": [
+    {
+      "caching": true,
+      "preview": false,
+      "phase": "completed",
+      "baselineCalls": 796,
+      "calls": 778,
+      "rawDelta": -18,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 0,
+      "baselinePaints": 247,
+      "paints": 229,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": true,
+      "preview": false,
+      "phase": "construction",
+      "baselineCalls": 864,
+      "calls": 846,
+      "rawDelta": -18,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 0,
+      "baselinePaints": 278,
+      "paints": 260,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": true,
+      "preview": false,
+      "phase": "production",
+      "baselineCalls": 805,
+      "calls": 787,
+      "rawDelta": -18,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 0,
+      "baselinePaints": 251,
+      "paints": 233,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": true,
+      "preview": false,
+      "phase": "effects",
+      "baselineCalls": 863,
+      "calls": 845,
+      "rawDelta": -18,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 0,
+      "baselinePaints": 282,
+      "paints": 264,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": true,
+      "preview": true,
+      "phase": "completed",
+      "baselineCalls": 770,
+      "calls": 796,
+      "rawDelta": 26,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 44,
+      "baselinePaints": 255,
+      "paints": 257,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": true,
+      "preview": true,
+      "phase": "construction",
+      "baselineCalls": 838,
+      "calls": 864,
+      "rawDelta": 26,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 44,
+      "baselinePaints": 286,
+      "paints": 288,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": true,
+      "preview": true,
+      "phase": "production",
+      "baselineCalls": 779,
+      "calls": 805,
+      "rawDelta": 26,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 44,
+      "baselinePaints": 259,
+      "paints": 261,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": true,
+      "preview": true,
+      "phase": "effects",
+      "baselineCalls": 843,
+      "calls": 869,
+      "rawDelta": 26,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 44,
+      "baselinePaints": 295,
+      "paints": 297,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": false,
+      "preview": false,
+      "phase": "completed",
+      "baselineCalls": 796,
+      "calls": 778,
+      "rawDelta": -18,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 0,
+      "baselinePaints": 247,
+      "paints": 229,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": false,
+      "preview": false,
+      "phase": "construction",
+      "baselineCalls": 864,
+      "calls": 846,
+      "rawDelta": -18,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 0,
+      "baselinePaints": 278,
+      "paints": 260,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": false,
+      "preview": false,
+      "phase": "production",
+      "baselineCalls": 805,
+      "calls": 787,
+      "rawDelta": -18,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 0,
+      "baselinePaints": 251,
+      "paints": 233,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": false,
+      "preview": false,
+      "phase": "effects",
+      "baselineCalls": 863,
+      "calls": 845,
+      "rawDelta": -18,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 0,
+      "baselinePaints": 282,
+      "paints": 264,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": false,
+      "preview": true,
+      "phase": "completed",
+      "baselineCalls": 1008,
+      "calls": 1054,
+      "rawDelta": 46,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 64,
+      "baselinePaints": 255,
+      "paints": 257,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": false,
+      "preview": true,
+      "phase": "construction",
+      "baselineCalls": 1076,
+      "calls": 1122,
+      "rawDelta": 46,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 64,
+      "baselinePaints": 286,
+      "paints": 288,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": false,
+      "preview": true,
+      "phase": "production",
+      "baselineCalls": 1017,
+      "calls": 1063,
+      "rawDelta": 46,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 64,
+      "baselinePaints": 259,
+      "paints": 261,
+      "measureTextCalls": 6
+    },
+    {
+      "caching": false,
+      "preview": true,
+      "phase": "effects",
+      "baselineCalls": 1121,
+      "calls": 1167,
+      "rawDelta": 46,
+      "oreCallsOmitted": 18,
+      "cueOnlyDelta": 64,
+      "baselinePaints": 295,
+      "paints": 297,
+      "measureTextCalls": 6
+    }
+  ],
+  "finalPathFrames": [
+    {
+      "caching": false,
+      "type": "hq",
+      "finalCurrentPathChanged": false,
+      "normalizedPaintsChangedOnlyByCue": true,
+      "nextFrameAlsoChecked": true
+    },
+    {
+      "caching": false,
+      "type": "power",
+      "finalCurrentPathChanged": true,
+      "normalizedPaintsChangedOnlyByCue": true,
+      "nextFrameAlsoChecked": true
+    },
+    {
+      "caching": false,
+      "type": "refinery",
+      "finalCurrentPathChanged": true,
+      "normalizedPaintsChangedOnlyByCue": true,
+      "nextFrameAlsoChecked": true
+    },
+    {
+      "caching": false,
+      "type": "factory",
+      "finalCurrentPathChanged": true,
+      "normalizedPaintsChangedOnlyByCue": true,
+      "nextFrameAlsoChecked": true
+    },
+    {
+      "caching": true,
+      "type": "hq",
+      "finalCurrentPathChanged": false,
+      "normalizedPaintsChangedOnlyByCue": true,
+      "nextFrameAlsoChecked": true
+    },
+    {
+      "caching": true,
+      "type": "power",
+      "finalCurrentPathChanged": false,
+      "normalizedPaintsChangedOnlyByCue": true,
+      "nextFrameAlsoChecked": true
+    },
+    {
+      "caching": true,
+      "type": "refinery",
+      "finalCurrentPathChanged": false,
+      "normalizedPaintsChangedOnlyByCue": true,
+      "nextFrameAlsoChecked": true
+    },
+    {
+      "caching": true,
+      "type": "factory",
+      "finalCurrentPathChanged": false,
+      "normalizedPaintsChangedOnlyByCue": true,
+      "nextFrameAlsoChecked": true
+    }
+  ],
+  "failureTailFrames": [
+    {
+      "mode": "construct-first-building",
+      "type": "hq",
+      "frames": 3,
+      "failedCachedFillCalls": 0,
+      "constructionAttempts": 11
+    },
+    {
+      "mode": "construct-first-building",
+      "type": "power",
+      "frames": 3,
+      "failedCachedFillCalls": 0,
+      "constructionAttempts": 11
+    },
+    {
+      "mode": "construct-first-building",
+      "type": "refinery",
+      "frames": 3,
+      "failedCachedFillCalls": 0,
+      "constructionAttempts": 11
+    },
+    {
+      "mode": "construct-first-building",
+      "type": "factory",
+      "frames": 3,
+      "failedCachedFillCalls": 0,
+      "constructionAttempts": 11
+    },
+    {
+      "mode": "construct-marker",
+      "type": "hq",
+      "frames": 3,
+      "failedCachedFillCalls": 0,
+      "constructionAttempts": 30
+    },
+    {
+      "mode": "construct-marker",
+      "type": "power",
+      "frames": 3,
+      "failedCachedFillCalls": 0,
+      "constructionAttempts": 30
+    },
+    {
+      "mode": "construct-marker",
+      "type": "refinery",
+      "frames": 3,
+      "failedCachedFillCalls": 0,
+      "constructionAttempts": 30
+    },
+    {
+      "mode": "construct-marker",
+      "type": "factory",
+      "frames": 3,
+      "failedCachedFillCalls": 0,
+      "constructionAttempts": 30
+    },
+    {
+      "mode": "fill-marker",
+      "type": "hq",
+      "frames": 3,
+      "failedCachedFillCalls": 1,
+      "constructionAttempts": 30
+    },
+    {
+      "mode": "fill-marker",
+      "type": "power",
+      "frames": 3,
+      "failedCachedFillCalls": 1,
+      "constructionAttempts": 30
+    },
+    {
+      "mode": "fill-marker",
+      "type": "refinery",
+      "frames": 3,
+      "failedCachedFillCalls": 1,
+      "constructionAttempts": 30
+    },
+    {
+      "mode": "fill-marker",
+      "type": "factory",
+      "frames": 3,
+      "failedCachedFillCalls": 1,
+      "constructionAttempts": 30
+    }
+  ],
+  "projectionChecks": [
+    {
+      "format": "commands",
+      "team": 0,
+      "rejectedMalformedCueCases": 21,
+      "nonCueChangesRetained": true
+    },
+    {
+      "format": "commands",
+      "team": 1,
+      "rejectedMalformedCueCases": 21,
+      "nonCueChangesRetained": true
+    },
+    {
+      "format": "world",
+      "team": 0,
+      "rejectedMalformedCueCases": 14,
+      "nonCueChangesRetained": true
+    },
+    {
+      "format": "world",
+      "team": 1,
+      "rejectedMalformedCueCases": 14,
+      "nonCueChangesRetained": true
+    },
+    {
+      "name": "missing entire cue call",
+      "rejectedBy": "independent exact cue backing count",
+      "passed": true
+    },
+    {
+      "name": "missing origin type",
+      "rejectedBy": "independent exact cue backing count",
+      "passed": true
+    },
+    {
+      "name": "canonical radius changed",
+      "rejectedBy": "independent exact cue backing count",
+      "passed": true
+    },
+    {
+      "name": "actual cue helper moved before static body",
+      "rejectedBy": "independent exact final static-body anchor",
+      "passed": true
+    }
+  ],
+  "parity": [
+    {
+      "map": "classic",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "frontier",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "canyon",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "ridge",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "crossroads",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "switchback",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "ring",
+      "seconds": 90,
+      "passed": true
+    },
+    {
+      "map": "meridian",
+      "seconds": 90,
+      "passed": true
+    }
+  ],
+  "pathSemantics": [
+    {
+      "type": "hq",
+      "team": 0,
+      "mode": "cached",
+      "currentPathChanged": false
+    },
+    {
+      "type": "hq",
+      "team": 1,
+      "mode": "cached",
+      "currentPathChanged": false
+    },
+    {
+      "type": "power",
+      "team": 0,
+      "mode": "cached",
+      "currentPathChanged": false
+    },
+    {
+      "type": "power",
+      "team": 1,
+      "mode": "cached",
+      "currentPathChanged": false
+    },
+    {
+      "type": "refinery",
+      "team": 0,
+      "mode": "cached",
+      "currentPathChanged": false
+    },
+    {
+      "type": "refinery",
+      "team": 1,
+      "mode": "cached",
+      "currentPathChanged": false
+    },
+    {
+      "type": "factory",
+      "team": 0,
+      "mode": "cached",
+      "currentPathChanged": false
+    },
+    {
+      "type": "factory",
+      "team": 1,
+      "mode": "cached",
+      "currentPathChanged": false
+    },
+    {
+      "type": "turret",
+      "team": 0,
+      "mode": "cached",
+      "currentPathChanged": false
+    },
+    {
+      "type": "turret",
+      "team": 1,
+      "mode": "cached",
+      "currentPathChanged": false
+    },
+    {
+      "type": "hq",
+      "team": 0,
+      "mode": "direct",
+      "currentPathChanged": false
+    },
+    {
+      "type": "hq",
+      "team": 1,
+      "mode": "direct",
+      "currentPathChanged": true
+    },
+    {
+      "type": "power",
+      "team": 0,
+      "mode": "direct",
+      "currentPathChanged": false
+    },
+    {
+      "type": "power",
+      "team": 1,
+      "mode": "direct",
+      "currentPathChanged": true
+    },
+    {
+      "type": "refinery",
+      "team": 0,
+      "mode": "direct",
+      "currentPathChanged": false
+    },
+    {
+      "type": "refinery",
+      "team": 1,
+      "mode": "direct",
+      "currentPathChanged": true
+    },
+    {
+      "type": "factory",
+      "team": 0,
+      "mode": "direct",
+      "currentPathChanged": false
+    },
+    {
+      "type": "factory",
+      "team": 1,
+      "mode": "direct",
+      "currentPathChanged": true
+    },
+    {
+      "type": "turret",
+      "team": 0,
+      "mode": "direct",
+      "currentPathChanged": false
+    },
+    {
+      "type": "turret",
+      "team": 1,
+      "mode": "direct",
+      "currentPathChanged": false
+    }
+  ],
+  "cacheCost": {
+    "baseline": {
+      "constructors": 19,
+      "pathMethods": 100
+    },
+    "prototype": {
+      "constructors": 20,
+      "pathMethods": 104
+    },
+    "delta": {
+      "constructors": 1,
+      "pathMethods": 4
+    }
+  },
+  "limits": [
+    "Synthetic Canvas/Path2D recorder, not native raster/FPS evidence. Historical expected whole frames insert independently specified depleted ground commands at a hash-locked layer slot, adapt low-ore labels before layout and omit only exact validated ore tails; immutable v301 cue normalization remains separately exact.",
+    "All source ctx method calls are counted, including measureText; JavaScript helper calls and property assignments are not Canvas methods.",
+    "save/restore excludes the Canvas current path. Enemy direct fallback leaves its triangle path; cached and friendly cues do not. Whole-frame paints and next-frame paints are tested.",
+    "Persistence bootstrap probes are suppressed by the inherited no-persistence VM harness; all storage APIs throw."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "method": "Fresh extraction of delivered ZIP and sha256sum -c SHA256SUMS.txt",
+  "result": "CURRENT_PLAYER_GUIDE.md: OK\nQUICK_START.html: OK\nREADME.md: OK\nindex.html: OK\n",
+  "gameOrBrowserOrStorageRun": false
+}

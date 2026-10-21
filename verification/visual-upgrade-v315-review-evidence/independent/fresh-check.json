@@ -1,0 +1,177 @@
+{
+  "passed": 24,
+  "failed": 0,
+  "sourceSha256": "dfc6a5f2aebdc57aa370df3c64b47be16fb99e6757277723db3475fcafac03ef",
+  "baselineSha256": "d0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d",
+  "results": [
+    {
+      "map": "classic",
+      "mode": "off",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "classic",
+      "mode": "direct",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "classic",
+      "mode": "cached",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "frontier",
+      "mode": "off",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "frontier",
+      "mode": "direct",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "frontier",
+      "mode": "cached",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "canyon",
+      "mode": "off",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "canyon",
+      "mode": "direct",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "canyon",
+      "mode": "cached",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "ridge",
+      "mode": "off",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "ridge",
+      "mode": "direct",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "ridge",
+      "mode": "cached",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "crossroads",
+      "mode": "off",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "crossroads",
+      "mode": "direct",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "crossroads",
+      "mode": "cached",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "switchback",
+      "mode": "off",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "switchback",
+      "mode": "direct",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "switchback",
+      "mode": "cached",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "ring",
+      "mode": "off",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "ring",
+      "mode": "direct",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "ring",
+      "mode": "cached",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "meridian",
+      "mode": "off",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "meridian",
+      "mode": "direct",
+      "seconds": 5,
+      "passed": true
+    },
+    {
+      "map": "meridian",
+      "mode": "cached",
+      "seconds": 5,
+      "passed": true
+    }
+  ],
+  "perf": [
+    {
+      "fixture": "rich",
+      "baseline": {
+        "paints": 373,
+        "calls": 1036
+      },
+      "candidate": {
+        "paints": 437,
+        "calls": 1154
+      }
+    },
+    {
+      "fixture": "mass-selected",
+      "baseline": {
+        "paints": 2271,
+        "calls": 3708
+      },
+      "candidate": {
+        "paints": 2755,
+        "calls": 5614
+      }
+    }
+  ],
+  "scope": "Fresh independent restored-baseline VM checks; 24 maps/modes, five simulated seconds, real registered selection/attack clicks, complete operational/input snapshot, stationary track, render RNG trap, separate RNG progression, storage and synthetic call budget. No native/FPS claims."
+}

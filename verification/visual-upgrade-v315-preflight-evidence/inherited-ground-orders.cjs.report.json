@@ -1,0 +1,118 @@
+{
+  "passed": 26,
+  "failed": 1,
+  "equivalentInputs": 44927,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "scope": "Full-source VM / simulated DOM isolated fixtures with explicit command/HP/build/terminal setup; not natural gameplay. Equivalence domain covers every Boolean priority combination plus representative eligibility and truthy/falsy values.",
+  "results": [
+    {
+      "name": "mixed orders show both counts and selected friendly combat scope",
+      "status": "pass"
+    },
+    {
+      "name": "two ordinary orders use shared existing eligibility",
+      "status": "pass"
+    },
+    {
+      "name": "two attack orders remain ineligible for arrival hold",
+      "status": "pass"
+    },
+    {
+      "name": "higher-priority command excluded target",
+      "status": "pass"
+    },
+    {
+      "name": "higher-priority command excluded attackQueue",
+      "status": "pass"
+    },
+    {
+      "name": "higher-priority command excluded escortId",
+      "status": "pass"
+    },
+    {
+      "name": "higher-priority command excluded patrol",
+      "status": "pass"
+    },
+    {
+      "name": "higher-priority command excluded guardArea",
+      "status": "pass"
+    },
+    {
+      "name": "higher-priority command excluded hold",
+      "status": "pass"
+    },
+    {
+      "name": "arrival clears ordinary goal and excludes residual attackMove flag",
+      "status": "pass"
+    },
+    {
+      "name": "arrival hold completes without movement count",
+      "status": "pass"
+    },
+    {
+      "name": "route advances to next live goal then disappears at final arrival",
+      "status": "pass"
+    },
+    {
+      "name": "normal reassignment updates count immediately",
+      "status": "pass"
+    },
+    {
+      "name": "explicit attack reassignment is not ground pursuit",
+      "status": "pass"
+    },
+    {
+      "name": "mixed support buildings enemies and dead units excluded",
+      "status": "pass"
+    },
+    {
+      "name": "unfinished own combat unit excluded",
+      "status": "pass"
+    },
+    {
+      "name": "unusable coordinate snapshot is not called a ground movement",
+      "status": "pass"
+    },
+    {
+      "name": "single selection retains existing detailed view only",
+      "status": "pass"
+    },
+    {
+      "name": "no applicable vehicles emits no misleading zero coverage line",
+      "status": "pass"
+    },
+    {
+      "name": "paused snapshot preserves commands and simulation",
+      "status": "pass"
+    },
+    {
+      "name": "restart menu labels snapshot not active execution",
+      "status": "pass"
+    },
+    {
+      "name": "terminal suppresses executing-style ground summary 胜利",
+      "status": "pass"
+    },
+    {
+      "name": "terminal suppresses executing-style ground summary 战败",
+      "status": "pass"
+    },
+    {
+      "name": "prestart suppresses active ground summary",
+      "status": "pass"
+    },
+    {
+      "name": "UI/helper refresh is readonly including selection and saved command modes",
+      "status": "pass"
+    },
+    {
+      "name": "canHoldOnArrival equivalent to actual frozen v256 predicate over eligibility and full command truth table",
+      "status": "pass"
+    },
+    {
+      "name": "strict restore preserves all unrelated execution source",
+      "status": "fail",
+      "error": "exact v257 ground-order boundary\n\n0 !== 1\n"
+    }
+  ]
+}

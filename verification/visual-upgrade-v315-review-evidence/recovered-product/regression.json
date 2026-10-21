@@ -1,0 +1,175 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "results": [
+    {
+      "map": "classic",
+      "preview": false,
+      "seconds": 15,
+      "paintCounts": [
+        373,
+        437
+      ]
+    },
+    {
+      "map": "classic",
+      "preview": true,
+      "seconds": 15,
+      "paintCounts": [
+        454,
+        496
+      ]
+    },
+    {
+      "map": "frontier",
+      "preview": false,
+      "seconds": 15,
+      "paintCounts": [
+        373,
+        437
+      ]
+    },
+    {
+      "map": "frontier",
+      "preview": true,
+      "seconds": 15,
+      "paintCounts": [
+        454,
+        496
+      ]
+    },
+    {
+      "map": "canyon",
+      "preview": false,
+      "seconds": 15,
+      "paintCounts": [
+        403,
+        467
+      ]
+    },
+    {
+      "map": "canyon",
+      "preview": true,
+      "seconds": 15,
+      "paintCounts": [
+        484,
+        526
+      ]
+    },
+    {
+      "map": "ridge",
+      "preview": false,
+      "seconds": 15,
+      "paintCounts": [
+        391,
+        455
+      ]
+    },
+    {
+      "map": "ridge",
+      "preview": true,
+      "seconds": 15,
+      "paintCounts": [
+        472,
+        514
+      ]
+    },
+    {
+      "map": "crossroads",
+      "preview": false,
+      "seconds": 15,
+      "paintCounts": [
+        399,
+        463
+      ]
+    },
+    {
+      "map": "crossroads",
+      "preview": true,
+      "seconds": 15,
+      "paintCounts": [
+        480,
+        522
+      ]
+    },
+    {
+      "map": "switchback",
+      "preview": false,
+      "seconds": 15,
+      "paintCounts": [
+        423,
+        487
+      ]
+    },
+    {
+      "map": "switchback",
+      "preview": true,
+      "seconds": 15,
+      "paintCounts": [
+        504,
+        546
+      ]
+    },
+    {
+      "map": "ring",
+      "preview": false,
+      "seconds": 15,
+      "paintCounts": [
+        387,
+        451
+      ]
+    },
+    {
+      "map": "ring",
+      "preview": true,
+      "seconds": 15,
+      "paintCounts": [
+        468,
+        510
+      ]
+    },
+    {
+      "map": "meridian",
+      "preview": false,
+      "seconds": 15,
+      "paintCounts": [
+        399,
+        463
+      ]
+    },
+    {
+      "map": "meridian",
+      "preview": true,
+      "seconds": 15,
+      "paintCounts": [
+        480,
+        522
+      ]
+    }
+  ],
+  "perf": [
+    {
+      "fixture": "rich",
+      "baseline": {
+        "paints": 373,
+        "calls": 1036
+      },
+      "candidate": {
+        "paints": 437,
+        "calls": 1154
+      }
+    },
+    {
+      "fixture": "mass-selected",
+      "baseline": {
+        "paints": 2271,
+        "calls": 3708
+      },
+      "candidate": {
+        "paints": 2755,
+        "calls": 5614
+      }
+    }
+  ],
+  "scope": "Fresh whole-source VM checks. Not native browser/FPS/CSS layout acceptance."
+}

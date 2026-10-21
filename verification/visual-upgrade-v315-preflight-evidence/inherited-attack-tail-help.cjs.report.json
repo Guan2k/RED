@@ -1,0 +1,50 @@
+{
+  "passed": 8,
+  "failed": 1,
+  "assertions": 21,
+  "results": [
+    {
+      "name": "source identity",
+      "passed": true
+    },
+    {
+      "name": "tooltip describes valid pending target and conditional cleanup",
+      "passed": true
+    },
+    {
+      "name": "sidebar help describes valid pending target and conditional cleanup",
+      "passed": true
+    },
+    {
+      "name": "both obsolete invalid-tail claims are absent",
+      "passed": true
+    },
+    {
+      "name": "exact current script and historical v268/v267 executable identity",
+      "passed": false,
+      "failure": {
+        "stage": "source",
+        "invariant": "current_executable_script_exact",
+        "code": "ERR_ASSERTION"
+      },
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n... Skipped lines\n\n  '\\n' +\n    \"'use strict';\\n\" +\n    \"const $=id=>document.getElementById(id),canvas=$('map'),ctx=canvas.getContext('2d'),WIDTH=1200,HEIGHT=800;\\n\" +\n    'const difficultyPresets={easy:{cash:900,decision:8,wave:75,defenders:2,armyCap:18},normal:{cash:1700,decision:2,wave:50,defenders:3,armyCap:18},hard:{cash:2200,decision:1.5,wave:40,defenders:4,armyCap:24}};\\n' +\n    \"const mapLabels=Object.freeze({classic:'斜线前哨',frontier:'双翼边境',canyon:'断岩峡谷',ridge:'双峰矿谷',crossroads:'四丘枢纽',switchback:'双闸回廊',ring:'孤峰环道',meridian:'南北矿闸'});\\n\" +\n+   \"const quickMissions=Object.freeze({assault:Object.freeze({scenario:'classic',objective:'annihilation',difficulty:'normal',challenge:'standard'}),harvest:Object.freeze({scenario:'frontier',objective:'harvest',difficulty:'normal',challenge:'mobile'}),stronghold:Object.freeze({scenario:'ring',objective:'stronghold',difficulty:'normal',challenge:'mobile'}),meridian:Object.freeze({scenario:'meridian',objective:'harvest',difficulty:'normal',challenge:'standard'}),control:Object.freeze({scenario:'crossroads',objective:'control',difficulty:'normal',challenge:'standard'}),survival:Object.freeze({scenario:'classic',objective:'survival',difficulty:'normal',challenge:'standard'}),switchback:Object.freeze({scenario:'switchback',objective:'stronghold',difficulty:'hard',challenge:'mobile'})});\\n\" +\n-   \"const quickMissions=Object.freeze({assault:Object.freeze({scenario:'classic',objective:'annihilation',difficulty:'normal',challenge:'standard'}),harvest:Object.freeze({scenario:'frontier',objective:'harvest',difficulty:'normal',challenge:'mobile'}),stronghold:Object.freeze({scenario:'ring',objective:'stronghold',difficulty:'normal',challenge:'mobile'}),meridian:Object.freeze({scenario:'meridian',objective:'harvest',difficulty:'normal',challenge:'standard'}),control:Object.freeze({scenario:'crossroads',objective:'control',difficulty:'normal',challenge:'standard'}),survival:Object.freeze({scenario:'classic',objective:'survival',difficulty:'normal',challenge:'standard'})});\\n\" +\n    \"function applyQuickMission(key){if($('overlay').classList.contains('hidden')||(state?.started&&!restartPrompt&&!state.result)||typeof key!=='string'||!Object.hasOwn(quickMissions,key))return;let preset=quickMissions[key];for(let field of ['scenario','objective','difficulty','challenge'])$(field).value=preset[field];updateMapPreview()}\\n\" +\n    \"function knownMap(value){return typeof value==='string'&&Object.hasOwn(mapLabels,value)}\\n\" +\n    \"function battleIdentityLabel(){if(!state?.started)return '';let levels={easy:'休闲',normal:'标准',hard:'老兵'};return '本局：'+(mapLabels[state.mapChoice||'classic']||'未知战场')+' · '+(levels[state.difficulty]||'未知')+'难度 · '}\\n\" +\n    'function difficultyRules(mode=state?.difficulty){return Object.hasOwn(difficultyPresets,mode)?difficultyPresets[mode]:difficultyPresets.normal}\\n' +\n    \"const defs={hq:{name:'指挥中心',hp:1800,r:40},power:{name:'发电站',cost:300,time:5,hp:550,r:26},refinery:{name:'精炼厂',cost:650,time:9,hp:850,r:33},factory:{name:'战车工厂',cost:850,time:12,hp:1000,r:36},turret:{name:'防御炮塔',cost:450,time:7,hp:650,r:22,range:175,damage:28,rate:1.05},tank:{name:'主战坦克',cost:350,time:6,hp:230,r:13,speed:48,range:135,damage:23,rate:1.05},scout:{name:'侦察战车',cost:180,time:4,hp:105,r:10,speed:82,range:105,damage:10,rate:.55},artillery:{name:'自行火炮',cost:550,time:10,hp:130,r:14,speed:30,range:225,minRange:65,damage:48,rate:2.8,splashRadius:50,splashDamage:12},repair:{name:'战地维修车',cost:500,time:9,hp:180,r:13,speed:38,repairRange:100,repairRate:6},harvester:{name:'采矿车',cost:400,time:7,hp:310,r:16,speed:39,capacity:180}};\\n\" +\n...\n    'let appendCommandMode=false,appendCommandActivation=null;\\n' +\n+   'let coordinateCommandActivation=null;\\n' +\n    'let factoryExitActivation=null,factoryExitInspectionCache=null;\\n' +\n    'let selectedDeathUiDirty=false;\\n' +\n    'let state,uid=1,last=0,simulationRemainder=0,selection=new Set(),placement=null,attackMode=false,drag=null,hoverActive=false,mouse={x:0,y:0},uiClock=0,restartPrompt=false,resumeAfterCancel=false,groups=[[],[],[]];\\n' +\n    'const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y),clamp=(n,a,b)=>Math.max(a,Math.min(b,n));\\n' +\n    \"let coordinateAidEnabled=false,coordinateAidKey='',coordinateMouseBaseline=null;\\n\" +\n...\n    \"function buildingPowerDemand(type){return type==='factory'?50:type==='refinery'?30:type==='turret'?25:0}\\n\" +\n+   \"function power(team=0){const completed=structures(team).filter(e=>!e.build);return {supply:BASE_POWER_SUPPLY+completed.filter(e=>e.type==='power').length*STATION_POWER_SUPPLY,demand:completed.reduce((s,e)=>s+buildingPowerDemand(e.type),0)}}\\n\" +\n-   \"function power(team=0){return {supply:BASE_POWER_SUPPLY+structures(team,'power').filter(e=>!e.build).length*STATION_POWER_SUPPLY,demand:structures(team).filter(e=>!e.build).reduce((s,e)=>s+buildingPowerDemand(e.type),0)}}\\n\" +\n    '// Fresh read-only snapshot: one entity pass; no simulation queries or cross-refresh cache.\\n' +\n+   \"function electricityBreakdown(){let completed={hq:0,power:0,factory:0,refinery:0,turret:0},pending={hq:0,power:0,factory:0,refinery:0,turret:0},supply=BASE_POWER_SUPPLY,demand=0,pendingSupply=0,pendingDemand=0,pendingCount=0;for(let e of state.entities){if(!(e.hp>0)||e.team!==0||defs[e.type].speed)continue;let counts=e.build?pending:completed;counts[e.type]++;let produced=e.type==='power'?STATION_POWER_SUPPLY:0,consumed=buildingPowerDemand(e.type);if(e.bu\"... 358367 more characters\n-   \"function electricityBreakdown(){let completed={hq:0,power:0,factory:0,refinery:0,turret:0},pending={hq:0,power:0,factory:0,refinery:0,turret:0},supply=BASE_POWER_SUPPLY,demand=0,pendingSupply=0,pendingDemand=0,pendingCount=0;for(let e of state.entities){if(!(e.hp>0)||e.team!==0||defs[e.type].speed)continue;let counts=e.build?pending:completed;counts[e.type]++;let produced=e.type==='power'?STATION_POWER_SUPPLY:0,consumed=buildingPowerDemand(e.type);if(e.build){pendingCount++;pendingSupply+=produced;pendingDemand+=consumed}else{supply+=produced;demand+=consumed}}return{completed,pending,supply,demand,margin:supply-demand\"... 305131 more characters\n\n    at /tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/attack-tail-help.cjs:13:67\n    at check (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/attack-tail-help.cjs:12:40)\n    at eq (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/attack-tail-help.cjs:13:34)\n    at /tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/attack-tail-help.cjs:39:2\n    at test (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/attack-tail-help.cjs:14:28)\n    at Object.<anonymous> (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/attack-tail-help.cjs:33:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)"
+    },
+    {
+      "name": "successful undo prunes invalid IDs and removes last live pending target",
+      "passed": true
+    },
+    {
+      "name": "one surviving target cannot undo or silently clean invalid IDs",
+      "passed": true
+    },
+    {
+      "name": "actual current target at raw tail remains protected",
+      "passed": true
+    },
+    {
+      "name": "ground route undo preserves active goal and arrival hold",
+      "passed": true
+    }
+  ],
+  "scope": "Static text/executable-byte checks plus synthetic whole-source VM fixtures. No native tooltip, browser or persistence operations."
+}

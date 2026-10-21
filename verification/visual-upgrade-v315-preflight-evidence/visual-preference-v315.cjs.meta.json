@@ -1,0 +1,16 @@
+{
+  "command": [
+    "node",
+    "verification/visual-preference-v315.cjs"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 0.92,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "sourceUnchanged": true,
+  "stderrBytes": 0,
+  "suiteSha256": "ee7336988bcae77c2086883d493db49a3a2f2df1fc8c049f164257e610ec43df",
+  "suiteUnchanged": true,
+  "passed": 10,
+  "failed": 0,
+  "failures": []
+}

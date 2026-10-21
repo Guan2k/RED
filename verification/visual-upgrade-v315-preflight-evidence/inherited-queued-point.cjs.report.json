@@ -1,0 +1,616 @@
+{
+  "passed": 101,
+  "failed": 0,
+  "total": 101,
+  "source": "/workspace/scratch/e433d7540f34/red-development/v315-recovery-integration/RED/index.html",
+  "sourceHashBefore": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "sourceHashAfter": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "scope": "Whole-source Node VM/simulated DOM component fixtures with explicit selection, command, eligibility and terminal setup. Actual native-button handler and canvas event paths are compared with actual same-source Shift-contextmenu. Full state, selection, groups, uid, placement, attack mode, simulation remainder, entity navigation and storage snapshots are retained. Only ephemeral input mode/token/gesture/hover/focus differences are excluded and separately tested. No native-browser, real touch, focus, event-ordering, layout or assistive-technology claim. No save/import/export, publication or user-computer operations.",
+  "tests": [
+    {
+      "name": "ground_idle_matches_shift",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "ground_existing_route_matches_shift",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "ground_first_attackmove_segment_preserved",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "ground_duplicate_coordinates_preserve_existing_policy",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "ground_route_cap_retains_commands",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "enemy_idle_matches_shift",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 1050,
+        "y": 125
+      }
+    },
+    {
+      "name": "enemy_current_target_preserved",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 1100,
+        "y": 250
+      }
+    },
+    {
+      "name": "enemy_duplicate_retains_commands",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 1100,
+        "y": 250
+      }
+    },
+    {
+      "name": "enemy_queue_cap_retains_commands",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 930,
+        "y": 300
+      }
+    },
+    {
+      "name": "friendly_or_blocked_miner_no_replacement",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 350,
+        "y": 660
+      }
+    },
+    {
+      "name": "friendly_or_blocked_factory_no_replacement",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 220,
+        "y": 750
+      }
+    },
+    {
+      "name": "friendly_or_blocked_friendly_combat_no_replacement",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 360,
+        "y": 580
+      }
+    },
+    {
+      "name": "rock_blocked_retains_commands",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 600,
+        "y": 400
+      }
+    },
+    {
+      "name": "mixed_ground_eligibility_preserves_unsupported",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "mixed_enemy_eligibility_preserves_moving_and_support",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 1050,
+        "y": 125
+      }
+    },
+    {
+      "name": "ground_ineligible_hold_retained",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "ground_ineligible_escortId_retained",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "ground_ineligible_patrol_retained",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "ground_ineligible_guardArea_retained",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "ground_ineligible_target_retained",
+      "passed": true,
+      "fixture": "whole-source component",
+      "reference": "actual same-source Shift-contextmenu",
+      "point": {
+        "x": 500,
+        "y": 500
+      }
+    },
+    {
+      "name": "unsupported_empty_cannot_arm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "unsupported_miner_cannot_arm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "unsupported_factory_cannot_arm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "unsupported_repair_cannot_arm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "unsupported_dead_cannot_arm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "unsupported_unfinished_cannot_arm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "unsupported_enemy_cannot_arm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "valid_pointer_release_exactly_once",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "valid_enter_release_exactly_once",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "valid_space_release_exactly_once",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "valid_untracked_release_exactly_once",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "touch_release_uses_append_path",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "pen_release_uses_append_path",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "pointer_activation_waits_for_matching_primary_release",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "space_activation_waits_for_keyup",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "consumed_pointer_activation_cannot_rearm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "consumed_enter_activation_cannot_rearm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "consumed_space_activation_cannot_rearm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "orphan_repeat_enter_cannot_arm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "orphan_repeat_space_cannot_arm",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "activation_pointercancel_late_click_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "activation_lostpointercapture_late_click_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "activation_button_blur_late_click_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "activation_window_blur_late_click_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "activation_outside_release_late_click_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "activation_restart_late_click_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "activation_new_battle_late_click_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_drag_return_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_drag_release_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_outside_release_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_nonfinite_release_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_pointercancel_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_lostpointercapture_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_outside_window_release_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_window_blur_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_visibility_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_Escape_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_cancel_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_restart_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_new_battle_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_terminal_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_selection_change_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_all_selected_dead_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "gesture_all_selected_unfinished_does_not_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "unrelated_pointer_events_do_not_steal_pending_gesture",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "secondary_down_cannot_start_append_point",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "capture_failure_cancels_without_command",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "target_revalidated_at_release_matches_shift",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "eligibility_revalidated_at_release_without_replace",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "paused_append_planning_matches_shift_without_simulation",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "pause_during_gesture_retains_plan_until_release",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "switch_append_to_ordinary_cancels_old_gesture",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "switch_append_to_attack_cancels_old_gesture",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "switch_append_to_building_cancels_old_gesture",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "switch_ordinary_to_append_cancels_old_gesture",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "shift_contextmenu_cancels_pending_point_and_commits_once",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "append_ui_distinct_and_ordinary_preview_suppressed",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "ordinary_ground_still_matches_nonshift_contextmenu",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "ordinary_enemy_still_matches_nonshift_contextmenu",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "ordinary_escort_still_matches_nonshift_contextmenu",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "ordinary_factory_still_matches_nonshift_contextmenu",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "unarmed_mouse_selection_is_unchanged",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "unarmed_touch_point_retains_ordinary_command_behavior",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_enter_button_blur_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_enter_window_blur_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_enter_visibility_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_enter_Escape_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_enter_restart_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_enter_new_battle_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_space_button_blur_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_space_window_blur_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_space_visibility_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_space_Escape_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_space_restart_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "key_space_new_battle_late_default_rejected",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "invalid_outside_start_cannot_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "invalid_nonfinite_start_cannot_commit",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "exact_eight_pixel_release_is_valid",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "append_modifiers_do_not_replace_or_attackmove",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "component_battle_identity_change_rejects_old_release",
+      "passed": true,
+      "fixture": "whole-source component"
+    },
+    {
+      "name": "component_activation_battle_identity_change_rejects_old_click",
+      "passed": true,
+      "fixture": "whole-source component"
+    }
+  ]
+}

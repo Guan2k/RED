@@ -1,0 +1,423 @@
+{
+  "passed": 103,
+  "failed": 0,
+  "total": 103,
+  "source": "/workspace/scratch/e433d7540f34/red-development/v315-recovery-integration/RED/index.html",
+  "sourceHashBefore": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "sourceHashAfter": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "tests": [
+    {
+      "name": "native_button_uses_shared_live_eligibility",
+      "passed": true
+    },
+    {
+      "name": "ground_ordinary_exact_delta",
+      "passed": true
+    },
+    {
+      "name": "ground_attack_move_exact_delta",
+      "passed": true
+    },
+    {
+      "name": "ground_arrival_hold_false_preserved",
+      "passed": true
+    },
+    {
+      "name": "ground_arrival_hold_undefined_preserved",
+      "passed": true
+    },
+    {
+      "name": "ground_arrival_hold_true_preserved",
+      "passed": true
+    },
+    {
+      "name": "attack_current_head_preserved",
+      "passed": true
+    },
+    {
+      "name": "attack_current_middle_preserved",
+      "passed": true
+    },
+    {
+      "name": "attack_current_end_preserved",
+      "passed": true
+    },
+    {
+      "name": "attack_current_absent_preserved",
+      "passed": true
+    },
+    {
+      "name": "attack_current_one_other_target_preserved",
+      "passed": true
+    },
+    {
+      "name": "attack_current_duplicates_preserved",
+      "passed": true
+    },
+    {
+      "name": "attack_invalid_entries_do_not_prevent_real_pending_clear",
+      "passed": true
+    },
+    {
+      "name": "mixed_selection_changes_only_eligible_queues",
+      "passed": true
+    },
+    {
+      "name": "repeat_clear_is_idempotent_without_extra_log_or_sound",
+      "passed": true
+    },
+    {
+      "name": "paused_clear_does_not_advance_simulation",
+      "passed": true
+    },
+    {
+      "name": "gate_unstarted_blocks_even_direct_callback",
+      "passed": true
+    },
+    {
+      "name": "gate_terminal_blocks_even_direct_callback",
+      "passed": true
+    },
+    {
+      "name": "gate_restart_blocks_even_direct_callback",
+      "passed": true
+    },
+    {
+      "name": "eligibility_dead_owner_is_noop",
+      "passed": true
+    },
+    {
+      "name": "eligibility_enemy_owner_is_noop",
+      "passed": true
+    },
+    {
+      "name": "eligibility_unfinished_owner_is_noop",
+      "passed": true
+    },
+    {
+      "name": "eligibility_harvester_owner_is_noop",
+      "passed": true
+    },
+    {
+      "name": "eligibility_repair_owner_is_noop",
+      "passed": true
+    },
+    {
+      "name": "eligibility_building_owner_is_noop",
+      "passed": true
+    },
+    {
+      "name": "eligibility_no_selection_is_noop",
+      "passed": true
+    },
+    {
+      "name": "eligibility_missing_selection_is_noop",
+      "passed": true
+    },
+    {
+      "name": "move_tank_eligible",
+      "passed": true
+    },
+    {
+      "name": "move_scout_eligible",
+      "passed": true
+    },
+    {
+      "name": "move_artillery_eligible",
+      "passed": true
+    },
+    {
+      "name": "attack_tank_eligible",
+      "passed": true
+    },
+    {
+      "name": "attack_scout_eligible",
+      "passed": true
+    },
+    {
+      "name": "attack_artillery_eligible",
+      "passed": true
+    },
+    {
+      "name": "ground_single_head_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_empty_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_missing_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_object_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_dual_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_empty_opposite_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_truthy_opposite_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_missing_goal_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_goal_head_mismatch_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_goal_nonfinite_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_goal_outside_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_null_point_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_undefined_point_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_sparse_point_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_number_point_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_string_point_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_nan_point_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_infinite_point_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_numeric_string_point_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_negative_point_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_beyond_width_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_beyond_height_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_inside_radius_margin_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_target_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_escort_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_patrol_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_guard_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_hold_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "ground_ambiguous_attackmove_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_missing_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_empty_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_object_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_current_only_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_current_repeated_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_dead_pending_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_missing_pending_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_friendly_pending_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_all_invalid_pending_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_absent_current_no_valid_pending_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_missing_actual_target_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_dead_actual_target_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_friendly_actual_target_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_null_actual_target_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_dual_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_empty_opposite_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_truthy_opposite_queue_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_goal_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_attackmove_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_ambiguous_attackmove_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_arrival_hold_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_escort_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_patrol_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_guard_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "attack_hold_conflict_is_noop",
+      "passed": true
+    },
+    {
+      "name": "stale_render_selection_removed_revalidated",
+      "passed": true
+    },
+    {
+      "name": "stale_render_selection_replaced_revalidated",
+      "passed": true
+    },
+    {
+      "name": "stale_render_last_pending_target_died_revalidated",
+      "passed": true
+    },
+    {
+      "name": "stale_render_actual_target_died_revalidated",
+      "passed": true
+    },
+    {
+      "name": "stale_render_ground_queue_shortened_revalidated",
+      "passed": true
+    },
+    {
+      "name": "stale_render_ground_goal_changed_revalidated",
+      "passed": true
+    },
+    {
+      "name": "stale_render_attack_queue_replaced_revalidated",
+      "passed": true
+    },
+    {
+      "name": "stale_render_selection_uses_new_eligible_unit",
+      "passed": true
+    },
+    {
+      "name": "stale_render_queue_replacement_uses_live_queue",
+      "passed": true
+    },
+    {
+      "name": "availability_and_render_are_readonly_and_rng_free",
+      "passed": true
+    },
+    {
+      "name": "pending_ordinary_inputs_preserved",
+      "passed": true
+    },
+    {
+      "name": "pending_append_inputs_preserved",
+      "passed": true
+    },
+    {
+      "name": "pending_attack_inputs_preserved",
+      "passed": true
+    },
+    {
+      "name": "pending_placement_inputs_preserved",
+      "passed": true
+    },
+    {
+      "name": "pending_gesture_inputs_preserved",
+      "passed": true
+    },
+    {
+      "name": "source_file_unchanged",
+      "passed": true
+    }
+  ],
+  "scope": "Synthetic component/lifecycle/corruption fixtures in the shared whole-source VM and simulated DOM. No save/import/export, external browser, natural-playthrough, or native-keyboard fidelity claim. Exact world delta includes all state, queues, input modes, selection and one existing-style log; reference assertions cover current goals, queue heads, navigation and inputs."
+}

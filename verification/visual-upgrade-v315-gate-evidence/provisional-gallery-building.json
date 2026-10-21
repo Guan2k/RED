@@ -1,0 +1,94 @@
+{
+  "passed": 19,
+  "failed": 2,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "results": [
+    {
+      "name": "source readable",
+      "passed": true
+    },
+    {
+      "name": "hq original exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "hq preview exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "power original exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "power preview exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "factory original exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "factory preview exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "refinery original exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "refinery preview exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "turret original exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "turret preview exact current draw replay",
+      "passed": true
+    },
+    {
+      "name": "decorative subtree and preserved closed reference",
+      "passed": true
+    },
+    {
+      "name": "readonly and immediate both-gallery mode sync initial",
+      "passed": true
+    },
+    {
+      "name": "readonly and immediate both-gallery mode sync running",
+      "passed": true
+    },
+    {
+      "name": "readonly and immediate both-gallery mode sync paused",
+      "passed": true
+    },
+    {
+      "name": "readonly and immediate both-gallery mode sync restart",
+      "passed": true
+    },
+    {
+      "name": "readonly and immediate both-gallery mode sync terminal",
+      "passed": true
+    },
+    {
+      "name": "stable refresh never rewrites either gallery mode",
+      "passed": true
+    },
+    {
+      "name": "original default and session choice survive start and restart folded",
+      "passed": true
+    },
+    {
+      "name": "scoped responsive CSS and noninteractive graphic contract",
+      "passed": false,
+      "error": "all building CSS strictly scoped, compact, responsive and mode-correct\n+ actual - expected\n... Skipped lines\n\n  [\n    [\n      '.building-reference-grid',\n      'display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;list-style:none;margin:8px 0 12px;padding:0'\n    ],\n...\n    ],\n+   [\n+     '.vehicle-reference-grid li, .building-reference-grid li',\n+     ' border-color: #476046; background: #1b2f20; padding: 8px; '\n+   ],\n+   [\n+     '.vehicle-reference-grid svg, .building-reference-grid svg',\n+     ' border-radius: 4px; '\n+   ]\n  ]\n"
+    },
+    {
+      "name": "frozen gameplay and renderer script unchanged outside gallery synchronization",
+      "passed": false,
+      "error": "unique exact v314 source delta\n\n0 !== 1\n"
+    }
+  ],
+  "scope": "Actual full-source VM, pure-Node Canvas capture, exact SVG replay and scoped CSS assertions. Shared 96x96 frame and conservative bounds. No native raster/layout, keyboard navigation or screen-reader acceptance."
+}

@@ -1,0 +1,291 @@
+{
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "baselineSha256": "0113fe16d55a5eebdb68ccc8615d1dd4c935bd0dd32068b02db8bb081d82c071",
+  "approvedFragmentSha256": "ab376e9fb844cbe0ee645f609a6959963878b66a901abb2699a1de5c1d17c777",
+  "passed": 41,
+  "failed": 0,
+  "assertions": 560,
+  "maps": [
+    "classic",
+    "frontier",
+    "canyon",
+    "ridge",
+    "crossroads",
+    "switchback",
+    "ring",
+    "meridian"
+  ],
+  "negativeControls": [
+    {
+      "name": "missing explicit pause-button instruction",
+      "rejected": true
+    },
+    {
+      "name": "wrong summary Space instruction",
+      "rejected": true
+    },
+    {
+      "name": "default-open root",
+      "rejected": true
+    },
+    {
+      "name": "new auto-action button",
+      "rejected": true
+    },
+    {
+      "name": "external link dependency",
+      "rejected": true
+    },
+    {
+      "name": "summary custom key handler",
+      "rejected": true
+    },
+    {
+      "name": "lost scope difficulty",
+      "rejected": true
+    },
+    {
+      "name": "wrong opening budget",
+      "rejected": true
+    },
+    {
+      "name": "wrong coordinate",
+      "rejected": true
+    },
+    {
+      "name": "missing placement recovery",
+      "rejected": true
+    },
+    {
+      "name": "repeat order changed",
+      "rejected": true
+    },
+    {
+      "name": "missing continue after every check",
+      "rejected": true
+    },
+    {
+      "name": "arrival hold inverted",
+      "rejected": true
+    },
+    {
+      "name": "seed limit dropped",
+      "rejected": true
+    },
+    {
+      "name": "native proof falsely claimed",
+      "rejected": true
+    },
+    {
+      "name": "root moved to overlay",
+      "rejected": true
+    },
+    {
+      "name": "duplicate root",
+      "rejected": true
+    },
+    {
+      "name": "summary tabindex override",
+      "rejected": true
+    },
+    {
+      "name": "unrelated field change",
+      "rejected": true
+    },
+    {
+      "name": "similarly prefixed unrelated ID",
+      "rejected": true
+    },
+    {
+      "name": "duplicate complete fragment",
+      "rejected": true
+    },
+    {
+      "name": "unrelated executable change",
+      "rejected": true
+    },
+    {
+      "name": "unrelated stylesheet change",
+      "rejected": true
+    },
+    {
+      "name": "display version not bumped",
+      "rejected": true
+    },
+    {
+      "name": "summary Space escapes existing guard",
+      "rejected": true
+    },
+    {
+      "name": "summary Enter default incorrectly prevented",
+      "rejected": true
+    }
+  ],
+  "scope": "Focused v315 integration. Exact reviewed fragment plus display-version-only delta against restored final v299; whole JS/CSS identity; native-details static semantics and current pause wording; all eight initial worlds and retained DOM; summary Space/Enter global-handler boundaries; modeled toggle side effects; mutation negatives. The VM does not implement native details activation, real layout/scrolling, screen readers or browser storage. No native keyboard-toggle proof, current-release six-minute survival rerun, aggregate or publication claim. Only temporary OS files are written, and they are removed.",
+  "results": [
+    {
+      "name": "pinned source, reviewed fragment and exact restored v299 baseline",
+      "passed": true
+    },
+    {
+      "name": "exact prior guide delta after reversing reviewed v315 source changes; all other JS and CSS unchanged",
+      "passed": true
+    },
+    {
+      "name": "reviewed six-step text and current pause/summary wording",
+      "passed": true
+    },
+    {
+      "name": "sidebar placement, native closed semantics and all retained menu DOM",
+      "passed": true
+    },
+    {
+      "name": "all eight configured maps are included",
+      "passed": true
+    },
+    {
+      "name": "classic: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "passed": true
+    },
+    {
+      "name": "frontier: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "passed": true
+    },
+    {
+      "name": "canyon: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "passed": true
+    },
+    {
+      "name": "ridge: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "passed": true
+    },
+    {
+      "name": "crossroads: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "passed": true
+    },
+    {
+      "name": "switchback: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "passed": true
+    },
+    {
+      "name": "ring: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "passed": true
+    },
+    {
+      "name": "meridian: initial world, settings, retained DOM, modeled toggles and summary boundaries",
+      "passed": true
+    },
+    {
+      "name": "body Space still pauses/resumes, repeated Space does not toggle, body Enter is inert",
+      "passed": true
+    },
+    {
+      "name": "negative text: missing explicit pause-button instruction",
+      "passed": true
+    },
+    {
+      "name": "negative text: wrong summary Space instruction",
+      "passed": true
+    },
+    {
+      "name": "negative text: default-open root",
+      "passed": true
+    },
+    {
+      "name": "negative text: new auto-action button",
+      "passed": true
+    },
+    {
+      "name": "negative text: external link dependency",
+      "passed": true
+    },
+    {
+      "name": "negative text: summary custom key handler",
+      "passed": true
+    },
+    {
+      "name": "negative text: lost scope difficulty",
+      "passed": true
+    },
+    {
+      "name": "negative text: wrong opening budget",
+      "passed": true
+    },
+    {
+      "name": "negative text: wrong coordinate",
+      "passed": true
+    },
+    {
+      "name": "negative text: missing placement recovery",
+      "passed": true
+    },
+    {
+      "name": "negative text: repeat order changed",
+      "passed": true
+    },
+    {
+      "name": "negative text: missing continue after every check",
+      "passed": true
+    },
+    {
+      "name": "negative text: arrival hold inverted",
+      "passed": true
+    },
+    {
+      "name": "negative text: seed limit dropped",
+      "passed": true
+    },
+    {
+      "name": "negative text: native proof falsely claimed",
+      "passed": true
+    },
+    {
+      "name": "negative DOM: root moved to overlay",
+      "passed": true
+    },
+    {
+      "name": "negative DOM: duplicate root",
+      "passed": true
+    },
+    {
+      "name": "negative DOM: summary tabindex override",
+      "passed": true
+    },
+    {
+      "name": "projection retains unrelated fields and similarly prefixed IDs",
+      "passed": true
+    },
+    {
+      "name": "negative exact delta: duplicate complete fragment",
+      "passed": true
+    },
+    {
+      "name": "negative exact delta: unrelated executable change",
+      "passed": true
+    },
+    {
+      "name": "negative exact delta: unrelated stylesheet change",
+      "passed": true
+    },
+    {
+      "name": "negative exact delta: display version not bumped",
+      "passed": true
+    },
+    {
+      "name": "negative keyboard boundary: summary Space escapes existing guard",
+      "passed": true
+    },
+    {
+      "name": "negative keyboard boundary: summary Enter default incorrectly prevented",
+      "passed": true
+    },
+    {
+      "name": "source, approved fixture and temporary baseline remain unchanged",
+      "passed": true
+    },
+    {
+      "name": "all temporary baseline and mutant files removed",
+      "passed": true
+    }
+  ]
+}

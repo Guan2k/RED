@@ -1,0 +1,1 @@
+First semantic regression attempt timed out in vm.runInContext at the 10-second per-call limit while advancing 20 ticks with four renders. No assertion failure. Retried same trajectory as individual .05 ticks, with identical four render points and unchanged harness timeout. Historical/product tests were not edited.

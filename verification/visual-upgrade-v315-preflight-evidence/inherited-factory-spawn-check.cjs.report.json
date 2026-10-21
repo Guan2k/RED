@@ -1,0 +1,112 @@
+{
+  "passed": 25,
+  "failed": 1,
+  "results": [
+    {
+      "name": "snapshot text preserves lines and wraps inside narrow sidebar",
+      "status": "pass"
+    },
+    {
+      "name": "single friendly completed factory exposes idle checker",
+      "status": "pass"
+    },
+    {
+      "name": "all five exact spawn searches and coordinates",
+      "status": "pass"
+    },
+    {
+      "name": "snapshot explicitly historical not a financial or future guarantee",
+      "status": "pass"
+    },
+    {
+      "name": "pause allowed without advancing simulation",
+      "status": "pass"
+    },
+    {
+      "name": "none cannot check and invalidates previous snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "multi cannot check and invalidates previous snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "enemy cannot check and invalidates previous snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "destroyed cannot check and invalidates previous snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "unfinished cannot check and invalidates previous snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "nonfactory cannot check and invalidates previous snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "unstarted disables and clears snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "restart disables and clears snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "terminal disables and clears snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "restart cancellation does not resurrect old snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "new game with same factory ID clears previous battle snapshot",
+      "status": "pass"
+    },
+    {
+      "name": "switch factory clears old identity and new check uses actual factory",
+      "status": "pass"
+    },
+    {
+      "name": "switch away and back requires explicit refresh",
+      "status": "pass"
+    },
+    {
+      "name": "no automatic search or snapshot update on frames, movement, or buildings",
+      "status": "pass"
+    },
+    {
+      "name": "frozen coordinates do not alias live unit or factory objects",
+      "status": "pass"
+    },
+    {
+      "name": "repeat clicks preserve state logs uid commands and RNG",
+      "status": "pass"
+    },
+    {
+      "name": "no funds or electricity requirement for geometric inspection",
+      "status": "pass"
+    },
+    {
+      "name": "existing queued production is untouched",
+      "status": "pass"
+    },
+    {
+      "name": "all blocked fixture and every type-specific radius uses actual search",
+      "status": "pass"
+    },
+    {
+      "name": "Enter-repeat guard prevents repeat activation request",
+      "status": "pass"
+    },
+    {
+      "name": "exact v259 restore rejects unauthorized gameplay mutation",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: exact v260 spawn-check boundary\n\n0 !== 1\n\n    at module.exports (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/restore-v259.cjs:2:1054)\n    at restore (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/factory-spawn-check.cjs:24:969)\n    at /tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/factory-spawn-check.cjs:24:1295\n    at test (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/factory-spawn-check.cjs:3:28)\n    at Object.<anonymous> (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/factory-spawn-check.cjs:24:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+    }
+  ],
+  "scope": "Node VM / simulated DOM; explicit synthetic boundary fixtures. Natural blocked-factory replay separate."
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "node",
+    "verification/visual-preference-negative-control-v315.cjs"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 8.35,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "sourceUnchanged": true,
+  "stderrBytes": 0,
+  "suiteSha256": "63c2d806287da4f6562c93fbaf0d9dd8f44991bed32b17c2ba6feaa5f29235f3",
+  "suiteUnchanged": true,
+  "passed": 15,
+  "failed": 0,
+  "failures": []
+}

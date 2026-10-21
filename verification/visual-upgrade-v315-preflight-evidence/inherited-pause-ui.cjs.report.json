@@ -1,0 +1,163 @@
+{
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "passed": 27,
+  "failed": 1,
+  "scope": "Full-source Node VM / simulated DOM only; no native browser validation.",
+  "results": [
+    {
+      "name": "button pause immediately refreshes selection",
+      "status": "pass",
+      "evidence": {
+        "text": "战地维修车 · 生命 180/180\n命令：原地待命\n维修状态：游戏暂停（不会执行维修） · 当前位置候选 主战坦克（620,400），生命 210/230；移动及其他维修车可能改变下次结果\n维修范围100 · 最多6生命/秒 · 每1资金最多3生命\n自动维修开启（消耗资金）\n自动目标：就近维修 · 指定跟随目标优先\n右键友军战车：跟随并优先维修"
+      }
+    },
+    {
+      "name": "button resume immediately refreshes selection",
+      "status": "pass",
+      "evidence": {
+        "text": "战地维修车 · 生命 180/180\n命令：原地待命\n维修状态：当前位置候选 主战坦克（620,400），生命 210/230；移动及其他维修车可能改变下次结果\n维修范围100 · 最多6生命/秒 · 每1资金最多3生命\n自动维修开启（消耗资金）\n自动目标：就近维修 · 指定跟随目标优先\n右键友军战车：跟随并优先维修"
+      }
+    },
+    {
+      "name": "button pause immediately refreshes electricityStatus",
+      "status": "pass",
+      "evidence": {
+        "text": "暂停快照：模拟不推进；供电 120 · 需求 80 · 余量 40"
+      }
+    },
+    {
+      "name": "button resume immediately refreshes electricityStatus",
+      "status": "pass",
+      "evidence": {
+        "text": "当前战场快照；供电 120 · 需求 80 · 余量 40"
+      }
+    },
+    {
+      "name": "button pause immediately refreshes repairWorkSummary",
+      "status": "pass",
+      "evidence": {
+        "text": "模拟暂停 · 可排查和选择，不会执行维修\n尚无检查快照；展开或点击刷新。"
+      }
+    },
+    {
+      "name": "button resume immediately refreshes repairWorkSummary",
+      "status": "pass",
+      "evidence": {
+        "text": "模拟运行中 · 候选不代表正在维修\n尚无检查快照；展开或点击刷新。"
+      }
+    },
+    {
+      "name": "button pause immediately refreshes orderedRouteStatus",
+      "status": "pass",
+      "evidence": {
+        "text": "暂停快照：请仅选择一辆存活、已完工己方战斗车，或一座已完工己方工厂"
+      }
+    },
+    {
+      "name": "button resume immediately refreshes orderedRouteStatus",
+      "status": "pass",
+      "evidence": {
+        "text": "当前命令快照：请仅选择一辆存活、已完工己方战斗车，或一座已完工己方工厂"
+      }
+    },
+    {
+      "name": "button pause immediately refreshes harvesterFleetWork",
+      "status": "pass",
+      "evidence": {
+        "text": "暂停快照 · 矿车共 1 辆\n手动移动指令 0 · 手动指令待结束 0 · 停工：缺少已建成精炼厂 0 · 等待交矿结算 0 · 前往精炼厂交矿 0 · 停工：矿石已耗尽 0 · 矿点采集阶段 0 · 前往指定矿点 0 · 前往自动选择矿点 1"
+      }
+    },
+    {
+      "name": "button resume immediately refreshes harvesterFleetWork",
+      "status": "pass",
+      "evidence": {
+        "text": "当前工作阶段 · 矿车共 1 辆\n手动移动指令 0 · 手动指令待结束 0 · 停工：缺少已建成精炼厂 0 · 等待交矿结算 0 · 前往精炼厂交矿 0 · 停工：矿石已耗尽 0 · 矿点采集阶段 0 · 前往指定矿点 0 · 前往自动选择矿点 1"
+      }
+    },
+    {
+      "name": "button pause immediately refreshes postOverviewStatus",
+      "status": "pass",
+      "evidence": {
+        "text": "暂停快照：模拟不推进。据点可争夺，当前胜利条件不使用据点90秒计时。"
+      }
+    },
+    {
+      "name": "button resume immediately refreshes postOverviewStatus",
+      "status": "pass",
+      "evidence": {
+        "text": "当前战场快照。据点可争夺，当前胜利条件不使用据点90秒计时。"
+      }
+    },
+    {
+      "name": "button pause immediately refreshes productionCapacity",
+      "status": "pass",
+      "evidence": {
+        "text": "己方已完工工厂 1 座 · 占用 0 / 空闲 1；已付订单待分配工厂 0 单。游戏暂停。占用含暂停及等待出口；空闲仅指未绑定订单，不保证后续空闲或出厂时间。"
+      }
+    },
+    {
+      "name": "button resume immediately refreshes productionCapacity",
+      "status": "pass",
+      "evidence": {
+        "text": "己方已完工工厂 1 座 · 占用 0 / 空闲 1；已付订单待分配工厂 0 单。当前分配快照。占用含暂停及等待出口；空闲仅指未绑定订单，不保证后续空闲或出厂时间。"
+      }
+    },
+    {
+      "name": "twenty alternating clicks need no simulation or animation frame",
+      "status": "pass"
+    },
+    {
+      "name": "button and Space shortcut produce same immediate panels",
+      "status": "pass"
+    },
+    {
+      "name": "blocked direct handler leaves state and panels unchanged: state.started=false",
+      "status": "pass"
+    },
+    {
+      "name": "blocked direct handler leaves state and panels unchanged: restartPrompt=true",
+      "status": "pass"
+    },
+    {
+      "name": "blocked direct handler leaves state and panels unchanged: state.result='胜利'",
+      "status": "pass"
+    },
+    {
+      "name": "toggle preserves battle, commands, selection, groups, storage and repair snapshot true",
+      "status": "pass"
+    },
+    {
+      "name": "toggle preserves battle, commands, selection, groups, storage and repair snapshot false",
+      "status": "pass"
+    },
+    {
+      "name": "pause still prevents scheduled simulation, resume allows it",
+      "status": "pass"
+    },
+    {
+      "name": "paid order status and identity synchronize without production true",
+      "status": "pass"
+    },
+    {
+      "name": "paid order status and identity synchronize without production false",
+      "status": "pass"
+    },
+    {
+      "name": "loop production status immediately reflects pause and resume global",
+      "status": "pass"
+    },
+    {
+      "name": "loop production status immediately reflects pause and resume factory",
+      "status": "pass"
+    },
+    {
+      "name": "held Space repeat leaves already paused state unchanged",
+      "status": "pass"
+    },
+    {
+      "name": "strict source restoration rejects unrelated game change",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: exact v251 pause-ui boundary\n\n0 !== 1\n\n    at module.exports (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/restore-v250.cjs:2:214)\n    at /tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/pause-ui.cjs:18:1938\n    at test (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/pause-ui.cjs:5:70)\n    at Object.<anonymous> (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/pause-ui.cjs:18:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)"
+    }
+  ]
+}

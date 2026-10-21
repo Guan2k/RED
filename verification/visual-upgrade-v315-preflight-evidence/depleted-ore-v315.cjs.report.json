@@ -1,0 +1,623 @@
+{
+  "passed": 69,
+  "failed": 0,
+  "results": [
+    {
+      "name": "source/exact-three-deltas",
+      "passed": true,
+      "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+      "baselineSha256": "10061270b6f245d2980f5eb7f45bc6ad742500157ac7e7b16b929fcde0f9a7bd"
+    },
+    {
+      "name": "helper/exact-zero-negative-geometry",
+      "passed": true,
+      "ores": 4,
+      "marked": 4,
+      "methods": 72,
+      "paints": 12
+    },
+    {
+      "name": "helper/positive-never-marked",
+      "passed": true,
+      "ores": 11,
+      "marked": 0,
+      "methods": 0,
+      "paints": 0
+    },
+    {
+      "name": "helper/nondefault-context-restored",
+      "passed": true,
+      "ores": 2,
+      "marked": 2,
+      "methods": 36,
+      "paints": 6
+    },
+    {
+      "name": "helper/full-state-command-purity",
+      "passed": true
+    },
+    {
+      "name": "helper/mixed-positions-and-empty",
+      "passed": true,
+      "ores": 4,
+      "marked": 3,
+      "methods": 54,
+      "paints": 9
+    },
+    {
+      "name": "render/ground-layer-invocation",
+      "passed": true,
+      "map": "canyon",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 341
+    },
+    {
+      "name": "render/threshold--1/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 278
+    },
+    {
+      "name": "render/threshold--1/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 344
+    },
+    {
+      "name": "render/threshold-0/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 278
+    },
+    {
+      "name": "render/threshold-0/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 344
+    },
+    {
+      "name": "render/threshold-5e-324/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 278
+    },
+    {
+      "name": "render/threshold-5e-324/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 344
+    },
+    {
+      "name": "render/threshold-0.001/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 278
+    },
+    {
+      "name": "render/threshold-0.001/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 344
+    },
+    {
+      "name": "render/threshold-0.1/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 278
+    },
+    {
+      "name": "render/threshold-0.1/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 344
+    },
+    {
+      "name": "render/threshold-1499.999/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 278
+    },
+    {
+      "name": "render/threshold-1499.999/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 344
+    },
+    {
+      "name": "render/threshold-1500/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 278
+    },
+    {
+      "name": "render/threshold-1500/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 344
+    },
+    {
+      "name": "render/threshold-1500.001/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 281
+    },
+    {
+      "name": "render/threshold-1500.001/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 347
+    },
+    {
+      "name": "render/threshold-4499.999/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 281
+    },
+    {
+      "name": "render/threshold-4499.999/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 347
+    },
+    {
+      "name": "render/threshold-4500/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 281
+    },
+    {
+      "name": "render/threshold-4500/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 347
+    },
+    {
+      "name": "render/threshold-4500.001/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 285
+    },
+    {
+      "name": "render/threshold-4500.001/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 351
+    },
+    {
+      "name": "render/threshold-12000/preview-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 285
+    },
+    {
+      "name": "render/threshold-12000/preview-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 351
+    },
+    {
+      "name": "render/map-classic/preview-false/cached-false",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 312
+    },
+    {
+      "name": "render/map-classic/preview-false/cached-true",
+      "passed": true,
+      "map": "classic",
+      "preview": false,
+      "cached": true,
+      "frames": 2,
+      "paints": 312
+    },
+    {
+      "name": "render/map-classic/preview-true/cached-false",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 378
+    },
+    {
+      "name": "render/map-classic/preview-true/cached-true",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": true,
+      "frames": 2,
+      "paints": 378
+    },
+    {
+      "name": "render/map-frontier/preview-false/cached-false",
+      "passed": true,
+      "map": "frontier",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 312
+    },
+    {
+      "name": "render/map-frontier/preview-false/cached-true",
+      "passed": true,
+      "map": "frontier",
+      "preview": false,
+      "cached": true,
+      "frames": 2,
+      "paints": 312
+    },
+    {
+      "name": "render/map-frontier/preview-true/cached-false",
+      "passed": true,
+      "map": "frontier",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 378
+    },
+    {
+      "name": "render/map-frontier/preview-true/cached-true",
+      "passed": true,
+      "map": "frontier",
+      "preview": true,
+      "cached": true,
+      "frames": 2,
+      "paints": 378
+    },
+    {
+      "name": "render/map-canyon/preview-false/cached-false",
+      "passed": true,
+      "map": "canyon",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 342
+    },
+    {
+      "name": "render/map-canyon/preview-false/cached-true",
+      "passed": true,
+      "map": "canyon",
+      "preview": false,
+      "cached": true,
+      "frames": 2,
+      "paints": 342
+    },
+    {
+      "name": "render/map-canyon/preview-true/cached-false",
+      "passed": true,
+      "map": "canyon",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 408
+    },
+    {
+      "name": "render/map-canyon/preview-true/cached-true",
+      "passed": true,
+      "map": "canyon",
+      "preview": true,
+      "cached": true,
+      "frames": 2,
+      "paints": 408
+    },
+    {
+      "name": "render/map-ridge/preview-false/cached-false",
+      "passed": true,
+      "map": "ridge",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 330
+    },
+    {
+      "name": "render/map-ridge/preview-false/cached-true",
+      "passed": true,
+      "map": "ridge",
+      "preview": false,
+      "cached": true,
+      "frames": 2,
+      "paints": 330
+    },
+    {
+      "name": "render/map-ridge/preview-true/cached-false",
+      "passed": true,
+      "map": "ridge",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 396
+    },
+    {
+      "name": "render/map-ridge/preview-true/cached-true",
+      "passed": true,
+      "map": "ridge",
+      "preview": true,
+      "cached": true,
+      "frames": 2,
+      "paints": 396
+    },
+    {
+      "name": "render/map-crossroads/preview-false/cached-false",
+      "passed": true,
+      "map": "crossroads",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 338
+    },
+    {
+      "name": "render/map-crossroads/preview-false/cached-true",
+      "passed": true,
+      "map": "crossroads",
+      "preview": false,
+      "cached": true,
+      "frames": 2,
+      "paints": 338
+    },
+    {
+      "name": "render/map-crossroads/preview-true/cached-false",
+      "passed": true,
+      "map": "crossroads",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 404
+    },
+    {
+      "name": "render/map-crossroads/preview-true/cached-true",
+      "passed": true,
+      "map": "crossroads",
+      "preview": true,
+      "cached": true,
+      "frames": 2,
+      "paints": 404
+    },
+    {
+      "name": "render/map-switchback/preview-false/cached-false",
+      "passed": true,
+      "map": "switchback",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 362
+    },
+    {
+      "name": "render/map-switchback/preview-false/cached-true",
+      "passed": true,
+      "map": "switchback",
+      "preview": false,
+      "cached": true,
+      "frames": 2,
+      "paints": 362
+    },
+    {
+      "name": "render/map-switchback/preview-true/cached-false",
+      "passed": true,
+      "map": "switchback",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 428
+    },
+    {
+      "name": "render/map-switchback/preview-true/cached-true",
+      "passed": true,
+      "map": "switchback",
+      "preview": true,
+      "cached": true,
+      "frames": 2,
+      "paints": 428
+    },
+    {
+      "name": "render/map-ring/preview-false/cached-false",
+      "passed": true,
+      "map": "ring",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 326
+    },
+    {
+      "name": "render/map-ring/preview-false/cached-true",
+      "passed": true,
+      "map": "ring",
+      "preview": false,
+      "cached": true,
+      "frames": 2,
+      "paints": 326
+    },
+    {
+      "name": "render/map-ring/preview-true/cached-false",
+      "passed": true,
+      "map": "ring",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 392
+    },
+    {
+      "name": "render/map-ring/preview-true/cached-true",
+      "passed": true,
+      "map": "ring",
+      "preview": true,
+      "cached": true,
+      "frames": 2,
+      "paints": 392
+    },
+    {
+      "name": "render/map-meridian/preview-false/cached-false",
+      "passed": true,
+      "map": "meridian",
+      "preview": false,
+      "cached": false,
+      "frames": 2,
+      "paints": 338
+    },
+    {
+      "name": "render/map-meridian/preview-false/cached-true",
+      "passed": true,
+      "map": "meridian",
+      "preview": false,
+      "cached": true,
+      "frames": 2,
+      "paints": 338
+    },
+    {
+      "name": "render/map-meridian/preview-true/cached-false",
+      "passed": true,
+      "map": "meridian",
+      "preview": true,
+      "cached": false,
+      "frames": 2,
+      "paints": 404
+    },
+    {
+      "name": "render/map-meridian/preview-true/cached-true",
+      "passed": true,
+      "map": "meridian",
+      "preview": true,
+      "cached": true,
+      "frames": 2,
+      "paints": 404
+    },
+    {
+      "name": "render/nonempty-commands-preserved",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 3,
+      "paints": 411
+    },
+    {
+      "name": "behavior/hover-collision-pathfinding-preserved",
+      "passed": true,
+      "functions": [
+        "hoverOre",
+        "constructionCollisionBlocker",
+        "constructionPreview",
+        "canPlace",
+        "movementObstacles",
+        "movementSegmentClear",
+        "findMovementRoute",
+        "harvest",
+        "oreLabelLayout"
+      ]
+    },
+    {
+      "name": "lifecycle/real-harvest-zero-next-tick-reset",
+      "passed": true,
+      "transition": [
+        0.1,
+        0
+      ],
+      "nextTickAssignment": null,
+      "resetFresh": true
+    },
+    {
+      "name": "lifecycle/menu",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 3,
+      "paints": 384
+    },
+    {
+      "name": "lifecycle/paused",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 3,
+      "paints": 386
+    },
+    {
+      "name": "lifecycle/terminal",
+      "passed": true,
+      "map": "classic",
+      "preview": true,
+      "cached": false,
+      "frames": 3,
+      "paints": 384
+    }
+  ],
+  "scope": "Node-only command/state evidence; independent exact design oracle and reconstructed SHA-verified v310 baseline. No storage, native-browser, raster or FPS claims."
+}

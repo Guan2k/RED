@@ -1,0 +1,36 @@
+--- 
+
++++ 
+
+@@ -1,3 +1,6 @@
+
++'use strict';
++// v315 expected-side presentation adaptation; no candidate stream changes.
++const {installExpectedPresentation,expectedFunctionSource}=require('./presentation-expected-v315.cjs');
+ 'use strict';
+ const {installExpectedDepletedOreBeds}=require('./depleted-ore-expected-v315.cjs');
+ const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+@@ -17,7 +20,7 @@
+
+ const productFiles=['index.html','source-build-receipt.json','src/art/buildings.mjs','src/script/03-renderer.jsfrag'];
+ const productSnapshot=()=>Object.fromEntries(productFiles.map(p=>[p,hash(fs.readFileSync(path.join(root,p)))]));
+ const beforeProduct=productSnapshot();
+-function loadExpectedGame(options){assert.equal(crypto.createHash('sha256').update(fs.readFileSync(base)).digest('hex'),'87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e','strict historical identity before expected-label adaptation');const g=loadGame(base,options);installExpectedOreLabels(g);installExpectedDepletedOreBeds(g);return g}
++function loadExpectedGame(options){assert.equal(crypto.createHash('sha256').update(fs.readFileSync(base)).digest('hex'),'87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e','strict historical identity before expected-label adaptation');const g=loadGame(base,options);installExpectedOreLabels(g);installExpectedDepletedOreBeds(g);installExpectedPresentation(g);return g}
+ const types=['hq','power','refinery','factory','turret'],origins={hq:[-18,-5],power:[-17,9],refinery:[-22,9],factory:[19,1]};
+ const core=g=>g.run('JSON.stringify({state,uid,groups,selection:[...selection],placement,attackMode,drag,ordinaryCommandMode,appendCommandMode,restartPrompt,simulationRemainder,durable:durableBattleSignature()})');
+ const toggle=(g,on)=>{g.element('vehicleArtPreview').checked=on;g.element('vehicleArtPreview').dispatchEvent({type:'change'})};
+@@ -28,10 +31,10 @@
+
+ function oldFrame(r,g){return projectOreDensity(r.paints,oreViews(g),{events:r.events})}
+ function fn(s,name){let i=s.indexOf('function '+name+'('),start=s.indexOf('{',i),d=1,j=start+1;assert.ok(i>=0);for(;d;j++){if(s[j]==='{')d++;if(s[j]==='}')d--}return s.slice(i,j)}
+ const candidateText=fs.readFileSync(source,'utf8'),baseText=fs.readFileSync(base,'utf8');
+-eq(hash(candidateText),'d0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d','frozen v315 product identity');
++eq(hash(candidateText),'3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6','frozen v315 product identity');
+ eq(hash(baseText),'87410cd27ef37e0d1bbb78168fecad1388b5af08e6de0c272dc1a923c526839e','strict restored final v300 identity');
+ for(const name of ['drawBuilding','drawConstructionProgress','drawFactoryProgress','drawFactoryRallies','drawUnit','drawUnitPreview','initializeUnitArtPaths','render'])eq(fn(require('./source-delta-history-v315.cjs')(candidateText),name),fn(baseText,name),'unchanged source after exact v315/v302/v301 inverse '+name);
+-eq(fn(candidateText,'drawBuildingPreview').replace('  drawBuildingTeamCue(e.type,e.team);\n',''),fn(baseText,'drawBuildingPreview'),'preview change exactly one added helper call');
++eq(fn(candidateText,'drawBuildingPreview').replace('  drawBuildingTeamCue(e.type,e.team);\n',''),expectedFunctionSource(baseText,'drawBuildingPreview'),'preview change exactly one cue call after exact expected presentation');
+ const mp=mockPath(),bp=mockPath(),g=loadGame(source,{seed:52,path2D:mp.P}).start(),d=loadGame(source,{seed:52}).start(),b=loadExpectedGame({seed:52,path2D:bp.P}).start(),bd=loadExpectedGame({seed:52}).start();
+ eq(mp.stats,{constructors:0,pathMethods:0},'default off no Path2D allocation');eq(g.run('vehicleArtPreview'),false,'default preview off');eq(g.run('buildingArtPathCache'),undefined,'default off no building cache');
+ for(const q of[g,d,b,bd])q.run('initializeBuildingArtPaths()');

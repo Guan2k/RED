@@ -1,0 +1,120 @@
+{
+  "passed": 27,
+  "failed": 1,
+  "results": [
+    {
+      "name": "dead tail removes final live pending target in one click",
+      "status": "pass"
+    },
+    {
+      "name": "already-live queue retains ordinary last-target behavior",
+      "status": "pass"
+    },
+    {
+      "name": "dead middle uses display target eligibility",
+      "status": "pass"
+    },
+    {
+      "name": "missing tail uses display target eligibility",
+      "status": "pass"
+    },
+    {
+      "name": "friendly tail uses display target eligibility",
+      "status": "pass"
+    },
+    {
+      "name": "dead middle and tail uses display target eligibility",
+      "status": "pass"
+    },
+    {
+      "name": "one survivor is disabled and action no-op",
+      "status": "pass"
+    },
+    {
+      "name": "zero survivors is disabled and action no-op",
+      "status": "pass"
+    },
+    {
+      "name": "target death after render is revalidated without misleading success",
+      "status": "pass"
+    },
+    {
+      "name": "actual current at tail never removes actual current target",
+      "status": "pass"
+    },
+    {
+      "name": "actual current in middle never removes actual current target",
+      "status": "pass"
+    },
+    {
+      "name": "actual current absent never removes actual current target",
+      "status": "pass"
+    },
+    {
+      "name": "only current repeated never removes actual current target",
+      "status": "pass"
+    },
+    {
+      "name": "current repeated at tail never removes actual current target",
+      "status": "pass"
+    },
+    {
+      "name": "single live queue target with different current remains no-op",
+      "status": "pass"
+    },
+    {
+      "name": "readonly availability and rendering do not prune or change world",
+      "status": "pass"
+    },
+    {
+      "name": "movement queue undo retains current goal and arrival hold",
+      "status": "pass"
+    },
+    {
+      "name": "mixed selection removes one eligible tail per vehicle only",
+      "status": "pass"
+    },
+    {
+      "name": "paused undo works without advancing world",
+      "status": "pass"
+    },
+    {
+      "name": "restart action no-op",
+      "status": "pass"
+    },
+    {
+      "name": "terminal action no-op",
+      "status": "pass"
+    },
+    {
+      "name": "unstarted action no-op",
+      "status": "pass"
+    },
+    {
+      "name": "dead owner action no-op",
+      "status": "pass"
+    },
+    {
+      "name": "enemy owner action no-op",
+      "status": "pass"
+    },
+    {
+      "name": "unfinished owner action no-op",
+      "status": "pass"
+    },
+    {
+      "name": "ambiguous dual queue action no-op",
+      "status": "pass"
+    },
+    {
+      "name": "no selection action no-op",
+      "status": "pass"
+    },
+    {
+      "name": "exact v262 restore rejects unrelated gameplay edits",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: exact v263 attack-tail boundary\n\n0 !== 1\n\n    at module.exports (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/restore-v262.cjs:2:797)\n    at restore (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/attack-tail.cjs:16:840)\n    at /tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/attack-tail.cjs:16:1166\n    at test (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/attack-tail.cjs:2:28)\n    at Object.<anonymous> (/tmp/red-v315-recovery-inherited-preflight-L09gVf/RED/verification/attack-tail.cjs:16:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)"
+    }
+  ],
+  "scope": "Node whole-source VM/simulated DOM; explicitly synthetic lifecycle/death/corruption fixtures. Legal battle regression separate."
+}

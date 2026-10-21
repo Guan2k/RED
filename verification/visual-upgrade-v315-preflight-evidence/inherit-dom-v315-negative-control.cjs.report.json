@@ -1,0 +1,55 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "results": [
+    {
+      "name": "only exact repair case changes after unchanged prior DOM projection",
+      "passed": true
+    },
+    {
+      "name": "changed original program rejected 1",
+      "passed": true
+    },
+    {
+      "name": "changed original program rejected 395",
+      "passed": true
+    },
+    {
+      "name": "unapproved program rejected",
+      "passed": true
+    },
+    {
+      "name": "unrelated adapter byte-identical attack-pressed.cjs",
+      "passed": true
+    },
+    {
+      "name": "full current suite passes with every case retained",
+      "passed": true
+    },
+    {
+      "name": "exact historical host still executes original behavior with full suite passing",
+      "passed": true
+    },
+    {
+      "name": "new contract rejects remove repeat prevention",
+      "passed": true
+    },
+    {
+      "name": "new contract rejects block first Enter",
+      "passed": true
+    },
+    {
+      "name": "new contract rejects return without default prevention",
+      "passed": true
+    },
+    {
+      "name": "new contract rejects mutate world during repeat",
+      "passed": true
+    },
+    {
+      "name": "new contract rejects mutate unrelated input during repeat",
+      "passed": true
+    }
+  ],
+  "scope": "Exact frozen-file and prior-projection locks; only one current behavior case changes. Historical case and all other repair/world/input/DOM/storage assertions retained. Native behavior remains unverified."
+}

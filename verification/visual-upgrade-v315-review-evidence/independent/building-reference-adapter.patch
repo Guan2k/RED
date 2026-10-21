@@ -1,0 +1,25 @@
+--- 
+
++++ 
+
+@@ -1,3 +1,5 @@
+
++'use strict';
++// v315 expected-side presentation adaptation; no candidate stream changes.
+ 'use strict';
+ const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto'),{loadGame}=require('./vm-environment.cjs'),capture=require('./building-reference-capture-v315.cjs');
+ const results=[],source=path.resolve(process.argv[2]||path.join(__dirname,'../index.html'));
+@@ -32,10 +34,10 @@
+
+ test('scoped responsive CSS and noninteractive graphic contract',()=>{
+  const css=html.match(/<style>([\s\S]*?)<\/style>/)[1],rules=[...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)].filter(r=>/building-reference|buildingReferenceGallery/.test(r[1]));
+  const expected=[['.building-reference-grid','display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;list-style:none;margin:8px 0 12px;padding:0'],['.building-reference-grid li','min-width:0;padding:6px;border:1px solid #3d5140;border-radius:4px;background:#1c2c23;text-align:center'],['.building-reference-grid svg','display:block;width:96px;max-width:100%;height:auto;margin:0 auto 4px;background:#354a37'],['.building-reference-grid span','display:block;font-size:12px;line-height:1.5;overflow-wrap:anywhere'],['.building-reference-grid .reference-preview','display:none'],['#buildingReferenceGallery[data-preview="true"] .reference-original','display:none'],['#buildingReferenceGallery[data-preview="true"] .reference-preview','display:block']];
+- assert.deepEqual(rules.map(r=>[r[1].trim(),r[2]]),expected,'all building CSS strictly scoped, compact, responsive and mode-correct');
++ expected.push(['.vehicle-reference-grid li, .building-reference-grid li',' border-color: #476046; background: #1b2f20; padding: 8px; '],['.vehicle-reference-grid svg, .building-reference-grid svg',' border-radius: 4px; ']);assert.deepEqual(rules.map(r=>[r[1].trim(),r[2]]),expected,'all building CSS strictly scoped, compact, responsive and mode-correct');
+  for(const row of rows())assert.equal((row[2].match(/<svg /g)||[]).length,2);
+ });
+ test('frozen gameplay and renderer script unchanged outside gallery synchronization',()=>{
+- const historical=require('./source-delta-v311.cjs')(require('./source-delta-v312.cjs')(require('./source-delta-v313.cjs')(require('./source-delta-v315.cjs')(html)))),script=historical.match(/<script\b[^>]*>([\s\S]*?)<\/script>/i)[1].replace(/function updateVisualPreviewControl\(\)\{[^\n]*\}/,'function updateVisualPreviewControl(){/* gallery sync excluded */}');assert.equal(hash(script),'ddc97779dd1501b51e998f00e901daf1d5797605aaae136eb7f8d28eed303251');
++ const historical=require('./source-delta-v311.cjs')(require('./source-delta-v312.cjs')(require('./source-delta-v313.cjs')(require('./source-delta-v314.cjs')(require('./source-delta-v315.cjs')(html))))),script=historical.match(/<script\b[^>]*>([\s\S]*?)<\/script>/i)[1].replace(/function updateVisualPreviewControl\(\)\{[^\n]*\}/,'function updateVisualPreviewControl(){/* gallery sync excluded */}');assert.equal(hash(script),'ddc97779dd1501b51e998f00e901daf1d5797605aaae136eb7f8d28eed303251');
+ });
+ const failed=results.filter(r=>!r.passed).length;console.log(JSON.stringify({passed:results.length-failed,failed,sourceSha256:hash(html),results,scope:'Actual full-source VM, pure-Node Canvas capture, exact SVG replay and scoped CSS assertions. Shared 96x96 frame and conservative bounds. No native raster/layout, keyboard navigation or screen-reader acceptance.'},null,2));process.exitCode=failed?1:0;

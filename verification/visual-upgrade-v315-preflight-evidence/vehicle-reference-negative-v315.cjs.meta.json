@@ -1,0 +1,16 @@
+{
+  "command": [
+    "node",
+    "verification/vehicle-reference-negative-v315.cjs"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 68.25,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "sourceUnchanged": true,
+  "stderrBytes": 0,
+  "suiteSha256": "af257f510f6e042e96b5c239c093db58829dbeb32e2ebdd21d498c8c8595b958",
+  "suiteUnchanged": true,
+  "passed": 6,
+  "failed": 0,
+  "failures": []
+}

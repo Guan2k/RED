@@ -1,0 +1,16 @@
+{
+  "command": [
+    "node",
+    "verification/depleted-ore-v315.cjs"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 22.33,
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "sourceUnchanged": true,
+  "stderrBytes": 0,
+  "suiteSha256": "8ae51ec0395db9ffe29c9dc84a8d65bcdb7c142fc13a32d6d59488a299658e1c",
+  "suiteUnchanged": true,
+  "passed": 69,
+  "failed": 0,
+  "failures": []
+}

@@ -1,0 +1,2087 @@
+{
+  "passed": 32,
+  "failed": 0,
+  "total": 32,
+  "source": "/workspace/scratch/e433d7540f34/red-development/v315-recovery-integration/RED/index.html",
+  "sourceHashBefore": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "sourceHashAfter": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "scope": "Node VM/DOM model only. UI events drive natural paid production, mode changes, cancellation, pause/restart, legal construction and confirmed salvage. No save/import/export calls, browser use, publication, or gameplay-state injections. Browser interaction/layout fidelity is not asserted.",
+  "documentedContract": "CURRENT_PLAYER_GUIDE.md production-mode contract: global old-order cancellation stops current global repeat even after retyping; local source mode changes detach prior orders; all already-paid work is retained.",
+  "tests": [
+    {
+      "name": "global_to_local_cancel",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      },
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1326,
+        "income": 0,
+        "spent": 374,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "tank",
+            "left": 5.966666666666667,
+            "total": 6,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_to_local_complete",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      },
+      "result": {
+        "completed": "scout",
+        "replacement": "tank"
+      },
+      "after": {
+        "t": 4.116666666666657,
+        "cash": 1170,
+        "income": 0,
+        "spent": 530,
+        "produced": 1,
+        "paused": false,
+        "queue": [
+          {
+            "type": "tank",
+            "left": 5.916666666666667,
+            "total": 6,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_to_global_cancel",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4
+          }
+        ],
+        "global": "tank",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1326,
+        "income": 0,
+        "spent": 374,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "tank",
+            "left": 5.966666666666667,
+            "total": 6,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "tank",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_to_global_complete",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4
+          }
+        ],
+        "global": "tank",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "completed": "scout",
+        "replacement": "tank"
+      },
+      "after": {
+        "t": 4.116666666666657,
+        "cash": 1170,
+        "income": 0,
+        "spent": 530,
+        "produced": 1,
+        "paused": false,
+        "queue": [
+          {
+            "type": "tank",
+            "left": 5.916666666666667,
+            "total": 6,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "tank",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_retype_cancel",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "tank",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1676,
+        "income": 0,
+        "spent": 24,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_retype_complete",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "tank",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "completed": "scout",
+        "replacement": "tank"
+      },
+      "after": {
+        "t": 4.116666666666657,
+        "cash": 1170,
+        "income": 0,
+        "spent": 530,
+        "produced": 1,
+        "paused": false,
+        "queue": [
+          {
+            "type": "tank",
+            "left": 5.916666666666667,
+            "total": 6,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "tank",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_retype_cancel",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      },
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1326,
+        "income": 0,
+        "spent": 374,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "tank",
+            "left": 5.966666666666667,
+            "total": 6,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_retype_complete",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      },
+      "result": {
+        "completed": "scout",
+        "replacement": "tank"
+      },
+      "after": {
+        "t": 4.116666666666657,
+        "cash": 1170,
+        "income": 0,
+        "spent": 530,
+        "produced": 1,
+        "paused": false,
+        "queue": [
+          {
+            "type": "tank",
+            "left": 5.916666666666667,
+            "total": 6,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_off_cancel",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1676,
+        "income": 0,
+        "spent": 24,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_off_complete",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "completed": "scout",
+        "replacement": "off"
+      },
+      "after": {
+        "t": 4.116666666666657,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 1,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_off_cancel",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1676,
+        "income": 0,
+        "spent": 24,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_off_complete",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "completed": "scout",
+        "replacement": "off"
+      },
+      "after": {
+        "t": 4.116666666666657,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 1,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_same_type_cancel",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1676,
+        "income": 0,
+        "spent": 24,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_same_type_complete",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "completed": "scout",
+        "replacement": "scout"
+      },
+      "after": {
+        "t": 4.116666666666657,
+        "cash": 1340,
+        "income": 0,
+        "spent": 360,
+        "produced": 1,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.916666666666667,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_same_type_cancel",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4,
+          "factoryRepeatSource": 4
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1676,
+        "income": 0,
+        "spent": 24,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_same_type_complete",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "changed": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "result": {
+        "completed": "scout",
+        "replacement": "scout"
+      },
+      "after": {
+        "t": 4.116666666666657,
+        "cash": 1340,
+        "income": 0,
+        "spent": 360,
+        "produced": 1,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.916666666666667,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_off_then_reenable_cancellation_provenance",
+      "passed": true,
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1676,
+        "income": 0,
+        "spent": 24,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_off_then_reenable_cancellation_provenance",
+      "passed": true,
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1496,
+        "income": 0,
+        "spent": 204,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.966666666666667,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_manual_order_cancel_preserves_repeat",
+      "passed": true,
+      "result": {
+        "refund": 350,
+        "remaining": {
+          "type": "tank",
+          "left": 6,
+          "total": 6,
+          "factoryId": null
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4166666666666687,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_manual_order_cancel_preserves_repeat",
+      "passed": true,
+      "result": {
+        "refund": 350,
+        "remaining": {
+          "type": "tank",
+          "left": 6,
+          "total": 6,
+          "factoryId": null
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4166666666666687,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_paused_change_cancel_manual_and_resume",
+      "passed": true,
+      "frozen": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": true,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4,
+          "repeatOrder": true
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1676,
+        "income": 0,
+        "spent": 24,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_paused_change_cancel_manual_and_resume",
+      "passed": true,
+      "frozen": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": true,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 4
+        }
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1326,
+        "income": 0,
+        "spent": 374,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "tank",
+            "left": 5.966666666666667,
+            "total": 6,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_restart_return_running",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4166666666666687,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_restart_return_paused",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": true,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "after": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": true,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_restart_return_running",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "after": {
+        "t": 0.6000000000000002,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4166666666666687,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_restart_return_paused",
+      "passed": true,
+      "before": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": true,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      },
+      "after": {
+        "t": 0.55,
+        "cash": 1520,
+        "income": 0,
+        "spent": 180,
+        "produced": 0,
+        "paused": true,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_restart_confirm_resets_paid_state",
+      "passed": true,
+      "after": {
+        "t": 0.05,
+        "cash": 1700,
+        "income": 0,
+        "spent": 0,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_restart_confirm_resets_paid_state",
+      "passed": true,
+      "after": {
+        "t": 0.05,
+        "cash": 1700,
+        "income": 0,
+        "spent": 0,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_legal_factory_loss_reassign_cancel",
+      "passed": true,
+      "paid": {
+        "t": 12.650000000000208,
+        "cash": 730,
+        "income": 360,
+        "spent": 1330,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "repeatOrder": true
+          }
+        ],
+        "global": "scout",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "off"
+          },
+          {
+            "id": 19,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "reassigned": {
+        "t": 12.650000000000208,
+        "cash": 1155,
+        "income": 785,
+        "spent": 1330,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 19,
+            "repeatOrder": true
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 19,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      },
+      "salvageRefund": 425,
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 19,
+          "repeatOrder": true
+        }
+      },
+      "after": {
+        "t": 12.70000000000021,
+        "cash": 961,
+        "income": 785,
+        "spent": 1524,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "tank",
+            "left": 5.966666666666667,
+            "total": 6,
+            "factoryId": 19,
+            "factoryRepeatSource": 19
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 19,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      }
+    },
+    {
+      "name": "local_legal_factory_loss_reassign_cancel",
+      "passed": true,
+      "paid": {
+        "t": 12.650000000000208,
+        "cash": 730,
+        "income": 360,
+        "spent": 1330,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 4,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 4,
+            "build": 0,
+            "repeat": "scout"
+          },
+          {
+            "id": 19,
+            "build": 0,
+            "repeat": "off"
+          }
+        ]
+      },
+      "reassigned": {
+        "t": 12.650000000000208,
+        "cash": 1155,
+        "income": 785,
+        "spent": 1330,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "scout",
+            "left": 3.4666666666666686,
+            "total": 4,
+            "factoryId": 19,
+            "factoryRepeatSource": 4
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 19,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      },
+      "salvageRefund": 425,
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": 19,
+          "factoryRepeatSource": 4
+        }
+      },
+      "after": {
+        "t": 12.70000000000021,
+        "cash": 961,
+        "income": 785,
+        "spent": 1524,
+        "produced": 0,
+        "paused": false,
+        "queue": [
+          {
+            "type": "tank",
+            "left": 5.966666666666667,
+            "total": 6,
+            "factoryId": 19,
+            "factoryRepeatSource": 19
+          }
+        ],
+        "global": "off",
+        "factories": [
+          {
+            "id": 19,
+            "build": 0,
+            "repeat": "tank"
+          }
+        ]
+      }
+    },
+    {
+      "name": "global_last_factory_loss_preserves_unassigned_paid_order",
+      "passed": true,
+      "salvageRefund": 425,
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": null,
+          "repeatOrder": true
+        }
+      },
+      "after": {
+        "t": 1.100000000000001,
+        "cash": 2101,
+        "income": 425,
+        "spent": 24,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": []
+      }
+    },
+    {
+      "name": "local_last_factory_loss_preserves_unassigned_paid_order",
+      "passed": true,
+      "salvageRefund": 425,
+      "result": {
+        "refund": 156,
+        "remaining": {
+          "type": "scout",
+          "left": 3.4666666666666686,
+          "total": 4,
+          "factoryId": null,
+          "factoryRepeatSource": 4
+        }
+      },
+      "after": {
+        "t": 1.100000000000001,
+        "cash": 2101,
+        "income": 425,
+        "spent": 24,
+        "produced": 0,
+        "paused": false,
+        "queue": [],
+        "global": "off",
+        "factories": []
+      }
+    }
+  ]
+}

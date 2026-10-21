@@ -1,0 +1,70 @@
+{
+  "passed": 9,
+  "failed": 0,
+  "semanticMutants": 8,
+  "baselineContrast": 1,
+  "results": [
+    {
+      "name": "construction rail reversal",
+      "passed": true,
+      "positiveCases": 1,
+      "rejectedBy": "helper geometry power,36,0.5",
+      "diagnostic": "both rail and fill corrected"
+    },
+    {
+      "name": "construction fill reversal",
+      "passed": true,
+      "positiveCases": 1,
+      "rejectedBy": "helper geometry power,36,0.5",
+      "diagnostic": "both rail and fill corrected"
+    },
+    {
+      "name": "factory rail reversal",
+      "passed": true,
+      "positiveCases": 1,
+      "rejectedBy": "helper geometry factory,36,0.5",
+      "diagnostic": "both rail and fill corrected"
+    },
+    {
+      "name": "factory fill reversal",
+      "passed": true,
+      "positiveCases": 1,
+      "rejectedBy": "helper geometry factory,36,0.5",
+      "diagnostic": "both rail and fill corrected"
+    },
+    {
+      "name": "construction clip expansion",
+      "passed": true,
+      "positiveCases": 1,
+      "rejectedBy": "helper geometry power,36,0.5",
+      "diagnostic": "clip boundary remains exact"
+    },
+    {
+      "name": "factory clip expansion",
+      "passed": true,
+      "positiveCases": 1,
+      "rejectedBy": "helper geometry factory,36,0.5",
+      "diagnostic": "clip boundary remains exact"
+    },
+    {
+      "name": "construction rail one pixel low",
+      "passed": true,
+      "positiveCases": 1,
+      "rejectedBy": "helper geometry power,36,0.5",
+      "diagnostic": "only intended y offset changes"
+    },
+    {
+      "name": "factory fill width change",
+      "passed": true,
+      "positiveCases": 1,
+      "rejectedBy": "helper geometry factory,36,0.5",
+      "diagnostic": "only intended y offset changes"
+    },
+    {
+      "name": "exact v295 geometry baseline contrast",
+      "passed": true,
+      "classification": "intentional clipping correction; not a prior test regression"
+    }
+  ],
+  "scope": "Exact selected-case AssertionError diagnostics only; every mutant first passes unmodified positive case. Four reversals, two clip-weakening changes and two geometry boundary mutations. No identity-only rejection counted."
+}

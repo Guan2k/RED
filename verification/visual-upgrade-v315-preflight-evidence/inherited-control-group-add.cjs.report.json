@@ -1,0 +1,172 @@
+{
+  "passed": 41,
+  "failed": 0,
+  "assertions": 112,
+  "results": [
+    {
+      "name": "source identity",
+      "passed": true
+    },
+    {
+      "name": "add preserves old members and appends entity order group 0",
+      "passed": true
+    },
+    {
+      "name": "add preserves old members and appends entity order group 1",
+      "passed": true
+    },
+    {
+      "name": "add preserves old members and appends entity order group 2",
+      "passed": true
+    },
+    {
+      "name": "successful add normalizes dead missing enemy building and duplicate ids",
+      "passed": true
+    },
+    {
+      "name": "mixed invalid selection appends only eligible friendly vehicles",
+      "passed": true
+    },
+    {
+      "name": "zero additions leaves invalid ids untouched []",
+      "passed": true
+    },
+    {
+      "name": "zero additions leaves invalid ids untouched [6]",
+      "passed": true
+    },
+    {
+      "name": "zero additions leaves invalid ids untouched [1,17,999]",
+      "passed": true
+    },
+    {
+      "name": "invalid group index -1",
+      "passed": true
+    },
+    {
+      "name": "invalid group index 3",
+      "passed": true
+    },
+    {
+      "name": "invalid group index 1.5",
+      "passed": true
+    },
+    {
+      "name": "invalid group index \"0\"",
+      "passed": true
+    },
+    {
+      "name": "invalid group index null",
+      "passed": true
+    },
+    {
+      "name": "stale enabled render revalidates get(7).hp=0",
+      "passed": true
+    },
+    {
+      "name": "stale enabled render revalidates get(7).team=1",
+      "passed": true
+    },
+    {
+      "name": "stale enabled render revalidates state.entities=state.entities.filter(e=>e.id!==7)",
+      "passed": true
+    },
+    {
+      "name": "stale enabled render revalidates selection=new Set([1])",
+      "passed": true
+    },
+    {
+      "name": "stale enabled render revalidates groups[0]=[6,7]",
+      "passed": true
+    },
+    {
+      "name": "stale render uses latest selection and group",
+      "passed": true
+    },
+    {
+      "name": "blocked lifecycle state.started=false",
+      "passed": true
+    },
+    {
+      "name": "blocked lifecycle state.result=\"测试结束\"",
+      "passed": true
+    },
+    {
+      "name": "blocked lifecycle restartPrompt=true",
+      "passed": true
+    },
+    {
+      "name": "paused game permits deliberate add",
+      "passed": true
+    },
+    {
+      "name": "pending input preserved armOrdinaryCommand()",
+      "passed": true
+    },
+    {
+      "name": "pending input preserved armAppendCommand()",
+      "passed": true
+    },
+    {
+      "name": "pending input preserved placement=\"power\"",
+      "passed": true
+    },
+    {
+      "name": "pending input preserved attackMode=true",
+      "passed": true
+    },
+    {
+      "name": "pending input preserved drag={start:{x:200,y:300},end:{x:230,y:320}}",
+      "passed": true
+    },
+    {
+      "name": "existing vehicle commands and current order preserved",
+      "passed": true
+    },
+    {
+      "name": "render is read only",
+      "passed": true
+    },
+    {
+      "name": "restart clears group and rejects old selection",
+      "passed": true
+    },
+    {
+      "name": "fresh selection after restart adds fresh current identity",
+      "passed": true
+    },
+    {
+      "name": "existing replace save remains replace",
+      "passed": true
+    },
+    {
+      "name": "existing recall selects combined group without issuing commands",
+      "passed": true
+    },
+    {
+      "name": "focused button keyboard \"Enter\" repeat false",
+      "passed": true
+    },
+    {
+      "name": "focused button keyboard \"Enter\" repeat true",
+      "passed": true
+    },
+    {
+      "name": "focused button keyboard \" \" repeat false",
+      "passed": true
+    },
+    {
+      "name": "focused button keyboard \" \" repeat true",
+      "passed": true
+    },
+    {
+      "name": "IME repeat key not consumed {\"isComposing\":true}",
+      "passed": true
+    },
+    {
+      "name": "IME repeat key not consumed {\"keyCode\":229}",
+      "passed": true
+    }
+  ],
+  "scope": "Synthetic whole-source VM fixtures; handler-level keyboard activation only. No native event ordering, layout, persistence or natural combat claim."
+}

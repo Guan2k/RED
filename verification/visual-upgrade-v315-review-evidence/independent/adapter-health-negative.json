@@ -1,0 +1,153 @@
+{
+  "passed": 50,
+  "failed": 0,
+  "productMutants": 24,
+  "oracleControls": 26,
+  "results": [
+    {
+      "name": "remove-clamp",
+      "passed": true,
+      "diagnostic": "natural pointer route retains four-pixel bars",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "wrong-min",
+      "passed": true,
+      "diagnostic": "natural pointer route retains four-pixel bars",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "only-background",
+      "passed": true,
+      "diagnostic": "natural pointer route retains four-pixel bars",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "changed-width",
+      "passed": true,
+      "diagnostic": "natural pointer route emits exact health pair",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "changed-predicate",
+      "passed": true,
+      "diagnostic": "natural pointer route emits exact health pair",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "unnecessary-inset",
+      "passed": true,
+      "diagnostic": "natural pointer route retains four-pixel bars",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "changed-world",
+      "passed": true,
+      "diagnostic": "natural route world/input equality",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "rng",
+      "passed": true,
+      "diagnostic": "unexpected RNG",
+      "errorName": "Error"
+    },
+    {
+      "name": "reordered-pair",
+      "passed": true,
+      "diagnostic": "health branch exact paint semantics",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "changed-ratio",
+      "passed": true,
+      "diagnostic": "health branch exact paint semantics",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "missing-separator",
+      "passed": true,
+      "diagnostic": "natural pointer route exact dark separator",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "separator-wrong-y",
+      "passed": true,
+      "diagnostic": "natural pointer route exact dark separator",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "separator-wrong-width",
+      "passed": true,
+      "diagnostic": "natural pointer route exact dark separator",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "separator-wrong-height",
+      "passed": true,
+      "diagnostic": "natural pointer route exact dark separator",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "separator-wrong-color",
+      "passed": true,
+      "diagnostic": "natural pointer route exact dark separator",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "separator-wrong-order",
+      "passed": true,
+      "diagnostic": "natural pointer route preserves adjacent health pair",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "background-wrong-color",
+      "passed": true,
+      "diagnostic": "natural pointer route emits exact health pair",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "critical-color-missing",
+      "passed": true,
+      "diagnostic": "health branch exact paint semantics",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "critical-wrong-color",
+      "passed": true,
+      "diagnostic": "health branch exact paint semantics",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "critical-inclusive-threshold",
+      "passed": true,
+      "diagnostic": "health branch exact paint semantics",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "critical-expanded-threshold",
+      "passed": true,
+      "diagnostic": "health branch exact paint semantics",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "critical-reduced-threshold",
+      "passed": true,
+      "diagnostic": "health branch exact paint semantics",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "critical-enemy-exemption",
+      "passed": true,
+      "diagnostic": "health branch exact paint semantics",
+      "errorName": "AssertionError"
+    },
+    {
+      "name": "critical-applied-to-healthy",
+      "passed": true,
+      "diagnostic": "natural pointer route emits exact health pair",
+      "errorName": "AssertionError"
+    }
+  ],
+  "scope": "All ten inherited behavioral mutants plus fourteen separator/color/threshold mutants; exact named assertion diagnostics required. Twenty-six narrow expected-side oracle checks. Historical product and verification files unchanged."
+}

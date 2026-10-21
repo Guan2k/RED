@@ -1,0 +1,208 @@
+{
+  "sourceSha256": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+  "programs": 25,
+  "passed": 25,
+  "failed": 0,
+  "reports": [
+    {
+      "script": "repair-button-repeat.cjs",
+      "passed": 57,
+      "expectedHistoricalIdentityRejections": 0,
+      "failed": 0,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "attack-pressed.cjs",
+      "passed": 42,
+      "expectedHistoricalIdentityRejections": 0,
+      "failed": 0,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "same-repeat-factories.cjs",
+      "passed": 57,
+      "expectedHistoricalIdentityRejections": 0,
+      "failed": 0,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "control-group-add.cjs",
+      "passed": 41,
+      "expectedHistoricalIdentityRejections": 0,
+      "failed": 0,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "attack-tail-help.cjs",
+      "passed": 8,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "delivery-refinery-selection.cjs",
+      "passed": 72,
+      "expectedHistoricalIdentityRejections": 0,
+      "failed": 0,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "retired-input-references.cjs",
+      "passed": 66,
+      "expectedHistoricalIdentityRejections": 0,
+      "failed": 0,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "queue-remainder.cjs",
+      "passed": 103,
+      "expectedHistoricalIdentityRejections": 0,
+      "failed": 0,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "queued-point.cjs",
+      "passed": 101,
+      "expectedHistoricalIdentityRejections": 0,
+      "failed": 0,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "production-gesture-natural.cjs",
+      "passed": 19,
+      "expectedHistoricalIdentityRejections": 0,
+      "failed": 0,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "production-mode-natural.cjs",
+      "passed": 32,
+      "expectedHistoricalIdentityRejections": 0,
+      "failed": 0,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "attack-tail.cjs",
+      "passed": 27,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "route-cancel.cjs",
+      "passed": 14,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "escort-target.cjs",
+      "passed": 25,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "factory-spawn-check.cjs",
+      "passed": 25,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "ground-destination.cjs",
+      "passed": 34,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "mining-arrangement.cjs",
+      "passed": 19,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "ground-orders.cjs",
+      "passed": 26,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "post-capture.cjs",
+      "passed": 24,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "production-waiting.cjs",
+      "passed": 23,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "weakest-selection.cjs",
+      "passed": 37,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "selection-health.cjs",
+      "passed": 32,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "all-damaged.cjs",
+      "passed": 24,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "pause-ui.cjs",
+      "passed": 27,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    },
+    {
+      "script": "repair-paused.cjs",
+      "passed": 34,
+      "expectedHistoricalIdentityRejections": 1,
+      "failed": 1,
+      "okay": true,
+      "reason": ""
+    }
+  ]
+}

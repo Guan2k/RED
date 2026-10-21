@@ -1,0 +1,32 @@
+--- 
+
++++ 
+
+@@ -1,3 +1,6 @@
+
++'use strict';
++// v315 expected-side presentation adaptation; no candidate stream changes.
++const {installExpectedPresentation,expectedFunctionSource}=require('./presentation-expected-v315.cjs');
+ 'use strict';
+ const {installExpectedDepletedOreBeds}=require('./depleted-ore-expected-v315.cjs');
+ // Independent focused proof. Uses only the existing no-persistence Node VM and Canvas recorder.
+@@ -23,7 +26,7 @@
+
+  proportional:s=>({width:[...String(s)].reduce((n,c)=>n+(c===' '?3:c==='1'?4:c==='9'?6:c==='k'?5:/[\x00-\x7f]/.test(c)?7:11),0),actualBoundingBoxLeft:2,actualBoundingBoxRight:[...String(s)].reduce((n,c)=>n+(c===' '?3:c==='1'?4:c==='9'?6:c==='k'?5:/[\x00-\x7f]/.test(c)?7:11),0)+3,actualBoundingBoxAscent:12,actualBoundingBoxDescent:4}),
+  widePositiveExtents:s=>({width:[...String(s)].reduce((n,c)=>n+(c===' '?5:c==='1'?7:c==='9'?13:c==='k'?8:/[\x00-\x7f]/.test(c)?12:22),0),actualBoundingBoxLeft:7,actualBoundingBoxRight:[...String(s)].reduce((n,c)=>n+(c===' '?5:c==='1'?7:c==='9'?13:c==='k'?8:/[\x00-\x7f]/.test(c)?12:22),0)+11,actualBoundingBoxAscent:19,actualBoundingBoxDescent:8})
+ };
+-function game(root,mode='legacy',map='classic',objective='annihilation',profile='widthOnly'){const g=fresh(path.join(root,'index.html'),mode==='cached'?mock().P:undefined);if(root===base)installExpectedDepletedOreBeds(g);g.element('scenario').value=map;g.element('objective').value=objective;g.start();if(mode!=='legacy')toggle(g,true);g.metricProfile=profile;g.element('map').getContext('2d').measureText=s=>profiles[g.metricProfile](s);return g}
++function game(root,mode='legacy',map='classic',objective='annihilation',profile='widthOnly'){const g=fresh(path.join(root,'index.html'),mode==='cached'?mock().P:undefined);if(root===base){installExpectedDepletedOreBeds(g);installExpectedPresentation(g);}g.element('scenario').value=map;g.element('objective').value=objective;g.start();if(mode!=='legacy')toggle(g,true);g.metricProfile=profile;g.element('map').getContext('2d').measureText=s=>profiles[g.metricProfile](s);return g}
+ const format=(amount,newFormat)=>amount<=0?null:'矿 '+(newFormat&&amount<1000?Math.ceil(amount):Math.ceil(amount/1000)+'k');
+ const caption=p=>p.contested?'争夺中':p.controlBlocked?'抢占中':p.owner<0?'中立据点':'+30 / 10s';
+ function metric(text,profile){const m=profiles[profile](text);return {left:Math.max(0,m.actualBoundingBoxLeft||0),right:Math.max(m.width,m.actualBoundingBoxRight||0),up:Math.max(11,m.actualBoundingBoxAscent||0),down:Math.max(3,m.actualBoundingBoxDescent||0)}}
+@@ -81,7 +84,7 @@
+
+ 
+ test('frozen source exact approved expression and version',()=>{
+  eq(baseFrozen['index.html'],'30a960f10a359ac13fb04b3f758529376956227bb3dce079c8be0028476594f4','strict immutable final v302');
+- eq(candidateFrozen['index.html'],'d0fa1baa9faed8be2a05f050b2289ea5a419654b4d95f48cef0ff2742e52091d','strict immutable final v315');
++ eq(candidateFrozen['index.html'],'3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6','strict immutable final v315');
+  eq(require('./restore-v302-from-v315.cjs')(html),fs.readFileSync(path.join(base,'index.html'),'utf8'),'exact inverse restores immutable final v302');
+  eq(source.split(after).length-1,1,'exact unique source label slot');eq(source.split(before).length-1,0,'old label expression absent');
+  eq(JSON.parse(fs.readFileSync(path.join(candidate,'source-build-receipt.json'))).outputSha256,candidateFrozen['index.html'],'generated receipt output identity');
