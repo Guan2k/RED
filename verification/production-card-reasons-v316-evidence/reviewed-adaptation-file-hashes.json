@@ -1,0 +1,18 @@
+{
+  "files": {
+    "prepare-integration.py": "b96c9217f165eef21c5cec58133e3eabcc5f773b9da8d42232d6a42da5761b87",
+    "RED/verification/inherit-dom-v316.cjs": "dad97d83c77e1922f5a52cf8635616fc2e2e6e841e0a4bbab6ea6f9e088b23d1",
+    "RED/verification/inherit-dom-v316-negative-control.cjs": "42a4828a336217a29a0e09e0c7a2ebb0a787c719c6577c4413ac9ff0deaa4e2f",
+    "RED/verification/repair-repeat-inheritance-v316.cjs": "5b2601cfc2af1dda185623a839ff65adfec4d8888b77aad225c1d160b2e63541",
+    "RED/verification/presentation-v316.cjs": "6065b0d9f731b4173630db1128c43046d65002e2e973aa6e0b9c4892d7c26116",
+    "RED/verification/command-allocation-feedback-v316.cjs": "40b8135758523b8d9fe5b4bf11c3458324fb38553a148d6ba38b74423369a8c9",
+    "RED/verification/beginner-guide-v316.cjs": "9458920e9c3ddd10f6f4b72e2b190dde4879ef6ce388402b5834c631bdcf4d79",
+    "RED/verification/run-tests-v316.cjs": "42657238fb6ecd9b67a069402443c29e216f42ee33f0a1cc08a9ea48f5f87afa",
+    "RED/verification/changes-v316.json": "8a3d54721514ad137da92ca3e5b84f8940a43ce42b8bd6bf7874fb1b708ae8d5",
+    "RED/verification/source-delta-v316-negative-control.cjs": "e694523265607ebc2cc2e7675d6f041e979cf689dc5883b65bc1c82d37e9922c"
+  },
+  "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+  "historyEvidence": "independent-history-source-review.json",
+  "limits": "This worker independently reviewed the product and historical preservation, then was explicitly authorized to author current v316 test adapters. These adapters are author-tested, not a second independent review. No browser verification. The final aggregate gate belongs to the integration worker.",
+  "bootstrap": "prepare-integration.py initializes current copies once and generates eight exact inverse deltas. Reviewed post-bootstrap adapters are enumerated in current-adaptation-map.json and must not be regenerated from bootstrap alone."
+}

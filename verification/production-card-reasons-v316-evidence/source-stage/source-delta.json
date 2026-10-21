@@ -1,0 +1,37 @@
+{
+  "baseline": "d321ddd7d28070d068c916e89cfe5f09a86e849b",
+  "baselineFiles": 4691,
+  "candidateFiles": 4693,
+  "changed": [
+    {
+      "path": "index.html",
+      "before": "3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6",
+      "after": "5086ac43efe24b1dc7c885b25d821202873b3d425c3d4e8288c7c8723fe33de5"
+    },
+    {
+      "path": "source-build-receipt.json",
+      "before": "c2bd42e971c8ac4b8c4d5f46581ddb6545551fd7c7af7ab396769671f8561f4f",
+      "after": "88e99ee5bdbff9495484ff3846a9fc358ac30c4e6e42da5a3719e9f56a5abbe3"
+    },
+    {
+      "path": "src/index.template.html",
+      "before": "f9e8a298ed1561fda5fbc0e20007d3c2e929b839f105a70acecec94ba4bbbbf6",
+      "after": "44ce9af01d4b35c966ea6e4b8c02aff627995faac894588e42a64dbf59a2e0d1"
+    },
+    {
+      "path": "src/script/04-interface-runtime.jsfrag",
+      "before": "ae0619586362d1e8ff7be4e8e330481fc150ae27d0f712e963a824ff22489488",
+      "after": "b6a52b721e61841bd02c435b1d358332e4894aa67244f090d4b6d441941db143"
+    },
+    {
+      "path": "src/styles.css",
+      "before": "d49789c3cd30daa11b20a657104f13b3e8d9fcbccd22de67339a34001494d78e",
+      "after": "5a8784ffe6c9d21f64ca51d6109f1be2b958ec82aa039a0d47f74c1589982150"
+    }
+  ],
+  "added": [
+    "verification/production-card-reasons-negative-v316.cjs",
+    "verification/production-card-reasons-v316.cjs"
+  ],
+  "deleted": []
+}

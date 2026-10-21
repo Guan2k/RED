@@ -1,0 +1,188 @@
+✔ geometry is a real import and pure helpers retain semantics (3.836364ms)
+✔ current generated identity and deterministic assembly (69.657351ms)
+✔ intentional editable input: src/index.template.html (64.675939ms)
+✔ intentional editable input: src/styles.css (76.868952ms)
+✔ intentional editable input: src/script/01-bootstrap.jsfrag (63.904543ms)
+✔ intentional editable input: src/geometry.mjs (61.136965ms)
+✔ intentional editable input: src/script/02-gameplay.jsfrag (69.87968ms)
+✔ intentional editable input: src/script/03-renderer.jsfrag (65.700544ms)
+✔ intentional editable input: src/script/04-interface-runtime.jsfrag (66.793221ms)
+✔ intentional editable input: src/art/buildings.mjs (59.950927ms)
+✔ intentional editable input: src/art/vehicles.mjs (64.13165ms)
+✔ new output identical, refuses overwrite and unsafe paths (38.251998ms)
+✔ manual artifact edits fail check/write/recovery and stay untouched (228.90956ms)
+✔ crash-like stale output receipt fails closed, matching source allows recovery (192.446756ms)
+✔ missing/malformed receipt can only recover matching bytes (187.381849ms)
+✔ unknown and excess arguments refused (0.518222ms)
+✔ missing @@RED_STYLE@@ (24.131601ms)
+✔ duplicate @@RED_STYLE@@ (23.061836ms)
+✔ changed @@RED_STYLE@@ (24.442857ms)
+✔ misplaced @@RED_STYLE@@ (17.36995ms)
+✔ missing @@RED_SCRIPT@@ (17.032452ms)
+✔ duplicate @@RED_SCRIPT@@ (17.34918ms)
+✔ changed @@RED_SCRIPT@@ (24.832553ms)
+✔ misplaced @@RED_SCRIPT@@ (16.590839ms)
+✔ geometry footer missing (17.175904ms)
+✔ geometry footer duplicate (16.897768ms)
+✔ geometry footer nonterminal (12.704918ms)
+✔ geometry footer runtime-import (13.367981ms)
+✔ missing input rejected (6.164169ms)
+✔ input symlink rejected (4.277371ms)
+✔ output symlink rejected (4.886941ms)
+✔ receipt and generated-target symlinks rejected (59.372247ms)
+✔ lock refuses concurrent or stale writer (7.590794ms)
+✔ fragment embedded closing tag/marker and invalid JS rejected (59.128499ms)
+✔ invalid UTF-8 rejected (22.756919ms)
+✔ generated artifact symlink refused (114.368324ms)
+✔ reject HTML script raw-text boundary "</script data-x>" (28.630759ms)
+✔ reject HTML script raw-text boundary "</script/>" (23.328771ms)
+✔ reject HTML script raw-text boundary "</ScRiPt\tdata-x>" (21.520656ms)
+✔ reject HTML script raw-text boundary "</script\f>" (20.864045ms)
+✔ reject HTML style raw-text boundary "</style data-x>" (20.713651ms)
+✔ reject HTML style raw-text boundary "</style/>" (31.919498ms)
+✔ reject HTML style raw-text boundary "</StYlE\tdata-x>" (15.937578ms)
+✔ reject HTML style raw-text boundary "</style\f>" (18.632532ms)
+✔ non-boundary tag prefixes remain valid text (52.247189ms)
+✔ out refuses reserved writer-lock path (26.86187ms)
+✔ intentional building color edit rebuilds and updates receipt (182.554253ms)
+✔ intentional building coordinate edit rebuilds and updates receipt (176.840622ms)
+✔ building marker missing (20.105604ms)
+✔ building marker duplicate (16.116643ms)
+✔ building marker changed (38.507667ms)
+✔ building marker misplaced (51.382109ms)
+✔ building marker other-fragment (22.106146ms)
+✔ building marker module (23.003437ms)
+✔ building marker template (46.270202ms)
+✔ building module footer missing (13.295029ms)
+✔ building module footer duplicate (12.096013ms)
+✔ building module footer nonterminal (14.410921ms)
+✔ building module footer wrong-name (16.910315ms)
+✔ building module footer import (11.253798ms)
+✔ building module footer extra-export (14.525538ms)
+✔ building module raw-text boundary </script> (15.809337ms)
+✔ building module raw-text boundary </script data-x> (14.197779ms)
+✔ building module raw-text boundary </script/> (15.456631ms)
+✔ building module raw-text boundary </ScRiPt	data-x> (16.819158ms)
+✔ assembly never evaluates building module (256.508624ms)
+✔ building module missing/symlink/invalid UTF-8 rejected (72.484869ms)
+✔ building art directory symlink rejected (15.213538ms)
+✔ intentional vehicle coordinate edit rebuilds and updates receipt (219.027554ms)
+✔ vehicle marker missing (21.68434ms)
+✔ vehicle marker duplicate (22.884996ms)
+✔ vehicle marker changed (16.152645ms)
+✔ vehicle marker misplaced (22.114055ms)
+✔ vehicle marker other-fragment (21.635597ms)
+✔ vehicle marker module (14.28967ms)
+✔ vehicle marker template (28.663952ms)
+✔ vehicle module footer missing (15.422258ms)
+✔ vehicle module footer duplicate (13.20468ms)
+✔ vehicle module footer nonterminal (14.021104ms)
+✔ vehicle module footer wrong-name (12.161739ms)
+✔ vehicle module footer import (14.273624ms)
+✔ vehicle module footer extra-export (15.384346ms)
+✔ vehicle module raw-text boundary </script> (13.321192ms)
+✔ vehicle module raw-text boundary </script data-x> (15.484017ms)
+✔ vehicle module raw-text boundary </script/> (13.661781ms)
+✔ vehicle module raw-text boundary </ScRiPt	data-x> (11.875693ms)
+✔ assembly never evaluates vehicle module (33.275521ms)
+✔ vehicle module missing/symlink/invalid UTF-8 rejected (7.65437ms)
+✔ vehicle art directory symlink rejected (2.869259ms)
+✔ existing writer/path/symlink/lock/recovery safeguards remain exact source (1.662549ms)
+✖ vehicle extraction restores original renderer and exact generated artifact (6.987465ms)
+✔ vehicle migration old receipt fails closed and exact recovery changes only receipt (42.000843ms)
+✔ invalid vehicle source fails closed for all writer modes invalid-footer (18.916895ms)
+✔ invalid vehicle source fails closed for all writer modes duplicate-marker (16.791405ms)
+✔ invalid vehicle source fails closed for all writer modes invalid-js (49.758598ms)
+✔ unit marker prohibited in additional fragment src/styles.css (7.193639ms)
+✔ unit marker prohibited in additional fragment src/geometry.mjs (9.013784ms)
+✔ unit marker prohibited in additional fragment src/script/01-bootstrap.jsfrag (6.026869ms)
+✔ unit marker prohibited in additional fragment src/script/04-interface-runtime.jsfrag (7.351129ms)
+✔ unit marker prohibited in additional fragment src/art/buildings.mjs (11.242115ms)
+✔ source assembly does not execute vehicle side effects or require semantic validity (67.469585ms)
+ℹ tests 101
+ℹ suites 0
+ℹ pass 100
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4287.365667
+
+✖ failing tests:
+
+test at tools/source-build-vehicle-art.test.mjs:54:1
+✖ vehicle extraction restores original renderer and exact generated artifact (6.987465ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  ... Skipped lines
+  
+    "function rect(x,y,w,h,c){ctx.fillStyle=c;ctx.fillRect(x,y,w,h)}function circle(x,y,r,c){ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fillStyle=c;ctx.fill()}function text(s,x,y,c='#d9e9d0',size=12){ctx.fillStyle=c;ctx.font=size+'px system-ui';ctx.fillText(s,x,y)}\n" +
+      'function rangePreviewUnits(){let units=state.entities.filter(e=>selection.has(e.id)&&e.hp>0&&(defs[e.type].damage||defs[e.type].repairRange)&&!e.build);return units.length<=6?units:[]}\n' +
+      'function escortDisplayTarget(e){let target=get(e.escortId);return e.team===0&&e.hp>0&&validEscort(e,target)?target:null}\n' +
+      "function escortTargetLabel(e){let target=escortDisplayTarget(e);return target?defs[target.type].name+'（'+Math.round(target.x)+','+Math.round(target.y)+'）':null}\n" +
+      'function selectedEscortLinks(){let vehicles=state.entities.filter(e=>e.team===0&&e.hp>0&&defs[e.type].speed&&selection.has(e.id));if(vehicles.length>6)return[];return vehicles.map(e=>({unit:e,target:escortDisplayTarget(e)})).filter(link=>link.target)}\n' +
+  ...
+      "function drawFactoryProgress(e){let view=factoryProductionView(e);if(!view||e.r<=8)return;let x=e.x-e.r+6,w=e.r*2-12;ctx.save();ctx.beginPath();ctx.rect(e.x-e.r+4,e.y-e.r+4,e.r*2-8,e.r*2-8);ctx.clip();rect(x,e.y-e.r+5,w,13,'#102019ee');text(view.short,x+3,e.y-e.r+15,view.color,10);rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,view.color);ctx.restore()}\n" +
+  +   '// Presentation only: fixed north-west light, no filters, gradients or simulation writes.\n' +
+  +   'function drawBuildingFoundation(r){\n' +
+  +   "  rect(-r+5,-r+9,r*2,r*2,'#0d171dcc');\n" +
+  +   "  rect(-r-3,-r-3,r*2+6,r*2+6,'#1b2928');\n" +
+  +   "  rect(-r-3,-r-3,r*2+6,2,'#82958a');\n" +
+  +   "  rect(-r-3,-r+1,2,r*2+2,'#61766c');\n" +
+  +   '}\n' +
+  +   'function drawSelectionFrame(e){\n' +
+  +   '  const x=e.x-e.r-5,y=e.y-e.r-5,w=e.r*2+10,k=Math.min(10,w/3);\n' +
+  +   '  ctx.save();ctx.setLineDash([]);\n' +
+  +   "  ctx.strokeStyle='#10221f';ctx.lineWidth=4;ctx.strokeRect(x,y,w,w);\n" +
+  +   "  ctx.strokeStyle='#b9f5d2';ctx.lineWidth=1;ctx.strokeRect(x,y,w,w);\n" +
+  +   '  // Equivalent square corner bars in one fill; fewer path calls for mass selection.\n' +
+  +   '  ctx.beginPath();ctx.rect(x-1.5,y-1.5,k+1.5,3);ctx.rect(x-1.5,y-1.5,3,k+1.5);\n' +
+  +   '  ctx.rect(x+w-k,y-1.5,k+1.5,3);ctx.rect(x+w-1.5,y-1.5,3,k+1.5);\n' +
+  +   '  ctx.rect(x+w-1.5,y+w-k,3,k+1.5);ctx.rect(x+w-k,y+w-1.5,k+1.5,3);\n' +
+  +   '  ctx.rect(x-1.5,y+w-1.5,k+1.5,3);ctx.rect(x-1.5,y+w-k,3,k+1.5);\n' +
+  +   "  ctx.fillStyle='#b9f5d2';ctx.fill();ctx.restore();\n" +
+  +   '}\n' +
+  +   "function drawBuilding(e){let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);drawBuildingFoundation(r);rect(-r,-r,r*2,r*2,'#293c31');ctx.strokeStyle=color;ctx.lineWidth=3;ctx.strokeRect(-r,-r,r*2,r*2);rect(-r+6,-r+6,r*2-12,r*2-12,color);rect(-r+6,-r+6,r*2-12,2,e.team?'#d99278':'#a8c4ae');rect(-r+6,r-8,r*2-12,2,'#142c2980');if(e.type==='hq'){rect(-24,-17,48,36,'#263b36');rect(-17,-11,34,10,'#8ccebd');rect(-8,10,16,28,'#435545');ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}if(e.type==='power'){circle(-9,0,12,'#b3b798');circle(10,0,12,'#9ba789');ctx.beginPath();ctx.moveTo(-3,-15);ctx.lineTo(9,-15);ctx.lineTo(1,-3);ctx.lineTo(10,-3);ctx.lineTo(-8,16);ctx.lineTo(-2,2);ctx.lineTo(-10,2);ctx.closePath();ctx.fillStyle='#fff0a4';ctx.fill();ctx.strokeStyle='#5d6743';ctx.lineWidth=1;ctx.stroke()}if(e.type==='factory'){rect(-25,-16,50,34,'#293d32');for(let i=0;i<4;i++)rect(-22+i*12,-12,7,22,'#688879');rect(-15,19,30,12,'#15241d')}if(e.type==='refinery'){circle(-13,-4,14,'#b4ad78');circle(13,-4,14,'#899a73');rect(-22,12,44,10,'#253c2b')}if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}ctx.restore();drawConstructionProgress(e);drawFactoryProgress(e)}\n" +
+  -   "function drawBuilding(e){let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);rect(-r+5,-r+9,r*2,r*2,'#16231c80');rect(-r,-r,r*2,r*2,'#293c31');ctx.strokeStyle=color;ctx.lineWidth=3;ctx.strokeRect(-r,-r,r*2,r*2);rect(-r+6,-r+6,r*2-12,r*2-12,color);if(e.type==='hq'){rect(-24,-17,48,36,'#263b36');rect(-17,-11,34,10,'#8ccebd');rect(-8,10,16,28,'#435545');ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}if(e.type==='power'){circle(-9,0,12,'#b3b798');circle(10,0,12,'#9ba789');ctx.beginPath();ctx.moveTo(-3,-15);ctx.lineTo(9,-15);ctx.lineTo(1,-3);ctx.lineTo(10,-3);ctx.lineTo(-8,16);ctx.lineTo(-2,2);ctx.lineTo(-10,2);ctx.closePath();ctx.fillStyle='#fff0a4';ctx.fill();ctx.strokeStyle='#5d6743';ctx.lineWidth=1;ctx.stroke()}if(e.type==='factory'){rect(-25,-16,50,34,'#293d32');for(let i=0;i<4;i++)rect(-22+i*12,-12,7,22,'#688879');rect(-15,19,30,12,'#15241d')}if(e.type==='refinery'){circle(-13,-4,14,'#b4ad78');circle(13,-4,14,'#899a73');rect(-22,12,44,10,'#253c2b')}if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}ctx.restore();drawConstructionProgress(e);drawFactoryProgress(e)}\n" +
+      '// Building art preview: finite static recipes only; original dynamic layers remain below.\n' +
+      '@@RED_BUILDING_ART@@\n' +
+      "function buildingArtTrace(target,shape){let [kind,p]=shape;if(kind==='circle'){target.arc(p[0],p[1],p[2],0,Math.PI*2)}else{target.moveTo(p[0],p[1]);for(let i=2;i<p.length;i+=2)target.lineTo(p[i],p[i+1]);target.closePath()}}\n" +
+      'let buildingArtPathCache;\n' +
+      "function initializeBuildingArtPaths(){if(buildingArtPathCache!==undefined)return;buildingArtPathCache=(()=>{if(typeof Path2D!=='function')return null;try{return Object.freeze(buildingArtGeometry.map(shape=>{let path=new Path2D();buildingArtTrace(path,shape);return path}))}catch{return null}})()}\n" +
+  ...
+      "  let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);\n" +
+  +   '  drawBuildingFoundation(r);ctx.strokeStyle=color;ctx.lineWidth=3;\n' +
+  -   "  rect(-r+5,-r+9,r*2,r*2,'#16231c80');ctx.strokeStyle=color;ctx.lineWidth=3;\n" +
+      '  drawBuildingStaticBody(e.type,e.team);\n' +
+      '  drawBuildingTeamCue(e.type,e.team);\n' +
+      "  if(e.type==='hq'){ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}\n" +
+      "  if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}\n" +
+      "  if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}\n" +
+  ...
+      'function unitTrackPhase(e){let v=unitTrackMemory.get(e);if(!v){v={x:e.x,y:e.y,phase:0};unitTrackMemory.set(e,v)}else{v.phase=(v.phase+Math.hypot(e.x-v.x,e.y-v.y))%7;v.x=e.x;v.y=e.y}return v.phase}\n' +
+  +   "function drawUnit(e){let phase=unitTrackPhase(e),d=defs[e.type],color=e.team?'#b35d49':'#7da477';ctx.save();ctx.translate(e.x,e.y);ctx.rotate(e.angle);rect(-e.r+2,-e.r+4,e.r*2,e.r*2,'#0d211680');rect(-e.r,-e.r,e.r*2,5,'#202c24');rect(-e.r,e.r-5,e.r*2,5,'#202c24');rect(-e.r,-e.r+5,e.r*2,e.r*2-10,color);rect(-e.r+1,-e.r+5,e.r*2-2,2,e.team?'#d58a71':'#adc5ad');for(let x=-e.r-7+phase;x<e.r;x+=7){let left=Math.max(-e.r,x),right=Math.min(e.r,x+2);if(right>left){rect(left,-e.r,right-left,4,'#687361');"... 36850 more characters
+  -   "function drawUnit(e){let phase=unitTrackPhase(e),d=defs[e.type],color=e.team?'#b35d49':'#7da477';ctx.save();ctx.translate(e.x,e.y);ctx.rotate(e.angle);rect(-e.r+2,-e.r+4,e.r*2,e.r*2,'#0d211680');rect(-e.r,-e.r,e.r*2,5,'#202c24');rect(-e.r,e.r-5,e.r*2,5,'#202c24');rect(-e.r,-e.r+5,e.r*2,e.r*2-10,color);for(let x=-e.r-7+phase;x<e.r;x+=7){let left=Math.max(-e.r,x),right=Math.min(e.r,x+2);if(right>left){rect(left,-e.r,right-left,4,'#687361');rect(left,e.r-4,right-left,4,'#687361')}}if(e.type==='harvester'){rect(-11,-8,13,16,'#b4b086');rect(7,-10,9,20,'#dcbe70');rect(-11,8,Math.max(1,e.load/180*20),3,'#e9c55f')}else if(e.type==='repair'){rect(-9,-8,18,16,'#bfd5b0');rect(-2,-6,4,12,'#2c7350');rect(-6,-2,12,4,'#2c7350')}else{circle(0,0,e.type==='tank'?9:6,color);rect(0,-3,e.type==='artillery'?34:e.type==='tank'?24:17,6,'#c0c7a3');if(e.type==='artillery'){rect(-11,-7,14,14,'#bac4a0');rect(-13,-12,4,24,'#263e2c')}}ctx.restore()}\n" +
+  -   'const terrainAccentTiles=[];for(let y=0;y<HEIGHT;y+=40)for(let x=0;x<WIDTH;x+=40)if(Math.sin(x*13+y*27)>.2)terrainAccentTiles.push([x,y]);\n' +
+  -   'let vehicleArtPreview=false;\n' +
+  -   '// Draw-only art pilot: immutable polygon paths, exact direct-command fallback.\n' +
+  -   '// No simulation fields, RNG, raster caches or separate turret rotation are introduced.\n' +
+  -   'const unitArtCanonicalRadius=Object.freeze({tank:13,scout:10,artillery:14,repair:13,harvester:16});\n' +
+  -   'const unitArtGeometry=Object.freeze([\n' +
+  -   '  Object.freeze([-9,-6,4,-7,10,-3,10,3,4,7,-9,6]),\n' +
+  -   '  Object.freeze([-8,-5,4,-6,9,-2,9,2,4,6,-8,5]),\n' +
+  -   '  Object.freeze([-13,-8'... 34734 more characters
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/e433d7540f34/red-development/v316-production-card-reasons/RED/tools/source-build-vehicle-art.test.mjs:54:405)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: "function rect(x,y,w,h,c){ctx.fillStyle=c;ctx.fillRect(x,y,w,h)}function circle(x,y,r,c){ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fillStyle=c;ctx.fill()}function text(s,x,y,c='#d9e9d0',size=12){ctx.fillStyle=c;ctx.font=size+'px system-ui';ctx.fillText(s,x,y)}\nfunction rangePreviewUnits(){let units=state.entities.filter(e=>selection.has(e.id)&&e.hp>0&&(defs[e.type].damage||defs[e.type].repairRange)&&!e.build);return units.length<=6?units:[]}\nfunction escortDisplayTarget(e){let target=get(e.escortId);return e.team===0&&e.hp>0&&validEscort(e,target)?target:null}\nfunction escortTargetLabel(e){let target=escortDisplayTarget(e);return target?defs[target.type].name+'（'+Math.round(target.x)+','+Math.round(target.y)+'）':null}\nfunction selectedEscortLinks(){let vehicles=state.entities.filter(e=>e.team===0&&e.hp>0&&defs[e.type].speed&&selection.has(e.id));if(vehicles.length>6)return[];return vehicles.map(e=>({unit:e,target:escortDisplayTarget(e)})).filter(link=>link.target)}\nfunction drawEscortOrders(){let links=selectedEscortLinks();if(!links.length)return;ctx.save();ctx.strokeStyle='#78dce8';ctx.lineWidth=1.5;ctx.setLineDash([2,5]);ctx.textAlign='left';ctx.textBaseline='alphabetic';let marked=new Set();for(let {unit,target} of links){ctx.beginPath();ctx.moveTo(unit.x,unit.y);ctx.lineTo(target.x,target.y);ctx.stroke();if(!marked.has(target.id)){marked.add(target.id);ctx.beginPath();ctx.arc(target.x,target.y,target.r+10,0,Math.PI*2);ctx.stroke();text('跟随目标',clamp(target.x+target.r+12,8,WIDTH-68),clamp(target.y-target.r-12,14,HEIGHT-8),'#78dce8',11)}}ctx.restore()}\nfunction drawMiningOrders(){let miners=state.entities.filter(e=>e.team===0&&e.hp>0&&selection.has(e.id)&&assignedOre(e)?.amount>0);if(!miners.length||miners.length>6)return;ctx.save();ctx.strokeStyle='#e4c783';ctx.lineWidth=1.5;ctx.setLineDash([3,7]);let marked=new Set();for(let e of miners){let ore=assignedOre(e);ctx.beginPath();ctx.moveTo(e.x,e.y);ctx.lineTo(ore.x,ore.y);ctx.stroke();if(!marked.has(e.oreIndex)){marked.add(e.oreIndex);ctx.beginPath();ctx.arc(ore.x,ore.y,35,0,Math.PI*2);ctx.stroke()}}ctx.restore()}\nfunction drawSelectionRanges(){ctx.save();for(let e of rangePreviewUnits()){let d=defs[e.type];ctx.strokeStyle=rangeInactive(e)?'#96a69c80':'#b8df9999';ctx.lineWidth=1.5;ctx.setLineDash([7,5]);ctx.beginPath();ctx.arc(e.x,e.y,d.range||d.repairRange,0,Math.PI*2);ctx.stroke();if(d.minRange){ctx.strokeStyle='#ee9778aa';ctx.setLineDash([3,5]);ctx.beginPath();ctx.arc(e.x,e.y,d.minRange,0,Math.PI*2);ctx.stroke()}}ctx.restore()}\nfunction constructionProgressView(e){if(!e||e.hp<=0||!['power','refinery','factory','turret'].includes(e.type)||!Number.isFinite(e.build)||e.build<=0)return null;let total=defs[e.type].time;if(!Number.isFinite(total)||total<=0)return null;let progress=clamp(1-e.build/total,0,1);return{remaining:e.build,total,progress,percent:Math.min(99,Math.floor(progress*100))}}\nfunction drawConstructionProgress(e){let view=constructionProgressView(e);if(!view||e.r<=8)return;let x=e.x-e.r+6,w=e.r*2-12;ctx.save();ctx.beginPath();ctx.rect(e.x-e.r+4,e.y-e.r+4,e.r*2-8,e.r*2-8);ctx.clip();rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,'#e9c579');ctx.restore()}\nfunction factoryProductionView(e){if(!e||e.team!==0||e.type!=='factory'||e.hp<=0||e.build)return null;let q=state.queue.find(q=>q.factoryId===e.id);if(!q||activeProductionFactory(q)!==e||!Number.isFinite(q.total)||q.total<=0||!Number.isFinite(q.left))return null;let progress=clamp(1-q.left/q.total,0,1),status=productionStateLabel(q),color=status==='已结束'?'#a3aba8':status==='等待出口'?'#ed987f':['游戏暂停','缺电暂停'].includes(status)?'#ebc877':'#8fd6bd',short=status==='已结束'?'已结束':status==='等待出口'?'待出口':status==='游戏暂停'?'暂停':status==='缺电暂停'?'缺电':Math.round(progress*100)+'%';return{order:q,progress,status,color,short}}\nfunction drawFactoryProgress(e){let view=factoryProductionView(e);if(!view||e.r<=8)return;let x=e.x-e.r+6,w=e.r*2-12;ctx.save();ctx.beginPath();ctx.rect(e.x-e.r+4,e.y-e.r+4,e.r*2-8,e.r*2-8);ctx.clip();rect(x,e.y-e.r+5,w,13,'#102019ee');text(view.short,x+3,e.y-e.r+15,view.color,10);rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,view.color);ctx.restore()}\n// Presentation only: fixed north-west light, no filters, gradients or simulation writes.\nfunction drawBuildingFoundation(r){\n  rect(-r+5,-r+9,r*2,r*2,'#0d171dcc');\n  rect(-r-3,-r-3,r*2+6,r*2+6,'#1b2928');\n  rect(-r-3,-r-3,r*2+6,2,'#82958a');\n  rect(-r-3,-r+1,2,r*2+2,'#61766c');\n}\nfunction drawSelectionFrame(e){\n  const x=e.x-e.r-5,y=e.y-e.r-5,w=e.r*2+10,k=Math.min(10,w/3);\n  ctx.save();ctx.setLineDash([]);\n  ctx.strokeStyle='#10221f';ctx.lineWidth=4;ctx.strokeRect(x,y,w,w);\n  ctx.strokeStyle='#b9f5d2';ctx.lineWidth=1;ctx.strokeRect(x,y,w,w);\n  // Equivalent square corner bars in one fill; fewer path calls for mass selection.\n  ctx.beginPath();ctx.rect(x-1.5,y-1.5,k+1.5,3);ctx.rect(x-1.5,y-1.5,3,k+1.5);\n  ctx.rect(x+w-k,y-1.5,k+1.5,3);ctx.rect(x+w-1.5,y-1.5,3,k+1.5);\n  ctx.rect(x+w-1.5,y+w-k,3,k+1.5);ctx.rect(x+w-k,y+w-1.5,k+1.5,3);\n  ctx.rect(x-1.5,y+w-1.5,k+1.5,3);ctx.rect(x-1.5,y+w-k,3,k+1.5);\n  ctx.fillStyle='#b9f5d2';ctx.fill();ctx.restore();\n}\nfunction drawBuilding(e){let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);drawBuildingFoundation(r);rect(-r,-r,r*2,r*2,'#293c31');ctx.strokeStyle=color;ctx.lineWidth=3;ctx.strokeRect(-r,-r,r*2,r*2);rect(-r+6,-r+6,r*2-12,r*2-12,color);rect(-r+6,-r+6,r*2-12,2,e.team?'#d99278':'#a8c4ae');rect(-r+6,r-8,r*2-12,2,'#142c2980');if(e.type==='hq'){rect(-24,-17,48,36,'#263b36');rect(-17,-11,34,10,'#8ccebd');rect(-8,10,16,28,'#435545');ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}if(e.type==='power'){circle(-9,0,12,'#b3b798');circle(10,0,12,'#9ba789');ctx.beginPath();ctx.moveTo(-3,-15);ctx.lineTo(9,-15);ctx.lineTo(1,-3);ctx.lineTo(10,-3);ctx.lineTo(-8,16);ctx.lineTo(-2,2);ctx.lineTo(-10,2);ctx.closePath();ctx.fillStyle='#fff0a4';ctx.fill();ctx.strokeStyle='#5d6743';ctx.lineWidth=1;ctx.stroke()}if(e.type==='factory'){rect(-25,-16,50,34,'#293d32');for(let i=0;i<4;i++)rect(-22+i*12,-12,7,22,'#688879');rect(-15,19,30,12,'#15241d')}if(e.type==='refinery'){circle(-13,-4,14,'#b4ad78');circle(13,-4,14,'#899a73');rect(-22,12,44,10,'#253c2b')}if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}ctx.restore();drawConstructionProgress(e);drawFactoryProgress(e)}\n// Building art preview: finite static recipes only; original dynamic layers remain below.\n@@RED_BUILDING_ART@@\nfunction buildingArtTrace(target,shape){let [kind,p]=shape;if(kind==='circle'){target.arc(p[0],p[1],p[2],0,Math.PI*2)}else{target.moveTo(p[0],p[1]);for(let i=2;i<p.length;i+=2)target.lineTo(p[i],p[i+1]);target.closePath()}}\nlet buildingArtPathCache;\nfunction initializeBuildingArtPaths(){if(buildingArtPathCache!==undefined)return;buildingArtPathCache=(()=>{if(typeof Path2D!=='function')return null;try{return Object.freeze(buildingArtGeometry.map(shape=>{let path=new Path2D();buildingArtTrace(path,shape);return path}))}catch{return null}})()}\nfunction drawBuildingStaticBody(type,team){for(let item of buildingArtRecipes[type]){ctx.fillStyle=item[team?3:2];if(item[0]==='rect'){let p=item[1];ctx.fillRect(p[0],p[1],p[2],p[3]);continue}let index=item[1],path=buildingArtPathCache?.[index];if(path){try{ctx.fill(path);continue}catch{buildingArtPathCache=null}}ctx.beginPath();buildingArtTrace(ctx,buildingArtGeometry[index]);ctx.fill()}}\n// Shared canonical team triangle; fixed placements only on four larger building bodies.\nconst buildingTeamCueOrigins=Object.freeze({hq:Object.freeze([-18,-5]),power:Object.freeze([-17,9]),refinery:Object.freeze([-22,9]),factory:Object.freeze([19,1])});\nfunction drawBuildingTeamCue(type,team){\n  if(!Object.hasOwn(buildingTeamCueOrigins,type))return;\n  let p=buildingTeamCueOrigins[type];ctx.save();ctx.translate(p[0],p[1]);\n  rect(-1,-1,8,6,'#14201b');\n  if(team){\n    ctx.fillStyle='#e7d9b4';let path=buildingArtPathCache?.[19],painted=false;\n    if(path){try{ctx.fill(path);painted=true}catch{buildingArtPathCache=null}}\n    if(!painted){ctx.beginPath();buildingArtTrace(ctx,buildingArtGeometry[19]);ctx.fill()}\n  }else{rect(0,0,6,1.5,'#e7d9b4');rect(0,2.5,6,1.5,'#e7d9b4')}\n  ctx.restore()\n}\nfunction drawBuildingPreview(e){\n  if(!Object.hasOwn(buildingArtCanonicalRadius,e.type)||e.r!==buildingArtCanonicalRadius[e.type])return drawBuilding(e);\n  let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);\n  drawBuildingFoundation(r);ctx.strokeStyle=color;ctx.lineWidth=3;\n  drawBuildingStaticBody(e.type,e.team);\n  drawBuildingTeamCue(e.type,e.team);\n  if(e.type==='hq'){ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}\n  if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}\n  if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}\n  ctx.restore();drawConstructionProgress(e);drawFactoryProgress(e)\n}\nconst unitTrackMemory=new WeakMap();\nfunction unitTrackPhase(e){let v=unitTrackMemory.get(e);if(!v){v={x:e.x,y:e.y,phase:0};unitTrackMemory.set(e,v)}else{v.phase=(v.phase+Math.hypot(e.x-v.x,e.y-v.y))%7;v.x=e.x;v.y=e.y}return v.phase}\nfunction drawUnit(e){let phase=unitTrackPhase(e),d=defs[e.type],color=e.team?'#b35d49':'#7da477';ctx.save();ctx.translate(e.x,e.y);ctx.rotate(e.angle);rect(-e.r+2,-e.r+4,e.r*2,e.r*2,'#0d211680');rect(-e.r,-e.r,e.r*2,5,'#202c24');rect(-e.r,e.r-5,e.r*2,5,'#202c24');rect(-e.r,-e.r+5,e.r*2,e.r*2-10,color);rect(-e.r+1,-e.r+5,e.r*2-2,2,e.team?'#d58a71':'#adc5ad');for(let x=-e.r-7+phase;x<e.r;x+=7){let left=Math.max(-e.r,x),right=Math.min(e.r,x+2);if(right>left){rect(left,-e.r,right-left,4,'#687361');"... 36850 more characters,
+    expected: "function rect(x,y,w,h,c){ctx.fillStyle=c;ctx.fillRect(x,y,w,h)}function circle(x,y,r,c){ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fillStyle=c;ctx.fill()}function text(s,x,y,c='#d9e9d0',size=12){ctx.fillStyle=c;ctx.font=size+'px system-ui';ctx.fillText(s,x,y)}\nfunction rangePreviewUnits(){let units=state.entities.filter(e=>selection.has(e.id)&&e.hp>0&&(defs[e.type].damage||defs[e.type].repairRange)&&!e.build);return units.length<=6?units:[]}\nfunction escortDisplayTarget(e){let target=get(e.escortId);return e.team===0&&e.hp>0&&validEscort(e,target)?target:null}\nfunction escortTargetLabel(e){let target=escortDisplayTarget(e);return target?defs[target.type].name+'（'+Math.round(target.x)+','+Math.round(target.y)+'）':null}\nfunction selectedEscortLinks(){let vehicles=state.entities.filter(e=>e.team===0&&e.hp>0&&defs[e.type].speed&&selection.has(e.id));if(vehicles.length>6)return[];return vehicles.map(e=>({unit:e,target:escortDisplayTarget(e)})).filter(link=>link.target)}\nfunction drawEscortOrders(){let links=selectedEscortLinks();if(!links.length)return;ctx.save();ctx.strokeStyle='#78dce8';ctx.lineWidth=1.5;ctx.setLineDash([2,5]);ctx.textAlign='left';ctx.textBaseline='alphabetic';let marked=new Set();for(let {unit,target} of links){ctx.beginPath();ctx.moveTo(unit.x,unit.y);ctx.lineTo(target.x,target.y);ctx.stroke();if(!marked.has(target.id)){marked.add(target.id);ctx.beginPath();ctx.arc(target.x,target.y,target.r+10,0,Math.PI*2);ctx.stroke();text('跟随目标',clamp(target.x+target.r+12,8,WIDTH-68),clamp(target.y-target.r-12,14,HEIGHT-8),'#78dce8',11)}}ctx.restore()}\nfunction drawMiningOrders(){let miners=state.entities.filter(e=>e.team===0&&e.hp>0&&selection.has(e.id)&&assignedOre(e)?.amount>0);if(!miners.length||miners.length>6)return;ctx.save();ctx.strokeStyle='#e4c783';ctx.lineWidth=1.5;ctx.setLineDash([3,7]);let marked=new Set();for(let e of miners){let ore=assignedOre(e);ctx.beginPath();ctx.moveTo(e.x,e.y);ctx.lineTo(ore.x,ore.y);ctx.stroke();if(!marked.has(e.oreIndex)){marked.add(e.oreIndex);ctx.beginPath();ctx.arc(ore.x,ore.y,35,0,Math.PI*2);ctx.stroke()}}ctx.restore()}\nfunction drawSelectionRanges(){ctx.save();for(let e of rangePreviewUnits()){let d=defs[e.type];ctx.strokeStyle=rangeInactive(e)?'#96a69c80':'#b8df9999';ctx.lineWidth=1.5;ctx.setLineDash([7,5]);ctx.beginPath();ctx.arc(e.x,e.y,d.range||d.repairRange,0,Math.PI*2);ctx.stroke();if(d.minRange){ctx.strokeStyle='#ee9778aa';ctx.setLineDash([3,5]);ctx.beginPath();ctx.arc(e.x,e.y,d.minRange,0,Math.PI*2);ctx.stroke()}}ctx.restore()}\nfunction constructionProgressView(e){if(!e||e.hp<=0||!['power','refinery','factory','turret'].includes(e.type)||!Number.isFinite(e.build)||e.build<=0)return null;let total=defs[e.type].time;if(!Number.isFinite(total)||total<=0)return null;let progress=clamp(1-e.build/total,0,1);return{remaining:e.build,total,progress,percent:Math.min(99,Math.floor(progress*100))}}\nfunction drawConstructionProgress(e){let view=constructionProgressView(e);if(!view||e.r<=8)return;let x=e.x-e.r+6,w=e.r*2-12;ctx.save();ctx.beginPath();ctx.rect(e.x-e.r+4,e.y-e.r+4,e.r*2-8,e.r*2-8);ctx.clip();rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,'#e9c579');ctx.restore()}\nfunction factoryProductionView(e){if(!e||e.team!==0||e.type!=='factory'||e.hp<=0||e.build)return null;let q=state.queue.find(q=>q.factoryId===e.id);if(!q||activeProductionFactory(q)!==e||!Number.isFinite(q.total)||q.total<=0||!Number.isFinite(q.left))return null;let progress=clamp(1-q.left/q.total,0,1),status=productionStateLabel(q),color=status==='已结束'?'#a3aba8':status==='等待出口'?'#ed987f':['游戏暂停','缺电暂停'].includes(status)?'#ebc877':'#8fd6bd',short=status==='已结束'?'已结束':status==='等待出口'?'待出口':status==='游戏暂停'?'暂停':status==='缺电暂停'?'缺电':Math.round(progress*100)+'%';return{order:q,progress,status,color,short}}\nfunction drawFactoryProgress(e){let view=factoryProductionView(e);if(!view||e.r<=8)return;let x=e.x-e.r+6,w=e.r*2-12;ctx.save();ctx.beginPath();ctx.rect(e.x-e.r+4,e.y-e.r+4,e.r*2-8,e.r*2-8);ctx.clip();rect(x,e.y-e.r+5,w,13,'#102019ee');text(view.short,x+3,e.y-e.r+15,view.color,10);rect(x-1,e.y+e.r-9,w+2,5,'#102019');rect(x,e.y+e.r-8,w*view.progress,3,view.color);ctx.restore()}\nfunction drawBuilding(e){let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);rect(-r+5,-r+9,r*2,r*2,'#16231c80');rect(-r,-r,r*2,r*2,'#293c31');ctx.strokeStyle=color;ctx.lineWidth=3;ctx.strokeRect(-r,-r,r*2,r*2);rect(-r+6,-r+6,r*2-12,r*2-12,color);if(e.type==='hq'){rect(-24,-17,48,36,'#263b36');rect(-17,-11,34,10,'#8ccebd');rect(-8,10,16,28,'#435545');ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}if(e.type==='power'){circle(-9,0,12,'#b3b798');circle(10,0,12,'#9ba789');ctx.beginPath();ctx.moveTo(-3,-15);ctx.lineTo(9,-15);ctx.lineTo(1,-3);ctx.lineTo(10,-3);ctx.lineTo(-8,16);ctx.lineTo(-2,2);ctx.lineTo(-10,2);ctx.closePath();ctx.fillStyle='#fff0a4';ctx.fill();ctx.strokeStyle='#5d6743';ctx.lineWidth=1;ctx.stroke()}if(e.type==='factory'){rect(-25,-16,50,34,'#293d32');for(let i=0;i<4;i++)rect(-22+i*12,-12,7,22,'#688879');rect(-15,19,30,12,'#15241d')}if(e.type==='refinery'){circle(-13,-4,14,'#b4ad78');circle(13,-4,14,'#899a73');rect(-22,12,44,10,'#253c2b')}if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}ctx.restore();drawConstructionProgress(e);drawFactoryProgress(e)}\n// Building art preview: finite static recipes only; original dynamic layers remain below.\n@@RED_BUILDING_ART@@\nfunction buildingArtTrace(target,shape){let [kind,p]=shape;if(kind==='circle'){target.arc(p[0],p[1],p[2],0,Math.PI*2)}else{target.moveTo(p[0],p[1]);for(let i=2;i<p.length;i+=2)target.lineTo(p[i],p[i+1]);target.closePath()}}\nlet buildingArtPathCache;\nfunction initializeBuildingArtPaths(){if(buildingArtPathCache!==undefined)return;buildingArtPathCache=(()=>{if(typeof Path2D!=='function')return null;try{return Object.freeze(buildingArtGeometry.map(shape=>{let path=new Path2D();buildingArtTrace(path,shape);return path}))}catch{return null}})()}\nfunction drawBuildingStaticBody(type,team){for(let item of buildingArtRecipes[type]){ctx.fillStyle=item[team?3:2];if(item[0]==='rect'){let p=item[1];ctx.fillRect(p[0],p[1],p[2],p[3]);continue}let index=item[1],path=buildingArtPathCache?.[index];if(path){try{ctx.fill(path);continue}catch{buildingArtPathCache=null}}ctx.beginPath();buildingArtTrace(ctx,buildingArtGeometry[index]);ctx.fill()}}\n// Shared canonical team triangle; fixed placements only on four larger building bodies.\nconst buildingTeamCueOrigins=Object.freeze({hq:Object.freeze([-18,-5]),power:Object.freeze([-17,9]),refinery:Object.freeze([-22,9]),factory:Object.freeze([19,1])});\nfunction drawBuildingTeamCue(type,team){\n  if(!Object.hasOwn(buildingTeamCueOrigins,type))return;\n  let p=buildingTeamCueOrigins[type];ctx.save();ctx.translate(p[0],p[1]);\n  rect(-1,-1,8,6,'#14201b');\n  if(team){\n    ctx.fillStyle='#e7d9b4';let path=buildingArtPathCache?.[19],painted=false;\n    if(path){try{ctx.fill(path);painted=true}catch{buildingArtPathCache=null}}\n    if(!painted){ctx.beginPath();buildingArtTrace(ctx,buildingArtGeometry[19]);ctx.fill()}\n  }else{rect(0,0,6,1.5,'#e7d9b4');rect(0,2.5,6,1.5,'#e7d9b4')}\n  ctx.restore()\n}\nfunction drawBuildingPreview(e){\n  if(!Object.hasOwn(buildingArtCanonicalRadius,e.type)||e.r!==buildingArtCanonicalRadius[e.type])return drawBuilding(e);\n  let color=e.team?'#a95848':'#5c946b',r=e.r;ctx.save();ctx.translate(e.x,e.y);\n  rect(-r+5,-r+9,r*2,r*2,'#16231c80');ctx.strokeStyle=color;ctx.lineWidth=3;\n  drawBuildingStaticBody(e.type,e.team);\n  drawBuildingTeamCue(e.type,e.team);\n  if(e.type==='hq'){ctx.strokeStyle='#cad0a0';ctx.beginPath();ctx.moveTo(0,-r);ctx.lineTo(0,-r-23);ctx.stroke();rect(0,-r-23,20,10,e.team?'#e77b58':'#c6dd8b')}\n  if(e.type==='turret'){ctx.rotate(e.angle);rect(-13,-11,26,22,color);rect(0,-4,34,8,'#ced0ac');circle(0,0,9,'#314d39')}\n  if(e.build){rect(-r,-r,r*2,r*2,'#0a1a10a0');text(Math.ceil(e.build)+'s',-10,4,'#eadc9a',14)}\n  ctx.restore();drawConstructionProgress(e);drawFactoryProgress(e)\n}\nconst unitTrackMemory=new WeakMap();\nfunction unitTrackPhase(e){let v=unitTrackMemory.get(e);if(!v){v={x:e.x,y:e.y,phase:0};unitTrackMemory.set(e,v)}else{v.phase=(v.phase+Math.hypot(e.x-v.x,e.y-v.y))%7;v.x=e.x;v.y=e.y}return v.phase}\nfunction drawUnit(e){let phase=unitTrackPhase(e),d=defs[e.type],color=e.team?'#b35d49':'#7da477';ctx.save();ctx.translate(e.x,e.y);ctx.rotate(e.angle);rect(-e.r+2,-e.r+4,e.r*2,e.r*2,'#0d211680');rect(-e.r,-e.r,e.r*2,5,'#202c24');rect(-e.r,e.r-5,e.r*2,5,'#202c24');rect(-e.r,-e.r+5,e.r*2,e.r*2-10,color);for(let x=-e.r-7+phase;x<e.r;x+=7){let left=Math.max(-e.r,x),right=Math.min(e.r,x+2);if(right>left){rect(left,-e.r,right-left,4,'#687361');rect(left,e.r-4,right-left,4,'#687361')}}if(e.type==='harvester'){rect(-11,-8,13,16,'#b4b086');rect(7,-10,9,20,'#dcbe70');rect(-11,8,Math.max(1,e.load/180*20),3,'#e9c55f')}else if(e.type==='repair'){rect(-9,-8,18,16,'#bfd5b0');rect(-2,-6,4,12,'#2c7350');rect(-6,-2,12,4,'#2c7350')}else{circle(0,0,e.type==='tank'?9:6,color);rect(0,-3,e.type==='artillery'?34:e.type==='tank'?24:17,6,'#c0c7a3');if(e.type==='artillery'){rect(-11,-7,14,14,'#bac4a0');rect(-13,-12,4,24,'#263e2c')}}ctx.restore()}\nconst terrainAccentTiles=[];for(let y=0;y<HEIGHT;y+=40)for(let x=0;x<WIDTH;x+=40)if(Math.sin(x*13+y*27)>.2)terrainAccentTiles.push([x,y]);\nlet vehicleArtPreview=false;\n// Draw-only art pilot: immutable polygon paths, exact direct-command fallback.\n// No simulation fields, RNG, raster caches or separate turret rotation are introduced.\nconst unitArtCanonicalRadius=Object.freeze({tank:13,scout:10,artillery:14,repair:13,harvester:16});\nconst unitArtGeometry=Object.freeze([\n  Object.freeze([-9,-6,4,-7,10,-3,10,3,4,7,-9,6]),\n  Object.freeze([-8,-5,4,-6,9,-2,9,2,4,6,-8,5]),\n  Object.freeze([-13,-8"... 34734 more characters,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

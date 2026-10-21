@@ -1,0 +1,268 @@
+[
+  {
+    "script": "progress-rails-negative-control-v316.cjs",
+    "exitCode": 0,
+    "passed": 9,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "health-edge-v316.cjs",
+    "exitCode": 0,
+    "passed": 2952,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "health-edge-negative-control-v316.cjs",
+    "exitCode": 0,
+    "passed": 50,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "hold-guidance-v316.cjs",
+    "exitCode": 0,
+    "passed": 16,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "global-repeat-mode-scope-v316.cjs",
+    "exitCode": 0,
+    "passed": 31,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "beginner-guide-v316.cjs",
+    "exitCode": 0,
+    "passed": 41,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "building-team-cue-v316.cjs",
+    "exitCode": 0,
+    "passed": 1,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "source-delta-v316-negative-control.cjs",
+    "exitCode": 0,
+    "passed": 13,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "presentation-v316.cjs",
+    "exitCode": 0,
+    "passed": 27,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "presentation-negative-control-v316.cjs",
+    "exitCode": 0,
+    "passed": 22,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "inherit-dom-v316-negative-control.cjs",
+    "exitCode": 0,
+    "passed": 313,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "repair-repeat-inheritance-v316.cjs",
+    "exitCode": 0,
+    "passed": 12,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "command-enter-repeat-v315.cjs",
+    "exitCode": 0,
+    "passed": 51,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "command-enter-repeat-negative-v315.cjs",
+    "exitCode": 0,
+    "passed": 6,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "refinery-miner-selection-v315.cjs",
+    "exitCode": 0,
+    "passed": 22,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "refinery-miner-selection-natural-v315.cjs",
+    "exitCode": 0,
+    "passed": true,
+    "failed": null,
+    "stderrBytes": 0
+  },
+  {
+    "script": "escape-key-repeat-v315.cjs",
+    "exitCode": 0,
+    "passed": 47,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "escape-key-repeat-negative-v315.cjs",
+    "exitCode": 0,
+    "passed": 4,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "depleted-ore-v316.cjs",
+    "exitCode": 0,
+    "passed": 69,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "depleted-ore-negative-v316.cjs",
+    "exitCode": 0,
+    "passed": 23,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "building-reference-v316.cjs",
+    "exitCode": 0,
+    "passed": 21,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "building-reference-negative-v316.cjs",
+    "exitCode": 0,
+    "passed": 13,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "vehicle-reference-v315.cjs",
+    "exitCode": 0,
+    "passed": 19,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "vehicle-reference-negative-v315.cjs",
+    "exitCode": 0,
+    "passed": 6,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "factory-requirement-v315.cjs",
+    "exitCode": 0,
+    "passed": 164,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "factory-requirement-negative-v315.cjs",
+    "exitCode": 0,
+    "passed": 4,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "purchase-funding-v315.cjs",
+    "exitCode": 0,
+    "passed": 192,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "purchase-funding-negative-v315.cjs",
+    "exitCode": 0,
+    "passed": 4,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "construction-reasons-v315.cjs",
+    "exitCode": 0,
+    "passed": 47,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "construction-reasons-negative-v315.cjs",
+    "exitCode": 0,
+    "passed": 4,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "factory-space-v315.cjs",
+    "exitCode": 0,
+    "passed": 62,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "factory-space-negative-v315.cjs",
+    "exitCode": 0,
+    "passed": 4,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "selection-key-repeat-v315.cjs",
+    "exitCode": 0,
+    "passed": 93,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "selection-key-repeat-negative-v315.cjs",
+    "exitCode": 0,
+    "passed": 5,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "ore-density-v316.cjs",
+    "exitCode": 0,
+    "passed": 135,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "low-ore-label-v316.cjs",
+    "exitCode": 0,
+    "passed": 52,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "production-card-reasons-v316.cjs",
+    "exitCode": 0,
+    "passed": 78,
+    "failed": 0,
+    "stderrBytes": 0
+  },
+  {
+    "script": "production-card-reasons-negative-v316.cjs",
+    "exitCode": 0,
+    "passed": 2,
+    "failed": 0,
+    "stderrBytes": 0
+  }
+]

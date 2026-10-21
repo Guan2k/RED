@@ -1,0 +1,196 @@
+{
+  "passed": 47,
+  "failed": 0,
+  "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+  "results": [
+    {
+      "name": "held Escape preserves new attack, paused=false",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves new attack, paused=true",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves new placement, paused=false",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves new placement, paused=true",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves new ordinary, paused=false",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves new ordinary, paused=true",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves new append, paused=false",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves new append, paused=true",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves new drag, paused=false",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves new drag, paused=true",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves newly opened restart, paused=false",
+      "passed": true
+    },
+    {
+      "name": "held Escape preserves newly opened restart, paused=true",
+      "passed": true
+    },
+    {
+      "name": "first Escape false cancels attack",
+      "passed": true
+    },
+    {
+      "name": "first Escape false cancels placement",
+      "passed": true
+    },
+    {
+      "name": "first Escape false cancels ordinary",
+      "passed": true
+    },
+    {
+      "name": "first Escape false cancels append",
+      "passed": true
+    },
+    {
+      "name": "first Escape false cancels drag",
+      "passed": true
+    },
+    {
+      "name": "first Escape undefined cancels attack",
+      "passed": true
+    },
+    {
+      "name": "first Escape undefined cancels placement",
+      "passed": true
+    },
+    {
+      "name": "first Escape undefined cancels ordinary",
+      "passed": true
+    },
+    {
+      "name": "first Escape undefined cancels append",
+      "passed": true
+    },
+    {
+      "name": "first Escape undefined cancels drag",
+      "passed": true
+    },
+    {
+      "name": "Shift Escape retains existing cancellation semantics",
+      "passed": true
+    },
+    {
+      "name": "guard {\"ctrlKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "guard {\"ctrlKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "guard {\"metaKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "guard {\"metaKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "guard {\"altKey\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "guard {\"altKey\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "guard {\"isComposing\":true} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "guard {\"isComposing\":true} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "guard {\"keyCode\":229} repeat=false",
+      "passed": true
+    },
+    {
+      "name": "guard {\"keyCode\":229} repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus INPUT repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus INPUT repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus SELECT repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus SELECT repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus TEXTAREA repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus TEXTAREA repeat=true",
+      "passed": true
+    },
+    {
+      "name": "focus editable repeat=false",
+      "passed": true
+    },
+    {
+      "name": "focus editable repeat=true",
+      "passed": true
+    },
+    {
+      "name": "repeat retains initial",
+      "passed": true
+    },
+    {
+      "name": "repeat retains resultOverlay",
+      "passed": true
+    },
+    {
+      "name": "repeat retains resultBattle",
+      "passed": true
+    },
+    {
+      "name": "first Escape still returns from finished battlefield",
+      "passed": true
+    },
+    {
+      "name": "repeat does not poison a newly pressed command Space activation",
+      "passed": true
+    },
+    {
+      "name": "explicit cancel button remains usable while Escape is held",
+      "passed": true
+    }
+  ],
+  "scope": "Full inline-source VM with registered input callbacks. Natural initial battle and explicit lifecycle/focus fixtures. No native key timing/default events, browser, persistence, or full release claim."
+}

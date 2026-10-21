@@ -1,0 +1,17 @@
+{
+  "passed": 2,
+  "failed": 0,
+  "results": [
+    {
+      "name": "missing-update",
+      "rejected": true,
+      "failedCases": 61
+    },
+    {
+      "name": "stale-after-recovery",
+      "rejected": true,
+      "failedCases": 26
+    }
+  ],
+  "scope": "Mutation controls only; not browser evidence."
+}

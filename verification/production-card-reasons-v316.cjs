@@ -1,0 +1,28 @@
+'use strict';
+const fs=require('fs'),path=require('path'),assert=require('assert/strict'),crypto=require('crypto'),{loadGame}=require('./vm-environment.cjs');
+const source=path.resolve(process.argv[2]||path.join(__dirname,'../index.html')),results=[];
+const units={tank:350,scout:180,artillery:550,repair:500,harvester:400};
+function test(name,fn){try{fn();results.push({name,passed:true})}catch(e){results.push({name,passed:false,error:e.stack})}}
+function fresh(){return loadGame(source,{seed:31601}).start()}
+function card(g,type){return g.document.querySelectorAll('[data-unit]').find(n=>n.dataset.unit===type)}
+function reason(g,type){const n=g.element('productionReason'+type);assert.ok(n,'visible reason node exists');return n.textContent}
+const snapshot=g=>g.run('JSON.stringify({state,uid,groups,selection:[...selection],placement,attackMode,drag,ordinaryCommandMode,appendCommandMode})');
+for(const [type,cost] of Object.entries(units)){
+ for(const delta of [-cost,-1,-.01,0,1])test(type+' affordability '+delta,()=>{const g=fresh();g.run(`state.cash=${cost+delta};updateUI()`);assert.equal(reason(g,type),delta<0?'资金不足，还差 '+Math.ceil(-delta)+'资金':'');assert.equal(card(g,type).disabled,delta<0);const before=snapshot(g);if(delta<0){card(g,type).click();assert.equal(snapshot(g),before)}else{const n=g.state.queue.length;card(g,type).click();assert.equal(g.state.queue.length,n+1);assert.equal(g.state.cash,delta)}});
+ for(const [phase,setup,expected]of [
+ ['prestart','state.started=false;state.result="end";restartPrompt=true','尚未开始作战'],
+ ['terminal','state.result="end";restartPrompt=true','战局已结束'],
+ ['restart','restartPrompt=true','请先完成或取消重新部署确认'],
+ ['full','while(state.queue.length<8)state.queue.push({type:"scout",left:4,total:4});state.entities=state.entities.filter(e=>e.team!==0||e.type!=="factory")','生产队列已满（8）'],
+ ['missing','state.entities=state.entities.filter(e=>e.team!==0||e.type!=="factory")','需要已建成的战车工厂'],
+ ['construction','structures(0,"factory").forEach(e=>e.build=5)','战车工厂施工中，完工后才能下新订单'],
+ ['paused construction','structures(0,"factory").forEach(e=>e.build=5);state.paused=true','战车工厂施工中；当前暂停，请继续游戏以推进施工']
+ ])test(type+' prior reason '+phase,()=>{const g=fresh();g.run('state.cash=0;'+setup+';updateUI()');assert.equal(reason(g,type),expected);assert.equal(card(g,type).disabled,true);assert.ok(card(g,type).title.includes(expected));const before=snapshot(g);g.run('updateUI();updateUI()');card(g,type).click();assert.equal(snapshot(g),before)});
+ test(type+' reason transitions and recovery',()=>{const g=fresh();g.run('state.cash=0;updateUI()');assert.equal(reason(g,type),'资金不足，还差 '+cost+'资金');g.run('structures(0,"factory").forEach(e=>e.build=5);updateUI()');assert.equal(reason(g,type),'战车工厂施工中，完工后才能下新订单');g.run('state.paused=true;updateUI()');assert.equal(reason(g,type),'战车工厂施工中；当前暂停，请继续游戏以推进施工');g.run('structures(0,"factory").forEach(e=>e.build=0);updateUI()');assert.equal(reason(g,type),'资金不足，还差 '+cost+'资金');g.run(`state.cash=${cost};updateUI()`);assert.equal(reason(g,type),'');assert.equal(card(g,type).disabled,false);g.click('restart');assert.equal(reason(g,type),'请先完成或取消重新部署确认');g.click('cancelRestart');assert.equal(reason(g,type),'');g.click('restart');g.click('start');assert.equal(reason(g,type),'')});
+ test(type+' paused and unpowered can still purchase',()=>{const g=fresh();g.run('state.paused=true;state.entities=state.entities.filter(e=>e.team!==0||e.type!=="power");updateUI()');assert.equal(g.run('powered()'),false);assert.equal(reason(g,type),'');assert.equal(card(g,type).disabled,false);const n=g.state.queue.length;card(g,type).click();assert.equal(g.state.queue.length,n+1)});
+ test(type+' text-only, no live announcements, unchanged-write suppression',()=>{const g=fresh(),n=g.element('productionReason'+type);assert.ok(n);assert.equal(n.getAttribute('aria-live'),'off');assert.equal(n.children.length,0);g.run('state.cash=0;updateUI()');let val=n.textContent,writes=0;Object.defineProperty(n,'textContent',{get(){return val},set(x){writes++;val=x},configurable:true});g.run('updateUI();updateUI()');assert.equal(writes,0);g.run(`state.cash=${cost};updateUI();updateUI()`);assert.equal(val,'');assert.equal(writes,1);assert.equal(n.children.length,0)});
+}
+test('natural purchases produce shortage then cancellation restores eligibility',()=>{const g=fresh();for(let i=0;i<4;i++)card(g,'tank').click();assert.equal(g.state.cash,300);assert.equal(reason(g,'tank'),'资金不足，还差 50资金');assert.equal(reason(g,'scout'),'');assert.equal(g.state.queue.length,4);g.run('productionOrderButtons()[0].click()');assert.equal(reason(g,'tank'),'');assert.equal(card(g,'tank').disabled,false)});
+test('refresh preserves pending commands and complete world state',()=>{const g=fresh();g.run('state.cash=100;placement="power";attackMode=true;updateUI()');const before=snapshot(g);g.run('updateUI();updateUI()');assert.equal(snapshot(g),before)});
+test('CSS contract wraps visible secondary text without replacing price layout',()=>{const html=fs.readFileSync(source,'utf8');assert.match(html,/\.cards button > span\[id\^="productionReason"\]\s*\{[^}]*display:\s*block;[^}]*float:\s*none;[^}]*white-space:\s*normal;[^}]*overflow-wrap:\s*anywhere;/);assert.match(html,/span:first-of-type/);for(const t of Object.keys(units))assert.equal((html.match(new RegExp('id="productionReason'+t+'"','g'))||[]).length,1)});
+const failed=results.filter(x=>!x.passed).length;console.log(JSON.stringify({passed:results.length-failed,failed,sourceSha256:crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex'),results,scope:'Whole-source VM/mock DOM and CSS source contract. No native browser layout, input timing, touch, screen-reader or storage validation.'},null,2));process.exitCode=failed?1:0;

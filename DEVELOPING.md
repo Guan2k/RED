@@ -2,7 +2,7 @@
 
 ## Source of truth
 
-Edit `src/`, not `index.html`. The HTML is generated and remains the single-file offline player artifact. The v0.294 adoption initially reconstructed its published artifact exactly. The current game is v0.314. Its attack/build-button Enter repeat-suppression change is generated through the same guarded authoritative-source workflow; the preceding v301 vehicle-data adoption retained its artifact exactly. Future approved source changes use the same guarded workflow.
+Edit `src/`, not `index.html`. The HTML is generated and remains the single-file offline player artifact. The v0.294 adoption initially reconstructed its published artifact exactly. The current game is v0.316. Its always-visible production-card reason change is generated through the same guarded authoritative-source workflow; the preceding v301 vehicle-data adoption retained its artifact exactly. Future approved source changes use the same guarded workflow.
 
 `src/index.template.html` owns markup; `src/styles.css` owns CSS. Four ordered `.jsfrag` files retain the existing single script's order and shared globals. They are **not ES modules**. The renderer fragment includes inspection/presentation helpers and art initialization, not a newly isolated renderer API. `src/geometry.mjs` alone is a real ES module with named exports, imported by its unit tests. The narrow assembler removes exactly its terminal export footer for the classic inline player script. It is not a general-purpose JavaScript bundler.
 
@@ -41,7 +41,7 @@ Initial bootstrap uses the same restricted recovery command because the existing
 
 ## Adopted developer release workflow
 
-The original additive source-tools adoption retained the exact v0.294 player artifact. The earlier v0.301 vehicle-data adoption retained its game and player-package inputs byte-for-byte. Current v0.305 source changes are deliberate and versioned. Source-build checks and tool tests are separate from game coverage.
+The original additive source-tools adoption retained the exact v0.294 player artifact. The earlier v0.301 vehicle-data adoption retained its game and player-package inputs byte-for-byte. Current v0.316 source changes are deliberate and versioned. Source-build checks and tool tests are separate from game coverage.
 
 Run `node verify-development.cjs` before release. Its eight ordered stages are sealed package integrity through `verify-current.cjs --check-only`, current documentation contract, 66 documentation-contract tests, `node tools/source-build.mjs --check`, current vehicle-aware builder tests, trusted building-data tests, trusted vehicle-data tests, then unchanged `node verify-current.cjs`. Any failure stops later stages. `node verify-development.cjs --check-only` runs the first seven stages without gameplay. `node --test tools/test-development-preflight-ore-density-v302.cjs` tests current orchestration in disposable fixtures. The unchanged old tools/test-development-preflight.cjs runs from tools/document-contract/pre-adoption-host. Synthetic child scripts are not game coverage. See [documentation contract development](DOCUMENT_CONTRACT_DEVELOPMENT.md) for syntax limits and evidence.
 

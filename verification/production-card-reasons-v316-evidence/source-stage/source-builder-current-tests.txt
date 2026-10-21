@@ -1,0 +1,134 @@
+✔ geometry is a real import and pure helpers retain semantics (6.640839ms)
+✖ current generated identity and deterministic assembly (176.022821ms)
+✔ intentional editable input: src/index.template.html (110.844073ms)
+✔ intentional editable input: src/styles.css (120.238624ms)
+✔ intentional editable input: src/script/01-bootstrap.jsfrag (88.945253ms)
+✔ intentional editable input: src/geometry.mjs (123.438088ms)
+✔ intentional editable input: src/script/02-gameplay.jsfrag (291.70525ms)
+✔ intentional editable input: src/script/03-renderer.jsfrag (117.988997ms)
+✔ intentional editable input: src/script/04-interface-runtime.jsfrag (154.206119ms)
+✔ intentional editable input: src/art/buildings.mjs (111.176879ms)
+✔ intentional editable input: src/art/vehicles.mjs (95.049196ms)
+✔ new output identical, refuses overwrite and unsafe paths (31.774653ms)
+✔ manual artifact edits fail check/write/recovery and stay untouched (98.367931ms)
+✔ crash-like stale output receipt fails closed, matching source allows recovery (108.247942ms)
+✔ missing/malformed receipt can only recover matching bytes (99.908256ms)
+✔ unknown and excess arguments refused (0.864791ms)
+✔ missing @@RED_STYLE@@ (9.191595ms)
+✔ duplicate @@RED_STYLE@@ (7.720859ms)
+✔ changed @@RED_STYLE@@ (50.562649ms)
+✔ misplaced @@RED_STYLE@@ (17.399111ms)
+✔ missing @@RED_SCRIPT@@ (11.232054ms)
+✔ duplicate @@RED_SCRIPT@@ (10.577877ms)
+✔ changed @@RED_SCRIPT@@ (9.376564ms)
+✔ misplaced @@RED_SCRIPT@@ (8.09275ms)
+✔ geometry footer missing (8.190089ms)
+✔ geometry footer duplicate (7.888074ms)
+✔ geometry footer nonterminal (8.453662ms)
+✔ geometry footer runtime-import (19.47735ms)
+✔ missing input rejected (8.838194ms)
+✔ input symlink rejected (3.898557ms)
+✔ output symlink rejected (2.081618ms)
+✔ receipt and generated-target symlinks rejected (83.500097ms)
+✔ lock refuses concurrent or stale writer (2.135787ms)
+✔ fragment embedded closing tag/marker and invalid JS rejected (52.728641ms)
+✔ invalid UTF-8 rejected (10.258466ms)
+✔ generated artifact symlink refused (97.287738ms)
+✔ reject HTML script raw-text boundary "</script data-x>" (34.71ms)
+✔ reject HTML script raw-text boundary "</script/>" (18.185346ms)
+✔ reject HTML script raw-text boundary "</ScRiPt\tdata-x>" (14.101855ms)
+✔ reject HTML script raw-text boundary "</script\f>" (14.655671ms)
+✔ reject HTML style raw-text boundary "</style data-x>" (10.365858ms)
+✔ reject HTML style raw-text boundary "</style/>" (7.177008ms)
+✔ reject HTML style raw-text boundary "</StYlE\tdata-x>" (10.296617ms)
+✔ reject HTML style raw-text boundary "</style\f>" (10.457752ms)
+✔ non-boundary tag prefixes remain valid text (56.745434ms)
+✔ out refuses reserved writer-lock path (26.628402ms)
+✔ intentional building color edit rebuilds and updates receipt (91.699804ms)
+✔ intentional building coordinate edit rebuilds and updates receipt (203.08201ms)
+✔ building marker missing (28.156388ms)
+✔ building marker duplicate (34.307545ms)
+✔ building marker changed (7.378141ms)
+✔ building marker misplaced (5.610318ms)
+✔ building marker other-fragment (8.747516ms)
+✔ building marker module (5.843038ms)
+✔ building marker template (16.676834ms)
+✔ building module footer missing (8.919506ms)
+✔ building module footer duplicate (9.545949ms)
+✔ building module footer nonterminal (9.399514ms)
+✔ building module footer wrong-name (13.674257ms)
+✔ building module footer import (11.84631ms)
+✔ building module footer extra-export (8.077278ms)
+✔ building module raw-text boundary </script> (11.795531ms)
+✔ building module raw-text boundary </script data-x> (8.7889ms)
+✔ building module raw-text boundary </script/> (11.534935ms)
+✔ building module raw-text boundary </ScRiPt	data-x> (12.965129ms)
+✔ assembly never evaluates building module (80.444099ms)
+✔ building module missing/symlink/invalid UTF-8 rejected (16.153995ms)
+✔ building art directory symlink rejected (4.24619ms)
+✔ intentional vehicle coordinate edit rebuilds and updates receipt (102.860512ms)
+✔ vehicle marker missing (10.984181ms)
+✔ vehicle marker duplicate (10.499147ms)
+✔ vehicle marker changed (5.382574ms)
+✔ vehicle marker misplaced (8.994185ms)
+✔ vehicle marker other-fragment (6.462652ms)
+✔ vehicle marker module (4.597245ms)
+✔ vehicle marker template (10.376981ms)
+✔ vehicle module footer missing (5.197401ms)
+✔ vehicle module footer duplicate (11.803863ms)
+✔ vehicle module footer nonterminal (6.431803ms)
+✔ vehicle module footer wrong-name (5.062597ms)
+✔ vehicle module footer import (4.943115ms)
+✔ vehicle module footer extra-export (10.689789ms)
+✔ vehicle module raw-text boundary </script> (8.010001ms)
+✔ vehicle module raw-text boundary </script data-x> (8.003639ms)
+✔ vehicle module raw-text boundary </script/> (7.602635ms)
+✔ vehicle module raw-text boundary </ScRiPt	data-x> (7.845716ms)
+✔ assembly never evaluates vehicle module (59.577039ms)
+✔ vehicle module missing/symlink/invalid UTF-8 rejected (14.241775ms)
+✔ vehicle art directory symlink rejected (2.87391ms)
+✔ fixed input list and independent input digest bind every current source byte (22.5004ms)
+✔ current vehicle module is inserted verbatim exactly at its fixed renderer anchor (38.639003ms)
+✔ wrong current input digest fails closed and exact recovery changes only receipt (30.903033ms)
+✔ invalid vehicle source fails closed for all writer modes invalid-footer (16.049659ms)
+✔ invalid vehicle source fails closed for all writer modes duplicate-marker (18.881138ms)
+✔ invalid vehicle source fails closed for all writer modes invalid-js (50.749312ms)
+✔ unit marker prohibited in additional fragment src/styles.css (5.757398ms)
+✔ unit marker prohibited in additional fragment src/geometry.mjs (4.454888ms)
+✔ unit marker prohibited in additional fragment src/script/01-bootstrap.jsfrag (4.207687ms)
+✔ unit marker prohibited in additional fragment src/script/04-interface-runtime.jsfrag (6.022912ms)
+✔ unit marker prohibited in additional fragment src/art/buildings.mjs (13.269301ms)
+✔ source assembly does not execute vehicle side effects or require semantic validity (72.399041ms)
+ℹ tests 101
+ℹ suites 0
+ℹ pass 100
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4157.718521
+
+✖ failing tests:
+
+test at tools/source-build-ore-density-v302.test.mjs:11:1
+✖ current generated identity and deterministic assembly (176.022821ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6'
+  - '5086ac43efe24b1dc7c885b25d821202873b3d425c3d4e8288c7c8723fe33de5'
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/e433d7540f34/red-development/v316-production-card-reasons/RED/tools/source-build-ore-density-v302.test.mjs:11:496)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '3956a8f7f751949b226fc4cdd91dfe8abd7b4eadd79f83ee02a0df794e08acb6',
+    expected: '5086ac43efe24b1dc7c885b25d821202873b3d425c3d4e8288c7c8723fe33de5',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

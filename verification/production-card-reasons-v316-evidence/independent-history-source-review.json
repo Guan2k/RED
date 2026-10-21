@@ -1,0 +1,10 @@
+{
+  "historicalVerificationFiles": 3913,
+  "changedHistoricalVerification": [],
+  "sourceStageDifferences": [
+    {
+      "path": "src/index.template.html",
+      "versionOnly": true
+    }
+  ]
+}

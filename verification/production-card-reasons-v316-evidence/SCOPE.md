@@ -1,0 +1,1 @@
+New v316 source, adaptation and complete isolated developer gate evidence. VM/mock-DOM only; no native browser, storage, download, pixel or FPS acceptance. No remote publication. Historical releases are preserved, not relabeled.

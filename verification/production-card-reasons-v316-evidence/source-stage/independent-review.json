@@ -1,0 +1,34 @@
+{
+  "pass": true,
+  "scenarios": [
+    "normal",
+    "zero",
+    "fraction",
+    "exact",
+    "paused",
+    "unpowered",
+    "building",
+    "missing",
+    "seven",
+    "eight",
+    "restart",
+    "ended",
+    "prestart",
+    "pending",
+    "all-blocks"
+  ],
+  "pairedPurchaseChecks": 75,
+  "refreshesPerScenario": 10,
+  "negativeControls": [
+    {
+      "name": "missing",
+      "rejected": true
+    },
+    {
+      "name": "wrong-unit",
+      "rejected": true
+    }
+  ],
+  "sha256": "5086ac43efe24b1dc7c885b25d821202873b3d425c3d4e8288c7c8723fe33de5",
+  "limits": "VM/mock DOM plus source review only; no browser layout, screen reader, touch or real input timing verification."
+}

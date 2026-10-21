@@ -1,0 +1,664 @@
+{
+  "passed": 164,
+  "failed": 0,
+  "sourceSha256": "5086ac43efe24b1dc7c885b25d821202873b3d425c3d4e8288c7c8723fe33de5",
+  "results": [
+    {
+      "name": "tank none paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank none paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank none paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank none paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank unfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank unfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank unfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank unfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank twoUnfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank twoUnfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank twoUnfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank twoUnfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank dead paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank dead paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank dead paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank dead paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank enemyOnly paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank enemyOnly paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank enemyOnly paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank enemyOnly paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank deadAndUnfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank deadAndUnfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank deadAndUnfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank deadAndUnfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank mixedComplete paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank mixedComplete paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank mixedComplete paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "tank mixedComplete paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout none paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout none paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout none paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout none paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout unfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout unfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout unfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout unfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout twoUnfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout twoUnfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout twoUnfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout twoUnfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout dead paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout dead paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout dead paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout dead paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout enemyOnly paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout enemyOnly paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout enemyOnly paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout enemyOnly paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout deadAndUnfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout deadAndUnfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout deadAndUnfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout deadAndUnfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout mixedComplete paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout mixedComplete paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "scout mixedComplete paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "scout mixedComplete paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery none paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery none paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery none paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery none paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery unfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery unfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery unfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery unfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery twoUnfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery twoUnfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery twoUnfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery twoUnfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery dead paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery dead paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery dead paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery dead paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery enemyOnly paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery enemyOnly paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery enemyOnly paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery enemyOnly paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery deadAndUnfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery deadAndUnfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery deadAndUnfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery deadAndUnfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery mixedComplete paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery mixedComplete paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "artillery mixedComplete paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "artillery mixedComplete paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair none paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair none paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair none paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair none paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair unfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair unfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair unfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair unfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair twoUnfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair twoUnfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair twoUnfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair twoUnfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair dead paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair dead paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair dead paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair dead paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair enemyOnly paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair enemyOnly paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair enemyOnly paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair enemyOnly paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair deadAndUnfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair deadAndUnfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair deadAndUnfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair deadAndUnfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair mixedComplete paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair mixedComplete paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "repair mixedComplete paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "repair mixedComplete paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester none paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester none paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester none paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester none paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester unfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester unfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester unfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester unfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester twoUnfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester twoUnfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester twoUnfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester twoUnfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester dead paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester dead paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester dead paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester dead paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester enemyOnly paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester enemyOnly paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester enemyOnly paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester enemyOnly paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester deadAndUnfinished paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester deadAndUnfinished paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester deadAndUnfinished paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester deadAndUnfinished paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester mixedComplete paused=false cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester mixedComplete paused=false cash=1700",
+      "passed": true
+    },
+    {
+      "name": "harvester mixedComplete paused=true cash=0",
+      "passed": true
+    },
+    {
+      "name": "harvester mixedComplete paused=true cash=1700",
+      "passed": true
+    },
+    {
+      "name": "tank priority queueFull",
+      "passed": true
+    },
+    {
+      "name": "tank priority prestart",
+      "passed": true
+    },
+    {
+      "name": "tank priority terminal",
+      "passed": true
+    },
+    {
+      "name": "tank priority restart",
+      "passed": true
+    },
+    {
+      "name": "scout priority queueFull",
+      "passed": true
+    },
+    {
+      "name": "scout priority prestart",
+      "passed": true
+    },
+    {
+      "name": "scout priority terminal",
+      "passed": true
+    },
+    {
+      "name": "scout priority restart",
+      "passed": true
+    },
+    {
+      "name": "artillery priority queueFull",
+      "passed": true
+    },
+    {
+      "name": "artillery priority prestart",
+      "passed": true
+    },
+    {
+      "name": "artillery priority terminal",
+      "passed": true
+    },
+    {
+      "name": "artillery priority restart",
+      "passed": true
+    },
+    {
+      "name": "repair priority queueFull",
+      "passed": true
+    },
+    {
+      "name": "repair priority prestart",
+      "passed": true
+    },
+    {
+      "name": "repair priority terminal",
+      "passed": true
+    },
+    {
+      "name": "repair priority restart",
+      "passed": true
+    },
+    {
+      "name": "harvester priority queueFull",
+      "passed": true
+    },
+    {
+      "name": "harvester priority prestart",
+      "passed": true
+    },
+    {
+      "name": "harvester priority terminal",
+      "passed": true
+    },
+    {
+      "name": "harvester priority restart",
+      "passed": true
+    },
+    {
+      "name": "natural salvage replacement and completion paused=false",
+      "passed": true
+    },
+    {
+      "name": "natural salvage replacement and completion paused=true",
+      "passed": true
+    },
+    {
+      "name": "paused construction tooltip updates immediately on resume",
+      "passed": true
+    },
+    {
+      "name": "already-paid order remains retained and distinct from new purchase refusal",
+      "passed": true
+    }
+  ],
+  "scope": "Current source VM/mock-DOM registered inputs; natural salvage/rebuild/completion plus explicit unfinished/dead/enemy/queue/cash/lifecycle fixtures. No native browser or real storage validation."
+}

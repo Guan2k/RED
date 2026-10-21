@@ -1,0 +1,33 @@
+{
+  "passed": 27,
+  "failed": 0,
+  "checks": [
+    "exact five valid nodes only",
+    "reject child",
+    "reject wrongTag",
+    "reject wrongParent",
+    "reject duplicateId",
+    "reject duplicateUnit",
+    "reject detached",
+    "reject ancestorCycle",
+    "inverse equals external v315 baseline",
+    "duplicate delta rejected 0",
+    "missing delta rejected 0",
+    "duplicate delta rejected 1",
+    "missing delta rejected 1",
+    "duplicate delta rejected 2",
+    "missing delta rejected 2",
+    "duplicate delta rejected 3",
+    "missing delta rejected 3",
+    "duplicate delta rejected 4",
+    "missing delta rejected 4",
+    "duplicate delta rejected 5",
+    "missing delta rejected 5",
+    "duplicate delta rejected 6",
+    "missing delta rejected 6",
+    "duplicate delta rejected 7",
+    "missing delta rejected 7",
+    "unrelated bytes survive inverse",
+    "runner keeps strict result and case gates"
+  ]
+}

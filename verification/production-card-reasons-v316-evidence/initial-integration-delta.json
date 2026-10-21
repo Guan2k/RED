@@ -1,0 +1,19 @@
+{
+  "baselineChangedFiles": [
+    "RELEASE_NOTES.md",
+    "QUICK_START.html",
+    "DEVELOPING.md",
+    "CURRENT_VERIFICATION_ENTRY.md",
+    "QA_STATUS.md",
+    "index.html",
+    "CURRENT_PLAYER_GUIDE.md",
+    "README.md",
+    "source-build-receipt.json",
+    "current-verification.json",
+    "src/styles.css",
+    "src/index.template.html",
+    "src/script/04-interface-runtime.jsfrag"
+  ],
+  "sourceStageHash": "5086ac43efe24b1dc7c885b25d821202873b3d425c3d4e8288c7c8723fe33de5",
+  "candidateHash": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61"
+}

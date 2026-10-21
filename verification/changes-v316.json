@@ -1,0 +1,34 @@
+[
+  {
+    "before": "v0.315",
+    "after": "v0.316"
+  },
+  {
+    "before": "",
+    "after": "<span id=\"productionReasontank\" aria-live=\"off\"></span>"
+  },
+  {
+    "before": "",
+    "after": "<span id=\"productionReasonscout\" aria-live=\"off\"></span>"
+  },
+  {
+    "before": "",
+    "after": "<span id=\"productionReasonartillery\" aria-live=\"off\"></span>"
+  },
+  {
+    "before": "",
+    "after": "<span id=\"productionReasonrepair\" aria-live=\"off\"></span>"
+  },
+  {
+    "before": "",
+    "after": "<span id=\"productionReasonharvester\" aria-live=\"off\"></span>"
+  },
+  {
+    "before": "",
+    "after": "setReadonlyPanelProperty($('productionReason'+b.dataset.unit),'textContent',purchaseReason);"
+  },
+  {
+    "before": "",
+    "after": "\n/* Production availability: visible without hover; preserve cost/time layout. */\n.cards button > span[id^=\"productionReason\"] { display: block; float: none; color: #c6b28a; font-size: 11px; line-height: 1.6; font-weight: 400; white-space: normal; overflow-wrap: anywhere; }\n.cards button > span[id^=\"productionReason\"]:not(:empty) { margin-top: 5px; }\n"
+  }
+]

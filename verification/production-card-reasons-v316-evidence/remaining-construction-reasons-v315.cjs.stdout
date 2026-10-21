@@ -1,0 +1,196 @@
+{
+  "passed": 47,
+  "failed": 0,
+  "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+  "results": [
+    {
+      "name": "power affordability delta -1",
+      "passed": true
+    },
+    {
+      "name": "power affordability delta -0.01",
+      "passed": true
+    },
+    {
+      "name": "power affordability delta 0",
+      "passed": true
+    },
+    {
+      "name": "power affordability delta 1",
+      "passed": true
+    },
+    {
+      "name": "power availability clears stale reason and does not rewrite unchanged text",
+      "passed": true
+    },
+    {
+      "name": "power precedence prestart",
+      "passed": true
+    },
+    {
+      "name": "power precedence victory",
+      "passed": true
+    },
+    {
+      "name": "power precedence defeat",
+      "passed": true
+    },
+    {
+      "name": "power precedence restart",
+      "passed": true
+    },
+    {
+      "name": "power paused reason and restart-reset transitions",
+      "passed": true
+    },
+    {
+      "name": "power reason uses plain text without live announcements",
+      "passed": true
+    },
+    {
+      "name": "refinery affordability delta -1",
+      "passed": true
+    },
+    {
+      "name": "refinery affordability delta -0.01",
+      "passed": true
+    },
+    {
+      "name": "refinery affordability delta 0",
+      "passed": true
+    },
+    {
+      "name": "refinery affordability delta 1",
+      "passed": true
+    },
+    {
+      "name": "refinery availability clears stale reason and does not rewrite unchanged text",
+      "passed": true
+    },
+    {
+      "name": "refinery precedence prestart",
+      "passed": true
+    },
+    {
+      "name": "refinery precedence victory",
+      "passed": true
+    },
+    {
+      "name": "refinery precedence defeat",
+      "passed": true
+    },
+    {
+      "name": "refinery precedence restart",
+      "passed": true
+    },
+    {
+      "name": "refinery paused reason and restart-reset transitions",
+      "passed": true
+    },
+    {
+      "name": "refinery reason uses plain text without live announcements",
+      "passed": true
+    },
+    {
+      "name": "factory affordability delta -1",
+      "passed": true
+    },
+    {
+      "name": "factory affordability delta -0.01",
+      "passed": true
+    },
+    {
+      "name": "factory affordability delta 0",
+      "passed": true
+    },
+    {
+      "name": "factory affordability delta 1",
+      "passed": true
+    },
+    {
+      "name": "factory availability clears stale reason and does not rewrite unchanged text",
+      "passed": true
+    },
+    {
+      "name": "factory precedence prestart",
+      "passed": true
+    },
+    {
+      "name": "factory precedence victory",
+      "passed": true
+    },
+    {
+      "name": "factory precedence defeat",
+      "passed": true
+    },
+    {
+      "name": "factory precedence restart",
+      "passed": true
+    },
+    {
+      "name": "factory paused reason and restart-reset transitions",
+      "passed": true
+    },
+    {
+      "name": "factory reason uses plain text without live announcements",
+      "passed": true
+    },
+    {
+      "name": "turret affordability delta -1",
+      "passed": true
+    },
+    {
+      "name": "turret affordability delta -0.01",
+      "passed": true
+    },
+    {
+      "name": "turret affordability delta 0",
+      "passed": true
+    },
+    {
+      "name": "turret affordability delta 1",
+      "passed": true
+    },
+    {
+      "name": "turret availability clears stale reason and does not rewrite unchanged text",
+      "passed": true
+    },
+    {
+      "name": "turret precedence prestart",
+      "passed": true
+    },
+    {
+      "name": "turret precedence victory",
+      "passed": true
+    },
+    {
+      "name": "turret precedence defeat",
+      "passed": true
+    },
+    {
+      "name": "turret precedence restart",
+      "passed": true
+    },
+    {
+      "name": "turret paused reason and restart-reset transitions",
+      "passed": true
+    },
+    {
+      "name": "turret reason uses plain text without live announcements",
+      "passed": true
+    },
+    {
+      "name": "mobile turret restriction precedes cash; ordinary buildings remain available",
+      "passed": true
+    },
+    {
+      "name": "natural three tank purchases explain factory shortage",
+      "passed": true
+    },
+    {
+      "name": "refresh changes no world state",
+      "passed": true
+    }
+  ],
+  "scope": "Whole-source isolated VM/mock-DOM. Real purchase/restart UI plus explicit cash/lifecycle fixtures; disabled click and key callback paths only, no native keyboard default-action/browser rendering claim."
+}

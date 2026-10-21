@@ -1,0 +1,134 @@
+{
+  "audit": "Independent read-only v316 test-adaptation review",
+  "passed": true,
+  "createdAt": "2026-10-21T01:33:08.831609+00:00",
+  "scope": [
+    "Five-leaf DOM projection and four comparator boundaries",
+    "Presentation expected-side exact-script adaptation and behavioral negatives",
+    "Eight exact inverse changes and preservation of unrelated bytes",
+    "Current runner and v315 historical verification preservation"
+  ],
+  "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+  "reviewedFileHashes": {
+    "prepare-integration.py": "b96c9217f165eef21c5cec58133e3eabcc5f773b9da8d42232d6a42da5761b87",
+    "RED/verification/inherit-dom-v316.cjs": "dad97d83c77e1922f5a52cf8635616fc2e2e6e841e0a4bbab6ea6f9e088b23d1",
+    "RED/verification/inherit-dom-v316-negative-control.cjs": "42a4828a336217a29a0e09e0c7a2ebb0a787c719c6577c4413ac9ff0deaa4e2f",
+    "RED/verification/repair-repeat-inheritance-v316.cjs": "5b2601cfc2af1dda185623a839ff65adfec4d8888b77aad225c1d160b2e63541",
+    "RED/verification/presentation-v316.cjs": "6065b0d9f731b4173630db1128c43046d65002e2e973aa6e0b9c4892d7c26116",
+    "RED/verification/command-allocation-feedback-v316.cjs": "40b8135758523b8d9fe5b4bf11c3458324fb38553a148d6ba38b74423369a8c9",
+    "RED/verification/beginner-guide-v316.cjs": "9458920e9c3ddd10f6f4b72e2b190dde4879ef6ce388402b5834c631bdcf4d79",
+    "RED/verification/run-tests-v316.cjs": "42657238fb6ecd9b67a069402443c29e216f42ee33f0a1cc08a9ea48f5f87afa",
+    "RED/verification/changes-v316.json": "8a3d54721514ad137da92ca3e5b84f8940a43ce42b8bd6bf7874fb1b708ae8d5",
+    "RED/verification/source-delta-v316-negative-control.cjs": "e694523265607ebc2cc2e7675d6f041e979cf689dc5883b65bc1c82d37e9922c"
+  },
+  "allReviewedHashesMatch": true,
+  "historicalVerification": {
+    "filesCompared": 3913,
+    "missingOrChanged": []
+  },
+  "findings": [],
+  "observations": [
+    "Projection only excludes exact five unique attached leaf SPANs, each directly under its unique matching purchase BUTTON; no descendant traversal exclusion is added. Malformed roots and unexpected child nodes remain observable.",
+    "Current inherited comparator edit is exact-reversible against v314 adapter and original frozen-file hashes remain enforced. Allocation and beginner comparators retain prior field maps and assertions; beginner unprojected path remains unchanged.",
+    "The 313 author-run projection controls cover four actual comparators, physical removal equivalence, malformed/duplicate/detached roots, unexpected children, retained disabled/attributes/cost/cash fields. Historical title-property omission was not introduced into comparator behavior.",
+    "Presentation adaptation adds exactly one explicit expected-side read-only reason assignment. Whole executable-script equality, render/world/input/storage checks and independent expected render source remain intact. Presentation negatives disable identity and demand behavioral failure.",
+    "Inverse uses eight unique literal pieces, not whole-line swallowing. Independent spot checks equal the external v315 baseline and reject duplicated or missing boundaries; extra bytes survive inversion.",
+    "Runner selects v316 adapter, preserves strict result/case gates and 15 historical identities, adds v315 manifest verification, current repair-repeat coverage and production-reason positive/negative coverage; 104 focused result expectation is retained."
+  ],
+  "independentExecution": {
+    "passed": 27,
+    "failed": 0,
+    "checks": [
+      "exact five valid nodes only",
+      "reject child",
+      "reject wrongTag",
+      "reject wrongParent",
+      "reject duplicateId",
+      "reject duplicateUnit",
+      "reject detached",
+      "reject ancestorCycle",
+      "inverse equals external v315 baseline",
+      "duplicate delta rejected 0",
+      "missing delta rejected 0",
+      "duplicate delta rejected 1",
+      "missing delta rejected 1",
+      "duplicate delta rejected 2",
+      "missing delta rejected 2",
+      "duplicate delta rejected 3",
+      "missing delta rejected 3",
+      "duplicate delta rejected 4",
+      "missing delta rejected 4",
+      "duplicate delta rejected 5",
+      "missing delta rejected 5",
+      "duplicate delta rejected 6",
+      "missing delta rejected 6",
+      "duplicate delta rejected 7",
+      "missing delta rejected 7",
+      "unrelated bytes survive inverse",
+      "runner keeps strict result and case gates"
+    ]
+  },
+  "authorEvidence": "final-adaptation-focused-summary.json (reviewed, not rerun or relabeled as independent execution)",
+  "limits": [
+    "Read-only package review; only external evidence files written.",
+    "No full gate rerun, browser/native UI verification, remote publish, user computer, Codex CLI or harness.",
+    "Aggregate gate remains the integration worker responsibility."
+  ],
+  "continuedAuditAfterGateFailure": {
+    "createdAt": "2026-10-21T01:59:06.565102+00:00",
+    "trigger": "Aggregate gate stopped at progress-rails-v316 with 201 passes / 1 exact-source inverse failure. Initial audit covered named adapter files, not every current focused suite.",
+    "correctedFile": "RED/verification/progress-rails-v316.cjs",
+    "correctedFileSha256": "df2dd2e2cd83950c88f0aee8b2dc295fcce3fd462b4050c46607b92afd776540",
+    "correctionReview": "Only current v316 progress source inversion adds changes-v316.json before reversal, plus assertion-label update; exact per-anchor count and final full-source equality remain enforced.",
+    "additionalScope": "All top-level *v316*.cjs source/identity adaptations, with explicit scan of progress and every later focused runner entry, including intentionally unchanged v315 behavioral entry points.",
+    "additionalBlockingFindings": [
+      {
+        "file": "RED/verification/parameterized-pilot/current-suite-manifest-v316.json",
+        "severity": "blocking",
+        "finding": "Only candidate.sha256 changed from v315; all 121 changeFence entries are identical to v315 and omit v316. suite-context.cjs reconstructs candidate from v288 and requires exact equality, so this will reject v316.",
+        "remediationConstraint": "Forward fence requires each before to occur exactly once. Seven empty-before inverse deltas cannot simply be appended; use exact uniquely anchored forward insertion edits preserving strict reconstruction equality."
+      },
+      {
+        "file": "RED/verification/run-pilot-release-v316.cjs",
+        "severity": "blocking-history-preservation",
+        "finding": "Current destination remains parameterized-pilot/results-v315.json and historical destinations remain results-<version>-replay-v315.json. If execution reaches output write, v316 overwrites packaged v315 historical reports; releaseIntegration also retains current-v315 labels.",
+        "remediationConstraint": "Use v316-specific result paths and current identity; preserve all old v315 report files."
+      }
+    ],
+    "pureRestorationChecks": {
+      "passed": 29,
+      "failed": 0,
+      "details": "27 restore-v288..v314-from-v316 functions match corresponding restoration from external v315 baseline and reject extra-byte input; two non-strict source-delta history/to-v302 chains match previous chain output."
+    },
+    "versionChecks": "No same-to-same literal version replacement found. Beginner current negative changes v0.316 to v0.315; runner current negative changes v0.316 to v0.317. Other replacements act on explicitly restored historical versions.",
+    "manualInverseChecks": "Progress includes v297 through v316 deltas in reverse chronological/application order; depleted-ore support and building-reference prepend v316 inverse before v315; general source-delta helpers include v316.",
+    "nonBlockingNotes": [
+      "Some human-readable assertion/scope labels still say final v315 or v315 source, while actual hashes/restores correctly target v316. This is report-label drift, not an execution/coverage mismatch."
+    ],
+    "remainingRisk": "Confirmed pilot manifest and output identity blockers must be repaired before full gate; static review does not substitute for execution."
+  },
+  "remediationRecheck": {
+    "createdAt": "2026-10-21T02:04:25.507236+00:00",
+    "passed": true,
+    "resolvedFindings": [
+      "pilot current forward change fence missing v316",
+      "pilot output paths overwriting v315 reports"
+    ],
+    "checks": [
+      "All 121 historical forward edits preserved as prefix; exactly eight unique nonempty-anchor edits appended.",
+      "All 129 sequential edits meet exact-one-occurrence condition and reconstruct actual v316 index.html byte-for-byte; SHA-256 6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61 matches declared candidate.",
+      "Each appended edit is version-only or an exact insertion corresponding to reviewed v316 delta.",
+      "Current output results-v316.json; replay output results-v287-replay-v316.json or results-v288-replay-v316.json. All package result destinations exclude v315.",
+      "run-pilot-release-v316 differs from frozen v315 only in selected current manifest, output filenames, current mode and descriptive current version. All original coverage/negative/integrity assertions retained.",
+      "Progress inverse includes v316 last in concatenated list before reverse; strict source-anchor and full equality assertions retained."
+    ],
+    "historicalVerificationFilesCompared": 3913,
+    "changedHistoricalVerification": [],
+    "reviewedHashes": {
+      "RED/verification/progress-rails-v316.cjs": "df2dd2e2cd83950c88f0aee8b2dc295fcce3fd462b4050c46607b92afd776540",
+      "RED/verification/run-pilot-release-v316.cjs": "254ce36bbbeeb3e3b70b87b9b215403aeda1555c07b4193141e594d7583235a4",
+      "RED/verification/parameterized-pilot/current-suite-manifest-v316.json": "c4ef75edcd8e3148332b888ff918f013912b6fa5e853ea7e2f23faa86b1bdf97"
+    },
+    "limits": "No behavior suites rerun in this recheck. Parent is running pilot and aggregate gate. Prior findings remain recorded as resolved history."
+  }
+}

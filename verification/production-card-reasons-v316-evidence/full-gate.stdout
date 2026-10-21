@@ -1,0 +1,2022 @@
+Developer preflight: sealed package integrity
+Package declares v0.316; source SHA-256 6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61; runner verification/run-tests-v316.cjs; 4789 listed files verified.
+Package integrity passed; game verification was not executed. Offline consistency does not establish authenticity or remote latest version.
+Developer preflight: current documentation contract
+{
+  "schemaVersion": 1,
+  "root": "/tmp/red-v316-development-4hhzkj61/RED",
+  "passed": 60,
+  "failed": 0,
+  "checks": [
+    {
+      "code": "manifest-json",
+      "passed": true,
+      "detail": "JSON object required"
+    },
+    {
+      "code": "manifest-schema",
+      "passed": true,
+      "detail": "expected current verification identity fields"
+    },
+    {
+      "code": "source-version-marker",
+      "passed": true,
+      "detail": "one displayed version marker"
+    },
+    {
+      "code": "manifest-source-hash",
+      "passed": true,
+      "detail": "source bytes agree with manifest"
+    },
+    {
+      "code": "manifest-runner-hash",
+      "passed": true,
+      "detail": "runner bytes agree with manifest"
+    },
+    {
+      "code": "manifest-version",
+      "passed": true,
+      "detail": "manifest and source version agree"
+    },
+    {
+      "code": "manifest-runner",
+      "passed": true,
+      "detail": "runner uses displayed version"
+    },
+    {
+      "code": "title:README.md",
+      "passed": true,
+      "detail": "current first heading version"
+    },
+    {
+      "code": "title:CURRENT_PLAYER_GUIDE.md",
+      "passed": true,
+      "detail": "current first heading version"
+    },
+    {
+      "code": "title:CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "detail": "current first heading version"
+    },
+    {
+      "code": "title:QA_STATUS.md",
+      "passed": true,
+      "detail": "current first heading version"
+    },
+    {
+      "code": "current-guide-identity",
+      "passed": true,
+      "detail": "one current general claim; historical heading scope inherited by descendants"
+    },
+    {
+      "code": "current-entry-command-present",
+      "passed": true,
+      "detail": "at least one real current entry command, including fenced commands"
+    },
+    {
+      "code": "current-entry-command:0",
+      "passed": true,
+      "detail": {
+        "command": "node verify-development.cjs",
+        "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+      }
+    },
+    {
+      "code": "current-entry-command:1",
+      "passed": true,
+      "detail": {
+        "command": "node verify-development.cjs --check-only",
+        "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+      }
+    },
+    {
+      "code": "current-entry-command:2",
+      "passed": true,
+      "detail": {
+        "command": "node verify-current.cjs",
+        "allowed": "stable entry with optional single --check-only, or exact manifest runner without options; simple quoted tokens accepted, unparsed tails rejected"
+      }
+    },
+    {
+      "code": "current-readme-section",
+      "passed": true,
+      "detail": "one real explicit current testing section"
+    },
+    {
+      "code": "current-runner-line",
+      "passed": true,
+      "detail": "one real current command paragraph; historical descendants and comments excluded"
+    },
+    {
+      "code": "current-runner-command",
+      "passed": true,
+      "detail": "current command equals manifest"
+    },
+    {
+      "code": "current-runner-link",
+      "passed": true,
+      "detail": "current runner link equals manifest"
+    },
+    {
+      "code": "link:README.md:index.html",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#3-选择编队与地图命令",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#3-选择编队与地图命令",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#1-开局暂停与重新部署",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局暂停与重新部署",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#6-存档备份与恢复",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#6-存档备份与恢复",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:README.md:CURRENT_PLAYER_GUIDE.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:CURRENT_PLAYER_GUIDE.md#5-建造订单与出厂",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:README.md:CURRENT_PLAYER_GUIDE.md#5-建造订单与出厂",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:README.md:RELEASE_NOTES.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:verification/OPENING_PRACTICE_V289.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:verification/parameterized-pilot/README_V289.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:README_MIGRATION_V289.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:verification/run-tests-v316.cjs",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:QA_STATUS.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:SHA256SUMS.txt",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:verification/COMMAND_FEEDBACK_V291.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:README.md:QUICK_START.html",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#1-开局暂停与重新部署",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#1-开局暂停与重新部署",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#2-五种胜利条件与据点",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#2-五种胜利条件与据点",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#3-选择编队与地图命令",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#3-选择编队与地图命令",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#4-矿车护航与维修",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#4-矿车护航与维修",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#5-建造订单与出厂",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#5-建造订单与出厂",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#6-存档备份与恢复",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#6-存档备份与恢复",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:#7-必要限制与验证范围",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "anchor:CURRENT_PLAYER_GUIDE.md:#7-必要限制与验证范围",
+      "passed": true,
+      "detail": "Markdown heading anchor"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:RELEASE_NOTES.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:QA_STATUS.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:README.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_PLAYER_GUIDE.md:RELEASE_NOTES.md",
+      "passed": true,
+      "detail": "local target readable"
+    },
+    {
+      "code": "link:CURRENT_VERIFICATION_ENTRY.md:QA_STATUS.md",
+      "passed": true,
+      "detail": "local target readable"
+    }
+  ],
+  "scope": "Read-only explicit current-document contract, no game execution or automatic repair. Historical versioned sections retain their version values. External links are not fetched."
+}
+Developer preflight: documentation contract tests
+{
+  "passed": 66,
+  "failed": 0,
+  "results": [
+    {
+      "name": "valid current and explicit history",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "missing current-verification.json",
+      "passed": true,
+      "failuresDetected": [
+        "read:current-verification.json"
+      ]
+    },
+    {
+      "name": "missing README.md",
+      "passed": true,
+      "failuresDetected": [
+        "read:README.md"
+      ]
+    },
+    {
+      "name": "missing CURRENT_PLAYER_GUIDE.md",
+      "passed": true,
+      "failuresDetected": [
+        "read:CURRENT_PLAYER_GUIDE.md"
+      ]
+    },
+    {
+      "name": "missing CURRENT_VERIFICATION_ENTRY.md",
+      "passed": true,
+      "failuresDetected": [
+        "read:CURRENT_VERIFICATION_ENTRY.md"
+      ]
+    },
+    {
+      "name": "missing QA_STATUS.md",
+      "passed": true,
+      "failuresDetected": [
+        "read:QA_STATUS.md"
+      ]
+    },
+    {
+      "name": "missing index.html",
+      "passed": true,
+      "failuresDetected": [
+        "read:index.html"
+      ]
+    },
+    {
+      "name": "missing verification/run-tests-v301.cjs",
+      "passed": true,
+      "failuresDetected": [
+        "read:verification/run-tests-v301.cjs"
+      ]
+    },
+    {
+      "name": "invalid JSON/schema {",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-json"
+      ]
+    },
+    {
+      "name": "invalid JSON/schema null",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-json"
+      ]
+    },
+    {
+      "name": "invalid JSON/schema []",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-json"
+      ]
+    },
+    {
+      "name": "invalid JSON/schema \"text\"",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-json"
+      ]
+    },
+    {
+      "name": "invalid JSON/schema {}",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "current command mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-command"
+      ]
+    },
+    {
+      "name": "current link mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-link"
+      ]
+    },
+    {
+      "name": "guide mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "header prefix mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "title:QA_STATUS.md"
+      ]
+    },
+    {
+      "name": "only historical command cannot pass",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "only historical nested subsection cannot pass",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "only fenced command cannot pass",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "missing current section cannot use history",
+      "passed": true,
+      "failuresDetected": [
+        "current-readme-section"
+      ]
+    },
+    {
+      "name": "duplicate current section rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-readme-section"
+      ]
+    },
+    {
+      "name": "duplicate current command rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "missing current guide cannot use historical claim",
+      "passed": true,
+      "failuresDetected": [
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "missing target",
+      "passed": true,
+      "failuresDetected": [
+        "read:missing.md"
+      ]
+    },
+    {
+      "name": "missing anchor",
+      "passed": true,
+      "failuresDetected": [
+        "anchor:README.md:CURRENT_PLAYER_GUIDE.md#missing"
+      ]
+    },
+    {
+      "name": "source bytes mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-source-hash"
+      ]
+    },
+    {
+      "name": "runner bytes mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-runner-hash"
+      ]
+    },
+    {
+      "name": "source version mismatch",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-source-hash",
+        "manifest-version",
+        "manifest-runner",
+        "title:README.md",
+        "title:CURRENT_PLAYER_GUIDE.md",
+        "title:CURRENT_VERIFICATION_ENTRY.md",
+        "title:QA_STATUS.md",
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "manifest unsafe source blocked",
+      "passed": true,
+      "failuresDetected": [
+        "manifest-schema"
+      ]
+    },
+    {
+      "name": "link escape blocked",
+      "passed": true,
+      "failuresDetected": [
+        "path:../../outside"
+      ]
+    },
+    {
+      "name": "symlink escape blocked",
+      "passed": true,
+      "failuresDetected": [
+        "read:QA_STATUS.md"
+      ]
+    },
+    {
+      "name": "external link is not fetched",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "historical H3 inherited through H4",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "historical guide H2 inherited through H3",
+      "passed": true,
+      "failuresDetected": [
+        "current-guide-identity"
+      ]
+    },
+    {
+      "name": "comment-only current command excluded",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-line"
+      ]
+    },
+    {
+      "name": "inline commented command excluded",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-command"
+      ]
+    },
+    {
+      "name": "fake fenced anchor excluded",
+      "passed": true,
+      "failuresDetected": [
+        "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局"
+      ]
+    },
+    {
+      "name": "fake commented anchor excluded",
+      "passed": true,
+      "failuresDetected": [
+        "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局"
+      ]
+    },
+    {
+      "name": "shorter closing fence not accepted",
+      "passed": true,
+      "failuresDetected": [
+        "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局"
+      ]
+    },
+    {
+      "name": "wrong closing fence type not accepted",
+      "passed": true,
+      "failuresDetected": [
+        "anchor:README.md:CURRENT_PLAYER_GUIDE.md#1-开局"
+      ]
+    },
+    {
+      "name": "real fenced current command supported",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "same-level heading exits historical subtree",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "commented fake history cannot hide valid command",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "current entry old runner rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "current entry unsupported option rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "current entry positional argument rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "current entry unknown command extension rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "current entry fenced supported option",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "current entry only comment rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command-present"
+      ]
+    },
+    {
+      "name": "current entry only history rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command-present"
+      ]
+    },
+    {
+      "name": "current entry history old command allowed",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "entry quoted unsupported option rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "entry single-quoted unsupported option rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "entry quoted supported option accepted",
+      "passed": true,
+      "failuresDetected": []
+    },
+    {
+      "name": "entry unterminated quote rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "entry inline unsupported quoted tail rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "entry mixed appended argument rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "entry shell suffix rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-entry-command:0"
+      ]
+    },
+    {
+      "name": "README runner quoted tail rejected",
+      "passed": true,
+      "failuresDetected": [
+        "current-runner-command"
+      ]
+    },
+    {
+      "name": "relocated tool arbitrary cwd /tmp/red-doc-contract-WoFNPq/0/package",
+      "passed": true
+    },
+    {
+      "name": "relocated tool arbitrary cwd ../0/package",
+      "passed": true
+    },
+    {
+      "name": "reject CLI []",
+      "passed": true
+    },
+    {
+      "name": "reject CLI [\"--fix\"]",
+      "passed": true
+    },
+    {
+      "name": "reject CLI [\"/tmp/red-doc-contract-WoFNPq/0/package\",\"extra\"]",
+      "passed": true
+    },
+    {
+      "name": "missing package CLI explicit failure",
+      "passed": true
+    }
+  ],
+  "scope": "Private temporary fixtures and relocated CLI; every inspected package remains byte-identical; runner fixtures intentionally throw if executed."
+}
+Developer preflight: editable source consistency
+{"schemaVersion":1,"outputSha256":"6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61","inputsSha256":"b90cf0c652c3571775cd405190b740f00859378378124e33b3cef845364a2f9b"}
+Developer preflight: source builder tests
+✔ geometry is a real import and pure helpers retain semantics (6.239011ms)
+✔ current generated identity and deterministic assembly (74.383864ms)
+✔ intentional editable input: src/index.template.html (70.938005ms)
+✔ intentional editable input: src/styles.css (76.513845ms)
+✔ intentional editable input: src/script/01-bootstrap.jsfrag (63.569671ms)
+✔ intentional editable input: src/geometry.mjs (64.22724ms)
+✔ intentional editable input: src/script/02-gameplay.jsfrag (98.639454ms)
+✔ intentional editable input: src/script/03-renderer.jsfrag (60.278154ms)
+✔ intentional editable input: src/script/04-interface-runtime.jsfrag (64.131636ms)
+✔ intentional editable input: src/art/buildings.mjs (59.637442ms)
+✔ intentional editable input: src/art/vehicles.mjs (66.812625ms)
+✔ new output identical, refuses overwrite and unsafe paths (22.817588ms)
+✔ manual artifact edits fail check/write/recovery and stay untouched (37.021086ms)
+✔ crash-like stale output receipt fails closed, matching source allows recovery (48.31957ms)
+✔ missing/malformed receipt can only recover matching bytes (60.099921ms)
+✔ unknown and excess arguments refused (0.411266ms)
+✔ missing @@RED_STYLE@@ (6.559066ms)
+✔ duplicate @@RED_STYLE@@ (5.824957ms)
+✔ changed @@RED_STYLE@@ (6.361916ms)
+✔ misplaced @@RED_STYLE@@ (5.48584ms)
+✔ missing @@RED_SCRIPT@@ (6.717689ms)
+✔ duplicate @@RED_SCRIPT@@ (6.826746ms)
+✔ changed @@RED_SCRIPT@@ (17.972998ms)
+✔ misplaced @@RED_SCRIPT@@ (7.406084ms)
+✔ geometry footer missing (15.190505ms)
+✔ geometry footer duplicate (4.911456ms)
+✔ geometry footer nonterminal (5.557837ms)
+✔ geometry footer runtime-import (5.202274ms)
+✔ missing input rejected (1.613772ms)
+✔ input symlink rejected (2.074413ms)
+✔ output symlink rejected (1.296176ms)
+✔ receipt and generated-target symlinks rejected (19.114678ms)
+✔ lock refuses concurrent or stale writer (2.69754ms)
+✔ fragment embedded closing tag/marker and invalid JS rejected (22.602943ms)
+✔ invalid UTF-8 rejected (9.277385ms)
+✔ generated artifact symlink refused (44.573947ms)
+✔ reject HTML script raw-text boundary "</script data-x>" (8.46943ms)
+✔ reject HTML script raw-text boundary "</script/>" (7.125273ms)
+✔ reject HTML script raw-text boundary "</ScRiPt\tdata-x>" (6.766049ms)
+✔ reject HTML script raw-text boundary "</script\f>" (6.569625ms)
+✔ reject HTML style raw-text boundary "</style data-x>" (15.628713ms)
+✔ reject HTML style raw-text boundary "</style/>" (10.224847ms)
+✔ reject HTML style raw-text boundary "</StYlE\tdata-x>" (5.125423ms)
+✔ reject HTML style raw-text boundary "</style\f>" (5.179056ms)
+✔ non-boundary tag prefixes remain valid text (23.730044ms)
+✔ out refuses reserved writer-lock path (13.229498ms)
+✔ intentional building color edit rebuilds and updates receipt (70.15913ms)
+✔ intentional building coordinate edit rebuilds and updates receipt (91.91307ms)
+✔ building marker missing (14.528383ms)
+✔ building marker duplicate (17.199448ms)
+✔ building marker changed (17.889438ms)
+✔ building marker misplaced (18.754432ms)
+✔ building marker other-fragment (18.215848ms)
+✔ building marker module (28.090158ms)
+✔ building marker template (11.138148ms)
+✔ building module footer missing (4.751462ms)
+✔ building module footer duplicate (4.589406ms)
+✔ building module footer nonterminal (8.202929ms)
+✔ building module footer wrong-name (5.08595ms)
+✔ building module footer import (5.864231ms)
+✔ building module footer extra-export (4.370702ms)
+✔ building module raw-text boundary </script> (6.035747ms)
+✔ building module raw-text boundary </script data-x> (5.748222ms)
+✔ building module raw-text boundary </script/> (5.262582ms)
+✔ building module raw-text boundary </ScRiPt	data-x> (5.54053ms)
+✔ assembly never evaluates building module (28.077541ms)
+✔ building module missing/symlink/invalid UTF-8 rejected (5.398265ms)
+✔ building art directory symlink rejected (1.896688ms)
+✔ intentional vehicle coordinate edit rebuilds and updates receipt (80.473439ms)
+✔ vehicle marker missing (5.595767ms)
+✔ vehicle marker duplicate (5.25518ms)
+✔ vehicle marker changed (4.571219ms)
+✔ vehicle marker misplaced (5.062951ms)
+✔ vehicle marker other-fragment (6.565651ms)
+✔ vehicle marker module (4.257213ms)
+✔ vehicle marker template (9.353406ms)
+✔ vehicle module footer missing (8.63025ms)
+✔ vehicle module footer duplicate (6.723333ms)
+✔ vehicle module footer nonterminal (5.108625ms)
+✔ vehicle module footer wrong-name (6.106428ms)
+✔ vehicle module footer import (5.778694ms)
+✔ vehicle module footer extra-export (4.663894ms)
+✔ vehicle module raw-text boundary </script> (5.29402ms)
+✔ vehicle module raw-text boundary </script data-x> (5.224519ms)
+✔ vehicle module raw-text boundary </script/> (6.235468ms)
+✔ vehicle module raw-text boundary </ScRiPt	data-x> (5.262974ms)
+✔ assembly never evaluates vehicle module (29.832814ms)
+✔ vehicle module missing/symlink/invalid UTF-8 rejected (10.006892ms)
+✔ vehicle art directory symlink rejected (2.474886ms)
+✔ fixed input list and independent input digest bind every current source byte (18.610059ms)
+✔ current vehicle module is inserted verbatim exactly at its fixed renderer anchor (63.120007ms)
+✔ wrong current input digest fails closed and exact recovery changes only receipt (30.041524ms)
+✔ invalid vehicle source fails closed for all writer modes invalid-footer (16.674183ms)
+✔ invalid vehicle source fails closed for all writer modes duplicate-marker (16.40831ms)
+✔ invalid vehicle source fails closed for all writer modes invalid-js (53.469382ms)
+✔ unit marker prohibited in additional fragment src/styles.css (7.472907ms)
+✔ unit marker prohibited in additional fragment src/geometry.mjs (55.904034ms)
+✔ unit marker prohibited in additional fragment src/script/01-bootstrap.jsfrag (29.717423ms)
+✔ unit marker prohibited in additional fragment src/script/04-interface-runtime.jsfrag (10.555249ms)
+✔ unit marker prohibited in additional fragment src/art/buildings.mjs (8.444913ms)
+✔ source assembly does not execute vehicle side effects or require semantic validity (67.780821ms)
+ℹ tests 101
+ℹ suites 0
+ℹ pass 101
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2500.254407
+Developer preflight: trusted building data validation
+✔ building art exports exactly three deeply frozen data tables and matches actual gameplay radii (11.332614ms)
+✔ building art reports actual cache/render counts and each intended static footprint (2.543568ms)
+✔ building art accepts valid hex palette edits for both teams without an identity pin (4.708745ms)
+✔ building art accepts in-bounds polygon, circle and rectangle edits (1.714167ms)
+✔ building art accepts geometry at the path and vertex budgets (1.849165ms)
+✔ building art accepts exactly the circle budget (1.167403ms)
+✔ building art bounds are the canonical square, with exact-edge rectangles accepted (0.928911ms)
+✔ building art rejects different canonical radius (1.178144ms)
+✔ building art rejects missing canonical type (0.30666ms)
+✔ building art rejects extra canonical type (0.36722ms)
+✔ building art rejects missing recipe type (0.388663ms)
+✔ building art rejects extra recipe type (0.42668ms)
+✔ building art rejects unknown shape (0.239575ms)
+✔ building art rejects extra shape entry (0.31365ms)
+✔ building art rejects short polygon (1.655818ms)
+✔ building art rejects odd polygon coordinates (0.442027ms)
+✔ building art rejects nonfinite polygon coordinate (0.525132ms)
+✔ building art rejects nonnumeric polygon coordinate (0.270162ms)
+✔ building art rejects sparse polygon coordinates (0.217944ms)
+✔ building art rejects extra circle coordinate (0.939235ms)
+✔ building art rejects nonfinite circle coordinate (0.248783ms)
+✔ building art rejects zero circle radius (0.365552ms)
+✔ building art rejects negative circle radius (0.204828ms)
+✔ building art rejects unknown recipe operation (0.17095ms)
+✔ building art rejects extra recipe entry (0.145651ms)
+✔ building art rejects empty recipe (0.946289ms)
+✔ building art rejects negative path index (0.774582ms)
+✔ building art rejects fractional path index (0.741439ms)
+✔ building art rejects out-of-range path index (0.380698ms)
+✔ building art rejects string path index (0.236262ms)
+✔ building art rejects short rectangle (0.174809ms)
+✔ building art rejects zero rectangle width (0.620884ms)
+✔ building art rejects negative rectangle height (0.379904ms)
+✔ building art rejects nonfinite rectangle coordinate (0.305147ms)
+✔ building art rejects invalid friendly color (0.428356ms)
+✔ building art rejects invalid enemy color (0.318042ms)
+✔ building art rejects color injection suffix (0.319418ms)
+✔ building art rejects polygon outside footprint (0.684164ms)
+✔ building art rejects circle edge outside footprint (0.531826ms)
+✔ building art rejects rectangle far edge outside footprint (0.263579ms)
+✔ building art rejects rectangle near edge outside footprint (0.207042ms)
+✔ building art rejects referenced shape too large for receiving recipe (0.39507ms)
+✔ building art rejects path budget exceeded (1.540825ms)
+✔ building art rejects vertex budget exceeded (0.82943ms)
+✔ building art rejects circle budget exceeded (0.854172ms)
+✔ building art rejects extra geometry array property (0.355078ms)
+✔ building art rejects nondata recipe property (0.243133ms)
+✔ building art rejects mutable radius table (0.335582ms)
+✔ building art rejects mutable geometry table (0.261488ms)
+✔ building art rejects mutable polygon coordinates (0.143381ms)
+✔ building art rejects mutable recipe table (0.095377ms)
+✔ building art rejects mutable recipe operation (0.164781ms)
+✔ building art rejects mutable rectangle coordinates (0.507986ms)
+✔ building art rejects accessors without invoking them (0.349966ms)
+✔ building art rejects cyclic frozen data (0.306641ms)
+✔ building art rejects invalid or changed actual gameplay radii (2.241465ms)
+ℹ tests 56
+ℹ suites 0
+ℹ pass 56
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 265.164337
+Developer preflight: trusted vehicle data validation
+✔ vehicle art exports exactly two deeply frozen data tables matching actual gameplay radii (13.395327ms)
+✔ vehicle art publishes frozen type, fixed-slot and conservative budget contracts (0.281674ms)
+✔ vehicle art fixed slot types match drawUnitPreview geometry and cache references (1.669603ms)
+✔ vehicle art reports measured path and polygon-vertex counts (0.723252ms)
+✔ vehicle art accepts the independent three-vertex-per-path fixture (0.505119ms)
+✔ vehicle art accepts legitimate source geometry edits without an identity pin (1.120607ms)
+✔ vehicle art accepts exactly the conservative 63-vertex budget (2.833947ms)
+✔ vehicle art rejects one vertex over the conservative budget (0.933909ms)
+✔ vehicle art counts repeated and closing vertices toward its budget (2.107745ms)
+✔ vehicle art accepts either winding, concavity and a repeated closing point (1.201572ms)
+✔ vehicle art accepts plain and null-prototype data records without requiring a frozen wrapper (0.754052ms)
+✔ vehicle art accepts shared immutable polygon references without mistaking them for cycles (0.363173ms)
+✔ vehicle art validation is repeatable and does not mutate its data or definition radii (0.833866ms)
+✔ vehicle art accepts all four exact canonical-square edges in scout slot 0 (0.354803ms)
+✔ vehicle art rejects negative x overflow in scout slot 0 (0.556326ms)
+✔ vehicle art rejects positive x overflow in scout slot 0 (0.467402ms)
+✔ vehicle art rejects negative y overflow in scout slot 0 (0.357149ms)
+✔ vehicle art rejects positive y overflow in scout slot 0 (1.511434ms)
+✔ vehicle art accepts all four exact canonical-square edges in scout slot 1 (1.013787ms)
+✔ vehicle art rejects negative x overflow in scout slot 1 (0.274656ms)
+✔ vehicle art rejects positive x overflow in scout slot 1 (0.130612ms)
+✔ vehicle art rejects negative y overflow in scout slot 1 (0.155766ms)
+✔ vehicle art rejects positive y overflow in scout slot 1 (0.1587ms)
+✔ vehicle art accepts all four exact canonical-square edges in tank slot 2 (0.131166ms)
+✔ vehicle art rejects negative x overflow in tank slot 2 (0.138764ms)
+✔ vehicle art rejects positive x overflow in tank slot 2 (0.125001ms)
+✔ vehicle art rejects negative y overflow in tank slot 2 (0.156471ms)
+✔ vehicle art rejects positive y overflow in tank slot 2 (3.497945ms)
+✔ vehicle art accepts all four exact canonical-square edges in tank slot 3 (0.255042ms)
+✔ vehicle art rejects negative x overflow in tank slot 3 (0.150548ms)
+✔ vehicle art rejects positive x overflow in tank slot 3 (0.209264ms)
+✔ vehicle art rejects negative y overflow in tank slot 3 (0.213938ms)
+✔ vehicle art rejects positive y overflow in tank slot 3 (0.490192ms)
+✔ vehicle art accepts all four exact canonical-square edges in tank slot 4 (0.223946ms)
+✔ vehicle art rejects negative x overflow in tank slot 4 (0.299009ms)
+✔ vehicle art rejects positive x overflow in tank slot 4 (0.15574ms)
+✔ vehicle art rejects negative y overflow in tank slot 4 (0.130448ms)
+✔ vehicle art rejects positive y overflow in tank slot 4 (0.114137ms)
+✔ vehicle art accepts all four exact canonical-square edges in artillery slot 5 (1.268807ms)
+✔ vehicle art rejects negative x overflow in artillery slot 5 (0.331353ms)
+✔ vehicle art rejects positive x overflow in artillery slot 5 (0.140741ms)
+✔ vehicle art rejects negative y overflow in artillery slot 5 (0.117739ms)
+✔ vehicle art rejects positive y overflow in artillery slot 5 (0.437927ms)
+✔ vehicle art accepts all four exact canonical-square edges in artillery slot 6 (0.205509ms)
+✔ vehicle art rejects negative x overflow in artillery slot 6 (0.136436ms)
+✔ vehicle art rejects positive x overflow in artillery slot 6 (0.115593ms)
+✔ vehicle art rejects negative y overflow in artillery slot 6 (0.115746ms)
+✔ vehicle art rejects positive y overflow in artillery slot 6 (1.89265ms)
+✔ vehicle art accepts all four exact canonical-square edges in repair slot 7 (0.359477ms)
+✔ vehicle art rejects negative x overflow in repair slot 7 (0.173493ms)
+✔ vehicle art rejects positive x overflow in repair slot 7 (0.307114ms)
+✔ vehicle art rejects negative y overflow in repair slot 7 (0.407872ms)
+✔ vehicle art rejects positive y overflow in repair slot 7 (0.151226ms)
+✔ vehicle art accepts all four exact canonical-square edges in repair slot 8 (0.362806ms)
+✔ vehicle art rejects negative x overflow in repair slot 8 (0.135452ms)
+✔ vehicle art rejects positive x overflow in repair slot 8 (0.102126ms)
+✔ vehicle art rejects negative y overflow in repair slot 8 (0.096956ms)
+✔ vehicle art rejects positive y overflow in repair slot 8 (0.090551ms)
+✔ vehicle art accepts all four exact canonical-square edges in repair slot 9 (0.112186ms)
+✔ vehicle art rejects negative x overflow in repair slot 9 (0.256914ms)
+✔ vehicle art rejects positive x overflow in repair slot 9 (0.189808ms)
+✔ vehicle art rejects negative y overflow in repair slot 9 (0.228194ms)
+✔ vehicle art rejects positive y overflow in repair slot 9 (0.18505ms)
+✔ vehicle art rejects missing canonical type (0.969312ms)
+✔ vehicle art rejects extra canonical type (0.237301ms)
+✔ vehicle art rejects changed unused harvester radius (0.38258ms)
+✔ vehicle art rejects changed canonical radius (0.630589ms)
+✔ vehicle art rejects array as canonical radius record (0.346149ms)
+✔ vehicle art rejects null canonical radius record (0.156948ms)
+✔ vehicle art rejects custom-prototype canonical radius record (0.115385ms)
+✔ vehicle art rejects class-instance canonical radius record (0.176501ms)
+✔ vehicle art rejects symbol canonical radius property (0.298278ms)
+✔ vehicle art rejects non-enumerable extra canonical radius property (0.348259ms)
+✔ vehicle art rejects missing geometry table (0.248441ms)
+✔ vehicle art rejects missing radius table (0.074236ms)
+✔ vehicle art rejects extra named export (0.108915ms)
+✔ vehicle art rejects extra non-enumerable named export (0.082693ms)
+✔ vehicle art rejects extra symbol export (0.188889ms)
+✔ vehicle art rejects module-tag symbol on ordinary record (0.100404ms)
+✔ vehicle art rejects null geometry table (0.179279ms)
+✔ vehicle art rejects record as geometry table (0.49947ms)
+✔ vehicle art rejects empty geometry table (0.11116ms)
+✔ vehicle art rejects nine fixed path slots (0.233739ms)
+✔ vehicle art rejects eleven fixed path slots (0.345122ms)
+✔ vehicle art rejects sparse fixed path slots (1.044695ms)
+✔ vehicle art rejects extra geometry array property (0.333815ms)
+✔ vehicle art rejects extra non-enumerable geometry array property (0.188318ms)
+✔ vehicle art rejects symbol geometry array property (0.189892ms)
+✔ vehicle art rejects custom-prototype geometry array (0.105632ms)
+✔ vehicle art rejects null-prototype geometry array (0.083555ms)
+✔ vehicle art rejects record as polygon coordinates (0.125533ms)
+✔ vehicle art rejects null polygon (0.224938ms)
+✔ vehicle art rejects empty polygon (0.207023ms)
+✔ vehicle art rejects one-vertex polygon (0.124525ms)
+✔ vehicle art rejects two-vertex polygon (0.208365ms)
+✔ vehicle art rejects incomplete third coordinate pair (0.121433ms)
+✔ vehicle art rejects odd polygon coordinate count (0.631933ms)
+✔ vehicle art rejects sparse polygon coordinates (0.245512ms)
+✔ vehicle art rejects extra polygon coordinate property (0.142173ms)
+✔ vehicle art rejects extra non-enumerable polygon property (0.328632ms)
+✔ vehicle art rejects non-index numeric-looking polygon property (0.248545ms)
+✔ vehicle art rejects symbol polygon property (0.590703ms)
+✔ vehicle art rejects custom-prototype polygon array (0.151139ms)
+✔ vehicle art rejects null-prototype polygon array (0.090397ms)
+✔ vehicle art rejects one distinct polygon vertex (0.130452ms)
+✔ vehicle art rejects only two distinct polygon vertices (0.232653ms)
+✔ vehicle art rejects three collinear vertices (0.172315ms)
+✔ vehicle art rejects zero signed-area polygon (0.181325ms)
+✔ vehicle art rejects nested array coordinate (0.123184ms)
+✔ vehicle art rejects nested record coordinate (0.120093ms)
+✔ vehicle art rejects boxed-number coordinate (0.088853ms)
+✔ vehicle art rejects date coordinate (0.183579ms)
+✔ vehicle art rejects regular-expression coordinate (0.092405ms)
+✔ vehicle art rejects cyclic geometry table (0.076541ms)
+✔ vehicle art rejects cyclic polygon (0.109814ms)
+✔ vehicle art rejects cyclic radius record (0.135301ms)
+✔ vehicle art rejects NaN coordinates (2.398698ms)
+✔ vehicle art rejects NaN canonical radii (0.990384ms)
+✔ vehicle art rejects positive infinity coordinates (0.090605ms)
+✔ vehicle art rejects positive infinity canonical radii (0.059434ms)
+✔ vehicle art rejects negative infinity coordinates (0.054055ms)
+✔ vehicle art rejects negative infinity canonical radii (0.059343ms)
+✔ vehicle art rejects numeric string coordinates (0.140587ms)
+✔ vehicle art rejects numeric string canonical radii (0.064603ms)
+✔ vehicle art rejects boolean coordinates (0.053644ms)
+✔ vehicle art rejects boolean canonical radii (0.047678ms)
+✔ vehicle art rejects null coordinates (0.052057ms)
+✔ vehicle art rejects null canonical radii (0.124295ms)
+✔ vehicle art rejects undefined coordinates (0.056086ms)
+✔ vehicle art rejects undefined canonical radii (0.137856ms)
+✔ vehicle art rejects bigint coordinates (0.067169ms)
+✔ vehicle art rejects bigint canonical radii (0.062914ms)
+✔ vehicle art rejects symbol coordinates (0.058789ms)
+✔ vehicle art rejects symbol canonical radii (0.04942ms)
+✔ vehicle art rejects function coordinates (0.497071ms)
+✔ vehicle art rejects function canonical radii (0.080702ms)
+✔ vehicle art rejects mutable canonical radius table (0.191953ms)
+✔ vehicle art rejects mutable geometry table (0.295508ms)
+✔ vehicle art rejects mutable first polygon (0.285227ms)
+✔ vehicle art rejects mutable last polygon (0.148511ms)
+✔ vehicle art rejects sealed but unfrozen polygon (0.082534ms)
+✔ vehicle art rejects a top-level table getter without invoking it (0.196736ms)
+✔ vehicle art rejects a canonical radius getter without invoking it (0.081961ms)
+✔ vehicle art rejects a geometry slot getter without invoking it (0.316501ms)
+✔ vehicle art rejects a polygon coordinate getter without invoking it (0.360524ms)
+✔ vehicle art rejects setter-only properties without invoking them (0.321982ms)
+✔ vehicle art rejects undefined as the data wrapper (0.078193ms)
+✔ vehicle art rejects null as the data wrapper (0.044517ms)
+✔ vehicle art rejects number as the data wrapper (0.046592ms)
+✔ vehicle art rejects string as the data wrapper (0.036795ms)
+✔ vehicle art rejects function as the data wrapper (0.054607ms)
+✔ vehicle art rejects array as the data wrapper (0.138359ms)
+✔ vehicle art rejects class instance as the data wrapper (0.042945ms)
+✔ vehicle art rejects custom-prototype record as the data wrapper (0.036918ms)
+✔ vehicle art rejects undefined in actual gameplay definition radii (0.560091ms)
+✔ vehicle art rejects null in actual gameplay definition radii (0.084611ms)
+✔ vehicle art rejects array in actual gameplay definition radii (0.075862ms)
+✔ vehicle art rejects number in actual gameplay definition radii (0.059922ms)
+✔ vehicle art rejects string in actual gameplay definition radii (0.06957ms)
+✔ vehicle art rejects missing type in actual gameplay definition radii (0.24643ms)
+✔ vehicle art rejects extra type in actual gameplay definition radii (0.124881ms)
+✔ vehicle art rejects inherited type in actual gameplay definition radii (0.173499ms)
+✔ vehicle art rejects class instance in actual gameplay definition radii (0.117721ms)
+✔ vehicle art rejects custom-prototype record in actual gameplay definition radii (0.390924ms)
+✔ vehicle art rejects symbol property in actual gameplay definition radii (0.155885ms)
+✔ vehicle art rejects changed gameplay radius in actual gameplay definition radii (0.18364ms)
+✔ vehicle art rejects changed unused harvester radius in actual gameplay definition radii (0.129571ms)
+✔ vehicle art rejects NaN in actual gameplay definition radii (0.197683ms)
+✔ vehicle art rejects positive infinity in actual gameplay definition radii (0.433773ms)
+✔ vehicle art rejects negative infinity in actual gameplay definition radii (0.627516ms)
+✔ vehicle art rejects zero in actual gameplay definition radii (0.121349ms)
+✔ vehicle art rejects negative radius in actual gameplay definition radii (0.152724ms)
+✔ vehicle art rejects numeric string in actual gameplay definition radii (0.074538ms)
+✔ vehicle art rejects boolean in actual gameplay definition radii (0.062118ms)
+✔ vehicle art rejects null radius in actual gameplay definition radii (0.058205ms)
+✔ vehicle art rejects undefined radius in actual gameplay definition radii (0.105424ms)
+✔ vehicle art rejects boxed radius in actual gameplay definition radii (0.15165ms)
+✔ vehicle art rejects bigint radius in actual gameplay definition radii (0.072545ms)
+✔ vehicle art rejects definition-radius accessors without invoking them (0.331464ms)
+✔ vehicle art rejects finite coordinates whose signed-area arithmetic overflows (0.42636ms)
+ℹ tests 180
+ℹ suites 0
+ℹ pass 180
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 375.106714
+Developer preflight: unchanged canonical game verification
+Package declares v0.316; source SHA-256 6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61; runner verification/run-tests-v316.cjs; 4789 listed files verified.
+Running the exact verified runner in a private temporary copy; the original package is read-only.
+{
+  "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+  "current": [
+    {
+      "script": "repair-button-repeat.cjs",
+      "passed": 57,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": true
+    },
+    {
+      "script": "attack-pressed.cjs",
+      "passed": 42,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": true
+    },
+    {
+      "script": "same-repeat-factories.cjs",
+      "passed": 57,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "control-group-add.cjs",
+      "passed": 41,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "attack-tail-help.cjs",
+      "passed": 8,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "delivery-refinery-selection.cjs",
+      "passed": 72,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "retired-input-references.cjs",
+      "passed": 66,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "queue-remainder.cjs",
+      "passed": 103,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "queued-point.cjs",
+      "passed": 101,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "production-gesture-natural.cjs",
+      "passed": 19,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "production-mode-natural.cjs",
+      "passed": 32,
+      "historicalIdentityRejections": 0,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "attack-tail.cjs",
+      "passed": 27,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "route-cancel.cjs",
+      "passed": 14,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "escort-target.cjs",
+      "passed": 25,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "factory-spawn-check.cjs",
+      "passed": 25,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "ground-destination.cjs",
+      "passed": 34,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "mining-arrangement.cjs",
+      "passed": 19,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "ground-orders.cjs",
+      "passed": 26,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "post-capture.cjs",
+      "passed": 24,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "production-waiting.cjs",
+      "passed": 23,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "weakest-selection.cjs",
+      "passed": 37,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "selection-health.cjs",
+      "passed": 32,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "all-damaged.cjs",
+      "passed": 24,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "pause-ui.cjs",
+      "passed": 27,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    },
+    {
+      "script": "repair-paused.cjs",
+      "passed": 34,
+      "historicalIdentityRejections": 1,
+      "adaptedDomComparator": false
+    }
+  ],
+  "historicalIdentity": [
+    {
+      "script": "attack-tail-help.cjs",
+      "name": "exact current script and historical v268/v267 executable identity",
+      "passed": true,
+      "currentRejection": {
+        "failure": {
+          "stage": "source",
+          "invariant": "current_executable_script_exact",
+          "code": "ERR_ASSERTION"
+        },
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "attack-tail.cjs",
+      "name": "exact v262 restore rejects unrelated gameplay edits",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v263 attack-tail boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "route-cancel.cjs",
+      "name": "exact published v261 restoration rejects unrelated gameplay edits",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v262 route-cancel boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "escort-target.cjs",
+      "name": "restoration rejects unrelated mutation",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v261 escort-target boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "factory-spawn-check.cjs",
+      "name": "exact v259 restore rejects unauthorized gameplay mutation",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v260 spawn-check boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "ground-destination.cjs",
+      "name": "restores byte-exact v258 and detects unrelated gameplay change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v259 destination boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "mining-arrangement.cjs",
+      "name": "exact source restoration preserves every gameplay function",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v258 mining-arrangement boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "ground-orders.cjs",
+      "name": "strict restore preserves all unrelated execution source",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "exact v257 ground-order boundary",
+        "errorFormat": "assertion-message-only"
+      }
+    },
+    {
+      "script": "post-capture.cjs",
+      "name": "strict restoration proves original simulation source unchanged",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "exact v256 capture-notice boundary",
+        "errorFormat": "assertion-message-only"
+      }
+    },
+    {
+      "script": "production-waiting.cjs",
+      "name": "strict v254 restoration rejects unrelated source change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "exact v255 waiting explanation boundary",
+        "errorFormat": "assertion-message-only"
+      }
+    },
+    {
+      "script": "weakest-selection.cjs",
+      "name": "strict restore returns frozen v253 and rejects unrelated changes",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v254 weakest-selection boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "selection-health.cjs",
+      "name": "strict restore returns frozen v252 and rejects unrelated change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v253 selection-health boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "all-damaged.cjs",
+      "name": "strict restore returns frozen v251 and rejects unrelated source mutation",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v252 all-damaged boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "pause-ui.cjs",
+      "name": "strict source restoration rejects unrelated game change",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v251 pause-ui boundary",
+        "errorFormat": "assertion-stack"
+      }
+    },
+    {
+      "script": "repair-paused.cjs",
+      "name": "strict source boundary restores exact v249; unauthorized repair mutation rejected",
+      "passed": true,
+      "currentRejection": {
+        "failure": null,
+        "errorFirstLine": "AssertionError [ERR_ASSERTION]: exact v251 pause-ui boundary",
+        "errorFormat": "assertion-stack"
+      }
+    }
+  ],
+  "focused": [
+    {
+      "script": "map-pointer-geometry.cjs",
+      "passed": 39,
+      "assertions": 264
+    },
+    {
+      "script": "map-pointer-geometry-negative-control.cjs",
+      "passed": 6,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-command.cjs",
+      "passed": 85,
+      "assertions": 328
+    },
+    {
+      "script": "coordinate-command-negative-control.cjs",
+      "passed": 7,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-command-natural-v316.cjs",
+      "passed": 4,
+      "assertions": null
+    },
+    {
+      "script": "selection-removal.cjs",
+      "passed": 56,
+      "assertions": 212
+    },
+    {
+      "script": "selection-removal-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "selection-removal-natural.cjs",
+      "passed": 4,
+      "assertions": 1712
+    },
+    {
+      "script": "inherit-dom-v277-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "post-selection.cjs",
+      "passed": 73,
+      "assertions": 251
+    },
+    {
+      "script": "post-selection-negative-control.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "post-selection-natural.cjs",
+      "passed": 1,
+      "assertions": 262
+    },
+    {
+      "script": "coordinate-construction.cjs",
+      "passed": 80,
+      "assertions": 360
+    },
+    {
+      "script": "coordinate-construction-negative-control.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-construction-natural.cjs",
+      "passed": 1,
+      "assertions": 714
+    },
+    {
+      "script": "coordinate-append.cjs",
+      "passed": 65,
+      "assertions": 104
+    },
+    {
+      "script": "coordinate-append-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-append-natural.cjs",
+      "passed": 2,
+      "assertions": 410
+    },
+    {
+      "script": "selection-only.cjs",
+      "passed": 62,
+      "assertions": 186
+    },
+    {
+      "script": "selection-only-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "selection-only-natural.cjs",
+      "passed": 1,
+      "assertions": 310
+    },
+    {
+      "script": "coordinate-attack.cjs",
+      "passed": 76,
+      "assertions": 115
+    },
+    {
+      "script": "coordinate-attack-negative-control.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "coordinate-attack-natural.cjs",
+      "passed": 1,
+      "assertions": 488
+    },
+    {
+      "script": "patrol-action-v316.cjs",
+      "passed": 35,
+      "assertions": 725
+    },
+    {
+      "script": "patrol-action-negative-control-v316.cjs",
+      "passed": 9,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v281-negative-control.cjs",
+      "passed": 16,
+      "assertions": 16
+    },
+    {
+      "script": "global-repeat-scope-v316.cjs",
+      "passed": 5,
+      "assertions": 244
+    },
+    {
+      "script": "global-repeat-scope-negative-control-v316.cjs",
+      "passed": 9,
+      "assertions": null,
+      "behaviorNegativeControls": 8,
+      "sourceIdentityProbes": 1
+    },
+    {
+      "script": "inherit-dom-v282-negative-control.cjs",
+      "passed": 16,
+      "assertions": 16
+    },
+    {
+      "script": "all-factories.cjs",
+      "passed": 24,
+      "assertions": 293
+    },
+    {
+      "script": "all-factories-negative-control.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v283-negative-control.cjs",
+      "passed": 42,
+      "assertions": 71
+    },
+    {
+      "script": "order-waiting-reuse-v316.cjs",
+      "passed": 8,
+      "assertions": 235
+    },
+    {
+      "script": "order-waiting-reuse-negative-control-v316.cjs",
+      "passed": 9,
+      "assertions": null
+    },
+    {
+      "script": "bounded-ui-writes-v316.cjs",
+      "passed": 7,
+      "assertions": 232
+    },
+    {
+      "script": "bounded-ui-writes-negative-control-v316.cjs",
+      "passed": 10,
+      "assertions": null
+    },
+    {
+      "script": "power-read-reuse-v316.cjs",
+      "passed": 5,
+      "assertions": 803
+    },
+    {
+      "script": "power-read-reuse-negative-control-v316.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v289-negative-control.cjs",
+      "passed": 84,
+      "assertions": 152
+    },
+    {
+      "script": "opening-practice-v316.cjs",
+      "passed": 5,
+      "assertions": 2159
+    },
+    {
+      "script": "opening-practice-negative-control-v316.cjs",
+      "passed": 16,
+      "assertions": null
+    },
+    {
+      "script": "control-group-protection-v315.cjs",
+      "passed": 94,
+      "assertions": 385
+    },
+    {
+      "script": "control-group-protection-negative-control-v316.cjs",
+      "passed": 11,
+      "assertions": null
+    },
+    {
+      "script": "command-allocation-feedback-v316.cjs",
+      "passed": 104,
+      "assertions": 1114
+    },
+    {
+      "script": "command-allocation-feedback-negative-control-v316.cjs",
+      "passed": 8,
+      "assertions": null
+    },
+    {
+      "script": "control-group-repeat-v315.cjs",
+      "passed": 40,
+      "assertions": 257
+    },
+    {
+      "script": "control-group-repeat-negative-control-v316.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v293-negative-control.cjs",
+      "passed": 109,
+      "assertions": 112
+    },
+    {
+      "script": "quick-switchback-v316.cjs",
+      "passed": 19,
+      "assertions": 530
+    },
+    {
+      "script": "quick-switchback-negative-control-v316.cjs",
+      "passed": 25,
+      "assertions": null
+    },
+    {
+      "script": "quick-switchback-route-v315.cjs",
+      "passed": 3,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v312-negative-control.cjs",
+      "passed": 252,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v313-negative-control.cjs",
+      "passed": 196,
+      "assertions": null
+    },
+    {
+      "script": "visual-preference-v315.cjs",
+      "passed": 10,
+      "assertions": 132
+    },
+    {
+      "script": "visual-preference-negative-control-v315.cjs",
+      "passed": 15,
+      "assertions": 46
+    },
+    {
+      "script": "render-preview-v316.cjs",
+      "passed": 79,
+      "assertions": 7284
+    },
+    {
+      "script": "render-preview-negative-control-v316.cjs",
+      "passed": 27,
+      "assertions": 239
+    },
+    {
+      "script": "ore-layout-v316.cjs",
+      "passed": 5528,
+      "assertions": null
+    },
+    {
+      "script": "ore-layout-negative-control-v316.cjs",
+      "passed": 19,
+      "assertions": null
+    },
+    {
+      "script": "building-preview-v316.cjs",
+      "passed": 450,
+      "assertions": 5607
+    },
+    {
+      "script": "progress-rails-v316.cjs",
+      "passed": 202,
+      "assertions": null
+    },
+    {
+      "script": "progress-rails-negative-control-v316.cjs",
+      "passed": 9,
+      "assertions": null
+    },
+    {
+      "script": "health-edge-v316.cjs",
+      "passed": 2952,
+      "assertions": null
+    },
+    {
+      "script": "health-edge-negative-control-v316.cjs",
+      "passed": 50,
+      "assertions": null
+    },
+    {
+      "script": "hold-guidance-v316.cjs",
+      "passed": 16,
+      "assertions": null
+    },
+    {
+      "script": "global-repeat-mode-scope-v316.cjs",
+      "passed": 31,
+      "assertions": 979
+    },
+    {
+      "script": "beginner-guide-v316.cjs",
+      "passed": 41,
+      "assertions": 560
+    },
+    {
+      "script": "building-team-cue-v316.cjs",
+      "passed": 1,
+      "assertions": 10617
+    },
+    {
+      "script": "source-delta-v316-negative-control.cjs",
+      "passed": 13,
+      "assertions": null
+    },
+    {
+      "script": "presentation-v316.cjs",
+      "passed": 27,
+      "assertions": null
+    },
+    {
+      "script": "presentation-negative-control-v316.cjs",
+      "passed": 22,
+      "assertions": null
+    },
+    {
+      "script": "inherit-dom-v316-negative-control.cjs",
+      "passed": 313,
+      "assertions": null
+    },
+    {
+      "script": "repair-repeat-inheritance-v316.cjs",
+      "passed": 12,
+      "assertions": null
+    },
+    {
+      "script": "command-enter-repeat-v315.cjs",
+      "passed": 51,
+      "assertions": null
+    },
+    {
+      "script": "command-enter-repeat-negative-v315.cjs",
+      "passed": 6,
+      "assertions": null
+    },
+    {
+      "script": "refinery-miner-selection-v315.cjs",
+      "passed": 22,
+      "assertions": null
+    },
+    {
+      "script": "refinery-miner-selection-natural-v315.cjs",
+      "passed": 1,
+      "assertions": null
+    },
+    {
+      "script": "escape-key-repeat-v315.cjs",
+      "passed": 47,
+      "assertions": null
+    },
+    {
+      "script": "escape-key-repeat-negative-v315.cjs",
+      "passed": 4,
+      "assertions": null
+    },
+    {
+      "script": "depleted-ore-v316.cjs",
+      "passed": 69,
+      "assertions": null
+    },
+    {
+      "script": "depleted-ore-negative-v316.cjs",
+      "passed": 23,
+      "assertions": null
+    },
+    {
+      "script": "building-reference-v316.cjs",
+      "passed": 21,
+      "assertions": null
+    },
+    {
+      "script": "building-reference-negative-v316.cjs",
+      "passed": 13,
+      "assertions": null
+    },
+    {
+      "script": "vehicle-reference-v315.cjs",
+      "passed": 19,
+      "assertions": null
+    },
+    {
+      "script": "vehicle-reference-negative-v315.cjs",
+      "passed": 6,
+      "assertions": null
+    },
+    {
+      "script": "factory-requirement-v315.cjs",
+      "passed": 164,
+      "assertions": null
+    },
+    {
+      "script": "factory-requirement-negative-v315.cjs",
+      "passed": 4,
+      "assertions": null
+    },
+    {
+      "script": "purchase-funding-v315.cjs",
+      "passed": 192,
+      "assertions": null
+    },
+    {
+      "script": "purchase-funding-negative-v315.cjs",
+      "passed": 4,
+      "assertions": null
+    },
+    {
+      "script": "construction-reasons-v315.cjs",
+      "passed": 47,
+      "assertions": null
+    },
+    {
+      "script": "construction-reasons-negative-v315.cjs",
+      "passed": 4,
+      "assertions": null
+    },
+    {
+      "script": "factory-space-v315.cjs",
+      "passed": 62,
+      "assertions": null
+    },
+    {
+      "script": "factory-space-negative-v315.cjs",
+      "passed": 4,
+      "assertions": null
+    },
+    {
+      "script": "selection-key-repeat-v315.cjs",
+      "passed": 93,
+      "assertions": null
+    },
+    {
+      "script": "selection-key-repeat-negative-v315.cjs",
+      "passed": 5,
+      "assertions": null
+    },
+    {
+      "script": "ore-density-v316.cjs",
+      "passed": 135,
+      "assertions": null
+    },
+    {
+      "script": "low-ore-label-v316.cjs",
+      "passed": 52,
+      "assertions": 10457
+    },
+    {
+      "script": "production-card-reasons-v316.cjs",
+      "passed": 78,
+      "assertions": null
+    },
+    {
+      "script": "production-card-reasons-negative-v316.cjs",
+      "passed": 2,
+      "assertions": null
+    },
+    {
+      "script": "parameterized-pilot/order-display-writes.cjs",
+      "passed": 8,
+      "assertions": 229
+    },
+    {
+      "script": "parameterized-pilot/selection-filter-writes.cjs",
+      "passed": 7,
+      "assertions": 110
+    },
+    {
+      "script": "parameterized-pilot/mutations.json#order-display-writes",
+      "passed": 10,
+      "assertions": null,
+      "classification": "DETECTED_BEHAVIOR"
+    },
+    {
+      "script": "parameterized-pilot/mutations.json#selection-filter-writes",
+      "passed": 8,
+      "assertions": null,
+      "classification": "DETECTED_BEHAVIOR"
+    }
+  ],
+  "adaptedInheritance": [
+    {
+      "script": "repair-button-repeat.cjs",
+      "originalSha256": "d986a5331fab751b0a5e2f70d9a49dd5b7d753149558e9f9f39055a7f3adfbce",
+      "adaptedSha256": "a8cd84c3f8b0c4ab081acebce86a6875904d46432709138ba02d1b17cf1e9305",
+      "scope": "Temporary dom(g)-only exclusion of exact coordinateCommandPanel, selectionRemovePanel, postSelectionPanel and coordinateConstructionPanel nodes/descendants plus marked detached new OPTION nodes and new patrolActionHint subtree; only patrol textContent/title/aria-describedby excluded, disabled and all other fields retained; v282 omits globalRepeatScopeHint and repeatProduction aria-label/title/aria-describedby only; v283 omits only the added selectAllFactories button subtree; v289 adds only openingPractice and descendants, separately tested directly and by projection boundaries; indexes rebuilt. v298 excludes the two hold-hint roots and exact reviewed hold attributes; v303 additionally excludes only repeatParallelScopeHint and reverses exact reviewed aria-label/title/aria-describedby values on repeatParallel. Unknown values remain visible. Existing fields, world/input state, exceptions and failures unchanged.",
+      "currentPassed": 57,
+      "exactV272OriginalPassed": 57,
+      "exactV272AdaptedPassed": 57
+    },
+    {
+      "script": "attack-pressed.cjs",
+      "originalSha256": "861f2eb41e65fc9b8f96af4182bd1cf60e4ccf651fa8fad1a918e4746b1b5957",
+      "adaptedSha256": "d3fcf91626e06bfbf65488301459c01f1c81408e5c1552f60fb4fbe5ae5a0bc8",
+      "scope": "Temporary dom(g)-only exclusion of exact coordinateCommandPanel, selectionRemovePanel, postSelectionPanel and coordinateConstructionPanel nodes/descendants plus marked detached new OPTION nodes and new patrolActionHint subtree; only patrol textContent/title/aria-describedby excluded, disabled and all other fields retained; v282 omits globalRepeatScopeHint and repeatProduction aria-label/title/aria-describedby only; v283 omits only the added selectAllFactories button subtree; v289 adds only openingPractice and descendants, separately tested directly and by projection boundaries; indexes rebuilt. v298 excludes the two hold-hint roots and exact reviewed hold attributes; v303 additionally excludes only repeatParallelScopeHint and reverses exact reviewed aria-label/title/aria-describedby values on repeatParallel. Unknown values remain visible. Existing fields, world/input state, exceptions and failures unchanged.",
+      "currentPassed": 42,
+      "exactV272OriginalPassed": 42,
+      "exactV272AdaptedPassed": 42
+    }
+  ],
+  "inheritedSourceChecks": 10,
+  "inheritedBehaviorAndMarkup": 959,
+  "legacyFullSuite": null,
+  "version": "316",
+  "scope": "v316 adds only five visible production-reason leaf nodes, one read-only refresh assignment and scoped CSS. Exact eight-part inverse retains frozen v315. Current DOM adapters exclude only these five validated nodes, preserving all prior fields and repair repeat behavior; independent physical-removal and malformed-node boundaries cover all four comparators. v315 changes presentation only; exact expected-side render adaptation retains complete candidate paint, event, world, input and storage evidence. v314 suppresses only non-IME repeated Enter default activation on attack/build buttons. No new DOM projection. A strictly hash-locked current-only repair-suite case follows the intended attack Enter repeat contract while retaining full world/input/DOM/storage parity against equivalent intended activations; exact historical v272 still executes the original case. v313 adds a stable refinery-nearest-miner selection button, shared count/cohort logic, and exact new button subtree projection. Existing gameplay commands and economic rules remain unchanged. v312 suppresses repeated Escape keydown in the existing global repeat guard only; first Escape, other keys, native focused controls and gameplay rules remain unchanged. No new DOM projection. v311 adds low-contrast ground remnants only for depleted ore. Positive ore commands and all world rules remain unchanged; explicit ground-paint expected-side compatibility preserves prior assertions. No new DOM projection. v310 adds five building identification thumbnails at common scale, with decorative markup and read-only existing-toggle sync. Existing vehicle gallery and battlefield draw functions unchanged. Exact buildingReferenceGallery subtree is the sole new DOM projection. v309 adds a static five-vehicle recognition gallery to the existing folded reference. Exact captured original/preview SVG art, scoped CSS and read-only mode synchronization; exact uniquely attached vehicleReferenceGallery subtree is the sole new DOM projection; all old text and gameplay retained. Strict inverse preserves v308 and earlier history. v308 distinguishes no living factory from unfinished factory and paused construction in new-purchase refusal feedback; guard predicates and queue/economy unchanged. Exact v307 inverse and historical files retained. v307 changes only insufficient-funds purchase receipt plus version. Exact buy predicates, queue, cash and input rules retained; strict v306 inverse preserves all history. v306 adds read-only inline construction-card reasons. Exact disabled predicate, prices and time retained. Strict v305 inverse and frozen verification retained. v305 preserves only a valid unreleased same-battle enabled Space-key token for all-factories selection during repeats; other token cancellation, Escape and visibility semantics stay unchanged. Strict v304 inverse and frozen verification are retained. v304 adds only F/I/M to the existing repeated-key suppression list and display version. Current suites execute the actual v316 source; exact reviewed inverse preserves all v303 and older identity checks. Original suites retain their assertions and no new DOM projection is added. v303 changes only sub-1000 ore map labels to upward-rounded integers and display version. Expected-side historical layout replay uses independently specified new strings and measurement metrics, preserving all layout/clamp/fallback logic; candidate paint streams are untouched. v302 changes only ore decorative block count to 1/4/8 at 1500/4500 thresholds and display version. Exact ore-tail projection validates unchanged base, retained sequence, styles, labels and all other commands; no new DOM exclusion. v301 adds four canonical preview-building team cues and exact in-preview explanatory text; default-off branch and world logic unchanged. Current paint expectations project only strictly validated exact marker groups and preserve all other paints/path/method/world behavior; no new DOM exclusion. v300 adds only the default-closed read-only beginnerSurvivalGuide subtree plus version, with exact whole JS/CSS equality to v299. New root-only inherited projection preserves all existing controls and fields. v299 clarifies global repeat-mode scope using exact template additions and two receipt strings; scheduling and shared thresholds unchanged. v298 adds only exact hold guidance template text and attributes; inline gameplay script stays byte-identical to v297. New projections normalize only exact known added attributes and two hint roots, with independent retained-field boundary controls. v297 clamps only negative shared health-bar y to zero; existing nonnegative positions and gameplay unchanged. Natural pointer-command tanks prove partial 3.8-to-4-pixel visibility; fully hidden thresholds are synthetic. v296 moves shared factory/construction rails fully within unchanged clipping rectangles; only four y offsets and version change. New current renderer comparisons normalize exact expected historical rail offsets, with focused full-intersection/state coverage and semantic mutants. v295 extends the default-off preview to buildings; three authoritative source edits and version-only bump, no gameplay change, no new DOM projection exclusions. v294 adds a default-off session-only vehicle-art preview and per-call lazy ore-label box reuse. Legacy drawUnit stays exact, experimental cached/fallback full-frame paint and default baseline parity are separate from performance claims. A single displayPreview subtree is additionally projected with retained-field boundary tests. v293 adds only one quick-mission preset and tactical brief; exact new button/brief subtree exclusions and exact seven-item text normalization are boundary-tested. v292 ignores repeated group digit keys while preserving first keys and visible clicks; its inherited group-protection test changes only the repeat-save expectation and adds a fresh-key assertion. Frozen v291 files and exact restoration retained. Persistent receipt adds existing allocation-failure counts only; exact v290 restoration and frozen v290 verification preserved. Intentional empty-group protection and live-only saved membership, with frozen v289 files and exact v289 restoration. Current-source VM behavior/markup and source checks are counted separately from exact restored-v272 identities. Two named inherited DOM comparators use hash-locked temporary adapters that omit only coordinateCommandPanel, selectionRemovePanel, postSelectionPanel and coordinateConstructionPanel subtrees plus marked detached OPTION nodes; v281 additionally excludes only patrolActionHint and patrol text/title/aria-describedby, all separately tested; v282 additionally excludes only globalRepeatScopeHint and repeatProduction aria-label/title/aria-describedby, also separately tested; v283 additionally excludes only the new selectAllFactories button subtree, with direct removal and retained-control boundary checks. v284 changes only equal-value order-display string writes; v285 adds a per-updateOrders lazy shared waiting-reason supplier. v286 suppresses equal-value writes for the existing selection-filter button text/title strings. v287 suppresses equal-value writes for the existing battle-report cells, ten action labels and unit/build card titles. v288 reuses one local completed-building list within each power call. v284-v288 add no DOM exclusions. v289 additionally excludes only openingPractice and descendants, with exact prior-projection reversal, physical removal equivalence and retained-field boundaries; a separate opening-practice suite directly covers its content and behavior. All projections rebuild indexes. All 25 programs execute against this actual v316 source; packaged old tests and VM remain byte-identical. Fifteen old source gates intentionally reject v316; only the frozen case name, failure shape and error first line are allowed. No browser or save/load/import/export execution.",
+  "parameterizedMigration": {
+    "runner": "run-pilot-release-v316.cjs",
+    "report": "parameterized-pilot/results-v316.json",
+    "normal": [
+      {
+        "suiteId": "order-display-writes",
+        "passed": 8,
+        "assertions": 229
+      },
+      {
+        "suiteId": "selection-filter-writes",
+        "passed": 7,
+        "assertions": 110
+      }
+    ],
+    "negative": 18,
+    "historicalHostSha256": "01339791a4c2d2773d5f4b7cd8eb215552b00eab147feb9f43fc5fc657ab685f",
+    "replaces": [
+      "order-display-writes-v287.cjs",
+      "order-display-writes-negative-control-v287.cjs",
+      "selection-filter-writes-v287.cjs",
+      "selection-filter-writes-negative-control-v287.cjs"
+    ],
+    "scope": "Two stable selected-source suites and all 18 exact behavior mutations. The original v287 positive scripts execute only against the separate exact v287 host for semantic-result comparison. Historical identity and comparison are not current-v316 behavior counts."
+  }
+}
+Developer checks and unchanged canonical game verification passed.

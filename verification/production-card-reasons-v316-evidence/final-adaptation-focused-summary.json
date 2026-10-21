@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "file": "projection-review-v316.json",
+      "passed": 313,
+      "failed": 0
+    },
+    {
+      "file": "presentation-review-v316.json",
+      "passed": 27,
+      "failed": 0
+    },
+    {
+      "file": "presentation-negative-review-v316.json",
+      "passed": 22,
+      "failed": 0
+    },
+    {
+      "file": "source-inverse-review-v316.json",
+      "passed": 13,
+      "failed": 0
+    },
+    {
+      "file": "allocation-hoisted-review-v316.json",
+      "passed": 104,
+      "failed": 0
+    },
+    {
+      "file": "beginner-review-v316.json",
+      "passed": 41,
+      "failed": 0
+    },
+    {
+      "file": "repair-repeat-review-v316.json",
+      "passed": 12,
+      "failed": 0
+    }
+  ],
+  "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61"
+}

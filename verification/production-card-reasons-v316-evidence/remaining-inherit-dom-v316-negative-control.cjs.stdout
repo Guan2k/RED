@@ -1,0 +1,1260 @@
+{
+  "passed": 313,
+  "failed": 0,
+  "results": [
+    {
+      "name": "repair-button-repeat.cjs exact physical five-leaf removal equivalence",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs valid leaf reason text alone excluded tank",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank wrong id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank detached",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank wrong card",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank duplicate id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank old card disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank old card attributes",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains tank old cost time label",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs valid leaf reason text alone excluded scout",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout wrong id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout detached",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout wrong card",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout duplicate id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout old card disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout old card attributes",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains scout old cost time label",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs valid leaf reason text alone excluded artillery",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery wrong id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery detached",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery wrong card",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery duplicate id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery old card disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery old card attributes",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains artillery old cost time label",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs valid leaf reason text alone excluded repair",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair wrong id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair detached",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair wrong card",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair duplicate id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair old card disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair old card attributes",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains repair old cost time label",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs valid leaf reason text alone excluded harvester",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester wrong id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester detached",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester wrong card",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester duplicate id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester old card disabled",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester old card attributes",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs retains harvester old cost time label",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs old cash remains visible",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs exact physical five-leaf removal equivalence",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs valid leaf reason text alone excluded tank",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank wrong id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank detached",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank wrong card",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank duplicate id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank old card disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank old card attributes",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains tank old cost time label",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs valid leaf reason text alone excluded scout",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout wrong id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout detached",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout wrong card",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout duplicate id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout old card disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout old card attributes",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains scout old cost time label",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs valid leaf reason text alone excluded artillery",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery wrong id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery detached",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery wrong card",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery duplicate id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery old card disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery old card attributes",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains artillery old cost time label",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs valid leaf reason text alone excluded repair",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair wrong id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair detached",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair wrong card",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair duplicate id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair old card disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair old card attributes",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains repair old cost time label",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs valid leaf reason text alone excluded harvester",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester wrong id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester detached",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester wrong card",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester duplicate id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester old card disabled",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester old card attributes",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs retains harvester old cost time label",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs old cash remains visible",
+      "passed": true
+    },
+    {
+      "name": "command-allocation exact physical five-leaf removal equivalence",
+      "passed": true
+    },
+    {
+      "name": "command-allocation valid leaf reason text alone excluded tank",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank wrong id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank detached",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank wrong card",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank duplicate id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank old card disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank old card attributes",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains tank old cost time label",
+      "passed": true
+    },
+    {
+      "name": "command-allocation valid leaf reason text alone excluded scout",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout wrong id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout detached",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout wrong card",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout duplicate id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout old card disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout old card attributes",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains scout old cost time label",
+      "passed": true
+    },
+    {
+      "name": "command-allocation valid leaf reason text alone excluded artillery",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery wrong id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery detached",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery wrong card",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery duplicate id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery old card disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery old card attributes",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains artillery old cost time label",
+      "passed": true
+    },
+    {
+      "name": "command-allocation valid leaf reason text alone excluded repair",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair wrong id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair detached",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair wrong card",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair duplicate id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair old card disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair old card attributes",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains repair old cost time label",
+      "passed": true
+    },
+    {
+      "name": "command-allocation valid leaf reason text alone excluded harvester",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester wrong id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester detached",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester wrong card",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester duplicate id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester old card disabled",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester old card attributes",
+      "passed": true
+    },
+    {
+      "name": "command-allocation retains harvester old cost time label",
+      "passed": true
+    },
+    {
+      "name": "command-allocation old cash remains visible",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide exact physical five-leaf removal equivalence",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide valid leaf reason text alone excluded tank",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank wrong id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank detached",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank wrong card",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank duplicate id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank old card disabled",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank old card attributes",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains tank old cost time label",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide valid leaf reason text alone excluded scout",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout wrong id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout detached",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout wrong card",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout duplicate id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout old card disabled",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout old card attributes",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains scout old cost time label",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide valid leaf reason text alone excluded artillery",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery wrong id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery detached",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery wrong card",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery duplicate id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery old card disabled",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery old card attributes",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains artillery old cost time label",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide valid leaf reason text alone excluded repair",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair wrong id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair detached",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair wrong card",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair duplicate id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair old card disabled",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair old card attributes",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains repair old cost time label",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide valid leaf reason text alone excluded harvester",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester wrong id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester detached",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester wrong card",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester duplicate id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester detached duplicate id",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester inconsistent attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester duplicate attachment",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester unexpected child not swallowed",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester card wrong tag",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester card duplicate unit",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester old card disabled",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester old card attributes",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide retains harvester old cost time label",
+      "passed": true
+    },
+    {
+      "name": "beginner-guide old cash remains visible",
+      "passed": true
+    },
+    {
+      "name": "unprojected beginner remains exact previous",
+      "passed": true
+    },
+    {
+      "name": "repair-button-repeat.cjs frozen identity and exact inherited behavior preserved",
+      "passed": true
+    },
+    {
+      "name": "attack-pressed.cjs frozen identity and exact inherited behavior preserved",
+      "passed": true
+    },
+    {
+      "name": "unknown comparator rejected",
+      "passed": true
+    },
+    {
+      "name": "runtime bytes unchanged",
+      "passed": true
+    }
+  ],
+  "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+  "scope": "Four actual current DOM comparators. Physical removal equivalence against prior comparators; five uniquely attached leaf reasons only. Malformed/duplicate/detached roots and old purchase/cost/control fields remain observable. No browser claim."
+}

@@ -262,3 +262,7 @@ footer { color: #91a78f; font-size: 11px; line-height: 1.8; padding-bottom: 20px
   aside details > summary { padding-block: 7px; }
 }
 @media (prefers-reduced-motion: reduce) { button { transition: none; } }
+
+/* Production availability: visible without hover; preserve cost/time layout. */
+.cards button > span[id^="productionReason"] { display: block; float: none; color: #c6b28a; font-size: 11px; line-height: 1.6; font-weight: 400; white-space: normal; overflow-wrap: anywhere; }
+.cards button > span[id^="productionReason"]:not(:empty) { margin-top: 5px; }

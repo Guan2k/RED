@@ -1,0 +1,30 @@
+{
+  "passed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "name": "original cancels Space",
+      "passed": true,
+      "detectedBy": "held Space releases one selection",
+      "failedCases": 6
+    },
+    {
+      "name": "preserve all repeat tokens",
+      "passed": true,
+      "detectedBy": "repeat does not preserve pointer token",
+      "failedCases": 10
+    },
+    {
+      "name": "omit repeated default suppression",
+      "passed": true,
+      "detectedBy": "repeat default suppressed",
+      "failedCases": 10
+    },
+    {
+      "name": "omit disabled boundary",
+      "passed": true,
+      "detectedBy": "canceled or disabled activation remains canceled",
+      "failedCases": 6
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "command": "sha256sum -c SHA256SUMS.txt",
+  "exitCode": 0,
+  "stdout": "CURRENT_PLAYER_GUIDE.md: OK\nQUICK_START.html: OK\nREADME.md: OK\nindex.html: OK\n",
+  "exactFiveFiles": true
+}

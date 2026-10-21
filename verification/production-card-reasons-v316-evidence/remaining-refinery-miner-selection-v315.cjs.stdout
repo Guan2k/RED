@@ -1,0 +1,96 @@
+{
+  "sourceSha256": "6e170c0b72206693e554f0798a02b413af12b0c2fb3c2f0f7160c5e00c24dd61",
+  "passed": 22,
+  "failed": 0,
+  "scope": "Synthetic full-source VM fixtures and modeled native defaults, not trusted browser activation, focus, touch/layout or assistive technology acceptance. No persistence or release claim.",
+  "results": [
+    {
+      "name": "shared count/cargo, entity-order ties and stable button, complete world invariance",
+      "passed": true
+    },
+    {
+      "name": "tie follows refinery entity order not IDs",
+      "passed": true
+    },
+    {
+      "name": "invalid anchor selection=new Set()",
+      "passed": true
+    },
+    {
+      "name": "invalid anchor selection=new Set([r.id,m.id])",
+      "passed": true
+    },
+    {
+      "name": "invalid anchor selection=new Set([r.id,r2.id])",
+      "passed": true
+    },
+    {
+      "name": "invalid anchor r.hp=0",
+      "passed": true
+    },
+    {
+      "name": "invalid anchor r.team=1",
+      "passed": true
+    },
+    {
+      "name": "invalid anchor r.build=1",
+      "passed": true
+    },
+    {
+      "name": "invalid anchor selection=new Set([m.id])",
+      "passed": true
+    },
+    {
+      "name": "lifecycle state.started=false",
+      "passed": true
+    },
+    {
+      "name": "lifecycle restartPrompt=true",
+      "passed": true
+    },
+    {
+      "name": "lifecycle state.result='test'",
+      "passed": true
+    },
+    {
+      "name": "ordinary pause allowed",
+      "passed": true
+    },
+    {
+      "name": "zero population retains pending modes and selection",
+      "passed": true
+    },
+    {
+      "name": "dead/enemy excluded; unfinished own miner retained as original count",
+      "passed": true
+    },
+    {
+      "name": "live activation movement",
+      "passed": true
+    },
+    {
+      "name": "live activation other refinery destroyed",
+      "passed": true
+    },
+    {
+      "name": "live activation anchor destroyed",
+      "passed": true
+    },
+    {
+      "name": "live activation other refinery completed",
+      "passed": true
+    },
+    {
+      "name": "modeled native Enter default activation",
+      "passed": true
+    },
+    {
+      "name": "modeled native   default activation",
+      "passed": true
+    },
+    {
+      "name": "held Enter suppression, composition not intercepted, fresh mouse remains usable",
+      "passed": true
+    }
+  ]
+}
