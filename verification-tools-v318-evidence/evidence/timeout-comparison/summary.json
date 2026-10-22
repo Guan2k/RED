@@ -1,0 +1,28 @@
+[
+  {
+    "mode": "without-observer",
+    "wallSeconds": 120.72121298099228,
+    "supervisorExit": 0,
+    "status": null,
+    "signal": "SIGTERM",
+    "errorCode": "ETIMEDOUT",
+    "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderrBytes": 0,
+    "logFiles": 0,
+    "logBytes": 0,
+    "events": 0
+  },
+  {
+    "mode": "with-observer",
+    "wallSeconds": 121.5222596800013,
+    "supervisorExit": 0,
+    "status": null,
+    "signal": "SIGTERM",
+    "errorCode": "ETIMEDOUT",
+    "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderrBytes": 0,
+    "logFiles": 2,
+    "logBytes": 2061,
+    "events": 5
+  }
+]

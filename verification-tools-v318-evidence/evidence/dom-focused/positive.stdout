@@ -1,0 +1,426 @@
+{
+  "passed": 104,
+  "failed": 0,
+  "assertions": 1114,
+  "sourceSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "baselineSha256": "85c7c33f0ae8022294c6392df37b52525cd97367dd9aaad82475c4825a3ac8e3",
+  "results": [
+    {
+      "name": "all vehicles fail direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "all vehicles fail direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "all vehicles fail ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "all vehicles fail ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "all vehicles fail coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "all vehicles fail coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "partial vehicles fail direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "partial vehicles fail direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "partial vehicles fail ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "partial vehicles fail ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "partial vehicles fail coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "partial vehicles fail coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "all vehicles accepted direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "all vehicles accepted direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "all vehicles accepted ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "all vehicles accepted ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "all vehicles accepted coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "all vehicles accepted coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "one factory fails direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "one factory fails direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "one factory fails ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "one factory fails ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "one factory fails coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "one factory fails coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "all factories fail direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "all factories fail direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "all factories fail ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "all factories fail ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "all factories fail coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "all factories fail coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "partial factories fail direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "partial factories fail direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "partial factories fail ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "partial factories fail ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "partial factories fail coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "partial factories fail coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "all factories accepted direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "all factories accepted direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "all factories accepted ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "all factories accepted ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "all factories accepted coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "all factories accepted coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed all fail direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed all fail direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed all fail ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed all fail ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed all fail coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed all fail coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed vehicle fails only direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed vehicle fails only direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed vehicle fails only ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed vehicle fails only ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed vehicle fails only coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed vehicle fails only coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed factory fails only direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed factory fails only direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed factory fails only ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed factory fails only ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed factory fails only coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed factory fails only coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed partial both fail direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed partial both fail direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed partial both fail ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed partial both fail ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed partial both fail coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed partial both fail coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed all accepted direct paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed all accepted direct paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed all accepted ordinary paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed all accepted ordinary paused=true",
+      "passed": true
+    },
+    {
+      "name": "mixed all accepted coordinate paused=false",
+      "passed": true
+    },
+    {
+      "name": "mixed all accepted coordinate paused=true",
+      "passed": true
+    },
+    {
+      "name": "attack ground failure direct",
+      "passed": true
+    },
+    {
+      "name": "attack ground failure ordinary",
+      "passed": true
+    },
+    {
+      "name": "attack ground failure coordinate",
+      "passed": true
+    },
+    {
+      "name": "ore accepted despite all ground failures direct",
+      "passed": true
+    },
+    {
+      "name": "ore accepted despite all ground failures ordinary",
+      "passed": true
+    },
+    {
+      "name": "ore accepted despite all ground failures coordinate",
+      "passed": true
+    },
+    {
+      "name": "ore only is not failed direct",
+      "passed": true
+    },
+    {
+      "name": "ore only is not failed ordinary",
+      "passed": true
+    },
+    {
+      "name": "ore only is not failed coordinate",
+      "passed": true
+    },
+    {
+      "name": "escort accepted despite factory failure direct",
+      "passed": true
+    },
+    {
+      "name": "escort accepted despite factory failure ordinary",
+      "passed": true
+    },
+    {
+      "name": "escort accepted despite factory failure coordinate",
+      "passed": true
+    },
+    {
+      "name": "repair follow accepted despite vehicle failure direct",
+      "passed": true
+    },
+    {
+      "name": "repair follow accepted despite vehicle failure ordinary",
+      "passed": true
+    },
+    {
+      "name": "repair follow accepted despite vehicle failure coordinate",
+      "passed": true
+    },
+    {
+      "name": "enemy target never ground failed direct",
+      "passed": true
+    },
+    {
+      "name": "enemy target never ground failed ordinary",
+      "passed": true
+    },
+    {
+      "name": "enemy target never ground failed coordinate",
+      "passed": true
+    },
+    {
+      "name": "unchanged early path rocks",
+      "passed": true
+    },
+    {
+      "name": "unchanged early path placement",
+      "passed": true
+    },
+    {
+      "name": "unchanged early path prestart",
+      "passed": true
+    },
+    {
+      "name": "unchanged early path restart",
+      "passed": true
+    },
+    {
+      "name": "unchanged early path terminal",
+      "passed": true
+    },
+    {
+      "name": "unchanged early path empty selection",
+      "passed": true
+    },
+    {
+      "name": "unchanged early path building only",
+      "passed": true
+    },
+    {
+      "name": "unchanged early path under construction factory",
+      "passed": true
+    },
+    {
+      "name": "append ground retains prior receipt semantics",
+      "passed": true
+    },
+    {
+      "name": "append attack ground retains prior receipt semantics",
+      "passed": true
+    },
+    {
+      "name": "append enemy retains prior receipt semantics",
+      "passed": true
+    },
+    {
+      "name": "subsequent accepted command replaces failed receipt",
+      "passed": true
+    },
+    {
+      "name": "coordinate and ordinary paths agree including partial allocation reasons",
+      "passed": true
+    },
+    {
+      "name": "real allocation succeeds unchanged through ordinary registered events",
+      "passed": true
+    }
+  ],
+  "scope": "Whole-source VM/mock DOM and actual ordinary/coordinate handlers. Scripted allocation nulls explicitly synthetic; unchanged real allocator used for success cases. Exact v290 world, logs, searches, RNG, sound and other DOM parity. No storage/save/load/import/export actions or native browser acceptance."
+}

@@ -1,0 +1,8 @@
+{
+  "reason": "Overbroad cache assertion rejected preserved historical cache; missing shell fail-fast inadvertently started unsealed gate; cancelled session returned 130. No pass verdict.",
+  "session": 8338,
+  "finalMissing": true,
+  "subsequentSessionLookup": "Unknown process id",
+  "oldNamespaceDescendantEnumeration": "unavailable",
+  "recorded": "2026-10-21T14:13:59.786637+00:00"
+}

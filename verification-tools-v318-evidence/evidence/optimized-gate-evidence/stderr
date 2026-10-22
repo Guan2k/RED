@@ -1,0 +1,54 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: normal candidate passes first
+
+1 !== 0
+
+    at Object.<anonymous> (/tmp/red-current-verification-yKj3Ar/verification/bounded-ui-writes-negative-control-v318.cjs:15:207)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1872:14)
+    at Module._compile (/tmp/red-v318-progress-gate-kyisx8f0/RED/tools/dom-projection/preload.cjs:13:169)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+
+
+1 !== 0
+
+    at Object.<anonymous> (/tmp/red-current-verification-yKj3Ar/verification/run-tests-v318.cjs:100:141)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1872:14)
+    at Module._compile (/tmp/red-v318-progress-gate-kyisx8f0/RED/tools/dom-projection/preload.cjs:13:169)
+    at Object.<anonymous> (/tmp/red-current-verification-yKj3Ar/verification/stable-suites/release-runner.cjs:22:169)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1872:14)
+    at Module._compile (/tmp/red-v318-progress-gate-kyisx8f0/RED/tools/dom-projection/preload.cjs:13:169)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+Developer preflight failed at unchanged canonical game verification (exit 1)

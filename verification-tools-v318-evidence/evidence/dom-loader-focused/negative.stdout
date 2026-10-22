@@ -1,0 +1,47 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "results": [
+    {
+      "name": "remove vehicle reason",
+      "passed": true,
+      "detectedBy": "exact receipt counts all vehicles fail"
+    },
+    {
+      "name": "remove factory reason",
+      "passed": true,
+      "detectedBy": "exact receipt counts one factory fails"
+    },
+    {
+      "name": "wrong vehicle count",
+      "passed": true,
+      "detectedBy": "exact receipt counts all vehicles fail"
+    },
+    {
+      "name": "wrong factory count",
+      "passed": true,
+      "detectedBy": "exact receipt counts one factory fails"
+    },
+    {
+      "name": "count ore assignment as failure",
+      "passed": true,
+      "detectedBy": "exact receipt counts ore accepted despite all ground failures"
+    },
+    {
+      "name": "count escort as failure",
+      "passed": true,
+      "detectedBy": "exact receipt counts escort accepted despite factory failure"
+    },
+    {
+      "name": "count repair follow as failure",
+      "passed": true,
+      "detectedBy": "exact receipt counts repair follow accepted despite vehicle failure"
+    },
+    {
+      "name": "drop separator",
+      "passed": true,
+      "detectedBy": "exact receipt counts mixed all fail"
+    }
+  ],
+  "scope": "Eight source mutations detected by named receipt behavior assertions; no generic execution error or source hash failure counted."
+}

@@ -1,0 +1,8 @@
+{
+  "explicitRuntimeCodeTransform": true,
+  "nodeOptions": "--require \"/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/dom-projection/preload.cjs\"",
+  "targetCompilations": 10,
+  "originalSha256": "7d02d8719470791dc2e9a9eba193ba338f9f729304bfeb4a903e842d52f69ac4",
+  "transformedSha256": "1018a5e4fefb3744ba353bb66b45004ad60e12dd22f883c45bda39cbe9134dad",
+  "allAppliedOnce": true
+}

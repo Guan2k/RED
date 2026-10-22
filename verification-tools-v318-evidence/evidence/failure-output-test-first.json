@@ -1,0 +1,57 @@
+{
+  "passed": 11,
+  "failed": 1,
+  "results": [
+    {
+      "name": "default off produces no failure files",
+      "passed": true
+    },
+    {
+      "name": "success output never captured",
+      "passed": true
+    },
+    {
+      "name": "nonzero actual child output and failure preserved",
+      "passed": true
+    },
+    {
+      "name": "signal actual child output and failure preserved",
+      "passed": true
+    },
+    {
+      "name": "timeout actual child output and failure preserved",
+      "passed": true
+    },
+    {
+      "name": "binary tails exact bounded hashes and mode 0600",
+      "passed": true
+    },
+    {
+      "name": "huge UTF8 strings tails exact bytes including split codepoints",
+      "passed": true
+    },
+    {
+      "name": "output getters and Proxy values never accessed",
+      "passed": true
+    },
+    {
+      "name": "Proxy result untouched with original object identity",
+      "passed": true
+    },
+    {
+      "name": "thrown own output captured and exact exception preserved",
+      "passed": true
+    },
+    {
+      "name": "failed audit write cannot replace result object or original throw",
+      "passed": true
+    },
+    {
+      "name": "CLI opt-in recorded, original outputs and inherited stdio unchanged",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 7\n\n    at /workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/verification-progress/failure-output-test.cjs:17:1023\n    at test (/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/verification-progress/failure-output-test.cjs:5:27)\n    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/verification-progress/failure-output-test.cjs:17:1)\n    at Module._compile (node:internal/modules/cjs/loader:1872:14)\n    at Object..js (node:internal/modules/cjs/loader:2003:10)\n    at Module.load (node:internal/modules/cjs/loader:1594:32)\n    at Module._load (node:internal/modules/cjs/loader:1396:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47"
+    }
+  ],
+  "temporary": "/tmp/red-failure-output-LEG9mv",
+  "scope": "Focused optional failure output capture probes; no real game gate executed."
+}

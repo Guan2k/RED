@@ -1,0 +1,38 @@
+[
+  {
+    "mode": "without-hooks",
+    "wallSeconds": 25.701037790000555,
+    "supervisorExit": 0,
+    "status": 0,
+    "signal": null,
+    "errorCode": null,
+    "stderrBytes": 0,
+    "passed": 7,
+    "failed": 0,
+    "assertions": 232
+  },
+  {
+    "mode": "observation-only",
+    "wallSeconds": 47.3804124140006,
+    "supervisorExit": 0,
+    "status": 0,
+    "signal": null,
+    "errorCode": null,
+    "stderrBytes": 0,
+    "passed": 7,
+    "failed": 0,
+    "assertions": 232
+  },
+  {
+    "mode": "explicit-optimization-plus-observation",
+    "wallSeconds": 17.09530317899771,
+    "supervisorExit": 0,
+    "status": 0,
+    "signal": null,
+    "errorCode": null,
+    "stderrBytes": 0,
+    "passed": 7,
+    "failed": 0,
+    "assertions": 232
+  }
+]

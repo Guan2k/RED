@@ -1,0 +1,145 @@
+{
+  "passed": 34,
+  "failed": 0,
+  "assertions": 122,
+  "historicalSha256": "7d02d8719470791dc2e9a9eba193ba338f9f729304bfeb4a903e842d52f69ac4",
+  "results": [
+    {
+      "name": "transformation exactly reversible and input unchanged",
+      "passed": true
+    },
+    {
+      "name": "historical pinned SHA rejects changed read without modifying file",
+      "passed": true
+    },
+    {
+      "name": "current real initial DOM",
+      "passed": true
+    },
+    {
+      "name": "current UI refresh selected vehicles and paused state",
+      "passed": true
+    },
+    {
+      "name": "current refresh after root ID mutation selectRefineryMiners",
+      "passed": true
+    },
+    {
+      "name": "current duplicate root ID selectRefineryMiners",
+      "passed": true
+    },
+    {
+      "name": "current wrong parent selectRefineryMiners",
+      "passed": true
+    },
+    {
+      "name": "current broken attachment selectRefineryMiners",
+      "passed": true
+    },
+    {
+      "name": "current wrong root tag selectRefineryMiners",
+      "passed": true
+    },
+    {
+      "name": "current refresh after root ID mutation refineryMinerSelectionHelp",
+      "passed": true
+    },
+    {
+      "name": "current duplicate root ID refineryMinerSelectionHelp",
+      "passed": true
+    },
+    {
+      "name": "current wrong parent refineryMinerSelectionHelp",
+      "passed": true
+    },
+    {
+      "name": "current broken attachment refineryMinerSelectionHelp",
+      "passed": true
+    },
+    {
+      "name": "current wrong root tag refineryMinerSelectionHelp",
+      "passed": true
+    },
+    {
+      "name": "current refresh after root ID mutation buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "current duplicate root ID buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "current wrong parent buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "current broken attachment buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "current wrong root tag buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "current refresh after root ID mutation vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "current duplicate root ID vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "current wrong parent vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "current broken attachment vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "current wrong root tag vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "current safe excluded ancestor cycle",
+      "passed": true
+    },
+    {
+      "name": "current all projected scalar and object fields refresh",
+      "passed": true
+    },
+    {
+      "name": "restored v290 real initial DOM",
+      "passed": true
+    },
+    {
+      "name": "restored v290 UI refresh selected vehicles and paused state",
+      "passed": true
+    },
+    {
+      "name": "restored v290 missing optional root selectRefineryMiners",
+      "passed": true
+    },
+    {
+      "name": "restored v290 missing optional root refineryMinerSelectionHelp",
+      "passed": true
+    },
+    {
+      "name": "restored v290 missing optional root buildingReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "restored v290 missing optional root vehicleReferenceGallery",
+      "passed": true
+    },
+    {
+      "name": "restored v290 safe excluded ancestor cycle",
+      "passed": true
+    },
+    {
+      "name": "restored v290 all projected scalar and object fields refresh",
+      "passed": true
+    }
+  ],
+  "scope": "Exact per-element field/order comparison of original and optimized projection on real current/restored v290 VM DOMs, controlled mutations and terminating negative fixtures. No gameplay full suite or timeout changes."
+}

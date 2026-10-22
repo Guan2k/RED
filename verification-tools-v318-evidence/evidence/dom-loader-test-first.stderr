@@ -1,0 +1,39 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: [eval]:1
+(crypto=>{{const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),Module=require('node:module'),crypto=require('node:crypto');const adapter=require("/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/dom-projection/adapter.cjs"),historical=adapter.historical('command-allocation-feedback-v318.cjs'),expected=adapter.transform(historical.source),sha=s=>crypto.createHash('sha256').update(s).digest('hex');const native=Module.prototype._compile,receiver={},sentinel={},failure=new Error('original failure');let calls=[];Module.prototype._compile=function(...args){if(args[1]==="/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/dom-projection/preload.cjs")return Reflect.apply(native,this,args);calls.push({receiver:this,args});if(globalThis.throwOriginal)throw failure;return sentinel};require("/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/dom-projection/preload.cjs");const wrapped=Module.prototype._compile;assert.throws(()=>wrapped.call(receiver,historical.source+'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+Expected ',', got 'string literal'
+
+SyntaxError: Invalid or unexpected token
+    at makeContextifyScript (node:internal/vm:194:14)
+    at compileScript (node:internal/process/execution:388:10)
+    at evalTypeScript (node:internal/process/execution:260:22)
+    at node:internal/main/eval_string:71:3
+
+Node.js v24.19.0
+
+
+1 !== 0
+
+    at success (/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/dom-projection/loader-test.cjs:6:88)
+    at /workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/dom-projection/loader-test.cjs:16:81
+    at test (/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/dom-projection/loader-test.cjs:4:24)
+    at Object.<anonymous> (/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/dom-projection/loader-test.cjs:16:2)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,18 @@
+{
+  "diagnosticOnly": true,
+  "notGateAcceptance": true,
+  "status": 0,
+  "errorCode": null,
+  "completedCases": 104,
+  "last": {
+    "name": "end real allocation succeeds unchanged through ordinary registered events",
+    "wallMs": 116253.76327,
+    "cpuMs": 123327.525,
+    "vmCalls": 1786,
+    "vmMs": 11097.609198,
+    "domMs": 82537.33302500004,
+    "domCalls": 346,
+    "loadMs": 18133.77736499999,
+    "loadCalls": 210
+  }
+}

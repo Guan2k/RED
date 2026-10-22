@@ -1,0 +1,26 @@
+[
+  {
+    "mode": "explicit-dom-transform",
+    "entry": "positive",
+    "wallSeconds": 48.89954915600538,
+    "status": 0,
+    "signal": null,
+    "errorCode": null,
+    "stderrBytes": 0,
+    "passed": 104,
+    "failed": 0,
+    "assertions": 1114,
+    "exactOriginalDiagnosticJsonEqual": true
+  },
+  {
+    "mode": "explicit-dom-transform",
+    "entry": "negative",
+    "wallSeconds": 143.43743842600088,
+    "status": 0,
+    "signal": null,
+    "errorCode": null,
+    "stderrBytes": 0,
+    "passed": 8,
+    "failed": 0
+  }
+]

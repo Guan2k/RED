@@ -1,0 +1,11 @@
+{
+  "mode": "pure-observation-with-opt-in-failure-capture",
+  "runtimeCodeTransform": false,
+  "command": [
+    "node",
+    "verification/bounded-ui-writes-negative-control-v318.cjs"
+  ],
+  "nodeOptions": "--require \"/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/verification-progress/preload.cjs\"",
+  "captureFailures": true,
+  "scope": "One exact original bounded-ui negative-control invocation. Original subprocess options, 10 negative cases and VM limits retained. Success means failure not reproduced, never full gate acceptance."
+}

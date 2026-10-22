@@ -1,0 +1,28 @@
+{
+  "started": "2026-10-22T00:11:05.597744+00:00",
+  "mode": "explicit-dom-projection-transform-with-observation-and-final-head-capture",
+  "defaultGate": false,
+  "command": [
+    "python3",
+    "tools/verification-progress/observe.py",
+    "--capture-failures",
+    "--progress-dir",
+    "/workspace/scratch/e433d7540f34/red-development/v318-resume-20261022/controlled-full-final-capture/progress",
+    "--",
+    "verify-development.cjs"
+  ],
+  "sourceSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "candidateFiles": 5421,
+  "historicalScriptsChanged": false,
+  "timeoutsChanged": false,
+  "assertionsChanged": false,
+  "stderrCapture": {
+    "position": "head",
+    "limit": 8192
+  },
+  "stdoutCapture": {
+    "position": "tail",
+    "limit": 4096
+  },
+  "existingNodeOptionsEmpty": true
+}

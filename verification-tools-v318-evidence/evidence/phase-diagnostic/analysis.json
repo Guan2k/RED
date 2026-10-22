@@ -1,0 +1,604 @@
+{
+  "diagnosticOnly": true,
+  "status": null,
+  "signal": "SIGTERM",
+  "errorCode": "ETIMEDOUT",
+  "totalCases": 104,
+  "completedCases": 94,
+  "lastEvents": [
+    {
+      "name": "end unchanged early path prestart",
+      "wallMs": 118811.051106,
+      "cpuMs": 125397.875,
+      "vmCalls": 1629,
+      "vmMs": 13473.496552000006
+    },
+    {
+      "name": "start unchanged early path restart",
+      "wallMs": 118811.885288,
+      "cpuMs": 125398.712,
+      "vmCalls": 1629,
+      "vmMs": 13473.496552000006
+    },
+    {
+      "name": "end unchanged early path restart",
+      "wallMs": 119496.837346,
+      "cpuMs": 126074.013,
+      "vmCalls": 1643,
+      "vmMs": 13603.268237000008
+    },
+    {
+      "name": "start unchanged early path terminal",
+      "wallMs": 119499.499351,
+      "cpuMs": 126076.675,
+      "vmCalls": 1643,
+      "vmMs": 13603.268237000008
+    }
+  ],
+  "caseDurations": [
+    {
+      "name": "all vehicles fail direct paused=false",
+      "wallMs": 2571.755036,
+      "cpuMs": 2840.244,
+      "vmMs": 327.12901199999993
+    },
+    {
+      "name": "all vehicles fail direct paused=true",
+      "wallMs": 1706.9400050000004,
+      "cpuMs": 1924.3760000000002,
+      "vmMs": 125.20092399999999
+    },
+    {
+      "name": "all vehicles fail ordinary paused=false",
+      "wallMs": 1421.7011569999995,
+      "cpuMs": 1597.7540000000008,
+      "vmMs": 106.04045800000011
+    },
+    {
+      "name": "all vehicles fail ordinary paused=true",
+      "wallMs": 1357.171687000001,
+      "cpuMs": 1584.8330000000005,
+      "vmMs": 84.29125700000009
+    },
+    {
+      "name": "all vehicles fail coordinate paused=false",
+      "wallMs": 1562.218198999999,
+      "cpuMs": 1742.7720000000008,
+      "vmMs": 90.15173700000003
+    },
+    {
+      "name": "all vehicles fail coordinate paused=true",
+      "wallMs": 1968.2554519999994,
+      "cpuMs": 2146.365,
+      "vmMs": 161.81716100000006
+    },
+    {
+      "name": "partial vehicles fail direct paused=false",
+      "wallMs": 1352.1786530000008,
+      "cpuMs": 1370.5020000000004,
+      "vmMs": 86.95224600000006
+    },
+    {
+      "name": "partial vehicles fail direct paused=true",
+      "wallMs": 1208.8786830000008,
+      "cpuMs": 1253.351999999999,
+      "vmMs": 96.37837000000036
+    },
+    {
+      "name": "partial vehicles fail ordinary paused=false",
+      "wallMs": 1408.208216000001,
+      "cpuMs": 1635.7130000000034,
+      "vmMs": 76.19071299999996
+    },
+    {
+      "name": "partial vehicles fail ordinary paused=true",
+      "wallMs": 624.4900619999971,
+      "cpuMs": 645.4860000000008,
+      "vmMs": 45.72134899999992
+    },
+    {
+      "name": "partial vehicles fail coordinate paused=false",
+      "wallMs": 812.3189079999975,
+      "cpuMs": 905.9050000000025,
+      "vmMs": 49.830630999999585
+    },
+    {
+      "name": "partial vehicles fail coordinate paused=true",
+      "wallMs": 837.8672409999999,
+      "cpuMs": 856.5760000000009,
+      "vmMs": 65.76216499999987
+    },
+    {
+      "name": "all vehicles accepted direct paused=false",
+      "wallMs": 1149.3129590000026,
+      "cpuMs": 1217.566999999999,
+      "vmMs": 97.64413699999977
+    },
+    {
+      "name": "all vehicles accepted direct paused=true",
+      "wallMs": 965.3585419999981,
+      "cpuMs": 985.3940000000002,
+      "vmMs": 97.53554199999985
+    },
+    {
+      "name": "all vehicles accepted ordinary paused=false",
+      "wallMs": 978.8405789999997,
+      "cpuMs": 978.7960000000021,
+      "vmMs": 79.92642100000012
+    },
+    {
+      "name": "all vehicles accepted ordinary paused=true",
+      "wallMs": 731.5030239999978,
+      "cpuMs": 746.9759999999987,
+      "vmMs": 83.66420400000015
+    },
+    {
+      "name": "all vehicles accepted coordinate paused=false",
+      "wallMs": 696.0767639999976,
+      "cpuMs": 749.351999999999,
+      "vmMs": 61.283526000000165
+    },
+    {
+      "name": "all vehicles accepted coordinate paused=true",
+      "wallMs": 955.1231560000015,
+      "cpuMs": 979.9099999999999,
+      "vmMs": 95.72593499999994
+    },
+    {
+      "name": "one factory fails direct paused=false",
+      "wallMs": 874.9052359999987,
+      "cpuMs": 886.3349999999991,
+      "vmMs": 98.26536800000008
+    },
+    {
+      "name": "one factory fails direct paused=true",
+      "wallMs": 968.874018999999,
+      "cpuMs": 1182.1619999999966,
+      "vmMs": 117.67762400000015
+    },
+    {
+      "name": "one factory fails ordinary paused=false",
+      "wallMs": 762.916631,
+      "cpuMs": 790.4370000000017,
+      "vmMs": 88.86405700000046
+    },
+    {
+      "name": "one factory fails ordinary paused=true",
+      "wallMs": 653.990772000001,
+      "cpuMs": 685.0190000000002,
+      "vmMs": 61.65776800000049
+    },
+    {
+      "name": "one factory fails coordinate paused=false",
+      "wallMs": 509.76008600000205,
+      "cpuMs": 524.5459999999985,
+      "vmMs": 40.65965799999958
+    },
+    {
+      "name": "one factory fails coordinate paused=true",
+      "wallMs": 529.7036709999993,
+      "cpuMs": 549.5349999999999,
+      "vmMs": 47.417723999999
+    },
+    {
+      "name": "all factories fail direct paused=false",
+      "wallMs": 501.41901700000017,
+      "cpuMs": 539.5450000000019,
+      "vmMs": 41.39994400000023
+    },
+    {
+      "name": "all factories fail direct paused=true",
+      "wallMs": 604.6248670000023,
+      "cpuMs": 643.5819999999985,
+      "vmMs": 52.870078999999805
+    },
+    {
+      "name": "all factories fail ordinary paused=false",
+      "wallMs": 570.9811819999995,
+      "cpuMs": 596.4680000000008,
+      "vmMs": 51.60834599999953
+    },
+    {
+      "name": "all factories fail ordinary paused=true",
+      "wallMs": 479.9051650000001,
+      "cpuMs": 496.5699999999997,
+      "vmMs": 40.245126999999684
+    },
+    {
+      "name": "all factories fail coordinate paused=false",
+      "wallMs": 607.8864749999993,
+      "cpuMs": 651.6540000000023,
+      "vmMs": 45.27317399999947
+    },
+    {
+      "name": "all factories fail coordinate paused=true",
+      "wallMs": 715.8853889999991,
+      "cpuMs": 764.0440000000017,
+      "vmMs": 68.54029500000024
+    },
+    {
+      "name": "partial factories fail direct paused=false",
+      "wallMs": 571.8955080000051,
+      "cpuMs": 598.9820000000036,
+      "vmMs": 73.46697799999993
+    },
+    {
+      "name": "partial factories fail direct paused=true",
+      "wallMs": 533.0505340000018,
+      "cpuMs": 539.4100000000035,
+      "vmMs": 44.20616000000064
+    },
+    {
+      "name": "partial factories fail ordinary paused=false",
+      "wallMs": 555.1030450000035,
+      "cpuMs": 594.8119999999981,
+      "vmMs": 51.83889299999964
+    },
+    {
+      "name": "partial factories fail ordinary paused=true",
+      "wallMs": 607.0826620000007,
+      "cpuMs": 668.2350000000006,
+      "vmMs": 55.59123700000055
+    },
+    {
+      "name": "partial factories fail coordinate paused=false",
+      "wallMs": 496.9189009999973,
+      "cpuMs": 546.1489999999976,
+      "vmMs": 39.124608999999055
+    },
+    {
+      "name": "partial factories fail coordinate paused=true",
+      "wallMs": 501.741442999999,
+      "cpuMs": 510.7810000000027,
+      "vmMs": 42.25549600000022
+    },
+    {
+      "name": "all factories accepted direct paused=false",
+      "wallMs": 480.89266900000075,
+      "cpuMs": 551.4089999999997,
+      "vmMs": 46.73835000000008
+    },
+    {
+      "name": "all factories accepted direct paused=true",
+      "wallMs": 481.77035199999955,
+      "cpuMs": 814.5290000000023,
+      "vmMs": 38.61623400000008
+    },
+    {
+      "name": "all factories accepted ordinary paused=false",
+      "wallMs": 562.7123420000062,
+      "cpuMs": 780.9649999999965,
+      "vmMs": 42.287953000000016
+    },
+    {
+      "name": "all factories accepted ordinary paused=true",
+      "wallMs": 718.5425989999931,
+      "cpuMs": 759.3020000000033,
+      "vmMs": 53.34249
+    },
+    {
+      "name": "all factories accepted coordinate paused=false",
+      "wallMs": 531.7112879999986,
+      "cpuMs": 630.4069999999992,
+      "vmMs": 34.15740899999901
+    },
+    {
+      "name": "all factories accepted coordinate paused=true",
+      "wallMs": 517.6806720000022,
+      "cpuMs": 548.7259999999951,
+      "vmMs": 53.0812219999998
+    },
+    {
+      "name": "mixed all fail direct paused=false",
+      "wallMs": 1422.1346279999998,
+      "cpuMs": 1542.216999999997,
+      "vmMs": 73.52533800000037
+    },
+    {
+      "name": "mixed all fail direct paused=true",
+      "wallMs": 1622.387204999999,
+      "cpuMs": 1596.2059999999983,
+      "vmMs": 115.20567799999935
+    },
+    {
+      "name": "mixed all fail ordinary paused=false",
+      "wallMs": 1527.7556919999988,
+      "cpuMs": 1524.899000000005,
+      "vmMs": 97.46922499999982
+    },
+    {
+      "name": "mixed all fail ordinary paused=true",
+      "wallMs": 1565.183229999995,
+      "cpuMs": 1605.255999999994,
+      "vmMs": 269.622128
+    },
+    {
+      "name": "mixed all fail coordinate paused=false",
+      "wallMs": 925.096381000003,
+      "cpuMs": 955.8029999999999,
+      "vmMs": 163.9386959999997
+    },
+    {
+      "name": "mixed all fail coordinate paused=true",
+      "wallMs": 1095.966542000002,
+      "cpuMs": 1104.4660000000003,
+      "vmMs": 85.17723899999964
+    },
+    {
+      "name": "mixed vehicle fails only direct paused=false",
+      "wallMs": 1144.8802849999993,
+      "cpuMs": 1144.4439999999959,
+      "vmMs": 138.46108200000117
+    },
+    {
+      "name": "mixed vehicle fails only direct paused=true",
+      "wallMs": 855.4915420000034,
+      "cpuMs": 878.0369999999966,
+      "vmMs": 92.55808200000047
+    },
+    {
+      "name": "mixed vehicle fails only ordinary paused=false",
+      "wallMs": 1136.0733099999998,
+      "cpuMs": 1142.5009999999966,
+      "vmMs": 69.09457800000109
+    },
+    {
+      "name": "mixed vehicle fails only ordinary paused=true",
+      "wallMs": 1251.0131389999951,
+      "cpuMs": 1415.0849999999991,
+      "vmMs": 137.41630199999963
+    },
+    {
+      "name": "mixed vehicle fails only coordinate paused=false",
+      "wallMs": 1233.4585989999978,
+      "cpuMs": 1232.7619999999952,
+      "vmMs": 98.97373400000106
+    },
+    {
+      "name": "mixed vehicle fails only coordinate paused=true",
+      "wallMs": 1285.0648169999986,
+      "cpuMs": 1316.7679999999964,
+      "vmMs": 121.89505999999892
+    },
+    {
+      "name": "mixed factory fails only direct paused=false",
+      "wallMs": 1301.7688419999977,
+      "cpuMs": 1307.1919999999955,
+      "vmMs": 109.93993699999919
+    },
+    {
+      "name": "mixed factory fails only direct paused=true",
+      "wallMs": 2208.427061000002,
+      "cpuMs": 2241.4809999999998,
+      "vmMs": 152.14905900000122
+    },
+    {
+      "name": "mixed factory fails only ordinary paused=false",
+      "wallMs": 1437.5606440000047,
+      "cpuMs": 1416.2849999999962,
+      "vmMs": 82.70737499999814
+    },
+    {
+      "name": "mixed factory fails only ordinary paused=true",
+      "wallMs": 879.4847760000048,
+      "cpuMs": 905.5570000000007,
+      "vmMs": 60.43325900000036
+    },
+    {
+      "name": "mixed factory fails only coordinate paused=false",
+      "wallMs": 836.5855260000026,
+      "cpuMs": 857.6119999999937,
+      "vmMs": 92.41650799999934
+    },
+    {
+      "name": "mixed factory fails only coordinate paused=true",
+      "wallMs": 4499.8590140000015,
+      "cpuMs": 4135.286,
+      "vmMs": 1983.2450119999985
+    },
+    {
+      "name": "mixed partial both fail direct paused=false",
+      "wallMs": 1790.9785479999991,
+      "cpuMs": 1796.6229999999923,
+      "vmMs": 86.78057800000079
+    },
+    {
+      "name": "mixed partial both fail direct paused=true",
+      "wallMs": 4752.389505999992,
+      "cpuMs": 4340.589000000007,
+      "vmMs": 627.6880900000006
+    },
+    {
+      "name": "mixed partial both fail ordinary paused=false",
+      "wallMs": 3744.3470099999977,
+      "cpuMs": 3709.827999999994,
+      "vmMs": 310.5687760000019
+    },
+    {
+      "name": "mixed partial both fail ordinary paused=true",
+      "wallMs": 3334.2235830000136,
+      "cpuMs": 3328.819000000003,
+      "vmMs": 770.6080890000021
+    },
+    {
+      "name": "mixed partial both fail coordinate paused=false",
+      "wallMs": 1123.369086000006,
+      "cpuMs": 1130.1989999999932,
+      "vmMs": 148.3394040000003
+    },
+    {
+      "name": "mixed partial both fail coordinate paused=true",
+      "wallMs": 2723.1149129999976,
+      "cpuMs": 2536.7709999999934,
+      "vmMs": 99.79772599999887
+    },
+    {
+      "name": "mixed all accepted direct paused=false",
+      "wallMs": 2452.734356000001,
+      "cpuMs": 2340.8150000000023,
+      "vmMs": 187.379911
+    },
+    {
+      "name": "mixed all accepted direct paused=true",
+      "wallMs": 2720.1589670000103,
+      "cpuMs": 2911.1849999999977,
+      "vmMs": 165.96257400000104
+    },
+    {
+      "name": "mixed all accepted ordinary paused=false",
+      "wallMs": 2159.176431,
+      "cpuMs": 2158.877999999997,
+      "vmMs": 133.2072249999983
+    },
+    {
+      "name": "mixed all accepted ordinary paused=true",
+      "wallMs": 2263.1408739999897,
+      "cpuMs": 4850.031000000003,
+      "vmMs": 199.47242399999777
+    },
+    {
+      "name": "mixed all accepted coordinate paused=false",
+      "wallMs": 1340.8764729999966,
+      "cpuMs": 1429.823000000004,
+      "vmMs": 147.22475599999962
+    },
+    {
+      "name": "mixed all accepted coordinate paused=true",
+      "wallMs": 2420.181666000004,
+      "cpuMs": 2471.166000000012,
+      "vmMs": 190.49033100000088
+    },
+    {
+      "name": "attack ground failure direct",
+      "wallMs": 1124.8387000000075,
+      "cpuMs": 1103.6110000000044,
+      "vmMs": 201.15204799999992
+    },
+    {
+      "name": "attack ground failure ordinary",
+      "wallMs": 1215.7506390000053,
+      "cpuMs": 1249.375,
+      "vmMs": 184.29775600000175
+    },
+    {
+      "name": "attack ground failure coordinate",
+      "wallMs": 1165.3427130000055,
+      "cpuMs": 1291.9060000000027,
+      "vmMs": 157.4020560000008
+    },
+    {
+      "name": "ore accepted despite all ground failures direct",
+      "wallMs": 2493.6867760000023,
+      "cpuMs": 2484.652999999991,
+      "vmMs": 754.4589250000008
+    },
+    {
+      "name": "ore accepted despite all ground failures ordinary",
+      "wallMs": 1202.2082209999935,
+      "cpuMs": 1322.024000000005,
+      "vmMs": 183.09126500000093
+    },
+    {
+      "name": "ore accepted despite all ground failures coordinate",
+      "wallMs": 852.5053630000039,
+      "cpuMs": 859.2719999999972,
+      "vmMs": 144.84980500000165
+    },
+    {
+      "name": "ore only is not failed direct",
+      "wallMs": 923.0036919999984,
+      "cpuMs": 1069.426999999996,
+      "vmMs": 166.7877900000003
+    },
+    {
+      "name": "ore only is not failed ordinary",
+      "wallMs": 921.5707980000007,
+      "cpuMs": 931.9910000000091,
+      "vmMs": 76.72494999999799
+    },
+    {
+      "name": "ore only is not failed coordinate",
+      "wallMs": 2137.1225170000107,
+      "cpuMs": 2208.949999999997,
+      "vmMs": 79.8525239999999
+    },
+    {
+      "name": "escort accepted despite factory failure direct",
+      "wallMs": 858.8827099999908,
+      "cpuMs": 858.031999999992,
+      "vmMs": 100.07923100000335
+    },
+    {
+      "name": "escort accepted despite factory failure ordinary",
+      "wallMs": 788.2527620000037,
+      "cpuMs": 786.179999999993,
+      "vmMs": 111.94432599999709
+    },
+    {
+      "name": "escort accepted despite factory failure coordinate",
+      "wallMs": 728.8738770000055,
+      "cpuMs": 789.9560000000056,
+      "vmMs": 94.12567900000431
+    },
+    {
+      "name": "repair follow accepted despite vehicle failure direct",
+      "wallMs": 834.6640999999945,
+      "cpuMs": 830.6959999999963,
+      "vmMs": 88.55284899999788
+    },
+    {
+      "name": "repair follow accepted despite vehicle failure ordinary",
+      "wallMs": 815.8893979999993,
+      "cpuMs": 899.0270000000019,
+      "vmMs": 95.66223699999682
+    },
+    {
+      "name": "repair follow accepted despite vehicle failure coordinate",
+      "wallMs": 856.2243279999966,
+      "cpuMs": 852.4990000000107,
+      "vmMs": 113.27269000000342
+    },
+    {
+      "name": "enemy target never ground failed direct",
+      "wallMs": 801.4760610000085,
+      "cpuMs": 879.9530000000086,
+      "vmMs": 77.4556840000023
+    },
+    {
+      "name": "enemy target never ground failed ordinary",
+      "wallMs": 1769.2932969999965,
+      "cpuMs": 1773.5329999999958,
+      "vmMs": 208.05952699999943
+    },
+    {
+      "name": "enemy target never ground failed coordinate",
+      "wallMs": 956.681362000003,
+      "cpuMs": 1022.0739999999932,
+      "vmMs": 118.28955199999655
+    },
+    {
+      "name": "unchanged early path rocks",
+      "wallMs": 881.4905449999933,
+      "cpuMs": 881.2540000000008,
+      "vmMs": 128.10219600000164
+    },
+    {
+      "name": "unchanged early path placement",
+      "wallMs": 859.7710179999995,
+      "cpuMs": 879.0879999999888,
+      "vmMs": 137.50366100000065
+    },
+    {
+      "name": "unchanged early path prestart",
+      "wallMs": 662.8839580000058,
+      "cpuMs": 707.6330000000016,
+      "vmMs": 79.65164200000072
+    },
+    {
+      "name": "unchanged early path restart",
+      "wallMs": 684.9520579999953,
+      "cpuMs": 675.3010000000068,
+      "vmMs": 129.77168500000153
+    }
+  ]
+}

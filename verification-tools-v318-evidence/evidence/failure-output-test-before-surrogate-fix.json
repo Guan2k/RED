@@ -1,0 +1,56 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "results": [
+    {
+      "name": "default off produces no failure files",
+      "passed": true
+    },
+    {
+      "name": "success output never captured",
+      "passed": true
+    },
+    {
+      "name": "nonzero actual child output and failure preserved",
+      "passed": true
+    },
+    {
+      "name": "signal actual child output and failure preserved",
+      "passed": true
+    },
+    {
+      "name": "timeout actual child output and failure preserved",
+      "passed": true
+    },
+    {
+      "name": "binary tails exact bounded hashes and mode 0600",
+      "passed": true
+    },
+    {
+      "name": "huge UTF8 strings tails exact bytes including split codepoints",
+      "passed": true
+    },
+    {
+      "name": "output getters and Proxy values never accessed",
+      "passed": true
+    },
+    {
+      "name": "Proxy result untouched with original object identity",
+      "passed": true
+    },
+    {
+      "name": "thrown own output captured and exact exception preserved",
+      "passed": true
+    },
+    {
+      "name": "failed audit write cannot replace result object or original throw",
+      "passed": true
+    },
+    {
+      "name": "CLI opt-in recorded, original outputs and inherited stdio unchanged",
+      "passed": true
+    }
+  ],
+  "temporary": "/tmp/red-failure-output-R2RIPu",
+  "scope": "Focused optional failure output capture probes; no real game gate executed."
+}

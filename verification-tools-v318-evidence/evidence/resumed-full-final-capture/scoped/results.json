@@ -1,0 +1,22 @@
+[
+  {
+    "name": "progress",
+    "exit": 0,
+    "seconds": 6.636016845703125
+  },
+  {
+    "name": "capture",
+    "exit": 0,
+    "seconds": 1.3863255977630615
+  },
+  {
+    "name": "loader",
+    "exit": 0,
+    "seconds": 1.1538619995117188
+  },
+  {
+    "name": "equivalence",
+    "exit": 0,
+    "seconds": 3.418511390686035
+  }
+]

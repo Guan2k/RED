@@ -1,0 +1,71 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: node:assert:849
+    throw newErr;
+    ^
+
+AssertionError [ERR_ASSERTION]: ifError got unwanted exception: spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node ETIMEDOUT
+    at run (/tmp/red-current-verification-KMwhBL/verification/command-allocation-feedback-negative-control-v318.cjs:14:192)
+    at Object.spawnSync (node:internal/child_process:1160:20)
+    at spawnSync (node:child_process:928:24)
+    at observedSpawnSync (/tmp/red-v318-progress-gate-9ovs0nun/RED/tools/verification-progress/preload.cjs:52:30)
+    at run (/tmp/red-current-verification-KMwhBL/verification/command-allocation-feedback-negative-control-v318.cjs:14:28)
+    at Object.<anonymous> (/tmp/red-current-verification-KMwhBL/verification/command-allocation-feedback-negative-control-v318.cjs:15:11)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: Error: spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node ETIMEDOUT
+      at Object.spawnSync (node:internal/child_process:1160:20)
+      at spawnSync (node:child_process:928:24)
+      at observedSpawnSync (/tmp/red-v318-progress-gate-9ovs0nun/RED/tools/verification-progress/preload.cjs:52:30)
+      at run (/tmp/red-current-verification-KMwhBL/verification/command-allocation-feedback-negative-control-v318.cjs:14:28)
+      at Object.<anonymous> (/tmp/red-current-verification-KMwhBL/verification/command-allocation-feedback-negative-control-v318.cjs:15:11)
+      at Module._compile (node:internal/modules/cjs/loader:1872:14)
+      at Object..js (node:internal/modules/cjs/loader:2003:10)
+      at Module.load (node:internal/modules/cjs/loader:1594:32)
+      at Module._load (node:internal/modules/cjs/loader:1396:12)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:255:19) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node',
+    path: '/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node',
+    spawnargs: [
+      '/tmp/red-current-verification-KMwhBL/verification/command-allocation-feedback-v318.cjs'
+    ]
+  },
+  expected: null,
+  operator: 'ifError',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+
+
+1 !== 0
+
+    at Object.<anonymous> (/tmp/red-current-verification-KMwhBL/verification/run-tests-v318.cjs:100:141)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object.<anonymous> (/tmp/red-current-verification-KMwhBL/verification/stable-suites/release-runner.cjs:22:169)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+Developer preflight failed at unchanged canonical game verification (exit 1)

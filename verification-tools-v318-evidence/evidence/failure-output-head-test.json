@@ -1,0 +1,68 @@
+{
+  "passed": 15,
+  "failed": 0,
+  "results": [
+    {
+      "name": "default off produces no failure files",
+      "passed": true
+    },
+    {
+      "name": "success output never captured",
+      "passed": true
+    },
+    {
+      "name": "nonzero actual child output and failure preserved",
+      "passed": true
+    },
+    {
+      "name": "signal actual child output and failure preserved",
+      "passed": true
+    },
+    {
+      "name": "timeout actual child output and failure preserved",
+      "passed": true
+    },
+    {
+      "name": "binary stderr head and stdout tail exact bounded hashes and mode 0600",
+      "passed": true
+    },
+    {
+      "name": "huge UTF8 strings head and tail exact bytes including split codepoints",
+      "passed": true
+    },
+    {
+      "name": "stdout split surrogate at exact byte boundary",
+      "passed": true
+    },
+    {
+      "name": "stderr split surrogate at exact byte boundary",
+      "passed": true
+    },
+    {
+      "name": "output getters and Proxy values never accessed",
+      "passed": true
+    },
+    {
+      "name": "Buffer own length copy subarray getters are not invoked",
+      "passed": true
+    },
+    {
+      "name": "Proxy result untouched with original object identity",
+      "passed": true
+    },
+    {
+      "name": "thrown own output captured and exact exception preserved",
+      "passed": true
+    },
+    {
+      "name": "failed audit write cannot replace result object or original throw",
+      "passed": true
+    },
+    {
+      "name": "CLI opt-in recorded, original outputs and inherited stdio unchanged",
+      "passed": true
+    }
+  ],
+  "temporary": "/tmp/red-failure-output-15DOTk",
+  "scope": "Focused optional failure output capture probes; no real game gate executed."
+}

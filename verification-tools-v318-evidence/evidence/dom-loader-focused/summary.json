@@ -1,0 +1,27 @@
+[
+  {
+    "mode": "explicit-dom-transform-original-entry",
+    "entry": "verification/command-allocation-feedback-v318.cjs",
+    "wallSeconds": 28.37630029200227,
+    "status": 0,
+    "signal": null,
+    "errorCode": null,
+    "stderrBytes": 0,
+    "passed": 104,
+    "failed": 0,
+    "assertions": 1114,
+    "exactAdapterJsonEqual": true
+  },
+  {
+    "mode": "explicit-dom-transform-original-entry",
+    "entry": "verification/command-allocation-feedback-negative-control-v318.cjs",
+    "wallSeconds": 135.96766029800347,
+    "status": 0,
+    "signal": null,
+    "errorCode": null,
+    "stderrBytes": 0,
+    "passed": 8,
+    "failed": 0,
+    "exactAdapterJsonEqual": true
+  }
+]

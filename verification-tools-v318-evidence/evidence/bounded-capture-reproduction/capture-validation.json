@@ -1,0 +1,11 @@
+{
+  "capturedExpectedMutationFailures": 10,
+  "mode0600All": true,
+  "capturedHashesAndLimitsAllValid": true,
+  "stderrLayoutUsed": "tail8192",
+  "stderrTruncatedFiles": 8,
+  "assertionHeaderVisibleFiles": 2,
+  "limitation": "Large assertion output can lose the primary header with tail capture; later candidate changes stderr to head8192 and is tested separately. This reproduction was not rerun on head mode.",
+  "originalBaselineFailureReproduced": false,
+  "fullGateAccepted": false
+}

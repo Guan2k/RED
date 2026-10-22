@@ -1,0 +1,13 @@
+{
+  "baseline": {
+    "status": 0,
+    "stdout": "HOOK\nGATE\n",
+    "stderr": ""
+  },
+  "observed": {
+    "status": 0,
+    "stdout": "HOOK\nHOOK\nGATE\n",
+    "stderr": ""
+  },
+  "meaning": "Observer is an additional Node process. Existing NODE_OPTIONS require side effects execute once in wrapper and again in entry; universal stdout equivalence is not established."
+}

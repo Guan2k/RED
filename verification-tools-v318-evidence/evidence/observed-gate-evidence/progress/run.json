@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "runId": "2b5d2968-6412-4058-869d-69d337f4327a",
+  "started": "2026-10-21T14:14:25.516889+00:00",
+  "root": "/tmp/red-v318-progress-gate-9ovs0nun/RED",
+  "command": [
+    "verify-development.cjs"
+  ],
+  "node": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+  "scope": "spawnSync boundaries and process lifecycle only; not assertion-level progress, browser performance or a pass verdict"
+}

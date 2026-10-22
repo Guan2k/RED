@@ -1,0 +1,25 @@
+{
+  "archiveSha256": "f2deccf677aa171531d8d264a54f0071d0a1e0653c351fcbf6aab198339e71c0",
+  "baselineFiles": 5407,
+  "candidateFiles": 5421,
+  "changedOriginalFiles": [
+    "SHA256SUMS.txt"
+  ],
+  "gameSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "addedFiles": [
+    "tools/dom-projection/README.md",
+    "tools/dom-projection/adapter.cjs",
+    "tools/dom-projection/historical-contract.json",
+    "tools/dom-projection/loader-test.cjs",
+    "tools/dom-projection/negative.cjs",
+    "tools/dom-projection/positive.cjs",
+    "tools/dom-projection/preload.cjs",
+    "tools/dom-projection/test.cjs",
+    "tools/verification-progress/README.md",
+    "tools/verification-progress/failure-output-test.cjs",
+    "tools/verification-progress/observe.py",
+    "tools/verification-progress/preload.cjs",
+    "tools/verification-progress/status.cjs",
+    "tools/verification-progress/test.cjs"
+  ]
+}

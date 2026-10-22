@@ -1,0 +1,4 @@
+red-development/v318-progress-candidate/RED/tools/verification-progress/observe.py: OK
+red-development/v318-progress-candidate/RED/tools/verification-progress/preload.cjs: OK
+red-development/v318-progress-candidate/RED/tools/verification-progress/status.cjs: OK
+red-development/v318-progress-candidate/RED/tools/verification-progress/test.cjs: OK

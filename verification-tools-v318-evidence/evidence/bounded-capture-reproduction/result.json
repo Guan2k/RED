@@ -1,0 +1,10 @@
+{
+  "mode": "pure-observation-with-opt-in-failure-capture",
+  "exitCode": 0,
+  "wallSeconds": 144.47595489800733,
+  "finished": "2026-10-21T16:00:55.034136+00:00",
+  "allInputsUnchanged": true,
+  "interpretation": "not reproduced in this one invocation",
+  "fullGateAccepted": false,
+  "failureArtifacts": 10
+}

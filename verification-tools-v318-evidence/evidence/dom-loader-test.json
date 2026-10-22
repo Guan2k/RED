@@ -1,0 +1,71 @@
+{
+  "passed": 16,
+  "failed": 0,
+  "results": [
+    {
+      "name": "precise target transforms exactly; this filename trailing arguments and return preserved",
+      "passed": true
+    },
+    {
+      "name": "already transformed exact SHA is not hoisted twice",
+      "passed": true
+    },
+    {
+      "name": "non-target content and original thrown object are unchanged",
+      "passed": true
+    },
+    {
+      "name": "non-target zero and one argument arity preserved",
+      "passed": true
+    },
+    {
+      "name": "same basename outside verification untouched",
+      "passed": true
+    },
+    {
+      "name": "unknown target SHA and non-string target fail closed before compile",
+      "passed": true
+    },
+    {
+      "name": "target native compiler thrown identity preserved",
+      "passed": true
+    },
+    {
+      "name": "existing compiler before and after preload each invoked exactly once",
+      "passed": true
+    },
+    {
+      "name": "reject audit directory missing",
+      "passed": true
+    },
+    {
+      "name": "reject audit directory nonexistent",
+      "passed": true
+    },
+    {
+      "name": "reject audit directory in sealed tree",
+      "passed": true
+    },
+    {
+      "name": "reject symlink audit directory into sealed tree",
+      "passed": true
+    },
+    {
+      "name": "preserve-symlinks loader rejects real sealed audit root",
+      "passed": true
+    },
+    {
+      "name": "runtime mandatory audit failure stops target before native compilation",
+      "passed": true
+    },
+    {
+      "name": "quoted non-idempotent NODE_OPTIONS hook once per Node with existing output preserved",
+      "passed": true
+    },
+    {
+      "name": "audits distinguish transformed versus already transformed and never claim pass",
+      "passed": true
+    }
+  ],
+  "scope": "Short compiler-spy probes only; no historical 104-case execution. Mandatory transformation audit failures remain fatal; existing loader composition and Node hook outputs retained."
+}

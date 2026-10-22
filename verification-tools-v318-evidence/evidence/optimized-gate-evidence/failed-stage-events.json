@@ -1,0 +1,61 @@
+[
+  {
+    "schema": 1,
+    "runId": "b08a6807-8068-47a4-98f0-a2f594bf008c",
+    "processId": "5b5ca73e-1866-4c7b-a729-4233a039a202",
+    "pid": 114184,
+    "ppid": 149,
+    "sequence": 1,
+    "type": "process-start",
+    "at": "2026-10-21T15:43:13.020Z",
+    "elapsedMs": 7.964839,
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "script": "/tmp/red-current-verification-yKj3Ar/verification/bounded-ui-writes-negative-control-v318.cjs",
+    "cwd": "/tmp/red-current-verification-yKj3Ar"
+  },
+  {
+    "schema": 1,
+    "runId": "b08a6807-8068-47a4-98f0-a2f594bf008c",
+    "processId": "5b5ca73e-1866-4c7b-a729-4233a039a202",
+    "pid": 114184,
+    "ppid": 149,
+    "sequence": 2,
+    "type": "child-start",
+    "at": "2026-10-21T15:43:13.146Z",
+    "elapsedMs": 132.868057,
+    "callId": "5b5ca73e-1866-4c7b-a729-4233a039a202:1",
+    "command": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "script": "/tmp/red-current-verification-yKj3Ar/verification/bounded-ui-writes-v318.cjs"
+  },
+  {
+    "schema": 1,
+    "runId": "b08a6807-8068-47a4-98f0-a2f594bf008c",
+    "processId": "5b5ca73e-1866-4c7b-a729-4233a039a202",
+    "pid": 114184,
+    "ppid": 149,
+    "sequence": 3,
+    "type": "child-end",
+    "at": "2026-10-21T15:43:49.158Z",
+    "elapsedMs": 36146.587857,
+    "callId": "5b5ca73e-1866-4c7b-a729-4233a039a202:1",
+    "durationMs": 36006.971515,
+    "childPid": 114192,
+    "status": 1,
+    "signal": null,
+    "errorCode": null,
+    "errorName": null
+  },
+  {
+    "schema": 1,
+    "runId": "b08a6807-8068-47a4-98f0-a2f594bf008c",
+    "processId": "5b5ca73e-1866-4c7b-a729-4233a039a202",
+    "pid": 114184,
+    "ppid": 149,
+    "sequence": 4,
+    "type": "process-exit",
+    "at": "2026-10-21T15:43:49.209Z",
+    "elapsedMs": 36196.448329,
+    "exitCode": 1,
+    "droppedEvents": 0
+  }
+]

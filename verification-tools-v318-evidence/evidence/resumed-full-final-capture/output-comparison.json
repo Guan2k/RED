@@ -1,0 +1,8 @@
+{
+  "reference": "published-baseline-reference/full-gate.stdout",
+  "fullAggregateDeepEqual": true,
+  "excludedFields": [],
+  "keysDifferent": [],
+  "referenceSha256": "95c728f09a5eeba77c12c21ca558a3d71768c245b9c895b7e203e7177ff1b7e6",
+  "comparisonScope": "Canonical full aggregate JSON, not preflight or timing-log byte identity"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "explicit-mode-full-gate-verified-not-default-acceptance",
+  "baselineCommit": "3ad7bfe5e260bda7cfcd75e3923c6420b618295c",
+  "sourceArchiveSha256": "f2deccf677aa171531d8d264a54f0071d0a1e0653c351fcbf6aab198339e71c0",
+  "gameSourceSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "toolSourceChangesThisResume": [],
+  "newFullRun": {
+    "finished": "2026-10-22T00:23:19.034913+00:00",
+    "exit": 0,
+    "seconds": 733.4370400905609,
+    "inputFiles": 5421,
+    "changedInputPaths": [],
+    "mode": "explicit-dom-projection-transform-with-observation-and-final-head-capture",
+    "defaultGate": false
+  },
+  "fullCanonicalAggregateDeepEqualToPublishedBaseline": true,
+  "aggregateComparisonExcludedFields": [],
+  "scopedChecks": {
+    "observer": 33,
+    "capture": 15,
+    "loader": 16,
+    "equivalenceCases": 34,
+    "equivalenceAssertions": 122
+  },
+  "auditCompilations": 10,
+  "observedProcessStreams": 556,
+  "completedChildCalls": 552,
+  "observationIssues": [],
+  "remainingLimits": [
+    "Default untransformed gate not rerun this round.",
+    "Earlier bounded-ui failure did not recur; its original cause remains unknown.",
+    "Runtime is environment-dependent; no whole-run speedup attribution to one optimization.",
+    "VM/mock DOM verification only, no native browser/layout/touch/FPS acceptance.",
+    "Not published to GitHub; no new game features or player package."
+  ],
+  "historicalEvidencePreserved": true
+}

@@ -1,0 +1,8 @@
+{
+  "allThreeJsonDeepEqual": true,
+  "excludedFields": [],
+  "originalFullGateChildStderrUnavailable": true,
+  "originalChildFailureNotReproduced": true,
+  "rootCause": "Unresolved. Existing negative wrapper discarded failing child stderr. All three exact baseline-call controls now pass; this does not invalidate original full-gate failure.",
+  "transformEventsInCombinedControl": 0
+}

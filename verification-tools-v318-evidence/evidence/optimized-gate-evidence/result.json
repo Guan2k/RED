@@ -1,0 +1,10 @@
+{
+  "started": "2026-10-21T15:24:26.129987+00:00",
+  "finished": "2026-10-21T15:43:50.587412+00:00",
+  "exitCode": 1,
+  "originalUnchanged": true,
+  "isolatedInputsUnchanged": true,
+  "inputFiles": 5420,
+  "stderrBytes": 2105,
+  "scope": "Full v318 developer gate in EXPLICIT DOM TEST-CODE TRANSFORM plus progress-observation mode. Not the unmodified default gate. Source files sealed unchanged before/after; three per-dom builders hoisted at runtime; original scenarios/assertions/timeouts retained. No game FPS claim."
+}

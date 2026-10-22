@@ -1,0 +1,16 @@
+{
+  "tools/dom-projection/README.md": "bb70eb81c79512c69dae2f9393ce64625324b88601a458dd8b1594c97e5538aa",
+  "tools/dom-projection/adapter.cjs": "ab3ee1957602f6b435ecc52ec66c90b908d44acd8bf8295a11edd10d6764d7e1",
+  "tools/dom-projection/historical-contract.json": "ddb7dc9e42d4a962e7f6ad8d70e6e2c0b5dbedf0d7002c02eb951d1056e0d292",
+  "tools/dom-projection/loader-test.cjs": "9daa0c11b861cedf2828c9ec7e4658f9fbf9e16b2173305a3bdb3b42b52be668",
+  "tools/dom-projection/negative.cjs": "40759f5791cdc597cbd50d4cb3e1881ac76418f6f31b9787efd140edeafbb268",
+  "tools/dom-projection/positive.cjs": "635fde5c63538ea67841a3ee93a1c50dd3f7b698b5435766fc7ea0b11530d36a",
+  "tools/dom-projection/preload.cjs": "dd699daf6bb6c2b6f2bb1480934b94217c5e8abffd80897e25e3d0ed8cf8be99",
+  "tools/dom-projection/test.cjs": "f706bc2cf718b1a0a647cf12dd9015355d0d74eabd93edb9a351ef6208b56664",
+  "tools/verification-progress/README.md": "4144dbde435a43e7d89acddcc4cab392c6564b84c71881dc9265ba20606c2b29",
+  "tools/verification-progress/failure-output-test.cjs": "076100890763792f2f5afbf7336f6639ca3f8dfd14edc4c903e675ee04b75c10",
+  "tools/verification-progress/observe.py": "2f82f23d65e8aacaf266db265bd3786ad9f344c3d253b296a761f14017e644bd",
+  "tools/verification-progress/preload.cjs": "f0dc4bdf30acf00de74ae6ac971a4f8cfe167ce5eb3467a76b103aedfc000137",
+  "tools/verification-progress/status.cjs": "2d25e3d22248bb70b1cbc5ac20909c854a95eec0af1b0d4d4cc3cd53dce1cb0d",
+  "tools/verification-progress/test.cjs": "6a78739dd1d716e8add528424d55d374c563f4572d58376c68cdd290f33e83a6"
+}

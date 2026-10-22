@@ -1,0 +1,120 @@
+{
+  "passed": 28,
+  "failed": 0,
+  "results": [
+    {
+      "name": "preload equivalence binary",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence arguments",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence stdin-text",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence exit",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence signal",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence timeout",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence maxBuffer",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence missing",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence getter",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence argv-getter",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence argv-proxy",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence invalid",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence env-empty",
+      "passed": true
+    },
+    {
+      "name": "preload equivalence inherit",
+      "passed": true
+    },
+    {
+      "name": "existing quoted NODE_OPTIONS require preserved",
+      "passed": true
+    },
+    {
+      "name": "wrapper equivalent verify-development.cjs ",
+      "passed": true
+    },
+    {
+      "name": "wrapper equivalent verify-development.cjs --check-only",
+      "passed": true
+    },
+    {
+      "name": "wrapper equivalent verify-current.cjs ",
+      "passed": true
+    },
+    {
+      "name": "wrapper equivalent verify-current.cjs --check-only",
+      "passed": true
+    },
+    {
+      "name": "wrapper existing NODE_OPTIONS require with spaces",
+      "passed": true
+    },
+    {
+      "name": "reject progress inside sealed tree before launch",
+      "passed": true
+    },
+    {
+      "name": "reject symlink into sealed tree before launch",
+      "passed": true
+    },
+    {
+      "name": "reject reused evidence directory without overwrite",
+      "passed": true
+    },
+    {
+      "name": "reject arbitrary entry and unsupported flags",
+      "passed": true
+    },
+    {
+      "name": "runtime log removal cannot mask exit failure or stderr",
+      "passed": true
+    },
+    {
+      "name": "preload logging failures recover as incomplete evidence",
+      "passed": true
+    },
+    {
+      "name": "POSIX SIGTERM cancellation reaches synchronous descendant",
+      "passed": true
+    },
+    {
+      "name": "POSIX SIGINT cancellation reaches synchronous descendant",
+      "passed": true
+    }
+  ],
+  "scope": "Focused optional-observer transparency tests using minimal synthetic package fixtures; no game gate or browser test.",
+  "temporary": "/tmp/red-progress-tests-YH553G"
+}

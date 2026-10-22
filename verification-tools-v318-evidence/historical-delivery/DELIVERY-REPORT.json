@@ -1,0 +1,125 @@
+{
+  "status": "experimental-not-release-accepted",
+  "baselineCommit": "3ad7bfe5e260bda7cfcd75e3923c6420b618295c",
+  "gameVersion": "318",
+  "gameSourceSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "changedOriginalFiles": [
+    "SHA256SUMS.txt"
+  ],
+  "addedFiles": [
+    "tools/dom-projection/README.md",
+    "tools/dom-projection/adapter.cjs",
+    "tools/dom-projection/historical-contract.json",
+    "tools/dom-projection/loader-test.cjs",
+    "tools/dom-projection/negative.cjs",
+    "tools/dom-projection/positive.cjs",
+    "tools/dom-projection/preload.cjs",
+    "tools/dom-projection/test.cjs",
+    "tools/verification-progress/README.md",
+    "tools/verification-progress/failure-output-test.cjs",
+    "tools/verification-progress/observe.py",
+    "tools/verification-progress/preload.cjs",
+    "tools/verification-progress/status.cjs",
+    "tools/verification-progress/test.cjs"
+  ],
+  "deletedOriginalFiles": [],
+  "unitCounts": {
+    "progressRegression": 33,
+    "failureCaptureFinalHeadTail": 15,
+    "domProjectionEquivalence": 34,
+    "domLoader": 16
+  },
+  "finalFailureLayout": {
+    "stderr": "head8192",
+    "stdout": "tail4096",
+    "default": "disabled",
+    "scope": "Final layout validated by focused tests and original33 regression only. Earlier actual reproduction used stderr tail and is retained separately."
+  },
+  "focusedExplicitTransform": [
+    {
+      "mode": "explicit-dom-transform-original-entry",
+      "entry": "verification/command-allocation-feedback-v318.cjs",
+      "wallSeconds": 28.37630029200227,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "stderrBytes": 0,
+      "passed": 104,
+      "failed": 0,
+      "assertions": 1114,
+      "exactAdapterJsonEqual": true
+    },
+    {
+      "mode": "explicit-dom-transform-original-entry",
+      "entry": "verification/command-allocation-feedback-negative-control-v318.cjs",
+      "wallSeconds": 135.96766029800347,
+      "status": 0,
+      "signal": null,
+      "errorCode": null,
+      "stderrBytes": 0,
+      "passed": 8,
+      "failed": 0,
+      "exactAdapterJsonEqual": true
+    }
+  ],
+  "focusedTransformAudit": {
+    "explicitRuntimeCodeTransform": true,
+    "nodeOptions": "--require \"/workspace/scratch/e433d7540f34/red-development/v318-progress-candidate/RED/tools/dom-projection/preload.cjs\"",
+    "targetCompilations": 10,
+    "originalSha256": "7d02d8719470791dc2e9a9eba193ba338f9f729304bfeb4a903e842d52f69ac4",
+    "transformedSha256": "1018a5e4fefb3744ba353bb66b45004ad60e12dd22f883c45bda39cbe9134dad",
+    "allAppliedOnce": true
+  },
+  "pureObservationFullGate": {
+    "started": "2026-10-21T14:14:20.942341+00:00",
+    "finished": "2026-10-21T15:00:33.451725+00:00",
+    "exitCode": 1,
+    "originalUnchanged": true,
+    "isolatedInputsUnchanged": true,
+    "inputFiles": 5417,
+    "stderrBytes": 3575,
+    "scope": "Full unchanged v318 developer gate with optional progress observer, all inputs sealed before/after, no result reuse or timeout changes. Observation timing includes overhead and is not FPS."
+  },
+  "explicitTransformFullGate": {
+    "started": "2026-10-21T15:24:26.129987+00:00",
+    "finished": "2026-10-21T15:43:50.587412+00:00",
+    "exitCode": 1,
+    "originalUnchanged": true,
+    "isolatedInputsUnchanged": true,
+    "inputFiles": 5420,
+    "stderrBytes": 2105,
+    "scope": "Full v318 developer gate in EXPLICIT DOM TEST-CODE TRANSFORM plus progress-observation mode. Not the unmodified default gate. Source files sealed unchanged before/after; three per-dom builders hoisted at runtime; original scenarios/assertions/timeouts retained. No game FPS claim."
+  },
+  "boundedControls": {
+    "allThreeJsonDeepEqual": true,
+    "excludedFields": [],
+    "originalFullGateChildStderrUnavailable": true,
+    "originalChildFailureNotReproduced": true,
+    "rootCause": "Unresolved. Existing negative wrapper discarded failing child stderr. All three exact baseline-call controls now pass; this does not invalidate original full-gate failure.",
+    "transformEventsInCombinedControl": 0
+  },
+  "singleBoundedReproduction": {
+    "mode": "pure-observation-with-opt-in-failure-capture",
+    "exitCode": 0,
+    "wallSeconds": 144.47595489800733,
+    "finished": "2026-10-21T16:00:55.034136+00:00",
+    "allInputsUnchanged": true,
+    "interpretation": "not reproduced in this one invocation",
+    "fullGateAccepted": false,
+    "failureArtifacts": 10
+  },
+  "oldTailCaptureLimitation": {
+    "capturedExpectedMutationFailures": 10,
+    "mode0600All": true,
+    "capturedHashesAndLimitsAllValid": true,
+    "stderrLayoutUsed": "tail8192",
+    "stderrTruncatedFiles": 8,
+    "assertionHeaderVisibleFiles": 2,
+    "limitation": "Large assertion output can lose the primary header with tail capture; later candidate changes stderr to head8192 and is tested separately. This reproduction was not rerun on head mode.",
+    "originalBaselineFailureReproduced": false,
+    "fullGateAccepted": false
+  },
+  "canonicalFullSummaryComparison": "Unavailable: both full attempts failed before canonical final JSON. No fields ignored and no partial result claimed as complete acceptance.",
+  "publication": "Not published to GitHub; candidate only. Game source and historical verifiers unchanged. Default commands unchanged.",
+  "remainingBlocker": "Original full-gate bounded-ui baseline exit1 lacked child stderr because historical wrapper discarded it. Later exact controls and one complete negative invocation did not reproduce it; root cause unresolved. No full retry or relaxed standard."
+}

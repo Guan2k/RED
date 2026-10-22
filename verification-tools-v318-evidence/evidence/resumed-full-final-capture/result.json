@@ -1,0 +1,9 @@
+{
+  "finished": "2026-10-22T00:23:19.034913+00:00",
+  "exit": 0,
+  "seconds": 733.4370400905609,
+  "inputFiles": 5421,
+  "changedInputPaths": [],
+  "mode": "explicit-dom-projection-transform-with-observation-and-final-head-capture",
+  "defaultGate": false
+}

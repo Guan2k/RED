@@ -1,0 +1,10 @@
+{
+  "started": "2026-10-21T14:14:20.942341+00:00",
+  "finished": "2026-10-21T15:00:33.451725+00:00",
+  "exitCode": 1,
+  "originalUnchanged": true,
+  "isolatedInputsUnchanged": true,
+  "inputFiles": 5417,
+  "stderrBytes": 3575,
+  "scope": "Full unchanged v318 developer gate with optional progress observer, all inputs sealed before/after, no result reuse or timeout changes. Observation timing includes overhead and is not FPS."
+}
