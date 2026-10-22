@@ -12,7 +12,7 @@ function run(args,{spawn=require('node:child_process').spawnSync,log=console.log
     ['trusted building data validation',['--test','tools/building-art-data.test.mjs']],
     ['trusted vehicle data validation',['--test','tools/vehicle-art-data.test.mjs']]
   ];
-  if(!args.length)stages.push(['unchanged canonical game verification',['verify-current.cjs']]);
+  if(!args.length)stages.push(['layered current and historical game verification',['verify-current.cjs']]);
   for(const[label,command]of stages){
     log('Developer preflight: '+label);
     let result;
@@ -23,7 +23,7 @@ function run(args,{spawn=require('node:child_process').spawnSync,log=console.log
     if(!Number.isInteger(result?.status)||result.status<0){error('Developer preflight returned no exit status at '+label);return 1}
     if(result.status!==0){error('Developer preflight failed at '+label+' (exit '+result.status+')');return result.status}
   }
-  log(args.length?'Developer checks passed; game verification was not executed.':'Developer checks and unchanged canonical game verification passed.');
+  log(args.length?'Developer checks passed; game verification was not executed.':'Developer checks and layered current and historical game verification passed.');
   return 0;
 }
 module.exports={run};

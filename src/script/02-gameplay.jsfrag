@@ -13,9 +13,20 @@ function disableSound(message=''){soundPending=false;soundEnabled=false;soundGen
 async function toggleSound(){if(soundEnabled||soundPending){disableSound();return}let generation=++soundGeneration;soundPending=true;updateSoundButton();try{let Audio=window.AudioContext||window.webkitAudioContext;if(!Audio){disableSound('当前浏览器不支持音效；游戏仍可正常操作');return}if(!soundContext||soundContext.state==='closed')soundContext=new Audio();await soundContext.resume();if(generation!==soundGeneration)return;if(soundContext.state!=='running'){disableSound('音效未获浏览器启用；可再次点击尝试，游戏不受影响');return}soundPending=false;soundEnabled=true;updateSoundButton()}catch{if(generation===soundGeneration)disableSound('音效启用失败；游戏仍可正常操作')}}
 function playSound(kind){if(!soundEnabled||!soundContext||soundContext.state!=='running')return;let result=['win','loss','draw'].includes(kind);if(!state?.started||restartPrompt||(!result&&(state.paused||state.result)))return;let tones={order:[520],ready:[660,880],alert:[440,330],win:[523,659,784],loss:[392,330,262],draw:[440,440]}[kind];if(!tones)return;let now=soundContext.currentTime,gap=kind==='alert'?2:kind==='order'?.12:.4;if(now-(soundLast[kind]??-Infinity)<gap)return;if(result)stopSoundVoices();if(soundVoices.size+tones.length>6)return;soundLast[kind]=now;try{for(let i=0;i<tones.length;i++){let osc=soundContext.createOscillator(),gain=soundContext.createGain(),voice={osc,gain},at=now+i*.1;soundVoices.add(voice);osc.type='triangle';osc.frequency.setValueAtTime(tones[i],at);gain.gain.setValueAtTime(0,at);gain.gain.linearRampToValueAtTime(.035,at+.012);gain.gain.linearRampToValueAtTime(0,at+.095);osc.connect(gain);gain.connect(soundContext.destination);osc.onended=()=>{soundVoices.delete(voice);releaseSoundVoice(voice)};osc.start(at);osc.stop(at+.1)}}catch{disableSound('音效播放失败，已静音；游戏仍可正常操作')}}
 const MAX_EFFECTS=256,HARVEST_GOAL=10000,SURVIVAL_GOAL=360;
-function pushEffect(effect){if(effect.type==='order')state.fx=state.fx.filter(e=>e.type!=='order');state.fx.push(effect);if(state.fx.length>MAX_EFFECTS)state.fx.splice(0,state.fx.length-MAX_EFFECTS)}
+function decorativeEffect(effect){return effect.type==='spark'||effect.type==='smoke'||effect.type==='scorch'}
+function pushEffect(effect){
+  if(effect.type==='order')state.fx=state.fx.filter(e=>e.type!=='order');
+  if(state.fx.length>=MAX_EFFECTS){
+    let disposable=state.fx.findIndex(decorativeEffect);
+    if(disposable>=0)state.fx.splice(disposable,1);
+    else if(decorativeEffect(effect))return;
+    else state.fx.shift(); // Critical feedback alone overloads: retain the existing oldest-first policy.
+  }
+  state.fx.push(effect);
+}
 // Cosmetic-only battlefield effects: fixed-angle sparks never consume the gameplay RNG.
-// The existing MAX_EFFECTS bound and fx lifetime update also bound all new particles.
+// All effects share the 256-slot bound; only new decoration yields to existing feedback.
+// Unknown types default to feedback. Natural expiry still belongs to the fx lifetime update.
 function spawnImpactSparks(x,y,radius,seed,count){
   for(let i=0;i<count;i++){
     let angle=i*2.399963+seed*.73,reach=radius*(.6+(i%4)*.2),life=.32+(i%3)*.12;

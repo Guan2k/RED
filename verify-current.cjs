@@ -6,7 +6,10 @@ function need(ok,message){if(!ok)throw new Error(message)}
 function safeName(name){
   need(typeof name==='string'&&name.length>0&&!path.isAbsolute(name)&&!name.includes('\\'),'invalid package path: '+name);
   const parts=name.split('/');
-  need(parts.every(p=>/^[A-Za-z0-9._-]+$/.test(p)&&p!=='.'&&p!=='..'&&!p.endsWith('.')&&!/^(?:con|prn|aux|nul|com[1-9]|lpt[1-9])(?:\.|$)/i.test(p)), 'noncanonical package path: '+name);
+  // Two already-published historical evidence documents use this exact Chinese basename.
+  // Preserve their bytes and paths without accepting arbitrary Unicode package names.
+  const archivedDelivery=['verification-tools-v318-evidence/交付说明.txt','verification-tools-v318-evidence/historical-delivery/交付说明.txt'].includes(name);
+  need(parts.every((p,i)=>(/^[A-Za-z0-9._-]+$/.test(p)||(archivedDelivery&&i===parts.length-1&&p==='交付说明.txt'))&&p!=='.'&&p!=='..'&&!p.endsWith('.')&&!/^(?:con|prn|aux|nul|com[1-9]|lpt[1-9])(?:\.|$)/i.test(p)), 'noncanonical package path: '+name);
   need(!parts.some(p=>/^\.(?:git|hg|svn)$/i.test(p)),'workspace metadata is not a package file: '+name);
   return parts;
 }
@@ -60,6 +63,11 @@ function verify(base=root){
     const required=[m.runner,contract.historicalRunner,'verification/parameterized-pilot/vm-environment-provenance.cjs','verification/stable-suites/provenance-loader.cjs',...expected.map(x=>'verification/'+x[1])];
     need(contract.files&&required.every(n=>Object.hasOwn(contract.files,n)),'stable dependency inventory incomplete');
     for(const[n,digest]of Object.entries(contract.files))need(files.has(n)&&hash(files.get(n))===digest,'stable dependency missing or mismatched: '+n);
+    if(files.has('verification/current-release/run.cjs')){
+      need(contract.currentValidation?.entry==='verification/current-release/run.cjs'&&contract.currentValidation.sourceSha256===m.sourceSha256,'current layered validation contract mismatch');
+      for(const n of ['verification/current-release/run.cjs','verification/current-release/source.cjs','verification/current-release/source.test.cjs','verification/current-release/source-contract.json','verification/current-release/changes.json','verification/current-effects/suite.cjs','verification/current-effects/negative-controls.cjs','tools/explosion-effects.test.cjs','tools/effect-feedback-retention.test.cjs'])need(files.has(n)&&Object.hasOwn(contract.files,n),'current layer dependency missing: '+n);
+    }
+
   }
   const versions=[...files.get(m.source).toString('utf8').matchAll(/<small>赤色前线 \/ ORIGINAL RTS \/ v0\.([1-9][0-9]*)<\/small>/g)];
   need(versions.length===1&&versions[0][1]===m.version,'source display version disagrees with manifest');

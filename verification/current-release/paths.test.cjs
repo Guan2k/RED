@@ -1,0 +1,10 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const raw=fs.readFileSync(path.join(__dirname,'../../verify-current.cjs'),'utf8');
+const begin=raw.indexOf('function safeName(name){'),end=raw.indexOf('\nfunction checkedFile(',begin);assert.ok(begin>=0&&end>begin);
+const ctx={path,need:(ok,message)=>assert.ok(ok,message)};vm.createContext(ctx);vm.runInContext(raw.slice(begin,end)+';globalThis.safe=safeName;',ctx);
+const accepted=['index.html','verification/current-release/source.cjs','verification-tools-v318-evidence/交付说明.txt','verification-tools-v318-evidence/historical-delivery/交付说明.txt'];
+for(const p of accepted)assert.ok(ctx.safe(p));
+const rejected=['交付说明.txt','verification-tools-v318-evidence/其他.txt','verification-tools-v318-evidence/Historical-delivery/交付说明.txt','Verification-tools-v318-evidence/交付说明.txt','verification-tools-v318-evidence/historical-delivery/交付説明.txt','verification-tools-v318-evidence/historical-delivery/交付说明.txt.','verification-tools-v318-evidence/historical-delivery/交付说明.txt/child','verification-tools-v318-evidence/historical-delivery/交付说明.txt\u0301','verification-tools-v318-evidence/historical-delivery/./交付说明.txt','verification-tools-v318-evidence/../交付说明.txt','verification-tools-v318-evidence//交付说明.txt','verification-tools-v318-evidence\\交付说明.txt','/verification-tools-v318-evidence/交付说明.txt','verification-tools-v318-evidence/%E4%BA%A4%E4%BB%98.txt','.git/config','verification/.git/config','CON.txt','nul','verification/name.'];
+for(const p of rejected)assert.throws(()=>ctx.safe(p),undefined,p);
+console.log(JSON.stringify({passed:accepted.length+rejected.length,failed:0,accepted,rejected,scope:'Exact production safeName function; narrowly allowed archived paths, case, normalization-like suffix, homoglyph, traversal, separators, metadata and Windows reserved names.'},null,2));

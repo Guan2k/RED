@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "baselineCommit": "3ad7bfe5e260bda7cfcd75e3923c6420b618295c",
+  "currentSha256": "40a87bb71d524b5cf7756a39c4806a14655656e69a4bbd4774584a7dbf7494af",
+  "baselineSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "changesSha256": "d475c4e1b58e84694b13bdb598da5f5c24c8d48f6826db5e0a31565388938648",
+  "boundaries": 4,
+  "scope": "Four reviewed exact boundaries: responsive CSS append, cosmetic helpers plus feedback-preserving bounded queue, adjacent destruction and hit calls, renderer replacement. Reverse only for exact historical identity; never current runtime.",
+  "historicalProductFiles": {
+    "src/styles.css": {
+      "currentSha256": "b8bdcb5409c564e220a694489aa3683f867bcc9c68c2b391020aa08340ae3ebf",
+      "baselineSha256": "f30b8137fab76d06c3612ce96da2a662e4d05d9785dec29172e3d8855ecd0f7e",
+      "inverseIndexes": [
+        0
+      ]
+    },
+    "src/script/02-gameplay.jsfrag": {
+      "currentSha256": "24b29113440904a71ff91ea897ea12948375c3eee56ee18ec04211e27ee6f2d4",
+      "baselineSha256": "196c0a62953d2697bfb434e1d0e3fdb2c6be31a04c19638e689a1c4b2db20b5c",
+      "inverseIndexes": [
+        2,
+        1
+      ]
+    },
+    "src/script/03-renderer.jsfrag": {
+      "currentSha256": "6d91d0844919f51f5c33717112eb4761d654626fc1cbea344242eb5a0df19320",
+      "baselineSha256": "5db971e9421385474dfbfc6a638ab747f7377673c58fc49dbcc1d39d08f5ba6f",
+      "inverseIndexes": [
+        3
+      ]
+    }
+  },
+  "historicalReceiptSha256": "2abf5a69b2059289aa4e0006a925bd891325d8a1f5a2ea5033f2be359b06c33a",
+  "historicalProductInventory": {
+    "index.html": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+    "source-build-receipt.json": "2abf5a69b2059289aa4e0006a925bd891325d8a1f5a2ea5033f2be359b06c33a",
+    "src/art/buildings.mjs": "91bbb7781700bd9098fe5091757d150be4b4b463d8f545c6f625260ba3ad0e6c",
+    "src/art/vehicles.mjs": "15371928e96f38702d23ef12983d0dd89a3c65bee84f9abbed524d17ad107112",
+    "src/geometry.mjs": "ec617ada5a5c3466a4c326d2c3a3f3d968946a10c619f5c48b49c172f14ba76f",
+    "src/index.template.html": "3b3bf21269e16af7c6c2f5fcf396eddd1fdf11c8ac1452db1acbf2da0d6371bf",
+    "src/script/01-bootstrap.jsfrag": "94d62eaf3a24e5de5bda7c81689b224a3230672966aa206d43c779d252c9b8aa",
+    "src/script/02-gameplay.jsfrag": "196c0a62953d2697bfb434e1d0e3fdb2c6be31a04c19638e689a1c4b2db20b5c",
+    "src/script/03-renderer.jsfrag": "5db971e9421385474dfbfc6a638ab747f7377673c58fc49dbcc1d39d08f5ba6f",
+    "src/script/04-interface-runtime.jsfrag": "b6a52b721e61841bd02c435b1d358332e4894aa67244f090d4b6d441941db143",
+    "src/styles.css": "f30b8137fab76d06c3612ce96da2a662e4d05d9785dec29172e3d8855ecd0f7e"
+  },
+  "baseSourceCommit": "c2d501ade2959a3bffc7e6bb72c4ac0e8d58dbf3",
+  "currentCommit": null
+}

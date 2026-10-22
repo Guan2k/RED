@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "version": "318",
   "source": "index.html",
-  "sourceSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
+  "sourceSha256": "40a87bb71d524b5cf7756a39c4806a14655656e69a4bbd4774584a7dbf7494af",
   "runner": "verification/stable-suites/release-runner.cjs",
-  "runnerSha256": "b2649d6391fa3228295dc515b11b5b06f4560c2b26384b18f1315eb82627d8f3"
+  "runnerSha256": "d0773ab62fb99d353d9e7a99e2d59f70642998de49a4a575f14141a2dc902106"
 }
