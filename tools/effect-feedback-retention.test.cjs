@@ -58,8 +58,11 @@ function referenceHtml(){
  const html=fs.readFileSync(source,'utf8'),start=html.indexOf('function decorativeEffect('),end=html.indexOf('function spawnImpactSparks(',start);
  assert.ok(start>0&&end>start);
  const old="function pushEffect(effect){if(effect.type==='order')state.fx=state.fx.filter(e=>e.type!=='order');state.fx.push(effect);if(state.fx.length>MAX_EFFECTS)state.fx.splice(0,state.fx.length-MAX_EFFECTS)}\n// Cosmetic-only battlefield effects: fixed-angle sparks never consume the gameplay RNG.\n// The existing MAX_EFFECTS bound and fx lifetime update also bound all new particles.\n";
- const restored=html.slice(0,start)+old+html.slice(end);
- assert.equal(require('node:crypto').createHash('sha256').update(restored).digest('hex'),BASE_SHA,'inverse approved queue-only edit recovers exact c2d501a whole HTML');
+ const routeDelta=require('../verification/current-release/changes.json')[4];
+ const queueRestored=html.slice(0,start)+old+html.slice(end);
+ assert.equal(queueRestored.split(routeDelta.after).length-1,1,'unique approved pathfinding boundary');
+ const restored=queueRestored.replace(routeDelta.after,routeDelta.before);
+ assert.equal(require('node:crypto').createHash('sha256').update(restored).digest('hex'),BASE_SHA,'inverse approved queue and pathfinding edits recovers exact c2d501a whole HTML');
  return restored;
 }
 function withReference(fn){const dir=fs.mkdtempSync(path.join(os.tmpdir(),'red-retention-reference-'));try{const file=path.join(dir,'index.html');fs.writeFileSync(file,referenceHtml());return fn(file);}finally{fs.rmSync(dir,{recursive:true,force:true})}}

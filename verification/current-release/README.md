@@ -1,10 +1,10 @@
 # Latest source layered validation
 
-The displayed game version remains v0.318, but the unpublished source is based on the c2d501a UI/effects artifact plus the feedback-retention fix (current SHA-256 is pinned in source-contract.json). The integrated candidate includes the bounded feedback-retention queue fix; styles, renderer and all unrelated gameplay retain exact published bytes.
+The displayed game version remains v0.318. The unpublished candidate adds per-search A* heuristic caching to the c2d501a UI/effects artifact and feedback-retention fix (current SHA-256 is pinned in source-contract.json). Path selection, movement, styles and rendering are unchanged; each search owns its cache, so goals and obstacles cannot leave stale values.
 
 The default stable entry runs two explicitly different layers:
 
-1. Current source: exact four-boundary source contract (including the queue fix), 18 whole-index feedback-retention tests, existing effects fragment tests, whole-current-index runtime effects/differential scenarios and semantic negative controls. The inverse delta is never used as the current runtime input.
+1. Current source: exact five-boundary source contract (including the queue fix and heuristic cache), baseline-versus-current pathfinding differential/work-count tests, 18 whole-index feedback-retention tests, existing effects fragment tests, whole-current-index runtime effects/differential scenarios and semantic negative controls. The inverse delta is never used as the current runtime input.
 2. Historical source: reconstruct exact original v318 index; restore the archived stable runner and its exact release contract into a private directory; run its existing game aggregation unchanged. Its nested historical report's `current` labels refer to that v318 artifact only. This is not a latest-source replay of every old test. Historical package integrity/developer preflight are not run on that mixed private copy.
 
 Any current layer failure stops the gate before historical success can mask it. All scripts, archived metadata and source-delta data are sealed in the package and explicit dependency inventory. The root developer preflight also verifies current editable-source/build consistency.
