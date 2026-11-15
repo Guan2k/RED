@@ -51,7 +51,9 @@ function runSuite({current=currentDefault,baseline,only}={}){
   assert.ok(calls.some(x=>x.phase==='scars'&&x.method==='ellipse'),'scorch layer rendered');
   assert.ok(calls.some(x=>x.phase==='spark'&&x.method==='stroke'&&x.stroke==='#ffe8ad'),'spark renderer branch');
   assert.ok(calls.some(x=>x.phase==='smoke'&&x.method==='fill'&&x.fill==='#303a37'),'smoke renderer branch');
-  assert.ok(calls.some(x=>x.phase==='boom'&&x.method==='fill'&&x.fill==='#f46c29'),'boom renderer branch');
+  assert.ok(calls.some(x=>x.phase==='boom'&&x.method==='fill'&&x.fill==='#b94b20'),'cooling blast body rendered');
+   assert.equal(calls.filter(x=>x.phase==='boom'&&x.method==='fill'&&['#ed782b','#ffac46'].includes(x.fill)).length,12,'six fire lobes per detailed render');
+   assert.equal(calls.filter(x=>x.phase==='boom'&&x.method==='ellipse').length,2,'one pressure front per detailed render');
   assert.equal(g.run('__rngCalls'),0);g.run('state=__savedState');
  });
  test('save-load-reset-transient',()=>{

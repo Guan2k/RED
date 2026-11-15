@@ -1312,7 +1312,7 @@ function drawBattleScars(){
     ctx.globalAlpha=.72*fade;
     ctx.fillStyle='#232724';
     ctx.beginPath();ctx.ellipse(f.x,f.y,r*.54,r*.34,twist,0,Math.PI*2);ctx.fill();
-    for(let i=0;i<5;i++){
+    for(let i=0,n=detailedBattleEffects()?5:2;i<n;i++){
       let angle=f.seed*.79+i*2.399963,x=f.x+Math.cos(angle)*r*.54,y=f.y+Math.sin(angle)*r*.37;
       ctx.fillStyle=i%2?'#66645b':'#414b48';
       ctx.beginPath();ctx.moveTo(x,y);
@@ -1329,6 +1329,9 @@ function drawBattleScars(){
   }
   ctx.restore();
 }
+// Busy battlefields simplify decoration, never semantic feedback or effect lifetime.
+// No blur/filter, gradients, extra particles, timers or gameplay RNG are needed.
+function detailedBattleEffects(){return state.fx.length<128}
 function drawBattleEffect(f){
   if(f.type==='scorch')return;
   let remain=Math.max(0,Math.min(1,f.t/f.max)),p=1-remain;
@@ -1348,17 +1351,36 @@ function drawBattleEffect(f){
     let x=f.x+f.dx*p,y=f.y+f.dy*p+f.gravity*p*p;
     ctx.strokeStyle=p<.5?'#ffe8ad':'#f39a57';ctx.lineWidth=f.size*(1-p*.5);
     ctx.beginPath();ctx.moveTo(x-f.dx*.14,y-f.dy*.14);ctx.lineTo(x,y);ctx.stroke();
-    circle(x,y,Math.max(.6,f.size*(1-p*.6)),'#ffdc91');
+    if(detailedBattleEffects())circle(x,y,Math.max(.6,f.size*(1-p*.6)),'#ffdc91');
   }else if(f.type==='smoke'){
     let x=f.x+f.dx*p+Math.sin(p*5+f.seed)*4,y=f.y+f.dy*p,r=f.radius*(.35+p*.94);
     ctx.globalAlpha=Math.sin(Math.PI*p)*.4;
-    circle(x,y,r,'#303a37');circle(x+r*.4,y-r*.3,r*.77,'#4c5551');circle(x-r*.35,y-r*.15,r*.64,'#6e6f62');
+    circle(x,y,r,'#303a37');
+    if(detailedBattleEffects()){
+      circle(x+r*.4,y-r*.3,r*.77,'#4c5551');circle(x-r*.35,y-r*.15,r*.64,'#6e6f62');
+    }
   }else if(f.type==='boom'){
-    let r=f.radius||40,reach=r*(.17+p*.9);
-    ctx.globalCompositeOperation='lighter';ctx.globalAlpha=remain*.6;
-    circle(f.x,f.y,reach,'#f46c29');circle(f.x,f.y,reach*.59,'#ffb85a');circle(f.x,f.y,reach*.27,'#fff2bc');
+    let r=f.radius||40,reach=r*(.17+Math.sqrt(p)*.9),hot=Math.max(0,1-p*2.5);
+    // Fast white-hot ignition gives way to expanding, cooling fire petals.
+    ctx.globalCompositeOperation='lighter';ctx.globalAlpha=remain*.55;
+    circle(f.x,f.y,reach,'#b94b20');
+    if(detailedBattleEffects()){
+      for(let i=0;i<6;i++){
+        let a=i*Math.PI/3+.35,spread=r*p*.65;
+        circle(f.x+Math.cos(a)*spread,f.y+Math.sin(a)*spread*.72,reach*(.46-p*.15),i%2?'#ed782b':'#ffac46');
+      }
+    }
+    ctx.globalAlpha=remain*.85;
+    circle(f.x,f.y,reach*(.6-p*.25),'#ffb85a');
+    if(hot>0){ctx.globalAlpha=hot;circle(f.x,f.y,r*(.13+hot*.19),'#fff4d2')}
     ctx.globalAlpha=remain*.9;ctx.strokeStyle='#ffd087';ctx.lineWidth=4*(1-p)+1;
     ctx.beginPath();ctx.arc(f.x,f.y,r*(.27+p*1.13),0,Math.PI*2);ctx.stroke();
+    // Flattened pressure front travels outside the fireball, then fades early.
+    if(detailedBattleEffects()){
+      ctx.globalCompositeOperation='source-over';ctx.globalAlpha=remain*remain*.5;
+      ctx.strokeStyle='#ebd8ab';ctx.lineWidth=1.5;
+      ctx.beginPath();ctx.ellipse(f.x,f.y+r*.12,r*(.45+p*1.7),r*(.2+p*.72),0,0,Math.PI*2);ctx.stroke();
+    }
   }else if(f.type==='hit'||f.type==='flash'){
     let r=f.type==='hit'?15:9;
     ctx.globalCompositeOperation='lighter';

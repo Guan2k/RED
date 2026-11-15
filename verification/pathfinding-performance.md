@@ -2,7 +2,7 @@
 
 ## Scope and baseline
 
-Baseline: `ddc54deba51dae5754aa6d99a4b6f0ec002ee32d` (main). Only `findMovementRoute` changes in production. No UI, renderer, animation, command, save format or simulation-step change. This is independent of the animation work in PR #3.
+Original optimization baseline: `ddc54deba51dae5754aa6d99a4b6f0ec002ee32d`. The integration follow-up merges main `16503abe49fdced72335667d0aebe508a9e37bff`, including PR #3's animation, into this PR. Relative to that main revision, only `findMovementRoute` changes in production. Main's renderer and this PR's optimized gameplay fragment are each retained byte-for-byte. No UI, command, save format or simulation-step change is introduced by this integration. The CPU timings below remain measurements from the original optimization, not a new end-to-end benchmark of the combined animation/search build.
 
 The 600-node A* grid previously recomputed a node's Euclidean distance to the same destination on every open-set scan. A search-local 602-element Float64Array now stores each value after its first use. Cost relaxation, open-set insertion/iteration order, strict comparisons and route smoothing are unchanged. Direct paths return before allocating the array. Nontrivial searches allocate an additional 4,816 bytes, released with the call; there is no persistent cache or invalidation protocol.
 
