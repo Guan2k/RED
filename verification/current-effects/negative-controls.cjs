@@ -7,6 +7,8 @@ const raw=fs.readFileSync(process.argv[2]||currentDefault,'utf8');
 const baseline=process.argv[3]||baselineDefault();
 const out=path.resolve(process.argv[4]||fs.mkdtempSync(path.join(os.tmpdir(),'red-effects-mutants-')));fs.mkdirSync(out,{recursive:true});
 const cases=[
+ ['missing-fire-lobes',"i%2?'#ed782b':'#ffac46'","'#b94b20'",'full-render-pure-and-branches'],
+ ['missing-pressure-front','ctx.ellipse(f.x,f.y+r*.12,r*(.45+p*1.7),r*(.2+p*.72),0,0,Math.PI*2);','ctx.arc(f.x,f.y,1,0,Math.PI*2);','full-render-pure-and-branches'],
  ['missing-destruction-spawn','spawnDestructionEffects(target);','void target;', 'hit-destruction-spawn'],
  ['missing-hit-sparks',"spawnImpactSparks(center.x,center.y,shot.kind==='artillery'?27:15,target.id+Math.floor(state.t*10),shot.kind==='artillery'?6:4);",'', 'hit-destruction-spawn'],
  ['missing-spark-renderer',"}else if(f.type==='spark'){","}else if(f.type==='disabled-spark'){",'full-render-pure-and-branches'],

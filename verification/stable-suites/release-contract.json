@@ -56,8 +56,8 @@
     "verification/current-release/source.cjs": "2060bc1b9381eb94d3a7b258f588d810d50dc46673db72ecf934c3fd38dc013a",
     "verification/current-release/source.test.cjs": "7da271f023e0f7e74039a3d5478136e18f4b0ee8e358a41ec596ce36fda2a31e",
     "verification/current-effects/README.md": "146bdfbc700fb70ce27b579b58687e9afb87ae82aa4a2f84d32cd5fdde1dc2d0",
-    "verification/current-effects/negative-controls.cjs": "1c7c8eb834877f5a2248b95156318692d1d0032034873c2c7adfad5c401ff9dd",
-    "verification/current-effects/suite.cjs": "e30fc706eb80958d929e3212c437fc81ee1242e86b1a661530a357ad392aeb9b",
+    "verification/current-effects/negative-controls.cjs": "f51ad754894f016b21daef4d25a65f12e2fd1a587acda8be84d1a11cd2bb4a72",
+    "verification/current-effects/suite.cjs": "136e1b57470f8090a50e32dc3c0e90dedda435457f23384970bd87c4ae48279d",
     "tools/explosion-effects.test.cjs": "93a059867f2a7720c487b7189010ff37440a940db0d1328588430b7b5b8b7899",
     "verification/vm-environment.cjs": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
     "tools/effect-feedback-retention.test.cjs": "507495cde749067805eb97785185d7f352ba5d130b945db4bc453fa3e86468ce"
