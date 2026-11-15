@@ -4,9 +4,21 @@ const {sha,contract,changes,inverse,restore,restoreProductFiles}=require('./sour
 const source=fs.readFileSync(path.join(__dirname,'../../index.html'),'utf8'),baseline=restore(source),results=[];
 function test(name,f){f();results.push({name,passed:true})}
 test('exact current index restores exact archived v318',()=>assert.equal(sha(baseline),contract.baselineSha256));
-for(const [i,c]of changes.entries())test('missing or duplicated reviewed boundary rejects '+i,()=>{
- assert.throws(()=>inverse(source.replace(c.after,'BROKEN_BOUNDARY_'+i)));assert.throws(()=>inverse(source+c.after));
-});
+let boundarySource=source;
+for(const [i,c]of [...changes.entries()].reverse()){
+ const current=boundarySource;
+ test('missing or duplicated reviewed boundary rejects '+i,()=>{
+  const stagedInverse=raw=>{
+   for(const entry of changes.slice(0,i+1).reverse()){
+    assert.equal(raw.split(entry.after).length-1,1,'unique staged boundary');raw=raw.replace(entry.after,entry.before);
+   }
+   return raw;
+  };
+  assert.equal(sha(stagedInverse(current)),contract.baselineSha256);
+  assert.throws(()=>stagedInverse(current.replace(c.after,'BROKEN_BOUNDARY_'+i)));assert.throws(()=>stagedInverse(current+c.after));
+ });
+ boundarySource=boundarySource.replace(c.after,c.before);
+}
 for(const [before,after]of [['function repeatProductionParallel(){return state.repeatParallel===true}','function repeatProductionParallel(){return true}'],['<h2>部队编队</h2>','<h2>WRONG</h2>']])test('unknown gameplay or markup change cannot disappear '+before,()=>{
  assert.equal(source.split(before).length-1,1);assert.equal(baseline.split(before).length-1,1);
  const changed=source.replace(before,after);assert.equal(inverse(changed),baseline.replace(before,after));assert.throws(()=>restore(changed));

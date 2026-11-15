@@ -1,0 +1,60 @@
+{
+  "browser": "157.0.8103.51",
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "deviceScaleFactor": 1,
+  "theme": "dark",
+  "scenario": "classic; deterministic destruction of one HQ and two tanks, simulation frozen for matched effect ages",
+  "measurements": [
+    {
+      "label": "before",
+      "performance": [
+        {
+          "effects": 60,
+          "renderCpuMedianMs": 1.7999999821186066,
+          "renderCpuP95Ms": 4.9000000059604645,
+          "samples": 120
+        },
+        {
+          "effects": 128,
+          "renderCpuMedianMs": 1.7000000178813934,
+          "renderCpuP95Ms": 3.4000000059604645,
+          "samples": 120
+        },
+        {
+          "effects": 256,
+          "renderCpuMedianMs": 2.5,
+          "renderCpuP95Ms": 4.199999988079071,
+          "samples": 120
+        }
+      ],
+      "errors": []
+    },
+    {
+      "label": "after",
+      "performance": [
+        {
+          "effects": 60,
+          "renderCpuMedianMs": 2.199999988079071,
+          "renderCpuP95Ms": 4.9000000059604645,
+          "samples": 120
+        },
+        {
+          "effects": 128,
+          "renderCpuMedianMs": 2.199999988079071,
+          "renderCpuP95Ms": 4.5999999940395355,
+          "samples": 120
+        },
+        {
+          "effects": 256,
+          "renderCpuMedianMs": 2.5,
+          "renderCpuP95Ms": 6.9000000059604645,
+          "samples": 120
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

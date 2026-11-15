@@ -55,7 +55,11 @@ test('actual save/load excludes transient effects and preserves durable state',(
 
 const BASE_SHA='75511392c7383c5e5e234b3ea45e8795859e6a799198cb8acbe030d2cb651c36';
 function referenceHtml(){
- const html=fs.readFileSync(source,'utf8'),start=html.indexOf('function decorativeEffect('),end=html.indexOf('function spawnImpactSparks(',start);
+ let html=fs.readFileSync(source,'utf8');
+ const animation=require('../verification/current-release/changes.json')[4];
+ assert.equal(html.split(animation.after).length-1,1,'exact approved animation boundary');
+ html=html.replace(animation.after,animation.before);
+ const start=html.indexOf('function decorativeEffect('),end=html.indexOf('function spawnImpactSparks(',start);
  assert.ok(start>0&&end>start);
  const old="function pushEffect(effect){if(effect.type==='order')state.fx=state.fx.filter(e=>e.type!=='order');state.fx.push(effect);if(state.fx.length>MAX_EFFECTS)state.fx.splice(0,state.fx.length-MAX_EFFECTS)}\n// Cosmetic-only battlefield effects: fixed-angle sparks never consume the gameplay RNG.\n// The existing MAX_EFFECTS bound and fx lifetime update also bound all new particles.\n";
  const restored=html.slice(0,start)+old+html.slice(end);
