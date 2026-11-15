@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "baselineCommit": "3ad7bfe5e260bda7cfcd75e3923c6420b618295c",
-  "currentSha256": "40a87bb71d524b5cf7756a39c4806a14655656e69a4bbd4774584a7dbf7494af",
+  "currentSha256": "05df30c381e1e8edb9d1571b522b1598f55d65ef2bc656d97d5679dc5b745521",
   "baselineSha256": "7eda2c8962fe223b1397f90afdaf8beb47049342c1aa3979ee5ccbef8cee5234",
-  "changesSha256": "d475c4e1b58e84694b13bdb598da5f5c24c8d48f6826db5e0a31565388938648",
-  "boundaries": 4,
-  "scope": "Four reviewed exact boundaries: responsive CSS append, cosmetic helpers plus feedback-preserving bounded queue, adjacent destruction and hit calls, renderer replacement. Reverse only for exact historical identity; never current runtime.",
+  "changesSha256": "7998a186f8d991d8913884d8f4a7c5942073c3c29d260a02918e0f6f22b6da76",
+  "boundaries": 5,
+  "scope": "Four reviewed exact boundaries: responsive CSS append, cosmetic helpers plus feedback-preserving bounded queue, adjacent destruction and hit calls, renderer replacement. Reverse only for exact historical identity; never current runtime. Fifth boundary: bounded-detail cosmetic renderer animation only.",
   "historicalProductFiles": {
     "src/styles.css": {
       "currentSha256": "b8bdcb5409c564e220a694489aa3683f867bcc9c68c2b391020aa08340ae3ebf",
@@ -23,9 +23,10 @@
       ]
     },
     "src/script/03-renderer.jsfrag": {
-      "currentSha256": "6d91d0844919f51f5c33717112eb4761d654626fc1cbea344242eb5a0df19320",
+      "currentSha256": "9aeac87a3a69ae7866fb8418bd79bde76ebbc541ce91f9bbb086b22b432b4b70",
       "baselineSha256": "5db971e9421385474dfbfc6a638ab747f7377673c58fc49dbcc1d39d08f5ba6f",
       "inverseIndexes": [
+        4,
         3
       ]
     }

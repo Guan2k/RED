@@ -41,8 +41,8 @@
     "verification/stable-suites/escape-key-repeat-negative.cjs": "1a6b5168db5c99859a4ed9c79d726f9e8b4f114ec24e252d2481f97b1202a5db",
     "verification/stable-suites/migration-contract.json": "d72ddb9b41ee08093612e9877fb1adb8c693e92a4e8555991fdb0860a8f9f684",
     "verification/run-tests-v318.cjs": "0ca884ea708318eaa8820782936c090451f6264d514a9a75d44c9239b7031678",
-    "verification/current-release/README.md": "875272e115777a8bdf8e159ff57c4779c9cecd6b5a7db5d5dc7d6a3e2fb46487",
-    "verification/current-release/changes.json": "d475c4e1b58e84694b13bdb598da5f5c24c8d48f6826db5e0a31565388938648",
+    "verification/current-release/README.md": "cf8e82db2efea068bf06ee53c3c8c14d78aa9d2e68304c2db24b111349d8db2b",
+    "verification/current-release/changes.json": "7998a186f8d991d8913884d8f4a7c5942073c3c29d260a02918e0f6f22b6da76",
     "verification/current-release/gate.test.cjs": "c2bbb34edde447af40a8a77d45a173aa9bc8ccf8a7e583badb75f300d2379999",
     "verification/current-release/historical/CURRENT_VERIFICATION_ENTRY.md": "bef3b5d4a7caeddfa744ede17a8787a269036bd4bb343f22361f6e7d4c9d2f89",
     "verification/current-release/historical/QA_STATUS.md": "388e5de04036e8e907d64524c750b062c8201ba8eafd860f3c7aa2884d39a59c",
@@ -52,19 +52,19 @@
     "verification/current-release/historical/source-build-receipt.json": "2abf5a69b2059289aa4e0006a925bd891325d8a1f5a2ea5033f2be359b06c33a",
     "verification/current-release/paths.test.cjs": "2711125a50dc0e64a77e3a3ce5cc39aa0eecaf37b46ee83b5a93ecc61fb8a882",
     "verification/current-release/run.cjs": "c55f115fe05278a1c3692001d087f2cb3ed5e753b08683fc7c9f70ebb7da04f2",
-    "verification/current-release/source-contract.json": "a8aa2ca42dc0c7c3b1b8e0ebb3fdea0acc924650499af217a1ff2dcd3e85d1d2",
+    "verification/current-release/source-contract.json": "4c95eaf5dbc45e6f42c1c83227ed2fb5be242cdd49d97859303e06bcfd68d07b",
     "verification/current-release/source.cjs": "2060bc1b9381eb94d3a7b258f588d810d50dc46673db72ecf934c3fd38dc013a",
-    "verification/current-release/source.test.cjs": "447b8467df233df289242deb9f512eedcbf03ec7d1b99ee08c3f56424a9c1f57",
+    "verification/current-release/source.test.cjs": "7da271f023e0f7e74039a3d5478136e18f4b0ee8e358a41ec596ce36fda2a31e",
     "verification/current-effects/README.md": "146bdfbc700fb70ce27b579b58687e9afb87ae82aa4a2f84d32cd5fdde1dc2d0",
     "verification/current-effects/negative-controls.cjs": "1c7c8eb834877f5a2248b95156318692d1d0032034873c2c7adfad5c401ff9dd",
     "verification/current-effects/suite.cjs": "e30fc706eb80958d929e3212c437fc81ee1242e86b1a661530a357ad392aeb9b",
-    "tools/explosion-effects.test.cjs": "132b9882ea93d088d2be39861318e7004c4a6bdd3d70d24a468ae597920866d8",
+    "tools/explosion-effects.test.cjs": "93a059867f2a7720c487b7189010ff37440a940db0d1328588430b7b5b8b7899",
     "verification/vm-environment.cjs": "bb0f02fac9004ed677a8d3918705d5885c2c4217d2673416877722e25ae6446f",
-    "tools/effect-feedback-retention.test.cjs": "4029ffeca3629723bf1bfff7671b32ab6a6a0cb238ac90271c9396f6fb6eba3f"
+    "tools/effect-feedback-retention.test.cjs": "507495cde749067805eb97785185d7f352ba5d130b945db4bc453fa3e86468ce"
   },
   "currentValidation": {
     "entry": "verification/current-release/run.cjs",
-    "sourceSha256": "40a87bb71d524b5cf7756a39c4806a14655656e69a4bbd4774584a7dbf7494af",
+    "sourceSha256": "05df30c381e1e8edb9d1571b522b1598f55d65ef2bc656d97d5679dc5b745521",
     "scope": "Current targeted whole-index runtime plus separately labeled frozen v318 historical game aggregation. Not full latest-source migration."
   }
 }

@@ -118,3 +118,23 @@ test('marks are below units, particle drawing uses saved canvas state',()=>{
   assert.equal(canvas.globalAlpha,.81);
   assert.equal(canvas.globalCompositeOperation,'source-over');
 });
+
+// Count Canvas primitives, not mocked wall-clock FPS. Rendering never mutates fx.
+test('busy effects reduce decorative primitives, retain feedback and recover detail',()=>{
+  const code=renderer.slice(renderer.indexOf('function drawBattleScars(){'),renderer.indexOf('function render(){'));
+  let draws=0,depth=0;
+  const canvas={save(){depth++},restore(){depth--},beginPath(){},closePath(){},moveTo(){},lineTo(){},ellipse(){},arc(){},fill(){draws++},stroke(){draws++},fillRect(){draws++}};
+  const c={ctx:canvas,state:{fx:[]},circle(){draws++},rect(){draws++},text(){draws++}};
+  vm.createContext(c);vm.runInContext(code,c);
+  const sample=[{type:'boom',radius:40},{type:'smoke',radius:20,dx:5,dy:-20,seed:1},{type:'spark',dx:20,dy:10,gravity:5,size:2},{type:'scorch',radius:30,seed:2}].map(f=>({...f,x:100,y:120,t:.4,max:1}));
+  function draw(count){c.state.fx=Array.from({length:count},(_,i)=>({...sample[i%4]}));const before=JSON.stringify(c.state);draws=0;c.drawBattleScars();for(const f of c.state.fx)c.drawBattleEffect(f);assert.equal(depth,0);assert.equal(JSON.stringify(c.state),before);return draws/count;}
+  const full=draw(124),busy=draw(128),saturated=draw(256);
+  assert.ok(busy<full*.6,`busy ${busy} vs detailed ${full}`);
+  assert.equal(saturated,busy,'saturation remains linearly bounded with fixed primitive cost');
+  assert.equal(draw(124),full,'detail recovers automatically as effects expire');
+  for(const type of ['order','repair','cash','hit','flash','blast']){
+    const f={type,x:20,y:20,x2:40,y2:40,amount:30,radius:40,t:.2,max:.5};
+    c.state.fx=[];draws=0;c.drawBattleEffect(f);const normal=draws;
+    c.state.fx=Array(256).fill({type:'smoke'});draws=0;c.drawBattleEffect(f);assert.equal(draws,normal,type+' feedback detail is unchanged');
+  }
+});
